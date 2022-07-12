@@ -1,0 +1,38 @@
+# (PART) Statistical Reporting {-}
+
+Week: 12
+Dates: 
+Suggested Readings: Textbook
+Assessments: Practice quiz
+Practical: R starts creeping in now?
+
+# Reporting statistics
+
+General explanation
+
+# More introduction to R
+
+How these differ
+
+# More getting started with R
+
+Just more to do.
+
+
+# _Practical_. Using R
+
+
+## R Exercise 1
+
+## R Exercise 2
+
+## R Exercise 3
+
+
+
+
+
+
+
+
+

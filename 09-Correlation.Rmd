@@ -1,0 +1,52 @@
+# (PART) Counts and Correlation {-}
+
+General overview of what will be the focus of this week.
+
+Week: 9
+Dates: 
+Suggested Readings: Textbook
+Assessments: Practice quiz
+Practical:
+
+# Frequency and count data
+
+General explanation
+
+# Chi-squared goodness of fit
+
+Explain what this is.
+
+# Chi-squared test of association
+
+More explanation
+
+# Correlation key concepts
+
+# Correlation mathematics
+
+# Correlation hypothesis testing
+
+
+
+
+# _Practical_. Analysis of count data, correlation, and regression
+
+
+## Chi-Square Exercise 1
+
+## Chi-Square association Exercise 2
+
+## Correlation Exercise 3
+
+## Correlation Exercise 4
+
+
+
+
+
+
+
+
+
+
+

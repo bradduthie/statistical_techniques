@@ -1,0 +1,41 @@
+# (PART) Statistical inference {-}
+
+General overview of what will be the focus of this week.
+
+Week: 5
+Dates: 
+Suggested Readings: Textbook intro to probability
+Assessments: Practice quiz
+Practical:
+
+# Sample statistics and population parameters
+
+An explanation of this
+
+# Standard Normal Distribution
+
+What this means, and why it is important.
+
+# Confidence intervals
+
+How these are calculated, and how to interpret them
+
+# The t-interval
+
+
+What this is and how it relates to the normal distribution, and why it is important.
+
+# _Practical_. z- and t- intervals
+
+
+## Example constructing confidence intervals
+
+
+## Confidence interval for different levels (t- and z-)
+
+
+## Proportion confidence intervals
+
+
+## Another confidence interval example?
+

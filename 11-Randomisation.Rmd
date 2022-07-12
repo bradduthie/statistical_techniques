@@ -1,0 +1,42 @@
+# (PART) Randomisation approaches {-}
+
+The aim of this lecture is to introduce the randomisation approach to statistical hypothesis testing. We will first introduce the general idea of what randomisation is and how it relates to the hypothesis testing that we have been doing since week five. We will then consider an instructive example in which a randomisation approach is used in place of a traditional t-test to test whether or not the mean values of two different groups are identical. We will then compare the assumptions underlying randomisation and how they differ slightly from the assumptions of traditional hypothesis testing. We will then look at how randomisation can be used to build confidence intervals and test hypotheses that would difficult to test with other approaches. In learning about randomisation approaches, we will also review some key concepts from earlier in the module. The aim is not to understand all of the nuances of randomisation, but to understand, conceptually, what is going on in the methods described below.
+
+Week: 11
+Dates: 
+Suggested Readings: Textbook
+Assessments: Practice quiz
+Practical: R starts creeping in now?
+
+# Introduction to randomisation
+
+General explanation
+
+# Assumptions of randomisation
+
+How these differ
+
+# Bootstrapping
+
+What this is and why we use it.
+
+# Monte Carlo
+
+
+# _Practical_. Using R
+
+
+## R Exercise 1
+
+## R Exercise 2
+
+## R Exercise 3
+
+
+
+
+
+
+
+
+

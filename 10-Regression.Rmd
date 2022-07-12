@@ -1,0 +1,40 @@
+# (PART) Linear Regression {-}
+
+General overview of what will be the focus of this week.
+
+Week: 10
+Dates: 
+Suggested Readings: Textbook
+Assessments: Practice quiz
+Practical:
+
+# Regression key concepts
+
+# Regression validity
+
+# Introduction to multiple regression
+
+General explanation
+
+# Model selection (maybe remove this?)
+
+Seriously consider moving the regression into this week. and ease the amount of material in previous weeks.
+
+
+# _Practical_. Using regression
+
+
+## Regression Exercise 1
+
+## Regression Exercise 2
+
+## Regression Exercise 3
+
+## Regression Exercise 4
+
+
+
+
+
+
+

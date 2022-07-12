@@ -1,0 +1,54 @@
+# (PART) Background mathematics and data organisation  {-}
+
+In week 1, we will focus on a refresher of some necessary background mathematics for this module. We will then turn to the topic of how to organise data sets. We will then practice organising datasets and saving them in a usable format.
+
+Week: 1
+Dates: 
+Suggested Readings: Textbook intro, Hadley's paper
+Assessments: Practice quiz
+Practical: Quick summary of topics covered 
+
+
+# Background mathematics {#background_mathematics}
+
+Some of this will be review, but it is important. Suggested reading for this (some mathematics text).
+
+## Numbers and operations
+
+A very broad reminder of mathematics, which you will need for this module
+
+## Order of operations
+
+This is easy to forget
+
+# Data organisation {#data_organisation}
+
+It is important to organise data properly so that statistical analysis can be done. Here I explain the tidy approach to data. Suggested reading Hadley Wickam's paper.
+
+## Tidy data
+
+## Data files
+
+# _Practical_: Preparing real datasets
+
+In this practical, we will use a spreadsheet to organise datastes.
+
+## LibreOffice Calc
+
+LibreOffice Calc is a free and open source spreadsheet program. The instructions for this section will be identical to the more popular commercial Microsoft Excel.
+
+## Exercise Organising data 1
+
+Walks through Exercise 1.3.2
+
+## Exercise Organising data 2
+
+Walks through Exercise 1.3.3
+
+## Exercise Organising data 3
+
+Walks through Exercise 1.3.4, saving all of these as CSV files
+
+## Summary of exercises and why they are useful.
+
+

@@ -1,0 +1,78 @@
+# (PART) Probability models and the Central Limit Theorem {-}
+
+General overview of what will be the focus of this week.
+
+Week: 4
+Dates: 
+Suggested Readings: Textbook intro to probability
+Assessments: Practice quiz
+Practical:
+
+# Introduction to probability models
+
+Some background
+
+## A practical example
+
+How to think about probability
+
+
+## Probability distributions
+
+Some more useful examples
+
+### Binomial distribution
+
+Explanation, fairly straightforward
+
+### Poisson distribution
+
+Another example
+
+### Normal distribution
+
+Why this is so important
+
+
+# The Central Limit Theorem (CLT)
+
+General overview
+
+## Examples of the CLT in action
+
+## The standard normal distribution
+
+## What are z-scores?
+
+
+# _Practical_. Probability and simulation
+
+Some of these examples will be similar to what will be on the assessment
+
+## Calculating probability exercise 1
+
+Example exercise 1 with some simple probability calculations
+
+## Calculating probability exercise 2
+
+Example exercise 2 with some simple probability calculations
+
+## Calculating probability from normal distribution
+
+Example exercise for getting a the probability of some value sampled above, below, or between some threshold in Jamovi.
+
+## Normal distribution and sample size
+
+Showing how we get closer to the normal distribution as sample size increases in Jamovi.
+
+## Simulating the central limit theorem
+
+Doing the example from a uniform distribution in Jamovi.
+
+
+
+
+
+
+
+

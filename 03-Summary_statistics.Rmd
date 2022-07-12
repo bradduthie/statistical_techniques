@@ -1,0 +1,62 @@
+# (PART) Summary statistics {-}
+
+Overview of what this week will include.
+
+Week: 3
+Dates: 
+Suggested Readings: Textbook intro to Jamovi
+Assessments: Practice quiz
+
+# Decimal places and significant figures
+
+It is important to know how to write a number you have calculated to the appropriate number of digits, typically either defined as a number of decimal places or as a number of 'significant figures'. This is especially important in any module (for example, this one) where you are required to put numeric answers into a test or exam, as the computer will only recognise the answer as being correct if it is expressed in the way stated in the question. If you are unfamiliar with how to work out the right number of decimal places or significant figures, then these guides should be useful, although there are many other web-sources that would explain the concepts too.
+
+#  The mean
+
+Explanation of the mean
+
+# The mode
+
+Explanation of the mode
+
+# The median and quantiles
+
+Notes on the median and quantiles
+
+# Mean, mode, median, and resistance
+
+Resistance in statistics
+
+# Plots
+
+Graphics are critical for visualising data, which is always important
+
+## General principles
+
+Some points about plots
+
+## Histograms
+
+Histograms are special, and introduce the concept of a distribution.
+
+## Box-whisker plots
+
+
+# _Practical_. Real data with Jamovi
+
+Using some real datasets in Jamovi
+
+## Some biological example
+
+Remember to first put it in a tidy format. Get summary statistics here too.
+
+## Some environmental example
+
+Transform and compute a new variable, plotting in Jamovi.
+
+## Summary of exercises and why they are useful.
+
+Useful for scientific publications, reading, and dissertation work.
+
+
+

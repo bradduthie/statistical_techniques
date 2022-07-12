@@ -1,0 +1,47 @@
+# (PART) Analysis of Variance (ANOVA) {-}
+
+General overview of what will be the focus of this week.
+
+Week: 8
+Dates: 
+Suggested Readings: Textbook
+Assessments: Practice quiz
+Practical:
+
+# What is ANOVA?
+
+General explanation
+
+# One-way ANOVA
+
+Explain what this is.
+
+# Two-way ANOVA
+
+More explanation
+
+# Kruskall-Wallis H test
+
+Non-parametric explanation
+
+# _Practical_. ANOVA and associated tests
+
+
+## ANOVA Exercise 1
+
+## ANOVA Exercise 2
+
+## ANOVA Exercise 3
+
+## ANOVA Exercise 4
+
+
+
+
+
+
+
+
+
+
+

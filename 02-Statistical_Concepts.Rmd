@@ -1,0 +1,44 @@
+# (PART) Statistical concepts {-}
+
+Overview of what this week will include.
+
+Week: 2
+Dates: 
+Suggested Readings: Textbook intro to Jamovi
+Assessments: Practice quiz
+
+# Recap of some statistical concepts
+
+Some introduction
+
+# Why study statistics?
+
+General discussion
+
+# Populations and samples
+
+Explanation of the mode
+
+# Types of variables
+
+Categorical, ordinal, continuous, etc.
+
+# Units, precision, and accuracy
+
+Resistance in statistics
+
+# Uncertainty propogation
+
+Some simple equations
+
+# _Practical_. Introduction to Jamovi
+
+Some introductory text to Jamovi. Particular attention, and maybe an example, on different data types and how to find them in Jamovi.
+
+## Exercise for summary statistics
+
+## Exercise to compute variable
+
+
+## Exercise on transforming variables
+
