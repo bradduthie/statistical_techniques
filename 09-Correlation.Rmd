@@ -1,5 +1,7 @@
 # (PART) Counts and Correlation {-}
 
+# Week 9 Overview {-}
+
 General overview of what will be the focus of this week.
 
 Week: 9

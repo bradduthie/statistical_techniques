@@ -1,5 +1,7 @@
 # (PART) Summary statistics {-}
 
+# Week 3 Overview {-}
+
 Overview of what this week will include.
 
 Week: 3

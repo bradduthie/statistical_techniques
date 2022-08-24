@@ -1,6 +1,6 @@
 # (PART) Linear Regression {-}
 
-General overview of what will be the focus of this week.
+# Week 10 Overview {-}
 
 Week: 10
 Dates: 

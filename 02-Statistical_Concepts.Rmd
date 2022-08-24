@@ -1,37 +1,100 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
 # (PART) Statistical concepts {-}
 
-Overview of what this week will include.
+# Week 2 Overview {-}
 
-Week: 2
-Dates: 
-Suggested Readings: Textbook intro to Jamovi
-Assessments: Practice quiz
+|                 |                                   |
+|-----------------|-----------------------------------|
+| **Dates**       | 30 January 2022 - 3 February 2022 |
+| **Reading**     | Required: SCIU4T4 Workbook chapters 4-8  |
+|                 | Recommended: Navarrow \& Foxcroft (2022) [Section 2.2](https://davidfoxcroft.github.io/lsj-book/a-brief-introduction-to-research-design.html#scales-of-measurement) |
+| **Lectures**    | 2.0: Introduction to Week 1 (2 min.) |
+|                 | 2.1: Why study statistics? (18 min.) |
+|                 | 2.2: Populations and samples (7 min.) |
+|                 | 2.3: Types of variables (11 min.) |
+|                 | 2.4: Units, precision, and accuracy (9 min.) |
+|                 | 2.5. Uncertainty propagation (11 min.) |
+| **Practical**   | Introduction to Jamovi          |
+| **Assessments** | Week 2 Practice quiz on Canvas  |
 
-# Recap of some statistical concepts
+In [Chapter 4](#Chapter_4), we focus on key concepts that will be used throughout this module.
+In particular, it is important to understand the difference between a **population** and a **sample**, and to recognise that there are many types of variables in statistics.
 
-Some introduction
+In [Chapter 5](#Chapter_5), we look at different variable types. Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester.
+Identifying variable types will therefore be important, both for module assessments and when working with new datasets.
+A variable's type will rarely be stated explicitly when doing scientific research, and will not always be provided in assessments for this module.
+Being able to infer variable type is therefore an importat skill.
 
-# Why study statistics?
+[Chapter 6](#Chapter_6) focus on units of measurement, and how these units are communicated in text.
+Units are essential in scientific measurement, and we will use them throughout the module to indicate the type and scale of data measurement.
+We are not expecting you to memorise all scientific units, so a [table on units](#appendixA_units) is provided at the end of this workbook.
 
-General discussion
+[Chapter 7](#Chapter_7) will introduce the propogation of measurement errors.
+This is important to understand because no measurement is perfectly accurate, and predicting how errors in measurement combine is fundamental to understanding measurement accuracy.
 
-# Populations and samples
+Finally, [Chapter 8](#Chapter_8) guides you through the Week 2 practical, which is an introduction to Jamovi.
+This aim of this practical is to become familiar with the Jamovi interface and comfortable importing data into Jamovi to collect some descriptive statistics.
 
-Explanation of the mode
+# Populations and samples {#Chapter_4}
 
-# Types of variables
+When we collect data, we are recording some kind of observation or measurement.
+If we are working in a forest, for example, we might want to measure the heights of different trees, or measure the concentration of carbon in the soil.
+The idea might be to use these measurements to make some kind of inference about the forest.
+But as scientists, we are almost always limited in the amount of data that we can collect.
+We cannot measure everything, so we need to collect a *sample* of data and use it to make inferences about the *population* of interest.
+For example, while we probably cannot measure the height of every tree in a forest, nor can we measure the concentration of carbon at every possible location in the forest's soil, we can collect a smaller number of measurements and still make useful conclusions about overall forest trees and carbon concentration.
+
+Statistics thereby allows us to approximate properties of entire populations from a limited number of samples.
+This needs to be done with caution, but before getting into the details of how, it is important to understand the difference between a **population** and a **sample** to avoid confusing these two concepts. 
+A **population** is the entire set of possible observations that could be collected.
+Some examples will make it easier to understand:
+
+* All of the genes in the human genome
+* All individuals of voting age in Scotland
+* All common pipistrelle bats in the United Kingdom
+
+These populations might be important for a particular research question.
+For example, we might want to know something about the feeding behaviours of pipistrelle bats in the UK.
+But there is no way that we can find and observe the behaviour of every bat, so we need to take a subset of the population (a sample) instead.
+Examples of samples include the following:
+
+* A selection of 20 human genes
+* A pub full of Scottish voters
+* 40 caught common pipistrelle bats
+
+It is important to recognise that the word "population" means something slightly different in statistics than it does in biology.
+A biological population, for example, could be defined as all of the individuals of the same species in the same general location.
+A statistical population, in contrast, refers to a set of observations (i.e., things that we can measure). 
+@Sokal1995 provide a more technical definition for "population",
+
+> In statistics, population always means the *totality of individual observations about which inferences are to be made, existing anywhere in the world or at least within a definitely specified sampling area limited in space and time* [p. 9, emphasis theirs].
+
+They define a sample to be "a collection of individual observations selected by a specified procedure" [@Sokal1995].
+For our purposes, it is not necessary to be able to recite the technical definitions, but it is important to understand the relationship between a population and a sample.
+When we collect data, we are almost always taking a small sample of observations from a much larger number of possible observations in a population.
+
+```{r, echo = FALSE, fig.alt = "A conceptual figure illustrating how a statistical population relates to a statistical sample. The population is represented by 35 smiling faces enclosed within a dashed box. The sample is represented by a solid box within the dashed box, within which there are 3 smiling faces. Hence, we have a sample of 3 measurements from the total population.", fig.cap = "A conceptual figure illustrating how a statistical population relates to a statistical sample. The population is represented by 35 smiling faces enclosed within a dashed box. The sample is represented by a solid box within the dashed box, within which there are 3 smiling faces. Hence, we have a sample of 3 measurements from the total population.", out.width="100%"}
+knitr::include_graphics("img/population_vs_sample.png")
+```
+
+# Types of variables {#Chapter_5}
 
 Categorical, ordinal, continuous, etc.
 
-# Units, precision, and accuracy
+# Units, precision, and accuracy {#Chapter_6}
 
 Resistance in statistics
 
-# Uncertainty propogation
+# Uncertainty propogation {#Chapter_7}
 
 Some simple equations
 
-# _Practical_. Introduction to Jamovi
+# _Practical_. Introduction to Jamovi {#Chapter_8}
 
 Some introductory text to Jamovi. Particular attention, and maybe an example, on different data types and how to find them in Jamovi.
 

@@ -1,5 +1,7 @@
 # (PART) Analysis of Variance (ANOVA) {-}
 
+# Week 8 Overview {-}
+
 General overview of what will be the focus of this week.
 
 Week: 8

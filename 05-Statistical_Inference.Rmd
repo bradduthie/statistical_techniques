@@ -1,5 +1,7 @@
 # (PART) Statistical inference {-}
 
+# Week 5 Overview {-}
+
 General overview of what will be the focus of this week.
 
 Week: 5

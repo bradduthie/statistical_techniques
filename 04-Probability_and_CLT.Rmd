@@ -1,5 +1,7 @@
 # (PART) Probability models and the Central Limit Theorem {-}
 
+# Week 4 Overview {-}
+
 General overview of what will be the focus of this week.
 
 Week: 4

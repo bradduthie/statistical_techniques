@@ -3,11 +3,19 @@ title: "Statistical Techniques for Biological and Environmental Sciences"
 author: "Brad Duthie"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
-documentclass: book
+documentclass: scrbook
+output: 
+  bookdown::gitbook:
+    highlight: monochrome
+  bookdown::pdf_book:
+    template: null
+  bookdown::html_book:
+    theme: darkly
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
+linkcolor: blue
+graphics: yes
 github-repo: bradduthie/statistical_techniques
 description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
 ---

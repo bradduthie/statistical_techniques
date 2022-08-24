@@ -1,5 +1,7 @@
 # (PART) Hypothesis testing {-}
 
+# Week 7 Overview {-}
+
 General overview of what will be the focus of this week.
 
 Week: 7
