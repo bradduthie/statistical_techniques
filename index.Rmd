@@ -60,7 +60,7 @@ Information about the mock exam
 
 Information about the exam
 
-## Jamovi statistical software
+## Jamovi statistical software {#intro_jamovi}
 
 Introduction to [Jamovi](https://www.jamovi.org/), and why we are using it instead of other software.
 

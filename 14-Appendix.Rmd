@@ -1,0 +1,141 @@
+# (APPENDIX) Appendix {-}
+
+# Statistical units {#appendixA_units}
+
+
+# Uncertainty derivation {#uncertainty_derivation}
+
+It is not necessary to be able to derive the equations for propagating error from week 2, but working through the below might be interesting, and provide a better appreciation for why these formulas make sense. 
+Another derivation is available in @Box1978 (page 563), but this derivation is expressed in terms of variances and covariances, which is likely to be less helpful for this module.
+
+**Propagation of error for addition and subtraction**.
+
+For adding and subtracting error, we know that we get our variable $Z$ by adding $X$ and $Y$. This is just how $Z$ is defined. We also know that $Z$ is going to have some error $E_Z$, and we know that $Z$ plus or minus its error will equal $X$ plus or minus its error plus $Y$ plus or minus its error,
+
+$$(Z \pm E_Z) = (X  \pm E_X) + (Y \pm E_Y).$$
+
+Again, this is just our starting definition, but double-check to make sure it makes sense. We can now note that we know,
+
+$$Z =X+Y.$$
+
+If it is not intuitive as to why, just imagine that there is no error associated with the measurement of $X$ an $Y$ (i.e., $E_{X} = 0$ and $E_{Y} = 0$). 
+In this case, there cannot be any error in $Z$. So, if we substitute $X + Y$ for $Z$, we have the below,
+
+
+$$((X + Y) \pm E_Z) = (X  \pm E_X) + (Y \pm E_Y).$$
+
+By the [associative property](https://en.wikipedia.org/wiki/Associative_property), we can get rid of the parenthesis for addition and subtraction, giving us the below,
+
+$$X + Y \pm E_Z = X  \pm E_X + Y \pm E_Y.$$
+
+Now we can subtract $X$ and $Y$ from both sides and see that we just have the errors of $X$, $Y$, and $Z$,
+
+$$\pm E_Z = \pm E_X \pm E_Y.$$
+
+The plus/minus is a bother. Note, however, that for any real number $m$, $m^{2} = (-m)^2$. For example, if $m = 4$, then $(4)2 = 16$ and $(-4)2 = 16$, so we can square both sides to get positive numbers and make things easier,
+
+$$E_Z^2 = (\pm E_X \pm E_Y)^2.$$
+We can expand the above,
+
+$$E_Z^2 = E_X^2 + E_Y^2 \pm2E_X E_Y.$$
+
+Now here is an assumption that we have not told you about elsewhere in the module. 
+With the formulas that we have given you, we are assuming that the errors of $X$ and $Y$ are independent. 
+To put it in more statistical terms, the covariance between the errors of $X$ and $Y$ is assumed to be zero. 
+Without going into the details (covariance will be introduced later in the module), if we assume that the covariance between these errors is zero, then we can also assume the last term of the above is zero, so we can get rid of it (i.e., $2E_{X}E_{Y} = 0$),
+
+$$E_Z^2 = E_X^2 + E_Y^2.$$
+
+If we take the square root of both sides, then we have the equation from [Chapter 7](#Chapter_7),
+
+$$E_Z = \sqrt{E_X^2 + E_Y^2}.$$
+
+**Propagation of error for multiplication and division**.
+
+Now that we have seen the logic for propagating errors in addition and subtraction, we can do the same for multiplication and division. 
+We can start with the same point that we are getting our new variable $Z$ by multiplying $X$ and $Y$ together, $Z = XY$. So, if both $X$ and $Y$ have errors, the errors will be multiplicative as below,
+
+$$Z \pm E_Z = (X \pm E_X)(Y \pm E_Y).$$
+
+Again, all we are doing here is substituting $Z$, $X$, and $Y$, for an expression in parentheses that includes the variable plus or minus its associated error. 
+Now we can expand the right hand side of the equation,
+
+$$Z \pm E_Z = XY + Y E_X + X E_Y + E_X E_Y.$$
+
+As with our propagation of error in addition, here we are also going to assume that the sources of error for $X$ and $Y$ are independent (i.e., their covariance is zero). 
+This allows us to set $E_{X}E_{Y} = 0$, which leaves us with the below,
+
+$$Z \pm E_Z = XY + Y E_X + X E_Y.$$
+
+Now, because $Z = XY$, we can substitute on the left hand side of the equation,
+
+$$XY \pm E_Z = XY + Y E_X + X E_Y.$$
+
+Now we can subtract the $XY$ from both sides of the equation,
+
+$$\pm E_Z = Y E_X + X E_Y.$$
+
+Next, let us divide both sides by $XY$,
+
+$$\frac{\pm E_Z}{XY} = \frac{Y E_X + X E_Y}{XY}.$$
+
+We can expand the right hand side,
+
+$$\frac{\pm E_Z}{XY} = \frac{Y E_X}{XY} +\frac{X E_Y}{XY}.$$
+
+This allows us to cancel out the $Y$ variables in the first term of the right hand side, and the $X$ variables in second term of the right hand side,
+
+$$\frac{\pm E_Z}{XY} = \frac{E_X}{X} +\frac{E_Y}{Y}.$$
+
+Again, we have the plus/minus on the left, so let us square both sides,
+
+$$\left(\frac{\pm E_Z}{XY}\right)^2 = \left(\frac{E_X}{X} +\frac{E_Y}{Y}\right)^2.$$
+
+We can expand the right hand side,
+
+$$\left(\frac{\pm E_Z}{XY}\right)^2 = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2 + 2\left(\frac{E_X}{X}\right)\left(\frac{E_Y}{Y}\right).$$
+
+Again, because we are assuming that the errors of $X$ and $Y$ are independent, we can set the third term on the right hand side of the equation to zero. 
+This leaves,
+
+$$\left(\frac{\pm E_Z}{XY}\right)^2 = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2.$$
+
+
+Note that $XY = Z$, so we can substitute in the left hand side,
+
+$$\left(\frac{\pm E_Z}{Z}\right)^2 = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2.$$
+
+Now we can apply the square on the left hand side to the top and bottom, which gets rid of the plus/minus,
+
+$$\frac{E_Z^2}{Z^2} = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2.$$
+
+We can now multiply both sides of the equation by $Z^2$,
+
+$$E_Z^2 = Z^2 \left(\left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2 \right).$$
+
+We can now take the square root of both sides,
+
+$$E_Z = \sqrt{ Z^2 \left( \left( \frac{E_X}{X}\right)^2 + \left(\frac{E_Y}{Y}\right)^2 \right) }.$$
+
+We can pull the $Z^2$ out of the square root,
+
+$$E_Z = Z \sqrt{\left( \frac{E_X}{X}\right)^2 + \left(\frac{E_Y}{Y}\right)^2}.$$
+
+That leaves us with the equation that was given in [Chapter 7](#Chapter_7).
+
+
+# Statistical tables {#appendixC_tables}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

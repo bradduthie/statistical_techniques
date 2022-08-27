@@ -11,8 +11,10 @@ output:
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 30 January 2022 - 3 February 2022 |
-| **Reading**     | Required: SCIU4T4 Workbook chapters 4-8  |
-|                 | Recommended: Navarrow \& Foxcroft (2022) [Section 2.2](https://davidfoxcroft.github.io/lsj-book/a-brief-introduction-to-research-design.html#scales-of-measurement) |
+| **Reading**     | **Required:** SCIU4T4 Workbook chapters 4-8  |
+|                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
+|                 | **Optional:** @Rowntree2018 Chapter 2 |
+|                 | **Advanced:** @Spiegelhalter2019 Chapters 1-3 |
 | **Lectures**    | 2.0: Introduction to Week 1 (2 min.) |
 |                 | 2.1: Why study statistics? (18 min.) |
 |                 | 2.2: Populations and samples (7 min.) |
@@ -84,7 +86,38 @@ knitr::include_graphics("img/population_vs_sample.png")
 
 # Types of variables {#Chapter_5}
 
-Categorical, ordinal, continuous, etc.
+A variable is any property that is measured in an observation [@Sokal1995]; i.e., anything that varies among things that we can measure [@Dytham2011].
+We can summarise how these measurements vary with summary statistics, or visually with figures.
+Often, we will want to predict one variable from a second variable.
+In this case, the variable that we want to predict is called the **response variable**, also known as the **dependent variable** or **Y** variable ('dependent' because it *depends* on other variables, and 'Y' because this is the letter we often use to represent it).
+The variable that we use to predict our response variable is the **explanatory variable**, also known as the **independent variable** or **X** variable ('independent' because it does not depend on other variables, and 'X' because this is the letter most often used to represent it).
+There are several different types of variables:
+
+* **Categorical** variables take on a fixed number of discrete values [@Spiegelhalter2019]. 
+In other words, the measurement that we record will assign our data to a specific category. 
+Examples of categorical variables include species (e.g., "Robin", "Nightingale", "Wren") or life history stage (e.g., "egg", "juvenile", "adult"). 
+Categorical variables can be either nominal or ordinal.
+
+  * **Nominal** variables do not have any inherent order (e.g., classifying land as "forest", "grassland", or "urban").
+  * **Ordinal** variables do have an inherent order (e.g., "low", "medium", and "high" elevation).
+  
+* **Quantitative** variables are variables represented by numbers that reflect a magnitude.
+That is, unlike categorical variables, we are collecting numbers that really mean something tangible (in contrast, while we might represent low, medium, and high elevations with the numbers 1, 2, and 3, respectively, this is just for convenience; a value of '2' does not always mean 'medium').
+Categorical variables can be either discrete or continuous.
+
+  * **Discrete** variables can take only certain values.
+  For example, if we want to record the number of species in a forest, then our variable can only take discrete counts (i.e., integer values).
+  There could conceivably be any whole number of species (1, 2, 3, etc.), but there could not be 2.51 different species in a forest; that does not make sense.
+  
+  * **Continuous** variables can take any real value within some range of values (i.e., any number that can be represented by a decimal).
+  For example, we could measure height to as many decimals as our measuring device will allow, with a range of values from zero to the maximum possible height of whatever it is we are measuring.
+  Similarly, we could measure temperature to any number of decimals, at least in theory, so temperature is a continuous variable.
+
+The reason for organising variables into all of these different types is that different types of variables need to be handled in different ways.
+For example, it would not make sense to visualise a nominal variable in the same way as a continuous variable.
+Similarly, the choice of statistical test to apply to answer a statistical question will almost always depend on the types of variables involved.
+If presented with a new data set, it is therefore very important to be able to interpret the different variables and apply the correct statistical techniques (this will be part of the assessment for this module).
+
 
 # Units, precision, and accuracy {#Chapter_6}
 
@@ -92,11 +125,81 @@ Resistance in statistics
 
 # Uncertainty propogation {#Chapter_7}
 
-Some simple equations
+Nothing can be measured with perfect accuracy, meaning that every measurement has some associated error.
+The measurement error might be caused by random noise in the measuring environment, or by mistakes made by the person doing the measuring.
+The measurement error might also be caused by limitations or imperfections associated with a measuring device.
+The device might be limited in its measurement precision, or perhaps it is biased in its measurements due to improper calibration, manufacture, or damage from previous use.
+All of this generates uncertainty with respect to individual measurements.
+
+Recall from [Chapter 6](#Chapter_6) the difference between precision and accuracy.
+We can evaluate the precision and accuracy of measurements in different ways.
+Measurement precision can be estimated by replicating a measurement (i.e., taking the same measurement over and over again).
+The more replicate measurements made, the more precisely a value can be estimated. 
+For example, if we wanted to evaluate the precision with which the mass of an object is measured, then we might repeat the measurement with the same scale multiple times and see how much mass changes across different measurements.
+To evaluate measurement accuracy, we might need to measure a value in multiple different ways (e.g., with different measuring devices).
+For example, we might repeat the measurement of an object's mass with a different scale.
+
+Sometimes it is necessary to combine different values.
+For example, we might measure the mass of 2 different bird eggs in a nest, then calculate the total mass of all the 2 eggs combined.
+The measurement of each egg will have its own error, and these errors will propagate to determine the error of the total egg mass for the nest.
+How this error propagates differs depending on if they are being added or subtracted, or if they are being multiplied or divided.
+
+## Adding or subtracting errors
+
+In the case of our egg masses, we can assign the mass of the first egg to the variable $X$ and the mass of the second egg to the variable $Y$.
+We can assign the total mass to the variable $Z$, where $Z = X + Y$.
+The errors associated with the variables $X$, $Y$, and $Z$ can be indicated by $E_{X}$, $E_{Y}$, and $E_{Z}$, respectively.
+In general, if the variable $Z$ is calculated by adding (or subtracting) 2 or more values together, then this is the formula for calculating $E_{Z}$, 
+
+$$E_{Z} = \sqrt{E^{2}_{X} + E^{2}_{Y}}.$$
+
+Hence, for the egg masses, the error of the combined masses () equals the square root of the error associated with the mass of egg 1 squared ($E^{2}_{X}$) plus the error associated with the mass of egg 2 squared ($E^{2}_{Y}$).
+It often helps to provide a concrete example. 
+If the error associated with the measurement of egg 1 is $E^{2}_{X} = 2$, and the error associated with the measurement of egg 2 is $E^{2}_{X} = 3$, then we can calculate,
+
+$$E_{Z} = \sqrt{2^{2} + 3^{2}} \approx 3.61.$$
+
+## Multiplying or dividing errors
+
+Multiplying or dividing errors works a bit differently.
+As an example, suppose that we need to measure the total area of a rectangular field.
+If we measure the length ($L$) and width ($W$) of the field, then the total area is the product of these measurements, $A = L \times W$.
+Again, there is going to be error associated with the measurement of both length ($E_{L}$) and width ($E_{W}$).
+How the error of the total area ($E_{A}$) is propagated by $E_{L}$ and $E_{W}$ is determined by the formula,
+
+$$E_{A} = A \sqrt{\left(\frac{E_{L}}{L} \right)^{2} + \left(\frac{E_{W}}{W} \right)^{2}}.$$
+Notice that just knowing the error of each measurement ($E_{L}$ and $E_{W}$) is no longer sufficient to calculate the error associated with the measurement of the total area.
+We also need to know $L$, $W$, and $A$.
+If our field has a length of $L = 20$ m and width of $W = 10$, then $A = 20 \times 10 = 200$. 
+If length and width measurements have associated errors of $E_{L} = 2$ m $E_{W} = 1$ m, then,
+
+$$E_{A} = 200 \sqrt{\left(\frac{2}{20} \right)^{2} + \left(\frac{1}{10} \right)^{2}} \approx 28.3.$$
+Of course, not every set of measurements with errors to be multiplied with be lengths and widths.
+To avoid confusion, the general formula for multiplying or dividing errors is below, with the variables $L$, $W$, and $A$ replaced with $X$, $Y$, and $Z$, respectively, to match the case of addition and subtraction explained above,
+
+$$E_{Z} = Z \sqrt{\left(\frac{E_{X}}{X} \right)^{2} + \left(\frac{E_{Y}}{Y} \right)^{2}}.$$
+
+Note that the structure of the equation is the exact same, just with different letters used as variables.
+**It is necessary to be able to apply these equations correctly to estimate combined error.**
+
+## Applying formulas for combining errors
+
+It is not necessary to understand why the equations for propagating different types of errors are different, but a derivation is provided in [Appendix B](#uncertainty_derivation) for the curious.
+
+
 
 # _Practical_. Introduction to Jamovi {#Chapter_8}
 
-Some introductory text to Jamovi. Particular attention, and maybe an example, on different data types and how to find them in Jamovi.
+This practical focuses on learning how to work with datasets in Jamovi.
+Jamovi is available in the university laboratory computers through AppsAnywhere.
+You can also [download it](https://www.jamovi.org/download.html) on your own computer for free or run it directly [from a browser](https://www.jamovi.org/cloud.html).
+For an introduction to what Jamovi is and why we are using it in this module, see [Section 0.5](#intro_jamovi) of this workbook and [Sections 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) of @Navarro2022.
+In this module, we will work with two datasets, both of which are based on real biological and environmental studies conducted by researchers at the University of Stirling.
+The first dataset includes measurements of soil organic carbon (grams of Carbon per kg of soil) from the topsoil and subsoil collected in a national park in Gabon.
+These data were collected by Dr Carmen Rosa Medina-Carmona in an effort to understand how [pyrogenic carbon](https://bg.copernicus.org/articles/3/397/2006/bg-3-397-2006.pdf) (i.e., carbon produced by the charring of biomass during a fire) is stored in different landscape areas [@Santin2016; @Preston2006].
+You can download these data here: [soil_organic_carbon.csv]()
+
+
 
 ## Exercise for summary statistics
 
