@@ -119,9 +119,122 @@ Similarly, the choice of statistical test to apply to answer a statistical quest
 If presented with a new data set, it is therefore very important to be able to interpret the different variables and apply the correct statistical techniques (this will be part of the assessment for this module).
 
 
-# Units, precision, and accuracy {#Chapter_6}
+# Accuracy, precision, and units {#Chapter_6}
 
-Resistance in statistics
+The science of measurements is called "metrology", which, among other topics, focuses on measurement accuracy, precision, and units [@Rabinovich2013].
+We will not discuss these topics in depth, but they are important for statistical techniques because measurement, in the broadest sense of the word, is the foundation of data collection.
+When collecting data, we want measurements to be accurate, precise, and clearly defined.
+
+## Accuracy
+
+When we collect data, we are trying to obtain information about the world.
+We might, for example, want to know the number of seedlings in an area of forest, them temperature of the soil at a location, or the mass of a particular animal in the field.
+To get this information, we need to make measurements.
+Some measurements can be collected by simple observation (e.g., counting seedlings), while others will require measuring devices such as a thermometer (for measuring temperature) or scale (for measuring mass).
+All of these measurements are subject to error.
+The *true* value of whatever it is that we are trying to measure (called the "measurand") can differ from what we record when collecting data.
+This is true even for simple observations (e.g., we might miscount seedlings), so it is important to recognise that the data we collect comes with some uncertainty.
+The **accuracy** of a measurement is defined by how close the measurement is to the *true* value of what we are trying to measure [@Rabinovich2013].
+
+## Precision
+
+The **precision** of a measurement is how consistent it will be if measurement is replicated multiple times.
+In other words, precision describes how similar measurements are expected to be.
+If, for example, a scale measures an object to be the exact same mass ever time it is weighed (regardless of whether the mass is accurate), then the measurement is highly precise.
+If, however, the scale measures a different mass each time the object is weighed (for this hypothetical, assume that the true mass of the object does not change), then the measurement is not as precise.
+
+One way to visualise the difference between accuracy and precision is to imagine a set of targets, with the centre of the target representing the true value of what we are trying to measure (Figure 6.1)[^1]. 
+
+```{r, echo = FALSE, fig.alt = "Four targets, A, B, C, and D, are shown side-by-side, wach with five points scatter on top of them. Points in A are close together and near the centre, points in B are far apart but around the center, points in C are close together but away from the centre, and points in D are far apart and away from the centre.", fig.cap = "A conceptual figure illustrating the difference between accuracy and precision. Points in (A) are both accurate and precise, points in (B) are accurate, but not precise, points in (C) are precise but not accurate, and points in (D) are neither accurate nor precise.", out.width="100%"}
+knitr::include_graphics("img/accuracy_vs_precision.png")
+```
+
+Note again that accuracy and precision are not necessarily the same. 
+Measurement can be accurate but not precise (Figure 6.1B) or precise but not accurate (Figure 6.1C).
+
+[^1]: This figure was released into the public domain by [Egon Willighagen](https://commons.wikimedia.org/wiki/File:Accuracy-vs-precision-nl.svg) on 8 March 2014.
+
+## Systems of units
+
+Scientific units are standardised with the Syst&egrave;me International D'Unit&eacute;s (SI).
+Having standardised units of measurement is highly important to ensure measurement accuracy [@Quinn1995].
+Originally, these units were often defined in terms of physical artefacts.
+For example, the kilogram (kg) was once defined by physical cylinder metal housed in the Buereau International des Poids et Mesures (BIPM).
+In other words, the mass of a metal sitting at the BIPM *defined* what a kg was, with the mass of every other measurement being based on this physical object [@Quinn1995].
+This can potentially present a problem if the mass of that one object changes over time, thereby causing a change in how a kg is defined.
+Where possible, it is therefore preferable to define units in terms of fundamental constants of nature.
+In 2019, for example, the kg was redefined in terms of the Planck constant, a specific atomic transition frequency, and the speed of light [@Stock2019].
+This ensures that measurements of mass remain accurate over time because what a kg represents in terms of mass cannot change.
+
+We can separate units into base units and derived units.
+Table 6.1 below lists some common base units for convenience [@Quinn1995].
+You do not need to memorise these units, but it is good to be familiar with them.
+We will use these units throughout the module.
+
+| **Measured Quantity**       | **Name of SI unit** | Symbol   |
+|-----------------------------|---------------------|----------|
+| Mass                        | kilogram            | $kg$     |
+| Length                      | metre               | $m$      |
+| Time                        | second              | $s$      |
+| Electric current            | ampere              | $A$      |
+| Temperature                 | kelvin              | $K$      |
+| Amount of a substance       | mole                | $mol$    |
+| Luminous intensity          | candela             | $cd$     |
+
+Table: Base units of SI measurements. For details see @Quinn1995. 
+
+We can also define derived SI units from the base units of Table 6.1; examples of these derived SI units are provided in Table 6.2 below. 
+Again, you do not need to memorise these units, but it is good to be aware of them.
+
+| **Measured Quantity** | **Name of unit** | **Symbol** | **Definition in SI units** | **Alternative in derived units** |
+|-----------------------|------------------|------------|----------------------------|----------------------------------|
+| Energy        | Joule     | $J$  | $m^{2}$ $kg$ $s^{-2}$  | $N$ $m$      |
+| Force         | Newton    | $N$  | $m$ $kg$ $s^{-2}$      | $J$ $m^{-1}$ |
+| Pressure      | Pascal    | $Pa$ | $kg$ $m^{-1}$ $s^{-2}$ | $N$ $m^{-2}$ |
+| Power         | Watt      | $W$  | $m^{-2}$ $kg$ $s^{-3}$ | $J$ $s^{-1}$ |
+| Frequency     | Hertz     | $Hz$ | $s^{-1}$               |              |
+| Radioactivity | Becquerel | $Bq$ | $s^{-1}$               |              |
+
+Table: Examples of derived SI units.
+
+When numbers are associated with units, it is important to recognise that the units must be carried through and combined when calculating equation.
+As a very simple example, if want to know the speed at which an object is moving, and we find that it has moved 10 metres in 20 seconds, then we calculate the speed and report the correct units as below,
+
+$$speed = \frac{10\:m}{20\:s} = 0.5\:m/s = 0.5\:m\:s^{-1}.$$
+Notice that the final units are in metres per second, which can be written as $m/s$ or $m\:s^{-1}$ (remember that raising $s$ to the $-1$ power is the same as $1/s$; see below for a quick reminder about superscripts).
+It is a common error to calculate just the numeric components of a calculation and ignore the associated units.
+Often on assessments, we will ask you not to include units in your answer (this is just for convenience on the tests and exam), but recognising that units are also part of calculations is important.
+
+## Other examples of units
+
+Remember that an exponent (indicated by a superscript, e.g., the 3 in $m^{3}$) indicates the number of times to multiply a base by itself, so $m^{3} = m \times m \times m$.
+
+### Units of density
+
+Density ($\rho$) is calculated by,
+
+$$\rho = \frac{mass}{volume} = \frac{kg}{m^{3}}.$$
+
+The units of density are therefore mass per unit volume, $kg\:m^{-3}$.
+
+### Mass of metal discharged from a catchment
+
+The mass of metal carried by a stream per unit time ($M$) is given by multiplying the concentration of metal per unit volume ($C$) of water by the volume of water discharged per unit time ($V$),
+
+$$M = C \times V.$$
+This equation is useful in showing how units can cancel each other out.
+If we calculate the above with just the units (ignoring numbers for $C$ and $V$),
+
+$$M = \frac{mg}{l} \times \frac{l}{s} = \frac{mg}{s}.$$
+
+Notice above how the $l$ units on the top and bottom of the equation cancel each other out, so we are left with just $mg/s$.
+
+### Soil carbon inventories
+
+For one final example, the inventory of carbon $I$ within a soil is given by the specific carbon concentration $C$ ($g$ of carbon per $kg$ of soil), multiplied by the depth of soil analysed ($D$, $m$), and by the density ($\rho$, $kg\:m^{-3}$),
+
+$$I = C \times D \times \rho = \frac{g\times m \times kg}{kg \times m^{3}} = \frac{g}{m^{2}} = g\:m^{-2}.$$
+Notice above how the $kg$ on the top and bottom of the fraction cancel each other out, and how one $m$ on the top cancels out one $m$ on the bottom, so that what we are left with is grams per metre squared ($g\:m^{-2}$).
 
 # Uncertainty propogation {#Chapter_7}
 
@@ -481,7 +594,7 @@ Double click on this to put it into the formula, then divide it by 2.
 You can repeat this two more times to complete the computed variable as shown in Figure 8.9.
 
 ```{r, echo = FALSE, fig.alt = "The Jamovi toolbar is shown with a tab called 'Data' selected. Underneath is a box called 'COMPUTED VARIABLE', where the name 'fig volume' has been typed in. Underneath the box is the code for the volume of a sphere and below the code is the fig fruits dataset.", fig.cap = "The Jamovi toolbar where the tab 'Data' is selected. The box below shows the new computed variable 'fig volume', which has been created by calculating the product of 4/3, 3.14, and Width mm three times.", out.width="100%"}
-knitr::include_graphics("img/jamovi_transform_cm_to_mm.png")
+knitr::include_graphics("img/jamovi_compute_new_variable.png")
 ```
 
 Note that we can get the cube of 'Width_mm' more concisely by using the carrot character (`^`). 
