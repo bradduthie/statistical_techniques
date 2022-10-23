@@ -10,7 +10,7 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 30 January 2022 - 3 February 2022 |
+| **Dates**       | 30 January 2023 - 3 February 2023 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 4-8  |
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Optional:** @Rowntree2018 Chapter 2 |
@@ -30,7 +30,7 @@ In particular, it is important to understand the difference between a **populati
 In [Chapter 5](#Chapter_5), we look at different variable types. Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester.
 Identifying variable types will therefore be important, both for module assessments and when working with new datasets.
 A variable's type will rarely be stated explicitly when doing scientific research, and will not always be provided in assessments for this module.
-Being able to infer variable type is therefore an importat skill.
+Being able to infer variable type is therefore an important skill.
 
 [Chapter 6](#Chapter_6) focus on units of measurement, and how these units are communicated in text.
 Units are essential in scientific measurement, and we will use them throughout the module to indicate the type and scale of data measurement.

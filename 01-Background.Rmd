@@ -3,6 +3,7 @@ output:
   pdf_document: default
   html_document: default
 ---
+
 # (PART) Background mathematics and data organisation  {-}
 
 # Week 1 Overview {-}

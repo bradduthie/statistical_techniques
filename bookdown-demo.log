@@ -1,22 +1,22 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.8.26)  29 AUG 2022 11:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.12)  23 OCT 2022 21:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **bookdown-demo.tex
 (./bookdown-demo.tex
 LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-08-23> (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2022/07/04 v3.37 KOMA-Script document class (book)
+L3 programming layer <2022-09-28> (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2022/07/04 v3.37 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2022/07/04 v3.37 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2022/07/04 v3.37 KOMA-Script package (file load hooks)
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2022/07/04 v3.37 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2022/07/04 v3.37 KOMA-Script package (logo)
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
 ))) (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
@@ -24,18 +24,19 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
 )) (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2022/07/04 v3.37 KOMA-Script package (handling toc-files)
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip47
 \scr@dte@tocline@numbox=\box51
 )
-Package tocbasic Info: babel extension for `toc' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 137.
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 137.
 Class scrbook Info: File `scrsize11pt.clo' used instead of
-(scrbook)           file `scrsize11.clo' to setup font sizes on input line 2569.
+(scrbook)           file `scrsize11.clo' to setup font sizes on input line 2617.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2022/07/04 v3.37 KOMA-Script font size class option (11pt)
+File: scrsize11pt.clo 2022/10/12 v3.38 KOMA-Script font size class option (11pt)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2022/07/04 v3.37 KOMA-Script package (type area)
+Package: typearea 2022/10/12 v3.38 KOMA-Script package (type area)
 \ta@bcor=\skip48
 \ta@div=\count181
 \ta@hblk=\skip49
@@ -58,7 +59,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1766.
+(typearea)              on input line 1767.
 )
 \c@part=\count182
 \c@chapter=\count183
@@ -69,47 +70,49 @@ Package typearea Info: These are the values describing the layout:
 \c@subparagraph=\count188
 \scr@dte@chapter@maxnumwidth=\skip53
 Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\chapter on input line 5801.
+(scrbook)           for `\chapter on input line 5898.
 \scr@dte@section@maxnumwidth=\skip54
 Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\section on input line 5812.
+(scrbook)           for `\section on input line 5909.
 Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\section on input line 5812.
+(scrbook)           for `\section on input line 5909.
 \scr@dte@part@maxnumwidth=\skip55
 Class scrbook Info: using compatibility default `afterindent=true'
-(scrbook)           for `\part on input line 5821.
+(scrbook)           for `\part on input line 5918.
 \scr@dte@subsection@maxnumwidth=\skip56
 Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subsection on input line 5831.
+(scrbook)           for `\subsection on input line 5928.
 Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subsection on input line 5831.
+(scrbook)           for `\subsection on input line 5928.
 \scr@dte@subsubsection@maxnumwidth=\skip57
 Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subsubsection on input line 5841.
+(scrbook)           for `\subsubsection on input line 5938.
 Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subsubsection on input line 5841.
+(scrbook)           for `\subsubsection on input line 5938.
 \scr@dte@paragraph@maxnumwidth=\skip58
 Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\paragraph on input line 5852.
+(scrbook)           for `\paragraph on input line 5949.
 Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\paragraph on input line 5852.
+(scrbook)           for `\paragraph on input line 5949.
 \scr@dte@subparagraph@maxnumwidth=\skip59
 Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subparagraph on input line 5862.
+(scrbook)           for `\subparagraph on input line 5959.
 Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subparagraph on input line 5862.
+(scrbook)           for `\subparagraph on input line 5959.
 \abovecaptionskip=\skip60
 \belowcaptionskip=\skip61
 \c@pti@nb@sid@b@x=\box52
-Package tocbasic Info: babel extension for `lof' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 7033.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 7142.
 \scr@dte@figure@maxnumwidth=\skip62
 \c@figure=\count189
-Package tocbasic Info: babel extension for `lot' omitted
-(tocbasic)             because of missing \bbl@set@language on input line 7050.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 7159.
 \scr@dte@table@maxnumwidth=\skip63
 \c@table=\count190
-Class scrbook Info: Redefining `\numberline' on input line 7221.
+Class scrbook Info: Redefining `\numberline' on input line 7330.
 \bibindent=\dimen138
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
@@ -220,9 +223,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-08-23 L3 programming layer (loader) 
+Package: expl3 2022-09-28 L3 programming layer (loader) 
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-08-23 L3 backend support: XeTeX
+File: l3backend-xetex.def 2022-09-28 L3 backend support: XeTeX
 \g__graphics_track_int=\count269
 \l__pdf_internal_box=\box55
 \g__pdf_backend_object_int=\count270
@@ -273,7 +276,9 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 227.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2022/04/16 v5.0m Graphics/color driver for xetex
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+\stockwidth=\dimen151
+\stockheight=\dimen152
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -292,7 +297,7 @@ File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
 )) (/home/brad/.TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+Package: hyperref 2022-09-22 v7.00t Hypertext links for LaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -303,8 +308,8 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-) (/home/brad/.TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/home/brad/.TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -326,11 +331,11 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count287
 )
-\@linkdim=\dimen151
+\@linkdim=\dimen153
 \Hy@linkcounter=\count288
 \Hy@pagecounter=\count289
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2022-09-22 v7.00t Hyperref: PDFDocEncoding definition (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
@@ -338,7 +343,7 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count290
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2022-09-22 v7.00t Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Option `unicode' set `true' on input line 4045.
 Package hyperref Info: Hyper figures OFF on input line 4162.
@@ -347,29 +352,29 @@ Package hyperref Info: Hyper index ON on input line 4170.
 Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
+Package hyperref Info: Bookmarks ON on input line 4410.
 \c@Hy@tempcnt=\count291
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen152
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen154
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count292
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring OFF on input line 6044.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+\Field@Width=\dimen155
+\Fld@charsize=\dimen156
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -380,7 +385,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2022-06-20 v7.00s Hyperref driver for XeTeX
+File: hxetex.def 2022-09-22 v7.00t Hyperref driver for XeTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
@@ -412,7 +417,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTpre=\skip70
 \LTpost=\skip71
 \LTchunksize=\count301
-\LTcapwidth=\dimen155
+\LTcapwidth=\dimen157
 \LT@head=\box57
 \LT@firsthead=\box58
 \LT@foot=\box59
@@ -427,28 +432,28 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 Class scrbook Info: longtable captions redefined on input line 50.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen156
-\lightrulewidth=\dimen157
-\cmidrulewidth=\dimen158
-\belowrulesep=\dimen159
-\belowbottomsep=\dimen160
-\aboverulesep=\dimen161
-\abovetopsep=\dimen162
-\cmidrulesep=\dimen163
-\cmidrulekern=\dimen164
-\defaultaddspace=\dimen165
+\heavyrulewidth=\dimen158
+\lightrulewidth=\dimen159
+\cmidrulewidth=\dimen160
+\belowrulesep=\dimen161
+\belowbottomsep=\dimen162
+\aboverulesep=\dimen163
+\abovetopsep=\dimen164
+\cmidrulesep=\dimen165
+\cmidrulekern=\dimen166
+\defaultaddspace=\dimen167
 \@cmidla=\count306
 \@cmidlb=\count307
-\@aboverulesep=\dimen166
-\@belowrulesep=\dimen167
+\@aboverulesep=\dimen168
+\@belowrulesep=\dimen169
 \@thisruleclass=\count308
 \@lastruleclass=\count309
-\@thisrulewidth=\dimen168
+\@thisrulewidth=\dimen170
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen169
+\col@sep=\dimen171
 \ar@mcellbox=\box62
-\extrarowheight=\dimen170
+\extrarowheight=\dimen172
 \NC@list=\toks23
 \extratabsurround=\skip72
 \backup@length=\skip73
@@ -457,8 +462,8 @@ Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count310
 \calc@Bcount=\count311
-\calc@Adimen=\dimen171
-\calc@Bdimen=\dimen172
+\calc@Adimen=\dimen173
+\calc@Bdimen=\dimen174
 \calc@Askip=\skip74
 \calc@Bskip=\skip75
 LaTeX Info: Redefining \setlength on input line 80.
@@ -471,7 +476,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
 \fn@notes=\box64
-\fn@width=\dimen173
+\fn@width=\dimen175
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
@@ -483,8 +488,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 )
-\Gin@req@height=\dimen174
-\Gin@req@width=\dimen175
+\Gin@req@height=\dimen176
+\Gin@req@width=\dimen177
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks24
@@ -827,234 +832,225 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 2.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
 (Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 23.
-[3]
-Underfull \vbox (badness 5696) has occurred while \output is active []
-
-[4]
-Underfull \vbox (badness 2635) has occurred while \output is active []
-
-[5]
-Overfull \hbox (1.09497pt too wide) detected at line 98
+[3] [4]
+Overfull \hbox (1.09497pt too wide) detected at line 97
  []\TU/lmss/bx/n/10.95 101
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 99
+Overfull \hbox (1.09497pt too wide) detected at line 98
  []\TU/lmss/bx/n/10.95 103
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 100
+Overfull \hbox (1.09497pt too wide) detected at line 99
  []\TU/lmss/bx/n/10.95 105
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 101
- []\TU/lmss/bx/n/10.95 107
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 102
- []\TU/lmss/bx/n/10.95 109
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 103
- []\TU/lmss/bx/n/10.95 111
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 104
- []\TU/lmss/bx/n/10.95 113
+Overfull \hbox (2.82748pt too wide) detected at line 104
+ []\TU/lmss/bx/n/12 107
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 105
- []\TU/lmss/bx/n/10.95 115
+ []\TU/lmss/bx/n/10.95 109
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 106
- []\TU/lmss/bx/n/10.95 117
+[5]
+Overfull \hbox (2.82748pt too wide) detected at line 106
+ []\TU/lmss/bx/n/12 111
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 107
+ []\TU/lmss/bx/n/10.95 113
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 108
+ []\TU/lmss/bx/n/10.95 115
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 109
+ []\TU/lmss/bx/n/10.95 117
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 110
  []\TU/lmss/bx/n/10.95 119
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 111
+ []\TU/lmss/bx/n/10.95 121
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 112
+ []\TU/lmss/bx/n/10.95 123
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 113
+ []\TU/lmss/bx/n/10.95 125
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 114
+ []\TU/lmss/bx/n/10.95 127
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 115
+ []\TU/lmss/bx/n/10.95 129
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 116
+ []\TU/lmss/bx/n/10.95 131
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 117
+ []\TU/lmss/bx/n/10.95 133
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 118
+ []\TU/lmss/bx/n/10.95 135
  []
 
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 113.
+(tocbasic)                Reserved number width       = 24.0pt on input line 124.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 113
+Overfull \hbox (3.22801pt too wide) detected at line 124
 \TU/lmss/bx/n/12 VIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 113
- []\TU/lmss/bx/n/12 121
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 114
- []\TU/lmss/bx/n/10.95 123
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 115
- []\TU/lmss/bx/n/10.95 125
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 116
- []\TU/lmss/bx/n/10.95 127
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 117
- []\TU/lmss/bx/n/10.95 129
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 118
- []\TU/lmss/bx/n/10.95 131
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 119
- []\TU/lmss/bx/n/10.95 133
- []
-
-[6]
 Overfull \hbox (2.82748pt too wide) detected at line 124
- []\TU/lmss/bx/n/12 135
+ []\TU/lmss/bx/n/12 137
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 125
- []\TU/lmss/bx/n/10.95 137
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 126
  []\TU/lmss/bx/n/10.95 139
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 127
+Overfull \hbox (1.09497pt too wide) detected at line 126
  []\TU/lmss/bx/n/10.95 141
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 128
+Overfull \hbox (1.09497pt too wide) detected at line 127
  []\TU/lmss/bx/n/10.95 143
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 129
+Overfull \hbox (1.09497pt too wide) detected at line 128
  []\TU/lmss/bx/n/10.95 145
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 130
+Overfull \hbox (1.09497pt too wide) detected at line 129
  []\TU/lmss/bx/n/10.95 147
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 131
+[6]
+Overfull \hbox (1.09497pt too wide) detected at line 130
  []\TU/lmss/bx/n/10.95 149
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 132
- []\TU/lmss/bx/n/10.95 151
+Overfull \hbox (2.82748pt too wide) detected at line 135
+ []\TU/lmss/bx/n/12 151
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 137
- []\TU/lmss/bx/n/12 153
+Overfull \hbox (1.09497pt too wide) detected at line 136
+ []\TU/lmss/bx/n/10.95 153
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 138
+Overfull \hbox (1.09497pt too wide) detected at line 137
  []\TU/lmss/bx/n/10.95 155
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 139
+Overfull \hbox (1.09497pt too wide) detected at line 138
  []\TU/lmss/bx/n/10.95 157
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 140
+Overfull \hbox (1.09497pt too wide) detected at line 139
  []\TU/lmss/bx/n/10.95 159
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 141
+Overfull \hbox (1.09497pt too wide) detected at line 140
  []\TU/lmss/bx/n/10.95 161
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 142
+Overfull \hbox (1.09497pt too wide) detected at line 141
  []\TU/lmss/bx/n/10.95 163
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 143
+Overfull \hbox (1.09497pt too wide) detected at line 142
  []\TU/lmss/bx/n/10.95 165
  []
 
 
+Overfull \hbox (1.09497pt too wide) detected at line 143
+ []\TU/lmss/bx/n/10.95 167
+ []
+
+
 Overfull \hbox (2.82748pt too wide) detected at line 148
- []\TU/lmss/bx/n/12 167
+ []\TU/lmss/bx/n/12 169
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 149
- []\TU/lmss/bx/n/10.95 169
- []
-
-
-Underfull \vbox (badness 1259) has occurred while \output is active []
-
-[7]
-Overfull \hbox (1.09497pt too wide) detected at line 150
  []\TU/lmss/bx/n/10.95 171
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 151
+Overfull \hbox (1.09497pt too wide) detected at line 150
  []\TU/lmss/bx/n/10.95 173
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 152
+Overfull \hbox (1.09497pt too wide) detected at line 151
  []\TU/lmss/bx/n/10.95 175
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 153
+Overfull \hbox (1.09497pt too wide) detected at line 152
  []\TU/lmss/bx/n/10.95 177
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 154
+Overfull \hbox (1.09497pt too wide) detected at line 153
  []\TU/lmss/bx/n/10.95 179
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 158
- []\TU/lmss/bx/n/12 181
+Overfull \hbox (1.09497pt too wide) detected at line 154
+ []\TU/lmss/bx/n/10.95 181
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 159
- []\TU/lmss/bx/n/10.95 183
+[7]
+Overfull \hbox (2.82748pt too wide) detected at line 159
+ []\TU/lmss/bx/n/12 183
  []
 
 
@@ -1078,29 +1074,18 @@ Overfull \hbox (1.09497pt too wide) detected at line 163
  []
 
 
-Package tocbasic Warning: number width of part toc entries should be increased!
-(tocbasic)                Currently used number width = 25.128pt,
-(tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 167.
-
-
-Overfull \hbox (3.22801pt too wide) detected at line 167
-\TU/lmss/bx/n/12 XIII. 
+Overfull \hbox (1.09497pt too wide) detected at line 164
+ []\TU/lmss/bx/n/10.95 193
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 167
- []\TU/lmss/bx/n/12 193
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 168
+Overfull \hbox (1.09497pt too wide) detected at line 165
  []\TU/lmss/bx/n/10.95 195
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 169
- []\TU/lmss/bx/n/10.95 197
+Overfull \hbox (2.82748pt too wide) detected at line 169
+ []\TU/lmss/bx/n/12 197
  []
 
 
@@ -1110,7 +1095,58 @@ Overfull \hbox (1.09497pt too wide) detected at line 170
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 171
+ []\TU/lmss/bx/n/10.95 201
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 172
  []\TU/lmss/bx/n/10.95 203
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 173
+ []\TU/lmss/bx/n/10.95 205
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 174
+ []\TU/lmss/bx/n/10.95 207
+ []
+
+
+Package tocbasic Warning: number width of part toc entries should be increased!
+(tocbasic)                Currently used number width = 25.128pt,
+(tocbasic)                Wanted number separation    = 4.79993pt,
+(tocbasic)                Reserved number width       = 24.0pt on input line 178.
+
+
+Overfull \hbox (3.22801pt too wide) detected at line 178
+\TU/lmss/bx/n/12 XIII. 
+ []
+
+
+Overfull \hbox (2.82748pt too wide) detected at line 178
+ []\TU/lmss/bx/n/12 209
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 179
+ []\TU/lmss/bx/n/10.95 211
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 180
+ []\TU/lmss/bx/n/10.95 213
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 181
+ []\TU/lmss/bx/n/10.95 215
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 182
+ []\TU/lmss/bx/n/10.95 219
  []
 
 )
@@ -1263,387 +1299,408 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 ]
 chapter 9.
-[53] [54
+[53] [54] [55] [56
 
 
 ]
 chapter 10.
-[55] [56
+File: bookdown-demo_files/figure-latex/unnamed-chunk-14-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-14-1.pdf>
+[57]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-15-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-15-1.pdf>
+[58]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-16-1.pdf>
+[59]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-17-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-18-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-19-1.pdf>
+[60] [61] [62] [63] [64
 
 
 ]
 chapter 11.
-[57] [58
-
-
-]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-20-1.pdf>
+[65] [66] [67] [68]
 chapter 12.
-[59] [60
-
-
-]
-chapter 13.
-[61] [62
-
-
-]
-chapter 14.
-[63] [64
-
-
-]
-chapter 15.
-[65] [66
-
-
-]
-part IV.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1022.
-[67] [68] [69
+[69
 
 
 ] [70
 
 
 ]
+chapter 13.
+Missing character: There is no А (U+0410) in font [lmroman9-regular]:mapping=tex-text;!
+File: img/Nymphaea_alba_pads.jpg Graphic file (type bmp)
+<img/Nymphaea_alba_pads.jpg>
+[71]
+File: img/lilypad_tidy.png Graphic file (type bmp)
+<img/lilypad_tidy.png>
+[72] [73]
+File: img/lilypad_descriptives.png Graphic file (type bmp)
+<img/lilypad_descriptives.png>
+File: img/lilypad_histogram.png Graphic file (type bmp)
+<img/lilypad_histogram.png>
+[74] [75] [76] [77]
+File: img/lilypad_summary_statistics.png Graphic file (type bmp)
+<img/lilypad_summary_statistics.png>
+[78] [79] [80] [81] [82
+
+
+]
+part IV.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 1640.
+[83] [84] [85
+
+
+] [86
+
+
+]
+chapter 14.
+[87] [88
+
+
+]
+chapter 15.
+[89] [90
+
+
+]
 chapter 16.
-[71] [72
-
-
-]
-chapter 17.
-[73] [74
-
-
-]
-chapter 18.
-[75] [76
+[91] [92
 
 
 ]
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1111.
-[77] [78] [79
+(scrkbase)              on input line 1729.
+[93] [94] [95
 
 
-] [80
+] [96
+
+
+]
+chapter 17.
+[97] [98
+
+
+]
+chapter 18.
+[99] [100
 
 
 ]
 chapter 19.
-[81] [82
+[101] [102
 
 
 ]
 chapter 20.
-[83] [84
+[103] [104
 
 
 ]
 chapter 21.
-[85] [86
-
-
-]
-chapter 22.
-[87] [88
-
-
-]
-chapter 23.
-[89] [90
+[105] [106
 
 
 ]
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1161.
-[91] [92] [93
+(scrkbase)              on input line 1779.
+[107] [108] [109
 
 
-] [94
+] [110
 
 
 ]
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1170.
-[95] [96] [97
+(scrkbase)              on input line 1788.
+[111] [112] [113
 
 
-] [98
-
-
-]
-chapter 24.
-[99] [100
+] [114
 
 
 ]
-chapter 25.
-[101] [102
-
-
-]
-chapter 26.
-[103] [104
-
-
-]
-chapter 27.
-[105] [106
-
-
-]
-chapter 28.
-[107] [108
-
-
-]
-chapter 29.
-[109] [110
-
-
-]
-chapter 30.
-[111] [112
-
-
-]
-chapter 31.
-[113] [114
-
-
-]
-chapter 32.
+chapter 22.
 [115] [116
 
 
 ]
-chapter 33.
+chapter 23.
 [117] [118
 
 
 ]
-chapter 34.
+chapter 24.
 [119] [120
+
+
+]
+chapter 25.
+[121] [122
+
+
+]
+chapter 26.
+[123] [124
+
+
+]
+chapter 27.
+[125] [126
+
+
+]
+chapter 28.
+[127] [128
+
+
+]
+chapter 29.
+[129] [130
+
+
+]
+chapter 30.
+[131] [132
+
+
+]
+chapter 31.
+[133] [134
+
+
+]
+chapter 32.
+[135] [136
 
 
 ]
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1253.
-[121] [122] [123
+(scrkbase)              on input line 1871.
+[137] [138] [139
 
 
-] [124
+] [140
+
+
+]
+chapter 33.
+[141] [142
+
+
+]
+chapter 34.
+[143] [144
 
 
 ]
 chapter 35.
-[125] [126
+[145] [146
 
 
 ]
 chapter 36.
-[127] [128
+[147] [148
 
 
 ]
 chapter 37.
-[129] [130
-
-
-]
-chapter 38.
-[131] [132
-
-
-]
-chapter 39.
-[133] [134
+[149] [150
 
 
 ]
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1303.
-[135] [136] [137
+(scrkbase)              on input line 1921.
+[151] [152] [153
 
 
-] [138
+] [154
+
+
+]
+chapter 38.
+[155] [156
+
+
+]
+chapter 39.
+[157] [158
 
 
 ]
 chapter 40.
-[139] [140
+[159] [160
 
 
 ]
 chapter 41.
-[141] [142
+[161] [162
 
 
 ]
 chapter 42.
-[143] [144
+[163] [164
 
 
 ]
 chapter 43.
-[145] [146
+[165] [166
 
 
 ]
 chapter 44.
-[147] [148
-
-
-]
-chapter 45.
-[149] [150
-
-
-]
-chapter 46.
-[151] [152
+[167] [168
 
 
 ]
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1357.
-[153] [154] [155
+(scrkbase)              on input line 1975.
+[169] [170] [171
 
 
-] [156
+] [172
+
+
+]
+chapter 45.
+[173] [174
+
+
+]
+chapter 46.
+[175] [176
 
 
 ]
 chapter 47.
-[157] [158
+[177] [178
 
 
 ]
 chapter 48.
-[159] [160
+[179] [180
 
 
 ]
 chapter 49.
-[161] [162
-
-
-]
-chapter 50.
-[163] [164
-
-
-]
-chapter 51.
-[165] [166
+[181] [182
 
 
 ]
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1401.
-[167] [168] [169
+(scrkbase)              on input line 2019.
+[183] [184] [185
 
 
-] [170
+] [186
+
+
+]
+chapter 50.
+[187] [188
+
+
+]
+chapter 51.
+[189] [190
 
 
 ]
 chapter 52.
-[171] [172
+[191] [192
 
 
 ]
 chapter 53.
-[173] [174
+[193] [194
 
 
 ]
 chapter 54.
-[175] [176
-
-
-]
-chapter 55.
-[177] [178
-
-
-]
-chapter 56.
-[179] [180
+[195] [196
 
 
 ]
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1446.
-[181] [182] [183
+(scrkbase)              on input line 2064.
+[197] [198] [199
 
 
-] [184
+] [200
+
+
+]
+chapter 55.
+[201] [202
+
+
+]
+chapter 56.
+[203] [204
 
 
 ]
 chapter 57.
-[185] [186
+[205] [206
 
 
 ]
 chapter 58.
-[187] [188
-
-
-]
-chapter 59.
-[189] [190
-
-
-]
-chapter 60.
-[191] [192
+[207] [208
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1486.
-[193] [194] [195
+(scrkbase)              on input line 2104.
+[209] [210] [211
 
 
-] [196
+] [212
 
 
 ]
 chapter A.
-[197] [198
+[213] [214
 
 
 ]
 chapter B.
-[199] [200] [201] [202]
+[215] [216] [217] [218]
 chapter C.
-(./bookdown-demo.bbl [203
+(./bookdown-demo.bbl [219
 
 
-] [204
+] [220
 
 
 ]
@@ -1651,14 +1708,14 @@ Underfull \hbox (badness 1152) in paragraph at lines 16--21
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-) [205] (./bookdown-demo.aux) ) 
+[221]) [222] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 21437 strings out of 477847
- 412964 string characters out of 5846464
- 1026628 words of memory out of 5000000
- 42088 multiletter control sequences out of 15000+600000
+ 21688 strings out of 477743
+ 421471 string characters out of 5843968
+ 1062758 words of memory out of 5000000
+ 42427 multiletter control sequences out of 15000+600000
  478651 words of font info for 104 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,9n,121p,10636b,476s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,9n,121p,10636b,503s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (205 pages).
+Output written on bookdown-demo.pdf (222 pages).
