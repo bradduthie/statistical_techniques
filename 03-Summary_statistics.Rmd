@@ -313,6 +313,8 @@ It takes some getting used to, but the table below shows each symbol with its co
 | $x_{7}$ | 4.0   |
 | $x_{8}$ | 3.5   |
 
+Table: A sample dataset that includes eight values.
+
 Note that we can first replace the actual values with their corresponding $x_{i}$, so the mean can be written as,
 
 $$\bar{x} = \frac{x_{1} + x_{2} + x_{3} + x_{4} + x_{5} + x_{6} + x_{7} + x_{8}}{8}.$$
@@ -349,11 +351,84 @@ This describes the mean for any sample that we might collect.
 
 ## The mode
 
-Explanation of the mode
+The mode of a dataset is simply the value that appears most often.
+As a simple example, we can again consider the sample dataset of 8 values.
+
+```
+4.2, 5.0, 3.1, 4.2, 3.8, 4.6, 4.0, 3.5
+```
+
+In this dataset, the values 5.0, 3.1, 3.8, 4.6, 4.0, and 3.5 are all represented once.
+But the value 4.2 appears twice, once in the first position and once in the fourth position.
+Because 4.2 therefore appears most frequently in the dataset, it is the mode of the dataset.
+
+Note that it is possible for a dataset to have more than one mode. 
+Also, somewhat confusingly, distributions that have more than one peak are often described as multimodal, even if the peaks are not of the same height [@Sokal1995].
+For example, the histogram in Figure 11.2 might be described as bimodal because it has two distinct peaks (one around 10 and the other around 14), even though these peaks are not the same size.
+
+```{r, echo = FALSE, fig.alt = "An example histogram is shown with a bimodal shape.", fig.cap = "Example histogram of a hypothetical dataset that has a bimodal distribution.", out.width="100%"}
+bimodal_data <- c(rnorm(n = 200, mean = 10), rnorm(n = 150, mean = 14));
+hist(bimodal_data, cex.axis = 1.25, cex.lab = 1.25, 
+     xlab = "Simulated bimodal dataset", main = "");
+```
+
+In very rare cases, data might have a U-shape.
+The lowest point of the U would then be described as the antimode [@Sokal1995].
+
 
 ## The median and quantiles
 
-Notes on the median and quantiles
+The median of a dataset is the middle value when the data are sorted.
+More technically, the median is defined as the value that has the same number of lower and higher values than it [@Sokal1995].
+If there are an odd number of values in the dataset, then finding the median is often easy.
+For example, the median of the values {8, 5, 3, 2, 6} is 5. 
+This is because if we sort the values from lowest to highest (2, 3, 5, 6, 8), the value 5 is exactly in the middle.
+It gets more complicated for an even number of values, such as the sample dataset used for explaining the mean and mode.
+
+```
+4.2, 5.0, 3.1, 4.2, 3.8, 4.6, 4.0, 3.5
+```
+
+We can order these values from lowest to highest.
+
+
+```
+3.1, 3.5, 3.8, 4.0, 4.2, 4.2, 4.6, 5.0
+```
+
+Again, there is no middle value here.
+But we can find a value that has the same number of lower and higher values.
+To do this, we just need to find the mean of the middle 2 numbers, in this case 4.0 and 4.2, which are in positions 4 and 5, respectively.
+The mean of 4.0 and 4.2 is, $(4.0 + 4.2)/2 = 4.1$, so 4.1 is the median value.
+
+The median is a type of quantile.
+A quantile divides a sorted dataset into different percentages that are lower or higher than it.
+Hence, the median could also be called the 50\% quantile because 50\% of values are lower than the median and 50\% of values are higher than it.
+Two other quantiles besides the median are also noteworthy.
+The first quartile (also called the "lower quartile") defines the value for which 25\% of values of lower and 75\% of values are higher.
+The third quartile (also called the "upper quartile") defines the value for which 75\% of values are lower and 25\% of values are higher.
+Sometimes this is easy to calculate. 
+For example, if there are only five values in a dataset, then the lower quartile is the number in the second position when the data are sorted because 1 value (25\%) is below it and 3 values (75\%) are above it.
+For example, for the values {1, 3, 4, 8, 9}, the value 3 is the first quartile and 8 is the third quartile.
+
+In some cases, it is not always this clear.
+We can show how quantiles get more complicated using the same 8 values as above where the first quartiles is somewhere between 3.5 and 3.8.
+
+```
+3.1, 3.5, 3.8, 4.0, 4.2, 4.2, 4.6, 5.0
+```
+
+There are at least 9 different ways to calculate the first quartile in this case, and different statistical software package will sometimes use different default methods [@Hyndman1996].
+One logical way is to calculate the mean between the second (3.5) and third (3.8) position as you would do for the median [@Rowntree2018], $(3.5 + 3.8) / 2 = 3.65$.
+Jamovi uses a slightly more complex method, which will give a value of $3.725$.
+
+It is important to emphasise that no one way of calculating quantiles is the one and only correct way.
+Statisticians have just proposed different approaches to calculating quantiles from data, and these different approaches sometimes give slightly different results.
+This can be unsatisfying when first learning statistics because it would be nice to have a single approach that is demonstrably correct, i.e., the *right* answer under all circumstances.
+Unfortunately, this is not the case here, nor is it the case for a lot of statistical techniques.
+Often there are different approaches to answering the same statistical question and no simple right answer.
+For this module, we will almost always be reporting calculations of quantiles from Jamovi, and we will clearly indicate that this is how they should be calculated for assessment questions.
+But it is important to recognise that different statistical tools might give different answers [@Hyndman1996].
 
 
 # Measures of spread {#Chapter_12}
@@ -478,8 +553,11 @@ Based on the histogram, do you think that the mean and median are the same? Why 
 
 ```
 
-The histogram needs an informative caption.
-To write one in Jamovi, click on the 'Edit' tab at the very top of the toolbar.
+The histogram needs better labelled axes and an informative caption.
+To label the axes better, go back to the data tab and double click on the column heading 'petiole_diameter_mm'. 
+Change the name of the data variable to 'Petiole diameter (mm)'. 
+The newly named variable will then appear when a new histogram of the petiole diameter data is made.
+To write a caption in Jamovi, click on the 'Edit' tab at the very top of the toolbar.
 You will see some blue boxes above and below the histogram, and you can write your caption by clicking on the box immediately below the histogram.
 Write a caption for the histogram below.
 

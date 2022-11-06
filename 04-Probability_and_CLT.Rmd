@@ -49,7 +49,48 @@ General overview
 
 # _Practical_. Probability and simulation
 
-Some of these examples will be similar to what will be on the assessment
+This practical focuses on applying the concepts from chapter 14 and 15 in Jamovi.
+There will be 3 exercises.
+
+1. Calculating probabilities from a dataset.
+2. Calculating probabilities from a normal distribution.
+3. Demonstrating the central limit theorem (CLT).
+
+To complete exercises 2 and 3, we will need to download and install two new Jamovi modules.
+Jamovi Modules are add-ons that make it possible to run specialised statistical tools inside Jamovi.
+These tools are written by a community of statisticians, scientists, and educators and listed in the [Jamovi library](https://www.jamovi.org/library.html).
+Like Jamovi, these tools are open source and free to use.
+
+The dataset for this practical is something a bit different.
+It comes from the [Beacon Project](https://www.thebeaconproject.net/), which is an interdisciplinary scientific research programme led by [Dr Isabel Jones](https://www.stir.ac.uk/people/256518) at the University of Stirling.
+This project focuses on large hydropower dams as a way to understand the trade-offs between different United Nations [Sustainable Development Goals](https://sdgs.un.org/goals).
+It addresses challenging questions about environmental justice, biodiversity, and sustainable development.  
+The project works with people affected, and sometimes displaced, by dam construction in Brazil, Kazakhstan, India, USA, and the UK.
+Part of this project involves the use of mobile games to investigate how people make decisions about sustainable development.
+
+```{r, echo = FALSE, fig.alt = "Decorative image shown of the interface of the mobile app game Power Up!", fig.cap = "Welcome screen of the mobile game Power Up!", out.width="80%"}
+knitr::include_graphics("img/power_up.png")
+```
+
+The game "Power Up!" is available as an [Android](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame) and [iPhone](https://apps.apple.com/gb/app/power-up/id1585634888) app.
+Data are collected from players' decisions and used to investigate social-ecological questions.
+We will use the [power_up]() dataset in exercises 1 and 2.
+Note that these data are already in a tidy format, so we do not need to do any reorganising.
+
+## Probabilities from a dataset
+
+
+
+
+
+## Probabilities from a normal distribution
+
+
+## Central limit theorem
+
+
+
+
 
 ## Calculating probability exercise 1
 
