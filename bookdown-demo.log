@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.5)  6 NOV 2022 22:23
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.5)  9 NOV 2022 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -408,73 +408,88 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count300
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 47.
-(/home/brad/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+(/home/brad/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count301
+\FV@InFile=\read2
+\FV@TabBox=\box57
+\c@FancyVerbLine=\count302
+\FV@StepNumber=\count303
+\FV@OutFile=\write3
+) (/home/brad/.TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip68
+\fb@frw=\dimen157
+\fb@frh=\dimen158
+\FrameRule=\dimen159
+\FrameSep=\dimen160
+) (/home/brad/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count301
-\LTcapwidth=\dimen157
-\LT@head=\box57
-\LT@firsthead=\box58
-\LT@foot=\box59
-\LT@lastfoot=\box60
-\LT@gbox=\box61
-\LT@cols=\count302
-\LT@rows=\count303
-\c@LT@tables=\count304
-\c@LT@chunks=\count305
+\LTleft=\skip69
+\LTright=\skip70
+\LTpre=\skip71
+\LTpost=\skip72
+\LTchunksize=\count304
+\LTcapwidth=\dimen161
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count305
+\LT@rows=\count306
+\c@LT@tables=\count307
+\c@LT@chunks=\count308
 \LT@p@ftn=\toks22
 )
-Class scrbook Info: longtable captions redefined on input line 50.
+Class scrbook Info: longtable captions redefined on input line 90.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen158
-\lightrulewidth=\dimen159
-\cmidrulewidth=\dimen160
-\belowrulesep=\dimen161
-\belowbottomsep=\dimen162
-\aboverulesep=\dimen163
-\abovetopsep=\dimen164
-\cmidrulesep=\dimen165
-\cmidrulekern=\dimen166
-\defaultaddspace=\dimen167
-\@cmidla=\count306
-\@cmidlb=\count307
-\@aboverulesep=\dimen168
-\@belowrulesep=\dimen169
-\@thisruleclass=\count308
-\@lastruleclass=\count309
-\@thisrulewidth=\dimen170
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count309
+\@cmidlb=\count310
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count311
+\@lastruleclass=\count312
+\@thisrulewidth=\dimen174
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen171
-\ar@mcellbox=\box62
-\extrarowheight=\dimen172
+\col@sep=\dimen175
+\ar@mcellbox=\box63
+\extrarowheight=\dimen176
 \NC@list=\toks23
-\extratabsurround=\skip72
-\backup@length=\skip73
-\ar@cellbox=\box63
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box64
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count310
-\calc@Bcount=\count311
-\calc@Adimen=\dimen173
-\calc@Bdimen=\dimen174
-\calc@Askip=\skip74
-\calc@Bskip=\skip75
+\calc@Acount=\count313
+\calc@Bcount=\count314
+\calc@Adimen=\dimen177
+\calc@Bdimen=\dimen178
+\calc@Askip=\skip75
+\calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count312
-\calc@Cskip=\skip76
+\calc@Ccount=\count315
+\calc@Cskip=\skip77
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count313
+\etb@tempcnta=\count316
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
 Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box64
-\fn@width=\dimen175
+\fn@notes=\box65
+\fn@width=\dimen179
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
@@ -486,8 +501,8 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 )
-\Gin@req@height=\dimen176
-\Gin@req@width=\dimen177
+\Gin@req@height=\dimen180
+\Gin@req@width=\dimen181
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks24
@@ -495,9 +510,9 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks26
 \thm@notefont=\toks27
 \thm@headpunct=\toks28
-\thm@preskip=\skip77
-\thm@postskip=\skip78
-\thm@headsep=\skip79
+\thm@preskip=\skip78
+\thm@postskip=\skip79
+\thm@headsep=\skip80
 \dth@everypar=\toks29
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
@@ -505,57 +520,57 @@ Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 Class scrbook Info: amsthm's \deferred@thm@head patched.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip80
-\bibsep=\skip81
+\bibhang=\skip81
+\bibsep=\skip82
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count314
+\c@NAT@ctr=\count317
 ) (./bookdown-demo.aux)
 \openout1 = `bookdown-demo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-Package scrbase Info: activating english \partname on input line 94.
-Package scrbase Info: activating english \chaptername on input line 94.
-Package scrbase Info: activating english \appendixname on input line 94.
-Package scrbase Info: activating english \figurename on input line 94.
-Package scrbase Info: activating english \tablename on input line 94.
-Package scrbase Info: activating english \contentsname on input line 94.
-Package scrbase Info: activating english \listfigurename on input line 94.
-Package scrbase Info: activating english \listtablename on input line 94.
-Package scrbase Info: activating english \bibname on input line 94.
-Package scrbase Info: activating english \indexname on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+Package scrbase Info: activating english \partname on input line 134.
+Package scrbase Info: activating english \chaptername on input line 134.
+Package scrbase Info: activating english \appendixname on input line 134.
+Package scrbase Info: activating english \figurename on input line 134.
+Package scrbase Info: activating english \tablename on input line 134.
+Package scrbase Info: activating english \contentsname on input line 134.
+Package scrbase Info: activating english \listfigurename on input line 134.
+Package scrbase Info: activating english \listtablename on input line 134.
+Package scrbase Info: activating english \bibname on input line 134.
+Package scrbase Info: activating english \indexname on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 94.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 94.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 94.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 94.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 94.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 94.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 134.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 94.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 134.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -581,7 +596,7 @@ Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 94.
+(Font)              scaled to size 10.95pt on input line 134.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -613,15 +628,15 @@ Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 94.
+(Font)              scaled to size 10.95pt on input line 134.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 94.
+(Font)              `operators' in the math version `normal' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 94.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 134.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 94.
+(Font)              `operators' in the math version `bold' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 94.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 134.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -700,13 +715,13 @@ Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 94.
+(Font)              `symbols' in the math version `normal' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 94.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 134.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 94.
+(Font)              `symbols' in the math version `bold' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 94.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 134.
 
 Package fontspec Info: latinmodern-math scale = 0.9999967668407183.
 
@@ -767,41 +782,41 @@ Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             =6.56999pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 94.
+(Font)              `largesymbols' in the math version `normal' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 94.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 134.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 94.
+(Font)              `largesymbols' in the math version `bold' on input line 134.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 94.
-Package hyperref Info: Link coloring ON on input line 94.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 134.
+Package hyperref Info: Link coloring ON on input line 134.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 96.
+(Font)              scaled to size 14.4pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 96.
+(Font)              scaled to size 10.0pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 96.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 96.
+(Font)              scaled to size 7.0pt on input line 136.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 136.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 14.4013pt on input line 96.
+(Font)              scaled to size 14.4013pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 96.
+(Font)              scaled to size 10.00092pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 96.
+(Font)              scaled to size 7.00064pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 14.39845pt on input line 96.
+(Font)              scaled to size 14.39845pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 96.
+(Font)              scaled to size 9.99893pt on input line 136.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 96.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+(Font)              scaled to size 6.99925pt on input line 136.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 136.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 136.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -831,442 +846,442 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
 (Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 23.
 [3] [4]
-Overfull \hbox (2.82748pt too wide) detected at line 96
- []\TU/lmss/bx/n/12 105
+Overfull \hbox (2.82748pt too wide) detected at line 91
+ []\TU/lmss/bx/n/12 109
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 97
- []\TU/lmss/bx/n/10.95 107
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 98
- []\TU/lmss/bx/n/10.95 109
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 99
+Overfull \hbox (1.09497pt too wide) detected at line 92
  []\TU/lmss/bx/n/10.95 111
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 100
+Overfull \hbox (1.09497pt too wide) detected at line 93
  []\TU/lmss/bx/n/10.95 113
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 101
+Overfull \hbox (1.09497pt too wide) detected at line 94
  []\TU/lmss/bx/n/10.95 115
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 102
+Overfull \hbox (1.09497pt too wide) detected at line 95
  []\TU/lmss/bx/n/10.95 117
  []
 
-[5]
-Overfull \hbox (2.82748pt too wide) detected at line 107
- []\TU/lmss/bx/n/12 119
+
+Overfull \hbox (1.09497pt too wide) detected at line 96
+ []\TU/lmss/bx/n/10.95 119
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 108
+Overfull \hbox (1.09497pt too wide) detected at line 97
  []\TU/lmss/bx/n/10.95 121
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 109
+Overfull \hbox (2.82748pt too wide) detected at line 102
  []\TU/lmss/bx/n/12 123
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 110
+Overfull \hbox (1.09497pt too wide) detected at line 103
  []\TU/lmss/bx/n/10.95 125
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 111
- []\TU/lmss/bx/n/10.95 127
+[5]
+Overfull \hbox (2.82748pt too wide) detected at line 104
+ []\TU/lmss/bx/n/12 127
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 112
+Overfull \hbox (1.09497pt too wide) detected at line 105
  []\TU/lmss/bx/n/10.95 129
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 113
+Overfull \hbox (1.09497pt too wide) detected at line 106
  []\TU/lmss/bx/n/10.95 131
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 114
+Overfull \hbox (1.09497pt too wide) detected at line 107
  []\TU/lmss/bx/n/10.95 133
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 115
+Overfull \hbox (1.09497pt too wide) detected at line 108
  []\TU/lmss/bx/n/10.95 135
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 116
+Overfull \hbox (1.09497pt too wide) detected at line 109
  []\TU/lmss/bx/n/10.95 137
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 117
+Overfull \hbox (1.09497pt too wide) detected at line 110
  []\TU/lmss/bx/n/10.95 139
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 118
+Overfull \hbox (1.09497pt too wide) detected at line 111
  []\TU/lmss/bx/n/10.95 141
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 119
+Overfull \hbox (1.09497pt too wide) detected at line 112
  []\TU/lmss/bx/n/10.95 143
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 120
+Overfull \hbox (1.09497pt too wide) detected at line 113
  []\TU/lmss/bx/n/10.95 145
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 121
+Overfull \hbox (1.09497pt too wide) detected at line 114
  []\TU/lmss/bx/n/10.95 147
  []
 
 
-Package tocbasic Warning: number width of part toc entries should be increased!
-(tocbasic)                Currently used number width = 25.128pt,
-(tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 127.
-
-
-Overfull \hbox (3.22801pt too wide) detected at line 127
-\TU/lmss/bx/n/12 VIII. 
+Overfull \hbox (1.09497pt too wide) detected at line 115
+ []\TU/lmss/bx/n/10.95 149
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 127
- []\TU/lmss/bx/n/12 149
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 128
+Overfull \hbox (1.09497pt too wide) detected at line 116
  []\TU/lmss/bx/n/10.95 151
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 129
- []\TU/lmss/bx/n/10.95 153
+Package tocbasic Warning: number width of part toc entries should be increased!
+(tocbasic)                Currently used number width = 25.128pt,
+(tocbasic)                Wanted number separation    = 4.79993pt,
+(tocbasic)                Reserved number width       = 24.0pt on input line 122.
+
+
+Overfull \hbox (3.22801pt too wide) detected at line 122
+\TU/lmss/bx/n/12 VIII. 
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 130
+Overfull \hbox (2.82748pt too wide) detected at line 122
+ []\TU/lmss/bx/n/12 153
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 123
  []\TU/lmss/bx/n/10.95 155
  []
 
-[6]
-Overfull \hbox (1.09497pt too wide) detected at line 131
+
+Overfull \hbox (1.09497pt too wide) detected at line 124
  []\TU/lmss/bx/n/10.95 157
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 132
+Overfull \hbox (1.09497pt too wide) detected at line 125
  []\TU/lmss/bx/n/10.95 159
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 133
+Overfull \hbox (1.09497pt too wide) detected at line 126
  []\TU/lmss/bx/n/10.95 161
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 138
- []\TU/lmss/bx/n/12 163
+Overfull \hbox (1.09497pt too wide) detected at line 127
+ []\TU/lmss/bx/n/10.95 163
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 139
+[6]
+Overfull \hbox (1.09497pt too wide) detected at line 128
  []\TU/lmss/bx/n/10.95 165
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 140
- []\TU/lmss/bx/n/10.95 167
+Overfull \hbox (2.82748pt too wide) detected at line 133
+ []\TU/lmss/bx/n/12 167
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 141
+Overfull \hbox (1.09497pt too wide) detected at line 134
  []\TU/lmss/bx/n/10.95 169
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 142
+Overfull \hbox (1.09497pt too wide) detected at line 135
  []\TU/lmss/bx/n/10.95 171
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 143
+Overfull \hbox (1.09497pt too wide) detected at line 136
  []\TU/lmss/bx/n/10.95 173
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 144
+Overfull \hbox (1.09497pt too wide) detected at line 137
  []\TU/lmss/bx/n/10.95 175
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 145
+Overfull \hbox (1.09497pt too wide) detected at line 138
  []\TU/lmss/bx/n/10.95 177
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 146
+Overfull \hbox (1.09497pt too wide) detected at line 139
  []\TU/lmss/bx/n/10.95 179
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 151
- []\TU/lmss/bx/n/12 181
+Overfull \hbox (1.09497pt too wide) detected at line 140
+ []\TU/lmss/bx/n/10.95 181
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 152
+Overfull \hbox (1.09497pt too wide) detected at line 141
  []\TU/lmss/bx/n/10.95 183
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 153
- []\TU/lmss/bx/n/10.95 185
+Overfull \hbox (2.82748pt too wide) detected at line 146
+ []\TU/lmss/bx/n/12 185
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 154
+Overfull \hbox (1.09497pt too wide) detected at line 147
  []\TU/lmss/bx/n/10.95 187
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 155
+Overfull \hbox (1.09497pt too wide) detected at line 148
  []\TU/lmss/bx/n/10.95 189
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 156
+Overfull \hbox (1.09497pt too wide) detected at line 149
  []\TU/lmss/bx/n/10.95 191
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 157
+Overfull \hbox (1.09497pt too wide) detected at line 150
  []\TU/lmss/bx/n/10.95 193
  []
 
-[7]
-Overfull \hbox (2.82748pt too wide) detected at line 162
- []\TU/lmss/bx/n/12 195
+
+Overfull \hbox (1.09497pt too wide) detected at line 151
+ []\TU/lmss/bx/n/10.95 195
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 163
+Overfull \hbox (1.09497pt too wide) detected at line 152
  []\TU/lmss/bx/n/10.95 197
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 164
- []\TU/lmss/bx/n/10.95 199
+[7]
+Overfull \hbox (2.82748pt too wide) detected at line 157
+ []\TU/lmss/bx/n/12 199
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 165
+Overfull \hbox (1.09497pt too wide) detected at line 158
  []\TU/lmss/bx/n/10.95 201
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 166
+Overfull \hbox (1.09497pt too wide) detected at line 159
  []\TU/lmss/bx/n/10.95 203
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 167
+Overfull \hbox (1.09497pt too wide) detected at line 160
  []\TU/lmss/bx/n/10.95 205
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 168
+Overfull \hbox (1.09497pt too wide) detected at line 161
  []\TU/lmss/bx/n/10.95 207
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 172
- []\TU/lmss/bx/n/12 209
+Overfull \hbox (1.09497pt too wide) detected at line 162
+ []\TU/lmss/bx/n/10.95 209
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 173
+Overfull \hbox (1.09497pt too wide) detected at line 163
  []\TU/lmss/bx/n/10.95 211
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 174
- []\TU/lmss/bx/n/10.95 213
+Overfull \hbox (2.82748pt too wide) detected at line 167
+ []\TU/lmss/bx/n/12 213
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 175
+Overfull \hbox (1.09497pt too wide) detected at line 168
  []\TU/lmss/bx/n/10.95 215
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 176
+Overfull \hbox (1.09497pt too wide) detected at line 169
  []\TU/lmss/bx/n/10.95 217
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 177
+Overfull \hbox (1.09497pt too wide) detected at line 170
  []\TU/lmss/bx/n/10.95 219
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 171
+ []\TU/lmss/bx/n/10.95 221
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 172
+ []\TU/lmss/bx/n/10.95 223
  []
 
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 181.
+(tocbasic)                Reserved number width       = 24.0pt on input line 176.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 181
+Overfull \hbox (3.22801pt too wide) detected at line 176
 \TU/lmss/bx/n/12 XIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 181
- []\TU/lmss/bx/n/12 221
+Overfull \hbox (2.82748pt too wide) detected at line 176
+ []\TU/lmss/bx/n/12 225
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 182
- []\TU/lmss/bx/n/10.95 223
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 183
- []\TU/lmss/bx/n/10.95 225
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 184
+Overfull \hbox (1.09497pt too wide) detected at line 177
  []\TU/lmss/bx/n/10.95 227
  []
 
-[8]
-Overfull \hbox (1.09497pt too wide) detected at line 185
+
+Overfull \hbox (1.09497pt too wide) detected at line 178
+ []\TU/lmss/bx/n/10.95 229
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 179
  []\TU/lmss/bx/n/10.95 231
  []
 
+
+Overfull \hbox (1.09497pt too wide) detected at line 180
+ []\TU/lmss/bx/n/10.95 235
+ []
+
 )
-\tf@toc=\write3
-\openout3 = `bookdown-demo.toc'.
+\tf@toc=\write4
+\openout4 = `bookdown-demo.toc'.
 
-[9] [10
+[8] [9
 
 
-] [11] [12]
+] [10]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 172.
-[13
+(scrkbase)              on input line 212.
+[11
 
 
-] [14] [15
+] [12] [13
 
 
-] [16
+] [14
 
 
 ]
 chapter 1.
-[17] [18
+[15] [16
 
 
 ]
 chapter 2.
-[19] [20
+[17] [18
 
 
 ]
 chapter 3.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 213.
-[21] [22
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 253.
+[19] [20
 
 
 ]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 241.
-[23] [24] [25
+(scrkbase)              on input line 281.
+[21] [22] [23
 
 
-] [26]
+] [24]
 chapter 4.
-[27
+[25
 
 
 ]
 File: img/population_vs_sample.png Graphic file (type bmp)
 <img/population_vs_sample.png>
-[28]
+[26]
 chapter 5.
+[27
+
+
+] [28]
+chapter 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00082pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 456.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 456.
+File: img/accuracy_vs_precision.png Graphic file (type bmp)
+<img/accuracy_vs_precision.png>
 [29
 
 
 ] [30]
-chapter 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 416.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 416.
-File: img/accuracy_vs_precision.png Graphic file (type bmp)
-<img/accuracy_vs_precision.png>
-[31
-
-
-] [32]
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 479--480
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 519--520
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
 
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 493--494
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 533--534
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
-[33] [34]
+[31] [32]
 chapter 7.
-[35
+[33
 
 
-] [36] [37] [38
+] [34] [35] [36
 
 
 ]
@@ -1277,82 +1292,82 @@ File: img/jamovi_toolbar.png Graphic file (type bmp)
 <img/jamovi_toolbar.png>
 File: img/open_soil_organic_carbon.png Graphic file (type bmp)
 <img/open_soil_organic_carbon.png>
-[39] [40]
+[37] [38]
 File: img/jamovi_new_variable.png Graphic file (type bmp)
 <img/jamovi_new_variable.png>
 File: img/jamovi_set_variable.png Graphic file (type bmp)
 <img/jamovi_set_variable.png>
 
-Underfull \hbox (badness 1661) in paragraph at lines 683--686
+Underfull \hbox (badness 1661) in paragraph at lines 723--726
 []\TU/lmr/m/n/10.95 After typing in the new variable ‘soil_type’, add another variable called ‘or-
  []
 
-[41]
+[39]
 File: img/jamovi_exploration.png Graphic file (type bmp)
 <img/jamovi_exploration.png>
-[42] [43] [44]
+[40] [41] [42]
 File: img/jamovi_transform_fig_length.png Graphic file (type bmp)
 <img/jamovi_transform_fig_length.png>
 File: img/jamovi_transform_cm_to_mm.png Graphic file (type bmp)
 <img/jamovi_transform_cm_to_mm.png>
-[45]
+[43]
 Underfull \vbox (badness 2065) has occurred while \output is active []
 
-[46] [47]
+[44] [45]
 File: img/jamovi_compute_new_variable.png Graphic file (type bmp)
 <img/jamovi_compute_new_variable.png>
-[48] [49] [50
+[46] [47] [48
 
 
 ]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 945.
-[51] [52] [53
+(scrkbase)              on input line 985.
+[49] [50] [51
 
 
-] [54
+] [52
 
 
 ]
 chapter 9.
-[55] [56] [57] [58
+[53] [54] [55] [56
 
 
 ]
 chapter 10.
 File: bookdown-demo_files/figure-latex/unnamed-chunk-14-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-14-1.pdf>
-[59]
+[57]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-15-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-15-1.pdf>
-[60]
+[58]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-16-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-16-1.pdf>
-[61]
+[59]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-17-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-17-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-18-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-18-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-19-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-19-1.pdf>
-[62] [63] [64] [65] [66
+[60] [61] [62] [63] [64
 
 
 ]
 chapter 11.
 File: bookdown-demo_files/figure-latex/unnamed-chunk-20-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-20-1.pdf>
-[67] [68] [69]
+[65] [66] [67]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-21-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-21-1.pdf>
-[70] [71] [72]
+[68] [69] [70]
 chapter 12.
-[73
+[71
 
 
-] [74
+] [72
 
 
 ]
@@ -1360,117 +1375,119 @@ chapter 13.
 Missing character: There is no А (U+0410) in font [lmroman9-regular]:mapping=tex-text;!
 File: img/Nymphaea_alba_pads.jpg Graphic file (type bmp)
 <img/Nymphaea_alba_pads.jpg>
-[75]
+[73]
 File: img/lilypad_tidy.png Graphic file (type bmp)
 <img/lilypad_tidy.png>
-[76] [77]
+[74] [75]
 File: img/lilypad_descriptives.png Graphic file (type bmp)
 <img/lilypad_descriptives.png>
 File: img/lilypad_histogram.png Graphic file (type bmp)
 <img/lilypad_histogram.png>
-[78] [79] [80] [81]
+[76] [77] [78] [79]
 File: img/lilypad_summary_statistics.png Graphic file (type bmp)
 <img/lilypad_summary_statistics.png>
-[82] [83] [84] [85] [86
+[80] [81] [82] [83] [84
 
 
 ]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1717.
-[87] [88] [89
+(scrkbase)              on input line 1757.
+[85] [86] [87
 
 
-] [90
+] [88
 
 
 ]
 chapter 14.
-[91] [92
+[89] [90
 
 
 ]
 chapter 15.
-[93] [94
+[91] [92
 
 
 ]
 chapter 16.
 File: img/power_up.png Graphic file (type bmp)
 <img/power_up.png>
-[95]
+[93]
 File: img/jamovi_power_up_frequencies.png Graphic file (type bmp)
 <img/jamovi_power_up_frequencies.png>
-[96] [97]
+[94] [95]
 File: img/jamovi_power_up_frequencies2.png Graphic file (type bmp)
 <img/jamovi_power_up_frequencies2.png>
-[98]
+[96]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-32-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-32-1.pdf>
-[99]
+[97]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-33-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-33-1.pdf>
-[100] [101]
+[98] [99]
 File: img/jamovi_toolbar_modules.png Graphic file (type bmp)
 <img/jamovi_toolbar_modules.png>
-File: img/jamovi_toolbar_modules.png Graphic file (type bmp)
-<img/jamovi_toolbar_modules.png>
-[102] [103] [104
+File: img/jamovi_toolbar_modules_distrACTION.png Graphic file (type bmp)
+<img/jamovi_toolbar_modules_distrACTION.png>
+[100]
+File: img/jamovi_normal_distribution.png Graphic file (type bmp)
+<img/jamovi_normal_distribution.png>
+[101] [102]
+Overfull \vbox (0.52132pt too high) detected at line 2176
+ []
+
+[103]
+File: img/jamovi_RjEditor.png Graphic file (type bmp)
+<img/jamovi_RjEditor.png>
+[104] [105]
+File: img/jamovi_clt.png Graphic file (type bmp)
+<img/jamovi_clt.png>
+[106] [107] [108
 
 
 ]
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2041.
-[105] [106] [107
+(scrkbase)              on input line 2327.
+[109] [110] [111
 
 
-] [108
+] [112
 
 
 ]
 chapter 17.
-[109] [110
-
-
-]
-chapter 18.
-[111] [112
-
-
-]
-chapter 19.
 [113] [114
 
 
 ]
-chapter 20.
+chapter 18.
 [115] [116
 
 
 ]
-chapter 21.
+chapter 19.
 [117] [118
+
+
+]
+chapter 20.
+[119] [120
+
+
+]
+chapter 21.
+[121] [122
 
 
 ]
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2091.
-[119] [120] [121
-
-
-] [122
-
-
-]
-part VII.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2100.
+(scrkbase)              on input line 2377.
 [123] [124] [125
 
 
@@ -1478,269 +1495,280 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 
 ]
+part VII.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 2386.
+[127] [128] [129
+
+
+] [130
+
+
+]
 chapter 22.
-[127] [128
-
-
-]
-chapter 23.
-[129] [130
-
-
-]
-chapter 24.
 [131] [132
 
 
 ]
-chapter 25.
+chapter 23.
 [133] [134
 
 
 ]
-chapter 26.
+chapter 24.
 [135] [136
 
 
 ]
-chapter 27.
+chapter 25.
 [137] [138
 
 
 ]
-chapter 28.
+chapter 26.
 [139] [140
 
 
 ]
-chapter 29.
+chapter 27.
 [141] [142
 
 
 ]
-chapter 30.
+chapter 28.
 [143] [144
 
 
 ]
-chapter 31.
+chapter 29.
 [145] [146
 
 
 ]
-chapter 32.
+chapter 30.
 [147] [148
+
+
+]
+chapter 31.
+[149] [150
+
+
+]
+chapter 32.
+[151] [152
 
 
 ]
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2183.
-[149] [150] [151
+(scrkbase)              on input line 2469.
+[153] [154] [155
 
 
-] [152
+] [156
 
 
 ]
 chapter 33.
-[153] [154
-
-
-]
-chapter 34.
-[155] [156
-
-
-]
-chapter 35.
 [157] [158
 
 
 ]
-chapter 36.
+chapter 34.
 [159] [160
 
 
 ]
-chapter 37.
+chapter 35.
 [161] [162
+
+
+]
+chapter 36.
+[163] [164
+
+
+]
+chapter 37.
+[165] [166
 
 
 ]
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2233.
-[163] [164] [165
+(scrkbase)              on input line 2519.
+[167] [168] [169
 
 
-] [166
+] [170
 
 
 ]
 chapter 38.
-[167] [168
-
-
-]
-chapter 39.
-[169] [170
-
-
-]
-chapter 40.
 [171] [172
 
 
 ]
-chapter 41.
+chapter 39.
 [173] [174
 
 
 ]
-chapter 42.
+chapter 40.
 [175] [176
 
 
 ]
-chapter 43.
+chapter 41.
 [177] [178
 
 
 ]
-chapter 44.
+chapter 42.
 [179] [180
+
+
+]
+chapter 43.
+[181] [182
+
+
+]
+chapter 44.
+[183] [184
 
 
 ]
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2287.
-[181] [182] [183
+(scrkbase)              on input line 2573.
+[185] [186] [187
 
 
-] [184
+] [188
 
 
 ]
 chapter 45.
-[185] [186
-
-
-]
-chapter 46.
-[187] [188
-
-
-]
-chapter 47.
 [189] [190
 
 
 ]
-chapter 48.
+chapter 46.
 [191] [192
 
 
 ]
-chapter 49.
+chapter 47.
 [193] [194
+
+
+]
+chapter 48.
+[195] [196
+
+
+]
+chapter 49.
+[197] [198
 
 
 ]
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2331.
-[195] [196] [197
+(scrkbase)              on input line 2617.
+[199] [200] [201
 
 
-] [198
+] [202
 
 
 ]
 chapter 50.
-[199] [200
-
-
-]
-chapter 51.
-[201] [202
-
-
-]
-chapter 52.
 [203] [204
 
 
 ]
-chapter 53.
+chapter 51.
 [205] [206
 
 
 ]
-chapter 54.
+chapter 52.
 [207] [208
+
+
+]
+chapter 53.
+[209] [210
+
+
+]
+chapter 54.
+[211] [212
 
 
 ]
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2376.
-[209] [210] [211
+(scrkbase)              on input line 2662.
+[213] [214] [215
 
 
-] [212
+] [216
 
 
 ]
 chapter 55.
-[213] [214
-
-
-]
-chapter 56.
-[215] [216
-
-
-]
-chapter 57.
 [217] [218
 
 
 ]
-chapter 58.
+chapter 56.
 [219] [220
+
+
+]
+chapter 57.
+[221] [222
+
+
+]
+chapter 58.
+[223] [224
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2416.
-[221] [222] [223
+(scrkbase)              on input line 2702.
+[225] [226] [227
 
 
-] [224
+] [228
 
 
 ]
 chapter A.
-[225] [226
+[229] [230
 
 
 ]
 chapter B.
-[227] [228] [229] [230]
+[231] [232] [233] [234]
 chapter C.
-(./bookdown-demo.bbl [231
+(./bookdown-demo.bbl [235
 
 
-] [232
+] [236
 
 
 ]
@@ -1748,14 +1776,14 @@ Underfull \hbox (badness 1152) in paragraph at lines 16--21
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[233]) [234] (./bookdown-demo.aux) ) 
+[237]) [238] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 21805 strings out of 477643
- 425820 string characters out of 5841182
- 1066031 words of memory out of 5000000
- 42637 multiletter control sequences out of 15000+600000
+ 22370 strings out of 477643
+ 436066 string characters out of 5841182
+ 1076338 words of memory out of 5000000
+ 43190 multiletter control sequences out of 15000+600000
  478651 words of font info for 104 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,9n,121p,10636b,505s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (234 pages).
+Output written on bookdown-demo.pdf (238 pages).

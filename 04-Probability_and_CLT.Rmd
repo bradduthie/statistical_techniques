@@ -261,7 +261,7 @@ For example, the middle bar of values illustrating scores between 90 and 100 app
 Nevertheless, the two distributions broadly overlap, so we might be willing to assume that the player scores represented in the histogram bars are sampled from the population described by the curve.
 
 Because the curve relating player score to probability density is described by an equation (see [Chapter 14](#Chapter_14)), we can use that equation to make inferences about the probabilities of different ranges of scores.
-The simplest example is the mean.
+The simplest example is the mean of the distribution.
 Because the normal distribution is symmetric, the area to the left of the mean must be the same as the area to the right of the mean.
 And since the whole area under the curve must sum to 1, we can conclude that the probability of sampling a player score that is less than the mean is 1/2, and the probability of sampling a player score greater than the mean is also 1/2.
 Traditionally, we would need to do some maths to get other player score probabilities, but Jamovi can do this much more easily.
@@ -279,39 +279,310 @@ Click the 'Install' button to install it into Jamovi.
 A new button in the toolbar called 'distrACTION' should become visible (Figure 16.6).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown, which includes an option on the far right hand side called 'modules' and a button called distrACTION.", fig.cap = "Jamovi tool bar, which includes an added module called distrACTION.", out.width="100%"}
-knitr::include_graphics("img/jamovi_toolbar_modules.png")
+knitr::include_graphics("img/jamovi_toolbar_modules_distrACTION.png")
 ```
 
 If the module is not there, then it should be possible to find by again going to Modules and selecting distrACTION from the pulldown menu.
 Click on the module and choose 'Normal Distribution' from the pulldown menu.
+Next, we can see a box for the mean and standard deviation (SD) under the 'Parameters' subtitle in bold.
+Put the mean and the standard deviation calculated from above into these boxes.
+In the panel on the right, Jamovi will produce the same normal distribution that is in Figure 16.5 (note that the axes might be scaled a bit differently).
 
+Given this normal distribution, we can compute the probability that a player scores less than x1 = 80 by checking the box 'Compute probability', which is located just under 'Function' (Figure 16.8).
+We can then select the first radio button to find the probability that a randomly sampled value X from this distribution is less than x1, $P(X \leq x1)$.
+Notice in the panel on the right that the probability is given as $P =$ `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`.
+This is also represented in the plot of the normal distribution, with the same proportion in the lower part of the distribution shaded ($P =$ `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`, i.e., ca `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3) * 100` per cent).
+
+```{r, echo = FALSE, fig.alt = "Jamovi options for a module that calculates probabilities associated with a normal distribution, with computing probability checkboxes and radio buttons selected", fig.cap = "Jamovi options for the distrACTION module for computing probability for a given normal distribution. The example shown here calculates the probability that a value sampled from the normal distribution of interest is less than 80.", out.width="80%"}
+knitr::include_graphics("img/jamovi_normal_distribution.png")
+```
+
+To find the probability that a value is greater than 80, we could subtract our answer of `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)` from 1, $1 - `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)` = `r 1 - round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`$ (remember that the total area under the normal curve equals 1, so the shaded plus the unshaded region must also equal 1; hence, 1 minus the shaded region gives us the unshaded region).
+We could also just select the second radio button for $P(X \geq x1)$.
+Give this a try, and notice that the shaded and unshaded regions have flipped in the plot, and we get our answer in the table of $P =$ `r 1 - round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`.
+
+Finally, to compute the probability of an interval, we can check the third radio button and set x2 in the bottom box (Figure 16.8). 
+For example, to see the probability of a score between 80 and 120, we can choose select $P(x1 \leq X \leq x2)$, then setting x2 = 120 in the bottom box.
+Notice where the shaded area is in the newly drawn plot.
+What is the probability of a player getting a score between 80 and 120?
+
+$P(80 \leq X \leq 120)$ = : __________________________
+
+What is the probability of a player getting a score greater than 130?
+
+$P(X \geq 130)$ = : __________________________
+
+Now try the following probabilities for different scores.
+
+$P(X \geq 120)$ = : __________________________
+
+
+$P(X \leq 100)$ = : __________________________
+
+
+$P(100 \leq X \leq 120)$ = : __________________________
+
+Note, these last three were the same intervals that you guessed using the histogram. 
+How close was your original guess to the calculations above?
+
+```
+
+
+
+
+
+
+
+
+```
+
+
+One last one.
+What is the probability of a player getting a score lower than 70 or higher than 130?
+
+$P(X \leq 70 \: | \: X \geq 130)$ = : __________________________
+
+There is more than one way to figure this last one out.
+How did you do it, and what was your reasoning?
+
+
+```
+
+
+
+
+
+
+
+
+```
+
+
+We will now move on to the central limit theorem.
 
 
 ## Central limit theorem
 
 
+To demonstrate the central limit theorem, we need to download and install another module in Jamovi.
+This time, go to 'Modules', and from the 'Available' tab, scroll down until you find 'Rj' in the Jamovi library.
+Install 'Rj', then a new button 'R' should become available in the toolbar.
+This will allow us to run a bit of script using the coding language R.
+We will work with R a bit more in future practicals, but for now you will not need to do anymore than copying and pasting code.
+For now, click on the new 'R' button in the toolbar and select 'Rj Editor' from the pulldown menu.
+You will see an open editor; this is where the code will go.
+If it has some code in it already (e.g., `# summary(data[1:3])`), just delete it so that we can start with a clean slate.
+Copy and paste the following lines into the Rjeditor.
+
+
+```{r, eval = FALSE}
+v1  <- runif(n = 200, min = 0, max = 100);
+v2  <- runif(n = 200, min = 0, max = 100);
+v3  <- runif(n = 200, min = 0, max = 100);
+v4  <- runif(n = 200, min = 0, max = 100);
+v5  <- runif(n = 200, min = 0, max = 100);
+v6  <- runif(n = 200, min = 0, max = 100);
+v7  <- runif(n = 200, min = 0, max = 100);
+v8  <- runif(n = 200, min = 0, max = 100);
+v9  <- runif(n = 200, min = 0, max = 100);
+v10 <- runif(n = 200, min = 0, max = 100);
+v11 <- runif(n = 200, min = 0, max = 100);
+v12 <- runif(n = 200, min = 0, max = 100);
+v13 <- runif(n = 200, min = 0, max = 100);
+v14 <- runif(n = 200, min = 0, max = 100);
+v15 <- runif(n = 200, min = 0, max = 100);
+v16 <- runif(n = 200, min = 0, max = 100);
+v17 <- runif(n = 200, min = 0, max = 100);
+v18 <- runif(n = 200, min = 0, max = 100);
+v19 <- runif(n = 200, min = 0, max = 100);
+v20 <- runif(n = 200, min = 0, max = 100);
+v21 <- runif(n = 200, min = 0, max = 100);
+v22 <- runif(n = 200, min = 0, max = 100);
+v23 <- runif(n = 200, min = 0, max = 100);
+v24 <- runif(n = 200, min = 0, max = 100);
+v25 <- runif(n = 200, min = 0, max = 100);
+v26 <- runif(n = 200, min = 0, max = 100);
+v27 <- runif(n = 200, min = 0, max = 100);
+v28 <- runif(n = 200, min = 0, max = 100);
+v29 <- runif(n = 200, min = 0, max = 100);
+v30 <- runif(n = 200, min = 0, max = 100);
+v31 <- runif(n = 200, min = 0, max = 100);
+v32 <- runif(n = 200, min = 0, max = 100);
+v33 <- runif(n = 200, min = 0, max = 100);
+v34 <- runif(n = 200, min = 0, max = 100);
+v35 <- runif(n = 200, min = 0, max = 100);
+v36 <- runif(n = 200, min = 0, max = 100);
+v37 <- runif(n = 200, min = 0, max = 100);
+v38 <- runif(n = 200, min = 0, max = 100);
+v39 <- runif(n = 200, min = 0, max = 100);
+v40 <- runif(n = 200, min = 0, max = 100);
+
+hist(x = v1, main = "", xlab = "Random uniform variable");
+```
+
+
+What this code is doing is creating 40 different datasets of 200 random numbers from 0 to 100 (there is a way to do all of this in much fewer lines of code, but it requires a bit more advanced use of R).
+The `hist` function plots a histogram of the first variable.
+To run the code, find the green triangle in the upper right (Figure 16.9).
+
+```{r, echo = FALSE, fig.alt = "Jamovi window with an R editor open and several lines of code for generating uniform numbers.", fig.cap = "Jamovi interface for the Rj Editor module. Code can be run by clicking on the green triangle in the upper left.", out.width="80%"}
+knitr::include_graphics("img/jamovi_RjEditor.png")
+```
+
+
+When you run the code, the 40 new variables will be created, each variable being made up of 200 random numbers.
+The histogram for `v1` is plotted to the right (to plot other variables, substitute `v1` in the `hist` function for some other variable).
+How would you describe the shape of the distribution of `v1`?
+
+```
 
 
 
-## Calculating probability exercise 1
 
-Example exercise 1 with some simple probability calculations
 
-## Calculating probability exercise 2
 
-Example exercise 2 with some simple probability calculations
 
-## Calculating probability from normal distribution
 
-Example exercise for getting a the probability of some value sampled above, below, or between some threshold in Jamovi.
+```
 
-## Normal distribution and sample size
 
-Showing how we get closer to the normal distribution as sample size increases in Jamovi.
+Next, we are going to get the mean value of each of the 40 variables. 
+To do this, copy the code below and paste it at the bottom of the Rj Editor (somewhere below the `hist` function).
 
-## Simulating the central limit theorem
+```{r, eval = FALSE}
+m1  <- mean(v1);
+m2  <- mean(v2);
+m3  <- mean(v3);
+m4  <- mean(v4);
+m5  <- mean(v5);
+m6  <- mean(v6);
+m7  <- mean(v7);
+m8  <- mean(v8);
+m9  <- mean(v9);
+m10 <- mean(v10);
+m11 <- mean(v11);
+m12 <- mean(v12);
+m13 <- mean(v13);
+m14 <- mean(v14);
+m15 <- mean(v15);
+m16 <- mean(v16);
+m17 <- mean(v17);
+m18 <- mean(v18);
+m19 <- mean(v19);
+m20 <- mean(v20);
+m21 <- mean(v21);
+m22 <- mean(v22);
+m23 <- mean(v23);
+m24 <- mean(v24);
+m25 <- mean(v25);
+m26 <- mean(v26);
+m27 <- mean(v27);
+m28 <- mean(v28);
+m29 <- mean(v29);
+m30 <- mean(v30);
+m31 <- mean(v31);
+m32 <- mean(v32);
+m33 <- mean(v33);
+m34 <- mean(v34);
+m35 <- mean(v35);
+m36 <- mean(v36);
+m37 <- mean(v37);
+m38 <- mean(v38);
+m39 <- mean(v39);
+m40 <- mean(v40);
 
-Doing the example from a uniform distribution in Jamovi.
+all_means <- c(m1,  m2,  m3,  m4,  m5,  m6,  m7,  m8,  m9,  m10, 
+               m11, m12, m13, m14, m15, m16, m17, m18, m19, m20,
+               m21, m22, m23, m24, m25, m26, m27, m28, m29, m30,
+               m31, m32, m33, m34, m35, m36, m37, m38, m39, m40);
+```
+
+
+Now we have calculated the mean for each variable.
+The last line of code defines `all_means`, which makes a new dataset that includes the mean value of each of our original variables.
+Think about what you think the distribution of these mean values will look like. 
+Sketch what you predict the shape of its distribution will be below.
+
+```
+
+
+
+
+
+
+
+
+```
+
+
+Now, add one more line of code to the very bottom of the Rj Editor.
+
+
+```{r, eval = FALSE}
+hist(x = all_means, main = "", xlab = "All variable means");
+```
+
+This last line will make a histogram of the means of all 40 variables.
+Click the green button again to run the code.
+Compare the distribution of the original `v1` to the means of variables 1-40, and to your prediction above.
+Is this what you expected?
+As best you can, explain why the shapes of the two distributions differ.
+
+
+```
+
+
+
+
+
+
+
+
+```
+
+We did all of this the long way to make it easier to see and think about the relationship between the original, uniformly distributed, variables and the distribution of their means.
+Now, we can repeat this more quickly using one more Jamovi module.
+Go to 'Modules', and from the 'Available' tab, download the 'clt - Demonstrations' module from the Jamovi library.
+Once it is downloaded, go to the 'Demonstrations' button in the Jamovi toolbar and select 'Central Limit Theorem' from the pulldown menu.
+
+
+```{r, echo = FALSE, fig.alt = "Jamovi window with the central limit theorem (CLT) module open and boxes for changing the distribution, sample size, and trial number", fig.cap = "Jamovi interface for the 'Demonstrations' module, which allows users to randomly generate data from a specific source distribution (normal, uniform, geometric, lognormal, and binary), sample size, and number of trials (i.e., variables)", out.width="80%"}
+knitr::include_graphics("img/jamovi_clt.png")
+```
+
+
+To replicate what we did in the Rjeditor above, we just need to set the 'Source distribution' to 'uniform' using the pulldown menu, set the sample size to 200, and set the number of trials to 40 (Figure 16.10).
+Try doing this, then look at the histogram generated to the lower right.
+It should look similar, but not identical, to the histogram produced with the R code.
+Now try increasing the number of trials to 200. 
+What happens to the histogram?
+What about when you increase the number of trials to 2000?
+
+
+```
+
+
+
+
+
+
+
+
+```
+
+Try playing around with different source distributions, sample sizes, and numbers of trials.
+What general conclusion can you make about the distribution of sample means from the different distributions?
+
+```
+
+
+
+
+
+
+
+
+```
 
 
 
