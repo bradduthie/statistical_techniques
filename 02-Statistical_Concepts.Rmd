@@ -15,13 +15,19 @@ output:
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Optional:** @Rowntree2018 Chapter 2 |
 |                 | **Advanced:** @Spiegelhalter2019 Chapters 1-3 |
-| **Lectures**    | 2.0: Introduction to Week 1 (2 min.) |
+| **Lectures**    | 2.0: Introduction to Week 2 (2 min.) |
 |                 | 2.1: Why study statistics? (18 min.) |
 |                 | 2.2: Populations and samples (7 min.) |
 |                 | 2.3: Types of variables (11 min.) |
 |                 | 2.4: Units, precision, and accuracy (9 min.) |
 |                 | 2.5. Uncertainty propagation (11 min.) |
 | **Practical**   | Introduction to Jamovi          |
+|                 |   Room: Cottrell 2A17         |
+|                 |   Group A: 01 FEB 2023 (WED) 13:05-15:55 |
+|                 |   Group B: 02 FEB 2023 (THU) 09:05-11:55 |
+| **Help hours**  | Ian Jones                       |
+|                 |   Room: Cottrell 1A13           |
+|                 |   03 FEB 2023 (FRI) 15:05-17:55 |
 | **Assessments** | Week 2 Practice quiz on Canvas  |
 
 In [Chapter 4](#Chapter_4), we focus on key concepts that will be used throughout this module.
