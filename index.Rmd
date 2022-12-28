@@ -75,7 +75,11 @@ How we will use Canvas, and how this book relates to it (Learning and Teaching c
 
 ## Timetable
 
-
+```{r, echo = FALSE}
+schedule <- read.csv("data/schedule.csv");
+knitr::kable(schedule, format = "simple", table.envir = "table",
+             caption = "Table caption.");
+```
 
 
 

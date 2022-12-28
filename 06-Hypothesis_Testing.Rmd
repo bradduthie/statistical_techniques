@@ -1,0 +1,83 @@
+# (PART) Hypothesis testing {-}
+
+# Week 6 Overview {-}
+
+General overview of what will be the focus of this week.
+
+Week: 6
+Dates: 
+Suggested Readings: Textbook
+Assessments: Practice quiz
+Practical:
+
+# What is hypothesis testing?
+
+An explanation of this, and that we are starting to get into some of the more interesting bits of inferential statistics.
+
+# Making and using hypotheses and types of tests
+
+What this means, and why it is important.
+
+# An example of hypothesis testing
+
+Errors
+
+# Hypothesis testing and confidence intervals
+
+Relationship between these two.
+
+# Student t-distribution and one sample t-test
+
+What this is and how to do it in Jamovi.
+
+# Another example of a one sample t-test
+
+From the lectures
+
+
+# Independent t-test
+
+What this is and how to use it in Jamovi.
+
+
+# Paired sample t-test
+
+Another explanation, example, and how to do it in Jamovi.
+
+
+# Violations of assumptions
+
+What to do in this case
+
+# Non-parametric tests, and what these are.
+
+Explanation of how to do them in Jamovi.
+
+# _Practical_. Hypothesis testing and t-tests
+
+## Exercise on a simple one sample t-test
+
+## Exercise on an independent sample t-test
+
+## Exercise involving multiple comparisons
+
+
+## Exercise with non-parametric
+
+
+## Another exercise with non-parametric
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
