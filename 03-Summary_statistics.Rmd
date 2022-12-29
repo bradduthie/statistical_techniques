@@ -16,9 +16,32 @@
 |                 | 3.5: The mode (7 min.) |
 |                 | 3.6: The median and quantiles (8 min.) |
 |                 | 3.7: Mean, mode, median, and resistance (9 min.) |
-| **Practical**   | Plotting and statistical summaries         |
+| **Practical**   | Plotting and statistical summaries ([Chapter 13](#Chapter_13))       |
+|                 |   Room: Cottrell 2A17         |
+|                 |   Group A: 08 FEB 2023 (WED) 13:05-15:55 |
+|                 |   Group B: 09 FEB 2023 (THU) 09:05-11:55 |
+| **Help hours**  | Ian Jones                       |
+|                 |   Room: Cottrell 1A13           |
+|                 |   10 FEB 2023 (FRI) 15:05-17:55 |
 | **Assessments** | Week 3 Practice quiz on Canvas  |
 
+
+[Chapter 9](#Chapter_9) focuses on how to report numbers with accuracy and precision.
+In practice, this means reporting values with the correct number of digits (decimal places and significant figures), and rounding appropriately.
+
+[Chapter 10](#Chapter_10) introduces different types of graphs for communicating data visually. 
+The chapter focuses specifically on histograms, pie charts, barplots, and box-whisker plots.
+
+[Chapter 11](#Chapter_11) introduces measures of central tendency.
+These are measures that describe the centre of the data using a single number.
+Measures of central tendency in this chapter include the mean, the mode, the median, and quantiles.
+
+[Chapter 12](#Chapter_12) introduces on measures of spread.
+In contrast to measures of central tendency, which focus on the centre of a dataset, measures of spread focus on how much the data are spread out.
+Measures of spread in this chapter in clude the range, the inter-quartile range, the variance, the standard deviation, the coefficient of variation, and the standard error.
+
+[Chapter 13](#Chapter_13) guides you through the week 3 practical. 
+The aim of this practical is to learn how to use Jamovi to generate plots introduced in [Chapter 10](#Chapter_10), and to find measures of central tendency and spread introduced in [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12), respectively, and report them accurately using the knowledge from [Chapter 9](#Chapter_9).
 
 
 # Decimal places, significant figures, and rounding {#Chapter_9}
@@ -761,7 +784,8 @@ This collecting of 10 water samples is repeated 20 different times.
 Each row is a different sampling effort, and columns report the 10 samples from each effort.
 
 ```{r, echo = FALSE}
-knitr::kable(water_se_array, caption = "Simulated samples of nitrogen content from water samples of Airthrey Loch. Values are sampled from a normal distribution with a mean of 0.7 and a standard deviation 0.1.");
+knitr::kable(water_se_array, format = "simple", table.envir = "table",
+             caption = "Simulated samples of nitrogen content from water samples of Airthrey Loch. Values are sampled from a normal distribution with a mean of 0.7 and a standard deviation 0.1.");
 ```
 
 We can calculate the mean of each sample by calculating the mean of each row.

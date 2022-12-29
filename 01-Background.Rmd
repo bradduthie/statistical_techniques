@@ -17,7 +17,7 @@ output:
 | **Lectures**    | 1.0: Introduction to Module (20 min.) |
 |                 | 1.1: Numbers and operations (18 min.) |
 |                 | 1.2: Orders of operations    (7 min.) |
-| **Practical**   | Preparing real datasets          |
+| **Practical**   | Preparing data ([Chapter 3](#Chapter_3))  |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 25 JAN 2023 (WED) 13:05-15:55 |
 |                 |   Group B: 26 JAN 2023 (THU) 09:05-11:55 |
@@ -25,6 +25,7 @@ output:
 |                 |   Room: Cottrell 1A13           |
 |                 |   27 JAN 2023 (FRI) 15:05-17:55 |
 | **Assessments** | Week 1 Practice quiz on Canvas  |
+|                 |                                 |
 
 
 [Chapter 1](#Chapter_1) will review some background mathematics that is relevant the statistical techniques that you will learn in this module.
@@ -395,7 +396,33 @@ We can refer to the a specific cell by its letter and number combination.
 For example, the active cell in Figure 2.3 is F3, which has a value of '3' indicating the value recorded in that specific sample (in this case, foundress pollinators in the fig fruit).
 We will look more at how to interact with the spreadsheet in the [Chapter 3](#Chapter_3) lab practical, but for now we will focus on how the data are organised.
 
-[EXPLAIN TIDY DATA HERE]
+There are a lot of potential ways that data can be organised in a spreadsheet.
+For good statistical analysis, there are a few principles that are helpful to follow.
+When collecting data, we record observations on different units.
+For example, we might make measurements on different trees, or different patches of land, or different samples of soil. 
+In this case, our trees, land patches, or soil samples are our units of **observation**.
+Each attribute of a unit that we are measuring is a **variable**.
+These variables might include tree heights and leaf lengths, forest cover in a patch of land, or carbon and nitrogen content of a soil sample.
+Tidy datasets that can be used in statistical analysis are defined by three characteristics [@Wickham2014].
+
+1. Each variable gets its own column.
+2. Each observation gets its own row.
+3. Different units of observation require different data files.
+
+If, for example, we were to measure the heights and seed numbers for 4 trees, we might organise the data as in Table 2.1.
+
+| Tree  |  Species     |  Height (m)  |  Leaf length (cm)   |
+|-------|--------------|--------------|---------------------|
+| 1     |  Oak         |  20.3        |  8.1                | 
+| 2     |  Oak         |  25.4        |  9.4                |
+| 3     |  Maple       |  18.2        |  12.5               |
+| 4     |  Maple       |  16.7        |  11.3               |
+
+Table: Hypothetical tidy data set in which each column of data is a variable and each row of data is an observational unit (tree).
+
+By convention [@Wickham2014], variables tend to be in the left-most columns if they are known in advance or fixed in some way by the data collection or experiment (e.g., tree number or species in Table 2.1).
+In contrast, variables that are actually measured tend to be in the right-most columns (e.g., tree height or seed number).
+This is more for readability of the data; statistical software such as Jamovi will not care about the order of data columns.
 
 
 ## Data files
@@ -437,7 +464,7 @@ Overall, the important point is that saving data in a text file format such as C
 
 
 
-# _Practical_: Preparing real datasets {#Chapter_3}
+# _Practical_: Preparing data {#Chapter_3}
 
 In this practical, we will use a spreadsheet to organise datasets following the tidy approach explained in [Chapter 2](#Chapter_2), then save these datasets as CSV files to be opened in Jamovi statistical software.
 The data organisation in this lab can be completed using [LibreOffice Calc](https://www.libreoffice.org/discover/calc/), MS Excel, or [Google Sheets](https://docs.google.com/spreadsheets/).
@@ -452,7 +479,8 @@ These data include information recorded in the field and shown in Figure 2.2, pl
 The goal is to get all of this information into a tidy format and save it as a CSV file.
 Exercise 2 presents some data on the number of eggs produced by five different fig wasp species (more on these in [Chapter 8](#Chapter_8)).
 The data are in an untidy format, so the goal is to reorganise them and save them as a tidy CSV file.
-Exercise 3 presents data that are even more messy.
+Exercise 3 presents counts of the same five fig wasp species as in Exercise 2, which need to be reorganised in a tidy format.
+Exercise 4 presents data that are even more messy.
 These are morphological measurements of the same five species of wasps, including lengths and widths of wasp heads, thoraxes, and abdomens.
 The goal in this exercise is to tidy the data, then estimate total wasp volume from the morphological measurements using mathematical formulas.
 
@@ -464,7 +492,7 @@ Due to the nature of the work, the data needed to be recorded in notebooks and c
 The first location was the field, where data were collected identifying tree locations and fruit dimensions.
 Baja is hot and sunny; fruit measurements were made with a ruler and recorded in a field notebook.
 
-```{r, echo = FALSE, fig.alt = "A large tree is shown in the desert with a person dressed in tan clothes in the foreground", fig.cap = "A fully grown Sonoran Desert Rock Fig (*Ficus petiolaris*) in the desert of Baja, Mexico.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "A large tree is shown in the desert with a person dressed in tan clothes in the foreground", fig.cap = "A fully grown Sonoran Desert Rock Fig in the desert of Baja, Mexico.", out.width="100%"}
 knitr::include_graphics("img/Ficus_petiolaris.jpg")
 ```
 
@@ -479,8 +507,8 @@ knitr::include_graphics("img/handwritten_data.jpg")
 ```
 
 The best place to start is with an empty spreadsheet, so open a new one in LibreOffice Calc, MS Excel, or Google Sheets.
-Remember that each row will be a unique sample; in this case, a unique fig fruit from which observations were recorded. 
-Each column will be a characteristic of that sample.
+Remember that each row will be a unique observation; in this case, a unique fig fruit from which observations were recorded. 
+Each column will be a variable of that observation.
 Fortunately, the data in Figure 3.2 are already looking quite tidy.
 The information here can be put into the spreadsheet mostly as written in the notebook.
 But there are a few points to keep in mind:
@@ -518,9 +546,9 @@ It is always good to be able to go back and check.
 There are at least two other potential sources of human error in counting seeds and inputting them into the spreadsheet, one before, and one after counting the tallies.
 Fill in 1 and 3 below with potential causes of error.
 
-1. ____________________________________________________
+1. 
 2. Tallies are not counted correctly in the lab notebook
-3. ____________________________________________________
+3. 
 
 Next, create a new column in the spreadsheet and call it "Seeds" (use column K).
 Fill in the seed counts for each of the six rows.
@@ -560,9 +588,31 @@ Are there any missing data in this dataset? _____________________
 Save the tidy dataset to a CSV file.
 It might be a good idea to check with classmates and an instructor to confirm that the dataset is in the correct format.
 
+
 ## Exercise 3
 
-Exercise 3 requires some restructuring and calculations.
+Exercise 3 is, like Exercise 2, self-guided.
+The data are presented in a fairly common, but untidy, format, and the challenge is to reorganise them into a tidy dataset that is ready for statistical analysis.
+Table 3.1 shows the number of different species of wasps counted in 5 different fig fruits.
+Rows list all of the species and columns list the fruits, with the counts in the middle, which is an efficient way to present the data so that they are all easy to see, but this will not work for running statistical analysis.
+
+
+```{r, echo = FALSE}
+wasps_cross_table <- read.csv("data/wasps_cross_table.csv");
+knitr::kable(wasps_cross_table, format = "simple", table.envir = "table",
+             caption = "An efficienty but untidy way to present count data. Counts of different species of fig wasps (rows) in 5 different fig fruits (columns). Data were originally collected from Baja, Mexico in 2010.");
+```
+
+This problem might be a bit more challenging than Exercise 2.
+The goal is to use the above information to create a tidy dataset.
+Remember that each observation (wasp counts, in this case) should get its own row, and each variable should get its own column.
+Try creating a tidy dataset from the information in Table 3.1, then save the dataset to a CSV file.
+As with Exercise 2, it might be good to confer with classmates and an instructor to confirm that the dataset is in the correct format and will work for statistical analysis.
+
+
+## Exercise 4
+
+Exercise 4 requires some restructuring and calculations.
 The dataset that will be used in this exercise includes morphological measurements from five species of fig wasps, the same species used in Exercise 2.
 **Download this dataset from the file [wasp_morphology_untidy.xlsx](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wasp_morphology_untidy.xlsx) (XLSX file) or [wasp_morphology_untidy.ods](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wasp_morphology_untidy.ods) (ODS open-source file).**
 Both files contain identical information, so which one you use is a matter of personal preference.
@@ -633,7 +683,7 @@ If the values of `B2` or `C2` were to change, then so would the calculated value
 Also notice that we are using parentheses to make sure that the order of operations is correct. 
 We want to add head length and width before dividing by two, so we type `((B2+C2)/2)` to ensure with the innermost parentheses that head length and width are added before dividing.
 Once all of this is completed, we raise everything in parentheses to the third power using the `^3`, so `((B2+C2)/2)^3`.
-In general, the different mathematical operations can be carried out using the the symbols in Table 3.1.
+In general, the different mathematical operations can be carried out using the the symbols in Table 3.2.
 
 | Symbol   | Operation                  |
 |----------|----------------------------|
@@ -646,7 +696,7 @@ In general, the different mathematical operations can be carried out using the t
 
 Table: List of mathematical operations available in a spreadsheet.
 
-The last operation in Table 3.1 is a function that takes the square-root of anything within the parentheses.
+The last operation in Table 3.2 is a function that takes the square-root of anything within the parentheses.
 Other functions are also available that can make calculations across cells (e.g., `SUM` or `AVERAGE`), but we will ignore these for now.
 
 Once head volume is calculated for the first wasp in cell H2, it is very easy to do the rest.

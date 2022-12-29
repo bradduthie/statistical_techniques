@@ -24,56 +24,56 @@ description: "This is a minimal example of using the bookdown package to write a
 
 Welcome to the module. This workbook will be used throughout the semester and contain all of the information that you need for the statistical techniques (SCIU4T4) module.
 
-## What is statistics?
+## What is statistics? {-}
 
 An explanation of the material, and what will be taught.
 
-## Why this module is important
+## Why this module is important {-}
 
 Some discussion of module importance
 
-## Teaching overview
+## Teaching overview {-}
 
 Here is how you will be taught, with online lectures, reading assignments, and face-to-face practicals.
 
-## Assessment overview
+## Assessment overview {-}
 
 You will have one formative test and two summatitive tests. You will also have one mock exam and one exam exam.
 
-### Test 1F
+### Test 1F {-}
 
 Information about Test 1F
 
-### Test 1S 
+### Test 1S  {-}
 
 Information about Test 1S
 
-### Test 2S 
+### Test 2S {-}
 
 Information about Test 1S
 
-### Mock Exam
+### Mock Exam {-}
 
 Information about the mock exam
 
-### Exam 
+### Exam  {-}
 
 Information about the exam
 
-## Jamovi statistical software {#intro_jamovi}
+## Jamovi statistical software {-}
 
 Introduction to [Jamovi](https://www.jamovi.org/), and why we are using it instead of other software.
 
-## Textbooks
+## Textbooks {-}
 
 Introduction to the primary textbook [Learning statistics with jamovi](https://www.learnstatswithjamovi.com/), and a mention of other sources.
 
 
-## Canvas
+## Canvas {-}
 
 How we will use Canvas, and how this book relates to it (Learning and Teaching content, where lectures, assessments, and discussions can be found).
 
-## Timetable
+## Timetable {-}
 
 ```{r, echo = FALSE}
 schedule <- read.csv("data/schedule.csv");

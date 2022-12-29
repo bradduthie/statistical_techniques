@@ -11,7 +11,7 @@ output:
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 30 January 2023 - 3 February 2023 |
-| **Reading**     | **Required:** SCIU4T4 Workbook chapters 4-8  |
+| **Reading**     | **Required:** SCIU4T4 Workbook chapters 4-7  |
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Optional:** @Rowntree2018 Chapter 2 |
 |                 | **Advanced:** @Spiegelhalter2019 Chapters 1-3 |
@@ -21,7 +21,7 @@ output:
 |                 | 2.3: Types of variables (11 min.) |
 |                 | 2.4: Units, precision, and accuracy (9 min.) |
 |                 | 2.5. Uncertainty propagation (11 min.) |
-| **Practical**   | Introduction to Jamovi          |
+| **Practical**   | Introduction to Jamovi ([Chapter 8](#Chapter_8))        |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 01 FEB 2023 (WED) 13:05-15:55 |
 |                 |   Group B: 02 FEB 2023 (THU) 09:05-11:55 |
@@ -30,10 +30,10 @@ output:
 |                 |   03 FEB 2023 (FRI) 15:05-17:55 |
 | **Assessments** | Week 2 Practice quiz on Canvas  |
 
-In [Chapter 4](#Chapter_4), we focus on key concepts that will be used throughout this module.
+[Chapter 4](#Chapter_4) focuses on key concepts that will be used throughout this module.
 In particular, it is important to understand the difference between a **population** and a **sample**, and to recognise that there are many types of variables in statistics.
 
-In [Chapter 5](#Chapter_5), we look at different variable types. Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester.
+[Chapter 5](#Chapter_5) introduces different variable types. Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester.
 Identifying variable types will therefore be important, both for module assessments and when working with new datasets.
 A variable's type will rarely be stated explicitly when doing scientific research, and will not always be provided in assessments for this module.
 Being able to infer variable type is therefore an important skill.
@@ -45,7 +45,7 @@ We are not expecting you to memorise all scientific units, so a [table on units]
 [Chapter 7](#Chapter_7) will introduce the propogation of measurement errors.
 This is important to understand because no measurement is perfectly accurate, and predicting how errors in measurement combine is fundamental to understanding measurement accuracy.
 
-Finally, [Chapter 8](#Chapter_8) guides you through the Week 2 practical, which is an introduction to Jamovi.
+[Chapter 8](#Chapter_8) guides you through the Week 2 practical, which is an introduction to Jamovi.
 This aim of this practical is to become familiar with the Jamovi interface and comfortable importing data into Jamovi to collect some descriptive statistics.
 
 # Populations and samples {#Chapter_4}
