@@ -23,8 +23,16 @@
 | **Assessments** | Week 4 Practice quiz on Canvas  |
 
 
+[Chapter 14](#Chapter_14) introduces probability models and how to interpret them.
+The chapter also provides some examples of probability distributions that are especially relevant to biological and environmental sciences.
 
-# Introduction to probability models
+[Chapter 15](#Chapter_15) focuses on the central limit theorem (CLT), what it is and why it is so important in statistics.
+
+[Chapter 16](#Chapter_16) guides you through the week 4 practical.
+The aim of this practical is to apply the ideas from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi to predict probabilities from a real dataset.
+
+
+# Introduction to probability models {#Chapter_14}
 
 Suppose that we flip a fair coin over a flat surface.
 There are two possibilities for how the coin lands on the surface.
@@ -248,37 +256,318 @@ for(i in 1:7){
 }
 ```
 
-Note that the shape of this binomial distribution is different from the coin flipping trials in Figure 14.7.
-The distribution is skewed, with a high probability of 0 success and a diminishing probability of 1 or more success.[^13]
+Note that the shape of this binomial distribution is different from the coin flipping trials in Figure 14.5.
+The distribution is skewed, with a high probability of 0 success and a diminishing probability of 1 or more success.
 
-[^13]: Testing an equation $$y = mx + b.$$ Does this get produced inline or not?
+The shape of a statistical probability distribution can be defined mathematically.
+Depending on the details (more on this later), we call the equation defining the distribution either a probability mass function or a probability density function.
+This book is about statistical techniques, not statistical theory, so we will relegate these equations to footnotes.[^13]
+What is important to know is that the shape of a distribution is modulated by **parameters**.
+The shape of a binomial distribution is determined by 2 parameters, the number of trials ($n$) and the probability of success ($\theta$).
+In Figure 14.5, there were 10 trials each with a success probability of 0.5 (i.e., $n = 10$ and $\theta = 0.5$).
+In Figure 14.6, there were 6 trials each with a success probability of 0.025 (i.e., $n = 6$ and $\theta = 0.025$).
+This difference in parameter values is why the two probability distributions have a different shape.
+
+[^13]: For those interested, more technically, we can say that a random variable $X$ has binomial distribution if and only if its probability mass function is defined by [@Miller2004], $$b \left(x; n, \theta \right) = {n \choose x} \theta^{x} \left(1 - \theta\right)^{n-x}.$$ In this binomial probability mass function, $x = 0, 1, 2, ..., n$ (i.e., $x$ can take any integer value from 0 to n). Note that the $n$ over the $x$ in the first parentheses on the right hand side of the equation is a binomial coefficient, which can be read "n choose x". This can be written out as, $${n \choose x} = \frac{n!}{x!(n - x)!}.$$ Note that the exclamation mark indicates a factorial, such that $n! = n \times (n-1) \times (n - 2) \times ... \times 2 \times 1$. That is, the factorial multiplies every decreasing integer down to 1. For example, $4! = 4 \times 3 \times 2 \times 1 = 24$. None of this is critical to know for applying statistical techniques to biological and environmental science data, but it demonstrates just a bit of the theory underlying statistical tools.
 
 
 ### Poisson distribution
 
-Another example
+Imagine sitting outside on a park bench along a path that is a popular route for joggers.
+On this particular day, runners pass by the bench at a steady rate of about 4 per minute, on average.
+We might then want to know the *distribution* of the number of runners passing by per minute.
+That is, given that we see 4 runners per minute on average, what is the probability that we will see just 2 runners pass in any given minute.
+What is the probability that we will see 8 runners pass in a minute?
+This hypothetical example is modelled with a poisson distribution.
+A poisson distribution describes events happening over some interval (e.g., happening over time or space).
+There are a lot of situations where a poisson distribution is relevant in biological and environmental sciences:
+
+- Number of times a particular species will be encountered while walking a given distance.
+- Number of animals a camera trap will record during a day.
+- Number of floods or earthquakes that will occur in a given year.
+
+The shape of a poisson distribution is described by just 1 parameter, $\lambda$.
+This parameter is both the mean and the variance of the poisson distribution.
+We can therefore get the probability that some number of events ($x$) will occur just by knowing $\lambda$ (Figure 14.6).
+
+```{r, echo = FALSE, fig.alt = "Four panels are shown, each with a poisson distribution of a different rate paramter (0.5, 1.0, 2.5, and 5.0).", fig.cap = "Poisson probability distributions given different rate parameter values.", fig.asp = 1}
+lambda0pt5 <- dpois(x = 0:10, lambda = 0.5);
+lambda1pt0 <- dpois(x = 0:10, lambda = 1.0);
+lambda2pt5 <- dpois(x = 0:10, lambda = 2.5);
+lambda5pt0 <- dpois(x = 0:10, lambda = 5.0);
+par(mfrow = c(2, 2));
+plot(x = 0, y = 0, xlim = c(0.5, 11.5), type = "n", ylim = c(0, 0.65), 
+     xaxt = "n", ylab = "Probability", xlab = "Event (x)", 
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+axis(side = 1, at = 1:11, labels = 0:10);
+for(i in 1:11){
+  yy <- seq(from = 0, to = lambda0pt5[i], length = 100);
+  points(x = rep(i, times = 100), y = yy, type = "l", lwd = 6);  
+}
+lambda <- expression(paste(lambda, "= 0.5"));
+text(x = 9, y = 0.58, cex = 1.5, labels = lambda);
+plot(x = 0, y = 0, xlim = c(0.5, 11.5), type = "n", ylim = c(0, 0.65), 
+     xaxt = "n", ylab = "Probability", xlab = "Event (x)", 
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+axis(side = 1, at = 1:11, labels = 0:10);
+for(i in 1:11){
+  yy <- seq(from = 0, to = lambda1pt0[i], length = 100);
+  points(x = rep(i, times = 100), y = yy, type = "l", lwd = 6);  
+}
+lambda <- expression(paste(lambda, "= 1.0"));
+text(x = 9, y = 0.58, cex = 1.5, labels = lambda);
+plot(x = 0, y = 0, xlim = c(0.5, 11.5), type = "n", ylim = c(0, 0.65), 
+     xaxt = "n", ylab = "Probability", xlab = "Event (x)", 
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+axis(side = 1, at = 1:11, labels = 0:10);
+for(i in 1:11){
+  yy <- seq(from = 0, to = lambda2pt5[i], length = 100);
+  points(x = rep(i, times = 100), y = yy, type = "l", lwd = 6);  
+}
+lambda <- expression(paste(lambda, "= 2.5"));
+text(x = 9, y = 0.58, cex = 1.5, labels = lambda);
+plot(x = 0, y = 0, xlim = c(0.5, 11.5), type = "n", ylim = c(0, 0.65), 
+     xaxt = "n", ylab = "Probability", xlab = "Event (x)", 
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+axis(side = 1, at = 1:11, labels = 0:10);
+for(i in 1:11){
+  yy <- seq(from = 0, to = lambda5pt0[i], length = 100);
+  points(x = rep(i, times = 100), y = yy, type = "l", lwd = 6);  
+}
+lambda <- expression(paste(lambda, "= 5.0"));
+text(x = 9, y = 0.58, cex = 1.5, labels = lambda);
+```
+
+Like the binomial distribution, the poisson distribution can also be defined mathematically[^14].
+Also like the binomial distribution, probabilities in the poisson distribution focus on **discrete** observations.
+This is, probabilities are assigned to a specific number of successes in a set of trials (binomial distribution) or the number of events over time (poisson distribution).
+In both cases, the probability distribution focuses on countable numbers.
+In other words, it does not make any sense to talk about the probability of a coin landing on heads 3.75 times after 10 flips, nor the probability of 2.21 runners passing by a park bench in a given minute.
+The probability of either of these events happening is zero, which is why the Figures 14.5-14.7 all have spaces between the vertical bars.
+These spaces indicate that values between the integers are impossible.
+When observations are discrete like this, they are defined by a *probability mass function*.
+In the next section, we consider distributions with a continuous range of possible sample values; these distributions are defined by a *probability density function*.
+
+
+[^14]: A random variable $X$ has a poisson distribution if and only if its probability mass function is defined by [@Miller2004], $$p \left(x; \lambda \right) = \frac{\lambda^{x}e^{x}}{x!}.$$ Recall from [Chapter 1](#Chapter_1) Euler's number, $e \approx 2.718282$, and from footnote 13 that the exclamation mark indicates a factorial. In the poisson probability mass function, $x$ can take any integer value greater than or equal to 0.
+
 
 ### Uniform distribution
 
+We now move on to continuous distributions, starting with the continuous uniform distribution.
+We introduce this distribution mainly to clarify the difference between a discrete and continues distribution.
+While the uniform distribution is very important in a lot of statistical tools (notably, simulating pseudorandom numbers), it is not something that we come across much in biological or environmental science data.
+The continuous uniform distribution has two parameters, $\alpha$ and $\beta$ [@Miller2004].[^15]
+Values of $\alpha$ and $\beta$ can be any real number (not just integers).
+For example, suppose that $\alpha = 1$ and $\beta = 2.5$.
+In this case, Figure 14.7 shows the probability distribution for sampling some value $x$.
+
+```{r, echo = FALSE, fig.alt = "A uniform distribution is shown, which appears as a grey rectangle in the middle of a plot with 'x' on the x-axis and 'Probability' on the y-axis", fig.cap = "A continuous uniform distribution in which a random variable X takes a value between 1 and 2.5.", fig.asp = 1}
+alpha <- 1;
+beta  <- 2.5;
+yvals <- 1 / (2.5 - 1);
+mbox <- function(x0, x1, y0, y1){
+  xx <- seq(from=x0, to=x1, length.out = 100);
+  yy <- seq(from=y0, to=y1, length.out = 100);
+  xd <- c(rep(x0, 100), xx, rep(x1,100), rev(xx));
+  yd <- c(yy, rep(y1,100), rev(yy), rep(y0, 100));
+  return(list(x=xd, y=yd));
+}
+tbox <- mbox(x0 = alpha, x1 = beta, y0 = 0, y1 = yvals);
+plot(x = 0, y = 0, type = "n", xlim = c(0, 3.5), ylim = c(0, 1),
+     xlab = "x", ylab = "Probability",
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i")
+polygon(x=tbox$x, y=tbox$y, lwd=3, border="black", col="grey");
+```
+
+The height of the distribution in Figure 14.7 is $1/(\beta - \alpha) = 1/(2.5 - 1) \approx 0.667$.
+All values between 1 and 2.5 have equal probability of being sampled.
+
+Here is a good place to point out the difference between the continuous distribution versus the discrete binomial and poisson distributions.
+From the uniform distribution of Figure 14.7, we can, theoretically, sample *any* real value between 1 and 2.5 (e.g., 1.34532 or 2.21194; the sampled value can have as many decimals as our measuring device allows).
+There are uncountably infinite real numbers, so it no longer makes sense to ask what the probability is of sampling a specific number.
+For example, what is the probability of sampling a value of *exactly* 2, rather than, say, 1.999999 or 2.000001, or something else arbitrarily close to 2?
+The probability of sampling a specific number exactly is negligible.
+Instead, we need to think about the probability of sampling within intervals.
+For example, what is the probability of sampling a value between 1.9 and 2.1, or any value greater than 2.2?
+This is the nature of probability when we consider continuous distributions.
+
+[^15]: A random variable $X$ has a continuous uniform distribution if and only if its probability density function is defined by [@Miller2004], $$u\left(x; \alpha, \beta\right) = \frac{1}{\beta - \alpha},$$ where $\alpha < x < \beta$, and $u\left(x; \alpha, \beta\right) = 0$ everywhere else. The value $x$ can take any real number.
 
 
 ### Normal distribution
 
-Why this is so important
+The last distribution, the normal distribution (also known as the "Gaussian distribution" or the "bell curve"), has a special place in statistics [@Miller2004; @Navarro2022].
+It appears in many places in the biological and environmental sciences and, partly due to the central limit theorem (see [Chapter 15](#Chapter_15)), is fundamental to many statistical tools.
+The normal distribution is continuous, just like the continuous uniform distribution from the previous section.
+Unlike the uniform distribution, with the normal distribution, it is possible (at least in theory) to sample *any* real value,  $-\infty < x < \infty$.
+The distribution has a symmetrical, smooth bell shape (Figure 14.8), in which probability density peaks at the mean, which is also the median and mode of the distribution.
+The normal distribution has two parameters, the mean ($\mu$) and the standard deviation ($\sigma$).[^16]
+The mean determines where the peak of the distribution is, and the standard deviation determines the width or narrowness of the distribution.
+Note that we are using $\mu$ for the mean here instead of $\bar{x}$, and $\sigma$ for the standard deviation instead of $s$, to differentiate between the sample estimates of [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12).
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve, shaded in grey and centered at the x-axis on a value of zero is shown.", fig.cap = "A standard normal probability distribution, which is defined by a mean value of 0 and a standard deviation of 1."}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+     ylab = "Probability",  xlab = "x", lwd = 3, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+polygon(c(xx, max(xx)), c(pr_norm, 0), col="grey");
+mn_val <- expression(paste(mu, " = 0"));
+sd_val <- expression(paste(sigma, " = 1"));
+text(x = 2, y = 0.45, cex = 1.5, labels = mn_val);
+text(x = 2, y = 0.40, cex = 1.5, labels = sd_val);
+```
+
+The normal distribution shown in Figure 14.9 is called the **standard normal distribution**, which means that it has a mean of 0 ($\mu = 0$) and a standard deviation of 1 ($\sigma = 1$). 
+Note that because the standard deviation of a distribution is the square-root of the variance (see [Chapter 12](#Chapter_12)), and $\sqrt{1} = 1$, the variance of the standard normal distribution is also 1.
+We will look at the standard normal distribution more closely in [Chapter 15](#Chapter_15).
 
 
-# The Central Limit Theorem (CLT)
+[^16]: A random variable $X$ has a normal distribution if and only if its probability density function is defined by [@Miller2004], $$n\left(x; \mu, \sigma\right) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left(\frac{x - \mu}{\sigma}\right)^{2}}.$$ In the normal distribution, $-\infty < x < \infty$. Note the appearance of two irrational numbers introduced back in [Chapter 1](#Chapter_1), $\pi$ and $e$.
 
-General overview
+## Summary
 
-## Examples of the CLT in action
+This chapter has introduced probability models and different types of distributions.
+It has focused on the key that are especially important for understanding and implementing statistical techniques.
+As such, a lot of details have been left out.
+For example, the probability distributions considered in Section 14.4 comprise only a small number of example distributions that are relevant for biological and environmental sciences.
+In [Chapter 15](#Chapter_15), we will get an even closer look at the normal distribution and why it is especially useful.
 
-## The standard normal distribution
+# The Central Limit Theorem (CLT) {#Chapter_15}
+
+The previous chapter finished by introducing the normal distribution.
+This chapter focuses on the normal distribution in more detail and explains why it is so important in statistics.
+
+## The distribution of means is normal
+
+The central limit theorem (CLT) is one of the most important theorems in statistics.
+It states that if we sample values from **any** distribution and calculate the mean, as we increase our sample size $N$, the distribution *of the mean* gets closer and closer to a normal distribution [@Sokal1995; @Miller2004; @Spiegelhalter2019].[^17]
+This statement is busy and potentially confusing at first, partly because it refers to two separate distributions, the sampling distribution and the distribution of the sample mean.
+We can take this step by step, starting with the sampling distribution.
+
+The sampling distribution could be any of the four distributions introduced in [Chapter 15](#Chapter_15) (binomial, poisson, uniform, or normal).
+Suppose that we sample the binomial distribution from Figure 14.6, the one describing the probability distribution of the number of people out of 6 who would test positive for Covid-19 if the probability of testing positive was 0.025.
+Assume that we sample a value from this distribution (i.e., a number from 0 to 6) 100 times (i.e., $N = 100$).
+If it helps, we can imagine going to 100 different shops, all of which are occupied by 6 people.
+From these 100 samples, we can get calculate the sample mean $\bar{x}$.
+This would be the mean number of people in a shop who would test positive for Covid-19.
+If we were just collecting data to try to estimate the mean number of people with Covid-19 in shops of 6, this is where our calculations might stop.
+But here is where the second distribution becomes relevant.
+
+Suppose that we could somehow go back out to collect another 100 samples from a completely different set of 100 shops.
+We could then get the mean of this new sample of $N = 100$ shops.
+To differentiate, we can call the first sample mean $\bar{x}_{1}$ and this new sample mean $\bar{x}_{2}$.
+Will $\bar{x}_{1}$ and $\bar{x}_{2}$ be the exact same value?
+Probably not!
+Since our samples are independent and random from the binomial distribution (Figure 14.6), it is almost certain that the two sample means will be at least bit different.
+We can therefore ask about the *distribution* of these sample means.
+That is, what if we kept going back out to get more samples of 100, calculating additional sample means $\bar{x}_{3}$, $\bar{x}_{4}$, $\bar{x}_{5}$, and so forth?
+What would this distribution look like?
+It turns out, it would be a normal distribution!
+
+
+```{r, echo = FALSE, fig.alt = "A two panel figure, the first shows a barplot is shown with 7 bars, which correspond to the probability that a given number of people have covid in a shop of 6 when the probability of infection is 0.025. The second panel shows a normal distribution with data comprised of means sampled from the first panel.", fig.cap = "A simulated demonstration of the central limit theorem. (a) Recreation of Figure 14.6 showing the probability distribution for the number of people who have Covid-19 in a shop of 6 when the probability of testing positive is 0.025. (b) The distribution of 1000 means sampled from panel (a), where the sample size is 100."}
+par(mfrow = c(1, 2), mar = c(5, 5, 1.5, 1.5));
+pr_binom <- dbinom(x = 0:6, size = 10, prob = 1/40);
+plot(x = 0, y = 0, xlim = c(0.5, 7.5), type = "n", ylim = c(0, 1), 
+     xaxt = "n", ylab = "Probability", xlab = "People testing positive", 
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+axis(side = 1, at = 1:11, labels = 0:10);
+for(i in 1:7){
+  yy <- seq(from = 0, to = pr_binom[i], length = 100);
+  points(x = rep(i, times = 100), y = yy, type = "l", lwd = 6);  
+}
+text(x = 7, y = 0.95, cex = 1.5, labels = "a");
+clt_dat <- sample(x = 0:6, size = 100 * 1000, replace = TRUE, prob = pr_binom);
+clt_mat <- matrix(data = clt_dat, nrow = 1000, ncol = 100);
+clt_mns <- apply(X = clt_mat, MARGIN = 1, FUN = mean);
+hist(x = clt_mns, xlab = expression(paste("Sample mean (",bar(x),")")), 
+     main = "", cex.lab = 1.25, cex.axis = 1.25, breaks = 20, ylim = c(0, 180));
+text(x = 0.38, y = 178, cex = 1.5, labels = "b");
+```
+
+To demonstrate the CLT in action, Figure 15.1 shows the two distributions side-by-side.
+The first (Figure 15.1a) shows the original distribution from Figure 14.6, from which samples are collected and sample means are calculated.
+The second (Figure 151b) shows the distribution of 1000 sample means (i.e., $\bar{x}_{1}, \bar{x}_{2}, ..., \bar{x}_{999}, \bar{x}_{1000}$).
+Each mean $\bar{x}_{i}$ is calculated from a sample of $N = 100$ from the distribution in Figure 15.1a.
+Sampling is simulated using a random number generator on the computer (the lab practical in [Chapter 16](#Chapter_16) shows an example of how to do this in Jamovi).
+
+The distribution of sample means shown in Figure 15.1b is not perfectly normal.
+We can try again with an even bigger sample size of $N = 1000$, this time with a poisson distribution where $\lambda = 1$ in Figure 14.7.
+Figure 15.2 shows this result, with the original poisson distribution shown in Figure 15.2a, and the corresponding distribution built from 1000 sample means shown in Figure 15.2b.
+
+```{r, echo = FALSE, fig.alt = "A two panel figure, the first shows a barplot is shown with 11 bars corresponding to the probability of sampling 0-10 from a poisson distribution with a rate parameter of 1. The second panel shows a normal distribution with data comprised of means sampled from the first panel.", fig.cap = "A simulated demonstration of the central limit theorem. (a) Recreation of Figure 14.7 showing the probability distribution for the number of events occurring in a poisson distribution with a rate parameter of 1. (b) The distribution of 1000 means sampled from panel (a), where the sample size is 1000."}
+par(mfrow = c(1, 2), mar = c(5, 5, 1.5, 1.5));
+lambda1pt0 <- dpois(x = 0:10, lambda = 1.0);
+plot(x = 0, y = 0, xlim = c(0.5, 11.5), type = "n", ylim = c(0, 0.65), 
+     xaxt = "n", ylab = "Probability", xlab = "Event (x)", 
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+axis(side = 1, at = 1:11, labels = 0:10);
+for(i in 1:11){
+  yy <- seq(from = 0, to = lambda1pt0[i], length = 100);
+  points(x = rep(i, times = 100), y = yy, type = "l", lwd = 6);  
+}
+lambda <- expression(paste(lambda, "= 1.0"));
+text(x = 9, y = 0.58, cex = 1.5, labels = lambda);
+text(x = 1, y = 0.6, cex = 1.5, labels = "a");
+clt_dat <- sample(x = 0:10, size = 1000 * 1000, replace = TRUE, 
+                  prob = lambda1pt0);
+clt_mat <- matrix(data = clt_dat, nrow = 1000, ncol = 1000);
+clt_mns <- apply(X = clt_mat, MARGIN = 1, FUN = mean);
+hist(x = clt_mns, xlab = expression(paste("Sample mean (",bar(x),")")), 
+     main = "", cex.lab = 1.25, cex.axis = 1.25, breaks = 20, ylim = c(0, 200),
+     xlim = c(0.65, 1.35));
+text(x = 0.68, y = 195, cex = 1.5, labels = "b");
+```
+
+
+Finally, we can try the same approach with the continuous uniform distribution shown in Figure 14.8.
+This time, we will use an even larger sample size of $N = 10000$ to get our 1000 sample means.
+The simulated result is shown in Figure 14.9.
+
+```{r, echo = FALSE, fig.alt = "A two panel figure, the first shows a uniform probability distribution with a minimum of 1 and a maximum of 2.5. The second panel shows a normal distribution with data comprised of means sampled from the first panel.", fig.cap = "A simulated demonstration of the central limit theorem. (a) Recreation of Figure 14.8 showing a continuous uniform distribution with a minimum of 1 and a maximum of 2.5. (b) The distribution of 1000 means sampled from panel (a), where the sample size is 10000."}
+par(mfrow = c(1, 2), mar = c(5, 5, 1.5, 1.5));
+alpha <- 1;
+beta  <- 2.5;
+yvals <- 1 / (2.5 - 1);
+mbox <- function(x0, x1, y0, y1){
+  xx <- seq(from=x0, to=x1, length.out = 100);
+  yy <- seq(from=y0, to=y1, length.out = 100);
+  xd <- c(rep(x0, 100), xx, rep(x1,100), rev(xx));
+  yd <- c(yy, rep(y1,100), rev(yy), rep(y0, 100));
+  return(list(x=xd, y=yd));
+}
+tbox <- mbox(x0 = alpha, x1 = beta, y0 = 0, y1 = yvals);
+plot(x = 0, y = 0, type = "n", xlim = c(0, 3.5), ylim = c(0, 1),
+     xlab = "x", ylab = "Probability",
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i")
+polygon(x=tbox$x, y=tbox$y, lwd=3, border="black", col="grey");
+text(x = 0.5, y = 0.9, cex = 1.5, labels = "a");
+clt_dat <- runif(n = 10000 * 1000, min = 1, max = 2.5);
+clt_mat <- matrix(data = clt_dat, nrow = 1000, ncol = 10000);
+clt_mns <- apply(X = clt_mat, MARGIN = 1, FUN = mean);
+hist(x = clt_mns, xlab = expression(paste("Sample mean (",bar(x),")")), 
+     main = "", cex.lab = 1.25, cex.axis = 1.25, breaks = 20, ylim = c(0, 220),
+     xlim = c(1.73, 1.77));
+text(x = 1.735, y = 210, cex = 1.5, labels = "b");
+```
+
+In all cases, regardless of the original sampling distribution (binomial, poisson, or uniform), the distribution of sample *means* has the shape of a normal distribution.
+This normal distribution of sample means has important implications for statistical hypothesis testing.
+The CLT allows us to make inferences about the means of non-normally distributed distributions [@Sokal1995], to create confidence intervals around estimates sample means, and to apply statistical hypothesis tests that would otherwise not be possible.
+We will look at these statistical tools in future chapters.
+
+
+[^17]: For those interested, a mathematical proof of the CLT can be found in @Miller2004. Here we will demonstrate the CLT by simulation. As an aside, the CLT also applies the the sum of sample values, which will also have a distribution that approaches normality as $N \to \infty$.
+
+## The normal distribution and probability
 
 ## What are z-scores?
 
 
-# _Practical_. Probability and simulation
+# _Practical_. Probability and simulation {#Chapter_16}
 
 This practical focuses on applying the concepts from chapter 14 and 15 in Jamovi.
 There will be 3 exercises.
@@ -317,7 +606,7 @@ Suppose that we want to estimate the probability that a new Power Up! game playe
 To estimate this probability, we can use the proportion of players in the dataset who are Android users.
 To get this proportion, we need to divide the number of Android users by the total number of players,
 
-$$P_{(Android)} = \frac{Number\:of\:Android\:users}{Number\:of\:players}.$$
+$$P(Android) = \frac{Number\:of\:Android\:users}{Number\:of\:players}.$$
 
 In Jamovi, you could figure this out the long way by counting up the number of rows with 'Android' in the second column, then dividing by the total number of rows.
 But there is an easier way, which is faster and less prone to human error than manually tallying up items.
@@ -358,7 +647,7 @@ We can use these estimated probabilities of small, medium, and large dam size se
 Suppose that a new player decides to play the game.
 What is the probability that this player chooses a small **or** a large dam?
 
-$Pr_{(small\:or\:large)} =$ : __________________________
+$P(small\:or\:large) =$ : __________________________
 
 Now suppose that 3 new players arrive and decide to play the game.
 What is the probability that all 3 of these new players choose a large dam?
@@ -367,20 +656,20 @@ $Pr_{(3\:large)} =$ : __________________________
 
 What is the probability that all 3 of these new players choose *different* dam sizes?
 
-$Pr_{(small,\:medium,\:large)} =$ : __________________________
+$P(small,\:medium,\:large) =$ : __________________________
 
 Now consider a slightly different type of question.
 Instead of trying to predict the probability of new player decisions, we will focus on sampling from the existing power up dataset.
 Imagine that you randomly choose one of the `r dim(power_up)[1]` players with equal probability (i.e., every player is equally likely to be chosen).
 What is the probability that you choose player 20?
 
-$Pr_{(Player\:20)} =$ : __________________________
+$P(Player\:20) =$ : __________________________
 
 What is the probability that you choose player 20, *then* choose a different player with a large dam?
 As a hint, remember that you are now sampling *without replacement*. 
 The second choice cannot be player 20 again, so the probability of choosing a player with a large dam has changed from the estimated probability in Table 16.1.
 
-$Pr_{(Player\:20,\:Large)} =$ : __________________________
+$P(Player\:20,\:Large) =$ : __________________________
 
 Now we can use the Descriptives tool in Jamovi to ask a slightly different question with the data.
 Suppose that we wanted to estimate the probability that an Android user will choose a large dam.
@@ -397,13 +686,13 @@ knitr::include_graphics("img/jamovi_power_up_frequencies2.png")
 
 To get the proportion of Android users who choose to build a large dam, we just need to divide the number of Android users who chose the large dam size by the total number of Android users (i.e., sum of the first column in the Frequencies table; Figure 16.3).
 
-$$P_{(Large | Android)} = \frac{Number\:of\:Android\:users\:choosing\:large\:dam}{Number\:of\:Android\:users}.$$
+$$P(Large | Android) = \frac{Number\:of\:Android\:users\:choosing\:large\:dam}{Number\:of\:Android\:users}.$$
 
 Now, recreate the table in Figure 16.3 and estimate the probability that an Android user will choose to build a large dam,
 
-$P_{(Large | Android)} =$ : __________________________
+$P(Large | Android) =$ : __________________________
 
-Is $P_{(Large | Android)}$ much different from the probability that *any* player chooses a large dam, as calculated in Table 16.1? Do you think that the difference is significant?
+Is $P(Large | Android)$ much different from the probability that *any* player chooses a large dam, as calculated in Table 16.1? Do you think that the difference is significant?
 
 
 ```
@@ -449,12 +738,12 @@ As a hint, the y-axis of this histogram is showing density instead of frequency.
 What this means is that the total grey area (i.e., the histogram bars) sums to 1.
 Guessing the probability that a player scores higher than 120 is the same as guessing the proportion of grey space in the highest 4 bars of Figure 16.4 (i.e., grey space >120).
 
-$P_{(Score>120)} =$ : __________________________
+$P(Score>120) =$ : __________________________
 
-$P_{(Score<100)} =$ : __________________________
+$P(Score<100) =$ : __________________________
 
 
-$P_{(100<Score<120)} =$ : __________________________
+$P(100<Score<120) =$ : __________________________
 
 Trying to do this by looking at a histogram is not easy, and it is really not the best way to get the above probabilities.
 We can get much better estimates using Jamovi, but we need to make an assumption about the distribution of Player Score.
