@@ -142,6 +142,8 @@ For example, there are 6 fruits with a width between 1.0 and 1.2, so for this in
 In contrast, there is only 1 fig fruit that has a width greater than 2.0 cm (the biggest is 2.1 cm), so we see that the height of the bar for the interval between 2.0 and 2.2 is only 1 unit in frequency.
 The bars of the histogram touch each other, which reinforces that the data are [continuous](#Chapter_5) [@Dytham2011; @Sokal1995].
 
+> [Click here](https://bradduthie.shinyapps.io/build_histogram/) for an interactive application showing how histograms are built.
+
 It is especially important to be able to read and understand information from a histogram because it is often necessary to determine if the data are consistent with the assumptions of a statistical test.
 For example, the *shape* of the distribution of fig fruit widths might be important for performing a particular test.
 For the purposes of this module, the *shape* of the distribution just means what the data look like when plotted like this in a histogram. 
@@ -682,6 +684,9 @@ To help with the interpretation, here is [an interactive tool](https://bradduthi
 Here is another [interactive tool](https://bradduthie.shinyapps.io/normal_pos_neg/) showing how the shape of a histogram changes when the standard deviation of a distribution is changed[^10].
 The practical in [Chapter 13](#Chapter_13) explains how to calculate the standard deviation in Jamovi.
 
+> [Click here](https://bradduthie.shinyapps.io/forest/) for an interactive application to illustrate the standard deviation.
+
+> [Click here](https://bradduthie.shinyapps.io/normal_pos_neg/) for an interactive application to visualise how a histogram changes given a changing standard deviation.
 
 [^9]: Here is the full URL: https://bradduthie.shinyapps.io/forest/
 

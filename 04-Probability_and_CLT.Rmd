@@ -562,9 +562,131 @@ We will look at these statistical tools in future chapters.
 
 [^17]: For those interested, a mathematical proof of the CLT can be found in @Miller2004. Here we will demonstrate the CLT by simulation. As an aside, the CLT also applies the the sum of sample values, which will also have a distribution that approaches normality as $N \to \infty$.
 
-## The normal distribution and probability
 
-## What are z-scores?
+## Probability and z-scores
+
+We can calculate the probability of sampling some range of values from the normal distribution if we know the distribution's mean ($\mu$) and standard deviation ($\sigma$).
+For example, because the normal distribution is symmetric around the mean (Figure 15.4), the probability of sampling a value greater than the mean will be 0.5 (i.e., $P(x > \mu) = 0.5$), and so will the probability of sampling a value less than the mean (i.e., $P(x < \mu) = 0.5$).
+Similarly, about 68.2\% of the normal distribution's probability density lies within 1 standard deviation of the mean (shaded region of Figure 15.4), which means that the probability of randomly sampling a value $x$ that is greater than $\mu - \sigma$ but less than $\mu + \sigma$ is $P(\mu - \sigma < x < \mu + \sigma) = 0.682$.
+
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve, with a range of the curve shaded in grey between negative sigma and positive sigma, symmetrical around the peak of the curve", fig.cap = "A normal distribution in which the shaded region shows the area within one standard deviation of the mean (dotted line); that is, the shaded region starts on the left at the mean minus one standard deviation, then ends at the right at the mean plus one standard deviation. This shaded area encompases 68.2 per cent of the total area under the curve."}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.0001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), xaxt = "n",
+     ylab = "Probability",  xlab = "x", lwd = 3, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+xx_vals <- 40001:60001;
+polygon(c(xx[xx_vals], xx[60001], xx[40001]), 
+        c(pr_norm[xx_vals], 0, 0), col="grey");
+yy_mean1 <- seq(from = 0, to = 0.15, length = 1000);
+xx_mean1 <- rep(0, times = 1000);
+yy_mean2 <- seq(from = 0.25, to = max(pr_norm), length = 1000);
+xx_mean2 <- rep(0, times = 1000);
+points(x = xx_mean1, y = yy_mean1, type = "l", lwd = 2, lty = "dotted");
+points(x = xx_mean2, y = yy_mean2, type = "l", lwd = 2, lty = "dotted");
+distr_lab <- c(expression(mu-sigma), expression(mu), expression(mu+sigma));
+axis(side = 1, at = c(-1, 0, 1), labels = distr_lab, cex.axis = 1.25);
+text(x = 0,  y = 0.2, labels = "68.2%", cex = 1.25);
+```
+
+
+Remember that total probability always needs to equal 1.
+This remains true whether it is the binomial distribution that we saw with the coin flipping example in [Chapter 14](#Chapter_14), or any other distribution.
+Consequently, the area under curve of the normal distribution (i.e., under the curved line of Figure 15.4) must equal 1.
+When we say that the probability of sampling a value within 1 standard deviation of the mean is 0.682, this also means that the *area* of this region under the curve equals 0.682 (i.e., the shaded area in Figure 15.4).
+And, again, because the whole area under the curve sums to 1, that must mean that the unshaded area of Figure 15.4 (where $x < \mu -\sigma$ or $x > \mu + \sigma$) has an area equal to $1 - 0.682 = 0.318$.
+That is, the probability of randomly sampling a value $x$ in this region is $P(x < \mu - \sigma \: | \: x > \mu + \sigma) = 0.318$, or 31.8\% (note that the vertical bar, $|$, is just a fancy way of saying 'or', in this case).
+
+We can calculate other percentages using standard deviations too [@Sokal1995; ].
+For example, about 95.4\% of the probability density in a normal distribution lies between 2 standard deviations of the mean, i.e., $P(\mu - 2\sigma < x < \mu + 2\sigma) = 0.954$.
+And about 99.6\% of the probability density in a normal distribution lies between 3 standard deviations of the mean, i.e., $P(\mu - 3\sigma < x < \mu + 3\sigma) = 0.996$.
+We could go on mapping percentages to standard deviations like this; for example, about 93.3\% of the probability density in a normal distribution is less than $\mu + 1.5\sigma$ (i.e., less than 1.5 standard deviations greater than the mean; see Figure 15.5).
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve, with a range of the curve shaded in grey below an indicated value of 1.5 times sigma", fig.cap = "A normal distribution in which the shaded region shows the area under 1.5 standard deviations of the mean (dotted line). This shaded area encompases about 93.3 per cent of the total area under the curve."}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.0001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), xaxt = "n",
+     ylab = "Probability",  xlab = "x", lwd = 3, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+xx_vals <- 1:65001;
+polygon(c(xx[xx_vals], xx[65001], xx[1]), 
+        c(pr_norm[xx_vals], 0, 0), col="grey");
+yy_mean1 <- seq(from = 0, to = 0.15, length = 1000);
+xx_mean1 <- rep(0, times = 1000);
+yy_mean2 <- seq(from = 0.25, to = max(pr_norm), length = 1000);
+xx_mean2 <- rep(0, times = 1000);
+points(x = xx_mean1, y = yy_mean1, type = "l", lwd = 2, lty = "dotted");
+points(x = xx_mean2, y = yy_mean2, type = "l", lwd = 2, lty = "dotted");
+distr_lab <- c(expression(mu), expression(paste(mu, " + 1.5", sigma)));
+axis(side = 1, at = c(0, 1.5), labels = distr_lab, cex.axis = 1.25);
+text(x = 0,  y = 0.2, labels = "93.3%", cex = 1.25);
+```
+
+
+Notice that there are no numbers on the x-axes of Figure 15.4 or 15.5.
+This is deliberate; the relationship between standard deviations and percentage of probability density applies regardless of the scale.
+We could have a mean of $\mu = 100$ and standard deviation of $\sigma = 4$, or $\mu = -12$ and $\sigma = 0.34$.
+It does not matter.
+Nevertheless, it would be very useful if we could work with some standard values of $x$ when working out probabilities.
+This is where the standard normal distribution, first introduced in [Chapter 14](#Chapter_14), becomes relevant.
+Recall that the standard normal distribution has a mean of $\mu = 0$ and a standard deviation (and variance) of $\sigma = 1$.
+With these standard values of $\mu$ and $\sigma$, we can start actually putting numbers on the x-axis and relating them to probabilities.
+We call these numbers **standard normal deviates**, or **z-scores** (Figure 15.6).
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve, shaded in grey and centered at the x-axis on a value of zero is shown. The x axis is labelled 'z-score'.", fig.cap = "A standard normal probability distribution with z-scores shown on the x-axis."}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+     ylab = "Probability",  xlab = "z score", lwd = 3, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+polygon(c(xx, max(xx)), c(pr_norm, 0), col="grey");
+```
+
+What z-scores allow us to do is map probabilities to deviations from the mean of a standard normal distribution (hence 'standard normal deviates').
+We can say, e.g., that about 95\% of the probability density lies between $z = -1.96$ and $z = 1.96$, or that about 99\% lies between $z = -2.58$ and $z = 2.58$ (this will become relevant later).
+It is important to get a good sense of what this means, so we have written an interactive application ([click here](https://bradduthie.shinyapps.io/zandp/)) that visually shows how probability density changes with changing z-score.
+
+> [Click here](https://bradduthie.shinyapps.io/zandp/) for an interactive application to visualise z-scores
+
+Of course, most variables that we measure in the biological and environmental sciences will not fit the standard normal distribution.
+Almost all variables will have a different mean and standard deviation, even if they are normally distributed.
+Nevertheless, we can translate any normally distributed variable into a standard normal distribution by subtracting its mean and dividing by its standard deviation.
+We can see what this looks like visually in Figure 15.7.
+
+```{r, echo = FALSE, fig.alt = "A two panel figure, the first shows a curve of the standard normal distribution, to the right of which there is a histogram of data centred at a mean of 5 with a relatively high standard deviation. In the second figure, the histogram data fit nicely within the normal distribution", fig.cap = "A visual representation of what happens when we subtract the sample mean from a dataset, then divide by its standard deviation. (a) A histogram (grey bars) show 10000 normally distributed values with a mean of 5 and a standard deviation of 2; the curved dotted line shows the standard normal distribution with a mean of 0 and standard deviation of 1. (b) Histogram after subtracting 5, then dividing by 2, from all values shown in panel (a)."}
+par(mfrow = c(1, 2), mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+xvals    <- rnorm(n = 10000, mean = 5, sd = 2)
+hist(xvals, main = "", freq = FALSE, breaks = 40, col = "grey", yaxs = "i",
+     xlab = "x", xlim = c(-4, 12), ylim = c(0, 0.49), ylab = "Probability");
+points(x = xx, y = pr_norm, type = "l", lty = "dotted", lwd = 3);
+
+xstd <- (xvals - mean(xvals))/sd(xvals);
+hist(xstd, main = "", freq = FALSE, breaks = 40, col = "grey", yaxs = "i",
+     xlab = "x", xlim = c(-4, 12), ylim = c(0, 0.49), ylab = "Probability");
+points(x = xx, y = pr_norm, type = "l", lty = "dotted", lwd = 3);
+```
+
+In Figure 15.7a, we see the standard normal distribution curve represented by the dotted line, centered at $\mu = 0$ and with a standard deviation of $\sigma = 1$.
+To the right of this normal distribution we have 10000 values randomly sampled from a normal distribution with a mean of 5 and a standard deviation of 2 (note that the histogram peaks around 5 and is wider than the standard normal distribution because the standard deviation is higher).
+After subtracting 5 from all of the values in the histogram of Figure 15.7a, then dividing by 2, the data fit nicely within the standard normal curve, as shown in Figure 15.7b.
+By doing this transformation on the original dataset, z-scores can now be used with the data.
+Mathematically, here is how the calculation is made,
+
+$$z = \frac{x - \mu}{\sigma}.$$
+
+For example, if we had a value of $x = 9.1$ in our simulated dataset, in which $\mu = 5$ and $\sigma = 2$, then we could calculate $z = (9.1 - 5) / 2 = 2.05$.
+We could then use a statistical program such as Jamovi, our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our normally distributed data.
+These z scores will become especially useful for calculating confidence intervals in [Chapter 17](#Chapter_17).
+They can also be useful for comparing values from variables or statistics measured on different scales [@Sokal1995; @Cheadle2003; @Adams2016].
+
+
+[^18]: Before the widespread availability of computers, which can easily be used to calculate probability densities on a normal distribution, the way to map $z$ scores to probabilities was using a [z table](https://www.z-table.com/). The table would have rows and columns mapping to different $z$ values, which could be used to find the appropriate probability densities. Such tables would be used for many different distributions, not just the normal distribution. The text @Sokal1995 comes with a nearly 200 page supplemental book that is just statistical tables. These tables are more or less obsolete nowadays, but some people still use them. 
 
 
 # _Practical_. Probability and simulation {#Chapter_16}
