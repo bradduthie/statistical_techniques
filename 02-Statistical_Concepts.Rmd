@@ -318,7 +318,7 @@ It is not necessary to understand why the equations for propagating different ty
 This practical focuses on learning how to work with datasets in Jamovi.
 Jamovi is available in the university laboratory computers through AppsAnywhere.
 You can also [download it](https://www.jamovi.org/download.html) on your own computer for free or run it directly [from a browser](https://www.jamovi.org/cloud.html).
-For an introduction to what Jamovi is and why we are using it in this module, see [Section 0.5](#intro_jamovi) of this workbook and [Sections 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) of @Navarro2022.
+For an introduction to what Jamovi is and why we are using it in this module, see the introduction of this workbook and [Sections 3.3](https://davidfoxcroft.github.io/lsj-book/03-Getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/03-Getting-started-with-jamovi.html#summary) of @Navarro2022.
 In this module, we will work with two datasets, both of which are based on real biological and environmental studies conducted by researchers at the University of Stirling.
 
 The first dataset includes measurements of soil organic carbon (grams of Carbon per kg of soil) from the topsoil and subsoil collected in a national park in Gabon.
@@ -336,6 +336,8 @@ knitr::include_graphics("img/fig_data_set.png")
 
 This lab will use the [soil organic carbon](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/soil_organic_carbon.csv) dataset in [Exercise 8.1](#02_summary_statistics) for summary statistics.
 The [fig fruits](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/fig_fruits.csv) will be used for [Exercise 8.2](#02_transforming_variables) on transforming variables and [Exercise 8.3](#02_computing_variables) on computing a variable.
+Some of these exercises will be similar to what we did in the week 1 practical from [Chapter 3](##Chapter_3), but in Jamovi rather than a separate spreadsheet.
+
 
 ```{r, echo = FALSE}
 fig_fruits          <- read.csv(file = "data/fig_fruits.csv");
@@ -345,7 +347,7 @@ soil_organic_carbon <- read.csv(file = "data/soil_organic_carbon.csv");
 ## Exercise for summary statistics {#summary_statistics_02}
 
 Download the [soil organic carbon](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/soil_organic_carbon.csv) dataset if you have not already done so, and save it in a location where you know you will be able to find it again, then open Jamovi.
-Once Jamovi is open, you can import the dataset by clicking on the three lines in the upper left corner of the tool bar, then selecting 'Open' (Figure 8.2).
+Once Jamovi is open, you can import the dataset by clicking on the three horizontal lines in the upper left corner of the tool bar, then selecting 'Open' (Figure 8.2).
 
 ```{r, echo = FALSE, fig.alt = "The Jamovi toolbar including tabs for opening files represented by three horizontal lines, Variables, Data, Analyses, and Edit.", fig.cap = "The Jamovi toolbar including tabs for opening files, Variables, Data, Analyses, and Edit. To open a file, select the three horizontal lines in the upper right", out.width="100%"}
 knitr::include_graphics("img/jamovi_toolbar.png")
@@ -360,10 +362,10 @@ knitr::include_graphics("img/open_soil_organic_carbon.png")
 
 Once the data are imported, you should see two separate columns. 
 The first column will show soil organic carbon values for topsoil samples, and the second column will show soil organic carbon values for subsoil samples.
-Notice right away that these data are not formatted in a tidy way.
-We need to fix this so that each row is a unique sample, and each column represents some property of the sample (see the previous chapter section on [data organisation](#data_organisation) for a reminder of why).
+These data are not formatted in a tidy way.
+We need to fix this so that each row is a unique observation and each column is a variable (see [Chapter 2](#Chapter_2)).
 It might be easiest to reorganise the data in a spreadsheet such as LibreOffice Calc or Microsoft Excel.
-But you can also edit the directly in Jamovi by clicking on the 'Data' tab in the toolbar (see Figure 8.2).
+But you can also edit the data directly in Jamovi by clicking on the 'Data' tab in the toolbar (see Figure 8.2).
 The best way to reorganise the data in Jamovi is to double-click on the third column of data next to 'subsoil' (see Figure 8.4).
 
 ```{r, echo = FALSE, fig.alt = "The Jamovi toolbar is shown with data columns for topsoil and subsoil. In the third column from the right, there is text that says 'Click Here' in red.", fig.cap = "The Jamovi toolbar is shown with the soil organic carbon dataset. In Jamovi, double-clicking above column three where it says 'CLICK HERE' will allow you to input a new variable.", out.width="100%"}
@@ -388,14 +390,14 @@ The first 19 rows of soil_type should be 'topsoil', and the remaining 15 rows sh
 To do this quickly, you can write 'topsoil' in the first row of soil_type and copy-paste into the remaining rows.
 You can do the same to write 'subsoil' in the remaining rows 20-34.
 Next, copy all of the topsoil values in column 1 into the first 19 rows of column 4, and copy all of the subsoil values in column 2 into the next 15 rows.
-After doing all of this, you column 3 (soil_type) should have the word 'topsoil' in rows 1-19 and 'subsoil' in rows 20-34.
+After doing all of this, your column 3 (soil_type) should have the word 'topsoil' in rows 1-19 and 'subsoil' in rows 20-34.
 The values from columns 1 and 2 should now fill rows 1-34 of column 4.
 You can now delete the first column of data by right clicking on the column name 'topsoil' and selecting 'Delete Variable'.
 Do the same for the second column 'subsoil'.
 Now you should have a tidy data set with two columns of data, one called 'soil_type' and one called 'organic_carbon'.
 You are now ready to calculate some descriptive statistics from the data.
 
-First, we can calculate the minimum, maximum, and mean of all of the organic carbon values.
+First, we can calculate the minimum, maximum, and mean of all of the organic carbon values (i.e., the 'grand' mean, which includes both soil types).
 To do this, select the 'Analyses' tab, then click on the left-most button called 'Exploration' in the toolbar (Figure 8.6).
 
 ```{r, echo = FALSE, fig.alt = "The Jamovi toolbar is shown with a tab called 'Analyses' selected. Underneath the Analyses tab, there are several buttons, and the 'Exploration' button is highlighted. Below the exploration button are the first three rows of soil organic carbon data.", fig.cap = "The Jamovi toolbar where the tab 'Analyses' can be selected at the very top. Below this tab, the button 'Exploration' can be clicked to calculate descriptive statistics.", out.width="100%"}
@@ -408,11 +410,11 @@ Click once on the 'organic_carbon' variable and use the right arrow to move it i
 In the right-most panel of Jamovi, a table called 'Descriptives' will appear, which will include values for the organic carbon mean, minimum, and maximum.
 Write these values on the lines below, and remember to include units.
 
-Mean:  ____________________________
+Grand Mean:  ____________________________
 
-Minimum:  ____________________________
+Grand Minimum:  ____________________________
 
-Maximum:  ____________________________
+Grand Maximum:  ____________________________
 
 
 These values might be useful, but recall that there are two different soil types that need to be considered, topsoil and subsoil.
@@ -424,23 +426,23 @@ Now, click on 'soil_type' in the descriptives and click on the lower right arrow
 The table of descriptives in the right window will now break down all of the summary statistics by soil type.
 First, write the mean, minimum, and maximum topsoil values below.
 
-Mean:  ____________________________
+Topsoil Mean:  ____________________________
 
-Minimum:  ____________________________
+Topsoil Minimum:  ____________________________
 
-Maximum:  ____________________________
+Topsoil Maximum:  ____________________________
 
 Next, do the same for the mean, minimum, and maximum subsoil values.
 
-Mean:  ____________________________
+Topsoil Mean:  ____________________________
 
-Minimum:  ____________________________
+Topsoil Minimum:  ____________________________
 
-Maximum:  ____________________________
+Topsoil Maximum:  ____________________________
 
 
 From the values above, the mean of organic carbon sampled from the topsoil appears to be greater than the mean of organic carbon sampled from the subsoil.
-Assuming that Jamovi has calculated the means correctly, we can be confident that the topsoil sample mean is higher.
+Assuming that Jamovi has calculated the means correctly, we can be confident that the topsoil *sample* mean is higher.
 But what about the *population* means?
 Think back to concepts of populations versus samples from [Chapter 4](#Chapter_4).
 Based on these samples in the dataset, can we really say for certain that the population mean of topsoil is higher than the population mean of subsoil?
@@ -477,7 +479,7 @@ Doing this will make the statistical hypothesis testing that comes later in the 
 
 In this next exercise, we will work with the [fig fruits](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/fig_fruits.csv) dataset.
 Open this dataset into Jamovi.
-Note that there are five columns of data, and all of the data appear to be in a tidy format.
+Note that there are 5 columns of data, and all of the data appear to be in a tidy format.
 Each row represents a separate fig fruit, while each column represents a measured variable associated with the fruit.
 The first several rows should look like the below.
 
@@ -488,14 +490,14 @@ print(head(fig_fruits));
 
 The dataset includes the tree from which the fig was sampled in column 1 (A, B, C, and D), then the length, width, and heights of the fig in cm.
 Finally, the last column shows how many seeds were counted within the fig.
-Use the Descriptives option in Jamovi to find the overall (i.e., not split by Tree) mean length, width, and height of figs in the dataset.
+Use the Descriptives option in Jamovi to find the grand (i.e., not split by Tree) mean length, width, and height of figs in the dataset.
 Write these means down below (remember the units).
 
-Mean length:  ____________________________
+Grand Mean length:  ____________________________
 
-Mean height:  ____________________________
+Grand Mean height:  ____________________________
 
-Mean width:  ____________________________
+Grand Mean width:  ____________________________
 
 
 Now look at the different rows in the Descriptives table of Jamovi. 
@@ -547,11 +549,11 @@ For now, apply the same transformation to fig width and height, so we have three
 At the end of this, you should have eight columns of data, including three new columns that you just created by transforming the existing columns of Length_cm, Width_cm, and Height_cm into the new columns Length_mm, Width_mm, and Height_mm.
 Find the means of these three new columns and write them below.
 
-Mean length:  ____________________________
+Grand Mean length (mm):  ____________________________
 
-Mean height:  ____________________________
+Grand Mean height (mm):  ____________________________
 
-Mean width:  ____________________________
+Grand Mean width (mm):  ____________________________
 
 Compare these means to the means calculated above in cm. 
 Do the differences between means in cm and the means in mm make sense?
@@ -580,7 +582,7 @@ The formula for the volume of a sphere ($V$) given its radius $r$ is,
 
 $$V = \frac{4}{3} \pi r^{3}.$$
 
-In words, sphere volume equals four thirds times $\pi$, times $r$ cubed (i.e., to the third power).
+In words, sphere volume equals four thirds times $\pi$, times $r$ cubed (i.e., $r$ to the third power).
 If this equation is confusing, remember that $\pi$ is approximately 3.14, and taking $r$ to the third power means that we are multiplying $r$ by itself 3 times. 
 We could therefore rewrite the equation above,
 
@@ -616,12 +618,12 @@ That is, we would get the same answer shown in Figure 8.9 if we instead typed th
 = (4/3) * 3.14 * (Width_mm/2)^3
 ```
 
-Note that the order of operations is important here, which is why there are parentheses around `Width_mm/2`. This calculation needs to be done before taking the value to the power of 3. If we instead had written, `Width_mm/2^3`, the Jamovi would first take the cube of 2 $(2 \times 2 \times 2 = 8)$, then divided `Width_mm` by this value giving a different and incorrect answer. When in doubt, it is always useful to use parentheses to specify what calculations should be done first.
+Note that the order of operations is important here, which is why there are parentheses around `Width_mm/2`. This calculation needs to be done before taking the value to the power of 3. If we instead had written, `Width_mm/2^3`, then Jamovi would first take the cube of 2 $(2 \times 2 \times 2 = 8)$, then divided `Width_mm` by this value giving a different and incorrect answer. When in doubt, it is always useful to use parentheses to specify what calculations should be done first.
 
 You now have the new column of data 'fig_volume'. 
-Remember that the calculations underlying this new variable need to be done for the units. 
+Remember that the calculations underlying apply to the units too. 
 The width of the fig was calculated in mm, but we have taken width to the power of 3 when calculating the volume. 
-In the spaces below, find the overall mean, minimum, and maximum volumes of figs and report them in the correct units.
+In the spaces below, find the mean, minimum, and maximum volumes of all figs and report them in the correct units.
 
 Mean:  ____________________________
 
@@ -649,15 +651,31 @@ Draw a rough sketch of the histogram in the area below.
 
 ```
 
+Finally, we should save the file that we have been working on.
+There are two ways to save a file in Jamovi, and it is a good idea to save both ways.
+The first way is to use Jamovi's own (binary) file type, which has the extension OMV.
+This will not only save the data (including the calculated variables created within Jamovi), but also any analyses that we have done (e.g., calculation of minimums, maximums, and means) or graphs that we have made (e.g., the histogram).
+To do this, click on the three horizontal lines in the upper left of the Jamovi toolbar, then select 'Save As'.
+Choose an appropriate name (e.g., 'SCIU4T4_Week2_practical.omv'), then save the file in a location where you know that you will be able to find it again.
+Like, all binary files, an OMV file cannot be opened as plain text.
+Hence, it might be a good idea to save the dataset as a CSV file (note, this will not save any of the analyses or graphs).
+To do this, click on the three horizontal lines in the upper left of the toolbar again, but this time click 'Export'. 
+Give the file an appropriate name (e.g., 'SCIU4T4_Week2_data'), then choose 'CSV' from the pulldown menu below (Figure 8.10).
+
+```{r, echo = FALSE, fig.alt = "A Jamovi Export window is open with a file being saved and the pull down menu below selecting 'CSV' as an option", fig.cap = "The Jamovi Export menu in which data are be saved as a CSV using the pulldown menu below the filename", out.width="100%"}
+knitr::include_graphics("img/export_jamovi.png")
+```
+
+Make sure to choose a save location that you know you will be able to find again (to navigate through file directories, click 'Browse' in the upper right). 
+To save, click on 'Export' in the upper right (Figure 8.10).
 
 
 
+## Summary 
 
-
-
-
-
-
+You should now know some of the basic tools for working with data, calculating some simple descriptive statistics, plotting a histogram, and saving output and data in Jamovi.
+These skills will be used throughout the module, so it is important to be comfortable with them as the analyses become more complex.
+If you still have time at the end of the lab practical, it might be a good idea to explore other features in Jamovi.
 
 
 

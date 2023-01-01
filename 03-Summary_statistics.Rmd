@@ -6,7 +6,7 @@
 |-----------------|-----------------------------------|
 | **Dates**       | 6 February 2023 - 10 February 2023 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 9-12  |
-|                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/descriptive-statistics.html#measures-of-central-tendency) |
+|                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
 |                 | **Optional:** @Rowntree2018 Chapter 3 |
 | **Lectures**    | 3.0: Decimal places and significant figures part 1 (8 min.) |
 |                 | 3.1: Decimal places and significant figures part 2 (7 min.) |
