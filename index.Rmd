@@ -75,7 +75,7 @@ How we will use Canvas, and how this book relates to it (Learning and Teaching c
 
 ## Timetable {-}
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2023."}
 schedule <- read.csv("data/schedule.csv");
 knitr::kable(schedule, format = "simple", table.envir = "table",
              caption = "Table caption.");
