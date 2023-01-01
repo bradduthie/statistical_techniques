@@ -30,17 +30,19 @@ output:
 |                 |   03 FEB 2023 (FRI) 15:05-17:55 |
 | **Assessments** | Week 2 Practice quiz on Canvas  |
 
+
+Week 2 focuses on general statistical concepts, data, and measurement.
+
 [Chapter 4](#Chapter_4) focuses on key concepts that will be used throughout this module.
 In particular, it is important to understand the difference between a **population** and a **sample**, and to recognise that there are many types of variables in statistics.
 
 [Chapter 5](#Chapter_5) introduces different variable types. Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester.
-Identifying variable types will therefore be important, both for module assessments and when working with new datasets.
 A variable's type will rarely be stated explicitly when doing scientific research, and will not always be provided in assessments for this module.
 Being able to infer variable type is therefore an important skill.
 
-[Chapter 6](#Chapter_6) focus on units of measurement, and how these units are communicated in text.
+[Chapter 6](#Chapter_6) focuses on units of measurement, and how these units are communicated in text.
 Units are essential in scientific measurement, and we will use them throughout the module to indicate the type and scale of data measurement.
-We are not expecting you to memorise all scientific units, so a [table on units](#appendixA_units) is provided at the end of this workbook.
+We are not expecting you to memorise all scientific units, so a [table on units](#appendixA_units) is provided.
 
 [Chapter 7](#Chapter_7) will introduce the propogation of measurement errors.
 This is important to understand because no measurement is perfectly accurate, and predicting how errors in measurement combine is fundamental to understanding measurement accuracy.
@@ -55,10 +57,10 @@ If we are working in a forest, for example, we might want to measure the heights
 The idea might be to use these measurements to make some kind of inference about the forest.
 But as scientists, we are almost always limited in the amount of data that we can collect.
 We cannot measure everything, so we need to collect a *sample* of data and use it to make inferences about the *population* of interest.
-For example, while we probably cannot measure the height of every tree in a forest, nor can we measure the concentration of carbon at every possible location in the forest's soil, we can collect a smaller number of measurements and still make useful conclusions about overall forest trees and carbon concentration.
+For example, while we probably cannot measure the height of every tree in a forest, nor can we measure the concentration of carbon at every possible location in the forest's soil, we can collect a smaller number of measurements and still make useful conclusions about overall forest tree height and carbon concentration.
 
 Statistics thereby allows us to approximate properties of entire populations from a limited number of samples.
-This needs to be done with caution, but before getting into the details of how, it is important to understand the difference between a **population** and a **sample** to avoid confusing these two concepts. 
+This needs to be done with caution, but before getting into the details of how, it is important to fully understand the difference between a **population** and a **sample** to avoid confusing these two concepts. 
 A **population** is the entire set of possible observations that could be collected.
 Some examples will make it easier to understand:
 
@@ -68,7 +70,7 @@ Some examples will make it easier to understand:
 
 These populations might be important for a particular research question.
 For example, we might want to know something about the feeding behaviours of pipistrelle bats in the UK.
-But there is no way that we can find and observe the behaviour of every bat, so we need to take a subset of the population (a sample) instead.
+But there is no way that we can find and observe the behaviour of every single bat, so we need to take a subset of the population (a sample) instead.
 Examples of samples include the following:
 
 * A selection of 20 human genes
@@ -108,12 +110,12 @@ Categorical variables can be either nominal or ordinal.
   * **Ordinal** variables do have an inherent order (e.g., "low", "medium", and "high" elevation).
   
 * **Quantitative** variables are variables represented by numbers that reflect a magnitude.
-That is, unlike categorical variables, we are collecting numbers that really mean something tangible (in contrast, while we might represent low, medium, and high elevations with the numbers 1, 2, and 3, respectively, this is just for convenience; a value of '2' does not always mean 'medium').
+That is, unlike categorical variables, we are collecting numbers that really mean something tangible (in contrast, while we might represent low, medium, and high elevations with the numbers 1, 2, and 3, respectively, this is just for convenience; a value of '2' does not always mean 'medium' in other contexts).
 Categorical variables can be either discrete or continuous.
 
   * **Discrete** variables can take only certain values.
   For example, if we want to record the number of species in a forest, then our variable can only take discrete counts (i.e., integer values).
-  There could conceivably be any whole number of species (1, 2, 3, etc.), but there could not be 2.51 different species in a forest; that does not make sense.
+  There could conceivably be any natural number of species (1, 2, 3, etc.), but there could not be 2.51 different species in a forest; that does not make sense.
   
   * **Continuous** variables can take any real value within some range of values (i.e., any number that can be represented by a decimal).
   For example, we could measure height to as many decimals as our measuring device will allow, with a range of values from zero to the maximum possible height of whatever it is we are measuring.
@@ -134,7 +136,7 @@ When collecting data, we want measurements to be accurate, precise, and clearly 
 ## Accuracy
 
 When we collect data, we are trying to obtain information about the world.
-We might, for example, want to know the number of seedlings in an area of forest, them temperature of the soil at a location, or the mass of a particular animal in the field.
+We might, for example, want to know the number of seedlings in an area of forest, the temperature of the soil at some location, or the mass of a particular animal in the field.
 To get this information, we need to make measurements.
 Some measurements can be collected by simple observation (e.g., counting seedlings), while others will require measuring devices such as a thermometer (for measuring temperature) or scale (for measuring mass).
 All of these measurements are subject to error.
@@ -146,7 +148,7 @@ The **accuracy** of a measurement is defined by how close the measurement is to 
 
 The **precision** of a measurement is how consistent it will be if measurement is replicated multiple times.
 In other words, precision describes how similar measurements are expected to be.
-If, for example, a scale measures an object to be the exact same mass ever time it is weighed (regardless of whether the mass is accurate), then the measurement is highly precise.
+If, for example, a scale measures an object to be the exact same mass every time it is weighed (regardless of whether the mass is accurate), then the measurement is highly precise.
 If, however, the scale measures a different mass each time the object is weighed (for this hypothetical, assume that the true mass of the object does not change), then the measurement is not as precise.
 
 One way to visualise the difference between accuracy and precision is to imagine a set of targets, with the centre of the target representing the true value of what we are trying to measure (Figure 6.1)[^1]. 
@@ -165,7 +167,7 @@ Measurement can be accurate but not precise (Figure 6.1B) or precise but not acc
 Scientific units are standardised with the Syst&egrave;me International D'Unit&eacute;s (SI).
 Having standardised units of measurement is highly important to ensure measurement accuracy [@Quinn1995].
 Originally, these units were often defined in terms of physical artefacts.
-For example, the kilogram (kg) was once defined by physical cylinder metal housed in the Buereau International des Poids et Mesures (BIPM).
+For example, the kilogram (kg) was once defined by a physical cylinder of metal housed in the Bureau International des Poids et Mesures (BIPM).
 In other words, the mass of a metal sitting at the BIPM *defined* what a kg was, with the mass of every other measurement being based on this physical object [@Quinn1995].
 This can potentially present a problem if the mass of that one object changes over time, thereby causing a change in how a kg is defined.
 Where possible, it is therefore preferable to define units in terms of fundamental constants of nature.
@@ -189,7 +191,7 @@ We will use these units throughout the module.
 
 Table: Base units of SI measurements. For details see @Quinn1995. 
 
-We can also define derived SI units from the base units of Table 6.1; examples of these derived SI units are provided in Table 6.2 below. 
+We can also define derived SI units from the base units of Table 6.1; examples of these derived SI units are provided in Table 6.2. 
 Again, you do not need to memorise these units, but it is good to be aware of them.
 
 | **Measured Quantity** | **Name of unit** | **Symbol** | **Definition in SI units** | **Alternative in derived units** |
@@ -203,11 +205,12 @@ Again, you do not need to memorise these units, but it is good to be aware of th
 
 Table: Examples of derived SI units.
 
-When numbers are associated with units, it is important to recognise that the units must be carried through and combined when calculating equation.
+When numbers are associated with units, it is important to recognise that the units must be carried through and combined when calculating an equation.
 As a very simple example, if want to know the speed at which an object is moving, and we find that it has moved 10 metres in 20 seconds, then we calculate the speed and report the correct units as below,
 
 $$speed = \frac{10\:m}{20\:s} = 0.5\:m/s = 0.5\:m\:s^{-1}.$$
-Notice that the final units are in metres per second, which can be written as $m/s$ or $m\:s^{-1}$ (remember that raising $s$ to the $-1$ power is the same as $1/s$; see below for a quick reminder about superscripts).
+
+Notice that the final units are in metres per second, which can be written as $m/s$ or $m\:s^{-1}$ (remember that raising $s$ to the $-1$ power is the same as $1/s$; see [Chapter 1](#Chapter_1) for a quick reminder about superscripts).
 It is a common error to calculate just the numeric components of a calculation and ignore the associated units.
 Often on assessments, we will ask you not to include units in your answer (this is just for convenience on the tests and exam), but recognising that units are also part of calculations is important.
 
@@ -237,7 +240,7 @@ Notice above how the $l$ units on the top and bottom of the equation cancel each
 
 ### Soil carbon inventories
 
-For one final example, the inventory of carbon $I$ within a soil is given by the specific carbon concentration $C$ ($g$ of carbon per $kg$ of soil), multiplied by the depth of soil analysed ($D$, $m$), and by the density ($\rho$, $kg\:m^{-3}$),
+For one final example, the inventory of carbon $I$ within a soil is given by the specific carbon concentration $C$ ($g$ of carbon per $kg$ of soil), multiplied by the depth of soil analysed ($D$, measured in $m$), and by the density ($\rho$, measured in $kg\:m^{-3}$),
 
 $$I = C \times D \times \rho = \frac{g\times m \times kg}{kg \times m^{3}} = \frac{g}{m^{2}} = g\:m^{-2}.$$
 Notice above how the $kg$ on the top and bottom of the fraction cancel each other out, and how one $m$ on the top cancels out one $m$ on the bottom, so that what we are left with is grams per metre squared ($g\:m^{-2}$).
@@ -258,8 +261,8 @@ For example, if we wanted to evaluate the precision with which the mass of an ob
 To evaluate measurement accuracy, we might need to measure a value in multiple different ways (e.g., with different measuring devices).
 For example, we might repeat the measurement of an object's mass with a different scale.
 
-Sometimes it is necessary to combine different values.
-For example, we might measure the mass of 2 different bird eggs in a nest, then calculate the total mass of all the 2 eggs combined.
+Sometimes it is necessary to combine different measured values.
+For example, we might measure the mass of 2 different bird eggs in a nest separately, then calculate the total mass of both the 2 eggs combined.
 The measurement of each egg will have its own error, and these errors will propagate to determine the error of the total egg mass for the nest.
 How this error propagates differs depending on if they are being added or subtracted, or if they are being multiplied or divided.
 
@@ -272,11 +275,13 @@ In general, if the variable $Z$ is calculated by adding (or subtracting) 2 or mo
 
 $$E_{Z} = \sqrt{E^{2}_{X} + E^{2}_{Y}}.$$
 
-Hence, for the egg masses, the error of the combined masses () equals the square root of the error associated with the mass of egg 1 squared ($E^{2}_{X}$) plus the error associated with the mass of egg 2 squared ($E^{2}_{Y}$).
+Hence, for the egg masses, the error of the combined masses ($E^{2}_{Z}$) equals the square root of the error associated with the mass of egg 1 squared ($E^{2}_{X}$) plus the error associated with the mass of egg 2 squared ($E^{2}_{Y}$).
 It often helps to provide a concrete example. 
 If the error associated with the measurement of egg 1 is $E^{2}_{X} = 2$, and the error associated with the measurement of egg 2 is $E^{2}_{X} = 3$, then we can calculate,
 
 $$E_{Z} = \sqrt{2^{2} + 3^{2}} \approx 3.61.$$
+
+Note that the units of $E_{Z}$ are the same as $Z$ (e.g., grams).
 
 ## Multiplying or dividing errors
 
@@ -289,17 +294,18 @@ How the error of the total area ($E_{A}$) is propagated by $E_{L}$ and $E_{W}$ i
 $$E_{A} = A \sqrt{\left(\frac{E_{L}}{L} \right)^{2} + \left(\frac{E_{W}}{W} \right)^{2}}.$$
 Notice that just knowing the error of each measurement ($E_{L}$ and $E_{W}$) is no longer sufficient to calculate the error associated with the measurement of the total area.
 We also need to know $L$, $W$, and $A$.
-If our field has a length of $L = 20$ m and width of $W = 10$, then $A = 20 \times 10 = 200$. 
+If our field has a length of $L = 20$ m and width of $W = 10$ m, then $A = 20 \times 10 = 200\:m^{2}$. 
 If length and width measurements have associated errors of $E_{L} = 2$ m $E_{W} = 1$ m, then,
 
-$$E_{A} = 200 \sqrt{\left(\frac{2}{20} \right)^{2} + \left(\frac{1}{10} \right)^{2}} \approx 28.3.$$
-Of course, not every set of measurements with errors to be multiplied with be lengths and widths.
+$$E_{A} = 200 \sqrt{\left(\frac{2}{20} \right)^{2} + \left(\frac{1}{10} \right)^{2}} \approx 28.3\:m^{2}.$$
+
+Of course, not every set of measurements with errors to be multiplied will be lengths and widths (note, however, that the units of $E_{A}$ are the same as $A$, $m^{2}$).
 To avoid confusion, the general formula for multiplying or dividing errors is below, with the variables $L$, $W$, and $A$ replaced with $X$, $Y$, and $Z$, respectively, to match the case of addition and subtraction explained above,
 
 $$E_{Z} = Z \sqrt{\left(\frac{E_{X}}{X} \right)^{2} + \left(\frac{E_{Y}}{Y} \right)^{2}}.$$
 
 Note that the structure of the equation is the exact same, just with different letters used as variables.
-**It is necessary to be able to apply these equations correctly to estimate combined error.**
+It is necessary to be able to apply these equations correctly to estimate combined error.
 
 ## Applying formulas for combining errors
 
@@ -307,7 +313,7 @@ It is not necessary to understand why the equations for propagating different ty
 
 
 
-# _Practical_. Introduction to Jamovi {#Chapter_8}
+# Practical. Introduction to Jamovi {#Chapter_8}
 
 This practical focuses on learning how to work with datasets in Jamovi.
 Jamovi is available in the university laboratory computers through AppsAnywhere.
