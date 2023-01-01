@@ -25,6 +25,7 @@
 |                 |   10 FEB 2023 (FRI) 15:05-17:55 |
 | **Assessments** | Week 3 Practice quiz on Canvas  |
 
+Week 2 focuses on descriptive statistics, how to report them, interpret them, and communicate them with graphs.
 
 [Chapter 9](#Chapter_9) focuses on how to report numbers with accuracy and precision.
 In practice, this means reporting values with the correct number of digits (decimal places and significant figures), and rounding appropriately.
