@@ -1,13 +1,14 @@
 # (PART) Probability models and the Central Limit Theorem {-}
 
-# Week 4 Overview {-}
+# Week 4 Overview {-#Week4}
 
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 13 February 2023 - 17 February 2023 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 14-15  |
 |                 | **Recommended:** @Navarro2022 [Chapter 7](https://davidfoxcroft.github.io/lsj-book/07-Introduction-to-probability.html)    |
-|                 | **Optional:**  @Rowntree2018 Chapter 4 |
+|                 | **Suggested:**  @Rowntree2018 Chapter 4 |
+|                 | **Advanced:** None
 | **Lectures**    | 4.1: Probability models (17 min.) |
 |                 | 4.2: Probabilities to make predictions (12 min.) |
 |                 | 4.3: Probability distributions (11 min.) |

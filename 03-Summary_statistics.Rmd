@@ -1,13 +1,14 @@
 # (PART) Summary statistics {-}
 
-# Week 3 Overview {-}
+# Week 3 Overview {-#Week3}
 
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 6 February 2023 - 10 February 2023 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 9-12  |
 |                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
-|                 | **Optional:** @Rowntree2018 Chapter 3 |
+|                 | **Suggested:** @Rowntree2018 Chapter 3 |
+|                 | **Advanced:** None
 | **Lectures**    | 3.0: Decimal places and significant figures part 1 (8 min.) |
 |                 | 3.1: Decimal places and significant figures part 2 (7 min.) |
 |                 | 3.2: Graphs (11 min.) |

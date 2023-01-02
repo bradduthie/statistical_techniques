@@ -1,7 +1,23 @@
 # (APPENDIX) Appendix {-}
 
-# Statistical units {#appendixA_units}
+# Common Marking Scheme {#appendexA_CMS}
 
+
+This appendix is a recreation of [Appendix 1: Undergraduate Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/) on the University of Stirling website. 
+
+| Mark  | Equivalent Grade | Result | Descriptor of Attainment of Learning Outcomes |
+|-------|------------------|--------|-----------------------------------------------|
+| 90+   | 1st              | Pass   | Meets all the requirements to attain 80-89 but in addition demonstrates an exceptional degree of originality and exceptional analytical, problem-solving and/or creative skills. |
+| 80-89 |                  |        | Meets all the requirements to attain 70-79 but in addition demonstrates outstanding quality evidenced by an ability to engage critically and analytically with source material, exhibits independent lines of argument, is highly original and uses an extremely wide range of relevant sources where appropriate. |
+| 70-79 |                  |         | Excellent range and depth of attainment of intended learning outcomes, secured by discriminating command of a comprehensive range of relevant materials and analyses, and by deployment of considered judgement relating to key issues, concepts or procedures. |
+| 60-69 | 2:1              | Pass   | Attainment of virtually all intended learning outcomes, clearly grounded on a close familiarity with a wide range of supporting evidence, constructively utilised to reveal an appreciable depth of understanding. |
+| 50-59 | 2:2              | Pass   | Attainment of most of the intended learning outcomes, some more securely grasped than others, resting on a circumscribed range of evidence and displaying a variable depth of understanding. |
+| 40-49 | 3rd              | Pass   | Acceptable attainment of most intended learning outcomes, displaying a qualified familiarity with a minimally sufficient range of relevant materials, and a grasp of the analytical issues and concepts which are generally reasonable, albeit insecure. |
+| 30-39 | Fail - Marginal  | Fail   | Appreciable deficiencies in the attainment of intended learning outcomes, perhaps lacking a secure basis in relevant factual or analytical dimensions. |
+| 0-29  | Fail - Clear     | Fail   | No convincing evidence of attainment of intended learning outcomes, such treatment of the subject as is in evidence being directionless and fragmentary. |
+| X     | Fail             | Fail   | Failure to comply with Compulsory Module Requirements or engage with the module, leading to no automatic right to reassessment. |
+
+Table: **Undergraduate Common Marking Scheme Information**: Column one lists the mark out of 100, column two lists the equivalent grade, column three describes the result as pass or fail, and column four describes the attainment of the learning outcome.
 
 # Uncertainty derivation {#uncertainty_derivation}
 

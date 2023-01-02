@@ -1,6 +1,6 @@
 # (PART) Hypothesis testing {-}
 
-# Week 6 Overview {-}
+# Week 6 Overview {-#Week6}
 
 General overview of what will be the focus of this week.
 

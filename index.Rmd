@@ -17,63 +17,307 @@ link-citations: yes
 linkcolor: blue
 graphics: yes
 github-repo: bradduthie/statistical_techniques
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "This is a lab book for the University of Stirling second year undergraduate Biological and Environmental Sciences statistics module."
 ---
 
-# Preface {-}
+# Preface {-#preface}
 
-Welcome to the module. This workbook will be used throughout the semester and contain all of the information that you need for the statistical techniques (SCIU4T4) module.
+Welcome to SCIU4T4, Statistical Techniques!
+Statistical techniques are tools that allow us to make inferences about the world using data. 
+Consequently, these tools are indispensable in the sciences, and their importance in research continues to grow. 
+By developing your statistical understanding, you will become better able to critically evaluate the scientific literature and conduct your own scientific research. 
+In this module, you will learn important skills for working with environmental, ecological, and biological data sets. 
+Many of these skills will be directly applied in subsequent modules. 
 
-## What is statistics? {-}
+This preface introduces how the module will be structured.
+We recognise that this can be a daunting module, especially for students who are not confident with mathematics or computer skills.
+Our hope this semester is to build your confidence, knowledge, interest, and appreciation for statistics.
+We will do this by presenting the learning material in an interesting and accessible way, and by assessing your learning fairly and transparently, and with plenty of detailed feedback.
+If you stick with it, then by the end of this semester you should have all of the tools that you need to conduct your own statistical analysis, or to interpret the analysis of other researchers.
+We are looking forward to helping you learn!
 
-An explanation of the material, and what will be taught.
 
 ## Why this module is important {-}
 
-Some discussion of module importance
+Nearly all research in the biological and environmental sciences relies on data analysis of some kind.
+Statistical literacy is therefore important, not just for *doing* research, but also for *understanding* and *evaluating* the research of other scientists.
+Throughout this book, we will illustrate the importance of statistics using examples inspired by, or directly sourced from, real-world projects in the biological and environmental sciences.
+Many of these examples, including those used in lab practicals, will draw from research projects conducted at the University of Stirling.
+Several examples will focus on research that is important for addressing major global challenges in sustainability, food security, conservation, or the spread of disease.
+Other examples will focus more on research that addresses fundamental scientific questions about ecology and evolution.
+We hope that you will find topics that interest you, and that this module will inspire you to learn more about statistics.
 
-## Teaching overview {-}
 
-Here is how you will be taught, with online lectures, reading assignments, and face-to-face practicals.
+## Intended learning outcomes (ILOs) {-#ILOs}
+
+Modules at the University of Stirling all include a set of Intended Learning Outcomes (ILOs).
+As the name implies, these ILOs define the core learning outcomes from the module.
+In statistical techniques, there are 4 ILOs around which the rest of the module is based.
+
+1. Manipulate datasets and characterise their statistical properties.
+2. Demonstrate an understanding of null hypothesis testing.
+3. Choose and apply the correct statistical test to unseen data using statistical software.
+4. Interpret the results of statistical tests in order to generate conclusive statements on scientific problems.
+
+The methods you learn in this module will be applied in future modules, including your fourth year honours dissertation project. 
+It will also provide you with key data analysis skills that might be useful to you in the future, both in your personal and professional life.
+During the semester, we will highlight the relevance of these skills using real examples from biological and environmental sciences and use readings and software that are free and open access (and therefore accessible to you even after the module and your degree has completed).
+
+
+## Accessibility {-#accessibility}
+
+We are committed to making this module accessible, which is why the material in this book is available in multiple formats (online, PDF, audio).
+Figures in this book should have accessible contrast and colour, and informative alt images.
+The font size, type, and colour scheme should also be adjustable.
+Links should make it easy to navigate to different parts of the book.
+Lectures are provided in manageable chunks and with the option for captions.
+We have tried to be as clear as possible about the timetable, learning content, and assessments.
+If some aspect of the module is inaccessible or unclear to you, then please let us know, and we will address it!
+
+## Teaching overview {-#teaching_overview}
+
+The learning content of this module will be delivered both online and face-to-face.
+Each week, there will be new chapters to read in this book, new lectures to watch on [Canvas](https://canvas.stir.ac.uk), and a new practice quiz.
+These can all be completed online at any time during the week.
+If possible, it is probably best to read and watch lectures before the weekly practical, then take the quiz after the practical.
+Weekly practicals are on Wednesday afternoon (Group A) or Thursday morning (Group B), depending on which group you sign up for (you only need to attend one).
+Weekly face-to-face optional help sessions are on Friday afternoons.
+
+- **Practical Group A**: WED 13:05-15:55 in Cottrell 2A17
+- **Practical Group B**: THU 09:05-11:55 in Cottrell 2A17
+- **Optional Help**: FRI 15:05-17:55 in Cottrell 1A13
+
+These are all of the scheduled face-to-face sessions, with the exception of one at the very end of the semester.
+See the [full schedule](#schedule) for all of the specific dates, times, and locations.
+
+| Online material  | Face-to-face sessions |
+|------------------|-----------------------|
+| Book chapters    | Weekly practicals     |
+| Lecture videos   | Option help sessions  |
+| Practice quizzes |                       |
+
+Table: Summary of online and face-to-face teaching.
+
+For each weak, links to all chapters, lectures, and quizzes are available in this book (e.g., the [Week 1 Overview](#Week1)) and the [Learning and Teaching](https://canvas.stir.ac.uk/courses/13075/pages/learning-and-teaching) page on Canvas.
+
+
+### Book chapters {-#book_chapters}
+
+The book chapters that you need to read for each are all listed at the start of each section in the book (e.g., [Week 1](#Week1)) and in each week's [Learning and teaching content](https://canvas.stir.ac.uk/courses/13075/pages/learning-and-teaching) on Canvas.
+On Canvas, this includes links to the book chapters online, PDF copies of the chapters, and audio recordings of the module coordinator reading them.
+Reading the [book online](bradduthie.github.io/SCIU4T4/) gives you the option of adjusting the text size (small or large), font (serif or sans serif), and background (white, sepia, or night).
+It should be quite readable on a mobile phone, or on a computer screen.
+The PDF of the book is identical, but organised more in the form of a traditional textbook.
+An eBook is development, but the equations do not render well.
+
+Book chapters are generally quite short, and longer chapters are broken down into manageable subsections.
+Wherever relevant, links are provided to other chapters and references, and to interactive applications that make concepts easier to visualise.
+These applications will also be embedded into Canvas.
+
+> [Click here](https://bradduthie.shinyapps.io/forest/) for an example interactive application.
+
+Information that is interesting but not critical to know is generally relegated to footnotes.
+
+### Additional readings {-#additional_readings}
+
+This book is the only one that you **need** to read to do well in this module, but each week also includes some readings that are recommend, optional, or advanced.
+Recommended readings provide similar information to what is in this book, but more in-depth or from a slightly different perspective.
+All recommended readings will be free to view or download, so you will never need to pay for this material.
+Suggested readings provide a bit more context for the taught material, but might not always be directly relevant to the learning material of the module.
+Advanced readings go beyond the taught material and are sometimes quite technical.
+
+| Reading      |  Category    | Purpose                                        |
+|--------------|--------------|------------------------------------------------|
+| Required     | **Required** | Important to read (material will be assessed)  |
+| Recommended  | **Optional** | Useful to better understand required reading   |
+| Suggested    | **Optional** | Provides helpful context; not critical reading |
+| Advanced     | **Optional** | Additional concepts and primary literature     |
+
+Table: How to interpret different reading recommendations for each week.
+
+Wherever possible, readings are free and open access (always the case for required and recommended readings), are from inexpensive books.
+References in this book are also useful sources of information, but a lot of these references are from expensive statistics texts.
+Most of these texts are available in the library, and all of them are owned by the module coordinator (happily shared upon request).
+
+
+## Canvas {-#Canvas}
+
+This module will be taught using [Canvas](https://canvas.stir.ac.uk/).
+You should be enrolled in the University of Stirling Canvas module "SCIU4T4 - Statistical Techniques (2022/3)". 
+If for some reason you cannot access the module on Canvas, then please email the module coordinator as soon as possible (alexander.duthie@stir.ac.uk).
+
+In Canvas, you will find links to all learning content, including chapters to this book, video lectures, practice quizzes, tests, and exams.
+For your benefit, there is some redundancy between the information on Canvas and the information in this book.
+All of the information in this preface is also available on Canvas.
+Similarly, weekly links to readings, lectures, practicals, and assessments are posted at the start of the sections of this book and in the [Learning and Teaching](https://canvas.stir.ac.uk/courses/13075/pages/learning-and-teaching) content on Canvas.
+You will also receive weekly announcements at 08:00 on Monday summarising what needs to be done each week (again, with relevant links).
+Our objective here is to provide a clear structure for the module so that you always know what is happening and when.
+
+Some aspects of the module must be completed on Canvas.
+All of the links below are also on the main Canvas page.
+
+- **[Discussions](https://canvas.stir.ac.uk/courses/13075/discussion_topics)** are a place where you can ask questions about the module. Each week, a new topic will be introduced so that you can ask questions pertaining to that week (we are not strict about which week you post in; this is more just to help keep everything organised). You can also ask questions anonymously on the **[SCIU4T4 Padlet](https://padlet.com/alexanderduthie/ox0i6vbgakpvb47b)**. It is completely fine to ask for practice problems in the discussion boards, but please try to be as specific as possible about what you want to practice (this helps us come up with a good question).
+- **[Quizzes](https://canvas.stir.ac.uk/courses/13075/quizzes)** are where all practice quizzes and assessments will be located. You must take these on Canvas, and you will need a laptop or desktop computer to complete them.
+- **[People](https://canvas.stir.ac.uk/courses/13075/users)** is where you can sign up for a practical group (A or B).
+
+In general, it is probably also easiest to watch lecture videos from within Canvas, although this should also be possible outside of Canvas using links in this book.
 
 ## Assessment overview {-}
 
-You will have one formative test and two summatitive tests. You will also have one mock exam and one exam exam.
+This module includes 2 formative (i.e., ungraded) assessments and 3 summative (i.e., graded) assessments.
 
-### Test 1F {-}
+| Assessment       | Type       | Weighting  | Weeks | Time                  | 
+|------------------|------------|------------|-------|-----------------------|
+| Test 1F          | Formative  | 0\%        | 1-4   | 22 FEB at 10:05-11:55 |         
+| Test 1S          | Summative  | 25\%       | 1-6   | 15 MAR at 10:05-11:55 |
+| Test 2S          | Summative  | 25\%       | 7-10  | 05 APR at 10:05-11:55 |
+| Mock Exam        | Formative  | 0\%        | All   | To be determined      |
+| Exam             | Summative  | 50\%       | All   | To be determined      |
 
-Information about Test 1F
+Table: Summary of module assessments, whether they are practice (formative) or for a grade (summative), how much they count for the final grade, the weeks of material that the test includes, and the time of the test.
 
-### Test 1S  {-}
+All tests and exams are taken online on Canvas.
+You can access the assessments in table above using the '[Quizzes](https://canvas.stir.ac.uk/courses/13075/quizzes)' link on canvas, or access an assessment directly with the above links.
 
-Information about Test 1S
+Tests and exams are completed online.
+Tests and exams are open book and open note.
+You are free to use any learning materials throughout the module, but you **must complete your test independently**.
+In other words, you cannot confer with anyone else about the test material while sitting it (except for module instructors if you have question).
+During all tests and exams, the module coordinator will be available by email and MS Teams chat.
 
-### Test 2S {-}
+**It is important to have access to a computer for all tests and exams**.
+To complete tests and exams, you will need to run statistical analyses on a laptop or desktop computer (a mobile phone will not work, or at least be extremely inconvenient to the extent that you might not be able to complete the assessment on time).
+If you do not have access to a laptop, you can [borrow one](https://www.stir.ac.uk/about/professional-services/information-services-and-library/current-students-and-staff/it-support-and-resources/borrowing-laptops/) from the library.
+If you believe that you might not have access to a computer during a test or exam, for whatever reason, please let the module coordinator know as soon as possible.
+We will work something out!
 
-Information about Test 1S
+**The goal of all assessments is to evaluate your learning**.
+Assessment questions will never be written to deliberately trick you, nor will they be intentionally written to be confusing.
+We want to evaluate your understanding of the learning content, not your ability to decipher test questions.
+Most questions will therefore be asked in the same way as questions in lab practicals and practice quizzes, or explained in this book.
+If you practice the skills introduced in these practicals, do the required readings, and complete weekly practice quizzes, then you should be well-prepared for tests and exams.
 
-### Mock Exam {-}
+University policy requires all module assessments to align with the University of Stirling [Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/).
+This means that the numeric mark (0-100) awarded needs to match up with the descriptor attainment of learning outcomes.
+If you attain most of the intended learning outcomes ([ILOs](#ILOs)) of the module, then you should receive passing grade (40+):
 
-Information about the mock exam
+> "Acceptable attainment of most intended learning outcomes, displaying a qualified familiarity with a minimally sufficient range of relevant materials, and a grasp of the analytical issues and concepts which are generally reasonable, albeit insecure" ([University of Stirling Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/)).
 
-### Exam  {-}
+However, extremely high grades (80+) are indended to indicate truly exceptional work that goes above and beyond what is required to pass the module:
 
-Information about the exam
+> "[D]emonstrates outstanding quality evidenced by an ability to engage critically and analytically with source material, exhibits independent lines of argument, is highly original and uses an extremely wide range of relevant sources where appropriate" ([University of Stirling Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/)).
 
-## Jamovi statistical software {-}
+The full [University of Stirling Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/) is replicated in [Appendix A](#appendexA_CMS) of this book.
+To align assessments to this scheme, all tests and exams will be set with 3 different types of questions:
 
-Introduction to [Jamovi](https://www.jamovi.org/), and why we are using it instead of other software.
+1. **Fundamental questions: (at least 50\%).** These questions will assess the most fundamental skills of the module. Questions will focus on specific protocols that have been introduced in lectures and this book, and they will test your ability to complete these protocols and correctly report or interpret what you have done. For example, you might be asked to answer a specific question about a dataset, correctly calculate a statistic from a dataset in [Jamovi](#jamovi) (e.g., the mean, or confidence intervals), or interpret statistical output (e.g., output from a particular statistical test). These are the kinds of questions that you can prepare for with practice and repetition. And we are happy to provide new practice questions in the [Canvas Discussion](https://canvas.stir.ac.uk/courses/13075/discussion_topics) upon request. 
 
-## Textbooks {-}
+2. **Conceptual questions: (at least 30\%).** These questions will assess more advanced learning content in the lectures and this book, and they might therefore require a greater depth of understanding of the relevant statistical concepts that you have learned. Instead of simply repeating a statistical calculation or procedure, these questions might require you to demonstrate an appreciable understanding of the underlying statistical concepts. For example, instead of simply asking you to report the answer for a specific calculation, a question might leave it up to you to use your understanding of statistics to decide what calculation needs to be performed. Or, rather than asking you to run a particular statistical test and provide a result, a conceptual question might require you to choose and then correctly apply the appropriate test based on properties of a dataset.
 
-Introduction to the primary textbook [Learning statistics with jamovi](https://www.learnstatswithjamovi.com/), and a mention of other sources.
+3. **Advanced questions: (no more than 20\%).** These questions are intended to provide you with the opportunity to demonstrate an exceptional degree of understanding, problem-solving, and analytical skills. Advanced questions might require you to apply knowledge gained from independent learning outside the lectures and this book. The topics of these questions will be relevant for the range of weeks that the assessment includes (e.g., for Test 1S, you will only be asked material that is relevant to topics from weeks 1-6), but they will not be questions that have been previously introduced or explored. Again, the point of these questions is to allow you to demonstrate exceptional understanding of the material and independence in your statistical learning (not to shake your confidence).
+
+Question types will be clearly separated into different sections on all assessments, and will be presented in order 1-3.
+We strongly recommend that you attempt these questions in this order, and that you do not attempt advanced (3) questions until you are first feeling confident about your answers to fundamental (1) and conceptual questions (2).
+Separating questions in these categories is intended to ensure alignment with the university [Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/), and to give you a clearer idea of what to expect.
 
 
-## Canvas {-}
 
-How we will use Canvas, and how this book relates to it (Learning and Teaching content, where lectures, assessments, and discussions can be found).
 
-## Timetable {-}
+### Tests {-#tests}
+
+Tests are written so that they can be completed in 1 hour, but you will have 2 hours to complete them. 
+At the time of writing, this is the university recommended approach for accommodating any technical difficulties that might arise during online assessments, and for accommodating students with an Agreed Record of University Access Adjustments (ARUUA).
+If you have any concerns, then please get in touch with the module coordinator.
+We will listen, and do our best to help!
+
+All tests will consist of 25 questions in total.
+Questions will be a combination of multiple choice, multiple answer, and fill in the blank.
+Practice quizzes, and especially the first formative test (Test 1F), will match the format of summative tests (Test 1S and Test 2S) as closely as possible.
+About 1 hour before each test, you will receive an email at your University of Stirling email address that includes any datasets needed to complete the test.
+The email will contain 'SCIU4T4' in the subject line.
+If you have not received this email 30 minutes before the test starts, then please let the module coordinator know as soon as possible.
+It is entirely fine to have a look at the datasets before the test starts and get comfortable in your test environment.
+
+### Exams {-#exams}
+
+Exams are basically long tests.
+Exams are written so that they can be completed in 2 hours, but you will have 4 hours to complete them (see the [Tests](#tests) section above for an explanation of the timing).
+Exams will consist of 50 questions in total.
+Questions will be multiple choice, multiple answer, and fill in the blank.
+As with tests, you will receive an email at your University of Stirling email address about 1 hour before an exam that includes any datasets needed to complete the exam.
+
+The formative mock exam will match the format and content of the summative exam as closely as possible.
+
+### Extenuating circumstances {-#extenuating_circumstances}
+
+If you encounter personal difficulties that make it impossible to sit a test or exam, then you will need to file for Extenuating Circumstances.
+For more information, or to submit a request, you can go to the [Extenuating Circumstances](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/student-information/exams/extenuating-circumstances/) webpage.
+If you need help, or want some guidance, then please feel free to get in touch with the module coordinator.
+Discussions surrounding extenuating circumstances will be kept strictly confidential.
+Note that because all assessments are tests or exams, it is not possible to apply for an extension request as you would for an assignment (i.e., tests and exams cannot be taken late except under extenuating circumstances).
+
+## Practicals {-#practicals}
+
+Each week, there will be a practical session to learn and practice using statistical tools.
+Practical instructions are located in the last chapter of each book section (e.g., [Chapter 3](#Chapter_3) for week 1, or [Chapter 8](#Chapter_8) for week 2).
+Practical sessions are held in room Cottrell 2A17 on either Wednesdays from 13:05-15:55 (Group A) or Thursdays from 09:05-11:55 (Group B).
+When you get to the practical, there will be quick introduction, then you will work through the practical in a mostly self-guided way (feel free to converse with your classmates and help one another too).
+Instructors will be walking around the room to answer any questions that you have and help you if you get stuck.
+These instructors will include the lecturer leading the week's content, the module coordinator, and module demonstrators.
+Module demonstrators include postgraduate researchers who have experience in data analysis from their own PhD work.
+
+Some practicals will take the full 2 hours and 50 minutes, while others might be completed in less time.
+Before you complete the practical, it is a good idea to check in with one of the instructors to make sure that you have not missed anything.
+While practicals are not summatively assessed, the skills that you learn during module practicals are absolutely critical for being able to correctly answer questions on the tests and exams.
+Practicals exist to provide a low-pressure environment for learning these skills, so we hope that you can take your time and focus on completing them with the support of your instructors and classmates.
+If you finish early, then you are welcome to continue exploring the practical topic and asking questions, but you are not required to stay the full 2 hours and 50 minutes.
+If for some reason you find that the practical environment is not conducive to learning for you, then please let the module coordinator know.
+
+
+## Optional help hours {-#help}
+
+Face-to-face help is available to you every Friday in room Cottrell 1A113 from 15:05-17:55.
+You are very welcome to come in during this time to ask questions about the learning content of the week, and to get some extra help with the practical if you were unable to finish it.
+Learning statistics requires a lot practice and repetition, so it is entirely okay to ask the same question multiple times if you think that it will help you better understand something.
+This is not at all an inconvenience to the teaching team; we know that this material is challenging, and we want to help you understand it!
+
+Note that the scheduled help hours are probably the easiest way to get in touch with the teaching team for some one-on-one help.
+Nevertheless, you are also free to contact the module coordinator by email, MS Teams, or some other means if you have a question.
+Ad hoc meetings can also be set up during the week if necessary.
+
+
+## Jamovi statistical software {-#jamovi}
+
+There are a lot of different software packages for running statistical analyses. 
+Previous versions of this module have been taught using [Minitab](https://www.minitab.com/en-us/) or [SPSS](https://www.ibm.com/uk-en/products/spss-statistics).
+This year, and for the foreseeable future, we are using [Jamovi](https://www.jamovi.org/).
+There are a lot of tangible benefits to using [Jamovi](https://www.jamovi.org/):
+
+- It is user-friendly, with a point and click interface that is more intuitive than other software.
+- It is free and open source, which means that you will be able to use it even after you have finished this module and your degree.
+- It is written by a community of statisticians and scientists with a focus on teaching.
+- It works on Windows, Mac, Linux, or Chrome, and can even be operated [in a browser](https://www.jamovi.org/cloud.html).
+- It is lightweight, and much less prone to crashing than other statistical software.
+- It is built on top of the [R statistical programming language](https://www.r-project.org/about.html), which makes it easier to transition to learning R.
+
+In short, Jamovi has a lot of advantages that make it the best option for you to learn statistics, apply your learning in future projects, and build on the skills in this module in future course work.
+
+In the computer labs on campus, you can access Jamovi using [AppsAnywhere](https://appsanywhere.stir.ac.uk/).
+For your personal devices, you can [download Jamovi here](https://www.jamovi.org/download.html) (recommended).
+You can also run Jamovi [from a browser](https://www.jamovi.org/cloud.html), but there are currently some time limitations on doing this (sessions are limited to 45 minutes).
+
+This module will also introduce R, although we will not really use R by itself until [Week 11](#Week_11).
+Prior to [Week 11](#Week_11), there will be a few R commands scattered throughout lab practicals to ease you into it and accomplish some very specific tasks (e.g., generating random numbers)
+Because Jamovi is built on top of R, R can be run directly from within Jamovi to do these tasks.
+Anyone who is especially interested in learning about R and what it can do is welcome to attend fortnightly sessions of [Stirling Coding Club](https://stirlingcodingclub.github.io/studyGroup/), which is run by the module coordinator.
+Sessions are run online using MS Teams and do not require any active participation (contact the module coordinator if you want to be included in the group).
+
+The R programming language has become by far the most popular software for doing statistics in biology and environmental sciences (we will see why in [Week 11](#Week_11)).
+It is highly flexible and can be used for all kinds of projects.
+This book was entirely written in R using software called "Rmarkdown".
+
+
+## Timetable {-#timetable}
 
 ```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2023."}
 schedule <- read.csv("data/schedule.csv");
@@ -82,8 +326,10 @@ knitr::kable(schedule, format = "simple", table.envir = "table",
 ```
 
 
+## License {-#license}
 
-
-
+This book is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). 
+You can copy and redistribute this material however you want as long as you give credit to the authors, a copyright notice, a link to the original book, and an indication if the material has been modified.
+You may not use this material for commercial purposes.
 
 

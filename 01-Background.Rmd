@@ -6,14 +6,15 @@ output:
 
 # (PART) Background mathematics and data organisation  {-}
 
-# Week 1 Overview {-}
+# Week 1 Overview {-#Week1}
 
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 23 January 2023 - 27 January 2023 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 1-2  |
-|                 | **Recommended:**  @Wickham2014 ([Download](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/772)) |
-|                 | **Optional:** @Navarro2022 [Section 2.1](https://davidfoxcroft.github.io/lsj-book/02-A-brief-introduction-to-research-design.html) |
+|                 | **Recommended:** None
+|                 | **Suggested:** @Navarro2022 [Section 2.1](https://davidfoxcroft.github.io/lsj-book/02-A-brief-introduction-to-research-design.html) |
+|                 | **Advanced:**  @Wickham2014 ([Download](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/772)) |
 | **Lectures**    | 1.0: Introduction to Module (20 min.) |
 |                 | 1.1: Numbers and operations (18 min.) |
 |                 | 1.2: Orders of operations    (7 min.) |
