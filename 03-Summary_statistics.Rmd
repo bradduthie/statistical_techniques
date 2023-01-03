@@ -55,17 +55,22 @@ In your assessments, you will frequently be asked to report an answer to a speci
 
 ## Decimal places and significant figures
 
-A higher number of digits communicates a greater level of accuracy
+A higher number of digits communicates a greater level of accuracy.
 For example, the number 2.718 expresses a higher precision than 2.7 does.
 Reporting 2.718 implies that we know the value is somewhere between 2.7175 and 2.1785, but reporting 2.7 only implies that we know the value is somewhere between 2.65 and 2.75 [@Sokal1995].
-These numbers therefore have a different number of *decimal places* and a different number *significant figures*.
+These numbers therefore have a different number of *decimal places* and a different number of *significant figures*.
 Decimal places and significant figures are related, but not the same.
 
-**Decimal places** are conceptually easier to understand. These are just the number of digits to the right of the decimal point. For example, 2.718 has 3 decimal places and 2.7 has 1 decimal place.
+**Decimal places** are conceptually easier to understand. These are just the number of digits to the right of the decimal point. For example, 2.718 has 3 decimal places, and 2.7 has 1 decimal place.
 
-**Significant figures** are a bit more challenging. These are the number of digits that you need to infer the accuracy of a value. For example, the number 2.718 has 4 significant figures and 2.7 has 2 significant figures. This sounds straightforward, but it can get confusing when numbers start or end with zeros. For example, the number 0.045 has only two significant figures because the first two zeros only serve as placeholders (note that if this were a measurement of 0.045 m, then we could express the exact same value as 45 mm, so the zeros are not really necessary to indicate measurement accuracy). In contrast, the measurement 0.045000 has 5 significant figures because the last 3 zeros indicate a higher degree of accuracy than just 0.045 would (i.e., we know the value is somewhere between 0.44995 and 0.45005, not just 0.0445 and 0.0455). Lastly, the measurement 4500 has only 2 significant figures because the last 2 zeros are only serving as a placeholder to indicate magnitude, not accuracy (if we wanted to represent 4500 with 4 significant figures, we could use scientific notation and express it as $4.500 \times 10^3$).
+**Significant figures** are a bit more challenging. 
+These are the number of digits that you need to infer the accuracy of a value. 
+For example, the number 2.718 has 4 significant figures and 2.7 has 2 significant figures. This sounds straightforward, but it can get confusing when numbers start or end with zeros. 
+For example, the number 0.045 has only 2 significant figures because the first two zeros only serve as placeholders (note that if this were a measurement of 0.045 m, then we could express the exact same value as 45 mm, so the zeros are not really necessary to indicate measurement accuracy). 
+In contrast, the measurement 0.045000 has 5 significant figures because the last 3 zeros indicate a higher degree of accuracy than just 0.045 would (i.e., we know the value is somewhere between 0.44995 and 0.45005, not just 0.0445 and 0.0455). 
+Lastly, the measurement 4500 has only 2 significant figures because the last 2 zeros are only serving as a placeholder to indicate magnitude, not accuracy (if we wanted to represent 4500 with 4 significant figures, we could use scientific notation and express it as $4.500 \times 10^3$).
 
-Here is a table with some examples of some numbers, their decimal places, and their significant figures. 
+Here is a table with some examples of numbers, their decimal places, and their significant figures. 
 
 | Number     |  Decimal places   |  Significant figures  |
 |------------|-------------------|-----------------------|
@@ -83,15 +88,15 @@ For assessments, make sure that you are confident that you can report your answe
 
 ## Rounding
 
-Often if you are asked to report a number to a specific number of decimals or significant figures, you will need to round the number.  
+Often if you are asked to report a number to a specific number of decimals or significant figures, you will need to round the number. 
 Rounding reduces the number of significant digits in a number, which might be necessary if a number that we calculate has more significant digits than we are justified in expressing.
 There are different rules for rounding numbers, but in this module, we will follow @Sokal1995.
 When rounding to the nearest decimal, the last decimal written should not be changed if the number that immediately follows is 0, 1, 2, 3, or 4. 
 If the number that immediately follows is 5, 6, 7, 8, or 9, then the last decimal written should be increased by 1.
 
 For example, if we wanted to round the number 3.141593 to 2 significant digits, then we would write it as 3.1 because the digit that immediately follows (i.e., the third digit) is 4.
-If we wanted to round the number to 5 significant digits, then we would write it as 3.1415 because the digit that immediately follows is 9.
-And if we wanted to round 3.141593 to 4 significant digits, then we would write it as 3.146 because the digit that immediately follows is 5. 
+If we wanted to round the number to 5 significant digits, then we would write it as 3.1416 because the digit that immediately follows is 9.
+And if we wanted to round 3.141593 to 4 significant digits, then we would write it as 3.142 because the digit that immediately follows is 5. 
 Note that this does not just apply for decimals.
 If we wanted to round 1253 to 3 significant figures, then we would round by writing it as 1250.
 
@@ -108,19 +113,19 @@ Here is a table with some examples of numbers rounded to a given significant fig
 
 Table: Numbers to be rounded are presented in rows of the first column. The significant figures to which rounding is desired is in the second column, and the third column shows the correctly rounded number.
 
-In this module, it will be necessary to round calculated values to specified decimal or significant figure. 
+In this module, it will be necessary to round calculated values to a specified decimal or significant figure. 
 It is therefore important to understand the rules for rounding and why the values in the table above are rounded correctly.
 
 # Graphs {#Chapter_10}
 
 Graphs are useful tools for visualising and communicating data. 
 Graphs come in many different types, and different types of graphs are effective for different types of data.
-This chapter focuses on four types of graphs: (1) histograms, (2) pie charts, (3) barplots, and (4) box-whisker plots.
+This chapter focuses on 4 types of graphs: (1) histograms, (2) pie charts, (3) barplots, and (4) box-whisker plots.
 
 After collecting or obtaining a new dataset, it is almost always a good idea to plot the data in some way.
-Visualising a dataset can often highlight important and obvious properties of a dataset more efficiently that inspecting raw data, calculating summary statistics, or running statistical tests.
-When making graphs to communicate data visually, it is important to ensure the person reading the graph has a clear understanding what is being presented.
-In practice, this means clearly labelling axes with meaningful descriptions and appropriate units, including a descripting caption, and indicating what any graph symbols mean.
+Visualisation can often highlight important and obvious properties of a dataset more efficiently that inspecting raw data, calculating summary statistics, or running statistical tests.
+When making graphs to communicate data visually, it is important to ensure that the person reading the graph has a clear understanding of what is being presented.
+In practice, this means clearly labelling axes with meaningful descriptions and appropriate units, including a descriptive caption, and indicating what any graph symbols mean.
 In general, it is also best to make the simplest graph possible for visualising the data, which means avoiding unnecessary colour, three-dimensional display, or unnecessary distractions from the information being conveyed [@Dytham2011; @Kelleher2011]. 
 It is also important to ensure that graphs are as accessible as possible, e.g., by providing strong colour contrast and appropriate colour combinations [@Elavsky2022], and alternative text for images where possible.
 As a guide, the histogram, pie chart, barplot, and box-whisker plot below illustrate good practice when making graphs. 
@@ -129,7 +134,7 @@ As a guide, the histogram, pie chart, barplot, and box-whisker plot below illust
 
 Histograms illustrate the distribution of [continuous data](#Chapter_5).
 They are especially useful visualisation tools because it is often important to assess data at a glance and make a decision about how to proceed with a statistical analysis.
-The histogram shown in Figure 10.1 provides an example from the [fig fruits](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/fig_fruits.csv) data set from the practical in [Chapter 8](#Chapter_8).
+The histogram shown in Figure 10.1 provides an example using the [fig fruits](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/fig_fruits.csv) data set from the practical in [Chapter 8](#Chapter_8) (for a step-by-step demonstration of how a histogram is built, see [this interactive application](https://bradduthie.shinyapps.io/build_histogram/)[^2])..
 
 ```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in in 2010 from Baja, Mexico.", out.width="100%"}
 fig_fruits  <- read.csv(file = "data/fig_fruits.csv");
@@ -138,26 +143,25 @@ hist(x = fig_fruits[["Width_cm"]], xlab = "Fig fruit width (cm)",
      breaks = 5, xlim = c(0.8, 2.2));
 ```
 
-The histogram in Figure 10.1 shows how many fruits there are for different intervals of width (for a step-by-step demonstration of how a histogram is built, see [this interactive application](https://bradduthie.shinyapps.io/build_histogram/)[^2]).
-That is, the frequency with which fruits within some width interval occur in the data.
+The histogram in Figure 10.1 shows how many fruits there are for different intervals of width, i.e., the frequency with which fruits within some width interval occur in the data.
 For example, there are 6 fruits with a width between 1.0 and 1.2, so for this interval on the x-axis, the bar is 6 units in height on the y-axis.
 In contrast, there is only 1 fig fruit that has a width greater than 2.0 cm (the biggest is 2.1 cm), so we see that the height of the bar for the interval between 2.0 and 2.2 is only 1 unit in frequency.
-The bars of the histogram touch each other, which reinforces that the data are [continuous](#Chapter_5) [@Dytham2011; @Sokal1995].
+The bars of the histogram touch each other, which reinforces the idea that the data are [continuous](#Chapter_5) [@Dytham2011; @Sokal1995].
 
 > [Click here](https://bradduthie.shinyapps.io/build_histogram/) for an interactive application showing how histograms are built.
 
 It is especially important to be able to read and understand information from a histogram because it is often necessary to determine if the data are consistent with the assumptions of a statistical test.
 For example, the *shape* of the distribution of fig fruit widths might be important for performing a particular test.
-For the purposes of this module, the *shape* of the distribution just means what the data look like when plotted like this in a histogram. 
+For the purposes of this chapter, the *shape* of the distribution just means what the data look like when plotted like this in a histogram. 
 In this case, there is a peak toward the centre of the distribution, with fewer low and high values (this kind of distribution is quite common).
-Different distribution shapes will be discussed more in Part IV (next week).
+Different distribution shapes will be discussed more in [Week 4](#Week4).
 
 [^2]: Here is the full URL: https://bradduthie.shinyapps.io/build_histogram/
 
 ## Barplots and pie charts
 
 While histograms are an effective way of visualising [continuous data](#Chapter_5), barplots (also known as 'bar charts' or 'bar graphs') and pie charts can be used to visualise [categorical data](#Chapter_5).
-For example, in the [fig fruits](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/fig_fruits.csv) data set [Chapter 8](#Chapter_8), `r dim(fig_fruits)[1]` fig fruits were collected from 4 different trees (A, B, C, and D). 
+For example, in the [fig fruits](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/fig_fruits.csv) data set from [Chapter 8](#Chapter_8), `r dim(fig_fruits)[1]` fig fruits were collected from 4 different trees (A, B, C, and D). 
 A barplot could be used to show how many samples were collected from each tree (see Figure 10.2).
 
 ```{r, echo = FALSE, fig.alt = "An example barplot shows the total number of fruits collected from four trees labelled A, B, C, and D.", fig.cap = "Example bar plot showing how many fruits were collected from each of 4 trees (78 collected in total) in 2010 from Baja, Mexico.", out.width="100%"}
@@ -167,8 +171,8 @@ barplot(fruits_per_tree, xlab = "Tree", ylab = "Fruits sampled", cex.lab = 1.25,
 ```
 
 In Figure 10.2, each tree is represented by a separate bar on the x-axis.
-Unlike a histogram, the bars do not touch each other, which reinforces that different categories of data are being shown (in this case, different trees).
-The height of bar indicates how many fruits were sampled for each tree.
+Unlike a histogram, the bars do not touch each other, which reinforces the idea that different categories of data are being shown (in this case, different trees).
+The height of a bar indicates how many fruits were sampled for each tree.
 For example, `r as.numeric(fruits_per_tree[1])` fruits were sampled from tree A, and `r as.numeric(fruits_per_tree[2])` fruits were sampled from tree B.
 At a glance, it is therefore possible to compare different trees and make inferences about how they differ in sampled fruits.
 
@@ -183,40 +187,40 @@ pie(x = fruits_per_tree, labels = pie_fruits_labels,
     col = c("grey20", "grey80", "grey40", "grey60"), main = "");
 ```
 
-Pie charts can be useful in some situations, but in the biological and environmental they are not used as often as barplots.
+Pie charts can be useful in some situations, but in the biological and environmental sciences, they are not used as often as barplots.
 In contrast to pie charts, barplots present the absolute quantities (in Figure 10.2, e.g., the actual number of fruits sampled per tree), and it is still possible with barplots to infer the percentage each category contributes to the total from the relative sizes of the bars.
 Pie charts, in contrast, only illustrate relative percentages unless numbers are used to indicate absolute quantities.
-Unless only percentage is important, barplots are often the preferred way to communicate count data.
+Unless percentage alone is important, barplots are often the preferred way to communicate count data.
 
 
 ## Box-whisker plots
 
 Box-whisker plots (also called boxplots) can be used to visualise distributions in a different way than histograms.
-Instead of presenting the full distribution, as in a histogram, a box-whisker plot shows where summary statistics are located (summary statistics are explained below).
+Instead of presenting the full distribution, as in a histogram, a box-whisker plot shows where summary statistics are located (summary statistics are explained in [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12)).
 This allows the distribution of data to be represented in a more compact way, but does not show the full shape of a distribution.
-Figure 10.4 compares a box-whisker plot of fig fruit widths (10.4A) with a histogram of fig fruit widths (10.4B).
-In other words, both of the panels (A and B) in Figure 10.4 show the same information in two different ways (note that these are the same data as presented in Figure 10.1).
+Figure 10.4 compares a box-whisker plot of fig fruit widths (10.4a) with a histogram of fig fruit widths (10.4b).
+In other words, both of the panels ('a' and 'b') in Figure 10.4 show the same information in two different ways (note that these are the same data as presented in Figure 10.1).
 
-```{r, echo = FALSE, fig.alt = "Example of a simple boxplot shown to the left of a histogram, each showing the same information", fig.cap = "Boxplot (A) of fig fruit widths (cm) for 78 fig fruits collected in 2010 in Baja, Mexico. Panel (B) presents the same data as a histogram.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Example of a simple boxplot shown to the left of a histogram, each showing the same information", fig.cap = "Boxplot (a) of fig fruit widths (cm) for 78 fig fruits collected in 2010 in Baja, Mexico. Panel (b) presents the same data as a histogram.", out.width="100%"}
 par(mfrow = c(1, 2));
 boxplot(x = fig_fruits[["Width_cm"]], ylab = "Fig fruit width (cm)", xlab = "All trees", cex.lab = 1.25, cex.axis = 1.25);
-text(x = 0.6, y = 2.066, labels = "A", cex = 2.5);
+text(x = 0.6, y = 2.066, labels = "a", cex = 2.5);
 hist(x = fig_fruits[["Width_cm"]], xlab = "Fig fruit width (cm)", 
      ylab = "Frequency", cex.lab = 1.25, col = "grey", main = "", 
      breaks = 5, xlim = c(0.8, 2.2));
 sum_fig_fruits <- summary(fig_fruits[["Width_cm"]]);
-text(x = 0.9, y = 27, labels = "B", cex = 2.5);
+text(x = 0.9, y = 27, labels = "b", cex = 2.5);
 ```
 
-To show how the panels of Figure 10.4 correspond to one another more clearly, Figure 10.5 shows them again, but with points indicating where the summary statistics shown in the boxplot (Figure 10.5A) are located in the histogram (Figure 10.5B).
+To show how the panels of Figure 10.4 correspond to one another more clearly, Figure 10.5 shows them again, but with points indicating where the summary statistics shown in the boxplot (Figure 10.5a) are located in the histogram (Figure 10.5b).
 These summary statistics include the median (black circles of Figure 10.5), quartiles (red squares of Figure 10.5), and the limits of the distribution (i.e., the minimum and maximum values; blue triangles of Figure 10.5).
 Note that in boxplots, if outliers exist, they are presented as separate points.
 
 
-```{r, echo = FALSE, fig.alt = "Example of a simple boxplot shown to the left of a histogram, each showing the same information, with points showing how properties of the two panels match.", fig.cap = "Boxplot (A) of fig fruit widths (cm) for 78 fig fruits collected in 2010 in Baja, Mexico. Panel (B) presents the same data as a histogram. Points in the boxplot indicate the median (black circle), first and third quartiles (red squares), and the limits of the distribution (blue triangles). Corresponding locations are shown on the histogram in panel (B).", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Example of a simple boxplot shown to the left of a histogram, each showing the same information, with points showing how properties of the two panels match.", fig.cap = "Boxplot (a) of fig fruit widths (cm) for 78 fig fruits collected in 2010 in Baja, Mexico. Panel (b) presents the same data as a histogram. Points in the boxplot indicate the median (black circle), first and third quartiles (red squares), and the limits of the distribution (blue triangles). Corresponding locations are shown on the histogram in panel (b).", out.width="100%"}
 par(mfrow = c(1, 2));
 boxplot(x = fig_fruits[["Width_cm"]], ylab = "Fig fruit width (cm)", xlab = "All trees", cex.lab = 1.25, cex.axis = 1.25);
-text(x = 0.6, y = 2.066, labels = "A", cex = 2.5);
+text(x = 0.6, y = 2.066, labels = "a", cex = 2.5);
 points(y = as.numeric(sum_fig_fruits[3]), x = 1, pch = 16, cex = 2, 
        col = "black");
 points(y = as.numeric(sum_fig_fruits[2]), x = 1, pch = 15, cex = 1.5, 
@@ -241,7 +245,7 @@ points(x = as.numeric(sum_fig_fruits[1]), y = 0, pch = 17, cex = 1.5,
        col = "blue");
 points(x = as.numeric(sum_fig_fruits[6]), y = 0, pch = 17, cex = 1.5, 
        col = "blue");
-text(x = 0.9, y = 27, labels = "B", cex = 2.5);
+text(x = 0.9, y = 27, labels = "b", cex = 2.5);
 par(mfrow = c(1, 1));
 ```
 
@@ -269,15 +273,15 @@ All of the summary statistics that follow describe calculations for a *sample* a
 Recall from [Chapter 4](#Chapter_4) the difference between a population and a sample.
 This module focuses on statistical techniques, not statistical theory, so summary statistics will just focus on how to estimate statistics from sampled data instead of how statistics are defined mathematically[^3].
 
-[^3]: If interested, a good textbook for learning about theoretical statistics and the mathematics underlying what we do in this module is @Miller2004. Note, @Miller2004 will not be useful for this module.
+[^3]: If interested, a good textbook for learning about theoretical statistics and the mathematics underlying what we do in this module is @Miller2004.
 
 ##  The mean
 
 The arithmetic mean (hereafter just *the mean*[^4]) of a sample is one of the most commonly reported statistics when communicating information about a dataset. 
-The mean is a measure of central tendency, so it is located somewhere in the centre of a distribution.
-Figure 10.7 shows the same histogram of fig fruit widths shown in Figure 10.1, but with an arrow indicating where the mean of the distribution is located
+The mean is a measure of central tendency, so it is located somewhere in the middle of a distribution.
+Figure 11.1 shows the same histogram of fig fruit widths shown in Figure 10.1, but with an arrow indicating where the mean of the distribution is located
 
-```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in in 2010 from Baja, Mexico.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape. The mean of the distribution is indicated with an arrow.", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in in 2010 from Baja, Mexico. The mean of the distribution is indicated with an arrow.", out.width="100%"}
 fig_fruits  <- read.csv(file = "data/fig_fruits.csv");
 hist(x = fig_fruits[["Width_cm"]], xlab = "Fig fruit width (cm)", 
      ylab = "Frequency", cex.lab = 1.25, col = "grey", main = "", 
@@ -313,10 +317,10 @@ To calculate the mean of a sample, we just need to add up all of the values and 
 
 $$\bar{x} = \frac{4.2 + 5.0 + 3.1 + 4.2 + 3.8 + 4.6 + 4.0 + 3.5}{8}.$$
 
-Note that I have used the symbol $\bar{x}$ to represent the mean of $x$, which is a common notation [@Sokal1995].
+Note that we have used the symbol $\bar{x}$ to represent the mean of $x$, which is a common notation [@Sokal1995].
 In the example above, $\bar{x} = `r mean(c(4.2, 5.0, 3.1, 4.2, 3.8, 4.6, 4.0, 3.5))`$.
 
-Writing the calculation above is not a problem because we only have 8 points of data.
+Writing the full calculation above is not a problem because we only have 8 points of data.
 But sample sizes are often much larger than 8.
 If we had a sample size of 80 or 800, then there is no way that we could write down every number to show how the mean is calculated.
 One way to get around this is to use ellipses and just show the first and last couple of numbers,
@@ -350,7 +354,7 @@ Next, we can rewrite the top of the equation in a different form using a summati
 $$\sum_{i = 1}^{8}x_{i} = x_{1} + x_{2} + x_{3} + x_{4} + x_{5} + x_{6} + x_{7} + x_{8}.$$
 Like the use of $x_{i}$, the summation sign $\sum$ takes some getting used to, but here it just means "sum up all of the $x_{i}$ values".
 You can think of it as a big 'S' that just says "sum up". 
-The bottom of the S is the starting point and the top of it is the ending point for adding numbers.
+The bottom of the S tells you the starting point, and the top of it tells you the ending point, for adding numbers.
 Verbally, we can read this as saying, "starting with $i = 1$, add up all of the $x_{i}$ values until $i = 8$". 
 We can then replace the long list of $x$ values with a summation,
 
@@ -387,7 +391,7 @@ As a simple example, we can again consider the sample dataset of 8 values.
 
 In this dataset, the values 5.0, 3.1, 3.8, 4.6, 4.0, and 3.5 are all represented once.
 But the value 4.2 appears twice, once in the first position and once in the fourth position.
-Because 4.2 therefore appears most frequently in the dataset, it is the mode of the dataset.
+Because 4.2 appears most frequently in the dataset, it is the mode of the dataset.
 
 Note that it is possible for a dataset to have more than one mode. 
 Also, somewhat confusingly, distributions that have more than one peak are often described as multimodal, even if the peaks are not of the same height [@Sokal1995].
@@ -432,14 +436,14 @@ The median is a type of quantile.
 A quantile divides a sorted dataset into different percentages that are lower or higher than it.
 Hence, the median could also be called the 50\% quantile because 50\% of values are lower than the median and 50\% of values are higher than it.
 Two other quantiles besides the median are also noteworthy.
-The first quartile (also called the "lower quartile") defines the value for which 25\% of values of lower and 75\% of values are higher.
+The first quartile (also called the "lower quartile") defines the value for which 25\% of values are lower and 75\% of values are higher.
 The third quartile (also called the "upper quartile") defines the value for which 75\% of values are lower and 25\% of values are higher.
 Sometimes this is easy to calculate. 
 For example, if there are only five values in a dataset, then the lower quartile is the number in the second position when the data are sorted because 1 value (25\%) is below it and 3 values (75\%) are above it.
 For example, for the values {1, 3, 4, 8, 9}, the value 3 is the first quartile and 8 is the third quartile.
 
 In some cases, it is not always this clear.
-We can show how quantiles get more complicated using the same 8 values as above where the first quartiles is somewhere between 3.5 and 3.8.
+We can show how quantiles get more complicated using the same 8 values as above where the first quartile is somewhere between 3.5 and 3.8.
 
 ```
 3.1, 3.5, 3.8, 4.0, 4.2, 4.2, 4.6, 5.0
@@ -462,13 +466,13 @@ But it is important to recognise that different statistical tools might give dif
 
 It is often important to know how much a set of numbers is spread out. 
 That is, do all of the data cluster close to the mean, or are most values distant from the mean. 
-For example, all of the numbers below are quite close to the mean of 5.0 (three numbers are exactly 5.0).
+For example, all of the numbers below are quite close to the mean of 5.0 (3 numbers are exactly 5.0).
 
 ```
 4.9, 5.3, 5.0, 4.7, 5.1, 5.0, 5.0
 ```
 
-In contrast, all of the numbers that follow are relatively distant to the same mean of 5.0.
+In contrast, all of the numbers that follow are relatively distant from the same mean of 5.0.
 
 ```
 3.0, 5.6, 7.8, 1.2, 4.3, 8.2, 4.9
@@ -487,13 +491,13 @@ The best approach to learning them is to see them and practice using them in dif
 The range of a set of numbers is probably the most intuitive measure of spread.
 It is simply the difference between the highest and the lowest value of a dataset [@Sokal1995].
 To calculate it, we just need to take the highest value minus the lowest value.
-If we want to be fancy, then we can write a general equation for the range of a variable $X$,
+If we want to be fancy, then we can write a general equation for the range of a random variable $X$,
 
 $$Range(X) = \max(X) - \min(X).$$
 
 But really, all that we need to worry about is finding the highest and lowest values, then subtracting.
 Consider again the two sets of numbers introduced at the beginning of the chapter.
-In examples, it is often helpful to imagine numbers as something concrete that has been measured, so suppose that these numbers are the measured masses (in grams) of leaves from two different plants. 
+In examples, it is often helpful to imagine numbers as representing something concrete that has been measured, so suppose that these numbers are the measured masses (in grams) of leaves from two different plants. 
 Below are the masses of plant A, in which leaf masses are very similar and close to the mean of 5.
 
 ```
@@ -521,7 +525,7 @@ Plant B therefore has a much higher range than plant A.
 It is important to mention that the range is highly sensitive to outliers [@Navarro2022].
 Just adding a single number to either plant A or plant B could dramatically change the range.
 For example, imagine if we measured a leaf in plant A to have a mass of 19.7 g (i.e., we found a huge leaf!).
-The range of plant A would then be $19.7 - 4.7 = 14$.
+The range of plant A would then be $19.7 - 4.7 = 14$ instead of 0.6!
 Just this one massive leaf would then make the range of plant A double the range of plant B.
 This lack of robustness can really limit how useful the range is as a statistical measure of spread.
 
@@ -572,10 +576,12 @@ The one outlier therefore has a huge effect on the range, but only a modest effe
 ## The variance
 
 The range and inter-quartile range were reasonably intuitive, in the sense that it is not too difficult to think about what a range of 10, e.g., actually means in terms of the data.
-We now move into measures of spread that are less intuitive.
+We now move to measures of spread that are less intuitive.
 These measures of spread are the variance, standard deviation, coefficient of variation, and standard error.
 These can be confusing and unintuitive at first, but they are extremely useful.
-The variance of a dataset (is a measure of the expected distance of data from the mean.
+We will start with the variance; this section is long because we want to break the variance down carefully, step by step.
+
+The sample variance of a dataset is a measure of the expected distance of data from the mean.
 To calculate the variance of a sample, we need to know the sample size ($N$, i.e., how many measurements in total), and the mean of the sample ($\bar{x}$).
 We can calculate the variance of a sample ($s^{2}$) as follows,
 
@@ -589,8 +595,8 @@ This part of the equation is called the **sum of squares** ($SS$),
 
 $$SS = \sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right)^{2}$$
 
-That is, we need to subtract the mean of each value $x_{i}$, square the result, and add everything up.
-Once we have this sum $SS$, then we just need to multiply by $1 / (N - 1)$ to get the variance.
+That is, we need to subtract the mean from each value $x_{i}$, square the result, and add everything up.
+Once we have this sum, $SS$, then we just need to multiply by $1 / (N - 1)$ to get the variance.
 
 An example of how to do the actual calculation should help make it easier to understand what is going on.
 We can use the same values from plant A earlier.
@@ -600,8 +606,8 @@ We can use the same values from plant A earlier.
 ```
 
 To calculate the variance of plant A leaf masses, we start with the sum of squares.
-That is, take 4.7, subtract the sample mean of 5.0 ($4.7 - 5.0 = -0.3$), then square the result ($(-0.3)^{2} = 0.09$).
-We do the same for 4.9, $(4.9 - 5.0)^{2} = 0.1$, and add it to the 0.09, then continue down the list of numbers finishing with 5.3.
+That is, take 4.9, subtract the sample mean of 5.0 ($4.9 - 5.0 = -0.1$), then square the result ($(-0.1)^{2} = 0.01$).
+We do the same for 5.3, $(5.3 - 5.0)^{2} = 0.09$, and add it to the 0.01, then continue down the list of numbers finishing with 5.0.
 This is what the sum of squares calculation looks like all written out,
 
 $$SS = (4.9 - 5)^{2} + (5.3 - 5)^{2} + (5 - 5)^{2} + (4.7 - 5)^{2} + (5.1 - 5)^{2} + (5 - 5)^{2} + (5 - 5)^{2}.$$
@@ -615,14 +621,14 @@ Next, we need to square all of the values,
 $$SS = 0.01 + 0.09 + 0 + 0.09 + 0.01 + 0 + 0.$$
 
 If we sum the above, we get $SS = 0.2$.
-We now just need to multiply this by $1 / N( - 1)$, where $N = 7$ because this is the total number of measurements in the plant A dataset,
+We now just need to multiply this by $1 / (N - 1)$, where $N = 7$ because this is the total number of measurements in the plant A dataset,
 
 $$s^{2} = \frac{1}{7 - 1}\left(0.2\right).$$
 
 From the above, we get a variance of approximately $s^{2} = 0.0333$.
 
 Fortunately, it will almost never be necessary to calculate a variance manually in this way.
-Any statistical software will do all of these steps and calculate the variance for us (the [Chapter 13](#Chapter_13) explains how in Jamovi).
+Any statistical software will do all of these steps and calculate the variance for us ([Chapter 13](#Chapter_13) explains how in Jamovi).
 The only reason that we present the step-by-step calculation here is to help explain the equation for $s^{2}$.
 The details can be helpful for understanding how the variance works as a measure of spread.
 For example, note that what we are really doing here is getting the distance of each value from the mean, $x_{i} - \bar{x}$.
@@ -631,10 +637,10 @@ The differences $x_{i} - \bar{x}$ are squared because we need all of the values 
 It does not matter if $x_{i}$ is 0.1 lower than $\bar{x}$ (i.e., $x_{i} - \bar{x} = -0.1$), or 0.1 higher (i.e., $x_{i} - \bar{x} = 0.1$).
 In both cases, the deviation from the mean is the same.
 Moreover, if we did not square the values, then the sum of $x_{i} - \bar{x}$ values would always be 0 (you can try this yourself)[^5].
-Lastly, it turns out that the variance is actually a special case of a more general concept called the *covariance*, which we will look at later in [Chapter 41](#Chapter_41) and makes the squaring of differences make a bit more sense.
+Lastly, it turns out that the variance is actually a special case of a more general concept called the *covariance*, which we will look at later in [Week 9](#Week9) and makes the squaring of differences make a bit more sense.
 
-We sum up all of the squared deviations to get $SS$, then divide by the sample size minus 1, to get the mean squared deviation from the mean.
-That is, the whole process gives us the average squared deviation from the mean.
+We sum up all of the squared deviations to get the $SS$, then divide by the sample size minus 1, to get the mean squared deviation from the mean.
+That is, the whole process gives us the *average* squared deviation from the mean.
 But wait, why is it the sample size minus 1, $N - 1$?
 Why would we subtract 1 here?
 The short answer is that in calculating a *sample* variance, $s^{2}$, we are almost always trying to estimate the corresponding *population* variance ($\sigma^{2}$).
@@ -650,18 +656,20 @@ In addition to being a challenge to calculate, the calculation of a variance lea
 That is, for the example of plant leaf mass in grams, the variance is measured in grams squared, $g^{2}$, which is not particularly easy to interpret.
 For more on this, @Navarro2022 have a really good [section](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#variance) on the variance.
 Despite its challenges as a descriptive statistic, the variance has some mathematical properties that are very useful [@Navarro2022], especially in the biological and environmental sciences.
+
 For example, variances are additive, meaning that if we are measuring two separate characteristics of a sample, A and B, then the variance of A+B equals the variance of A plus the variance of B; i.e., $Var(A + B) = Var(A) + Var(B)$ [^8].
-This is relevant to Evolution and Genetics when measuring heritability in quantitative genetics.
+This is relevant to genetics when measuring heritability.
 Here, the total variance in the phenotype of a population (e.g., body mass of animals) can be partitioned into variance attributable to genetics plus variance attributable to the environment,
 
 $$Var(Phenotype) = Var(Genotype) + Var(Environment).$$
+
 This is also sometimes written as $V_{P} = V_{G} + V_{E}$. 
 Applying this equation to calculate heritability ($H^{2} = V_{G} / V_{P}$) can be used to predict how a population will respond to natural selection.
 This is just one place where variance reveals itself to be a highly useful statistic in practice.
-As a descriptive statistic to communicate the spread of a variable, it usually makes more sense to calculate the standard deviation of the mean.
+Nevertheless, as a descriptive statistic to communicate the spread of a variable, it usually makes more sense to calculate the standard deviation of the mean.
 
 
-[^5]: If you are wondering why we square the difference $x_{i} - \bar{x}$ instead of just taking its absolute value, this is an excellent question! You have just invented something called the mean absolute deviation. There are some reasons why the mean absolute deviation is not as good of a measure of spread as the variance. @Navarro2022 explain the mean absolute deviation, and how it relates to the variance, very well in section 4.2.3 of their textbook. We will not get into these points here, but it would be good to check out @Navarro2022 for more explanation.
+[^5]: If you are wondering why we square the difference $x_{i} - \bar{x}$ instead of just taking its absolute value, this is an excellent question! You have just invented something called the mean absolute deviation. There are some reasons why the mean absolute deviation is not as good of a measure of spread as the variance. @Navarro2022 explain the mean absolute deviation, and how it relates to the variance, very well in [section 4.2.3](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#mean-absolute-deviation) of their textbook. We will not get into these points here, but it would be good to check out @Navarro2022 for more explanation.
 
 [^6]: To get the true population variance $\sigma^{2}$, we would also need to know the true mean $\mu$. But we can only estimate $\mu$ from the sample, $\bar{x}$. That is, what we would really want to calculate is $x_{i} - \mu$, but the best we can do is $x_{i} - \bar{x}$. The consequence of this is that there will be some error that underestimates the true distance of $x_{i}$ values from the population mean, $\mu$. Here is the really cool part; to determine the extent to which our estimate of the variance is biased by using $\bar{x}$ instead of $\mu$, we just need to know the expected squared difference between the two values, $(\bar{x} - \mu)^{2}$. It turns out that this difference (i.e., the bias of our estimate $s^{2}$) is just $\sigma^{2} / N$; that is, the true variance of the population divided by the sample size. If we subtract this value from $\sigma^{2}$, so $\sigma^{2} - \sigma^{2}/N$, then we can get the expected difference between the true variance and the estimate from the sample size. We can rearrange $\sigma^{2} - \sigma^{2}/N$ to get $\sigma^{2} \times (N - 1)/N$, which means that we need to correct our sample variance by $N / (N-1)$ to get an unbiased estimate of $\sigma^{2}$. If all of this is confusing, that is okay! This is really only relevant for those interested in statistical theory, which is not the focus of this module.
 
@@ -680,15 +688,18 @@ This is a simple step, mathematically, but it also is easier to understand conce
 By taking the square root of the variance, our units are no longer squared, so we can interpret the standard deviation in the same terms as our original data.
 For example, the leaf masses of plant A and plant B in the example above were measured in grams.
 While the variance of these masses were in $g^{2}$, the standard deviation is in $g$, just like the original measurements.
-For plant A, we calculated a leaf mass variance of $s^{2} = 0.0333\:g^{2}$, which means that the standard deviation of leaf masses is $s = \sqrt{0.0333}\:g^{2} = 0.1825\:g$.
+For plant A, we calculated a leaf mass variance of $s^{2} = 0.0333\:g^{2}$, which means that the standard deviation of leaf masses is $s = \sqrt{0.0333\:g^{2}} = 0.1825\:g$.
 Because we are reporting $s$ in the original units, it is a very useful measure of spread to report, and it is an important one to be able to interpret.
 To help with the interpretation, here is [an interactive tool](https://bradduthie.shinyapps.io/forest/) showing how the heights of trees in a forest change across different standard deviation values[^9].
-Here is another [interactive tool](https://bradduthie.shinyapps.io/normal_pos_neg/) showing how the shape of a histogram changes when the standard deviation of a distribution is changed[^10].
-The practical in [Chapter 13](#Chapter_13) explains how to calculate the standard deviation in Jamovi.
 
 > [Click here](https://bradduthie.shinyapps.io/forest/) for an interactive application to illustrate the standard deviation.
 
+Here is another [interactive tool](https://bradduthie.shinyapps.io/normal_pos_neg/) showing how the shape of a histogram changes when the standard deviation of a distribution is changed[^10].
+
 > [Click here](https://bradduthie.shinyapps.io/normal_pos_neg/) for an interactive application to visualise how a histogram changes given a changing standard deviation.
+
+The practical in [Chapter 13](#Chapter_13) explains how to calculate the standard deviation in Jamovi.
+
 
 [^9]: Here is the full URL: https://bradduthie.shinyapps.io/forest/
 
@@ -727,7 +738,7 @@ Technically, the standard error of the mean is the standard deviation *of sample
 What does that even mean?
 It is easier to explain with a concrete example.
 
-Imagine that we want to measure nitrogen levels in the water of Airthrey Loch (the loch at the centre of campus at the University of Stirling)
+Imagine that we want to measure nitrogen levels in the water of Airthrey Loch (the loch at the centre of campus at the University of Stirling).
 We collect 12 water samples and record the nitrate levels in milligrams per litre (mg/l).
 The measurements are reported below.
 
@@ -737,8 +748,8 @@ The measurements are reported below.
 
 We can calculate the mean of the above sample to be $\bar{x} = 0.615$, and we can calculate the standard deviation of the sample to be $s = 0.111$.
 We do not know what the *true* mean $\mu$ is, but our best guess is the sample mean $\bar{x}$.
-Suppose, however, that we then went back to the loch to collect another 8 measurements (assume that the nitrogen level of the lake has not changed in the meantime).
-We would expect to get similar values as our first 8 measurements, but certainly not the *exact* same measurements, right?
+Suppose, however, that we then went back to the loch to collect another 12 measurements (assume that the nitrogen level of the lake has not changed in the meantime).
+We would expect to get values similar to our first 12 measurements, but certainly not the *exact* same measurements, right?
 The sample mean of these new measurements would also be a bit different.
 Maybe we actually go out and do this and get the following new sample.
 
@@ -748,10 +759,10 @@ Maybe we actually go out and do this and get the following new sample.
 
 The mean of our new sample is 0.603, which is a bit different from our first.
 In other words, the sample means vary.
-We can therefore ask what the variance and standard deviation is *of the sample means*.
-In other words, suppose that we kept going back out to the loch, collecting 8 new samples, and recording the sample mean each time?
+We can therefore ask what is the variance and standard deviation *of the sample means*.
+In other words, suppose that we kept going back out to the loch, collecting 12 new samples, and recording the sample mean each time?
 The standard deviation of those sample means would be the standard error.
-It is the standard deviation of $\bar{x}$ values around the true mean $\mu$.
+**The standard error is the standard deviation of $\bar{x}$ values around the true mean $\mu$.**
 But we do not actually need to go through the repetitive resampling process to estimate the standard error.
 We can estimate it with just the standard deviation and the sample size.
 To do this, we just need to take the standard deviation of the sample ($s$) and divide by the square root of the sample size ($\sqrt{N}$),
@@ -764,7 +775,7 @@ $$SE = \frac{0.111}{\sqrt{12}} = 0.032.$$
 
 The standard error is important because it can be used to evaluate the uncertainty of the sample mean in comparison with the true mean.
 We can use the standard error to place confidence intervals around our sample mean to express this uncertainty.
-We will calculate confidence intervals in [Chapter 19](#Chapter_19), so it is important to understand what the standard error is measuring.
+We will calculate confidence intervals in [Week 5](#Week5), so it is important to understand what the standard error is measuring.
 
 ```{r, echo = FALSE}
 se_diff         <- 1
@@ -796,7 +807,7 @@ knitr::kable(water_se_array, format = "simple", table.envir = "table",
 ```
 
 We can calculate the mean of each sample by calculating the mean of each row.
-These means are reported below.
+These 20 means are reported below.
 
 ```{r, echo = FALSE}
 water_se_means_table <- rbind(water_se_means[1:10], water_se_means[11:20]);
@@ -804,7 +815,7 @@ print(water_se_means_table);
 ```
 
 
-The standard deviation of the sample means reported above is `r sd(water_se_means)`.
+The standard deviation of the 20 sample means reported above is `r sd(water_se_means)`.
 Now suppose that we only had Sample 1 (i.e., the top row of data). 
 The standard deviation of Sample 1 is $s =$ `r sd(water_se_array[1,])`.
 We can calculate the standard error from these sample values below,

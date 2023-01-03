@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.27)  2 JAN 2023 21:05
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.27)  3 JAN 2023 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -524,11 +524,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibsep=\skip83
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count317
-) (./bookdown-demo.aux
-
-LaTeX Warning: Label `tab:unnamed-chunk-41' multiply defined.
-
-)
+) (./bookdown-demo.aux)
 \openout1 = `bookdown-demo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
@@ -851,31 +847,26 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 Underfull \vbox (badness 1173) has occurred while \output is active []
 
 [3]
-Overfull \hbox (1.09497pt too wide) detected at line 63
+Overfull \hbox (1.09497pt too wide) detected at line 64
  []\TU/lmss/bx/n/10.95 101
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 67
+Overfull \hbox (1.09497pt too wide) detected at line 68
  []\TU/lmss/bx/n/10.95 107
  []
 
 [4]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 74.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 75.
 
-Overfull \hbox (1.09497pt too wide) detected at line 74
- []\TU/lmss/bx/n/10.95 117
+Overfull \hbox (1.09497pt too wide) detected at line 75
+ []\TU/lmss/bx/n/10.95 119
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 80
- []\TU/lmss/bx/n/12 129
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 81
- []\TU/lmss/bx/n/10.95 131
+Overfull \hbox (2.82748pt too wide) detected at line 81
+ []\TU/lmss/bx/n/12 131
  []
 
 
@@ -884,350 +875,355 @@ Overfull \hbox (1.09497pt too wide) detected at line 82
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 92
- []\TU/lmss/bx/n/10.95 149
+Overfull \hbox (1.09497pt too wide) detected at line 83
+ []\TU/lmss/bx/n/10.95 135
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 95
- []\TU/lmss/bx/n/10.95 159
+Overfull \hbox (1.09497pt too wide) detected at line 93
+ []\TU/lmss/bx/n/10.95 153
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 99
- []\TU/lmss/bx/n/12 175
+Overfull \hbox (1.09497pt too wide) detected at line 96
+ []\TU/lmss/bx/n/10.95 163
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 100
- []\TU/lmss/bx/n/10.95 177
+Overfull \hbox (2.82748pt too wide) detected at line 100
+ []\TU/lmss/bx/n/12 179
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 101
- []\TU/lmss/bx/n/10.95 179
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 102
  []\TU/lmss/bx/n/10.95 181
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 103
+Overfull \hbox (1.09497pt too wide) detected at line 102
  []\TU/lmss/bx/n/10.95 183
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 104
+Overfull \hbox (1.09497pt too wide) detected at line 103
  []\TU/lmss/bx/n/10.95 185
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 105
+Overfull \hbox (1.09497pt too wide) detected at line 104
  []\TU/lmss/bx/n/10.95 187
  []
 
-[5]
-Overfull \hbox (2.82748pt too wide) detected at line 110
- []\TU/lmss/bx/n/12 189
+
+Overfull \hbox (1.09497pt too wide) detected at line 105
+ []\TU/lmss/bx/n/10.95 189
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 111
+Overfull \hbox (1.09497pt too wide) detected at line 106
  []\TU/lmss/bx/n/10.95 191
+ []
+
+[5]
+Overfull \hbox (2.82748pt too wide) detected at line 111
+ []\TU/lmss/bx/n/12 193
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 112
- []\TU/lmss/bx/n/10.95 193
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 113
  []\TU/lmss/bx/n/10.95 195
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 114
+Overfull \hbox (1.09497pt too wide) detected at line 113
  []\TU/lmss/bx/n/10.95 197
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 115
+Overfull \hbox (1.09497pt too wide) detected at line 114
  []\TU/lmss/bx/n/10.95 199
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 116
+Overfull \hbox (1.09497pt too wide) detected at line 115
  []\TU/lmss/bx/n/10.95 201
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 117
+Overfull \hbox (1.09497pt too wide) detected at line 116
  []\TU/lmss/bx/n/10.95 203
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 118
+Overfull \hbox (1.09497pt too wide) detected at line 117
  []\TU/lmss/bx/n/10.95 205
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 119
+Overfull \hbox (1.09497pt too wide) detected at line 118
  []\TU/lmss/bx/n/10.95 207
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 120
+Overfull \hbox (1.09497pt too wide) detected at line 119
  []\TU/lmss/bx/n/10.95 209
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 121
+Overfull \hbox (1.09497pt too wide) detected at line 120
  []\TU/lmss/bx/n/10.95 211
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 122
+Overfull \hbox (1.09497pt too wide) detected at line 121
  []\TU/lmss/bx/n/10.95 213
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 128
- []\TU/lmss/bx/n/12 215
+Overfull \hbox (1.09497pt too wide) detected at line 122
+ []\TU/lmss/bx/n/10.95 215
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 129
+Overfull \hbox (1.09497pt too wide) detected at line 123
  []\TU/lmss/bx/n/10.95 217
  []
 
 
-Package tocbasic Warning: number width of part toc entries should be increased!
-(tocbasic)                Currently used number width = 25.128pt,
-(tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 130.
-
-
-Overfull \hbox (3.22801pt too wide) detected at line 130
-\TU/lmss/bx/n/12 VIII. 
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 130
+Overfull \hbox (2.82748pt too wide) detected at line 129
  []\TU/lmss/bx/n/12 219
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 131
+Overfull \hbox (1.09497pt too wide) detected at line 130
  []\TU/lmss/bx/n/10.95 221
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 132
- []\TU/lmss/bx/n/10.95 223
- []
-
-[6]
-Overfull \hbox (1.09497pt too wide) detected at line 133
- []\TU/lmss/bx/n/10.95 225
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 134
- []\TU/lmss/bx/n/10.95 227
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 135
- []\TU/lmss/bx/n/10.95 229
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 136
- []\TU/lmss/bx/n/10.95 231
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 141
- []\TU/lmss/bx/n/12 233
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 142
- []\TU/lmss/bx/n/10.95 235
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 143
- []\TU/lmss/bx/n/10.95 237
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 144
- []\TU/lmss/bx/n/10.95 239
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 145
- []\TU/lmss/bx/n/10.95 241
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 146
- []\TU/lmss/bx/n/10.95 243
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 147
- []\TU/lmss/bx/n/10.95 245
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 148
- []\TU/lmss/bx/n/10.95 247
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 149
- []\TU/lmss/bx/n/10.95 249
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 154
- []\TU/lmss/bx/n/12 251
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 155
- []\TU/lmss/bx/n/10.95 253
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 156
- []\TU/lmss/bx/n/10.95 255
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 157
- []\TU/lmss/bx/n/10.95 257
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 158
- []\TU/lmss/bx/n/10.95 259
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 159
- []\TU/lmss/bx/n/10.95 261
- []
-
-[7]
-Overfull \hbox (1.09497pt too wide) detected at line 160
- []\TU/lmss/bx/n/10.95 263
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 165
- []\TU/lmss/bx/n/12 265
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 166
- []\TU/lmss/bx/n/10.95 267
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 167
- []\TU/lmss/bx/n/10.95 269
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 168
- []\TU/lmss/bx/n/10.95 271
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 169
- []\TU/lmss/bx/n/10.95 273
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 170
- []\TU/lmss/bx/n/10.95 275
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 171
- []\TU/lmss/bx/n/10.95 277
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 175
- []\TU/lmss/bx/n/12 279
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 176
- []\TU/lmss/bx/n/10.95 281
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 177
- []\TU/lmss/bx/n/10.95 283
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 178
- []\TU/lmss/bx/n/10.95 285
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 179
- []\TU/lmss/bx/n/10.95 287
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 180
- []\TU/lmss/bx/n/10.95 289
  []
 
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 184.
+(tocbasic)                Reserved number width       = 24.0pt on input line 131.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 184
-\TU/lmss/bx/n/12 XIII. 
+Overfull \hbox (3.22801pt too wide) detected at line 131
+\TU/lmss/bx/n/12 VIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 184
- []\TU/lmss/bx/n/12 291
+Overfull \hbox (2.82748pt too wide) detected at line 131
+ []\TU/lmss/bx/n/12 223
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 185
+Overfull \hbox (1.09497pt too wide) detected at line 132
+ []\TU/lmss/bx/n/10.95 225
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 133
+ []\TU/lmss/bx/n/10.95 227
+ []
+
+[6]
+Overfull \hbox (1.09497pt too wide) detected at line 134
+ []\TU/lmss/bx/n/10.95 229
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 135
+ []\TU/lmss/bx/n/10.95 231
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 136
+ []\TU/lmss/bx/n/10.95 233
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 137
+ []\TU/lmss/bx/n/10.95 235
+ []
+
+
+Overfull \hbox (2.82748pt too wide) detected at line 142
+ []\TU/lmss/bx/n/12 237
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 143
+ []\TU/lmss/bx/n/10.95 239
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 144
+ []\TU/lmss/bx/n/10.95 241
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 145
+ []\TU/lmss/bx/n/10.95 243
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 146
+ []\TU/lmss/bx/n/10.95 245
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 147
+ []\TU/lmss/bx/n/10.95 247
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 148
+ []\TU/lmss/bx/n/10.95 249
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 149
+ []\TU/lmss/bx/n/10.95 251
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 150
+ []\TU/lmss/bx/n/10.95 253
+ []
+
+
+Overfull \hbox (2.82748pt too wide) detected at line 155
+ []\TU/lmss/bx/n/12 255
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 156
+ []\TU/lmss/bx/n/10.95 257
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 157
+ []\TU/lmss/bx/n/10.95 259
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 158
+ []\TU/lmss/bx/n/10.95 261
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 159
+ []\TU/lmss/bx/n/10.95 263
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 160
+ []\TU/lmss/bx/n/10.95 265
+ []
+
+[7]
+Overfull \hbox (1.09497pt too wide) detected at line 161
+ []\TU/lmss/bx/n/10.95 267
+ []
+
+
+Overfull \hbox (2.82748pt too wide) detected at line 166
+ []\TU/lmss/bx/n/12 269
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 167
+ []\TU/lmss/bx/n/10.95 271
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 168
+ []\TU/lmss/bx/n/10.95 273
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 169
+ []\TU/lmss/bx/n/10.95 275
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 170
+ []\TU/lmss/bx/n/10.95 277
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 171
+ []\TU/lmss/bx/n/10.95 279
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 172
+ []\TU/lmss/bx/n/10.95 281
+ []
+
+
+Overfull \hbox (2.82748pt too wide) detected at line 176
+ []\TU/lmss/bx/n/12 283
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 177
+ []\TU/lmss/bx/n/10.95 285
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 178
+ []\TU/lmss/bx/n/10.95 287
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 179
+ []\TU/lmss/bx/n/10.95 289
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 180
+ []\TU/lmss/bx/n/10.95 291
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 181
  []\TU/lmss/bx/n/10.95 293
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 186
- []\TU/lmss/bx/n/10.95 295
+Package tocbasic Warning: number width of part toc entries should be increased!
+(tocbasic)                Currently used number width = 25.128pt,
+(tocbasic)                Wanted number separation    = 4.79993pt,
+(tocbasic)                Reserved number width       = 24.0pt on input line 185.
+
+
+Overfull \hbox (3.22801pt too wide) detected at line 185
+\TU/lmss/bx/n/12 XIII. 
  []
 
-[8]
-Overfull \hbox (1.09497pt too wide) detected at line 187
+
+Overfull \hbox (2.82748pt too wide) detected at line 185
+ []\TU/lmss/bx/n/12 295
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 186
  []\TU/lmss/bx/n/10.95 297
  []
 
 
+Overfull \hbox (1.09497pt too wide) detected at line 187
+ []\TU/lmss/bx/n/10.95 299
+ []
+
+[8]
 Overfull \hbox (1.09497pt too wide) detected at line 188
  []\TU/lmss/bx/n/10.95 301
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 189
+ []\TU/lmss/bx/n/10.95 305
  []
 
 )
@@ -1241,7 +1237,7 @@ Overfull \hbox (1.09497pt too wide) detected at line 188
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 624.
+(scrkbase)              on input line 634.
 [23
 
 
@@ -1294,22 +1290,22 @@ File: img/Ch1_Ex1_seeds2.jpg Graphic file (type bmp)
 File: img/wasp_egg_loads_untidy.png Graphic file (type bmp)
 <img/wasp_egg_loads_untidy.png>
 [50] [51]
-Underfull \hbox (badness 3449) in paragraph at lines 1271--1278
+Underfull \hbox (badness 3449) in paragraph at lines 1281--1288
 \TU/lmr/m/n/10.95 Exercise 4 requires some restructuring and calculations. The dataset that
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 1271--1278
+Underfull \hbox (badness 3058) in paragraph at lines 1281--1288
 \TU/lmr/m/n/10.95 will be used in this exercise includes morphological measurements from five
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1271--1278
+Underfull \hbox (badness 1430) in paragraph at lines 1281--1288
 \TU/lmr/m/n/10.95 species of fig wasps, the same species used in Exercise 2. \TU/lmr/bx/n/10.95 Download this
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 1271--1278
+Underfull \hbox (badness 3386) in paragraph at lines 1281--1288
 \TU/lmr/bx/n/10.95 dataset from the file [][]wasp_morphology_untidy.xlsx[][] (XLSX file) or
  []
 
@@ -1325,7 +1321,7 @@ File: img/Ch1_Ex3_copy_formula.png Graphic file (type bmp)
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1414.
+(scrkbase)              on input line 1424.
 [57
 
 
@@ -1348,35 +1344,35 @@ chapter 5.
 ] [64]
 chapter 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1596.
+(Font)              scaled to size 9.0pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 1596.
+(Font)              scaled to size 6.0pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 1596.
+(Font)              scaled to size 5.0pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 1596.
+(Font)              scaled to size 9.00082pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 1596.
+(Font)              scaled to size 6.00055pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 1596.
+(Font)              scaled to size 5.00046pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 1596.
+(Font)              scaled to size 8.99904pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 1596.
+(Font)              scaled to size 5.99936pt on input line 1606.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 1596.
+(Font)              scaled to size 4.99947pt on input line 1606.
 File: img/accuracy_vs_precision.png Graphic file (type bmp)
 <img/accuracy_vs_precision.png>
 [65
 
 
 ] [66]
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 1659--1660
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 1669--1670
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
 
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 1673--1674
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 1683--1684
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
@@ -1402,7 +1398,7 @@ File: img/jamovi_new_variable.png Graphic file (type bmp)
 File: img/jamovi_set_variable.png Graphic file (type bmp)
 <img/jamovi_set_variable.png>
 
-Underfull \hbox (badness 1661) in paragraph at lines 1868--1871
+Underfull \hbox (badness 1661) in paragraph at lines 1878--1881
 []\TU/lmr/m/n/10.95 After typing in the new variable ‘soil_type’, add another variable called ‘or-
  []
 
@@ -1427,7 +1423,7 @@ File: img/export_jamovi.png Graphic file (type bmp)
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2155.
+(scrkbase)              on input line 2165.
 [85
 
 
@@ -1446,10 +1442,9 @@ chapter 9.
 chapter 10.
 File: bookdown-demo_files/figure-latex/unnamed-chunk-32-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-32-1.pdf>
-[93]
+[93] [94]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-33-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-33-1.pdf>
-[94]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-34-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-34-1.pdf>
 [95]
@@ -1480,7 +1475,7 @@ chapter 12.
 ]
 chapter 13.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 2940.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 2960.
 Missing character: There is no А (U+0410) in font [lmroman9-regular]:mapping=tex-text;!
 File: img/Nymphaea_alba_pads.jpg Graphic file (type bmp)
 <img/Nymphaea_alba_pads.jpg>
@@ -1502,7 +1497,7 @@ File: img/lilypad_summary_statistics.png Graphic file (type bmp)
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 3290.
+(scrkbase)              on input line 3310.
 [131] [132] [133
 
 
@@ -1531,7 +1526,7 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-55-1.pdf Graphic file (type
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 3537.
+(amsmath)                 on input line 3557.
 
 [144]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf Graphic file (type pdf)
@@ -1550,13 +1545,13 @@ chapter 15.
 [153]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf>
+[154]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf>
-[154]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf>
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5091) has occurred while \output is active []
 
 [155] [156]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type pdf)
@@ -1598,7 +1593,7 @@ File: img/jamovi_toolbar_modules_distrACTION.png Graphic file (type bmp)
 File: img/jamovi_normal_distribution.png Graphic file (type bmp)
 <img/jamovi_normal_distribution.png>
 [171] [172]
-Overfull \vbox (0.52132pt too high) detected at line 4137
+Overfull \vbox (0.52132pt too high) detected at line 4157
  []
 
 [173]
@@ -1614,7 +1609,7 @@ File: img/jamovi_clt.png Graphic file (type bmp)
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4288.
+(scrkbase)              on input line 4308.
 [179] [180] [181
 
 
@@ -1650,7 +1645,7 @@ chapter 21.
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4338.
+(scrkbase)              on input line 4358.
 [193] [194] [195
 
 
@@ -1716,7 +1711,7 @@ chapter 32.
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4421.
+(scrkbase)              on input line 4441.
 [219] [220] [221
 
 
@@ -1727,7 +1722,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4430.
+(scrkbase)              on input line 4450.
 [223] [224] [225
 
 
@@ -1763,7 +1758,7 @@ chapter 37.
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4480.
+(scrkbase)              on input line 4500.
 [237] [238] [239
 
 
@@ -1809,7 +1804,7 @@ chapter 44.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4534.
+(scrkbase)              on input line 4554.
 [255] [256] [257
 
 
@@ -1845,7 +1840,7 @@ chapter 49.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4578.
+(scrkbase)              on input line 4598.
 [269] [270] [271
 
 
@@ -1881,7 +1876,7 @@ chapter 54.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4623.
+(scrkbase)              on input line 4643.
 [283] [284] [285
 
 
@@ -1912,7 +1907,7 @@ chapter 58.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4663.
+(scrkbase)              on input line 4683.
 [295] [296] [297
 
 
@@ -1939,18 +1934,14 @@ Underfull \hbox (badness 1152) in paragraph at lines 41--46
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[307] [308]) [309] (./bookdown-demo.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[307] [308]) [309] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 22968 strings out of 478777
- 455359 string characters out of 5850853
- 1870979 words of memory out of 5000000
- 42618 multiletter control sequences out of 15000+600000
+ 22969 strings out of 478777
+ 455369 string characters out of 5850853
+ 1869979 words of memory out of 5000000
+ 42619 multiletter control sequences out of 15000+600000
  521703 words of font info for 111 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,9n,121p,10636b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,9n,121p,10636b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on bookdown-demo.pdf (309 pages).
