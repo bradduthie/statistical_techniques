@@ -21,13 +21,14 @@
 | **Help hours**  | Ian Jones                       |
 |                 |   Room: Cottrell 1A13           |
 |                 |   17 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | Week 4 Practice quiz on Canvas  |
+| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29675) on Canvas  |
 
+Week 4 focuses on probability and the central limit theorem.
 
 [Chapter 14](#Chapter_14) introduces probability models and how to interpret them.
 The chapter also provides some examples of probability distributions that are especially relevant to biological and environmental sciences.
 
-[Chapter 15](#Chapter_15) focuses on the central limit theorem (CLT), what it is and why it is so important in statistics.
+[Chapter 15](#Chapter_15) focuses on the central limit theorem (CLT), what it is, and why it is so important in statistics.
 
 [Chapter 16](#Chapter_16) guides you through the week 4 practical.
 The aim of this practical is to apply the ideas from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi to predict probabilities from a real dataset.
@@ -40,8 +41,8 @@ There are two possibilities for how the coin lands on the surface.
 Either the coin lands on one side (heads) or the other side (tails), but we do not know the outcome in advance.
 If these two events (heads or tails) are equally likely, then we could reason that there is a 50\% chance that a flipped coin will land heads up and a 50\% chance that it will land heads down.
 What do we actually mean when we say this?
-For example, when we say that there is a 50\% chance of the coin landing heads up, are we making a claim about our own knowledge, how coins work, or how the world works?
-We might mean that we simply do not know whether or not the coin will land heads up, so a 50-50 chance just reflects our best guess about what will actually happen when the coin is flipped.
+For example, when we say that there is a 50\% chance of the coin landing heads up, are we making a claim about our own uncertainty, how coins work, or how the world works?
+We might mean that we simply do not know whether or not the coin will land heads up, so a 50-50 chance just reflects our own ignorance about what will actually happen when the coin is flipped.
 Alternatively, we might reason that if a fair coin were to be flipped many times, all else being equal, then about half of flips should end heads up, so a 50\% chance is a reasonable prediction of what will happen in any given flip.
 Or, perhaps we reason that events such as coin flips really are guided by chance on some deeper fundamental level, such that our 50\% chance reflects some real causal metaphysical process in the world.
 These are questions concerning the philosophy of probability.
@@ -52,7 +53,7 @@ These rules are important for predicting real-world events in the biological and
 For example, we might need to make predictions concerning the risk of disease spreading in a population, or the risk of extreme events such as droughts occurring given increasing global temperatures.
 Probability is also important for testing scientific hypotheses.
 For example, if we sample two different groups and calculate that they have different means (e.g., two different fields have different mean soil nitrogen concentrations), we might want to know the probability that this difference between means could have arisen by chance.
-Here we will introduce practicals example of probability, then introduce some common probability distributions.
+Here we will introduce practical examples of probability, then introduce some common probability distributions. 
 
 [^12]: In the interest of transparency, this book presents a *frequentist* interpretation of probability [@Mayo1996]. While this approach does reflect the philosophical inclinations of the author, the reason for working from this interpretation has more to do with the statistical tests that are most appropriate for an introductory statistics module, which are also the tests most widely used in the biological and environmental sciences.
 
@@ -60,7 +61,7 @@ Here we will introduce practicals example of probability, then introduce some co
 ## An instructive example
 
 Probability focuses on the outcomes of trials, such as the **outcome** (heads or tails) of the **trial** of a coin flip.
-The probability of an specific outcome is the relative number of times it is expected to happen given a large number of trials,
+The probability of a specific outcome is the relative number of times it is expected to happen given a large number of trials,
 
 $$P(outcome) = \frac{Number\:of\:times\:outcome\:occurs}{Total\:number\:of\:trials}.$$
 
@@ -69,32 +70,32 @@ For the outcome of a flipped coin landing on heads,
 $$P(heads) = \frac{Flips\:landing\:on\:heads}{Total\:number\:of\:flips}.$$
 
 As the total number of flips becomes very large, the number of flips that land on heads should get closer and closer to half the total, $1/2$ or $0.5$ (more on this later).
-The above equations use the notation $P(X)$ to define the probability ($P$) of some event ($X$) happening.
-Note that the number of times an outcome occurs cannot be less than 0, so $P(X) \geq 0$ must always be true.
+The above equations use the notation $P(E)$ to define the probability ($P$) of some event ($E$) happening.
+Note that the number of times an outcome occurs cannot be less than 0, so $P(E) \geq 0$ must always be true.
 Similarly, the number of times an outcome occurs cannot be greater than the number of trials; the most frequently it can happen is in *every* trial, in which case the top and bottom of the fraction has the same value.
-Hence, $P(X) \leq 1$ must also always be true.
+Hence, $P(E) \leq 1$ must also always be true.
 Probabilities therefore range from 0 (an outcome *never* happens) to 1 (an outcome *always* happens).
 
 It might be more familiar and intuitive at first to think in terms of percentages (i.e., from 0-100\% chance of an outcome, rather than from 0-1), but there are good mathematical reasons for thinking about probability on a 0-1 scale (it makes calculations easier).
 For example, suppose we have two coins, and we want to calculate the probability that they will both land on heads if we flip them at the same time.
 That is, we want to know the probability that coin 1 lands on heads **and** coin 2 lands on heads.
 We can assume that the coins do not affect each other in any way, so each coin flip is **independent** of the other (i.e., the outcome of coin 1 does not affect the outcome of coin 2, and *vice versa* -- this kind of assumption is often very important in statistics).
-Each coin, by itself, is expected to to land on heads with a probability of 0.5, $P(heads) = 0.5$.
+Each coin, by itself, is expected to land on heads with a probability of 0.5, $P(heads) = 0.5$.
 When we want to know the probability that two or more independent events will happen, we *multiply* their probabilities.
 In the case of both coins landing on heads, the probability is therefore,
 
 $$P(Coin_{1} = heads\:\cap Coin_{2} = heads) = 0.5 \times 0.5 = 0.25.$$
 
 Note that the symbol $\cap$ is basically just a fancy way of writing 'and' (technically, the intersection between sets; see set theory for details).
-Verbally, all this is saying is that the probability of coin 1 landing on heads *and* the probability of coin 2 landing on heads equals 0.5 times 0.5, which equals 0.25.
+Verbally, all this is saying is that the probability of coin 1 landing on heads *and* the probability of coin 2 landing on heads equals 0.5 times 0.5, which is 0.25.
 
-But why are we multiplying to get the joint probability of both coins landing on heads?
+But why are we *multiplying* to get the joint probability of both coins landing on heads?
 Why not add, for example?
-Well, we could take it as a given that multiplication is the correct operation to use when calculating the probability that multiple events will occur.
-We could also do a simple experiment to confirm that 0.25 really is about right (e.g., by flipping 2 coins 100 times and recording how many times both coins land on heads).
-But neither of these would likely be particularly satisfying.
+We could just take it as a given that multiplication is the correct operation to use when calculating the probability that multiple events will occur.
+Or we could do a simple experiment to confirm that 0.25 really is about right (e.g., by flipping 2 coins 100 times and recording how many times both coins land on heads).
+But neither of these options would likely be particularly satisfying.
 Let us first recognise that adding the probabilities cannot be the correct answer.
-If the probability of each coin landing on heads is 0.5, the adding probabilities would imply that the probability of both landing on heads is 0.5 + 0.5 = 1.
+If the probability of each coin landing on heads is 0.5, then adding probabilities would imply that the probability of both landing on heads is 0.5 + 0.5 = 1.
 This does not make any sense because we know that there are other possibilities, such as both coins landing on tails, or one coin landing on heads and the other landing on tails.
 Adding probabilities cannot be the answer, but why multiply?
 
@@ -107,7 +108,7 @@ knitr::include_graphics("img/coin1_probability.png");
 
 The total probability space is 1, and 'heads' occupies a density of 0.5 of the total space.
 The remaining space, also 0.5, is allocated to 'tails'.
-If we add a second independent trial, we now need 2 dimensions of probability space (Figure 14.2).
+When we add a second independent trial, we now need 2 dimensions of probability space (Figure 14.2).
 The probability of heads or tails for coin 1 (the horizontal axis of Figure 14.2) remains unchanged, but we add another axis (vertical this time) to think about the equivalent probability space of coin 2.
 
 ```{r, echo = FALSE, fig.alt = "A square is shown with coin 1 probability on the bottom and coin 2 probability on the left side, with a cross in the centre of the square indicating a division between outcomes of coin flips (heads-heads, heads-tails, etc.).", fig.cap = "Total probability space for flipping two coins and observing their different possible outcomes (heads-heads, heads-tails, tails-heads, and tails-tails). Given two fair coins, the probability of flipping each equals 0.25, which corresponds to the lower left square of the probability space.", out.width="100%"}
@@ -137,38 +138,38 @@ Coin flips are instructive, but the relevance for biological and environmental s
 In fact, probability is extremely relevant in nearly all areas of the natural sciences.
 The following are just 2 hypothetical examples where the calculations in the previous section might be usefully applied:
 
-1. From a recent report online, you learn that 1 in 40 people in your local area are testing positive for Covid-19. You find yourself in a small shop with 6 other people. What is the probability that at least 1 of these 6 other people would test positive for Covid-19? To calculate this, note that the probability that any given person has Covid-19 is $1/40 = 0.025$, which means that the probability that they do **not** must be $1 - 0.025 = 0.975$ (they either do or do not, and the probabilities must sum to 1). The probability that **all** 6 people *do not* have Covid-19 is therefore $(0.975)^6 = 0.859$. Consequently, the probability that at least 1 of the 6 people **does** have Covid-19 is $1 - 0.859 = 0.141$, or $14.1\%$. 
+1. From a recent report online, suppose you learn that 1 in 40 people in your local area are testing positive for Covid-19. You find yourself in a small shop with 6 other people. What is the probability that at least 1 of these 6 other people would test positive for Covid-19? To calculate this, note that the probability that any given person has Covid-19 is $1/40 = 0.025$, which means that the probability that a person does **not** must be $1 - 0.025 = 0.975$ (they either do or do not, and the probabilities must sum to 1). The probability that **all** 6 people *do not* have Covid-19 is therefore $(0.975)^6 = 0.859$. Consequently, the probability that at least 1 of the 6 people **does** have Covid-19 is $1 - 0.859 = 0.141$, or $14.1\%$. 
 
-2. Imagine you are studying a population of sexually reproducing, diploid, animals, and you find that a particular genetic locus has 3 alleles with frequencies $P(A_{1}) = 0.40$, $P(A_{2}) = 0.45$, and $P(A_{3}) = 0.15$. What is the probability that a randomly sampled animal will be heterozygous with 1 copy of the $A_{1}$ allele and 1 copy of the $A_{3}$ allele? Note that there are two ways for $A_{1}$ and $A_{3}$ to be arise in an individual, just like there were two ways to get a heads and tails coin in the section 14.1 example (see Figure 14.2). The individual could either get an $A_{1}$ in the first position and $A_{3}$ in the second position, or an $A_{3}$ in the first position and $A_{1}$ in the second position. We can therefore calculate the probability as, $P(A_{1}) \times P(A_{3}) + P(A_{3}) \times P(A_{1})$, which is $(0.40 \times 0.15) + (0.15 \times 0.4) = 0.12$, or 12\% (in population genetics, we might use the notation $p = P(A_{1})$ and $r = P(A_{3})$, then note that $2pr = 0.12$).
+2. Imagine you are studying a population of sexually reproducing, diploid (i.e., 2 sets of chromosomes), animals, and you find that a particular genetic locus has 3 alleles with frequencies $P(A_{1}) = 0.40$, $P(A_{2}) = 0.45$, and $P(A_{3}) = 0.15$. What is the probability that a randomly sampled animal will be heterozygous with 1 copy of the $A_{1}$ allele and 1 copy of the $A_{3}$ allele? Note that there are 2 ways for $A_{1}$ and $A_{3}$ to arise in an individual, just like there were 2 ways to get a heads and tails coin in the section 14.1 example (see Figure 14.2). The individual could either get an $A_{1}$ in the first position and $A_{3}$ in the second position, or an $A_{3}$ in the first position and $A_{1}$ in the second position. We can therefore calculate the probability as, $P(A_{1}) \times P(A_{3}) + P(A_{3}) \times P(A_{1})$, which is $(0.40 \times 0.15) + (0.15 \times 0.4) = 0.12$, or 12\% (in population genetics, we might use the notation $p = P(A_{1})$ and $r = P(A_{3})$, then note that $2pr = 0.12$).
 
 In both of these examples, we made some assumptions, which might or might not be problematic.
 In the first example, we assumed that the 6 people in our shop were a random and independent sample from the local area (i.e., people with Covid-19 are not more or less likely to be in the shop, and the 6 people in the shop were not associated in a way that would affect their individual probabilities of having Covid-19).
 In the second example, we assumed that individuals mate randomly, and that there is no mutation, migration, or selection on genotypes [@Hardy1908].
-It is important to recognise these assumptions when we are making them, as violations of assumptions could affect the probabilities of events!
+It is important to recognise these assumptions when we are making them because violations of assumptions could affect the probabilities of events!
 
 
 ## Sampling with and without replacement
 
 It is often important to make a distinction between sampling with or without replacement.
 Sampling with replacement just means that whatever has been sampled once gets put back into the population before sampling again.
-Sampling without replacement means that the whatever has been sampled does not get put back into the population.
+Sampling without replacement means that whatever has been sampled does not get put back into the population before sampling again.
 An example makes the distinction between sampling with and without replacement clearer.
 
-```{r, echo = FALSE, fig.alt = "Close up of 10 playing cards are shown, 5 hearts (left) and 5 clubs (right). Cards decrease from 5 to ace left to right for both suits.", fig.cap = "Playing cards can be useful for illustrating concepts in probability. Here we have 5 hearts (left) and 5 clubs (right).", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Close up of 10 playing cards are shown, 5 hearts (left) and 5 clubs (right). Cards decrease from 5 to ace left to right for both suits.", fig.cap = "Playing cards can be useful for illustrating concepts in probability. Here we have 5 hearts (left) and 5 spades (right).", out.width="100%"}
 knitr::include_graphics("img/cards.jpg");
 ```
 
-Figure 14.3 shows 10 playing cards, 5 hearts and 5 clubs.
+Figure 14.3 shows 10 playing cards, 5 hearts and 5 spades.
 If we shuffle these cards thoroughly and randomly select 1 card, what is the probability of selecting a heart?
 This is simply,
 
 $$P(heart) = \frac{5\:hearts}{10\:total\:cards} = 0.5.$$
 
-What is the probability randomly selecting two hearts?
+What is the probability of randomly selecting 2 hearts?
 This depends if we are sampling with or without replacement.
 If we sample 1 card, then put it back into the deck before sampling the second card, then the probability of sampling a heart does not change (in both samples, we have 5 hearts and 10 cards).
 Hence, the probability of sampling two hearts with replacement is $P(heart) \times P(heart) = 0.5 \times 0.5 = 0.25$.
-We do not put the first card back into the deck before sampling again, then we have changed the total number of cards.
+If we do not put the first card back into the deck before sampling again, then we have changed the total number of cards.
 After sampling the first heart, we have one fewer hearts in the deck and one fewer cards, so the new probability for sampling a heart becomes,
 
 $$P(heart) = \frac{4\:hearts}{9\:total\:cards} = 0.444.$$
@@ -209,7 +210,7 @@ The simple distribution with a single trial of a coin flip was actually an examp
 More generally, a binomial distribution describes the number of successes in some number of trials [@Miller2004].
 The word 'success' should not be taken too literally here; it does not necessarily indicate a good outcome, or an accomplishment of some kind.
 A success in the context of a binomial distribution just means that an outcome *did* happen as opposed to it *not* happening.
-If we define a coin flip landing on heads as a success, we could consider the probability distribution of the number of success over 10 trials (Figure 14.5)
+If we define a coin flip landing on heads as a success, we could consider the probability distribution of the number of successes over 10 trials (Figure 14.5)
 
 ```{r, echo = FALSE, fig.alt = "A barplot is shown with 11 bars, which correspond to the number of times a coin flip lands on heads; the distribution takes a humped shape", fig.cap = "Probability distribution for the number of times that a flipped coin lands on heads in 10 trials."}
 par(mar = c(5, 5, 1.5, 1.5));
@@ -232,7 +233,7 @@ Hence, the probability that we get an outcome of between 4-6 heads is about $0.2
 In contrast, the probability of getting all heads is very low (about 0.00098).
 
 More generally, we can define the number of successes using the random variable $X$.
-We can then use the notation $P(X = 5) = 0.25$ to indicate the probability of 5 successes, or $P(4 \leq X \leq 6) = 0.65$ as the probability that the number of success being greater than or equal to 4 and less than or equal to 6.
+We can then use the notation $P(X = 5) = 0.25$ to indicate the probability of 5 successes, or $P(4 \leq X \leq 6) = 0.65$ as the probability that the number of success is greater than or equal to 4 and less than or equal to 6.
 
 Imagine that you were told a coin was fair, then flipped it 10 times.
 Imagine that 9 flips out of the 10 came up heads.
@@ -258,7 +259,7 @@ for(i in 1:7){
 ```
 
 Note that the shape of this binomial distribution is different from the coin flipping trials in Figure 14.5.
-The distribution is skewed, with a high probability of 0 success and a diminishing probability of 1 or more success.
+The distribution is skewed, with a high probability of 0 successes and a diminishing probability of 1 or more successes.
 
 The shape of a statistical probability distribution can be defined mathematically.
 Depending on the details (more on this later), we call the equation defining the distribution either a probability mass function or a probability density function.
@@ -279,19 +280,19 @@ On this particular day, runners pass by the bench at a steady rate of about 4 pe
 We might then want to know the *distribution* of the number of runners passing by per minute.
 That is, given that we see 4 runners per minute on average, what is the probability that we will see just 2 runners pass in any given minute.
 What is the probability that we will see 8 runners pass in a minute?
-This hypothetical example is modelled with a poisson distribution.
-A poisson distribution describes events happening over some interval (e.g., happening over time or space).
-There are a lot of situations where a poisson distribution is relevant in biological and environmental sciences:
+This hypothetical example is modelled with a Poisson distribution.
+A Poisson distribution describes events happening over some interval (e.g., happening over time or space).
+There are a lot of situations where a Poisson distribution is relevant in biological and environmental sciences:
 
 - Number of times a particular species will be encountered while walking a given distance.
 - Number of animals a camera trap will record during a day.
 - Number of floods or earthquakes that will occur in a given year.
 
-The shape of a poisson distribution is described by just 1 parameter, $\lambda$.
-This parameter is both the mean and the variance of the poisson distribution.
+The shape of a Poisson distribution is described by just 1 parameter, $\lambda$.
+This parameter is both the mean and the variance of the Poisson distribution.
 We can therefore get the probability that some number of events ($x$) will occur just by knowing $\lambda$ (Figure 14.6).
 
-```{r, echo = FALSE, fig.alt = "Four panels are shown, each with a poisson distribution of a different rate paramter (0.5, 1.0, 2.5, and 5.0).", fig.cap = "Poisson probability distributions given different rate parameter values.", fig.asp = 1}
+```{r, echo = FALSE, fig.alt = "Four panels are shown, each with a Poisson distribution of a different rate paramter (0.5, 1.0, 2.5, and 5.0).", fig.cap = "Poisson probability distributions given different rate parameter values.", fig.asp = 1}
 lambda0pt5 <- dpois(x = 0:10, lambda = 0.5);
 lambda1pt0 <- dpois(x = 0:10, lambda = 1.0);
 lambda2pt5 <- dpois(x = 0:10, lambda = 2.5);
@@ -339,9 +340,9 @@ lambda <- expression(paste(lambda, "= 5.0"));
 text(x = 9, y = 0.58, cex = 1.5, labels = lambda);
 ```
 
-Like the binomial distribution, the poisson distribution can also be defined mathematically[^14].
-Also like the binomial distribution, probabilities in the poisson distribution focus on **discrete** observations.
-This is, probabilities are assigned to a specific number of successes in a set of trials (binomial distribution) or the number of events over time (poisson distribution).
+Like the binomial distribution, the Poisson distribution can also be defined mathematically[^14].
+Also like the binomial distribution, probabilities in the Poisson distribution focus on **discrete** observations.
+This is, probabilities are assigned to a specific number of successes in a set of trials (binomial distribution) or the number of events over time (Poisson distribution).
 In both cases, the probability distribution focuses on countable numbers.
 In other words, it does not make any sense to talk about the probability of a coin landing on heads 3.75 times after 10 flips, nor the probability of 2.21 runners passing by a park bench in a given minute.
 The probability of either of these events happening is zero, which is why the Figures 14.5-14.7 all have spaces between the vertical bars.
@@ -350,13 +351,13 @@ When observations are discrete like this, they are defined by a *probability mas
 In the next section, we consider distributions with a continuous range of possible sample values; these distributions are defined by a *probability density function*.
 
 
-[^14]: A random variable $X$ has a poisson distribution if and only if its probability mass function is defined by [@Miller2004], $$p \left(x; \lambda \right) = \frac{\lambda^{x}e^{x}}{x!}.$$ Recall from [Chapter 1](#Chapter_1) Euler's number, $e \approx 2.718282$, and from footnote 13 that the exclamation mark indicates a factorial. In the poisson probability mass function, $x$ can take any integer value greater than or equal to 0.
+[^14]: A random variable $X$ has a Poisson distribution if and only if its probability mass function is defined by [@Miller2004], $$p \left(x; \lambda \right) = \frac{\lambda^{x}e^{x}}{x!}.$$ Recall from [Chapter 1](#Chapter_1) Euler's number, $e \approx 2.718282$, and from footnote 13 that the exclamation mark indicates a factorial. In the Poisson probability mass function, $x$ can take any integer value greater than or equal to 0.
 
 
 ### Uniform distribution
 
 We now move on to continuous distributions, starting with the continuous uniform distribution.
-We introduce this distribution mainly to clarify the difference between a discrete and continues distribution.
+We introduce this distribution mainly to clarify the difference between a discrete and continuous distribution.
 While the uniform distribution is very important in a lot of statistical tools (notably, simulating pseudorandom numbers), it is not something that we come across much in biological or environmental science data.
 The continuous uniform distribution has two parameters, $\alpha$ and $\beta$ [@Miller2004].[^15]
 Values of $\alpha$ and $\beta$ can be any real number (not just integers).
@@ -384,9 +385,9 @@ polygon(x=tbox$x, y=tbox$y, lwd=3, border="black", col="grey");
 The height of the distribution in Figure 14.7 is $1/(\beta - \alpha) = 1/(2.5 - 1) \approx 0.667$.
 All values between 1 and 2.5 have equal probability of being sampled.
 
-Here is a good place to point out the difference between the continuous distribution versus the discrete binomial and poisson distributions.
+Here is a good place to point out the difference between the continuous distribution versus the discrete binomial and Poisson distributions.
 From the uniform distribution of Figure 14.7, we can, theoretically, sample *any* real value between 1 and 2.5 (e.g., 1.34532 or 2.21194; the sampled value can have as many decimals as our measuring device allows).
-There are uncountably infinite real numbers, so it no longer makes sense to ask what the probability is of sampling a specific number.
+There are uncountably infinite real numbers, so it no longer makes sense to ask what is the probability of sampling a specific number.
 For example, what is the probability of sampling a value of *exactly* 2, rather than, say, 1.999999 or 2.000001, or something else arbitrarily close to 2?
 The probability of sampling a specific number exactly is negligible.
 Instead, we need to think about the probability of sampling within intervals.
@@ -398,14 +399,14 @@ This is the nature of probability when we consider continuous distributions.
 
 ### Normal distribution
 
-The last distribution, the normal distribution (also known as the "Gaussian distribution" or the "bell curve"), has a special place in statistics [@Miller2004; @Navarro2022].
+The last distribution, the normal distribution (also known as the "Gaussian distribution" or the "bell curve") has a special place in statistics [@Miller2004; @Navarro2022].
 It appears in many places in the biological and environmental sciences and, partly due to the central limit theorem (see [Chapter 15](#Chapter_15)), is fundamental to many statistical tools.
 The normal distribution is continuous, just like the continuous uniform distribution from the previous section.
 Unlike the uniform distribution, with the normal distribution, it is possible (at least in theory) to sample *any* real value,  $-\infty < x < \infty$.
 The distribution has a symmetrical, smooth bell shape (Figure 14.8), in which probability density peaks at the mean, which is also the median and mode of the distribution.
 The normal distribution has two parameters, the mean ($\mu$) and the standard deviation ($\sigma$).[^16]
 The mean determines where the peak of the distribution is, and the standard deviation determines the width or narrowness of the distribution.
-Note that we are using $\mu$ for the mean here instead of $\bar{x}$, and $\sigma$ for the standard deviation instead of $s$, to differentiate between the sample estimates of [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12).
+Note that we are using $\mu$ for the mean here instead of $\bar{x}$, and $\sigma$ for the standard deviation instead of $s$, to differentiate between the *population* parameters from the *sample* estimates of [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12).
 
 ```{r, echo = FALSE, fig.alt = "A plot of a bell curve, shaded in grey and centered at the x-axis on a value of zero is shown.", fig.cap = "A standard normal probability distribution, which is defined by a mean value of 0 and a standard deviation of 1."}
 par(mar = c(5, 5, 1.5, 1.5));
@@ -431,10 +432,10 @@ We will look at the standard normal distribution more closely in [Chapter 15](#C
 ## Summary
 
 This chapter has introduced probability models and different types of distributions.
-It has focused on the key that are especially important for understanding and implementing statistical techniques.
+It has focused on the key points that are especially important for understanding and implementing statistical techniques.
 As such, a lot of details have been left out.
 For example, the probability distributions considered in Section 14.4 comprise only a small number of example distributions that are relevant for biological and environmental sciences.
-In [Chapter 15](#Chapter_15), we will get an even closer look at the normal distribution and why it is especially useful.
+In [Chapter 15](#Chapter_15), we will get an even closer look at the normal distribution and why it is especially important.
 
 # The Central Limit Theorem (CLT) {#Chapter_15}
 
@@ -448,22 +449,22 @@ It states that if we sample values from **any** distribution and calculate the m
 This statement is busy and potentially confusing at first, partly because it refers to two separate distributions, the sampling distribution and the distribution of the sample mean.
 We can take this step by step, starting with the sampling distribution.
 
-The sampling distribution could be any of the four distributions introduced in [Chapter 15](#Chapter_15) (binomial, poisson, uniform, or normal).
-Suppose that we sample the binomial distribution from Figure 14.6, the one describing the probability distribution of the number of people out of 6 who would test positive for Covid-19 if the probability of testing positive was 0.025.
+The sampling distribution could be any of the 4 distributions introduced in [Chapter 14](#Chapter_14) (binomial, Poisson, uniform, or normal).
+Suppose that we sample the binomial distribution from Figure 14.6, the one showing the number of people out of 6 who would test positive for Covid-19 if the probability of testing positive was 0.025.
 Assume that we sample a value from this distribution (i.e., a number from 0 to 6) 100 times (i.e., $N = 100$).
 If it helps, we can imagine going to 100 different shops, all of which are occupied by 6 people.
-From these 100 samples, we can get calculate the sample mean $\bar{x}$.
+From these 100 samples, we can calculate the sample mean $\bar{x}$.
 This would be the mean number of people in a shop who would test positive for Covid-19.
 If we were just collecting data to try to estimate the mean number of people with Covid-19 in shops of 6, this is where our calculations might stop.
 But here is where the second distribution becomes relevant.
 
-Suppose that we could somehow go back out to collect another 100 samples from a completely different set of 100 shops.
+Suppose that we could somehow go back out to collect *another* 100 samples from 100 completely different shops.
 We could then get the mean of this new sample of $N = 100$ shops.
 To differentiate, we can call the first sample mean $\bar{x}_{1}$ and this new sample mean $\bar{x}_{2}$.
 Will $\bar{x}_{1}$ and $\bar{x}_{2}$ be the exact same value?
 Probably not!
-Since our samples are independent and random from the binomial distribution (Figure 14.6), it is almost certain that the two sample means will be at least bit different.
-We can therefore ask about the *distribution* of these sample means.
+Since our samples are independent and random from the binomial distribution (Figure 14.6), it is almost certain that the two sample means will be at least a bit different.
+We can therefore ask about the *distribution* of sample means.
 That is, what if we kept going back out to get more samples of 100, calculating additional sample means $\bar{x}_{3}$, $\bar{x}_{4}$, $\bar{x}_{5}$, and so forth?
 What would this distribution look like?
 It turns out, it would be a normal distribution!
@@ -491,15 +492,15 @@ text(x = 0.38, y = 178, cex = 1.5, labels = "b");
 
 To demonstrate the CLT in action, Figure 15.1 shows the two distributions side-by-side.
 The first (Figure 15.1a) shows the original distribution from Figure 14.6, from which samples are collected and sample means are calculated.
-The second (Figure 151b) shows the distribution of 1000 sample means (i.e., $\bar{x}_{1}, \bar{x}_{2}, ..., \bar{x}_{999}, \bar{x}_{1000}$).
+The second (Figure 15.1b) shows the distribution of 1000 sample means (i.e., $\bar{x}_{1}, \bar{x}_{2}, ..., \bar{x}_{999}, \bar{x}_{1000}$).
 Each mean $\bar{x}_{i}$ is calculated from a sample of $N = 100$ from the distribution in Figure 15.1a.
 Sampling is simulated using a random number generator on the computer (the lab practical in [Chapter 16](#Chapter_16) shows an example of how to do this in Jamovi).
 
 The distribution of sample means shown in Figure 15.1b is not perfectly normal.
-We can try again with an even bigger sample size of $N = 1000$, this time with a poisson distribution where $\lambda = 1$ in Figure 14.7.
-Figure 15.2 shows this result, with the original poisson distribution shown in Figure 15.2a, and the corresponding distribution built from 1000 sample means shown in Figure 15.2b.
+We can try again with an even bigger sample size of $N = 1000$, this time with a Poisson distribution where $\lambda = 1$ in Figure 14.7.
+Figure 15.2 shows this result, with the original Poisson distribution shown in Figure 15.2a, and the corresponding distribution built from 1000 sample means shown in Figure 15.2b.
 
-```{r, echo = FALSE, fig.alt = "A two panel figure, the first shows a barplot is shown with 11 bars corresponding to the probability of sampling 0-10 from a poisson distribution with a rate parameter of 1. The second panel shows a normal distribution with data comprised of means sampled from the first panel.", fig.cap = "A simulated demonstration of the central limit theorem. (a) Recreation of Figure 14.7 showing the probability distribution for the number of events occurring in a poisson distribution with a rate parameter of 1. (b) The distribution of 1000 means sampled from panel (a), where the sample size is 1000."}
+```{r, echo = FALSE, fig.alt = "A two panel figure, the first shows a barplot is shown with 11 bars corresponding to the probability of sampling 0-10 from a Poisson distribution with a rate parameter of 1. The second panel shows a normal distribution with data comprised of means sampled from the first panel.", fig.cap = "A simulated demonstration of the central limit theorem. (a) Recreation of Figure 14.7 showing the probability distribution for the number of events occurring in a Poisson distribution with a rate parameter of 1. (b) The distribution of 1000 means sampled from panel (a), where the sample size is 1000."}
 par(mfrow = c(1, 2), mar = c(5, 5, 1.5, 1.5));
 lambda1pt0 <- dpois(x = 0:10, lambda = 1.0);
 plot(x = 0, y = 0, xlim = c(0.5, 11.5), type = "n", ylim = c(0, 0.65), 
@@ -555,9 +556,9 @@ hist(x = clt_mns, xlab = expression(paste("Sample mean (",bar(x),")")),
 text(x = 1.735, y = 210, cex = 1.5, labels = "b");
 ```
 
-In all cases, regardless of the original sampling distribution (binomial, poisson, or uniform), the distribution of sample *means* has the shape of a normal distribution.
+In all cases, regardless of the original sampling distribution (binomial, Poisson, or uniform), the distribution of sample *means* has the shape of a normal distribution.
 This normal distribution of sample means has important implications for statistical hypothesis testing.
-The CLT allows us to make inferences about the means of non-normally distributed distributions [@Sokal1995], to create confidence intervals around estimates sample means, and to apply statistical hypothesis tests that would otherwise not be possible.
+The CLT allows us to make inferences about the means of non-normally distributed distributions [@Sokal1995], to create confidence intervals around sample means, and to apply statistical hypothesis tests that would otherwise not be possible.
 We will look at these statistical tools in future chapters.
 
 
@@ -567,7 +568,7 @@ We will look at these statistical tools in future chapters.
 ## Probability and z-scores
 
 We can calculate the probability of sampling some range of values from the normal distribution if we know the distribution's mean ($\mu$) and standard deviation ($\sigma$).
-For example, because the normal distribution is symmetric around the mean (Figure 15.4), the probability of sampling a value greater than the mean will be 0.5 (i.e., $P(x > \mu) = 0.5$), and so will the probability of sampling a value less than the mean (i.e., $P(x < \mu) = 0.5$).
+For example, because the normal distribution is symmetric around the mean, the probability of sampling a value greater than the mean will be 0.5 (i.e., $P(x > \mu) = 0.5$), and so will the probability of sampling a value less than the mean (i.e., $P(x < \mu) = 0.5$).
 Similarly, about 68.2\% of the normal distribution's probability density lies within 1 standard deviation of the mean (shaded region of Figure 15.4), which means that the probability of randomly sampling a value $x$ that is greater than $\mu - \sigma$ but less than $\mu + \sigma$ is $P(\mu - \sigma < x < \mu + \sigma) = 0.682$.
 
 
@@ -598,9 +599,9 @@ This remains true whether it is the binomial distribution that we saw with the c
 Consequently, the area under curve of the normal distribution (i.e., under the curved line of Figure 15.4) must equal 1.
 When we say that the probability of sampling a value within 1 standard deviation of the mean is 0.682, this also means that the *area* of this region under the curve equals 0.682 (i.e., the shaded area in Figure 15.4).
 And, again, because the whole area under the curve sums to 1, that must mean that the unshaded area of Figure 15.4 (where $x < \mu -\sigma$ or $x > \mu + \sigma$) has an area equal to $1 - 0.682 = 0.318$.
-That is, the probability of randomly sampling a value $x$ in this region is $P(x < \mu - \sigma \: | \: x > \mu + \sigma) = 0.318$, or 31.8\% (note that the vertical bar, $|$, is just a fancy way of saying 'or', in this case).
+That is, the probability of randomly sampling a value $x$ in this region is $P(x < \mu - \sigma \: \cup \: x > \mu + \sigma) = 0.318$, or 31.8\% (note that the $\cup$, is just a fancy way of saying 'or', in this case; technically, the *union* of two sets).
 
-We can calculate other percentages using standard deviations too [@Sokal1995; ].
+We can calculate other percentages using standard deviations too [@Sokal1995].
 For example, about 95.4\% of the probability density in a normal distribution lies between 2 standard deviations of the mean, i.e., $P(\mu - 2\sigma < x < \mu + 2\sigma) = 0.954$.
 And about 99.6\% of the probability density in a normal distribution lies between 3 standard deviations of the mean, i.e., $P(\mu - 3\sigma < x < \mu + 3\sigma) = 0.996$.
 We could go on mapping percentages to standard deviations like this; for example, about 93.3\% of the probability density in a normal distribution is less than $\mu + 1.5\sigma$ (i.e., less than 1.5 standard deviations greater than the mean; see Figure 15.5).
@@ -628,7 +629,7 @@ text(x = 0,  y = 0.2, labels = "93.3%", cex = 1.25);
 
 
 Notice that there are no numbers on the x-axes of Figure 15.4 or 15.5.
-This is deliberate; the relationship between standard deviations and percentage of probability density applies regardless of the scale.
+This is deliberate; the relationship between standard deviations and probability density applies regardless of the scale.
 We could have a mean of $\mu = 100$ and standard deviation of $\sigma = 4$, or $\mu = -12$ and $\sigma = 0.34$.
 It does not matter.
 Nevertheless, it would be very useful if we could work with some standard values of $x$ when working out probabilities.
@@ -666,11 +667,12 @@ xvals    <- rnorm(n = 10000, mean = 5, sd = 2)
 hist(xvals, main = "", freq = FALSE, breaks = 40, col = "grey", yaxs = "i",
      xlab = "x", xlim = c(-4, 12), ylim = c(0, 0.49), ylab = "Probability");
 points(x = xx, y = pr_norm, type = "l", lty = "dotted", lwd = 3);
-
+text(x = 10, y = 0.37, labels = "a", cex = 1.5);
 xstd <- (xvals - mean(xvals))/sd(xvals);
 hist(xstd, main = "", freq = FALSE, breaks = 40, col = "grey", yaxs = "i",
      xlab = "x", xlim = c(-4, 12), ylim = c(0, 0.49), ylab = "Probability");
 points(x = xx, y = pr_norm, type = "l", lty = "dotted", lwd = 3);
+text(x = 10, y = 0.37, labels = "b", cex = 1.5);
 ```
 
 In Figure 15.7a, we see the standard normal distribution curve represented by the dotted line, centered at $\mu = 0$ and with a standard deviation of $\sigma = 1$.
@@ -682,7 +684,7 @@ Mathematically, here is how the calculation is made,
 $$z = \frac{x - \mu}{\sigma}.$$
 
 For example, if we had a value of $x = 9.1$ in our simulated dataset, in which $\mu = 5$ and $\sigma = 2$, then we could calculate $z = (9.1 - 5) / 2 = 2.05$.
-We could then use a statistical program such as Jamovi, our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our normally distributed data.
+We could then use a statistical program such as Jamovi, our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our original dataset.
 These z scores will become especially useful for calculating confidence intervals in [Chapter 17](#Chapter_17).
 They can also be useful for comparing values from variables or statistics measured on different scales [@Sokal1995; @Cheadle2003; @Adams2016].
 
@@ -692,7 +694,7 @@ They can also be useful for comparing values from variables or statistics measur
 
 # _Practical_. Probability and simulation {#Chapter_16}
 
-This practical focuses on applying the concepts from chapter 14 and 15 in Jamovi.
+This practical focuses on applying the concepts from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi.
 There will be 3 exercises.
 
 1. Calculating probabilities from a dataset.
@@ -700,7 +702,7 @@ There will be 3 exercises.
 3. Demonstrating the central limit theorem (CLT).
 
 To complete exercises 2 and 3, we will need to download and install two new Jamovi modules.
-Jamovi Modules are add-ons that make it possible to run specialised statistical tools inside Jamovi.
+Jamovi modules are add-ons that make it possible to run specialised statistical tools inside Jamovi.
 These tools are written by a community of statisticians, scientists, and educators and listed in the [Jamovi library](https://www.jamovi.org/library.html).
 Like Jamovi, these tools are open source and free to use.
 
@@ -718,7 +720,7 @@ knitr::include_graphics("img/power_up.png")
 The game "Power Up!" is freely available as an [Android](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame) and [iPhone](https://apps.apple.com/gb/app/power-up/id1585634888) app (Figure 16.1).
 Data are collected from players' decisions and used to investigate social-ecological questions.
 We will use the [power_up](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/power_up.csv) dataset in exercises 1 and 2.
-To get started, first download the [power_up](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/power_up.csv) dataset and open them in Jamovi.
+To get started, first download the [power_up](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/power_up.csv) dataset and open it in Jamovi.
 Note that these data are already in a tidy format, so we do not need to do any reorganising.
 The dataset includes columns for each player's ID, the OS that they use, the dam size that they decided to build in the game, their in-game investment in Biodiversity, Community, and Energy, and their final Score.
 
@@ -747,12 +749,12 @@ knitr::include_graphics("img/jamovi_power_up_frequencies.png")
 
 The table of frequencies shown in Figure 16.2 includes counts of Android versus iPhone users.
 We can see that `r android_N` of the `r dim(power_up)[1]` total game players use Android, while `r iPhone_N` players use iPhone.
-To get the proportion of Android users we could divide `r android_N` by `r dim(power_up)[1]` to get `r android_N/dim(power_up)[1]`.
-Similarly, the proportion of iPhone users, we could calculate `r iPhone_N` / `r dim(power_up)[1]` = `r iPhone_N/dim(power_up)[1]`.
-But Jamovi already does that for us, with a bit of rounding.
+To get the proportion of Android users, we could divide `r android_N` by `r dim(power_up)[1]` to get `r android_N/dim(power_up)[1]`.
+Similarly, for the proportion of iPhone users, we could calculate `r iPhone_N` / `r dim(power_up)[1]` = `r iPhone_N/dim(power_up)[1]`.
+But Jamovi already does this for us, with a bit of rounding.
 The second column of the Frequencies table gives us these proportions, but expressed as a percentage.
 The percentage of Android users is `r round(100 * android_N/dim(power_up)[1], digits = 1)`%, and the percentage of iPhone users is `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)`%.
-Percentages are out of a total of 100, so to get back to the proportions, we can just divide by 100, `r round(100 * android_N/dim(power_up)[1], digits = 1)` / 100 = `r round(100 * android_N/dim(power_up)[1], digits = 1)/100` for Android and `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)` / 100 = `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)/100` for iPhone.
+Percentages are out of a total of 100, so to get back to the proportions, we can just divide by 100\%, `r round(100 * android_N/dim(power_up)[1], digits = 1)` / 100 = `r round(100 * android_N/dim(power_up)[1], digits = 1)/100` for Android and `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)` / 100 = `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)/100` for iPhone.
 To answer the original question, our best estimate of the probability that a new Power Up! game player will be an Android user is therefore `r round(android_N/dim(power_up)[1], digits = 3)`.
 
 Next, use the same procedure to find the probability that a game player will make a small, medium, and large size dam.
@@ -770,29 +772,29 @@ We can use these estimated probabilities of small, medium, and large dam size se
 Suppose that a new player decides to play the game.
 What is the probability that this player chooses a small **or** a large dam?
 
-$P(small\:or\:large) =$ : __________________________
+$P(small\:or\:large) =$  __________________________
 
 Now suppose that 3 new players arrive and decide to play the game.
 What is the probability that all 3 of these new players choose a large dam?
 
-$Pr_{(3\:large)} =$ : __________________________
+$Pr(3\:large) =$  __________________________
 
 What is the probability that all 3 of these new players choose *different* dam sizes?
 
-$P(small,\:medium,\:large) =$ : __________________________
+$P(small,\:medium,\:large) =$  __________________________
 
 Now consider a slightly different type of question.
 Instead of trying to predict the probability of new player decisions, we will focus on sampling from the existing power up dataset.
 Imagine that you randomly choose one of the `r dim(power_up)[1]` players with equal probability (i.e., every player is equally likely to be chosen).
 What is the probability that you choose player 20?
 
-$P(Player\:20) =$ : __________________________
+$P(Player\:20) =$  __________________________
 
 What is the probability that you choose player 20, *then* choose a different player with a large dam?
 As a hint, remember that you are now sampling *without replacement*. 
 The second choice cannot be player 20 again, so the probability of choosing a player with a large dam has changed from the estimated probability in Table 16.1.
 
-$P(Player\:20,\:Large) =$ : __________________________
+$P(Player\:20,\:Large) =$ __________________________
 
 Now we can use the Descriptives tool in Jamovi to ask a slightly different question with the data.
 Suppose that we wanted to estimate the probability that an Android user will choose a large dam.
@@ -808,12 +810,13 @@ knitr::include_graphics("img/jamovi_power_up_frequencies2.png")
 
 
 To get the proportion of Android users who choose to build a large dam, we just need to divide the number of Android users who chose the large dam size by the total number of Android users (i.e., sum of the first column in the Frequencies table; Figure 16.3).
+Note that the vertical bar, $|$, in the equation below just means 'given' (or, rather, 'conditional up', so the number of players that chose a large dam *given* that they are Android users),
 
 $$P(Large | Android) = \frac{Number\:of\:Android\:users\:choosing\:large\:dam}{Number\:of\:Android\:users}.$$
 
 Now, recreate the table in Figure 16.3 and estimate the probability that an Android user will choose to build a large dam,
 
-$P(Large | Android) =$ : __________________________
+$P(Large | Android) =$  __________________________
 
 Is $P(Large | Android)$ much different from the probability that *any* player chooses a large dam, as calculated in Table 16.1? Do you think that the difference is significant?
 
@@ -854,19 +857,19 @@ Consequently, we are not really interested in the probabilities of specific valu
 Instead, we want to focus on intervals.
 For example, what is the probability that a player scores higher than 120?
 What is the probability that a player scores lower than 100?
-What is the probability that a player scores between 120 and 100?
+What is the probability that a player scores between 100 and 120?
 
-Take another look at Figure 16.4 above, then take a guess at each of these probabilities.
+Take another look at Figure 16.4, then take a guess at each of these probabilities.
 As a hint, the y-axis of this histogram is showing density instead of frequency.
 What this means is that the total grey area (i.e., the histogram bars) sums to 1.
 Guessing the probability that a player scores higher than 120 is the same as guessing the proportion of grey space in the highest 4 bars of Figure 16.4 (i.e., grey space >120).
 
-$P(Score>120) =$ : __________________________
+$P(Score>120) =$  __________________________
 
-$P(Score<100) =$ : __________________________
+$P(Score<100) =$  __________________________
 
 
-$P(100<Score<120) =$ : __________________________
+$P(100<Score<120) =$  __________________________
 
 Trying to do this by looking at a histogram is not easy, and it is really not the best way to get the above probabilities.
 We can get much better estimates using Jamovi, but we need to make an assumption about the distribution of Player Score.
@@ -881,8 +884,8 @@ Mean score: __________________________
 
 Standard deviation score: __________________________
 
-We will assume that the *sample* of scores shown in Figure 16.4 came from a *population* that is normally distributed with the mean and standard deviation above that you wrote above (recall sample versus population from [Chapter 4](#Chapter_4)).
-We can overlay his distribution on the histogram above using a curved line (Figure 16.5).
+We will assume that the *sample* of scores shown in Figure 16.4 came from a *population* that is normally distributed with the mean and standard deviation that you wrote above (recall sample versus population from [Chapter 4](#Chapter_4)).
+We can overlay this distribution on the histogram above using a curved line (Figure 16.5).
 
 ```{r, echo = FALSE, fig.alt = "A histogram is shown with a normal shape. The x-axis is labelled 'Player Score', and there is a line indicating the probability density function of a normal distribution overlaid.", fig.cap = "Distribution of player scores in the game Power Up! shown in histogram bars. The overlaid curve shows the probability density function for a normal distribution that has the same mean and standard deviation as the sample described by the histogram.", out.width="100%"}
 hist(x = power_up$Score, xlab = "Player Score", cex.lab = 1.25, cex.axis = 1.25,
@@ -925,7 +928,7 @@ A new button in the toolbar called 'distrACTION' should become visible (Figure 1
 knitr::include_graphics("img/jamovi_toolbar_modules_distrACTION.png")
 ```
 
-If the module is not there, then it should be possible to find by again going to Modules and selecting distrACTION from the pulldown menu.
+If the module is not there after installation, then it should be possible to find by again going to Modules and selecting distrACTION from the pulldown menu.
 Click on the module and choose 'Normal Distribution' from the pulldown menu.
 Next, we can see a box for the mean and standard deviation (SD) under the 'Parameters' subtitle in bold.
 Put the mean and the standard deviation calculated from above into these boxes.
@@ -934,7 +937,7 @@ In the panel on the right, Jamovi will produce the same normal distribution that
 Given this normal distribution, we can compute the probability that a player scores less than x1 = 80 by checking the box 'Compute probability', which is located just under 'Function' (Figure 16.8).
 We can then select the first radio button to find the probability that a randomly sampled value X from this distribution is less than x1, $P(X \leq x1)$.
 Notice in the panel on the right that the probability is given as $P =$ `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`.
-This is also represented in the plot of the normal distribution, with the same proportion in the lower part of the distribution shaded ($P =$ `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`, i.e., ca `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3) * 100` per cent).
+This is also represented in the plot of the normal distribution, with the same proportion in the lower part of the distribution shaded ($P =$ `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`, i.e., about `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3) * 100` per cent).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi options for a module that calculates probabilities associated with a normal distribution, with computing probability checkboxes and radio buttons selected", fig.cap = "Jamovi options for the distrACTION module for computing probability for a given normal distribution. The example shown here calculates the probability that a value sampled from the normal distribution of interest is less than 80.", out.width="80%"}
 knitr::include_graphics("img/jamovi_normal_distribution.png")
@@ -945,27 +948,27 @@ We could also just select the second radio button for $P(X \geq x1)$.
 Give this a try, and notice that the shaded and unshaded regions have flipped in the plot, and we get our answer in the table of $P =$ `r 1 - round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`.
 
 Finally, to compute the probability of an interval, we can check the third radio button and set x2 in the bottom box (Figure 16.8). 
-For example, to see the probability of a score between 80 and 120, we can choose select $P(x1 \leq X \leq x2)$, then setting x2 = 120 in the bottom box.
+For example, to see the probability of a score between 80 and 120, we can choose select $P(x1 \leq X \leq x2)$, then set $x2 = 120$ in the bottom box.
 Notice where the shaded area is in the newly drawn plot.
 What is the probability of a player getting a score between 80 and 120?
 
-$P(80 \leq X \leq 120)$ = : __________________________
+$P(80 \leq X \leq 120)$ = __________________________
 
 What is the probability of a player getting a score greater than 130?
 
-$P(X \geq 130)$ = : __________________________
+$P(X \geq 130)$ = __________________________
 
 Now try the following probabilities for different scores.
 
-$P(X \geq 120)$ = : __________________________
+$P(X \geq 120)$ = __________________________
 
 
-$P(X \leq 100)$ = : __________________________
+$P(X \leq 100)$ = __________________________
 
 
-$P(100 \leq X \leq 120)$ = : __________________________
+$P(100 \leq X \leq 120)$ = __________________________
 
-Note, these last three were the same intervals that you guessed using the histogram. 
+Note, these last 3 were the same intervals that you guessed using the histogram. 
 How close was your original guess to the calculations above?
 
 ```
@@ -983,7 +986,7 @@ How close was your original guess to the calculations above?
 One last one.
 What is the probability of a player getting a score lower than 70 or higher than 130?
 
-$P(X \leq 70 \: | \: X \geq 130)$ = : __________________________
+$P(X \leq 70 \: \cup \: X \geq 130)$ =  __________________________
 
 There is more than one way to figure this last one out.
 How did you do it, and what was your reasoning?
@@ -1011,7 +1014,7 @@ To demonstrate the central limit theorem, we need to download and install anothe
 This time, go to 'Modules', and from the 'Available' tab, scroll down until you find 'Rj' in the Jamovi library.
 Install 'Rj', then a new button 'R' should become available in the toolbar.
 This will allow us to run a bit of script using the coding language R.
-We will work with R a bit more in future practicals, but for now you will not need to do anymore than copying and pasting code.
+We will work with R a bit more in future practicals, but for now you will not need to do anymore than copying and pasting.
 For now, click on the new 'R' button in the toolbar and select 'Rj Editor' from the pulldown menu.
 You will see an open editor; this is where the code will go.
 If it has some code in it already (e.g., `# summary(data[1:3])`), just delete it so that we can start with a clean slate.
@@ -1068,7 +1071,7 @@ What this code is doing is creating 40 different datasets of 200 random numbers 
 The `hist` function plots a histogram of the first variable.
 To run the code, find the green triangle in the upper right (Figure 16.9).
 
-```{r, echo = FALSE, fig.alt = "Jamovi window with an R editor open and several lines of code for generating uniform numbers.", fig.cap = "Jamovi interface for the Rj Editor module. Code can be run by clicking on the green triangle in the upper left.", out.width="80%"}
+```{r, echo = FALSE, fig.alt = "Jamovi window with an R editor open and several lines of code for generating uniform numbers.", fig.cap = "Jamovi interface for the Rj Editor module. Code can be run by clicking on the green triangle in the upper right.", out.width="80%"}
 knitr::include_graphics("img/jamovi_RjEditor.png")
 ```
 

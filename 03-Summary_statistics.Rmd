@@ -1,3 +1,9 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
+
 # (PART) Summary statistics {-}
 
 # Week 3 Overview {-#Week3}
@@ -24,9 +30,9 @@
 | **Help hours**  | Ian Jones                       |
 |                 |   Room: Cottrell 1A13           |
 |                 |   10 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | Week 3 Practice quiz on Canvas  |
+| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29674) on Canvas  |
 
-Week 2 focuses on descriptive statistics, how to report them, interpret them, and communicate them with graphs.
+Week 3 focuses on descriptive statistics, how to report them, interpret them, and communicate them with graphs.
 
 [Chapter 9](#Chapter_9) focuses on how to report numbers with accuracy and precision.
 In practice, this means reporting values with the correct number of digits (decimal places and significant figures), and rounding appropriately.
@@ -856,7 +862,7 @@ N_alba_tidy <- read.csv("data/Nymphaea_alba_tidy.csv");
 print(N_alba)
 ```
 
-Remember that to make these data tidy and usable in Jamovi, we need each row to be an independent sample.
+Remember that to make these data tidy and usable in Jamovi, we need each row to be a unique observation.
 What we really want then is a dataset with two columns of data.
 The first column should indicate the site, and the second column should indicate the petiole diameter.
 This can be done in two ways.
@@ -870,7 +876,7 @@ See Figure 13.2 for how this would look in Jamovi.
 knitr::include_graphics("img/lilypad_tidy.png")
 ```
 
-Note that to insert a new column, we need to right click on an existing column and select 'Add Variable' $\to$ 'Insert'.
+Note that to insert a new column in Jamovi, we need to right click on an existing column and select 'Add Variable' $\to$ 'Insert'.
 A new column will then pop up in Jamovi, and we can give this an informative name.
 Make sure to specify that the 'Site' column should be a nominal measure type, and the 'petiole_diameter_mm' column should be a continuous measure type. 
 The first 6 rows of the dataset should look like the below.
@@ -885,7 +891,7 @@ We will start with some plotting.
 ## Histograms and box-whisker plots
 
 We will start by making a histogram of the full dataset of petiole diameter.
-To do this, we need to go to 'Analyses' tab of the Jamovi toolbar, then select the 'Exploration' button.
+To do this, we need to go to the 'Analyses' tab of the Jamovi toolbar, then select the 'Exploration' button.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with an Exploration and Descriptive option being selected.", fig.cap = "Jamovi toolbar after having selected on the Analyses tab followed by the Exploration button.", out.width="100%"}
 knitr::include_graphics("img/lilypad_descriptives.png")
@@ -894,7 +900,7 @@ knitr::include_graphics("img/lilypad_descriptives.png")
 Next, select the 'Descriptives' option (Figure 13.3).
 This will open a new window where it is possible to create plots and calculate summary statistics.
 The white box on the left of the Descriptive interface lists all of the variables in the dataset.
-Below this box, there are options for selecting different summary statistics 'Statistics' and building different graphs 'Plots'.
+Below this box, there are options for selecting different summary statistics ('Statistics') and building different graphs ('Plots').
 To get started, select the petiole diameter variable in the box to the left, then move it to the 'Variables' box (top right) using the $\to$ arrow.
 Next, open the Plots option at the bottom of the interface.
 Choose the 'Histogram' option by clicking the checkbox.
@@ -1085,7 +1091,7 @@ Write your reflections in the space below.
 
 ```
 
-Next, we will produce barplots to show the mean petiol diameter for each site.
+Next, we will produce barplots to show the mean petiole diameter for each site.
 
 ## Comparing across sites
 

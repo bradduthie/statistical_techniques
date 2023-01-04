@@ -25,7 +25,7 @@ description: "This is a lab book for the University of Stirling second year unde
 Welcome to SCIU4T4, Statistical Techniques!
 Statistical techniques are tools that allow us to make inferences about the world using data. 
 These tools are indispensable in the sciences, and their importance in research continues to grow. 
-Developing a statistical understanding will help you become better able to critically evaluate the scientific literature and conduct your own scientific research. 
+Developing a statistical understanding will improve your ability to critically evaluate the scientific literature and conduct your own scientific research. 
 In this module, you will learn important skills for working with biological and environmental data sets. 
 Many of these skills will be directly applied in subsequent modules. 
 
@@ -44,7 +44,7 @@ Statistical literacy is therefore important, not just for *doing* research, but 
 Throughout this book, we will illustrate the importance of statistics using examples inspired by, or directly sourced from, real-world projects in the biological and environmental sciences.
 Many of these examples, including those used in lab practicals, will draw from research projects conducted at the University of Stirling.
 Several examples will focus on research that is important for addressing major global challenges in sustainability, food security, conservation, or the spread of disease.
-Other examples will focus more on research that addresses fundamental scientific questions about ecology and evolution.
+Other examples will focus on research that addresses fundamental scientific questions about ecology and evolution.
 We hope that you will find topics that interest you, and that this module will inspire you to learn more about statistics.
 
 
@@ -168,11 +168,11 @@ This module includes 2 formative (i.e., ungraded) assessments and 3 summative (i
 
 | Assessment       | Type       | Weighting  | Weeks | Time                  | 
 |------------------|------------|------------|-------|-----------------------|
-| Test 1F          | Formative  | 0\%        | 1-4   | 22 FEB at 10:05-11:55 |         
-| Test 1S          | Summative  | 25\%       | 1-6   | 15 MAR at 10:05-11:55 |
-| Test 2S          | Summative  | 25\%       | 7-10  | 05 APR at 10:05-11:55 |
-| Mock Exam        | Formative  | 0\%        | All   | To be determined      |
-| Exam             | Summative  | 50\%       | All   | To be determined      |
+| [Test 1F](https://canvas.stir.ac.uk/courses/13075/quizzes/29676)          | Formative  | 0\%        | 1-4   | 22 FEB at 10:00-12:00 |         
+| [Test 1S](https://canvas.stir.ac.uk/courses/13075/quizzes/29677)          | Summative  | 25\%       | 1-6   | 15 MAR at 10:00-12:00 |
+| [Test 2S](https://canvas.stir.ac.uk/courses/13075/quizzes/29678)          | Summative  | 25\%       | 7-10  | 05 APR at 10:00-12:00 |
+| [Mock Exam](https://canvas.stir.ac.uk/courses/13075/quizzes/29679)        | Formative  | 0\%        | All   | To be determined      |
+| [Exam](https://canvas.stir.ac.uk/courses/13075/quizzes/29680)             | Summative  | 50\%       | All   | To be determined      |
 
 Table: Summary of module assessments, whether they are for practice (formative) or for a grade (summative), how much they count for the final grade, the weeks of material that the test includes, and the time of the test.
 
@@ -267,7 +267,7 @@ Note that because all assessments are tests or exams, it is not possible to appl
 Each week, there will be a practical session to learn and practice using statistical tools.
 Practical instructions are located in the last chapter of each book section (e.g., [Chapter 3](#Chapter_3) for week 1, or [Chapter 8](#Chapter_8) for week 2).
 Practical sessions are held in room Cottrell 2A17 on either Wednesdays from 13:05-15:55 (Group A) or Thursdays from 09:05-11:55 (Group B).
-When you get to the practical, there will be quick introduction, then you will work through the practical in a mostly self-guided way (feel free to converse with your classmates and help one another too).
+When you get to the practical, there will be a quick introduction, then you will work through the practical in a mostly self-guided way (feel free to converse with your classmates and help one another too).
 Instructors will be walking around the room to answer any questions that you have and help you if you get stuck.
 These instructors will include the lecturer leading the week's content, the module coordinator, and module demonstrators.
 Module demonstrators include postgraduate researchers who have experience in data analysis from their own ongoing PhD work.
@@ -328,7 +328,7 @@ This book was entirely written in R using software called "Rmarkdown" and "[Pand
 ```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2023."}
 schedule <- read.csv("data/schedule.csv");
 knitr::kable(schedule, format = "simple", table.envir = "table",
-             caption = "Table caption.");
+             caption = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2023.");
 ```
 
 

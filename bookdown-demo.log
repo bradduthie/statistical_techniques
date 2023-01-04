@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.27)  3 JAN 2023 00:25
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.27)  4 JAN 2023 00:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1290,22 +1290,22 @@ File: img/Ch1_Ex1_seeds2.jpg Graphic file (type bmp)
 File: img/wasp_egg_loads_untidy.png Graphic file (type bmp)
 <img/wasp_egg_loads_untidy.png>
 [50] [51]
-Underfull \hbox (badness 3449) in paragraph at lines 1281--1288
+Underfull \hbox (badness 3449) in paragraph at lines 1282--1289
 \TU/lmr/m/n/10.95 Exercise 4 requires some restructuring and calculations. The dataset that
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 1281--1288
+Underfull \hbox (badness 3058) in paragraph at lines 1282--1289
 \TU/lmr/m/n/10.95 will be used in this exercise includes morphological measurements from five
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1281--1288
+Underfull \hbox (badness 1430) in paragraph at lines 1282--1289
 \TU/lmr/m/n/10.95 species of fig wasps, the same species used in Exercise 2. \TU/lmr/bx/n/10.95 Download this
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 1281--1288
+Underfull \hbox (badness 3386) in paragraph at lines 1282--1289
 \TU/lmr/bx/n/10.95 dataset from the file [][]wasp_morphology_untidy.xlsx[][] (XLSX file) or
  []
 
@@ -1321,7 +1321,7 @@ File: img/Ch1_Ex3_copy_formula.png Graphic file (type bmp)
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1424.
+(scrkbase)              on input line 1425.
 [57
 
 
@@ -1344,35 +1344,35 @@ chapter 5.
 ] [64]
 chapter 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1606.
+(Font)              scaled to size 9.0pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 1606.
+(Font)              scaled to size 6.0pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 1606.
+(Font)              scaled to size 5.0pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 1606.
+(Font)              scaled to size 9.00082pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 1606.
+(Font)              scaled to size 6.00055pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 1606.
+(Font)              scaled to size 5.00046pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 1606.
+(Font)              scaled to size 8.99904pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 1606.
+(Font)              scaled to size 5.99936pt on input line 1607.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 1606.
+(Font)              scaled to size 4.99947pt on input line 1607.
 File: img/accuracy_vs_precision.png Graphic file (type bmp)
 <img/accuracy_vs_precision.png>
 [65
 
 
 ] [66]
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 1669--1670
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 1670--1671
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
 
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 1683--1684
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 1684--1685
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
@@ -1398,7 +1398,7 @@ File: img/jamovi_new_variable.png Graphic file (type bmp)
 File: img/jamovi_set_variable.png Graphic file (type bmp)
 <img/jamovi_set_variable.png>
 
-Underfull \hbox (badness 1661) in paragraph at lines 1878--1881
+Underfull \hbox (badness 1661) in paragraph at lines 1879--1882
 []\TU/lmr/m/n/10.95 After typing in the new variable ‘soil_type’, add another variable called ‘or-
  []
 
@@ -1423,7 +1423,7 @@ File: img/export_jamovi.png Graphic file (type bmp)
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2165.
+(scrkbase)              on input line 2166.
 [85
 
 
@@ -1475,7 +1475,7 @@ chapter 12.
 ]
 chapter 13.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 2960.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 2961.
 Missing character: There is no А (U+0410) in font [lmroman9-regular]:mapping=tex-text;!
 File: img/Nymphaea_alba_pads.jpg Graphic file (type bmp)
 <img/Nymphaea_alba_pads.jpg>
@@ -1497,7 +1497,7 @@ File: img/lilypad_summary_statistics.png Graphic file (type bmp)
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 3310.
+(scrkbase)              on input line 3311.
 [131] [132] [133
 
 
@@ -1517,27 +1517,26 @@ File: img/cards.jpg Graphic file (type bmp)
 [140]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-53-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-53-1.pdf>
-[141] [142]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-54-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-54-1.pdf>
-[143]
+[141] [142] [143]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-55-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-55-1.pdf>
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 3557.
+(amsmath)                 on input line 3560.
 
-[144]
+[144] [145]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf>
-[145] [146]
+[146] [147]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-57-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-57-1.pdf>
-[147] [148]
+[148] [149]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf>
-[149] [150] [151] [152
+[150] [151] [152
 
 
 ]
@@ -1545,13 +1544,13 @@ chapter 15.
 [153]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf>
-[154]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf>
+[154]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf>
 
-Underfull \vbox (badness 5091) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [155] [156]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type pdf)
@@ -1589,17 +1588,12 @@ File: img/jamovi_toolbar_modules.png Graphic file (type bmp)
 <img/jamovi_toolbar_modules.png>
 File: img/jamovi_toolbar_modules_distrACTION.png Graphic file (type bmp)
 <img/jamovi_toolbar_modules_distrACTION.png>
-[170]
 File: img/jamovi_normal_distribution.png Graphic file (type bmp)
 <img/jamovi_normal_distribution.png>
-[171] [172]
-Overfull \vbox (0.52132pt too high) detected at line 4157
- []
-
-[173]
+[170] [171] [172]
 File: img/jamovi_RjEditor.png Graphic file (type bmp)
 <img/jamovi_RjEditor.png>
-[174] [175]
+[173] [174] [175]
 File: img/jamovi_clt.png Graphic file (type bmp)
 <img/jamovi_clt.png>
 [176] [177] [178
@@ -1609,7 +1603,7 @@ File: img/jamovi_clt.png Graphic file (type bmp)
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4308.
+(scrkbase)              on input line 4312.
 [179] [180] [181
 
 
@@ -1645,7 +1639,7 @@ chapter 21.
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4358.
+(scrkbase)              on input line 4362.
 [193] [194] [195
 
 
@@ -1711,7 +1705,7 @@ chapter 32.
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4441.
+(scrkbase)              on input line 4445.
 [219] [220] [221
 
 
@@ -1722,7 +1716,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4450.
+(scrkbase)              on input line 4454.
 [223] [224] [225
 
 
@@ -1758,7 +1752,7 @@ chapter 37.
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4500.
+(scrkbase)              on input line 4504.
 [237] [238] [239
 
 
@@ -1804,7 +1798,7 @@ chapter 44.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4554.
+(scrkbase)              on input line 4558.
 [255] [256] [257
 
 
@@ -1840,7 +1834,7 @@ chapter 49.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4598.
+(scrkbase)              on input line 4602.
 [269] [270] [271
 
 
@@ -1876,7 +1870,7 @@ chapter 54.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4643.
+(scrkbase)              on input line 4647.
 [283] [284] [285
 
 
@@ -1907,7 +1901,7 @@ chapter 58.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4683.
+(scrkbase)              on input line 4687.
 [295] [296] [297
 
 

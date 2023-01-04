@@ -28,7 +28,7 @@ output:
 | **Help hours**  | Ian Jones                       |
 |                 |   Room: Cottrell 1A13           |
 |                 |   03 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | Week 2 Practice quiz on Canvas  |
+| **Assessments** | [Week 2 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29673) on Canvas  |
 
 
 Week 2 focuses on general statistical concepts, data, and measurement.
