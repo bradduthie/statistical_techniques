@@ -684,6 +684,10 @@ Mathematically, here is how the calculation is made,
 $$z = \frac{x - \mu}{\sigma}.$$
 
 For example, if we had a value of $x = 9.1$ in our simulated dataset, in which $\mu = 5$ and $\sigma = 2$, then we could calculate $z = (9.1 - 5) / 2 = 2.05$.
+Since we almost never know what the true population mean ($\mu$) and standard deviation ($\sigma$) are, we usually need to use the estimates made from our sample,
+
+$$z = \frac{x - \bar{x}}{s}.$$
+
 We could then use a statistical program such as Jamovi, our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our original dataset.
 These z scores will become especially useful for calculating confidence intervals in [Chapter 17](#Chapter_17).
 They can also be useful for comparing values from variables or statistics measured on different scales [@Sokal1995; @Cheadle2003; @Adams2016].
