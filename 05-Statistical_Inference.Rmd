@@ -5,7 +5,7 @@
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 20 February 2023 - 24 February 2023 |
-| **Reading**     | **Required:**  [INSERT REQURESD]  |
+| **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17-18  |
 |                 | **Recommended:** [INSERT REC]    |
 |                 | **Suggested:**  [INSERT SUGGEST] |
 |                 | **Advanced:** [MORE]
@@ -57,7 +57,7 @@ Instead, we might more sensibly ask what the interval would need to be to contai
 What does "with 95\% confidence" actually mean?
 It means when we do the calculation to get the interval, the true mean should be somewhere within the interval 95\% of the time that a sample is collected.
 
-```{r, echo = FALSE, fig.alt = "Two cats sitting close together, a large orange one in the back and small black one in the front.", fig.cap = "Two domestic cats sitting side by side with much different body masses.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Two cats sitting close together on a windowsill, a large orange one in the front and small black and brown one in the back", fig.cap = "Two domestic cats sitting side by side with much different body masses.", out.width="100%"}
 knitr::include_graphics("img/housecats.png");
 ```
 
@@ -110,13 +110,13 @@ We find that the mean body mass of cats in our sample is $\bar{x} = 4.1$ kg, and
 Remember from [Chapter 12](#Chapter_12) that the sample standard error can be calculated as $s / \sqrt{N}$.
 Our lower 95\% confidence interval is therefore,
 
-$$LCI_{95\%} = 4.1 - \left(1.96 \times \frac{0.6}{20}\right) = 4.04$$
+$$LCI_{95\%} = 4.1 - \left(1.96 \times \frac{0.6}{20}\right) = 4.041$$
 
 Our upper 95\% confidence interval is,
 
-$$UCI_{95\%} = 4.1 + \left(1.96 \times \frac{0.6}{20}\right) = 4.16$$
+$$UCI_{95\%} = 4.1 + \left(1.96 \times \frac{0.6}{20}\right) = 4.159$$
 
-Our 95\% CIs are therefore $LCI = 4.04$ and $UCI = 4.16$.
+Our 95\% CIs are therefore $LCI = 4.041$ and $UCI = 4.159$.
 We can now come back to the statistical concept of what this actually means.
 If we were to go out and repeatedly collect new samples of 20 cats, and do the above calculations each time, then 95\% of the time our true mean cat body mass would be somewhere between the LCI and UCI.
 
@@ -128,14 +128,14 @@ To do this, we just need to find the z-score that corresponds with 99\% of the p
 This value is about $z = 2.58$, which we could find with the [interactive application](https://bradduthie.shinyapps.io/zandp/), a [z table](https://www.z-table.com/), some maths, or a quick online search[^20].
 Consequently, the upper 99\% confidence interval for our example of cat body masses would be,
 
-$$LCI_{99\%} = 4.1 - \left(2.58 \times \frac{0.6}{20}\right) = 4.02$$
+$$LCI_{99\%} = 4.1 - \left(2.58 \times \frac{0.6}{20}\right) = 4.023$$
 
 Our upper 99\% confidence interval is,
 
-$$UCI_{99\%} = 4.1 + \left(2.58 \times \frac{0.6}{20}\right) = 4.18$$
+$$UCI_{99\%} = 4.1 + \left(2.58 \times \frac{0.6}{20}\right) = 4.177$$
 
 Notice that the confidence intervals became wider around the sample mean.
-The 99\% CI is now 4.02-4.18, while the 95\% CI was 4.04-4.16.
+The 99\% CI is now 4.023-4.177, while the 95\% CI was 4.041-4.159.
 This is because if we want to be more confident about our interval containing the true mean, we need to make a bigger interval.
 
 We could make CIs using any percentage that we want, but in practice it is very rare to see anything other than 90\% ($z = 1.65$), 95\% ($z = 1.96$), or 99\% ($z = 2.58$).
@@ -151,7 +151,7 @@ We will see what to do about this in [Chapter 18](#Chapter_18), but first we tur
 
 [^20]: While it is always important to be careful when searching, typing "z score 99 percent confidence interval" will almost always get the intended result. 
 
-[^21]: What defines a 'small' or a 'large' sample is a bit arbitrary. A popular suggestion is that any $N < 30$ is too small to use z-scores, but any cut-off $N$ is going to be somewhat arbitrary. Technically, the z score is not **completely** accurate until $N \to \infty$, but for all intents and purposes, it is usually only trivially inaccurate for sample sizes in the hundreds. Fortunately, you do not need to worry about any of this when calculating CIs from continuous data in Jamovi because Jamovi applies a correction for you, which we will look at in [Chapter 18](#Chapter_18).
+[^21]: What defines a 'small' or a 'large' sample is a bit arbitrary. A popular suggestion [e.g., @Sokal1995 page 145] is that any $N < 30$ is too small to use z-scores, but any cut-off $N$ is going to be somewhat arbitrary. Technically, the z score is not **completely** accurate until $N \to \infty$, but for all intents and purposes, it is usually only trivially inaccurate for sample sizes in the hundreds. Fortunately, you do not need to worry about any of this when calculating CIs from continuous data in Jamovi because Jamovi applies a correction for you, which we will look at in [Chapter 18](#Chapter_18).
 
 
 ## Binomial distribution CIs
@@ -170,13 +170,13 @@ $$SE(p) = \sqrt{\frac{p\left(1 - p\right)}{N}}.$$
 We can use this standard error in the same equation from earlier for calculating confidence intervals.
 For example, if we wanted to calculate the lower 95\% CI for $\hat{p} = 0.55$,
 
-$$LCI_{95\%} = 0.55 - 1.96 \sqrt{\frac{0.55\left(1 - 0.55\right)}{40}} = 0.40$$
+$$LCI_{95\%} = 0.55 - 1.96 \sqrt{\frac{0.55\left(1 - 0.55\right)}{40}} = 0.396$$
 
 Similarly, to calculate the upper 95\% CI,
 
-$$UCI_{95\%} = 0.55 + 1.96 \sqrt{\frac{0.55\left(1 - 0.55\right)}{40}} = 0.70.$$
+$$UCI_{95\%} = 0.55 + 1.96 \sqrt{\frac{0.55\left(1 - 0.55\right)}{40}} = 0.704.$$
 
-Our conclusion is that, based on our sample, 95\% of the time we flip a coin 40 times, the true mean $p$ will be somewhere between 0.4 and 0.7. 
+Our conclusion is that, based on our sample, 95\% of the time we flip a coin 40 times, the true mean $p$ will be somewhere between 0.396 and 0.704. 
 These are quite wide CIs, which suggests that our flip of $\hat{p} = 0.55$ would not be particularly remarkable even if the coin was fair ($p = 0.5$).[^24]
 
 We can do another example, this time with our example of the probability of testing positive for Covid-19 at $\hat{p} = 0.025$.
@@ -185,11 +185,11 @@ We might want to be especially cautious about estimating CIs around such an impo
 In this case, we use $z = 2.58$ as with the normal distribution example from earlier.
 But we apply this z score using the binomial standard error to get the LCI,
 
-$$LCI_{99\%} = 0.025 - 2.58 \sqrt{\frac{0.025\left(1 - 0.025\right)}{400}} = 0.0049$$
+$$LCI_{99\%} = 0.025 - 2.58 \sqrt{\frac{0.025\left(1 - 0.025\right)}{400}} = 0.00486$$
 
 Similarly, we get the UCI,
 
-$$UCI_{99\%} = 0.025 + 2.58 \sqrt{\frac{0.025\left(1 - 0.025\right)}{400}} = 0.045.$$
+$$UCI_{99\%} = 0.025 + 2.58 \sqrt{\frac{0.025\left(1 - 0.025\right)}{400}} = 0.0451.$$
 
 Notice that the LCI and UCI differ here by about an order of magnitude (i.e., the UCI is about 10 times higher than the LCI).
 
@@ -204,12 +204,120 @@ In summary, this chapter has focused on what confidence intervals are and how to
 [^24]: You might ask, why are we doing all of this for the binomial distribution? The central limit theorem is supposed to work for the mean of any distribution, so should that not include the distribution of $p$ too? Can we not just indicate success (heads) with a 1 and failures (tails) with a 0, then estimate the standard error of 22 values of 1 and 18 values of 0? Well, yes! That actually does work and gives an estimate of 0.079663, which is very close to the $\sqrt{\hat{p}(1-\hat{p})/N} = 0.078661$. The problem arises when the sample size is low, or when $p$ is close to 0 or 1, and we are trying to map the z score to probability density. For this reason, it is best to stick with $\sqrt{\hat{p}(1-\hat{p})/N}$. There are other methods that attempt to give even better estimates (the one we are using is called the Wald method), but we will not consider these here.
 
 
-
 # The t-interval
 
+[Chapter 14](#Chapter_14) introduced the binomial, Poisson, uniform, and normal distributions.
+In this chapter, we introduce another distribution, the t-distribution.
+Unlike the the distributions of [Chapter 14](#Chapter_14), the t-distribution arises from the need to make accurate statistical inferences, not from any particular kind of data (e.g., successes or failures in a binomial distribution, or events happening over time in a Poisson distribution).
+In [Chapter 17](#Chapter_17), we calculated confidence intervals (CIs) using the normal distribution and z-scores.
+In doing so, we made the assumption that the sample standard deviation ($s$) was the same as the population standard deviation ($\sigma$), $s = \sigma$.
+In other words, we assumed that we knew what $\sigma$ was, which is almost never true.
+For large enough sample sizes (i.e., high $N$), this is not generally a problem, but for lower sample we need to be careful.
 
-What this is and how it relates to the normal distribution, and why it is important.
+If there is a difference between $s$ and $\sigma$, then our CIs will also be wrong.
+More specifically, the uncertainty between our sample estimate ($s$) and the true standard deviation ($\sigma$) is expected to increase the deviation of our sample mean ($\bar{x}$) from the true mean ($\mu$). 
+This means that if we are using the *sample* standard deviation instead of the *population* standard deviation (which is pretty much always), then the shape of the standard normal distribution from [Chapter 17](#Chapter_17) (Figure 17.2) will be wrong.
+The correct shape will be "wider and flatter" [@Sokal1995], with more probability density at the extremes and less in the middle of the distribution [@Box1978].
+What this means is that if we use z-scores when calculating CIs using $s$, our CIS will not be wide enough, and we will think that we have more confidence in the mean than we really do.
+Instead of using the standard normal distribution, we need to use a t-distribution[^25].
 
+The difference between the standard normal distribution and t-distribution depends on our sample size, $N$.
+As $N$ increases, we become more confident that the sample variance will be close to the true population variance (i.e., the deviation of $s^{2}$ from $\sigma^{2}$ decreases).
+At low $N$, our t-distribution is much wider and flatter than the standard normal distribution.
+As $N$ becomes large[^26], the t-distribution becomes basically indistinguishable from the standard normal distribution.
+For calculating CIs from a sample, especially for small sample sizes, it is therefore best to use t-scores instead of z-scores.
+The idea is the same; we are just multiplying the standard errors by a different constant to get our CIs.
+For example, in [Chapter 17](#Chapter_17), we multiplied the standard error of 20 cat masses by $z = 1.96$ because 95\% of the probability density lies between $z = -1.96$ and $z = 1.96$ in the standard normal distribution.
+In truth, we should have multiplied by `r round(qt(p = 0.025, df = 19, lower.tail = TRUE), digits = 3)` because we only had a sample size of $N = 20$.
+Figure 18.1 shows the difference between the standard normal distribution and the more appropriate t-distribution[^27].
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve in which the middle 95 per cent of the distribution is shaded in grey. Overlaid on the grey distribution is another distribution shown in red that is just a bit wider.", fig.cap = "A standard normal probability distribution showing 95 per cent of probability density surrounding the mean (grey). On top of the standard normal distribution in grey, red dotted lines show a t-distribution with 19 degrees of freedom. Red shading shows 95 per cent of the probability density of the t-distribution."}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+xx_vals  <- 3041:6961;
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+     ylab = "Probability",  xlab = "t-score", lwd = 2, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+polygon(c(xx[xx_vals], xx[6961], xx[3041]), 
+        c(pr_norm[xx_vals], 0, 0), col="grey");
+
+yy       <- dt(xx, df = 19);
+xx_vals  <- 2908:7094;
+points(x = xx, y = yy, type = "l", lwd = 2, lty = "dotted", col = "red");
+polygon(c(xx[xx_vals], xx[7094], xx[2908]), border = "red", lty = "dotted",
+        c(yy[xx_vals], 0, 0), col = rgb(1, 0, 0,0.5), lwd = 2);
+points(x = xx, y = yy, type = "l", lwd = 2, lty = "dotted", col = "red");
+points(x = xx, y = pr_norm, type = "l", lwd = 2, col = "black");
+```
+
+Note that in Figure 18.1, a t-distribution with 19 degrees of freedom (df) is shown.
+The t-distribution is parameterised using df, and we lose a degree of freedom when calculating $s^{2}$ from a sample size of $N = 20$, so $df = 20 - 1 = 19$ is the correct value (see [Chapter 12](#Chapter_12) for a brief explanation).
+For calculating CIs, df will always be $N - 1$, and this will be taken care of automatically in statistical programs such as Jamovi and R[^28].
+
+Recall from [Chapter 17](#Chapter_17) that our body mass measurements of 20 cats had a sample mean of $\bar{x} = 4.1$ kg and sample standard deviation of $s = 0.6$ kg. We calculated the lower 95\% CI to be $LCI_{95\%} = 4.041$ and the upper 95\% CI to be $UCI_{95\%} = 4.159$. We can now repeat the calculation using the t-score 2.093 instead of the z-score 1.96.
+Our corrected lower 95\% CI is,
+
+$$LCI_{95\%} = 4.1 - \left(2.093 \times \frac{0.6}{20}\right) = 4.037$$
+
+Our upper 95\% confidence interval is,
+
+$$UCI_{95\%} = 4.1 + \left(2.093 \times \frac{0.6}{20}\right) = 4.163.$$
+
+The confidence intervals have not changed too much.
+By using the t-distribution, the LCI changed from 4.041 to 4.037, and the UCI changed from 4.159 to 4.163.
+In other words, we only needed our CIs to be a bit wider ($4.163 - 4.037 = 0.126$ for the using t-scores versus $4.159-4.041 = 0.118$ using z-scores).
+This is because a sample size of 20 is already large enough for the t-distribution and standard normal distribution to be very similar (Figure 18.1).
+But for lower sample sizes ($N$) and therefore fewer degrees of freedom ($df = N - 1$), the difference between the shapes of these distributions gets more obvious (Figure 18.2).
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve showing the standard normal distribution. Overlaid are lines showing t-distributions with degrees of freedom equaling 20, 10, 5, and 2.", fig.cap = "A t-distribution with infinite degrees of freedom (df) is shown in black; this distribution is identical to the standard normal distribution. Other t-distributions with the same mean and standard deviation, but different degrees of freedom, are indicated by curves of different colours and line types."}
+cbPalett <- c("#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", 
+              "#D55E00", "#CC79A7", "#cc0000", "#000066", "#FF6666", 
+              "#666633", "#b3b3b3");
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+     ylab = "Probability",  xlab = "t-score", lwd = 2, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+yy1      <- dt(xx, df = 20);
+points(x = xx, y = yy1, type = "l", lwd = 2, lty = "dashed", col = cbPalett[1]);
+yy2      <- dt(xx, df = 10);
+points(x = xx, y = yy2, type = "l", lwd = 2, lty = "dotted", col = cbPalett[2]);
+yy2      <- dt(xx, df = 5);
+points(x = xx, y = yy2, type = "l", lwd = 2, lty = "dotdash", 
+       col = cbPalett[3]);
+yy2      <- dt(xx, df = 2);
+points(x = xx, y = yy2, type = "l", lwd = 2, lty = "longdash", 
+       col = cbPalett[4]);
+legend(lty = c("solid", "dashed", "dotted", "dotdash", "longdash"),
+       x = -3, y = 0.47, col = c("black", cbPalett[1:4]), lwd = 2, 
+       legend = c(expression(paste("df = ", infinity)), "df = 20", 
+                "df = 10", "df = 5", "df = 2"));
+```
+
+
+The main point of Figure 18.2 is that as degrees of freedom decreases, the t-distribution becomes wider, with more probability density in the tails.
+Figure 18.2 is quite busy, so we have made an [interactive application](https://bradduthie.shinyapps.io/t_score/) to make visualising the t-distribution easier.
+
+> [Click here](https://bradduthie.shinyapps.io/t_score/) for an interactive application to visualise t-scores
+
+
+Note that t-scores do not need to be used when making binomial confidence intervals.
+Using z-scores is fine.
+
+The t-distribution is important throughout most of the rest of this module. 
+It is not just used for calculating confidence intervals.
+The t-distribution also plays a critical role in hypothesis-testing, which is the subject of [Week 6](#Week_6) and applied throughout the rest of the book.
+The t-distribution is therefore very important for understanding most of the statistical techniques presented in this book.
+
+[^25]: This is also called the "Student's t-distribution". It was originally discovered by the head brewer of Guinness in Dublin in the early 20th century [@Box1978]. The brewer, W. S. Gosset, published under the pseudonym "A. Student" because Guinness had a policy of not allowing employees to publish [@Miller2004].
+
+[^26]: How large N needs to be for the t-distribution to considered close enough to the normal distribution is subjective. The two distributions get closer and closer as $N \to \infty$, but @Sokal1995 suggest that they are indistinguishable for all intents and purposes once $N > 30$. It is always safe to use the t-distribution when calculating confidence intervals, which is what all statistical programs such as Jamovi or R will do by default, so there is no need to worry about these kinds of arbitrary cutoffs in this case.
+
+[^27]: We can define the t-distribution mathematically [@Miller2004], but it is an absolute beast, $$f(t) = \frac{\Gamma\left(\frac{v + 1}{2} \right)}{\sqrt{\pi v} \Gamma{\left(\frac{v}{2}\right)}}\left(1 + \frac{t^{2}}{v} \right)^{-\frac{v + 1}{2}}.$$ In this equation, $v$ is the degrees of freedom. The $\Gamma\left(\right)$ is called a "gamma function", which is basically the equivalent of a factorial function, but for any number z (not just integers), such that $\Gamma(z + 1) = \int_{0}^{\infty}x^{z}e^{-x}dx$ (where $z > -1$, or, even more technically, the real part of $z > -1$). If z is an integer n, then $\Gamma\left({n + 1}\right) = n!$ [@Borowski2005]. What about the rest of the t probability density function? Why is it all so much? The reason is that it is the result of 2 different probability distributions affecting t independently, a standard normal distribution and a Chi-square distribution [@Miller2004]. We will look at the Chi-square in [Week 9](#Week_9). Suffice to say that underlying mathematics of the t-distribution is not important for our purposes in applying statistical techniques.
+
+[^28]: Another interesting caveat, which Jamovi and R will take care of automatically (so we do not actually have to worry about it), is that when we calculate $s^{2}$ to map t-scores to probability densities in the t-distribution, we multiply the sum of squares by $1/N$ instead of $1/(N-1)$ [@Sokal1995]. In other words, we no longer need to correct the sample variance $s^{2}$ to account for bias in estimating $\sigma^{2}$ because the t-distribution takes care of this for us.
 
 
 # _Practical_. z- and t- intervals
