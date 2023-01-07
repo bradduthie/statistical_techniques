@@ -6,12 +6,12 @@
 |-----------------|-----------------------------------|
 | **Dates**       | 20 February 2023 - 24 February 2023 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17-18  |
-|                 | **Recommended:** [INSERT REC]    |
-|                 | **Suggested:**  [INSERT SUGGEST] |
-|                 | **Advanced:** [MORE]
+|                 | **Recommended:** None    |
+|                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
+|                 | **Advanced:** None |
 | **Lectures**    | 5.1: CIs |
 |                 | 5.2: The t-interval |
-| **Practical**   | Title ([Chapter 16](#Chapter_16))       |
+| **Practical**   | z- and t- intervals ([Chapter 19](#Chapter_19))       |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 22 FEB 2023 (WED) 13:05-15:55 |
 |                 |   Group B: 23 FEB 2023 (THU) 09:05-11:55 |
@@ -31,7 +31,7 @@ Week 5 focuses making statistical inferences using confidence intervals (CIs) an
 The aim of this practical is to practice working with intervals and calculating confidence intervals.
 
 
-# Confidence intervals (CIs)
+# Confidence intervals (CIs) {#Chapter_17}
 
 In [Chapter 15](#Chapter_15), we saw how it is possible to calculate the probability of sampling values from a specific interval of the normal distribution (e.g., the probability of sampling a value within 1 standard deviation of the mean).
 In this chapter, we will see how to apply this knowledge to calculating intervals that express confidence in the mean value of a population.
@@ -204,7 +204,7 @@ In summary, this chapter has focused on what confidence intervals are and how to
 [^24]: You might ask, why are we doing all of this for the binomial distribution? The central limit theorem is supposed to work for the mean of any distribution, so should that not include the distribution of $p$ too? Can we not just indicate success (heads) with a 1 and failures (tails) with a 0, then estimate the standard error of 22 values of 1 and 18 values of 0? Well, yes! That actually does work and gives an estimate of 0.079663, which is very close to the $\sqrt{\hat{p}(1-\hat{p})/N} = 0.078661$. The problem arises when the sample size is low, or when $p$ is close to 0 or 1, and we are trying to map the z score to probability density. For this reason, it is best to stick with $\sqrt{\hat{p}(1-\hat{p})/N}$. There are other methods that attempt to give even better estimates (the one we are using is called the Wald method), but we will not consider these here.
 
 
-# The t-interval
+# The t-interval {#Chapter_18}
 
 [Chapter 14](#Chapter_14) introduced the binomial, Poisson, uniform, and normal distributions.
 In this chapter, we introduce another distribution, the t-distribution.
