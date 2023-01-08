@@ -322,15 +322,61 @@ The t-distribution is therefore very important for understanding most of the sta
 
 # _Practical_. z- and t- intervals
 
+This lab focuses on applying the concepts from [Chapter 17](#Chapter_17) and [Chapter 18](#Chapter_18) in Jamovi.
+Specifically, we will practice calculating confidence intervals (CIs).
+There will be 4 exercises focusing on calculating confidence intervals in Jamovi.
+To complete the first 2 exercises, you will need the distrACTION module in Jamovi. 
+We downloaded the distrACTION module in the [Week 4](#Week_4) practical.
+If you need to download it again, the instructions are in [Chapter 16](#Chapter_16) Exercise 16.2.
 
-## Example constructing confidence intervals
+The data for this lab are inspired by ongoing work in the Woodland Creation and Ecological Networks (WrEN) project [@Fuentes-Montemayor2022; @Fuentes-Montemayor2022a]. 
+The Wren project is led by University of Stirling researchers Dr Elisa Fuentes-Montemayor, Dr Robbie Whytock, Dr Kevin Watts, and Prof Kirsty Park ([https://www.wren-project.com/](https://www.wren-project.com/)).
+
+
+```{r, echo = FALSE, fig.alt = "Decorative image showing various pictures from a forest, including a woman doing field work, field equipment, a flower, and a tree.", fig.cap = "Images from the WrEN project led by the University of Stirling", out.width="100%"}
+knitr::include_graphics("img/wren_project.png")
+```
+
+We will use observations of tree diameter at breast height (DBH) and grazing to calculate confidence intervals.
+
+
+## Confidence intervals with distrACTION
+
+1. Download distrACTION module if not already downloaded
+2. Download the WrEN Trees [wren_trees.xlsx](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wren_trees.xlsx) dataset and open in a spreadsheet
+3. Put the WrEN Trees dataset into a tidy format
+4. Calculate the grand mean and standard deviation (for all trees)
+5. Use distrACTION 'Normal Distribution' and Compute quantiles to get 95\% z-scores 
+6. Use distrACTION 't-distribution' and compute quantiles to get 95\% t-scores 
+7. Are these different?
+8. Calculate CIs from the mean, standard error, and z- or t-score.
+9. Reflect on what this means
 
 
 ## Confidence interval for different levels (t- and z-)
 
+1. Now do steps 4-6 for each individual site
+2. Fill in table comparing 95\% CIs using z- and t- for 4 sites
+3. Do the same comparing 99\% CIs
+4. Reflect on the difference in the 4 sites, why?
+
+
+
+## Confidence interval in Descriptives
+
+1. Now get the CIs using Descriptives -> CI for mean
+2. Is Jamovi using z- or t- scores?
+
 
 ## Proportion confidence intervals
 
+1. Download the WrEN Sites [wren_sites.csv](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wren_sites.csv) dataset
+1. Find the number of sites grazed and not grazed
+2. Get the proportional confidence interval (Frequency tables)
+3. Calculate 95\% and 99\% CIs
+
 
 ## Another confidence interval example?
+
+1. Do the same, but split by Woodland
 
