@@ -469,6 +469,54 @@ Some file types such as DOCX are not technically binary files, but a collection 
 Overall, the important point is that saving data in a text file format such as CSV is generally more secure.
 
 
+## Managing data files
+
+Managing data files (or any files) effectively requires some understanding of how files are organised on a computer or cloud storage.
+In mobile phone applications, file organisation is often hidden, so it is not obvious where a file actually goes when it is saved on a device.
+Many people find files in these applications using a search function.
+The ability to search for files like this, or at least the tendency to do so regularly, is actually a relatively new phenomenon.
+And it is an approach to file organisation that does not work quite as well on non-mobile devices (i.e., anything that is not a phone or tablet), especially for big projects.
+On laptop and desktop computers, it is really important to know *where* files are being saved, and to ideally have an organisational system that makes it easy to find specific files without having to use a search tool.
+
+On a computer, files are stored in a series of nested folders.
+You can think of the storage space on a computer, cloud, or network drive, as a big box.
+The big box can contain other smaller boxes (folders, in this analogy), or it can contain items that you need (files, in this analogy).
+Figure 2.5 shows the general idea.
+On this computer, there is a folder called 'brad', which has inside it 5 other folders (Figure 2.5A). 
+Each of the 5 inner folders is used to store more folders and files for a specific module from 2006.
+Clicking on the 'Biostatistics' folder leads to the sub-folders inside it, and to files saved specifically for a biostatistics module (e.g., homework assignments, lecture notes, and an exam review document).
+Files on a computer therefore have a location that we can find using a particular **path**.
+We can write the path name using slashes to indicate nested folders.
+For example, the file 'HW9.scx' in Figure 2.5B would have the path name '/home/brad/Spring_2006/Biostatistics/HW9.scx'.
+Each folder is contained within slashes, and the file name itself is after the last slash.
+
+```{r, echo = FALSE, fig.alt = "Screenshot showing a directory with five folders of various modules names on the left panel. In the right panel, there is a second screenshot showing the inside of one of the four folders with files and other folders.", fig.cap = "File directory of a computer showing (A) the file organisation of modules taken during spring 2006. Within one folder (B), there are multiple sub-folders and files associated with a biostatistics module.", out.width="100%"}
+knitr::include_graphics("img/directory_eg.png")
+```
+
+These path names might look slightly different depending on the computer operating system that you are using.
+But the general idea of files nested within folders is the same. 
+Figure 2.6 shows the same folder 'Spring_2006' saved in a different location, on OneDrive.
+
+```{r, echo = FALSE, fig.alt = "Screenshot showing a OneDrive directory with five folders of various modules names on the left panel.", fig.cap = "OneDrive file directory showing the file organisation of modules taken during spring 2006.", out.width="100%"}
+knitr::include_graphics("img/OneDrive.png")
+```
+
+Windows has the same general file organisation (Figure 2.7).
+Path names for storing files on the hard drive of a Windows computer look something like "C:\\Users\\MyName\\Desktop\\Spring_2006\\Biostatistics\\HW9.scx".
+The 'C:\\' is the root directory of the hard drive; it is called 'C' for historical reasons ('A:\\' and 'B:\\' used to be for floppy disks; the 'A:\\' floppy disks had about 1.44 MB of storage, and 'B:\\' had even less, so these are basically obsolete).
+
+```{r, echo = FALSE, fig.alt = "Screenshot showing a Windows directory with five folders of various modules names on the left panel.", fig.cap = "Windows file directory showing the file organisation of modules taken during spring 2006. In this case, the 'Spring\\_2006' folder is located on the desktop; the path to the folder is visible in the toolbar above the folders.", out.width="100%"}
+knitr::include_graphics("img/directory_windows.png")
+```
+
+The details are not as important as the idea of organising files in a logical way that allows you to know roughly where to find important files on a computer or cloud drive.
+It is usually a good idea to give every unique project or subject (e.g., a university module, a student group, holiday plans, health records) its own folder.
+This makes it much easier to find related files such as datasets, lecture notes, or assignments when necessary.
+It is usually possible to right click somewhere in a directory to create a new folder.
+In Figure 2.7, there is even a 'New folder' button in the toolbar with a yellow folder icon above it.
+It takes some time to organise files this way, and to get used to saving files in specific locations, but it is well worth it in the long-term.
+
 
 # Practical: Preparing data {#Chapter_3}
 

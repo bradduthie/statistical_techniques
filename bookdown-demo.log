@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.27)  14 JAN 2023 22:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  20 JAN 2023 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **bookdown-demo.tex
 (./bookdown-demo.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2022-12-17> (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbook.cls
+L3 programming layer <2023-01-16> (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -223,9 +223,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-12-17 L3 programming layer (loader) 
+Package: expl3 2023-01-16 L3 programming layer (loader) 
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-10-26 L3 backend support: XeTeX
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__graphics_track_int=\count269
 \l__pdf_internal_box=\box55
 \g__pdf_backend_object_int=\count270
@@ -236,9 +236,9 @@ Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2022-12-17 L3 Experimental document command parser
+Package: xparse 2023-01-16 L3 Experimental document command parser
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-12-17 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
@@ -843,35 +843,27 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.66417pt on input line 2.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.47441pt on input line 2.
-
-Underfull \vbox (badness 1173) has occurred while \output is active []
-
 [3]
-Overfull \hbox (1.09497pt too wide) detected at line 64
- []\TU/lmss/bx/n/10.95 101
+Overfull \hbox (1.09497pt too wide) detected at line 65
+ []\TU/lmss/bx/n/10.95 103
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 68
- []\TU/lmss/bx/n/10.95 107
+Overfull \hbox (1.09497pt too wide) detected at line 69
+ []\TU/lmss/bx/n/10.95 109
  []
 
 [4]
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 75.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 76.
 
-Overfull \hbox (1.09497pt too wide) detected at line 75
- []\TU/lmss/bx/n/10.95 119
+Overfull \hbox (1.09497pt too wide) detected at line 76
+ []\TU/lmss/bx/n/10.95 121
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 81
- []\TU/lmss/bx/n/12 131
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 82
- []\TU/lmss/bx/n/10.95 133
+Overfull \hbox (2.82748pt too wide) detected at line 82
+ []\TU/lmss/bx/n/12 133
  []
 
 
@@ -880,23 +872,23 @@ Overfull \hbox (1.09497pt too wide) detected at line 83
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 93
- []\TU/lmss/bx/n/10.95 153
+Overfull \hbox (1.09497pt too wide) detected at line 84
+ []\TU/lmss/bx/n/10.95 137
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 96
- []\TU/lmss/bx/n/10.95 163
+Overfull \hbox (1.09497pt too wide) detected at line 94
+ []\TU/lmss/bx/n/10.95 155
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 100
- []\TU/lmss/bx/n/12 179
+Overfull \hbox (1.09497pt too wide) detected at line 97
+ []\TU/lmss/bx/n/10.95 165
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 101
- []\TU/lmss/bx/n/10.95 181
+Overfull \hbox (2.82748pt too wide) detected at line 101
+ []\TU/lmss/bx/n/12 181
  []
 
 
@@ -905,23 +897,23 @@ Overfull \hbox (1.09497pt too wide) detected at line 102
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 105
- []\TU/lmss/bx/n/10.95 191
+Overfull \hbox (1.09497pt too wide) detected at line 103
+ []\TU/lmss/bx/n/10.95 185
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 106
- []\TU/lmss/bx/n/10.95 197
+ []\TU/lmss/bx/n/10.95 193
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 107
+ []\TU/lmss/bx/n/10.95 199
  []
 
 [5]
-Overfull \hbox (2.82748pt too wide) detected at line 112
- []\TU/lmss/bx/n/12 199
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 113
- []\TU/lmss/bx/n/10.95 201
+Overfull \hbox (2.82748pt too wide) detected at line 113
+ []\TU/lmss/bx/n/12 201
  []
 
 
@@ -980,45 +972,45 @@ Overfull \hbox (1.09497pt too wide) detected at line 124
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 130
- []\TU/lmss/bx/n/12 225
+Overfull \hbox (1.09497pt too wide) detected at line 125
+ []\TU/lmss/bx/n/10.95 225
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 131
- []\TU/lmss/bx/n/10.95 227
+Overfull \hbox (2.82748pt too wide) detected at line 131
+ []\TU/lmss/bx/n/12 227
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 132
+ []\TU/lmss/bx/n/10.95 229
  []
 
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 132.
+(tocbasic)                Reserved number width       = 24.0pt on input line 133.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 132
+Overfull \hbox (3.22801pt too wide) detected at line 133
 \TU/lmss/bx/n/12 VIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 132
- []\TU/lmss/bx/n/12 229
+Overfull \hbox (2.82748pt too wide) detected at line 133
+ []\TU/lmss/bx/n/12 231
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 133
- []\TU/lmss/bx/n/10.95 231
+Overfull \hbox (1.09497pt too wide) detected at line 134
+ []\TU/lmss/bx/n/10.95 233
  []
 
 
 Underfull \vbox (badness 2922) has occurred while \output is active []
 
 [6]
-Overfull \hbox (1.09497pt too wide) detected at line 134
- []\TU/lmss/bx/n/10.95 233
- []
-
-
 Overfull \hbox (1.09497pt too wide) detected at line 135
  []\TU/lmss/bx/n/10.95 235
  []
@@ -1039,13 +1031,13 @@ Overfull \hbox (1.09497pt too wide) detected at line 138
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 143
- []\TU/lmss/bx/n/12 243
+Overfull \hbox (1.09497pt too wide) detected at line 139
+ []\TU/lmss/bx/n/10.95 243
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 144
- []\TU/lmss/bx/n/10.95 245
+Overfull \hbox (2.82748pt too wide) detected at line 144
+ []\TU/lmss/bx/n/12 245
  []
 
 
@@ -1084,13 +1076,13 @@ Overfull \hbox (1.09497pt too wide) detected at line 151
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 156
- []\TU/lmss/bx/n/12 261
+Overfull \hbox (1.09497pt too wide) detected at line 152
+ []\TU/lmss/bx/n/10.95 261
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 157
- []\TU/lmss/bx/n/10.95 263
+Overfull \hbox (2.82748pt too wide) detected at line 157
+ []\TU/lmss/bx/n/12 263
  []
 
 
@@ -1103,12 +1095,12 @@ Overfull \hbox (1.09497pt too wide) detected at line 159
  []\TU/lmss/bx/n/10.95 267
  []
 
-[7]
+
 Overfull \hbox (1.09497pt too wide) detected at line 160
  []\TU/lmss/bx/n/10.95 269
  []
 
-
+[7]
 Overfull \hbox (1.09497pt too wide) detected at line 161
  []\TU/lmss/bx/n/10.95 271
  []
@@ -1119,13 +1111,13 @@ Overfull \hbox (1.09497pt too wide) detected at line 162
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 167
- []\TU/lmss/bx/n/12 275
+Overfull \hbox (1.09497pt too wide) detected at line 163
+ []\TU/lmss/bx/n/10.95 275
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 168
- []\TU/lmss/bx/n/10.95 277
+Overfull \hbox (2.82748pt too wide) detected at line 168
+ []\TU/lmss/bx/n/12 277
  []
 
 
@@ -1154,13 +1146,13 @@ Overfull \hbox (1.09497pt too wide) detected at line 173
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 177
- []\TU/lmss/bx/n/12 289
+Overfull \hbox (1.09497pt too wide) detected at line 174
+ []\TU/lmss/bx/n/10.95 289
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 178
- []\TU/lmss/bx/n/10.95 291
+Overfull \hbox (2.82748pt too wide) detected at line 178
+ []\TU/lmss/bx/n/12 291
  []
 
 
@@ -1184,39 +1176,44 @@ Overfull \hbox (1.09497pt too wide) detected at line 182
  []
 
 
+Overfull \hbox (1.09497pt too wide) detected at line 183
+ []\TU/lmss/bx/n/10.95 301
+ []
+
+
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 186.
+(tocbasic)                Reserved number width       = 24.0pt on input line 187.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 186
+Overfull \hbox (3.22801pt too wide) detected at line 187
 \TU/lmss/bx/n/12 XIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 186
- []\TU/lmss/bx/n/12 301
+Overfull \hbox (2.82748pt too wide) detected at line 187
+ []\TU/lmss/bx/n/12 303
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 187
- []\TU/lmss/bx/n/10.95 303
- []
-
-[8]
 Overfull \hbox (1.09497pt too wide) detected at line 188
  []\TU/lmss/bx/n/10.95 305
  []
 
-
+[8]
 Overfull \hbox (1.09497pt too wide) detected at line 189
  []\TU/lmss/bx/n/10.95 307
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 190
- []\TU/lmss/bx/n/10.95 311
+ []\TU/lmss/bx/n/10.95 309
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 191
+ []\TU/lmss/bx/n/10.95 313
  []
 
 )
@@ -1262,119 +1259,137 @@ File: img/wasp_data_spreadsheet.png Graphic file (type bmp)
 [40] [41]
 File: img/wasp_data_csv.png Graphic file (type bmp)
 <img/wasp_data_csv.png>
-[42] [43] [44
+[42] [43]
+File: img/directory_eg.png Graphic file (type bmp)
+<img/directory_eg.png>
+File: img/OneDrive.png Graphic file (type bmp)
+<img/OneDrive.png>
+
+Underfull \hbox (badness 2302) in paragraph at lines 1144--1147
+\TU/lmr/m/n/10.95 storing files on the hard drive of a Windows computer look something like
+ []
 
 
-]
+Underfull \hbox (badness 3746) in paragraph at lines 1144--1147
+\TU/lmr/m/n/10.95 “C:\Users\MyName\Desktop\Spring_2006\Biostatistics\HW9.scx”. The ‘C:\’ is
+ []
+
+[44]
+File: img/directory_windows.png Graphic file (type bmp)
+<img/directory_windows.png>
+[45] [46]
 chapter 3.
 File: img/Ficus_petiolaris.jpg Graphic file (type bmp)
 <img/Ficus_petiolaris.jpg>
-[45]
+[47
+
+
+]
 File: img/handwritten_data.jpg Graphic file (type bmp)
 <img/handwritten_data.jpg>
-[46]
+[48]
 File: img/Ch1_Ex1a.png Graphic file (type bmp)
 <img/Ch1_Ex1a.png>
 File: img/Ch1_Ex1_seeds1.jpg Graphic file (type bmp)
 <img/Ch1_Ex1_seeds1.jpg>
 File: img/Ch1_Ex1_seeds2.jpg Graphic file (type bmp)
 <img/Ch1_Ex1_seeds2.jpg>
-[47] [48] [49]
+[49] [50] [51]
 File: img/wasp_egg_loads_untidy.png Graphic file (type bmp)
 <img/wasp_egg_loads_untidy.png>
-[50] [51]
-Underfull \hbox (badness 3449) in paragraph at lines 1283--1290
+[52] [53]
+Underfull \hbox (badness 3449) in paragraph at lines 1332--1339
 \TU/lmr/m/n/10.95 Exercise 4 requires some restructuring and calculations. The dataset that
  []
 
 
-Underfull \hbox (badness 3058) in paragraph at lines 1283--1290
+Underfull \hbox (badness 3058) in paragraph at lines 1332--1339
 \TU/lmr/m/n/10.95 will be used in this exercise includes morphological measurements from five
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 1283--1290
+Underfull \hbox (badness 1430) in paragraph at lines 1332--1339
 \TU/lmr/m/n/10.95 species of fig wasps, the same species used in Exercise 2. \TU/lmr/bx/n/10.95 Download this
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 1283--1290
+Underfull \hbox (badness 3386) in paragraph at lines 1332--1339
 \TU/lmr/bx/n/10.95 dataset from the file [][]wasp_morphology_untidy.xlsx[][] (XLSX file) or
  []
 
 File: img/spreadsheet_tabs.png Graphic file (type bmp)
 <img/spreadsheet_tabs.png>
-[52]
+[54]
 File: img/Ch1_Ex3_tidy.png Graphic file (type bmp)
 <img/Ch1_Ex3_tidy.png>
-[53]
+[55]
 File: img/Ch1_Ex3_copy_formula.png Graphic file (type bmp)
 <img/Ch1_Ex3_copy_formula.png>
-[54] [55] [56]
+[56] [57] [58]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 1426.
-[57
+(scrkbase)              on input line 1475.
+[59
 
 
-] [58] [59
+] [60] [61
 
 
-] [60]
+] [62]
 chapter 4.
-[61
+[63
 
 
 ]
 File: img/population_vs_sample.png Graphic file (type bmp)
 <img/population_vs_sample.png>
-[62]
+[64]
 chapter 5.
-[63
-
-
-] [64]
-chapter 6.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 1608.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 1608.
-File: img/accuracy_vs_precision.png Graphic file (type bmp)
-<img/accuracy_vs_precision.png>
 [65
 
 
 ] [66]
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 1671--1672
+chapter 6.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00082pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 1657.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 1657.
+File: img/accuracy_vs_precision.png Graphic file (type bmp)
+<img/accuracy_vs_precision.png>
+[67
+
+
+] [68]
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 1720--1721
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
 
-Overfull \hbox (2.30478pt too wide) in paragraph at lines 1685--1686
+Overfull \hbox (2.30478pt too wide) in paragraph at lines 1734--1735
 []\TU/lmr/bx/n/10.95 Symbol  
  []
 
-[67] [68]
+[69] [70]
 chapter 7.
-[69
+[71
 
 
-] [70] [71] [72
+] [72] [73] [74
 
 
 ]
@@ -1385,538 +1400,538 @@ File: img/jamovi_toolbar.png Graphic file (type bmp)
 <img/jamovi_toolbar.png>
 File: img/open_soil_organic_carbon.png Graphic file (type bmp)
 <img/open_soil_organic_carbon.png>
-[73] [74]
+[75] [76]
 File: img/jamovi_new_variable.png Graphic file (type bmp)
 <img/jamovi_new_variable.png>
 File: img/jamovi_set_variable.png Graphic file (type bmp)
 <img/jamovi_set_variable.png>
 
-Underfull \hbox (badness 1661) in paragraph at lines 1880--1883
+Underfull \hbox (badness 1661) in paragraph at lines 1929--1932
 []\TU/lmr/m/n/10.95 After typing in the new variable ‘soil_type’, add another variable called ‘or-
  []
 
 
 Underfull \vbox (badness 1210) has occurred while \output is active []
 
-[75]
+[77]
 File: img/jamovi_exploration.png Graphic file (type bmp)
 <img/jamovi_exploration.png>
-[76] [77] [78]
+[78] [79] [80]
 File: img/jamovi_transform_fig_length.png Graphic file (type bmp)
 <img/jamovi_transform_fig_length.png>
 File: img/jamovi_transform_cm_to_mm.png Graphic file (type bmp)
 <img/jamovi_transform_cm_to_mm.png>
-[79] [80] [81]
+[81] [82] [83]
 File: img/jamovi_compute_new_variable.png Graphic file (type bmp)
 <img/jamovi_compute_new_variable.png>
-[82]
+[84]
 File: img/export_jamovi.png Graphic file (type bmp)
 <img/export_jamovi.png>
-[83] [84]
+[85] [86]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 2167.
-[85
+(scrkbase)              on input line 2216.
+[87
 
 
-] [86] [87
+] [88] [89
 
 
-] [88]
+] [90]
 chapter 9.
-[89
+[91
 
 
-] [90] [91] [92
+] [92] [93] [94
 
 
 ]
 chapter 10.
-File: bookdown-demo_files/figure-latex/unnamed-chunk-32-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-32-1.pdf>
-[93] [94]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-33-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-33-1.pdf>
-File: bookdown-demo_files/figure-latex/unnamed-chunk-34-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-34-1.pdf>
-[95]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-35-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-35-1.pdf>
+[95] [96]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-36-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-36-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-37-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-37-1.pdf>
-[96] [97] [98] [99] [100
+[97]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-38-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-38-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-39-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-39-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-40-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-40-1.pdf>
+[98] [99] [100] [101] [102
 
 
 ]
 chapter 11.
-File: bookdown-demo_files/figure-latex/unnamed-chunk-38-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-38-1.pdf>
-[101] [102] [103]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-39-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-39-1.pdf>
-[104] [105] [106]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-41-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-41-1.pdf>
+[103] [104] [105]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-42-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-42-1.pdf>
+[106] [107] [108]
 chapter 12.
-[107
+[109
 
 
-] [108] [109] [110] [111] [112] [113] [114] [115] [116] [117] [118
+] [110] [111] [112] [113] [114] [115] [116] [117] [118] [119] [120
 
 
 ]
 chapter 13.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 2962.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 3011.
 Missing character: There is no А (U+0410) in font [lmroman9-regular]:mapping=tex-text;!
 File: img/Nymphaea_alba_pads.jpg Graphic file (type bmp)
 <img/Nymphaea_alba_pads.jpg>
-[119]
+[121]
 File: img/lilypad_tidy.png Graphic file (type bmp)
 <img/lilypad_tidy.png>
-[120] [121]
+[122] [123]
 File: img/lilypad_descriptives.png Graphic file (type bmp)
 <img/lilypad_descriptives.png>
 File: img/lilypad_histogram.png Graphic file (type bmp)
 <img/lilypad_histogram.png>
-[122] [123] [124] [125]
+[124] [125] [126] [127]
 File: img/lilypad_summary_statistics.png Graphic file (type bmp)
 <img/lilypad_summary_statistics.png>
-[126] [127] [128] [129] [130
+[128] [129] [130] [131] [132
 
 
 ]
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 3312.
-[131] [132] [133
+(scrkbase)              on input line 3361.
+[133] [134] [135
 
 
-] [134
+] [136
 
 
 ]
 chapter 14.
-[135] [136]
+[137] [138]
 File: img/coin1_probability.png Graphic file (type bmp)
 <img/coin1_probability.png>
 File: img/coin2_probability.png Graphic file (type bmp)
 <img/coin2_probability.png>
-[137] [138] [139]
+[139] [140] [141]
 File: img/cards.jpg Graphic file (type bmp)
 <img/cards.jpg>
-[140]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-53-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-53-1.pdf>
-File: bookdown-demo_files/figure-latex/unnamed-chunk-54-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-54-1.pdf>
-[141] [142] [143]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-55-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-55-1.pdf>
+[142]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-57-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-57-1.pdf>
+[143] [144] [145]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf>
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 3561.
+(amsmath)                 on input line 3610.
 
-[144] [145]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-56-1.pdf>
 [146] [147]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-57-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-57-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf>
 [148] [149]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf>
-[150] [151] [152
+File: bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf>
+[150] [151]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf>
+[152] [153] [154
 
 
 ]
 chapter 15.
-[153]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf>
-File: bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-60-1.pdf>
-[154]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-61-1.pdf>
+[155]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
+[156]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[155] [156]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
-[157]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[158]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-[159]
+[157] [158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
-[160] [161] [162
+[159]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf>
+[160]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
+[161]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
+[162] [163] [164
 
 
 ]
 chapter 16.
 File: img/power_up.png Graphic file (type bmp)
 <img/power_up.png>
-[163]
+[165]
 File: img/jamovi_power_up_frequencies.png Graphic file (type bmp)
 <img/jamovi_power_up_frequencies.png>
-[164] [165]
+[166] [167]
 File: img/jamovi_power_up_frequencies2.png Graphic file (type bmp)
 <img/jamovi_power_up_frequencies2.png>
-[166]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-69-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-69-1.pdf>
-[167]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-70-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-70-1.pdf>
-[168] [169]
+[168]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-72-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-72-1.pdf>
+[169]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-73-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-73-1.pdf>
+[170] [171]
 File: img/jamovi_toolbar_modules.png Graphic file (type bmp)
 <img/jamovi_toolbar_modules.png>
 File: img/jamovi_toolbar_modules_distrACTION.png Graphic file (type bmp)
 <img/jamovi_toolbar_modules_distrACTION.png>
 File: img/jamovi_normal_distribution.png Graphic file (type bmp)
 <img/jamovi_normal_distribution.png>
-[170] [171] [172]
+[172] [173] [174]
 File: img/jamovi_RjEditor.png Graphic file (type bmp)
 <img/jamovi_RjEditor.png>
-[173] [174] [175]
+[175] [176] [177]
 File: img/jamovi_clt.png Graphic file (type bmp)
 <img/jamovi_clt.png>
-[176] [177] [178
+[178] [179] [180
 
 
 ]
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4317.
-[179] [180] [181
+(scrkbase)              on input line 4366.
+[181] [182] [183
 
 
-] [182
+] [184
 
 
 ]
 chapter 17.
 File: img/housecats.png Graphic file (type bmp)
 <img/housecats.png>
-[183] [184]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-80-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-80-1.pdf>
-[185] [186] [187] [188] [189] [190
+[185] [186]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-83-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-83-1.pdf>
+[187] [188] [189] [190] [191] [192
 
 
 ]
 chapter 18.
-[191]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-81-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-81-1.pdf>
-[192] [193]
-File: bookdown-demo_files/figure-latex/unnamed-chunk-82-1.pdf Graphic file (type pdf)
-<use bookdown-demo_files/figure-latex/unnamed-chunk-82-1.pdf>
-[194] [195] [196
+[193]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-84-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-84-1.pdf>
+[194] [195]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-85-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-85-1.pdf>
+[196] [197] [198
 
 
 ]
 chapter 19.
 File: img/wren_project.png Graphic file (type bmp)
 <img/wren_project.png>
-[197] [198]
+[199] [200]
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4678.
-[199
+(scrkbase)              on input line 4727.
+[201
 
 
-] [200] [201
+] [202] [203
 
 
-] [202
+] [204
 
 
 ]
 chapter 20.
-[203] [204
-
-
-]
-chapter 21.
 [205] [206
 
 
 ]
-chapter 22.
+chapter 21.
 [207] [208
 
 
 ]
-chapter 23.
+chapter 22.
 [209] [210
 
 
 ]
-chapter 24.
+chapter 23.
 [211] [212
 
 
 ]
-chapter 25.
+chapter 24.
 [213] [214
 
 
 ]
-chapter 26.
+chapter 25.
 [215] [216
 
 
 ]
-chapter 27.
+chapter 26.
 [217] [218
 
 
 ]
-chapter 28.
+chapter 27.
 [219] [220
 
 
 ]
-chapter 29.
+chapter 28.
 [221] [222
 
 
 ]
-chapter 30.
+chapter 29.
 [223] [224
+
+
+]
+chapter 30.
+[225] [226
 
 
 ]
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4761.
-[225] [226] [227
+(scrkbase)              on input line 4810.
+[227] [228] [229
 
 
-] [228
+] [230
 
 
 ]
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4770.
-[229] [230] [231
+(scrkbase)              on input line 4819.
+[231] [232] [233
 
 
-] [232
+] [234
 
 
 ]
 chapter 31.
-[233] [234
-
-
-]
-chapter 32.
 [235] [236
 
 
 ]
-chapter 33.
+chapter 32.
 [237] [238
 
 
 ]
-chapter 34.
+chapter 33.
 [239] [240
 
 
 ]
-chapter 35.
+chapter 34.
 [241] [242
+
+
+]
+chapter 35.
+[243] [244
 
 
 ]
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4820.
-[243] [244] [245
+(scrkbase)              on input line 4869.
+[245] [246] [247
 
 
-] [246
+] [248
 
 
 ]
 chapter 36.
-[247] [248
-
-
-]
-chapter 37.
 [249] [250
 
 
 ]
-chapter 38.
+chapter 37.
 [251] [252
 
 
 ]
-chapter 39.
+chapter 38.
 [253] [254
 
 
 ]
-chapter 40.
+chapter 39.
 [255] [256
 
 
 ]
-chapter 41.
+chapter 40.
 [257] [258
 
 
 ]
-chapter 42.
+chapter 41.
 [259] [260
+
+
+]
+chapter 42.
+[261] [262
 
 
 ]
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4874.
-[261] [262] [263
+(scrkbase)              on input line 4923.
+[263] [264] [265
 
 
-] [264
+] [266
 
 
 ]
 chapter 43.
-[265] [266
-
-
-]
-chapter 44.
 [267] [268
 
 
 ]
-chapter 45.
+chapter 44.
 [269] [270
 
 
 ]
-chapter 46.
+chapter 45.
 [271] [272
 
 
 ]
-chapter 47.
+chapter 46.
 [273] [274
+
+
+]
+chapter 47.
+[275] [276
 
 
 ]
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4918.
-[275] [276] [277
+(scrkbase)              on input line 4967.
+[277] [278] [279
 
 
-] [278
+] [280
 
 
 ]
 chapter 48.
-[279] [280
-
-
-]
-chapter 49.
 [281] [282
 
 
 ]
-chapter 50.
+chapter 49.
 [283] [284
 
 
 ]
-chapter 51.
+chapter 50.
 [285] [286
 
 
 ]
-chapter 52.
+chapter 51.
 [287] [288
+
+
+]
+chapter 52.
+[289] [290
 
 
 ]
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4963.
-[289] [290] [291
+(scrkbase)              on input line 5012.
+[291] [292] [293
 
 
-] [292
+] [294
 
 
 ]
 chapter 53.
-[293] [294
-
-
-]
-chapter 54.
 [295] [296
 
 
 ]
-chapter 55.
+chapter 54.
 [297] [298
 
 
 ]
-chapter 56.
+chapter 55.
 [299] [300
+
+
+]
+chapter 56.
+[301] [302
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5003.
-[301] [302] [303
+(scrkbase)              on input line 5052.
+[303] [304] [305
 
 
-] [304
+] [306
 
 
 ]
 chapter A.
-[305] [306]
+[307] [308]
 chapter B.
-[307
+[309
 
 
-] [308] [309] [310]
+] [310] [311] [312]
 chapter C.
-(./bookdown-demo.bbl [311
+(./bookdown-demo.bbl [313
 
 
-] [312
+] [314
 
 
 ]
@@ -1924,14 +1939,14 @@ Underfull \hbox (badness 1152) in paragraph at lines 46--51
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[313] [314] [315]) [316] (./bookdown-demo.aux) ) 
+[315] [316] [317]) [318] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 23061 strings out of 478777
- 458487 string characters out of 5850853
- 1869979 words of memory out of 5000000
- 42704 multiletter control sequences out of 15000+600000
+ 23120 strings out of 478775
+ 459916 string characters out of 5850811
+ 1869991 words of memory out of 5000000
+ 42762 multiletter control sequences out of 15000+600000
  521711 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,9n,121p,10636b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (316 pages).
+Output written on bookdown-demo.pdf (318 pages).

@@ -319,7 +319,7 @@ This practical focuses on learning how to work with datasets in Jamovi.
 Jamovi is available in the university laboratory computers through AppsAnywhere.
 You can also [download it](https://www.jamovi.org/download.html) on your own computer for free or run it directly [from a browser](https://www.jamovi.org/cloud.html).
 For an introduction to what Jamovi is and why we are using it in this module, see the introduction of this workbook and [Sections 3.3](https://davidfoxcroft.github.io/lsj-book/03-Getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/03-Getting-started-with-jamovi.html#summary) of @Navarro2022.
-In this module, we will work with two datasets, both of which are based on real biological and environmental studies conducted by researchers at the University of Stirling.
+In this practical, we will work with two datasets, both of which are based on real biological and environmental studies conducted by researchers at the University of Stirling.
 
 The first dataset includes measurements of soil organic carbon (grams of Carbon per kg of soil) from the topsoil and subsoil collected in a national park in Gabon.
 These data were collected by Dr Carmen Rosa Medina-Carmona in an effort to understand how [pyrogenic carbon](https://bg.copernicus.org/articles/3/397/2006/bg-3-397-2006.pdf) (i.e., carbon produced by the charring of biomass during a fire) is stored in different landscape areas [@Santin2016; @Preston2006].
@@ -365,7 +365,7 @@ The first column will show soil organic carbon values for topsoil samples, and t
 These data are not formatted in a tidy way.
 We need to fix this so that each row is a unique observation and each column is a variable (see [Chapter 2](#Chapter_2)).
 It might be easiest to reorganise the data in a spreadsheet such as LibreOffice Calc or Microsoft Excel.
-But you can also edit the data directly in Jamovi by clicking on the 'Data' tab in the toolbar (see Figure 8.2).
+But you can also edit the data directly in Jamovi by clicking on the 'Data' tab in the toolbar (see Figures 8.2 and 8.4).
 The best way to reorganise the data in Jamovi is to double-click on the third column of data next to 'subsoil' (see Figure 8.4).
 
 ```{r, echo = FALSE, fig.alt = "The Jamovi toolbar is shown with data columns for topsoil and subsoil. In the third column from the right, there is text that says 'Click Here' in red.", fig.cap = "The Jamovi toolbar is shown with the soil organic carbon dataset. In Jamovi, double-clicking above column three where it says 'CLICK HERE' will allow you to input a new variable.", out.width="100%"}
