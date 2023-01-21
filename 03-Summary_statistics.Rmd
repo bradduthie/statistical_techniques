@@ -995,7 +995,6 @@ To calculate all of the variables explained in [Chapter 11](#Chapter_11) and [Ch
 - N: _______________________
 - Std. deviation: _______________________
 - Variance: _______________________
-- Range: _______________________
 - Minimum: _______________________
 - Maximum: _______________________
 - Range: _______________________
@@ -1024,11 +1023,11 @@ Site: ______________________________
 Mean: ______________________________
 
 
-Which of the 7 sites has the lowest variation in petiole diameter, and what is its variation?
+Which of the 7 sites has the lowest variance in petiole diameter, and what is its variance?
 
 Site:      ______________________________ 
 
-Variation: ______________________________
+Variance: ______________________________
 
 
 Make sure that you are able to find and interpret these summary statistics in Jamovi.
@@ -1062,7 +1061,6 @@ In assessments, you will often be asked to report a particular answer to a speci
 - N: _______________________
 - Std. deviation: _______________________
 - Variance: _______________________
-- Range: _______________________
 - Minimum: _______________________
 - Maximum: _______________________
 - Range: _______________________

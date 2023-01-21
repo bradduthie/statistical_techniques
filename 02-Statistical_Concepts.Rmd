@@ -434,11 +434,11 @@ Topsoil Maximum:  ____________________________
 
 Next, do the same for the mean, minimum, and maximum subsoil values.
 
-Topsoil Mean:  ____________________________
+Subsoil Mean:  ____________________________
 
-Topsoil Minimum:  ____________________________
+Subsoil Minimum:  ____________________________
 
-Topsoil Maximum:  ____________________________
+Subsoil Maximum:  ____________________________
 
 
 From the values above, the mean of organic carbon sampled from the topsoil appears to be greater than the mean of organic carbon sampled from the subsoil.
@@ -589,7 +589,7 @@ We could therefore rewrite the equation above,
 $$V = \frac{4}{3} \times 3.14 \times r \times r \times r.$$
 
 This is the formula that we can use to create our new column of data for fig volume.
-To do this, click on the first empty column of the dataset, just to the right of the 'Seeds' column header.
+To do this, double-click on the first empty column of the dataset, just to the right of the 'Seeds' column header.
 You will see a pull down option in Jamovi with 3 options, one of which is 'NEW COMPUTED VARIABLE'.
 This is the option that we want.
 We need to name this new variable, so we can call it 'fig_volume'.
