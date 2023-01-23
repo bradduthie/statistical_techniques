@@ -15,12 +15,11 @@ output:
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Suggested:** @Rowntree2018 Chapter 2 |
 |                 | **Advanced:** None
-| **Lectures**    | 2.0: Introduction to Week 2 (2 min.) |
-|                 | 2.1: Why study statistics? (18 min.) |
-|                 | 2.2: Populations and samples (7 min.) |
-|                 | 2.3: Types of variables (11 min.) |
-|                 | 2.4: Units, precision, and accuracy (9 min.) |
-|                 | 2.5. Uncertainty propagation (11 min.) |
+| **Lectures**    | 2.0: Why study statistics? (18:13 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d251ac5-f4a3-4b06-bf15-af8200d91518)) |
+|                 | 2.1: Populations and samples (6:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b248a69a-8831-4098-94ce-af8200d91544)) |
+|                 | 2.2: Types of variables (11:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b7016026-20c8-4237-afba-af8200d915b5)) |
+|                 | 2.3: Units, precision, and accuracy (9:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4a9915ad-bfe9-4f1a-928c-af8200d915d8)) |
+|                 | 2.4: Uncertainty propagation (11:44 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4d913c54-8b80-487c-9632-af8200d91630)) |
 | **Practical**   | Introduction to Jamovi ([Chapter 8](#Chapter_8))        |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 01 FEB 2023 (WED) 13:05-15:55 |
