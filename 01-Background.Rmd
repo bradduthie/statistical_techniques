@@ -628,7 +628,7 @@ This will ensure that you always know where your data files are located and can 
 Exercise 2 is more self-guided than Exercise 1.
 After reading [Chapter 2](#Chapter_2) and completing Exercise 1, you should have a bit more confidence in organising data in a tidy format.
 Here we will work with a dataset that includes counts of the number of eggs collected from fig wasps, which are small species of insects that lay their eggs into the ovules of fig flowers [@Weiblen2002].
-You can **download the dataset [here](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wasp_egg_loads_untidy.csv)**, or recreate it from Figure 3.6.
+You can **download the dataset [here](https://github.com/bradduthie/SCIU4T4/blob/main/data/wasp_egg_loads_untidy.xlsx?raw=true)**, or recreate it from Figure 3.6.
 
 ```{r, echo = FALSE, fig.alt = "A screenshot of a spreadsheet that includes 5 columns of labels, below which there are integer numbers. Some text specifies that these numbers are wasp species egg loads.", fig.cap = "An untidy dataset of egg loads from fig wasps of five different species, including two unnamed species of the genus *Heterandrium* (Het1 and Het2) and three unnamed species of the genus *Idarnes* (LO1, SO1, and SO2).", out.width="100%"}
 knitr::include_graphics("img/wasp_egg_loads_untidy.png");
@@ -671,7 +671,7 @@ As with Exercise 2, it might be good to confer with classmates and an instructor
 
 Exercise 4 requires some restructuring and calculations.
 The dataset that will be used in this exercise includes morphological measurements from five species of fig wasps, the same species used in Exercise 2.
-**Download this dataset from the file [wasp_morphology_untidy.xlsx](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wasp_morphology_untidy.xlsx) (XLSX file) or [wasp_morphology_untidy.ods](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wasp_morphology_untidy.ods) (ODS open-source file).**
+**Download this dataset from the file [wasp_morphology_untidy.xlsx](https://github.com/bradduthie/SCIU4T4/blob/main/data/wasp_morphology_untidy.xlsx?raw=true) (XLSX file) or [wasp_morphology_untidy.ods](https://github.com/bradduthie/SCIU4T4/blob/main/data/wasp_morphology_untidy.ods?raw=true) (ODS open-source file).**
 Both files contain identical information, so which one you use is a matter of personal preference.
 This dataset is about as untidy as it gets. 
 First note that there are multiple sheets in the spreadsheet, which is not allowed in a tidy CSV file.

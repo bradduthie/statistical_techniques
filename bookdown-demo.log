@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  22 JAN 2023 17:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  23 JAN 2023 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1403,6 +1403,7 @@ File: img/open_soil_organic_carbon.png Graphic file (type bmp)
 [75] [76]
 File: img/jamovi_new_variable.png Graphic file (type bmp)
 <img/jamovi_new_variable.png>
+[77]
 File: img/jamovi_set_variable.png Graphic file (type bmp)
 <img/jamovi_set_variable.png>
 
@@ -1410,24 +1411,21 @@ Underfull \hbox (badness 1661) in paragraph at lines 1930--1933
 []\TU/lmr/m/n/10.95 After typing in the new variable ‘soil_type’, add another variable called ‘or-
  []
 
-
-Underfull \vbox (badness 1210) has occurred while \output is active []
-
-[77]
 File: img/jamovi_exploration.png Graphic file (type bmp)
 <img/jamovi_exploration.png>
 [78] [79] [80]
 File: img/jamovi_transform_fig_length.png Graphic file (type bmp)
 <img/jamovi_transform_fig_length.png>
+[81]
 File: img/jamovi_transform_cm_to_mm.png Graphic file (type bmp)
 <img/jamovi_transform_cm_to_mm.png>
-[81] [82] [83]
+[82] [83]
 File: img/jamovi_compute_new_variable.png Graphic file (type bmp)
 <img/jamovi_compute_new_variable.png>
-[84]
+[84] [85]
 File: img/export_jamovi.png Graphic file (type bmp)
 <img/export_jamovi.png>
-[85] [86]
+[86]
 part III.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
@@ -1554,13 +1552,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[156]
+[156] [157]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[157] [158]
+[158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [159]
@@ -1569,10 +1564,9 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [160]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
-[161]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[162] [163] [164
+[161] [162] [163] [164
 
 
 ]

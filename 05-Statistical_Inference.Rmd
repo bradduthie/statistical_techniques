@@ -370,7 +370,7 @@ We will use observations of tree diameter at breast height (DBH) and grazing to 
 
 ## Proportion confidence intervals
 
-1. Download the WrEN Sites [wren_sites.csv](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wren_sites.csv) dataset
+1. Download the WrEN Sites [wren_sites.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/wren_sites.csv) dataset (right click and "Save Link As...")
 1. Find the number of sites grazed and not grazed
 2. Get the proportional confidence interval (Frequency tables)
 3. Calculate 95\% and 99\% CIs
