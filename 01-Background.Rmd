@@ -347,7 +347,7 @@ $$x = \frac{\left(2^{2} + 1\right)}{\left(3^{2} + 2\right)} = \frac{\left(4 + 1\
 Similarly, anything under the $\sqrt{}$ can be interpreted as being within parentheses.
 For example,
 
-$$x = \sqrt{3 + 4^{2}} = \sqrt{\left(3 + 4^{2} \right)} \approx 3.59.$$
+$$x = \sqrt{3 + 4^{2}} = \sqrt{\left(3 + 4^{2} \right)} \approx 4.47.$$
 
 This can take some getting used to, but with practice, it will become second nature to read equations with the correct order of operations.
 
