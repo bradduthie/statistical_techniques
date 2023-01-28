@@ -276,7 +276,7 @@ $$E_{Z} = \sqrt{E^{2}_{X} + E^{2}_{Y}}.$$
 
 Hence, for the egg masses, the error of the combined masses ($E^{2}_{Z}$) equals the square root of the error associated with the mass of egg 1 squared ($E^{2}_{X}$) plus the error associated with the mass of egg 2 squared ($E^{2}_{Y}$).
 It often helps to provide a concrete example. 
-If the error associated with the measurement of egg 1 is $E^{2}_{X} = 2$, and the error associated with the measurement of egg 2 is $E^{2}_{X} = 3$, then we can calculate,
+If the error associated with the measurement of egg 1 is $E^{2}_{X} = 2$, and the error associated with the measurement of egg 2 is $E^{2}_{Y} = 3$, then we can calculate,
 
 $$E_{Z} = \sqrt{2^{2} + 3^{2}} \approx 3.61.$$
 
@@ -294,7 +294,7 @@ $$E_{A} = A \sqrt{\left(\frac{E_{L}}{L} \right)^{2} + \left(\frac{E_{W}}{W} \rig
 Notice that just knowing the error of each measurement ($E_{L}$ and $E_{W}$) is no longer sufficient to calculate the error associated with the measurement of the total area.
 We also need to know $L$, $W$, and $A$.
 If our field has a length of $L = 20$ m and width of $W = 10$ m, then $A = 20 \times 10 = 200\:m^{2}$. 
-If length and width measurements have associated errors of $E_{L} = 2$ m $E_{W} = 1$ m, then,
+If length and width measurements have associated errors of $E_{L} = 2$ m and $E_{W} = 1$ m, then,
 
 $$E_{A} = 200 \sqrt{\left(\frac{2}{20} \right)^{2} + \left(\frac{1}{10} \right)^{2}} \approx 28.3\:m^{2}.$$
 
