@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 # (PART) Statistical concepts {-}
@@ -258,7 +258,7 @@ Measurement precision can be estimated by replicating a measurement (i.e., takin
 The more replicate measurements made, the more precisely a value can be estimated. 
 For example, if we wanted to evaluate the precision with which the mass of an object is measured, then we might repeat the measurement with the same scale multiple times and see how much mass changes across different measurements.
 To evaluate measurement accuracy, we might need to measure a value in multiple different ways (e.g., with different measuring devices).
-For example, we might repeat the measurement of an object's mass with a different scale.
+For example, we might repeat the measurement of an object's mass with a different scale  (i.e., a different physical scale used for measuring the mass of objects).
 
 Sometimes it is necessary to combine different measured values.
 For example, we might measure the mass of 2 different bird eggs in a nest separately, then calculate the total mass of both the 2 eggs combined.

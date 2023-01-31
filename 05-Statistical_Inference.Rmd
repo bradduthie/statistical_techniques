@@ -327,25 +327,50 @@ Specifically, we will practice calculating confidence intervals (CIs).
 There will be 4 exercises focusing on calculating confidence intervals in Jamovi.
 To complete the first 2 exercises, you will need the distrACTION module in Jamovi. 
 We downloaded the distrACTION module in the [Week 4](#Week_4) practical.
-If you need to download it again, the instructions are in [Chapter 16](#Chapter_16) Exercise 16.2.
+If you need to download it again, the instructions to do this are in [Chapter 16](#Chapter_16) [Exercise 16.2](https://bradduthie.github.io/SCIU4T4/Chapter_16.html#probabilities-from-a-normal-distribution) (briefly, go to the Modules option and select 'jamovi library', then scroll down until you find the 'distraACTION' module).
 
 The data for this lab are inspired by ongoing work in the Woodland Creation and Ecological Networks (WrEN) project [@Fuentes-Montemayor2022; @Fuentes-Montemayor2022a]. 
 The Wren project is led by University of Stirling researchers Dr Elisa Fuentes-Montemayor, Dr Robbie Whytock, Dr Kevin Watts, and Prof Kirsty Park ([https://www.wren-project.com/](https://www.wren-project.com/)).
+It focuses on questions about what kinds of conservation actions should be prioritised to restore degraded ecological networks.
 
 
 ```{r, echo = FALSE, fig.alt = "Decorative image showing various pictures from a forest, including a woman doing field work, field equipment, a flower, and a tree.", fig.cap = "Images from the WrEN project led by the University of Stirling", out.width="100%"}
 knitr::include_graphics("img/wren_project.png")
 ```
 
-We will use observations of tree diameter at breast height (DBH) and grazing to calculate confidence intervals.
+The WrEN project encompasses a huge amount of work and data collection from hundreds of surveyed secondary or ancient woodland sites.
+Here we will focus on observations of tree diameter at breast height (DBH) and grazing to calculate confidence intervals.
 
 
 ## Confidence intervals with distrACTION
 
-1. Download distrACTION module if not already downloaded
-2. Download the WrEN Trees [wren_trees.xlsx](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wren_trees.xlsx) dataset and open in a spreadsheet
-3. Put the WrEN Trees dataset into a tidy format
-4. Calculate the grand mean and standard deviation (for all trees)
+First, it is important to downlaod the disrACTION module if it has not been downloaded already.
+If the distrACTION module has already been downloaded, it should appear in the toolbar of Jamovi (Figure 19.2)
+If it has not been downloaded, then see the instructions for downloading it with the 'Modules' option (see Figure 19.2) in [Exercise 16.2](https://bradduthie.github.io/SCIU4T4/Chapter_16.html#probabilities-from-a-normal-distribution).
+
+```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown, which includes an option on the far right hand side called 'modules' and a button called distrACTION.", fig.cap = "Jamovi tool bar, which includes an added module called distrACTION.", out.width="100%"}
+knitr::include_graphics("img/jamovi_toolbar_modules_distrACTION.png")
+```
+
+Once the distrACTION module has been made available, download the WrEN trees dataset [wren_trees.xlsx](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wren_trees.xlsx) dataset and open in a spreadsheet.
+Notice that the dataset is not in a tidy format.
+There are 4 different sites represented by different columns in the dataset.
+The numbers under each column are measurements of tree diameter at breast height (DBH) in centimeteres.
+Before doing anything else, it is therefore necessary to put the WrEN dataset into a tidy format.
+The tidy dataset should include two columns, one for site and the other for DBH.
+
+Once the WrEN trees dataset has been reorganised into a tidy format, save it as a CSV file and open it in Jamovi.
+In Jamovi, calculate the grand mean and standard deviation of trees (i.e., the mean and standard deviatio of trees across all sites).
+
+Grand Mean: ____________________________________
+
+Grand Standard Deviation: _____________________
+
+
+We will use this mean and standard deviation to compute quantiles and obtain 95\% z-scores.
+
+
+
 5. Use distrACTION 'Normal Distribution' and Compute quantiles to get 95\% z-scores 
 6. Use distrACTION 't-distribution' and compute quantiles to get 95\% t-scores 
 7. Are these different?
