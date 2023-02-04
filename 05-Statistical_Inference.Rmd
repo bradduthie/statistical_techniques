@@ -360,7 +360,23 @@ Before doing anything else, it is therefore necessary to put the WrEN dataset in
 The tidy dataset should include two columns, one for site and the other for DBH.
 
 Once the WrEN trees dataset has been reorganised into a tidy format, save it as a CSV file and open it in Jamovi.
-In Jamovi, calculate the grand mean and standard deviation of trees (i.e., the mean and standard deviatio of trees across all sites).
+In Jamovi, go to Exploration and Descriptives in the toolbar and build a histogram that shows the distribution of DBH. 
+Do these data appear to be roughly normal?
+Why or why not?
+
+```
+
+
+
+
+
+
+
+
+```
+
+
+Next, calculate the grand mean and standard deviation of tree DBH (i.e., the mean and standard deviation of trees across all sites).
 
 Grand Mean: ____________________________________
 
@@ -368,7 +384,26 @@ Grand Standard Deviation: _____________________
 
 
 We will use this mean and standard deviation to compute quantiles and obtain 95\% z-scores.
+First, click on the distrACTION icon in the toolbar (see Figure 19.2).
+From the distrACTION pulldown menu, select 'Normal Distribution'.
+To the left, you should see boxes to input parameter values for the mean and standard deviation (SD).
+Below the Parameters options, you should also see different functions for computing probability or quantiles.
+To the right, you should see a standard normal distribution (i.e., a normal distribution with a mean of 0 and a standard deviation of 1).
 
+For this exercise, we will assume that the population of DBH from which our sample came is normally distributed. 
+In other words, if we somehow had access to *all possible* DBH measurements in the woodland sites (not just the 122 trees sampled), we assume that DBH would be normally distributed.
+To find the probability of sampling a tree within a given interval of DBH (e.g., greater than 30), we therefore need to build this distribution with the correct mean and standard deviation.
+We do not know the *true* mean ($\mu$) and standard deviation ($\sigma$) of the population, but our best estimate of these values are the mean ($\bar{x}$}) and standard deviation ($s$) of the sample, as reported above (i.e., the grand mean and standard deviation). 
+Using the Mean and SD parameter input boxes in distrACTION, we can build a normal distribution with the same mean and standard deviation as our sample.
+Do this now by inputting the calculated Grand Mean and Grand Standard Deviation from above in the appropriate boxes.
+Note that the normal distribution on the right has the same shape, but the table of parameters has been updated to reflect the mean mean and standard deviation.
+
+
+
+
+```{r, echo = FALSE, fig.alt = "Jamovi window with the central limit theorem (CLT) module open and boxes for changing the distribution, sample size, and trial number", fig.cap = "Jamovi interface for the 'Demonstrations' module, which allows users to randomly generate data from a specific source distribution (normal, uniform, geometric, lognormal, and binary), sample size, and number of trials (i.e., variables)", out.width="100%"}
+knitr::include_graphics("img/jamovi_distrACTION_demonstration.png")
+```
 
 
 5. Use distrACTION 'Normal Distribution' and Compute quantiles to get 95\% z-scores 

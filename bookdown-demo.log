@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  4 FEB 2023 15:17
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  4 FEB 2023 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1552,13 +1552,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[156]
+[156] [157]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[157] [158]
+[158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [159]
@@ -1567,10 +1564,9 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [160]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
-[161]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[162] [163] [164
+[161] [162] [163] [164
 
 
 ]
@@ -1580,7 +1576,12 @@ File: img/power_up.png Graphic file (type bmp)
 [165]
 File: img/jamovi_power_up_frequencies.png Graphic file (type bmp)
 <img/jamovi_power_up_frequencies.png>
-[166] [167]
+[166]
+Overfull \hbox (99.82118pt too wide) in paragraph at lines 3955--3956
+[]$[][][][][][][][] [] [] [][][][][][] [][][][][][] [] []  [][][][][][][] [][][][][][] [] [] [][][][][][] []$ \TU/lmr/m/n/10.95 __________________________ 
+ []
+
+[167]
 File: img/jamovi_power_up_frequencies2.png Graphic file (type bmp)
 <img/jamovi_power_up_frequencies2.png>
 [168]
@@ -1647,15 +1648,18 @@ Underfull \vbox (badness 1546) has occurred while \output is active []
 [199]
 File: img/jamovi_toolbar_modules_distrACTION.png Graphic file (type bmp)
 <img/jamovi_toolbar_modules_distrACTION.png>
-[200] [201] [202
-
-
-]
+[200]
+File: img/jamovi_distrACTION_demonstration.png Graphic file (type bmp)
+<img/jamovi_distrACTION_demonstration.png>
+[201] [202]
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4746.
-[203] [204] [205
+(scrkbase)              on input line 4776.
+[203
+
+
+] [204] [205
 
 
 ] [206
@@ -1720,7 +1724,7 @@ chapter 30.
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4829.
+(scrkbase)              on input line 4859.
 [229] [230] [231
 
 
@@ -1731,7 +1735,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4838.
+(scrkbase)              on input line 4868.
 [233] [234] [235
 
 
@@ -1767,7 +1771,7 @@ chapter 35.
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4888.
+(scrkbase)              on input line 4918.
 [247] [248] [249
 
 
@@ -1813,7 +1817,7 @@ chapter 42.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4942.
+(scrkbase)              on input line 4972.
 [265] [266] [267
 
 
@@ -1849,7 +1853,7 @@ chapter 47.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4986.
+(scrkbase)              on input line 5016.
 [279] [280] [281
 
 
@@ -1885,7 +1889,7 @@ chapter 52.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5031.
+(scrkbase)              on input line 5061.
 [293] [294] [295
 
 
@@ -1916,7 +1920,7 @@ chapter 56.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5071.
+(scrkbase)              on input line 5101.
 [305] [306] [307
 
 
@@ -1945,10 +1949,10 @@ Underfull \hbox (badness 1152) in paragraph at lines 46--51
 
 [317] [318] [319]) [320] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 23121 strings out of 478775
- 459938 string characters out of 5850811
+ 23140 strings out of 478775
+ 460759 string characters out of 5850811
  1869991 words of memory out of 5000000
- 42763 multiletter control sequences out of 15000+600000
+ 42781 multiletter control sequences out of 15000+600000
  521711 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,9n,121p,10636b,515s stack positions out of 10000i,1000n,20000p,200000b,200000s
