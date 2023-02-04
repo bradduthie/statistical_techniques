@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  1 FEB 2023 22:22
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  4 FEB 2023 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1481,7 +1481,7 @@ chapter 12.
 ]
 chapter 13.
 LaTeX Font Info:    Font shape `TU/lmss/bx/it' in size <20.74> not available
-(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 3011.
+(Font)              Font shape `TU/lmss/bx/sl' tried instead on input line 3015.
 Missing character: There is no А (U+0410) in font [lmroman9-regular]:mapping=tex-text;!
 File: img/Nymphaea_alba_pads.jpg Graphic file (type bmp)
 <img/Nymphaea_alba_pads.jpg>
@@ -1503,7 +1503,7 @@ File: img/lilypad_summary_statistics.png Graphic file (type bmp)
 part IV.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 3357.
+(scrkbase)              on input line 3361.
 [133] [134] [135
 
 
@@ -1531,7 +1531,7 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf Graphic file (type
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 3606.
+(amsmath)                 on input line 3610.
 
 [146] [147]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf Graphic file (type pdf)
@@ -1609,7 +1609,7 @@ File: img/jamovi_clt.png Graphic file (type bmp)
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4362.
+(scrkbase)              on input line 4366.
 [181] [182] [183
 
 
@@ -1654,7 +1654,7 @@ File: img/jamovi_toolbar_modules_distrACTION.png Graphic file (type bmp)
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4742.
+(scrkbase)              on input line 4746.
 [203] [204] [205
 
 
@@ -1720,7 +1720,7 @@ chapter 30.
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4825.
+(scrkbase)              on input line 4829.
 [229] [230] [231
 
 
@@ -1731,7 +1731,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4834.
+(scrkbase)              on input line 4838.
 [233] [234] [235
 
 
@@ -1767,7 +1767,7 @@ chapter 35.
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4884.
+(scrkbase)              on input line 4888.
 [247] [248] [249
 
 
@@ -1813,7 +1813,7 @@ chapter 42.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4938.
+(scrkbase)              on input line 4942.
 [265] [266] [267
 
 
@@ -1849,7 +1849,7 @@ chapter 47.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4982.
+(scrkbase)              on input line 4986.
 [279] [280] [281
 
 
@@ -1885,7 +1885,7 @@ chapter 52.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5027.
+(scrkbase)              on input line 5031.
 [293] [294] [295
 
 
@@ -1916,7 +1916,7 @@ chapter 56.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5067.
+(scrkbase)              on input line 5071.
 [305] [306] [307
 
 
@@ -1947,7 +1947,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 46--51
 Here is how much of TeX's memory you used:
  23121 strings out of 478775
  459938 string characters out of 5850811
- 1870991 words of memory out of 5000000
+ 1869991 words of memory out of 5000000
  42763 multiletter control sequences out of 15000+600000
  521711 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

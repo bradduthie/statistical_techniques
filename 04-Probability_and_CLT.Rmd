@@ -227,13 +227,13 @@ for(i in 1:11){
 
 Figure 14.5 shows that the most probable outcome is that 5 of the 10 coins flipped will land on heads.
 This makes some sense because the probability that any 1 flip lands on heads is 0.5, and 5 is 1/2 of 10.
-But 5 out 10 heads happens only with a probability of about 0.25.
+But 5 out of 10 heads happens only with a probability of about 0.25.
 There is also about a 0.2 probability that the outcome is 4 heads, and the same probability that the outcome is 6 heads.
 Hence, the probability that we get an outcome of between 4-6 heads is about $0.25 + 0.2 + 0.2 = 0.65$.
 In contrast, the probability of getting all heads is very low (about 0.00098).
 
 More generally, we can define the number of successes using the random variable $X$.
-We can then use the notation $P(X = 5) = 0.25$ to indicate the probability of 5 successes, or $P(4 \leq X \leq 6) = 0.65$ as the probability that the number of success is greater than or equal to 4 and less than or equal to 6.
+We can then use the notation $P(X = 5) = 0.25$ to indicate the probability of 5 successes, or $P(4 \leq X \leq 6) = 0.65$ as the probability that the number of successes is greater than or equal to 4 and less than or equal to 6.
 
 Imagine that you were told a coin was fair, then flipped it 10 times.
 Imagine that 9 flips out of the 10 came up heads.
@@ -562,7 +562,7 @@ The CLT allows us to make inferences about the means of non-normally distributed
 We will look at these statistical tools in future chapters.
 
 
-[^17]: For those interested, a mathematical proof of the CLT can be found in @Miller2004. Here we will demonstrate the CLT by simulation. As an aside, the CLT also applies the the sum of sample values, which will also have a distribution that approaches normality as $N \to \infty$.
+[^17]: For those interested, a mathematical proof of the CLT can be found in @Miller2004. Here we will demonstrate the CLT by simulation. As an aside, the CLT also applies to the sum of sample values, which will also have a distribution that approaches normality as $N \to \infty$.
 
 
 ## Probability and z-scores
@@ -596,7 +596,7 @@ text(x = 0,  y = 0.2, labels = "68.2%", cex = 1.25);
 
 Remember that total probability always needs to equal 1.
 This remains true whether it is the binomial distribution that we saw with the coin flipping example in [Chapter 14](#Chapter_14), or any other distribution.
-Consequently, the area under curve of the normal distribution (i.e., under the curved line of Figure 15.4) must equal 1.
+Consequently, the area under the curve of the normal distribution (i.e., under the curved line of Figure 15.4) must equal 1.
 When we say that the probability of sampling a value within 1 standard deviation of the mean is 0.682, this also means that the *area* of this region under the curve equals 0.682 (i.e., the shaded area in Figure 15.4).
 And, again, because the whole area under the curve sums to 1, that must mean that the unshaded area of Figure 15.4 (where $x < \mu -\sigma$ or $x > \mu + \sigma$) has an area equal to $1 - 0.682 = 0.318$.
 That is, the probability of randomly sampling a value $x$ in this region is $P(x < \mu - \sigma \: \cup \: x > \mu + \sigma) = 0.318$, or 31.8\% (note that the $\cup$, is just a fancy way of saying 'or', in this case; technically, the *union* of two sets).

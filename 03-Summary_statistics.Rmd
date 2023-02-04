@@ -15,14 +15,18 @@ output:
 |                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
 |                 | **Suggested:** @Rowntree2018 Chapter 3 |
 |                 | **Advanced:** None
-| **Lectures**    | 3.0: Decimal places and significant figures part 1 (8 min.) |
-|                 | 3.1: Decimal places and significant figures part 2 (7 min.) |
-|                 | 3.2: Graphs (11 min.) |
-|                 | 3.3: Box-whisker plots (8 min.) |
-|                 | 3.4: The mean (17 min.) |
-|                 | 3.5: The mode (7 min.) |
-|                 | 3.6: The median and quantiles (8 min.) |
-|                 | 3.7: Mean, mode, median, and resistance (9 min.) |
+| **Lectures**    | 3.0: Decimal places and significant figures part 1 (7:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=05e7e5ee-65a5-4b78-bd46-af8200d9170b)) |
+|                 | 3.1: Decimal places and significant figures part 2 (7:08 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f4513530-0bd2-4886-8338-af8200d91727)) |
+|                 | 3.2: Graphs (10:29 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=35638c1d-0ee7-404d-97fd-af8200d91874)) |
+|                 | 3.3: Box-whisker plots (8:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b8eb060-b936-42ad-a4db-af8200d91892)) |
+|                 | 3.4: The mean (16:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f47d8358-b4b6-44ed-8352-af8200d9177c)) |
+|                 | 3.5: The mode (6:54 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=999ba5dd-0f42-45f3-9152-af8200d91795)) |
+|                 | 3.6: The median and quantiles (8:04 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72ef44f4-0d1f-4f24-9d96-af8200d917eb)) |
+|                 | 3.7: Mean, mode, median, and resistance (8:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a43b6799-040c-4699-9864-af8200d91809)) |
+|                 | 3.8: The variance (9:40 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b7f26e80-a40d-45d4-b4ab-af8200d918fe)) |
+|                 | 3.9: The standard deviation (6:17  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=db70798b-16fa-4164-839b-af8200d91919)) |
+|                 | 3.10: The standard deviation (7:46  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9aec6aa5-9e3a-40f6-92f4-af8200d91979)) |
+|                 | 3.11: The standard deviation (13:23  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9c7a11df-7182-4f69-b986-af8200d91994)) |
 | **Practical**   | Plotting and statistical summaries ([Chapter 13](#Chapter_13))       |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 08 FEB 2023 (WED) 13:05-15:55 |
@@ -142,7 +146,7 @@ Histograms illustrate the distribution of [continuous data](#Chapter_5).
 They are especially useful visualisation tools because it is often important to assess data at a glance and make a decision about how to proceed with a statistical analysis.
 The histogram shown in Figure 10.1 provides an example using the [fig fruits](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/fig_fruits.csv) data set from the practical in [Chapter 8](#Chapter_8) (for a step-by-step demonstration of how a histogram is built, see [this interactive application](https://bradduthie.shinyapps.io/build_histogram/)[^2]).
 
-```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in in 2010 from Baja, Mexico.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in 2010 from Baja, Mexico.", out.width="100%"}
 fig_fruits  <- read.csv(file = "data/fig_fruits.csv");
 hist(x = fig_fruits[["Width_cm"]], xlab = "Fig fruit width (cm)", 
      ylab = "Frequency", cex.lab = 1.25, col = "grey", main = "", 
@@ -167,7 +171,7 @@ Different distribution shapes will be discussed more in [Week 4](#Week4).
 ## Barplots and pie charts
 
 While histograms are an effective way of visualising [continuous data](#Chapter_5), barplots (also known as 'bar charts' or 'bar graphs') and pie charts can be used to visualise [categorical data](#Chapter_5).
-For example, in the [fig fruits](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/fig_fruits.csv) data set from [Chapter 8](#Chapter_8) (right click and "Save Link As..."), `r dim(fig_fruits)[1]` fig fruits were collected from 4 different trees (A, B, C, and D). 
+For example, in the [fig fruits](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/fig_fruits.csv) data set from [Chapter 8](#Chapter_8), `r dim(fig_fruits)[1]` fig fruits were collected from 4 different trees (A, B, C, and D). 
 A barplot could be used to show how many samples were collected from each tree (see Figure 10.2).
 
 ```{r, echo = FALSE, fig.alt = "An example barplot shows the total number of fruits collected from four trees labelled A, B, C, and D.", fig.cap = "Example bar plot showing how many fruits were collected from each of 4 trees (78 collected in total) in 2010 from Baja, Mexico.", out.width="100%"}
@@ -287,7 +291,7 @@ The arithmetic mean (hereafter just *the mean*[^4]) of a sample is one of the mo
 The mean is a measure of central tendency, so it is located somewhere in the middle of a distribution.
 Figure 11.1 shows the same histogram of fig fruit widths shown in Figure 10.1, but with an arrow indicating where the mean of the distribution is located
 
-```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape. The mean of the distribution is indicated with an arrow.", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in in 2010 from Baja, Mexico. The mean of the distribution is indicated with an arrow.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "An example histogram is shown with a somewhat normal shape. The mean of the distribution is indicated with an arrow.", fig.cap = "Example histogram fig fruit width (cm) using data from 78 fig fruits collected in 2010 from Baja, Mexico. The mean of the distribution is indicated with an arrow.", out.width="100%"}
 fig_fruits  <- read.csv(file = "data/fig_fruits.csv");
 hist(x = fig_fruits[["Width_cm"]], xlab = "Fig fruit width (cm)", 
      ylab = "Frequency", cex.lab = 1.25, col = "grey", main = "", 
@@ -587,7 +591,7 @@ These measures of spread are the variance, standard deviation, coefficient of va
 These can be confusing and unintuitive at first, but they are extremely useful.
 We will start with the variance; this section is long because we want to break the variance down carefully, step by step.
 
-The sample variance of a dataset is a measure of the expected distance of data from the mean.
+The sample variance of a dataset is a measure of the expected squared distance of data from the mean.
 To calculate the variance of a sample, we need to know the sample size ($N$, i.e., how many measurements in total), and the mean of the sample ($\bar{x}$).
 We can calculate the variance of a sample ($s^{2}$) as follows,
 
