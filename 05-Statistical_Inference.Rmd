@@ -536,7 +536,7 @@ Reflect on any similarities or differences that you see in all of these differen
 ```
 
 
-## Confidence interval for different levels (t- and z-)
+## Confidence intervals for different sample sizes (t- and z-)
 
 In Exercises 19.1 and 19.2, the sample size of DBH was fairly large (N = 122).
 Now, we will calculate confidence intervals for the mean DBH of each of the 4 different sites using both z- and t-scores.
