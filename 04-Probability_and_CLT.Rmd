@@ -785,7 +785,7 @@ $Pr(3\:large) =$  __________________________
 
 What is the probability that the first player chooses a small dam, the second player chooses a medium dam, and the third player chooses a large dam?
 
-$P(Player\:1 = small,Player\:2 = \:medium,Player\:3 = large) =$  __________________________
+$P(Player\:1 = small,Player\:2 = \:medium,Player\:3 = large) =$  ___________
 
 Now consider a slightly different type of question.
 Instead of trying to predict the probability of new player decisions, we will focus on sampling from the existing power up dataset.
