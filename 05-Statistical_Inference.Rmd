@@ -320,7 +320,7 @@ The t-distribution is therefore very important for understanding most of the sta
 [^28]: Another interesting caveat, which Jamovi and R will take care of automatically (so we do not actually have to worry about it), is that when we calculate $s^{2}$ to map t-scores to probability densities in the t-distribution, we multiply the sum of squares by $1/N$ instead of $1/(N-1)$ [@Sokal1995]. In other words, we no longer need to correct the sample variance $s^{2}$ to account for bias in estimating $\sigma^{2}$ because the t-distribution takes care of this for us.
 
 
-# _Practical_. z- and t- intervals
+# _Practical_. z- and t- intervals {#Chapter_19}
 
 This lab focuses on applying the concepts from [Chapter 17](#Chapter_17) and [Chapter 18](#Chapter_18) in Jamovi.
 Specifically, we will practice calculating confidence intervals (CIs).
