@@ -947,9 +947,9 @@ This is also represented in the plot of the normal distribution, with the same p
 knitr::include_graphics("img/jamovi_normal_distribution.png")
 ```
 
-To find the probability that a value is greater than 80, we could subtract our answer of `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)` from 1, $1 - `r round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)` = `r 1 - round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`$ (remember that the total area under the normal curve equals 1, so the shaded plus the unshaded region must also equal 1; hence, 1 minus the shaded region gives us the unshaded region).
+To find the probability that a value is greater than 80, we could subtract our answer of 0.238 from 1, 1 - 0.238 = 0.762 (remember that the total area under the normal curve equals 1, so the shaded plus the unshaded region must also equal 1; hence, 1 minus the shaded region gives us the unshaded region).
 We could also just select the second radio button for $P(X \geq x1)$.
-Give this a try, and notice that the shaded and unshaded regions have flipped in the plot, and we get our answer in the table of $P =$ `r 1 - round(pnorm(q = 80, mean = mean(power_up$Score), sd = sd(power_up$Score)), digits = 3)`.
+Give this a try, and notice that the shaded and unshaded regions have flipped in the plot, and we get our answer in the table of 0.762.
 
 Finally, to compute the probability of an interval, we can check the third radio button and set x2 in the bottom box (Figure 16.8). 
 For example, to see the probability of a score between 80 and 120, we can choose select $P(x1 \leq X \leq x2)$, then set $x2 = 120$ in the bottom box.

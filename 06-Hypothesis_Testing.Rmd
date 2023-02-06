@@ -206,7 +206,9 @@ Suppose the teacher has 10 students with the following test scores (out of 100).
 The teacher can use a one sample t-test to test $H_{0}$.
 The one sample t-test will test whether the sample mean of test scores ($\bar{x} = 66.58$) is significantly greater than the reported national average, $\mu_{0} = 60$.
 How does this work?
-The logic is to use the t-distribution from [Chapter 18](#Chapter_18) as the null distribution for $\bar{x}$.
+Recall from [Chapter 15](#Chapter_15) that, due to the central limit theorem, the distribution of sample means ($\bar{x}$) will be normally distributed around the true mean $\mu$ as sample size N increases.
+At low N, when we need to estimate the true standard deviation ($\sigma$) from the sample standard deviation (s), we need to correct for a bias and use the t-distribution (see [Chapter 18](#Chapter_18)).
+The logic here is to use the t-distribution as the null distribution for $\bar{x}$.
 If we subtract $\mu_{0}$ from $\bar{x}$, then we can centre the mean of the null distribution at 0.
 We can then divide by the standard error of test scores so that we can compare the deviation of $\bar{x}$ from $\mu_{0}$ in terms of the t-distribution.
 This is the same idea as calculating a z-score from [Chapter 15.2](#probability-and-z-scores).
@@ -216,8 +218,26 @@ $$t_{\bar{x}} = \frac{\bar{x} - \mu_{0}}{SE(\bar{x})}$$
 
 In the above equation, $SE(\bar{x})$ is the standard error of $\bar{x}$.
 
-If the sample mean of test scores is really the same as the population mean $\mu_{0} = 60$, then $\bar{x}$ should have a t-distribution
+If the sample mean of test scores is really the same as the population mean $\mu_{0} = 60$, then $\bar{x}$ should have a t-distribution.
+Consequently, very small or large values of $t_{\bar{x}}$ would suggest that the sample mean is improbable given the null distribution predicted if $H_{0}: \mu_{0} = \bar{x}$ is true.
+We can calculate $t_{\bar{x}}$ for our above sample (note, $SE(\bar{x}) = s/\sqrt{N} = 8.334373 / \sqrt{10} = 2.63556$),
 
+$$t_{\bar{x}} = \frac{66.58 - 60}{2.63556} = 2.496623.$$
+
+Our t-score is therefore 2.496623. 
+We can see where this value falls on the t-distribution in Figure 21.1.
+
+```{r, echo = FALSE, fig.alt = "ALT IMAGE", fig.cap = "A t-distribution. Grey shade 95 CI"}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+xx_vals  <- 1:10001;
+yy       <- dt(xx, df = 9);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+     ylab = "Probability",  xlab = "t-score", lwd = 2, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+polygon(c(xx[xx_vals], xx[1], xx[10001]), 
+        c(pr_norm[xx_vals], 0, 0), col="grey80");
+```
 
 
 ## Independent t-test
