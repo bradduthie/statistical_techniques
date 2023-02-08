@@ -225,7 +225,7 @@ We can calculate $t_{\bar{x}}$ for our above sample (note, $SE(\bar{x}) = s/\sqr
 $$t_{\bar{x}} = \frac{66.58 - 60}{2.63556} = 2.496623.$$
 
 Our t-score is therefore 2.496623. 
-We can see where this value falls on the t-distribution in Figure 21.1.
+We can see where this value falls on the t-distribution with 9 degrees of freedom in Figure 21.1.
 
 ```{r, echo = FALSE, fig.alt = "ALT IMAGE", fig.cap = "A t-distribution. Grey shade 95 CI"}
 par(mar = c(5, 5, 1.5, 1.5));
@@ -238,6 +238,9 @@ plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48),
 polygon(c(xx[xx_vals], xx[1], xx[10001]), 
         c(pr_norm[xx_vals], 0, 0), col="grey80");
 ```
+
+
+> Click here for the shiny app of the t-distribution
 
 
 ## Independent t-test
