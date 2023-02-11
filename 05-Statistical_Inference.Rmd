@@ -393,7 +393,7 @@ To the right, you should see a standard normal distribution (i.e., a normal dist
 For this exercise, we will assume that the population of DBH from which our sample came is normally distributed. 
 In other words, if we somehow had access to *all possible* DBH measurements in the woodland sites (not just the 122 trees sampled), we assume that DBH would be normally distributed.
 To find the probability of sampling a tree within a given interval of DBH (e.g., greater than 30), we therefore need to build this distribution with the correct mean and standard deviation.
-We do not know the *true* mean ($\mu$) and standard deviation ($\sigma$) of the population, but our best estimate of these values are the mean ($\bar{x}$}) and standard deviation ($s$) of the sample, as reported above (i.e., the grand mean and standard deviation). 
+We do not know the *true* mean ($\mu$) and standard deviation ($\sigma$) of the population, but our best estimate of these values are the mean ($\bar{x}$) and standard deviation ($s$) of the sample, as reported above (i.e., the grand mean and standard deviation). 
 Using the Mean and SD parameter input boxes in distrACTION, we can build a normal distribution with the same mean and standard deviation as our sample.
 Do this now by inputting the calculated Grand Mean and Grand Standard Deviation from above in the appropriate boxes.
 Note that the normal distribution on the right has the same shape, but the table of parameters has been updated to reflect the mean mean and standard deviation.
@@ -405,7 +405,7 @@ We might want to know, for example, what 75\% of DBH values will be less than (i
 To find this, uncheck the 'Compute probability' box and check the 'Compute quantile(s)' box.
 Make sure that the 'cumulative quantile' radio button is selected, then set p = 0.75 (Figure 19.3).
 
-```{r, echo = FALSE, fig.alt = "Jamovi window showing with parameters for a normal distribution with a mean of 27.7 and a standard deviatio of 12.4, and a normal distribution shows a vertical dotted line on an x-axis value of 36.1, below which 75 per cent of values fall.", fig.cap = "Jamovi interface for the 'distrACTION' module, in which quantiles have been computed to find the diameter at breast height (DBH) below which 75 per cent of DBHs will be given a normal distribution with a mean of 27.7 and standard deviation of 12.4. Data for these parameter values were collected from in Scotland as part of the Woodland Creation and Ecological Networks (WrEN) project.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Jamovi window showing with parameters for a normal distribution with a mean of 36.9 and a standard deviatio of 11, and a normal distribution shows a vertical dotted line on an x-axis value of 44.3, below which 75 per cent of values fall.", fig.cap = "Jamovi interface for the 'distrACTION' module, in which quantiles have been computed to find the diameter at breast height (DBH) below which 75 per cent of DBHs will be given a normal distribution with a mean of 36.9 and standard deviation of 11. Data for these parameter values were collected from in Scotland as part of the Woodland Creation and Ecological Networks (WrEN) project.", out.width="100%"}
 knitr::include_graphics("img/jamovi_distrACTION_p75.png")
 ```
 
@@ -538,7 +538,7 @@ Reflect on any similarities or differences that you see in all of these differen
 
 ## Confidence intervals for different sample sizes (t- and z-)
 
-In Exercises 19.1 and 19.2, the sample size of DBH was fairly large (N = 122).
+In Exercises 19.1 and 19.2, the sample size of DBH was fairly large (N = 120).
 Now, we will calculate confidence intervals for the mean DBH of each of the 4 different sites using both z- and t-scores.
 These sites have much different sample sizes.
 From the Descriptives tool in Jamovi, write the sample sizes for DBH split by site below.
@@ -659,15 +659,6 @@ $LCI_{99\%} =$ ______________
 
 $UCI_{99\%} =$ ______________
 
-
-What assumptions did we need to make when constructing confidence intervals for the proportion of sites that are grazing?
-
-```
-
-
-
-
-```
 
 
 ## Another proportion confidence interval

@@ -126,16 +126,16 @@ In this case, we reject $H_{0}$ at both extremes of the distribution of Figure 2
 In our hypothetical coin flipping example, we used $P$ to indicate the probability of getting a particular number of heads out of 100 total flips if our coin was fair.
 This $P$ (sometimes denoted with a lower-case $p$) is what we call a 'p-value'.
 
-> **A p-value is the probability of getting a result as or more extreme than the one observed assuming $H_{0}$ is true.**
+> **A p-value is the probability of getting a result as or more extreme than the one observed assuming $H_{0}$ is true.[^30]**
 
-This is separated and in bold because it is a very important concept in statistics, and it is one that is very, very easy to misinterpret[^30].
+This is separated and in bold because it is a very important concept in statistics, and it is one that is very, very easy to misinterpret[^31].
 A p-value is *not* the probability that the null hypothesis is true (we actually have no way of knowing this probability).
 It is also not the probability that an alternative hypothesis is false (we have no way of knowing this probability either).
 A p-value specifically *assumes that the null hypothesis is true*, then asks what the probability of an observed result would be *conditional upon this assumption*.
 In the case of our coin flipping example, we cannot really know the probability that the coin is fair or unfair (depending on your philosophy of statistics, this might not even make conceptual sense).
 But we can say that **if** the coin **is** fair, then an observation of $\leq 45$ would occur with a probability of $P = 0.0967$.
 
-Before actually calculating a p-value, we typically set a threshold level ($\alpha$) below which we will conclude that our p-value is **statistically significant**[^31].
+Before actually calculating a p-value, we typically set a threshold level ($\alpha$) below which we will conclude that our p-value is **statistically significant**[^32].
 As mentioned in [section 20.1](#how-ridiculous-is-our-hypothesis), we traditionally set $\alpha= 0.05$ in the biological and environmental sciences (although rarely $\alpha = 0.01$ is used).
 This means that if $P \leq 0.05$, then we reject $H_{0}$ and conclude that our observation is statistically significant.
 It also means that even when $H_{0}$ really is true (e.g., the coin is really fair), we will mistakenly reject $H_{0}$ with a probability of 0.05 (i.e., 5\% of the time).
@@ -162,7 +162,7 @@ Table 20.1 below illustrates the relationship between whether or not $H_{0}$, an
 Table: Summary of Type I and Type II errors in relation to a null hypothesis ($H_{0}$).
 
 Note that we never *accept* a null hypothesis; we just fail to reject it.
-Statistical tests are not really set up in a way that $H_{0}$ can be accepted[^32].
+Statistical tests are not really set up in a way that $H_{0}$ can be accepted[^33].
 The reason for this is subtle, but we can see the logic if we again consider the case of the fair coin.
 If $H_{0}$ is true, then the probability of flipping heads is $P(heads) = 0.5$ (i.e., $H_{0}: P(heads) = 0.5$).
 But even if we fail to reject $H_{0}$, this does not mean that we can conclude with any real confidence that our null hypothesis $P(heads) = 0.5$ is true.
@@ -173,11 +173,13 @@ We therefore cannot conclude that a $H_{0}$ is correct; we can only find evidenc
 In contrast, we can reasonably accept an alternative hypothesis $H_{A}$ when we reject $H_{0}$.
 
 
-[^30]: In fact, the p-value is so easy to mis-interpret and so widely mis-used, that some scientists have called for them to be abandoned entirely [@Wasserstein2016; but see @Stanton-Geddes2014; @Mayo2019].
+[^30]: Technically, it also assumes that all of the assumptions of the model underlying the hypothesis test are true, but we will worry about this later.
 
-[^31]: Like p-values, setting thresholds below which we consider $P$ to be significant is at least somewhat controversial [@McShane2019; @Mayo2021]. But the use of statistical significance thresholds is ubiquitous in the biological and environmental sciences, so we will use them throughout this lab workbook (it is important to understand them and interpret them).
+[^31]: In fact, the p-value is so easy to mis-interpret and so widely mis-used, that some scientists have called for them to be abandoned entirely [@Wasserstein2016; but see @Stanton-Geddes2014; @Mayo2019].
 
-[^32]: Note that we might, for non-statistical reasons conclude the absence of a particular phenomenon or relationship between observations. For example, following a statistical test, we might become convinced that a coin really is fair, or that there is no relationship between sparrow body mass and survival. But these are conclusions about scientific hypotheses, not statistical hypotheses.
+[^32]: Like p-values, setting thresholds below which we consider $P$ to be significant is at least somewhat controversial [@McShane2019; @Mayo2021]. But the use of statistical significance thresholds is ubiquitous in the biological and environmental sciences, so we will use them throughout this lab workbook (it is important to understand them and interpret them).
+
+[^33]: Note that we might, for non-statistical reasons conclude the absence of a particular phenomenon or relationship between observations. For example, following a statistical test, we might become convinced that a coin really is fair, or that there is no relationship between sparrow body mass and survival. But these are conclusions about scientific hypotheses, not statistical hypotheses.
 
 # The t-test  {#Chapter_21}
 
