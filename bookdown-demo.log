@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  12 FEB 2023 22:21
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  12 FEB 2023 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1464,12 +1464,12 @@ Package scrkbase Info: You've told me to use the font selection of the element
 [131] [132] [133
 
 
-] [134
-
-
-]
+] [134]
 chapter 14.
-[135] [136]
+[135
+
+
+] [136]
 File: img/coin1_probability.png Graphic file (type bmp)
 <img/coin1_probability.png>
 File: img/coin2_probability.png Graphic file (type bmp)
@@ -1488,7 +1488,7 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-58-1.pdf Graphic file (type
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 3610.
+(amsmath)                 on input line 3616.
 
 [144] [145]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-59-1.pdf Graphic file (type pdf)
@@ -1509,13 +1509,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[154]
+[154] [155]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[155] [156]
+[156]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [157]
@@ -1524,10 +1521,9 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
-[159]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[160] [161] [162
+[159] [160] [161] [162
 
 
 ]
@@ -1566,7 +1562,7 @@ File: img/jamovi_clt.png Graphic file (type bmp)
 part V.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4366.
+(scrkbase)              on input line 4372.
 [179] [180] [181
 
 
@@ -1614,7 +1610,7 @@ File: img/jamovi_distrACTION_p75.png Graphic file (type bmp)
 part VI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 4998.
+(scrkbase)              on input line 5004.
 [209] [210] [211
 
 
@@ -1654,7 +1650,7 @@ chapter 22.
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5525.
+(scrkbase)              on input line 5531.
 [233] [234] [235
 
 
@@ -1665,7 +1661,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5534.
+(scrkbase)              on input line 5540.
 [237] [238] [239
 
 
@@ -1701,7 +1697,7 @@ chapter 27.
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5584.
+(scrkbase)              on input line 5590.
 [251] [252] [253
 
 
@@ -1747,7 +1743,7 @@ chapter 34.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5638.
+(scrkbase)              on input line 5644.
 [269] [270] [271
 
 
@@ -1783,7 +1779,7 @@ chapter 39.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5682.
+(scrkbase)              on input line 5688.
 [283] [284] [285
 
 
@@ -1819,7 +1815,7 @@ chapter 44.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5727.
+(scrkbase)              on input line 5733.
 [297] [298] [299
 
 
@@ -1850,7 +1846,7 @@ chapter 48.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 5767.
+(scrkbase)              on input line 5773.
 [309] [310] [311
 
 
