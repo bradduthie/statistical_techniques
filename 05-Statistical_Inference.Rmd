@@ -105,6 +105,8 @@ text(x = 0, y = 0.18, cex = 1.5, labels = "95%");
 
 An [interactive application](https://bradduthie.shinyapps.io/zandp/) helps visualise the relationship between probability intervals and z-scores more generally (make sure to set 'Tailed' to 'Two-tailed' using the pulldown menu).
 
+> [Click here](https://bradduthie.shinyapps.io/zandp/) for an interactive application demonstrating the relationship between probability intervals and z-scores.
+
 Now suppose that we want to calculate 95\% CIs around the sample mean of our $N = 20$ domestic cats from earlier. 
 We find that the mean body mass of cats in our sample is $\bar{x} = 4.1$ kg, and that the standard deviation is $s = 0.6$ kg (suppose that we are willing to assume, for now, that $s = \sigma$; that is, we know the true standard deviation of the population).
 Remember from [Chapter 12](#Chapter_12) that the sample standard error can be calculated as $s / \sqrt{N}$.
