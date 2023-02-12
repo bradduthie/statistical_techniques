@@ -8,18 +8,24 @@
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 14-15  |
 |                 | **Recommended:** @Navarro2022 [Chapter 7](https://davidfoxcroft.github.io/lsj-book/07-Introduction-to-probability.html)    |
 |                 | **Suggested:**  @Rowntree2018 Chapter 4 |
-|                 | **Advanced:** None
-| **Lectures**    | 4.1: Probability models (17 min.) |
-|                 | 4.2: Probabilities to make predictions (12 min.) |
-|                 | 4.3: Probability distributions (11 min.) |
-|                 | 4.4: Predictions using sample statistics (16 min.) |
-|                 | 4.5: Jamovi procedures |
+|                 | **Advanced:** None                      |
+| **Lectures**    | 4.1: What is probability? (16:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b29a245-1921-4eec-8b89-af9e00aa8091)) |
+|                 | 4.2: Adding and multiplying probabilities (16:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ef35130e-6e18-4ae2-99d8-af9e00aca010)) |
+|                 | 4.3: Probability distributions (15:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1860eb5-3ead-47ba-ad5f-af9e00ae26c2)) |
+|                 | 4.4: The normal distribution (15:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b4da1e5f-464f-4399-b427-af9e00b041e7)) |
+|                 | 4.5: z-scores (5:12 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4c46b6cf-bf60-4f30-b985-af9e00b32eb8)) |
+|                 | 4.6: Examples using z-scores (13:22 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9d11e2f-5adc-434d-aeed-af9e00b403ab)) |
+|                 | 4.7: More examples using z-scores (9:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b3ad4395-6f50-4830-95b7-af9e00b56b3b))  |
+|                 | 4.8: The binomial distribution (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95be1330-0393-48b1-bfbc-af9e00b65f2e)) |
+|                 | 4.9: The Poisson distribution (12:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cdf67cc1-d8a9-48e5-a1dc-af9e00b8ca2e)) |
+|                 | 4.10: The central limit theorem (5:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f4026ecf-fdc4-40bd-9fc7-af9e00baffac)) |
+|                 | 4.11: z-score tables (14:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d286011d-e723-4fed-9a47-af9e00bbeb32)) |
 | **Practical**   | Probability and simulation ([Chapter 16](#Chapter_16))       |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 15 FEB 2023 (WED) 13:05-15:55 |
 |                 |   Group B: 16 FEB 2023 (THU) 09:05-11:55 |
 | **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 1A13           |
+|                 |   Room: Cottrell 3V1B           |
 |                 |   17 FEB 2023 (FRI) 15:05-17:55 |
 | **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29675) on Canvas  |
 
@@ -781,7 +787,7 @@ $P(small\:or\:large) =$  __________________________
 Now suppose that 3 new players arrive and decide to play the game.
 What is the probability that all 3 of these new players choose a large dam?
 
-$Pr(3\:large) =$  __________________________
+$P(3\:large) =$  __________________________
 
 What is the probability that the first player chooses a small dam, the second player chooses a medium dam, and the third player chooses a large dam?
 
