@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  12 FEB 2023 23:48
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  17 FEB 2023 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1509,10 +1509,13 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[154] [155]
+[154]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-[156]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[155] [156]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [157]
@@ -1521,9 +1524,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
+[159]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[159] [160] [161] [162
+[160] [161] [162
 
 
 ]
