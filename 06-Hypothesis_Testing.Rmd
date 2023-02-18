@@ -7,8 +7,8 @@
 | **Dates**       | 27 February 2023 - 03 MAR 2023 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters   |
 |                 | **Recommended:** @Navarro2022 [Chapter 11](https://davidfoxcroft.github.io/lsj-book/11-Comparing-two-means.html)    |
-|                 | **Suggested:**     |
-|                 | **Advanced:** None |
+|                 | **Suggested:** None     |
+|                 | **Advanced:** @Johnson1995 ([Download](https://www.jstor.org/stable/pdf/1940733.pdf?casa_token=ly4fpXKZzCkAAAAA:-bgUBEe9rv_HT1IstfrbzwDlhSaUFH6nTCSxCrJqXxQa6FS2hb2sGmc38RUQaTEaPT_NnKqgxyaEnZdisEhz2sddHOEonjLWqptny7_N54qrlgZSaeES)) |
 | **Lectures**    | 5.1: CIs |
 |                 | 5.2: The t-interval |
 | **Practical**   | z- and t- intervals ([Chapter 19](#Chapter_19))       |
@@ -21,13 +21,13 @@
 | **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29675) on Canvas  |
 
 
-Week 5 focuses making statistical inferences using confidence intervals (CIs) and and introduces the t-interval.
+Week 6 introduces hypothesis testing, and how to use and interpret statistical tests that test whether or not the mean (or median) of a dataset is significantly different from some specific value, or whether two different groups in a dataset have the same mean (or median).
 
-[Chapter 20](#Chapter_20) 
+[Chapter 20](#Chapter_20) introduces hypothesis testing, and what it means in statistics. This chapter discusses the general idea of hypothesis testing, null and alternative hypotheses, and how to correctly interpret p-values.
 
-[Chapter 21](#Chapter_21) 
+[Chapter 21](#Chapter_21) introduces the t-test and its non-parametric alternatives. These tests include the one sample t-test, the independent samples t-test, the paired sample t-test, the Wilcoxon test, and the Mann-Whitney U test. The chapter also explains the assumptions underlying these different tests.  
 
-[Chapter 22](#Chapter_22) 
+[Chapter 22](#Chapter_22) guides you through the week 6 practical. The aim of this practical is to practice using and correctly interpreting the tests that are introduced in Chapter 21.
 
 # What is hypothesis testing? {#Chapter_20}
 

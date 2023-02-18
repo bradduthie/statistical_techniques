@@ -21,7 +21,7 @@
 | **Help hours**  | Ian Jones                       |
 |                 |   Room: Cottrell 1A13           |
 |                 |   24 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30516) on Canvas  |
+| **Assessments** | [Week 6 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30519) on Canvas  |
 
 
 Week 5 focuses making statistical inferences using confidence intervals (CIs) and and introduces the t-interval.
