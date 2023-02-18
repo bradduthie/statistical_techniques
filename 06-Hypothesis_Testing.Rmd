@@ -389,7 +389,7 @@ For example, we can consider the student test scores ($y_{1}$) yet again.
 
 Suppose that the teacher gave these same students (S1-S10) a second test and wanted to see if the mean student score changed from one test to the next (i.e., a two-sided hypothesis).
 
-```{r, echo = FALSE, eval = TRUE}
+```{r, echo = FALSE, eval = TRUE, caption = "Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example."}
 t1 <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1);
 ch <- c(-2.7, -0.2, 0.1, -7.2, -2.8, -1.0, 3.0, -2.1, 3.4, 0.7);
 t2 <- t1 + ch;
@@ -398,8 +398,6 @@ rownames(tt) <- c("Test 1", "Test 2", "Change");
 colnames(tt) <- paste("S", 1:10, sep = "");
 knitr::kable(tt);
 ```
-
-Table: Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example.
 
 In this case, what we are really interested in is the *change* in scores from Test 1 to Test 2.
 We want to test the null hypothesis that this change is zero.
@@ -583,7 +581,7 @@ Note that we can also use a Wilcoxon signed rank test as a non-parametric equiva
 In this case, instead of subtracting out the null hypothesis of our median value (e.g., $H_{0}: M = 60$ in the example above), we just need to subtract the paired values.
 Consider again the example of the 2 different tests introduced for the [paired sample t-test](#paired-sample-t-test) above.
 
-```{r, echo = FALSE, eval = TRUE}
+```{r, echo = FALSE, eval = TRUE, caption = "Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example."}
 t1 <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1);
 ch <- c(-2.7, -0.2, 0.1, -7.2, -2.8, -1.0, 3.0, -2.1, 3.4, 0.7);
 t2 <- t1 + ch;
@@ -593,7 +591,6 @@ colnames(tt) <- paste("S", 1:10, sep = "");
 knitr::kable(tt);
 ```
 
-Table: Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example.
 
 If the 'Change' values were not normally distributed, then we could apply a Wilcoxon test to test the null hypothesis that the median value of $Test\:2 - Test\:1 = 0$ (note that a Shapiro-Wilk normality does not reject the null hypothesis that the difference between test scores is normally distributed, so the paired t-test would be preferred in this case).
 To do this, we would first note the sign of each value as negative or positive. 
@@ -649,7 +646,7 @@ For $y_{2}$, the ranks are below.
 
 This might be easier to see if we present it as a table showing the test Year ($y_{1}$ versus $y_{2}$), test Score, and test Rank.
 
-```{r, echo = FALSE, eval = TRUE}
+```{r, echo = FALSE, eval = TRUE, caption = "Test scores from different students across 2 years, and the overall rank of each test score, in a hypothetical biology education example."}
 Score   <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1,
              57.4, 52.4, 70.5, 71.6, 46.1, 60.4, 70.0, 64.5, 58.8);
 Year    <- c(rep(1, 10), rep(2, 9));
@@ -657,8 +654,6 @@ Rank    <- rank(Score);
 MWtable <- cbind(Year, Score, Rank);
 knitr::kable(MWtable);
 ```
-
-Table: Test scores from different students across 2 years, and the overall rank of each test score, in a hypothetical biology education example.
 
 What we need to now is sum the ranks for $y_{1}$ and $y_{2}$.
 If we add up the $y_{1}$ ranks, then we get a value of $R_{1}=$ `r sum(Rank[1:10])`.
@@ -708,10 +703,205 @@ If assumptions of the t-test are violated, then it might be necessary to use a d
 
 # _Practical_. Hypothesis testing and t-tests {#Chapter_22}
 
+This lab focuses on applying the concepts about hypothesis testing from [Chapter 20](#Chapter_20) and the statistical tests from [Chapter 21](#Chapter_21) in Jamovi.
+There will be 6 exercises in total, which will focus on using t-tests and their non-parametric equivalents.
+The data for this lab focus on an example of biology and environmental sciences education (Figure 22.1[^40]).
+Similar to the example in [Chapter 21](#Chapter_21), it uses datasets of student test scores (note that these data are entirely fictional; we have not used scores from real students).
+
+```{r, echo = FALSE, fig.alt = "Decorative image showing the word 'TEACH' spelled out in dried pine needles", fig.cap = "The practical this week focuses on an example relevant to education. This image is in the public domain.", out.width="100%"}
+knitr::include_graphics("img/teaching.jpg");
+```
+
+```{r, echo = FALSE}
+student_scores_year_1 <- read.csv("data/student_scores_year_1.csv");
+student_scores_year_2 <- read.csv("data/student_scores_year_2.csv");
+```
+
+We will use test data from 2022 ([student_scores_year_1.csv](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/student_scores_year_1.csv)) and 2023 ([student_scores_year_2.csv](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/student_scores_year_2.csv)).
+To download these files, right click on the links and choose 'Save Link As...', then save it with the extension '.csv'.
+Variables in these datasets include student IDs and scores from 3 different tests.
 
 ## Exercise on a simple one sample t-test
 
+First we will consider test data from 2022 ([student_scores_year_1.csv](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/student_scores_year_1.csv)).
+These data are shown below, but you should be able to download the file in the link above.
+
+```{r, echo = FALSE}
+knitr::kable(student_scores_year_1, caption = "Student test scores from 2022.",
+             align = c("l", "l", "l", "l"));
+```
+
+Open this dataset in Jamovi. 
+Before doing any analysis, compute a new column of data called 'Overall' that is each student's mean test score.
+To do this, double click on the fifth column of data, then when a new panel opens up, choose 'NEW COMPUTED VARIABLE' from the list of available options.
+Your input should like Figure 22.2.
+
+```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a new computed variable and the formula for calculating the mean of test scores in the function box.", fig.cap = "The Jamovi interface for adding a new computed variable called 'Overall' and calculating the mean of the three tests.", out.width="100%"}
+knitr::include_graphics("img/jamovi_students_overall.png");
+```
+
+After calculating the overall grade for each student, find the sample size (N), overall sample mean ($\bar{x}$), and sample standard deviation ($s$).
+Report these below.
+
+N: __________________
+
+$\bar{x}$: _______________
+
+$s$: ___________________
+
+
+Suppose that you have been told that the national average of overall student test scores in classes like yours is $\mu = 60.1$.
+A concerned colleague approaches you and expresses concern that your test scores are lower than the national average.
+You decide to test whether or not your students' scores are lower than the national average.
+What kind(s) of statistical test would be most appropriate to use in this case, and what is the null hypothesis ($H_{0}$) of the test?
+
+Test to use: ___________________________
+
+$H_{0}$: _______________________
+
+What is the alternative hypothesis ($H_{A}$), and should you use a one or two-tailed test?
+
+$H_{A}$: _______________________
+
+One or two tailed? __________________________
+
+To test if the mean of student scores in your class is significantly different from $\mu = 60.1$ (technically, that your student's scores were sampled from a population with a lower mean than 60.1), we might use a one-tailed, one sample t-test.
+Recall from [Chapter 21.4](#assumptions-of-t-tests) the assumptions underlying a t-test:
+
+- Data are continuous (i.e., not count or categorical data)
+- Sample observations are a random sample from the population
+- Sample means are normally distributed around the true mean
+
+We will first focus on the first and third assumption.
+First, the sample data are indeed continuous.
+Are the sample means normally distriubted around the true mean?
+A sufficient condition to fulfil this assumption is if the sample data are normally distributed [@Johnson1995; @Lumley2002].
+We can test whether or not the overall mean student scores are normally distributed.
+In the Jamovi toolbar, find the button that says 'T-Tests' (second from the left), then choose 'One Sample T-test' from the pulldown menu. 
+A new window will open up.
+In a one sample t-test, there is only 1 dependent variable, which in this case is 'Overall'.
+Move the variable 'Overall' to the Dependent Variables box with the right arrow.
+Below the boxes, find the checkbox options under '**Asumption Checks**'. 
+Check both 'Normality test' (this is a Shapiro-Wilk test of normality) and 'Q-Q Plot'.
+
+```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a panel of 4 columns of data to the left and the interface for a One Sample T-Test to the right.", fig.cap = "The Jamovi interface for running a one sample t-test (right hand side). The variable 'Overall' has been brought in the Dependent Variables box, and two different options have been selected to check the assumption of normality (a normality hypothesis test and a Q-Q plot).", out.width="100%"}
+knitr::include_graphics("img/jamovi_one_sample_t-test.png");
+```
+
+After checking the box for 'Normality test' and 'Q-Q Plot', new output will appear in the panel on the right hand side. 
+The first output is a table showing the results a Shapiro-Wilk test.
+The Shapiro-Wilk test tests the null hypothesis that the dependent variable is normally distributed (note, this is *not* our t-test yet; we use the Shapiro-Wilk to see if the assumptions of the t-test are violated nor not).
+If we reject the null hypothesis, then we will conclude that the data are normally distributed.
+If we do not reject the null hypothesis, then we will will assume that the data are normally distributed.
+From the Normality Test table, what is the p-value if the Shapiro-Wilk test?
+
+P = _____________________
+
+Based on this p-value, should we reject the null hypothesis? ______________
+
+Now have a look at the Q-Q plot.
+We will learn about the details of this plot later in the semester, but for now, you just need to know that this plot can be used to assess whether or not the data are normally distributed.
+If the data are normally distributed, then the points in the Q-Q plot should fall roughly along the diagonal black line.
+These plots take some practice to read and interpret, but for now, just have a look at the Q-Q plot and think about how it relates to the results of the Shapiro-Wilk test of normality.
+It might be useful to plot a histogram of the overall scores too in order to judge whether or not they are normally distributed (most researchers will use both a visual inspection of the data and a normality test to evaluate whether or not the assumption of normality is satisfied)
+
+Assuming that we have not rejected our null hypothesis, we can proceed with our one sample t-test. 
+To do this, make sure the variable 'Overall' is still in the Dependent Variables box, then make sure the check box 'Student's' is checked below **Tests**.
+Underneath **Hypothesis**, change the test value to 60.1 (because $\mu = 60.1$) and put the radio button to '< Test value'  to test the null hypothesis that the mean overall score of students is the same as $\mu$ against the alternative hypothesis that it is less than $\mu$.
+On the right panel of Jamovi, you will see a table with the t-statistic, degrees of freedom, and p-value of the one sample t-test.
+Write these values down below.
+
+t-statistic: _________________
+
+degrees of freedom: __________________
+
+p-value: ____________________
+
+Based on the p-value, should you reject the null hypothesis that your students mean overall grade is the same as the national average? Why or why not?
+
+```
+
+
+
+
+```
+
+Based on this test, how would you respond to your colleague who is concerned that your students are performing below the national average?
+
+
+```
+
+
+
+
+
+
+
+```
+
+Consider again the three assumptions of the t-test listed above.
+Is there an assumption that might be particularly suspect when comparing the scores of students in a single classroom with a national average? Why or why not?
+
+```
+
+
+
+
+
+
+
+```
+
+We will now test whether students in this dataset improved their test scores from Test 1 to Test 2.
+
+
 ## Exercise on an independent sample t-test
+
+Suppose we want to test whether or not students in this dataset improved their grades from Test 1 to Test 2.
+In this case, we are interested in the variables 'Test_1' and 'Test_2', but we are not just interested in whether or not the means of the two test scores are the same.
+Instead, we want to know if the scores of individual students increased or not.
+The data are therefore naturally paired.
+Each test score belongs to a unique student, and each student has a score for Test 1 and Test 2.
+To test whether or not there has been an increase in test scores, go to the 'T-Tests' button in the Jamovi toolbar and select 'Paired Samples T-Test' from the pulldown menu.
+Place 'Test_1' in the Paired Variables box first, followed by 'Test_2'.
+Jamovi will interpret the first variable placed in the box as 'Measure 1', and the second variable placed in the box as 'Measure 2'.
+Before looking at any test results, first check to see if the difference between Test 1 and Test 2 scores is normally distributed using the same **Assumption Checks** as in the previous exercise.
+Is there any reason to believe that the data are not normally distributed?
+
+```
+
+
+```
+
+We want to know if student grades have improved.
+What is the null hypothesis ($H_{0}$) and alternative hypothesis ($H_{A}$) in this case?
+
+$H_{0}$: _____________________
+
+$H_{A}$: _____________________
+
+
+To test the null hypothesis against the appropriate alternative hypothesis, select the radio button 'Measure 1 < Measure 2'.
+As with the one sample t-test, on the right panel of Jamovi, you will see a table with the t-statistic, degrees of freedom, and p-value of the one sample t-test.
+Write these values down below.
+
+t-statistic: _________________
+
+degrees of freedom: __________________
+
+p-value: ____________________
+
+
+Based on this p-value, should you reject or fail to reject your null hypothesis?
+What can you then conclude about student test scores?
+
+```
+
+
+```
+
+Next, we will consider a case in which the assumption of normality is violated.
+
 
 ## Exercise involving multiple comparisons
 
@@ -724,8 +914,7 @@ If assumptions of the t-test are violated, then it might be necessary to use a d
 
 
 
-
-
+[^40]: This figure has been released into the [Public Domain](https://commons.wikimedia.org/wiki/File:Teach_in_pine_needles.jpg).
 
 
 
