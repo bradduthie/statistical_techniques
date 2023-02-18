@@ -508,13 +508,14 @@ Using the log or the square-root of a set of numbers is perfectly fine if it hel
 ## Non-parametric alternatives
 
 If we find that the assumption of normality is not satisfied, and a transformation of the data cannot help, then we can consider using non-parametric alternatives to a t-test.
-These alternatives include the Wilcoxon test and the Mann Whitney test.
+These alternatives include the Wilcoxon test and the Mann-Whitney U test.
 
 ### Wilcoxon test
 
 The Wilcoxon test (also called the Wilcoxon signed-rank test) is the non-parametric alternative to a one sample t-test (or a paired t-test).
 Instead of using the actual data, the Wilcoxon test ranks all of the values in the dataset, then sums up their signs (either positive or negative).
 The general idea is that we can compare the sum of the *ranks* of the actual data with what would be predicted by the null hypothesis.
+It tests the null hypothesis that the *median* ($M$) is significantly different from some given value[^37].
 An example will make it easier to see how it works.
 We can use the same hypothetical dataset on student test scores.
 
@@ -522,34 +523,188 @@ We can use the same hypothetical dataset on student test scores.
 49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1
 ```
 
-The first step is to subtract the sample mean $\bar{y} = 66.58$ from each value ($49.3 - 66.58 = 17.28$, $62.9 - 66.58 = -3.68$, etc.).
+The first step is to subtract the null hypothesis value ($M = 60$, if we again set $H_{0}$ to be that student test scores equal 60) from each value ($49.3 - 60 = -10.7$, $62.9 - 60 = 2.9$, etc.).
 
 ```
--17.28, -3.68, 7.12, -1.08, 3.02, 4.12, -5.08, 6.82, -5.48, 11.52
+-10.7, 2.9, 13.7, 5.5, 9.6, 10.7, 1.5, 13.4, 1.1, 18.1
 ```
 
 We need to note the sign of each value as negative ($-$) or positive ($+$).
 
 ```
--, -, +, -, +, +, -, +, -, +
+-, +, +, +, +, +, +, +, +, +
 ```
 
 
-Next, we need to compute the absolute values of the numbers (i.e., $|-17.28| = 17.28$, $|-3.68| = 3.68$, $|7.12| = 7.12$, etc.).
+Next, we need to compute the absolute values of the numbers (i.e., $|-10.7| = 10.7$, $|2.9| = 2.9$, $|13.7| = 13.7$, etc.).
 
 ```
-17.28, 3.68, 7.12, 1.08, 3.02, 4.12, 5.08, 6.82, 5.48, 11.52
+10.7, 2.9, 13.7, 5.5, 9.6, 10.7, 1.5, 13.4, 1.1, 18.1
 ```
 
 We then rank these values from lowest to highest and record the sign of each value.
 
 ```
-10,  3,  8,  1,  2,  4,  5,  7,  6,  9
+6.5, 3.0, 9.0, 4.0, 5.0, 6.5, 2.0, 8.0, 1.0, 10.0
 ```
 
+Note that both the first and sixth position had the same value (10.7), so instead of ranking them as 6 and 7, we split the difference and rank both as 6.5.
+Now, we can calculate the sum of the negative ranks ($W^{-}$), and the positive ranks $W^{+}$.
+In this case, the negative ranks are easy; there is only one value (the first one), so the sum is just 6.5,
+
+$$W^{-} = 6.5$$
+
+The positive values are 2-10, so we need to sum these ranks now,
+
+The positive ranks are in positions , and the rank values in these positions are 8, 2, 4, 7, and 9.
+The sum of our positive ranks is therefore,
+
+$$W^{+} = 3.0 + 9.0 + 4.0 + 5.0 + 6.5 + 2.0 + 8.0 + 1.0 + 10.0 = 48.5$$
+
+Note that the sum of $W^{-}$ and $W^{+}$ (i.e., 6.5 + 48.5 = 55 in the example here) must always equal for a given sample size $N$ (in this case, $N = 10$),
+
+$$W = \frac{N \left(N + 1 \right)}{2}.$$
 
 
+What the Wilcoxon test is doing is calculating the probability of getting a value of $W^{+}$ as or more extreme than would be the case if the null hypothesis is true.
+Note that if, e.g., if there are an equal number of values above and below the median, then both $W^{-}$ and $W^{+}$ will be relatively low and about the same value.
+This is because the ranks of the values below 0 (which we times by -1) and above 0 (which we times by 1) will be about the same.
+But if there are a lot more values above the median than expected (as with the example above), then $W^{+}$ will be relatively high.
+And if there are a lot more values below the median than expected, then $W^{+}$ will be relatively low.
 
+To find the probability of $W^{+}$ being as low or high as it is given that the null hypothesis is true (i.e., a p-value), we need to compare the test statistic $W^{+}$ to its distribution under the null hypothesis (note that we can also conduct a one-tailed hypothesis, in which case we are testing if $W^{+}$ is either higher or lower than expected given $H_{0}$).
+The old way of doing this is to compare the calculated $W^{+}$ threshold values from a  [
+Wilcoxon Signed-Ranks Table](#wilcoxon-signed-rank-critical-values).
+The critical value table is no longer necessary, and statistical software such as Jamovi and R will calculate a p-value for us.
+For the example above, the p-value associated with $W^{+} = 48.6$ and $N = 10$ is $P = 0.037$.
+Since this p-value is less than our threshold of $\alpha = 0.05$, we can reject the null hypothesis and conclude that the median of our dataset is significantly different from 60.
+
+Note that we can also use a Wilcoxon signed rank test as a non-parametric equivalent to a paired t-test. 
+In this case, instead of subtracting out the null hypothesis of our median value (e.g., $H_{0}: M = 60$ in the example above), we just need to subtract the paired values.
+Consider again the example of the 2 different tests introduced for the [paired sample t-test](#paired-sample-t-test) above.
+
+```{r, echo = FALSE, eval = TRUE}
+t1 <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1);
+ch <- c(-2.7, -0.2, 0.1, -7.2, -2.8, -1.0, 3.0, -2.1, 3.4, 0.7);
+t2 <- t1 + ch;
+tt <- rbind(t1, t2, ch);
+rownames(tt) <- c("Test 1", "Test 2", "Change");
+colnames(tt) <- paste("S", 1:10, sep = "");
+knitr::kable(tt);
+```
+
+Table: Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example.
+
+If the 'Change' values were not normally distributed, then we could apply a Wilcoxon test to test the null hypothesis that the median value of $Test\:2 - Test\:1 = 0$ (note that a Shapiro-Wilk normality does not reject the null hypothesis that the difference between test scores is normally distributed, so the paired t-test would be preferred in this case).
+To do this, we would first note the sign of each value as negative or positive. 
+
+```
+-, -, +, -, -, -, +, -, +, +
+```
+
+Next, we would rank the absolute values of the changes.
+
+```
+6, 2, 1, 10, 7, 4, 8, 5, 9, 3
+```
+
+If we then sum the ranks, we get $W^{-} = 6 + 2 + 4 + 5 + 6 + 8 = 31$ and $W^{+} = 1 + 8 + 9 + 3 = 21$.
+The p-value associated with $W^{+} = 21$ and $N = 10$ is $P = 0.55$, so we do not reject the null hypothesis that Test 1 and Test 2 have the same median.
+
+
+[^37]: Actually, the Wilcoxon signed-rank test technically tests the null hypothesis that two distributions are identical, not just that the medians are identical [@Johnson1995; @Lumley2002]. Note that if one distribution has a higher variance than another, or is differently skewed, it will also affect the ranks. In other words, if we want to compare medians, then we need to assume that the distributions have the same shape [@Lumley2002]. Because of this, and because the central limit theorem ensures that means will be normally distributed given a sufficiently high sample size (in which case, t-test assumptions are more likely to be satisfied), some researchers suggest that nonparametric statistics such as the Wilcoxon signed rank test should be used with caution [@Johnson1995].
+
+### Mann-Whitney U test
+
+A non-parametric alternative of the independent samples t-test is the Mann-Whitney U test.
+That is, a Mann-Whitney test can be used if we want to know whether the median of two independent groups is significantly different.
+Like the Wilcoxon test, the Mann-Whitney U test uses the ranks of values, rather than the values themselves.
+In the Mann-Whitney U test, the general idea is rank all of the data across both groups, then see if the sum of the ranks is significantly different [@Sokal1995].
+To demonstrate this, we can again consider the same hypothetical dataset used when demonstrating the [independent samples t-test](#independent-samples-t-test) above.
+Test scores from the current year ($y_{1}$) are below.
+
+```
+49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1
+```
+
+We want to know if the median of the above scores is significantly different from the median scores in the previous year ($y_{2}$) shown below.
+
+```
+57.4, 52.4, 70.5, 71.6, 46.1, 60.4, 70.0, 64.5, 58.8
+```
+
+There are 19 values in total, 10 values for $y_{1}$ and 9 values for $y_{2}$.
+We therefore rank *all* of the above values from 1 to 19.
+For $y_{1}$, the ranks are below.
+
+```
+2, 9, 18, 11, 12, 15, 8, 17, 7, 19
+```
+
+For $y_{2}$, the ranks are below.
+
+```
+4, 3, 14, 16, 1, 6, 13, 10, 5
+```
+
+This might be easier to see if we present it as a table showing the test Year ($y_{1}$ versus $y_{2}$), test Score, and test Rank.
+
+```{r, echo = FALSE, eval = TRUE}
+Score   <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1,
+             57.4, 52.4, 70.5, 71.6, 46.1, 60.4, 70.0, 64.5, 58.8);
+Year    <- c(rep(1, 10), rep(2, 9));
+Rank    <- rank(Score);
+MWtable <- cbind(Year, Score, Rank);
+knitr::kable(MWtable);
+```
+
+Table: Test scores from different students across 2 years, and the overall rank of each test score, in a hypothetical biology education example.
+
+What we need to now is sum the ranks for $y_{1}$ and $y_{2}$.
+If we add up the $y_{1}$ ranks, then we get a value of $R_{1}=$ `r sum(Rank[1:10])`.
+If we add up the $y_{2}$ ranks, then we get a value of $R_{2}=$ `r sum(Rank[11:19])`.
+We can then calculate a value $U_{1}$ from $R_{1}$ and the sample size of $y_{1}$ ($N_{1}$),
+
+$$U_{1} = R_{1} - \frac{N_{1}\left(N_{1} + 1 \right)}{2}.$$
+
+In the case of our example, $R_{1}=$ `r sum(Rank[1:10])` and $N_{1} = 10$, 
+We therefore calculate $U_{1}$,
+
+$$U_{1} = `r sum(Rank[1:10])` - \frac{10\left(10 + 1 \right)}{2} = 63.$$
+
+We then calculate $U_{2}$ using the same general formula,
+
+$$U_{2} = R_{2} - \frac{N_{2}\left(N_{2} + 1 \right)}{2}.$$
+
+From the above example of test scores,
+
+$$U_{2} = `r sum(Rank[11:19])` - \frac{9\left(9 + 1 \right)}{2} = 27.$$
+
+Whichever of $U_{1}$ or $U_{2}$ is lower[^38] is set to $U$, so for our example, $U = 27$.
+Note that if $y_{1}$ and $y_{2}$ have similar medians, then $U$ will be relatively low.
+But if $y_{1}$ and $y_{2}$ have much different medians, then $U$ will be relatively high.
+One way to think about this is that if $y_{1}$ and $y_{2}$ are very different, then one of the two samples should have very low ranks, and the other should have very high ranks [@Sokal1995].
+But if $y_{1}$ and $y_{2}$ are very similar, then their summed ranks should be nearly the same.
+Hence, if the deviation of $U$ is greater than what is predicted given the null hypothesis in which the distributions (and therefore the medians) of $y_{1}$ and $y_{2}$ are identical, the we can reject $H_{0}$.
+
+As with the [Wilcoxon test](#wilcoxon-test), we could compare our $U$ test statistic to a critical value from a [table](#mann-whitney-u-critical-values), but statistical software such as Jamovi or R will also just give us the test statistic $U$ and associated p-value.
+In our example above, $U = 27$, $N_{1} = 10$, and $N_{2} = 9$ has a p-value of $P = 0.156$, so we do not reject the null hypothesis.
+We therefore conclude that there is no evidence that there is a difference in the median test scores of the two years.
+
+[^38]: Note that you could also take the higher of the two values [@Sokal1995], which is what R uses (Jamovi uses the lower of the two). The null distribution from which the p-value would be calculate would just be different in this case. 
+
+## Summary
+
+The main focus of this chapter was to provide a conceptual explanation of different statistical tests.
+In practice, running these tests is relatively straightforward in statistical software such as Jamovi or R (this is good, as long as the tests are understood and interpreted correctly).
+In general, the first step in approaching these tests is to determine if the data call for a one sample test, an independent samples test, or a paired samples test.
+In a one sample test, the objective is to test the null hypothesis that the mean (or median) equals a specific value.
+In an independent samples test, there are two different groups, and the objective is to test the null hypothesis that the groups have the same mean (or median).
+In a paired samples test, there are two groups, but individual values are naturally paired between each group, and the objective is to test the null hypothesis that the difference between paired values is zero[^39].
+If assumptions of the t-test are violated, then it might be necessary to use a data transformation or a non-parametric test such as the Wilcoxon test (in place of a one sample or paired sample t-test) or a Mann-Whitney U test (in place of an independent samples t-test).
+
+
+[^39]: Note, you could also test the null hypothesis that the difference between paired values is some value other than zero, but this is quite rare in practice.
 
 # _Practical_. Hypothesis testing and t-tests {#Chapter_22}
 

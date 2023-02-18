@@ -142,11 +142,23 @@ That leaves us with the equation that was given in [Chapter 7](#Chapter_7).
 
 # Statistical tables {#appendixC_tables}
 
+## Wilcoxon signed rank critical values
 
+```{r, echo = FALSE}
+wilcoxon <- read.csv(file = "tables/wilcoxon.csv", header = FALSE);
+colnames(wilcoxon) <- c("N", expression(alpha==0.1), expression(alpha==0.05),
+                        expression(alpha==0.01));
+knitr::kable(wilcoxon);
+```
 
+## Mann-Whitney U critical values
 
-
-
+```{r, echo = FALSE}
+mannwhitney <- read.csv(file = "tables/mann-whitney-U.csv", header = FALSE);
+rownames(mannwhitney) <- c(1:dim(mannwhitney)[1] + 1);
+colnames(mannwhitney) <- c(1:dim(mannwhitney)[2] + 1);
+knitr::kable(mannwhitney);
+```
 
 
 

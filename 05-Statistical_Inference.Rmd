@@ -9,8 +9,11 @@
 |                 | **Recommended:** None    |
 |                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
 |                 | **Advanced:** None |
-| **Lectures**    | 5.1: CIs |
-|                 | 5.2: The t-interval |
+| **Lectures**    | 5.1: Some background for confidence intervals (6:36 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f56a623e-1d54-4aea-b310-af9e00c2e8c5)) |
+|                 | 5.2: Recap of z-scores (10:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b1e79c1d-e0ad-4048-930b-af9e00c44b35)) |
+|                 | 5.3: Confidence interval for the population mean (14:08 min [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ea812a85-4a03-4d15-9812-af9e00c6a55e)) |
+|                 | 5.4: The t-interval (10:24 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1972834b-3c22-4ab1-aea4-af9e00c8995f)) |
+|                 | 5.5: Confidence interval for the population proportion (6:37 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f3fcb762-1002-42ea-b949-afa5011f98a1)) |
 | **Practical**   | z- and t- intervals ([Chapter 19](#Chapter_19))       |
 |                 |   Room: Cottrell 2A17         |
 |                 |   Group A: 22 FEB 2023 (WED) 13:05-15:55 |
@@ -18,7 +21,7 @@
 | **Help hours**  | Ian Jones                       |
 |                 |   Room: Cottrell 1A13           |
 |                 |   24 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29675) on Canvas  |
+| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30516) on Canvas  |
 
 
 Week 5 focuses making statistical inferences using confidence intervals (CIs) and and introduces the t-interval.
@@ -570,7 +573,7 @@ Now, fill in the table below reporting 95\% CIs calculated using each distributi
 | 3008    |        |                    |                             |
 | 10922   |        |                    |                             |
 
-Table: 95 per cent Confidence intervals calculated for tree diameter at breast height (DBH) in cm. Data for these parameter values were collected from in Scotland as part of the Woodland Creation and Ecological Networks (WrEN) project.
+Table: 95 per cent Confidence intervals calculated for tree diameter at breast height (DBH) in cm. Data for these parameter values were collected in Scotland as part of the Woodland Creation and Ecological Networks (WrEN) project.
 
 Next, do the same, but now calculate 99\% CIs instead of 95\% CIs.
 
@@ -581,7 +584,7 @@ Next, do the same, but now calculate 99\% CIs instead of 95\% CIs.
 | 3008    |        |                    |                             |
 | 10922   |        |                    |                             |
 
-Table: 99 per cent Confidence intervals calculated for tree diameter at breast height (DBH) in cm. Data for these parameter values were collected from in Scotland as part of the Woodland Creation and Ecological Networks (WrEN) project.
+Table: 99 per cent Confidence intervals calculated for tree diameter at breast height (DBH) in cm. Data for these parameter values were collected in Scotland as part of the Woodland Creation and Ecological Networks (WrEN) project.
 
 What do you notice about the difference between CIs calculated from the normal distribution versus the t-distribution across the different sites?
 
@@ -611,9 +614,9 @@ We will now move on to calculating confidence intervals for proportions.
 
 ## Proportion confidence intervals
 
-We will now try calculating confidence intervals for proportional data using the WrEN Sites dataset, which you can [download here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/wren_sites.csv) dataset (right click and "Save Link As...").
+We will now try calculating confidence intervals for proportional data using the WrEN Sites dataset, which you can [download here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/wren_sites.csv) (right click and "Save Link As...").
 Notice that there are more sites included than there were in the dataset used in Exercises 19.1-19.3, and that some of these sites are grazed while others are not (column 'Grazing').
-From the Descriptives options, find the number of sites grazed versus not grazed (hint, remember from the lab practical in the previous week ([Chapter 16](#Chapter_16) to put 'Grazing' in the variable box and click the 'Frequency tables' checkbox).
+From the Descriptives options, find the number of sites grazed versus not grazed (hint, remember from the lab practical in [Chapter 16](#Chapter_16) to put 'Grazing' in the variable box and click the 'Frequency tables' checkbox).
 
 Grazed: ____________
 
@@ -628,7 +631,7 @@ $\hat{p}$: __________
 
 
 [Chapter 17.2](Chapter_17.html#binomial-distribution-cis) explained how to calculate lower and upper CIs for binomial distributions (i.e., proportion data).
-To do this, we can use a for LCI and UCI from Exercise 19.2 above,
+To do this, we can use equations similar to the ones used for LCI and UCI from Exercise 19.2 above,
 
 $$LCI = \hat{p} - z \times SE(p),$$
 
@@ -689,7 +692,7 @@ $UCI_{99\%} =$ ______________
 Reflect again on what these values actually mean. 
 For example, what does it mean to have 95\% confidence that the proportion of sites classified as Ancient woodland are between two values?
 Are there any situations in which this might be useful, from a scientific or conservation standpoint?
-There is no right or wrong answer here, but confidence intervals are very challenging to understand conceptually, so having now done the calcualtions to get them, it is a good idea to think again about what they mean.
+There is no right or wrong answer here, but confidence intervals are very challenging to understand conceptually, so having now done the calculations to get them, it is a good idea to think again about what they mean.
 
 
 ```
