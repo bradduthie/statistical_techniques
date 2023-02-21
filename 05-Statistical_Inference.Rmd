@@ -415,7 +415,7 @@ knitr::include_graphics("img/jamovi_distrACTION_p75.png")
 ```
 
 
-From Figure 19.3, we can see that the cumulative 0.75 quantile is 36.1, so if DBH is normally distributed with the mean and standard deviation calculated above, 75\% of DBH values in a population will be below 36.1 cm.
+From Figure 19.3, we can see that the cumulative 0.75 quantile is 44.3, so if DBH is normally distributed with the mean and standard deviation calculated above, 75\% of DBH values in a population will be below 36.1 cm.
 Using the same principles, what is the cumulative 0.4 quantile for the DBH data?
 
 Quantile: _____________________ cm
