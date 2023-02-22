@@ -404,7 +404,7 @@ Do this now by inputting the calculated Grand Mean and Grand Standard Deviation 
 Note that the normal distribution on the right has the same shape, but the table of parameters has been updated to reflect the mean mean and standard deviation.
 
 In the previous practical from [Chapter 16](#Chapter_16), we calculated the probability of sampling a value within a given interval of the normal distribution.
-If we wanted to do the same exercise here, we might find the probability of sampling a DBH > 30 using the Compute probability function (the answer is P = 0.265).
+If we wanted to do the same exercise here, we might find the probability of sampling a DBH < 30 using the Compute probability function (the answer is P = 0.265).
 Instead, we are now going to do the opposite using the Compute quantile(s) function.
 We might want to know, for example, what 75\% of DBH values will be less than (i.e., what is the cutoff DBH, below which DBH values will be lower than this cutoff with a probability of 0.75).
 To find this, uncheck the 'Compute probability' box and check the 'Compute quantile(s)' box.
@@ -635,7 +635,7 @@ To do this, we can use equations similar to the ones used for LCI and UCI from E
 
 $$LCI = \hat{p} - z \times SE(p),$$
 
-$$UCI = \hat{p} - z \times SE(p),$$
+$$UCI = \hat{p} + z \times SE(p),$$
 
 We have already calculated $\hat{p}$, and we can find z-scores for confidence intervals in the same way that we did in Exercise 19.2 (i.e., the z-scores associated with 95\% confidence intervals do not change just because we are working with proportions).
 All that leaves for calculating LCI and UCI are the standard errors of the proportions.
