@@ -605,8 +605,8 @@ Next, we would rank the absolute values of the changes.
 6, 2, 1, 10, 7, 4, 8, 5, 9, 3
 ```
 
-If we then sum the ranks, we get $W^{-} = 6 + 2 + 4 + 5 + 6 + 8 = 31$ and $W^{+} = 1 + 8 + 9 + 3 = 21$.
-The p-value associated with $W^{+} = 21$ and $N = 10$ is $P = 0.55$, so we do not reject the null hypothesis that Test 1 and Test 2 have the same median.
+If we then sum the ranks, we get $W^{-} = 6 + 2 + 10 + 7 + 4 + 5 = 34$ and $W^{+} = 1 + 8 + 9 + 3 = 21$.
+The p-value associated with $W^{-} = 34$ and $N = 10$ in a two-tailed test is $P = 0.557$, so we do not reject the null hypothesis that Test 1 and Test 2 have the same median.
 
 
 [^37]: Actually, the Wilcoxon signed-rank test technically tests the null hypothesis that two distributions are identical, not just that the medians are identical [@Johnson1995; @Lumley2002]. Note that if one distribution has a higher variance than another, or is differently skewed, it will also affect the ranks. In other words, if we want to compare medians, then we need to assume that the distributions have the same shape [@Lumley2002]. Because of this, and because the central limit theorem ensures that means will be normally distributed given a sufficiently high sample size (in which case, t-test assumptions are more likely to be satisfied), some researchers suggest that nonparametric statistics such as the Wilcoxon signed rank test should be used with caution [@Johnson1995].

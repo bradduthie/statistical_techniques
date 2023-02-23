@@ -115,11 +115,11 @@ We find that the mean body mass of cats in our sample is $\bar{x} = 4.1$ kg, and
 Remember from [Chapter 12](#Chapter_12) that the sample standard error can be calculated as $s / \sqrt{N}$.
 Our lower 95\% confidence interval is therefore,
 
-$$LCI_{95\%} = 4.1 - \left(1.96 \times \frac{0.6}{20}\right) = 4.041$$
+$$LCI_{95\%} = 4.1 - \left(1.96 \times \frac{0.6}{\sqrt{20}}\right) = 3.837$$
 
 Our upper 95\% confidence interval is,
 
-$$UCI_{95\%} = 4.1 + \left(1.96 \times \frac{0.6}{20}\right) = 4.159$$
+$$UCI_{95\%} = 4.1 + \left(1.96 \times \frac{0.6}{\sqrt{20}}\right) = 4.363$$
 
 Our 95\% CIs are therefore $LCI = 4.041$ and $UCI = 4.159$.
 We can now come back to the statistical concept of what this actually means.
@@ -133,11 +133,11 @@ To do this, we just need to find the z-score that corresponds with 99\% of the p
 This value is about $z = 2.58$, which we could find with the [interactive application](https://bradduthie.shinyapps.io/zandp/), a [z table](https://www.z-table.com/), some maths, or a quick online search[^20].
 Consequently, the upper 99\% confidence interval for our example of cat body masses would be,
 
-$$LCI_{99\%} = 4.1 - \left(2.58 \times \frac{0.6}{20}\right) = 4.023$$
+$$LCI_{99\%} = 4.1 - \left(2.58 \times \frac{0.6}{\sqrt{20}}\right) = 3.754$$
 
 Our upper 99\% confidence interval is,
 
-$$UCI_{99\%} = 4.1 + \left(2.58 \times \frac{0.6}{20}\right) = 4.177$$
+$$UCI_{99\%} = 4.1 + \left(2.58 \times \frac{0.6}{\sqrt{20}}\right) = 4.446$$
 
 Notice that the confidence intervals became wider around the sample mean.
 The 99\% CI is now 4.023-4.177, while the 95\% CI was 4.041-4.159.
@@ -263,15 +263,15 @@ For calculating CIs, df will always be $N - 1$, and this will be taken care of a
 Recall from [Chapter 17](#Chapter_17) that our body mass measurements of 20 cats had a sample mean of $\bar{x} = 4.1$ kg and sample standard deviation of $s = 0.6$ kg. We calculated the lower 95\% CI to be $LCI_{95\%} = 4.041$ and the upper 95\% CI to be $UCI_{95\%} = 4.159$. We can now repeat the calculation using the t-score 2.093 instead of the z-score 1.96.
 Our corrected lower 95\% CI is,
 
-$$LCI_{95\%} = 4.1 - \left(2.093 \times \frac{0.6}{20}\right) = 4.037$$
+$$LCI_{95\%} = 4.1 - \left(2.093 \times \frac{0.6}{\sqrt{20}}\right) = 3.819$$
 
 Our upper 95\% confidence interval is,
 
-$$UCI_{95\%} = 4.1 + \left(2.093 \times \frac{0.6}{20}\right) = 4.163.$$
+$$UCI_{95\%} = 4.1 + \left(2.093 \times \frac{0.6}{\sqrt{20}}\right) = 4.381$$
 
 The confidence intervals have not changed too much.
-By using the t-distribution, the LCI changed from 4.041 to 4.037, and the UCI changed from 4.159 to 4.163.
-In other words, we only needed our CIs to be a bit wider ($4.163 - 4.037 = 0.126$ for the using t-scores versus $4.159-4.041 = 0.118$ using z-scores).
+By using the t-distribution, the LCI changed from 3.837 to 3.819, and the UCI changed from 4.363 to 4.381
+In other words, we only needed our CIs to be a bit wider ($4.381 - 3.819 = 0.562$ for the using t-scores versus $4.363 - 3.837 = 0.526$ using z-scores).
 This is because a sample size of 20 is already large enough for the t-distribution and standard normal distribution to be very similar (Figure 18.1).
 But for lower sample sizes ($N$) and therefore fewer degrees of freedom ($df = N - 1$), the difference between the shapes of these distributions gets more obvious (Figure 18.2).
 
