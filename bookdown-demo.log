@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  23 FEB 2023 20:04
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  25 FEB 2023 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1642,9 +1642,6 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-93-1.pdf Graphic file (type
 [228] [229] [230]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-94-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-94-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [231] [232] [233] [234] [235] [236] [237] [238
 
 
@@ -1653,7 +1650,7 @@ chapter 22.
 File: img/teaching.jpg Graphic file (type bmp)
 <img/teaching.jpg>
 
-Underfull \hbox (badness 1881) in paragraph at lines 5709--5712
+Underfull \hbox (badness 1881) in paragraph at lines 5722--5725
 []\TU/lmr/m/n/10.95 We will use test data from 2022 ([][]student_scores_year_1.csv[][]) and 2023 ([][]stu-
  []
 
@@ -1667,7 +1664,7 @@ File: img/jamovi_students_overall.png Graphic file (type bmp)
 File: img/jamovi_one_sample_t-test.png Graphic file (type bmp)
 <img/jamovi_one_sample_t-test.png>
 [242] [243] [244] [245]
-Overfull \hbox (32.31725pt too wide) in paragraph at lines 6006--6010
+Overfull \hbox (32.31725pt too wide) in paragraph at lines 6019--6023
 \TU/lmr/m/n/10.95 In the first 3 exercises, we tested hypotheses using data from 2022 ([][]student_scores_year_1.csv[][]).
  []
 
@@ -1684,7 +1681,7 @@ File: img/jamovi_LN_transform.png Graphic file (type bmp)
 part VII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6231.
+(scrkbase)              on input line 6244.
 [253
 
 
@@ -1698,7 +1695,7 @@ Package scrkbase Info: You've told me to use the font selection of the element
 part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6240.
+(scrkbase)              on input line 6253.
 [257] [258] [259
 
 
@@ -1734,7 +1731,7 @@ chapter 27.
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6290.
+(scrkbase)              on input line 6303.
 [271] [272] [273
 
 
@@ -1780,7 +1777,7 @@ chapter 34.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6344.
+(scrkbase)              on input line 6357.
 [289] [290] [291
 
 
@@ -1816,7 +1813,7 @@ chapter 39.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6388.
+(scrkbase)              on input line 6401.
 [303] [304] [305
 
 
@@ -1852,7 +1849,7 @@ chapter 44.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6433.
+(scrkbase)              on input line 6446.
 [317] [318] [319
 
 
@@ -1883,7 +1880,7 @@ chapter 48.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6473.
+(scrkbase)              on input line 6486.
 [329] [330] [331
 
 
@@ -1909,7 +1906,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
 [340]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 6758--6841
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 6771--6854
 [] 
  []
 
@@ -1923,10 +1920,10 @@ Underfull \hbox (badness 1152) in paragraph at lines 57--62
 
 [343] [344] [345] [346]) [347] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 23364 strings out of 478775
- 468092 string characters out of 5850811
+ 23367 strings out of 478775
+ 468158 string characters out of 5850811
  1918991 words of memory out of 5000000
- 42992 multiletter control sequences out of 15000+600000
+ 42995 multiletter control sequences out of 15000+600000
  521719 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,10n,121p,10636b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -47,7 +47,7 @@ From [Chapter 14.4.1](#Chapter_14.html#binomial-distribution), recall that the n
 The most probable outcome will be 50 heads and 50 tails, but frequencies that deviate from this perfect 50:50 ratio (e.g., 48 heads and 52 tails) are also expected to be fairly common (Figure 20.1).
 
 
-```{r, echo = FALSE, fig.alt = "A barplot is shown with 101 bars, which correspond to the number of times a coin flip lands on heads; the distribution takes a humped shape", fig.cap = "Probability distribution for the number of times that a flipped coin lands on heads in 100 trials. Note that some areas of parameter space on the x-axis are cut off because the pobabilities associated with this number of flips out of 100 being heads are so low."}
+```{r, echo = FALSE, fig.alt = "A barplot is shown with 101 bars, which correspond to the number of times a coin flip lands on heads; the distribution takes a humped shape.", fig.cap = "Probability distribution for the number of times that a flipped coin lands on heads in 100 trials. Note that some areas of parameter space on the x-axis are cut off because the pobabilities associated with this number of flips out of 100 being heads are so low."}
 par(mar = c(5, 5, 1.5, 1.5));
 pr_binom <- dbinom(x = 0:100, size = 100, prob = 0.5);
 plot(x = 0, y = 0, xlim = c(31, 69), type = "n", ylim = c(0, 0.09), 
@@ -80,7 +80,7 @@ If a fair coin will give us this much of a deviation from the expected 50 heads 
 How improbable does our result need to be to cause us to reject our hypothesis that the coin is fair?
 There is no definitive answer to this question.
 In the biological and environmental sciences, we traditionally use a probability of 0.05, but this threshold is completely arbitrary[^29].
-All it means is that we are willing to reject our hypothesis (e.g., declare the coin to be unfair) when it is actually true (i.e., the coin really *is* fair) about 5\% of the time.
+All it means is that we are willing to reject our hypothesis (i.e., declare the coin to be unfair) when it is actually true (i.e., the coin really *is* fair) about 5\% of the time.
 Note that we do need to decide on some finite threshold for rejecting our hypothesis because even extremely rare events, by definition, can sometimes happen.
 In the case of 100 coin flips, there is always a small probability of getting *any* number of heads from a fair coin (although getting zero heads would be extraordinarily rare, $P \approx 7.89 \times 10^{-31}$, i.e., a decimal followed by 30 zeros, then a 7).
 We can therefore never be *certain* about rejecting or not rejecting the hypothesis that we have a fair coin.
@@ -101,7 +101,7 @@ Typically, $H_{0}$ is associated with the lack of an interesting statistical pat
 This null hypothesis contrasts an **alternative hypothesis**, which we abbreviate as $H_{A}$ (e.g., the coin is not fair).
 Alternative hypotheses are always defined by some relationship to $H_{0}$ [@Sokal1995].
 Typically, $H_{A}$ is associated with something interesting happening, such as a biased coin, a difference between groups of observations, or an association between two variables.
-Table 20.1 below presents some null and alternative hypotheses that might relevant in the biological or environmental sciences.
+Table 20.1 below presents some null and alternative hypotheses that might be relevant in the biological or environmental sciences.
 
 | Null hypothesis $H_{0}$            | Alternative hypothesis $H_{A}$          |
 |------------------------------------|-----------------------------------------|
@@ -152,7 +152,7 @@ Note that $\alpha$ and $\beta$ are not necessarily related to each other.
 Our $\alpha$ is whatever we set it to be (e.g., $\alpha = 0.05$).
 But statistical power will depend on the size of the effect that we are measuring (e.g., how much bias their is in a coin if we are testing whether or not it is fair), and on the size of our sample.
 Increasing our sample size will always increase our statistical power, i.e., our ability to reject the null hypothesis when it is really false.
-Table 20.1 below illustrates the relationship between whether or not $H_{0}$, and whether or not we reject it.
+Table 20.2 below illustrates the relationship between whether or not $H_{0}$ is true, and whether or not we reject it.
 
 |                  | Do not reject $H_{0}$   |  Reject $H_{0}$       |
 |------------------|-------------------------|-----------------------|
@@ -274,7 +274,7 @@ Consequently, because our p-value is less than 0.05, we reject our null hypothes
 Perhaps the biology teacher is not actually interested in comparing their students' test results with those of the reported national average.
 After all, there might be many reasons for why their students score differently from the national average that have nothing to do with their new approach to teaching.
 To see if their new approach is working, the teacher might instead decide that a better hypothesis to test is whether or not the mean test score from the current year is higher than the mean test score from the class that they taught in the previous year.
-We can use $\bar{y}_{1}$ to denote the mean of test scores from the current year, and $\bar{y}_{0}$ to denote the mean of test scores from the previous year.
+We can use $\bar{y}_{1}$ to denote the mean of test scores from the current year, and $\bar{y}_{2}$ to denote the mean of test scores from the previous year.
 The test scores of the current year ($y_{1}$) therefore remain the same as in the example of the one sample t-test from the previous section.
 
 ```
@@ -380,7 +380,7 @@ The biology teacher in our example might therefore conclude that mean test resul
 
 There is one more type of t-test to consider.
 The paired sample t-test is applied when the data points in one sample can be naturally paired with those in another sample.
-In this case, data points are not independent between samples are not independent.
+In this case, data points between samples are not independent.
 For example, we can consider the student test scores ($y_{1}$) yet again.
 
 ```
@@ -389,14 +389,14 @@ For example, we can consider the student test scores ($y_{1}$) yet again.
 
 Suppose that the teacher gave these same students (S1-S10) a second test and wanted to see if the mean student score changed from one test to the next (i.e., a two-sided hypothesis).
 
-```{r, echo = FALSE, eval = TRUE, caption = "Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example."}
+```{r, echo = FALSE, eval = TRUE}
 t1 <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1);
 ch <- c(-2.7, -0.2, 0.1, -7.2, -2.8, -1.0, 3.0, -2.1, 3.4, 0.7);
 t2 <- t1 + ch;
 tt <- rbind(t1, t2, ch);
 rownames(tt) <- c("Test 1", "Test 2", "Change");
 colnames(tt) <- paste("S", 1:10, sep = "");
-knitr::kable(tt);
+knitr::kable(tt, caption = "Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example.");
 ```
 
 In this case, what we are really interested in is the *change* in scores from Test 1 to Test 2.
@@ -410,7 +410,7 @@ $$t_{\bar{y}} = \frac{-0.88 - 0}{0.9760237} = -0.9016175.$$
 Again, we can find the location of our t-statistic $t_{\bar{y}} = -0.9016175$ on the t-distribution (Figure 21.3).
 
 
-```{r, echo = FALSE, fig.alt = "A bell curve of the t-distribution is shown with an arrow pointing downward on the x-axis value around -0.9.", fig.cap = "A t-distribution is shown with a calculated t-statistic of -0.9016175 indicated with a downard arrow."}
+```{r, echo = FALSE, fig.alt = "A bell curve of the t-distribution is shown with an arrow pointing downward on the x-axis value around -0.9.", fig.cap = "A t-distribution is shown with a calculated t-statistic of -0.9016175 indicated with a downward arrow."}
 par(mar = c(5, 5, 1.5, 1.5));
 xx       <- seq(from = -5, to = 5, by = 0.001);
 xx_vals  <- 1:10001;
@@ -440,13 +440,13 @@ Since this is a two-sided hypothesis, we want to know the probability of getting
 In the above t-distribution, 95\% of the probability density lies between $t = -2.26$ and $t = 2.26$.
 Consequently, our calculated $t_{\bar{y}} = -0.9016175$ is not sufficiently extreme to reject the null hypothesis.
 The p-value associated with $t_{\bar{y}} = -0.9016175$ is $P = 0.391$.
-We therefore fail to reject $H_{0}$ and conclude that there is no significant difference change in student test scores from Test 1 to Test 2.
+We therefore fail to reject $H_{0}$ and conclude that there is no significant difference in student test scores from Test 1 to Test 2.
 
 ## Assumptions of t-tests
 
 We make some potentially important assumptions when using t-tests.
 A consequence of violating these assumptions is a potentially misleading Type I error rate.
-That is, if our data to not fit the assumptions of our statistical test, then we might not actually be rejecting our null hypothesis at the $\alpha = 0.05$ level.
+That is, if our data do not fit the assumptions of our statistical test, then we might not actually be rejecting our null hypothesis at the $\alpha = 0.05$ level.
 We might unknowingly be rejecting $H_{0}$ at a much higher $\alpha$ value, and therefore concluding that we have evidence supporting the alternative hypothesis $H_{A}$ when really do not.
 It is therefore important to recognise the assumptions that we are making when using any statistical test (including t-tests).
 If our assumptions are violated, we might need to use a different test, or perhaps apply some kind of transformation on the data.
@@ -476,14 +476,14 @@ If we reject the null hypothesis that the data are normally distributed, then we
 2. Use a non-parameteric alternative test.
 
 The word 'non-parameteric' in this context just means that there are no assumptions (or very few) about the shape of the distribution [@Dytham2011].
-We will consider the non-parametric equivalents of the one-sample t-test (the Wilcoxon test) and independent sample t-test (Mann Whitney test) in the next session.
+We will consider the non-parametric equivalents of the one-sample t-test (the Wilcoxon test) and independent sample t-test (Mann-Whitney U test) in the next section.
 But first, we can show how transformations can be used to improve the fit of the data to model assumptions.
 
 Often data will have a skewed distribution; this just means that the distribution will be asymmetrical.
 For example, in Figure 21.4A below, we have a dataset (sample size $N = 200$) with a large positive skew (i.e., it is right skewed).
 Most values are in the same general area, but with some values being especially high.
 
-```{r, echo = FALSE, fig.alt = "A two paneled figure in which a histogram with a skewed distribution is shown to the left and a histogram with a normal distribution is shown to the right.", fig.cap = "A set of values with a high positive skew (A), which, when log-transformed (i.e., when we take the natural log of all values), have a normal distribution."}
+```{r, echo = FALSE, fig.alt = "A two paneled figure in which a histogram with a skewed distribution is shown to the left and a histogram with a normal distribution is shown to the right.", fig.cap = "A set of values with a high positive skew (A), which, when log-transformed (i.e., when we take the natural log of all values), have a normal distribution (A)."}
 skewed_data <- exp(rnorm(n = 200));
 log_tranfrm <- log(skewed_data);
 par(mfrow = c(1, 2), mar = c(5, 5, 1, 1));
@@ -500,7 +500,7 @@ But taking the natural log of all the values of X makes the dataset more normall
 This might seem a bit suspicious at first.
 Is it really okay to just take the logarithm of all the data instead of the actual values that were measured?
 Actually, there is no real scientific or statistical reason that we need to use the original scale [@Sokal1995].
-Using the log or the square-root of a set of numbers is perfectly fine if it helps better satisfy the assumptions of a statistical test.
+Using the log or the square-root of a set of numbers is perfectly fine if it helps satisfy the assumptions of a statistical test.
 
 
 ## Non-parametric alternatives
@@ -552,14 +552,12 @@ In this case, the negative ranks are easy; there is only one value (the first on
 
 $$W^{-} = 6.5$$
 
-The positive values are 2-10, so we need to sum these ranks now,
-
-The positive ranks are in positions , and the rank values in these positions are 8, 2, 4, 7, and 9.
+The positive ranks are in positions 2-10, and the rank values in these positions are 3, 9, 4, 5, 6.5, 2, 8, 1, and 10.
 The sum of our positive ranks is therefore,
 
 $$W^{+} = 3.0 + 9.0 + 4.0 + 5.0 + 6.5 + 2.0 + 8.0 + 1.0 + 10.0 = 48.5$$
 
-Note that the sum of $W^{-}$ and $W^{+}$ (i.e., 6.5 + 48.5 = 55 in the example here) must always equal for a given sample size $N$ (in this case, $N = 10$),
+Note that the sum of $W^{-}$ and $W^{+}$ (i.e., 6.5 + 48.5 = 55 in the example here) must always be equal for a given sample size $N$ (in this case, $N = 10$),
 
 $$W = \frac{N \left(N + 1 \right)}{2}.$$
 
@@ -571,8 +569,7 @@ But if there are a lot more values above the median than expected (as with the e
 And if there are a lot more values below the median than expected, then $W^{+}$ will be relatively low.
 
 To find the probability of $W^{+}$ being as low or high as it is given that the null hypothesis is true (i.e., a p-value), we need to compare the test statistic $W^{+}$ to its distribution under the null hypothesis (note that we can also conduct a one-tailed hypothesis, in which case we are testing if $W^{+}$ is either higher or lower than expected given $H_{0}$).
-The old way of doing this is to compare the calculated $W^{+}$ threshold values from a  [
-Wilcoxon Signed-Ranks Table](#wilcoxon-signed-rank-critical-values).
+The old way of doing this is to compare the calculated $W^{+}$ threshold values to those from a [Wilcoxon Signed-Ranks Table](#wilcoxon-signed-rank-critical-values).
 The critical value table is no longer necessary, and statistical software such as Jamovi and R will calculate a p-value for us.
 For the example above, the p-value associated with $W^{+} = 48.6$ and $N = 10$ is $P = 0.037$.
 Since this p-value is less than our threshold of $\alpha = 0.05$, we can reject the null hypothesis and conclude that the median of our dataset is significantly different from 60.
@@ -581,14 +578,14 @@ Note that we can also use a Wilcoxon signed rank test as a non-parametric equiva
 In this case, instead of subtracting out the null hypothesis of our median value (e.g., $H_{0}: M = 60$ in the example above), we just need to subtract the paired values.
 Consider again the example of the 2 different tests introduced for the [paired sample t-test](#paired-sample-t-test) above.
 
-```{r, echo = FALSE, eval = TRUE, caption = "Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example."}
+```{r, echo = FALSE, eval = TRUE}
 t1 <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1);
 ch <- c(-2.7, -0.2, 0.1, -7.2, -2.8, -1.0, 3.0, -2.1, 3.4, 0.7);
 t2 <- t1 + ch;
 tt <- rbind(t1, t2, ch);
 rownames(tt) <- c("Test 1", "Test 2", "Change");
 colnames(tt) <- paste("S", 1:10, sep = "");
-knitr::kable(tt);
+knitr::kable(tt, caption = "Test scores from 10 students (S1-S10) for 2 different tests in a hypothetical biology education example.");
 ```
 
 
@@ -646,16 +643,16 @@ For $y_{2}$, the ranks are below.
 
 This might be easier to see if we present it as a table showing the test Year ($y_{1}$ versus $y_{2}$), test Score, and test Rank.
 
-```{r, echo = FALSE, eval = TRUE, caption = "Test scores from different students across 2 years, and the overall rank of each test score, in a hypothetical biology education example."}
+```{r, echo = FALSE, eval = TRUE}
 Score   <- c(49.3, 62.9, 73.7, 65.5, 69.6, 70.7, 61.5, 73.4, 61.1, 78.1,
              57.4, 52.4, 70.5, 71.6, 46.1, 60.4, 70.0, 64.5, 58.8);
 Year    <- c(rep(1, 10), rep(2, 9));
 Rank    <- rank(Score);
 MWtable <- cbind(Year, Score, Rank);
-knitr::kable(MWtable);
+knitr::kable(MWtable, caption = "Test scores from different students across 2 years, and the overall rank of each test score, in a hypothetical biology education example.");
 ```
 
-What we need to now is sum the ranks for $y_{1}$ and $y_{2}$.
+What we need to do now is sum the ranks for $y_{1}$ and $y_{2}$.
 If we add up the $y_{1}$ ranks, then we get a value of $R_{1}=$ `r sum(Rank[1:10])`.
 If we add up the $y_{2}$ ranks, then we get a value of $R_{2}=$ `r sum(Rank[11:19])`.
 We can then calculate a value $U_{1}$ from $R_{1}$ and the sample size of $y_{1}$ ($N_{1}$),
@@ -782,7 +779,7 @@ A new window will open up.
 In a one sample t-test, there is only 1 dependent variable, which in this case is 'Overall'.
 Move the variable 'Overall' to the Dependent Variables box with the right arrow.
 Below the boxes, find the checkbox options under '**Assumption Checks**'. 
-Check both 'Normality test' (this is a Shapiro-Wilk test of normality) and 'Q-Q Plot'.
+Check both 'Normality test' (this is a Shapiro-Wilk test of normality) and 'Q-Q Plot' (Figure 22.3).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a panel of 4 columns of data to the left and the interface for a One Sample T-Test to the right.", fig.cap = "The Jamovi interface for running a one sample t-test (right hand side). The variable 'Overall' has been brought in the Dependent Variables box, and two different options have been selected to check the assumption of normality (a normality hypothesis test and a Q-Q plot).", out.width="100%"}
 knitr::include_graphics("img/jamovi_one_sample_t-test.png");
@@ -793,7 +790,7 @@ The first output is a table showing the results a Shapiro-Wilk test.
 The Shapiro-Wilk test tests the null hypothesis that the dependent variable is normally distributed (note, this is *not* our t-test yet; we use the Shapiro-Wilk to see if the assumptions of the t-test are violated or not).
 If we reject the null hypothesis, then we will conclude that the data are **not** normally distributed.
 If we do not reject the null hypothesis, then we will will assume that the data **are** normally distributed.
-From the Normality Test table, what is the p-value if the Shapiro-Wilk test?
+From the Normality Test table, what is the p-value of the Shapiro-Wilk test?
 
 P = _____________________
 
@@ -807,7 +804,7 @@ It might be useful to plot a histogram of the overall scores too in order to jud
 
 Assuming that we have not rejected our null hypothesis, we can proceed with our one sample t-test. 
 To do this, make sure the variable 'Overall' is still in the Dependent Variables box, then make sure the check box 'Student's' is checked below **Tests**.
-Underneath **Hypothesis**, change the test value to 60.1 (because $\mu = 60.1$) and put the radio button to '< Test value'  to test the null hypothesis that the mean overall score of students is the same as $\mu_{0}$ against the alternative hypothesis that it is less than $\mu_{0}$.
+Underneath **Hypothesis**, change the test value to 60.1 (because $\mu_{0} = 60.1$) and put the radio button to '< Test value'  to test the null hypothesis that the mean overall score of students is the same as $\mu_{0}$ against the alternative hypothesis that it is less than $\mu_{0}$.
 On the right panel of Jamovi, you will see a table with the t-statistic, degrees of freedom, and p-value of the one sample t-test.
 Write these values down below.
 
@@ -821,7 +818,7 @@ Remember how the t-statistic, degrees of freedom, and p-value are all related.
 For a reminder, use this [interactive application](https://bradduthie.shinyapps.io/t_score/).
 Slide the value for 't' until it matches the t-statistic that your reported above, then input the correct degrees of freedom in the box to the lower right.
 Look at the probability density in blue to confirm that it is approximately the same as your p-value (there might be a slight rounding error here).
-Based on the p-value, should you reject the null hypothesis that your students mean overall grade is the same as the national average? Why or why not?
+Based on the p-value, should you reject the null hypothesis that your students' mean overall grade is the same as the national average? Why or why not?
 
 ```
 
@@ -1159,7 +1156,7 @@ For the sake of time, we have not introduced an example in which a transformatio
 To do such a transformation, you could create a new computed variable in Jamovi and calculate it as the natural log (LN) of a variable (e.g., Test 3).
 Figure 22.6 illustrates what this should look like.
 
-```{r, echo = FALSE, fig.alt = "Jamovi interface is shown a new computed variable being made and the natural log of Test 3 scores being inserted into the funciton box.", fig.cap = "The Jamovi interface for creating a new computed variable that is the natural logarithm of Test 3 data scores in a fictional dataset of student grades.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a new computed variable being made and the natural log of Test 3 scores being inserted into the function box.", fig.cap = "The Jamovi interface for creating a new computed variable that is the natural logarithm of Test 3 data scores in a fictional dataset of student grades.", out.width="100%"}
 knitr::include_graphics("img/jamovi_LN_transform.png");
 ```
 
