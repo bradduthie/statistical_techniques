@@ -603,7 +603,7 @@ Here we are taking an individual measurement $x_{i}$, subtracting the mean $\bar
 We do this for each $x_{i}$, summing up all of the values from $i = 1$ to $i = N$.
 This part of the equation is called the **sum of squares** ($SS$),
 
-$$SS = \sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right)^{2}$$
+$$SS = \sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right)^{2}.$$
 
 That is, we need to subtract the mean from each value $x_{i}$, square the result, and add everything up.
 Once we have this sum, $SS$, then we just need to multiply by $1 / (N - 1)$ to get the variance.

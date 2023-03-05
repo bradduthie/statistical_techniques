@@ -2,4 +2,4 @@
 
 # Week 7 Overview (Reading week) {-#Week7}
 
-This is a special chapter for week 6, which is a reading week, and it will function as a very brief pause for review. It will also ensure that the numbers of chapters will correspond to weeks.
+This is a special chapter for week 6, which is a reading week, and it will function as a very brief pause for review. It will also ensure that the numbers of parts in the book will correspond to weeks.

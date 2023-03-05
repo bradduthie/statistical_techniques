@@ -5,7 +5,7 @@
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 20 February 2023 - 24 February 2023 |
-| **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17-18  |
+| **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17 and 18  |
 |                 | **Recommended:** None    |
 |                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
 |                 | **Advanced:** None |
@@ -624,40 +624,40 @@ Grazed: ____________
 Not Grazed: _____________
 
 
-From these counts above, what is the estimate ($\hat{p}$) of the proportion of sites that are grazed?
+From these counts above, what is the estimate ($p$, or more technically $\hat{p}$, with the hat indicating that it is an estimate) of the proportion of sites that are grazed?
 
 
-$\hat{p}$: __________
+$p$: __________
 
 
 [Chapter 17.2](Chapter_17.html#binomial-distribution-cis) explained how to calculate lower and upper CIs for binomial distributions (i.e., proportion data).
 To do this, we can use equations similar to the ones used for LCI and UCI from Exercise 19.2 above,
 
-$$LCI = \hat{p} - z \times SE(p),$$
+$$LCI = p - z \times SE(p),$$
 
-$$UCI = \hat{p} + z \times SE(p),$$
+$$UCI = p + z \times SE(p),$$
 
-We have already calculated $\hat{p}$, and we can find z-scores for confidence intervals in the same way that we did in Exercise 19.2 (i.e., the z-scores associated with 95\% confidence intervals do not change just because we are working with proportions).
+We have already calculated $p$, and we can find z-scores for confidence intervals in the same way that we did in Exercise 19.2 (i.e., the z-scores associated with 95\% confidence intervals do not change just because we are working with proportions).
 All that leaves for calculating LCI and UCI are the standard errors of the proportions.
 Remember from [Chapter 17.2](Chapter_17.html#binomial-distribution-cis) that these are calculated differently from a standard deviation of continuous values such as diameter breast height.
 The formula for standard error of a proportion is,
 
 $$SE(p) = \sqrt{\frac{p\left(1 - p\right)}{N}}.$$
 
-We can estimate $p$ using $\hat{p}$, and $N$ is the total sample size.
+We can estimate $p$ using $p$, and $N$ is the total sample size.
 Using the above equation, what is the standard error of p?
 
 SE(p): ____________
 
 
-Using this standard error, what are the lower and upper 95\% confidence intervals around $\hat{p}$?
+Using this standard error, what are the lower and upper 95\% confidence intervals around $p$?
 
 $LCI_{95\%} =$ ______________
 
 $UCI_{95\%} =$ ______________
 
 
-Next, find the lower and upper 99\% CIs around $\hat{p}$ and report them below (hint: the only difference here from the calculation of the 95\% CIs are the z-scores).
+Next, find the lower and upper 99\% CIs around $p$ and report them below (hint: the only difference here from the calculation of the 95\% CIs are the z-scores).
 
 
 $LCI_{99\%} =$ ______________

@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.20)  27 FEB 2023 00:06
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  5 MAR 2023 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **bookdown-demo.tex
 (./bookdown-demo.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16> (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbook.cls
+L3 programming layer <2023-02-22> (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrbook.cls
 Document Class: scrbook 2022/10/12 v3.38 KOMA-Script document class (book)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
@@ -223,7 +223,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2023-01-16 L3 programming layer (loader) 
+Package: expl3 2023-02-22 L3 programming layer (loader) 
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
 \g__graphics_track_int=\count269
@@ -236,9 +236,9 @@ Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
 Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2023-01-16 L3 Experimental document command parser
+Package: xparse 2023-02-02 L3 Experimental document command parser
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 ) (/home/brad/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
@@ -295,7 +295,7 @@ File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
 )) (/home/brad/.TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -333,7 +333,7 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \Hy@linkcounter=\count288
 \Hy@pagecounter=\count289
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (/home/brad/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
@@ -341,22 +341,22 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count290
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4045.
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Option `unicode' set `true' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4410.
+Package hyperref Info: Bookmarks ON on input line 4425.
 \c@Hy@tempcnt=\count291
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen154
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -366,13 +366,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count292
 \Field@Width=\dimen155
 \Fld@charsize=\dimen156
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
@@ -383,7 +383,7 @@ package with kernel methods
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2022-11-13 v7.00u Hyperref driver for XeTeX
+File: hxetex.def 2023-02-07 v7.00v Hyperref driver for XeTeX
 (/home/brad/.TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
@@ -409,7 +409,7 @@ File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 (/home/brad/.TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-Package: fancyvrb 2022/06/06 4.5 verbatim text (tvz,hv)
+Package: fancyvrb 2023/01/19 4.5a verbatim text (tvz,hv)
 \FV@CodeLineNo=\count301
 \FV@InFile=\read2
 \FV@TabBox=\box57
@@ -972,205 +972,205 @@ Overfull \hbox (1.09497pt too wide) detected at line 138
  []\TU/lmss/bx/n/10.95 261
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 139
- []\TU/lmss/bx/n/10.95 263
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 140
- []\TU/lmss/bx/n/10.95 265
- []
-
 [6]
-Overfull \hbox (1.09497pt too wide) detected at line 141
- []\TU/lmss/bx/n/10.95 267
+Overfull \hbox (1.09497pt too wide) detected at line 145
+ []\TU/lmss/bx/n/10.95 271
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 142
- []\TU/lmss/bx/n/10.95 269
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 147
- []\TU/lmss/bx/n/12 271
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 148
+Overfull \hbox (1.09497pt too wide) detected at line 146
  []\TU/lmss/bx/n/10.95 273
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 149
- []\TU/lmss/bx/n/10.95 275
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 150
+Overfull \hbox (1.09497pt too wide) detected at line 147
  []\TU/lmss/bx/n/10.95 277
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 151
+Overfull \hbox (1.09497pt too wide) detected at line 148
  []\TU/lmss/bx/n/10.95 279
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 152
- []\TU/lmss/bx/n/10.95 281
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 153
- []\TU/lmss/bx/n/10.95 283
+Overfull \hbox (2.82748pt too wide) detected at line 153
+ []\TU/lmss/bx/n/12 281
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 154
- []\TU/lmss/bx/n/10.95 285
+ []\TU/lmss/bx/n/10.95 283
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 155
+ []\TU/lmss/bx/n/10.95 285
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 156
  []\TU/lmss/bx/n/10.95 287
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 160
- []\TU/lmss/bx/n/12 289
+Overfull \hbox (1.09497pt too wide) detected at line 157
+ []\TU/lmss/bx/n/10.95 289
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 161
+Overfull \hbox (1.09497pt too wide) detected at line 158
  []\TU/lmss/bx/n/10.95 291
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 162
+Overfull \hbox (1.09497pt too wide) detected at line 159
  []\TU/lmss/bx/n/10.95 293
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 163
+Overfull \hbox (1.09497pt too wide) detected at line 160
  []\TU/lmss/bx/n/10.95 295
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 164
+Overfull \hbox (1.09497pt too wide) detected at line 161
  []\TU/lmss/bx/n/10.95 297
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 165
- []\TU/lmss/bx/n/10.95 299
+Overfull \hbox (2.82748pt too wide) detected at line 166
+ []\TU/lmss/bx/n/12 299
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 166
+Overfull \hbox (1.09497pt too wide) detected at line 167
  []\TU/lmss/bx/n/10.95 301
  []
 
-[7]
-Overfull \hbox (2.82748pt too wide) detected at line 171
- []\TU/lmss/bx/n/12 303
+
+Overfull \hbox (1.09497pt too wide) detected at line 168
+ []\TU/lmss/bx/n/10.95 303
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 172
+Overfull \hbox (1.09497pt too wide) detected at line 169
  []\TU/lmss/bx/n/10.95 305
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 173
+Overfull \hbox (1.09497pt too wide) detected at line 170
  []\TU/lmss/bx/n/10.95 307
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 174
+Overfull \hbox (1.09497pt too wide) detected at line 171
  []\TU/lmss/bx/n/10.95 309
  []
 
-
-Overfull \hbox (1.09497pt too wide) detected at line 175
+[7]
+Overfull \hbox (1.09497pt too wide) detected at line 172
  []\TU/lmss/bx/n/10.95 311
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 176
- []\TU/lmss/bx/n/10.95 313
+Overfull \hbox (2.82748pt too wide) detected at line 177
+ []\TU/lmss/bx/n/12 313
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 177
+Overfull \hbox (1.09497pt too wide) detected at line 178
  []\TU/lmss/bx/n/10.95 315
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 181
- []\TU/lmss/bx/n/12 317
+Overfull \hbox (1.09497pt too wide) detected at line 179
+ []\TU/lmss/bx/n/10.95 317
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 182
+Overfull \hbox (1.09497pt too wide) detected at line 180
  []\TU/lmss/bx/n/10.95 319
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 183
+Overfull \hbox (1.09497pt too wide) detected at line 181
  []\TU/lmss/bx/n/10.95 321
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 184
+Overfull \hbox (1.09497pt too wide) detected at line 182
  []\TU/lmss/bx/n/10.95 323
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 185
+Overfull \hbox (1.09497pt too wide) detected at line 183
  []\TU/lmss/bx/n/10.95 325
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 186
- []\TU/lmss/bx/n/10.95 327
+Overfull \hbox (2.82748pt too wide) detected at line 187
+ []\TU/lmss/bx/n/12 327
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 188
+ []\TU/lmss/bx/n/10.95 329
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 189
+ []\TU/lmss/bx/n/10.95 331
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 190
+ []\TU/lmss/bx/n/10.95 333
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 191
+ []\TU/lmss/bx/n/10.95 335
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 192
+ []\TU/lmss/bx/n/10.95 337
  []
 
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 190.
+(tocbasic)                Reserved number width       = 24.0pt on input line 196.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 190
+Overfull \hbox (3.22801pt too wide) detected at line 196
 \TU/lmss/bx/n/12 XIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 190
- []\TU/lmss/bx/n/12 329
+Overfull \hbox (2.82748pt too wide) detected at line 196
+ []\TU/lmss/bx/n/12 339
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 191
- []\TU/lmss/bx/n/10.95 331
+Overfull \hbox (1.09497pt too wide) detected at line 197
+ []\TU/lmss/bx/n/10.95 341
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 192
- []\TU/lmss/bx/n/10.95 333
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 193
- []\TU/lmss/bx/n/10.95 335
+Overfull \hbox (1.09497pt too wide) detected at line 198
+ []\TU/lmss/bx/n/10.95 343
  []
 
 [8]
-Overfull \hbox (1.09497pt too wide) detected at line 194
- []\TU/lmss/bx/n/10.95 339
+Overfull \hbox (1.09497pt too wide) detected at line 199
+ []\TU/lmss/bx/n/10.95 345
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 200
+ []\TU/lmss/bx/n/10.95 349
  []
 
 )
@@ -1696,7 +1696,11 @@ part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 6259.
-[257] [258] [259
+[257] [258]
+
+Package hyperref Warning: Suppressing link with empty target on input line 6283.
+
+[259
 
 
 ] [260
@@ -1704,228 +1708,242 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 ]
 chapter 23.
-[261] [262
-
-
-]
+[261] [262]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-108-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-108-1.pdf>
+[263] [264] [265] [266] [267]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-112-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-112-1.pdf>
+[268]
+File: img/jamovi_ANOVA_output.png Graphic file (type bmp)
+<img/jamovi_ANOVA_output.png>
+[269] [270]
 chapter 24.
-[263] [264
+File: img/jamovi_multiple_comparisons.png Graphic file (type bmp)
+<img/jamovi_multiple_comparisons.png>
+[271
+
+
+] [272]
+chapter 25.
+[273
 
 
 ]
-chapter 25.
-[265] [266
+File: img/jamovi_kruskall-wallis_test.png Graphic file (type bmp)
+<img/jamovi_kruskall-wallis_test.png>
+[274] [275] [276
 
 
 ]
 chapter 26.
-[267] [268
-
-
-]
+[277] [278]
 chapter 27.
-[269] [270
+[279
+
+
+] [280
 
 
 ]
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6309.
-[271] [272] [273
+(scrkbase)              on input line 6799.
+[281] [282] [283
 
 
-] [274
+] [284
 
 
 ]
 chapter 28.
-[275] [276
-
-
-]
-chapter 29.
-[277] [278
-
-
-]
-chapter 30.
-[279] [280
-
-
-]
-chapter 31.
-[281] [282
-
-
-]
-chapter 32.
-[283] [284
-
-
-]
-chapter 33.
 [285] [286
 
 
 ]
-chapter 34.
+chapter 29.
 [287] [288
+
+
+]
+chapter 30.
+[289] [290
+
+
+]
+chapter 31.
+[291] [292
+
+
+]
+chapter 32.
+[293] [294
+
+
+]
+chapter 33.
+[295] [296
+
+
+]
+chapter 34.
+[297] [298
 
 
 ]
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6363.
-[289] [290] [291
+(scrkbase)              on input line 6853.
+[299] [300] [301
 
 
-] [292
+] [302
 
 
 ]
 chapter 35.
-[293] [294
+[303] [304
 
 
 ]
 chapter 36.
-[295] [296
+[305] [306
 
 
 ]
 chapter 37.
-[297] [298
+[307] [308
 
 
 ]
 chapter 38.
-[299] [300
+[309] [310
 
 
 ]
 chapter 39.
-[301] [302
+[311] [312
 
 
 ]
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6407.
-[303] [304] [305
+(scrkbase)              on input line 6897.
+[313] [314] [315
 
 
-] [306
+] [316
 
 
 ]
 chapter 40.
-[307] [308
+[317] [318
 
 
 ]
 chapter 41.
-[309] [310
+[319] [320
 
 
 ]
 chapter 42.
-[311] [312
+[321] [322
 
 
 ]
 chapter 43.
-[313] [314
+[323] [324
 
 
 ]
 chapter 44.
-[315] [316
+[325] [326
 
 
 ]
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6452.
-[317] [318] [319
+(scrkbase)              on input line 6942.
+[327] [328] [329
 
 
-] [320
+] [330
 
 
 ]
 chapter 45.
-[321] [322
+[331] [332
 
 
 ]
 chapter 46.
-[323] [324
+[333] [334
 
 
 ]
 chapter 47.
-[325] [326
+[335] [336
 
 
 ]
 chapter 48.
-[327] [328
+[337] [338
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 6492.
-[329] [330] [331
+(scrkbase)              on input line 6982.
+[339] [340] [341
 
 
-] [332
+] [342
 
 
 ]
 chapter A.
-[333] [334]
+[343] [344]
 chapter B.
-[335
+[345
 
 
-] [336] [337] [338]
+] [346] [347] [348]
 chapter C.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[339
+[349
 
 
 ]
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
-[340]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 6777--6860
+[350]
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 7267--7350
 [] 
  []
 
-(./bookdown-demo.bbl [341] [342
+(./bookdown-demo.bbl [351] [352
 
 
 ]
-Underfull \hbox (badness 1152) in paragraph at lines 57--62
+Underfull \hbox (badness 1152) in paragraph at lines 70--75
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[343] [344] [345] [346]) [347] (./bookdown-demo.aux) ) 
+[353] [354] [355] [356]) [357] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
- 23367 strings out of 478775
- 468158 string characters out of 5850811
- 1918991 words of memory out of 5000000
- 42995 multiletter control sequences out of 15000+600000
+ 23490 strings out of 478683
+ 472287 string characters out of 5848935
+ 1919018 words of memory out of 5000000
+ 43205 multiletter control sequences out of 15000+600000
  521719 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,10n,121p,10636b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,10n,121p,10636b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (347 pages).
+Output written on bookdown-demo.pdf (357 pages).

@@ -5,7 +5,7 @@
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 27 February 2023 - 03 MAR 2023 |
-| **Reading**     | **Required:**  SCIU4T4 Workbook chapters   |
+| **Reading**     | **Required:**  SCIU4T4 Workbook chapters 20 and 21  |
 |                 | **Recommended:** @Navarro2022 [Chapter 11](https://davidfoxcroft.github.io/lsj-book/11-Comparing-two-means.html)    |
 |                 | **Suggested:** None     |
 |                 | **Advanced:** @Johnson1995 ([Download](https://www.jstor.org/stable/pdf/1940733.pdf?casa_token=ly4fpXKZzCkAAAAA:-bgUBEe9rv_HT1IstfrbzwDlhSaUFH6nTCSxCrJqXxQa6FS2hb2sGmc38RUQaTEaPT_NnKqgxyaEnZdisEhz2sddHOEonjLWqptny7_N54qrlgZSaeES)) |

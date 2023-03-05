@@ -5,7 +5,7 @@
 |                 |                                   |
 |-----------------|-----------------------------------|
 | **Dates**       | 13 February 2023 - 17 February 2023 |
-| **Reading**     | **Required:** SCIU4T4 Workbook chapters 14-15  |
+| **Reading**     | **Required:** SCIU4T4 Workbook chapters 14 and 15  |
 |                 | **Recommended:** @Navarro2022 [Chapter 7](https://davidfoxcroft.github.io/lsj-book/07-Introduction-to-probability.html)    |
 |                 | **Suggested:**  @Rowntree2018 Chapter 4 |
 |                 | **Advanced:** None                      |
