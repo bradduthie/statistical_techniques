@@ -694,7 +694,7 @@ Since we almost never know what the true population mean ($\mu$) and standard de
 
 $$z = \frac{x - \bar{x}}{s}.$$
 
-We could then use a statistical program such as Jamovi, our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our original dataset.
+We could then use a statistical program such as Jamovi [@Jamovi2022], our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our original dataset.
 These z scores will become especially useful for calculating confidence intervals in [Chapter 17](#Chapter_17).
 They can also be useful for comparing values from variables or statistics measured on different scales [@Sokal1995; @Cheadle2003; @Adams2016].
 
@@ -704,7 +704,7 @@ They can also be useful for comparing values from variables or statistics measur
 
 # _Practical_. Probability and simulation {#Chapter_16}
 
-This practical focuses on applying the concepts from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi.
+This practical focuses on applying the concepts from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi [@Jamovi2022].
 There will be 3 exercises.
 
 1. Calculating probabilities from a dataset.

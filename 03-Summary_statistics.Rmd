@@ -461,7 +461,7 @@ We can show how quantiles get more complicated using the same 8 values as above 
 
 There are at least 9 different ways to calculate the first quartile in this case, and different statistical software package will sometimes use different default methods [@Hyndman1996].
 One logical way is to calculate the mean between the second (3.5) and third (3.8) position as you would do for the median [@Rowntree2018], $(3.5 + 3.8) / 2 = 3.65$.
-Jamovi uses a slightly more complex method, which will give a value of $3.725$.
+Jamovi uses a slightly more complex method, which will give a value of $3.725$ [@Jamovi2022].
 
 It is important to emphasise that no one way of calculating quantiles is the one and only correct way.
 Statisticians have just proposed different approaches to calculating quantiles from data, and these different approaches sometimes give slightly different results.
@@ -656,7 +656,7 @@ Why would we subtract 1 here?
 The short answer is that in calculating a *sample* variance, $s^{2}$, we are almost always trying to estimate the corresponding *population* variance ($\sigma^{2}$).
 And if we were to just use $N$ instead of $N - 1$, then our $s^{2}$ would be a biased estimate of $\sigma^{2}$ (see [Chapter 4](#Chapter_4) for a reminder on the difference between samples and populations).
 By subtracting 1, we are correcting for this bias to get a more accurate estimate of the population variance.
-It is not necessary to do this ourselves; statistical software like Jamovi and R will do it automatically.
+It is not necessary to do this ourselves; statistical software like Jamovi and R will do it automatically [@Jamovi2022; @Rproject].
 This is really all that it is necessary to know for now, but see this footnote[^6] for a bit more detailed explanation to try to make this intuitive (it is actually quite cool!).
 Later, we will explore the broader concept of *degrees of freedom*, which explains why we need to take into account the number of parameters in a statistic that are free to vary when calculating a statistic[^7].
 
@@ -839,7 +839,7 @@ These are reasonably close, and would be even closer if we had either a larger s
 
 # _Practical_. Plotting and statistical summaries in Jamovi {#Chapter_13}
 
-This practical focuses on applying the concepts from Chapters 9-12 in Jamovi. 
+This practical focuses on applying the concepts from Chapters 9-12 in Jamovi [@Jamovi2022]. 
 The data that we will work with in this practical were collected from a research project conducted by Dr Alan Law, Prof Nils Bunnefeld, and Prof Nigel Willby at the University of Stirling [@Law2014].
 The project focused on beaver reintroduction in Scottish habitats and its consequences for the white water lily, *Nymphaea alba*, which beavers regularly consume (Figure 13.1)[^11].
 

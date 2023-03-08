@@ -374,10 +374,10 @@ We therefore should conclude that the mean of test scores from the current year 
 The biology teacher in our example might therefore conclude that mean test results have not improved from the previous year.
 
 
-[^34]: This is not a calculation that needs to be done by hand anymore. Statistical software such as Jamovi or R will calculate $s_{p}$ automatically from a dataset. For those interested, the formula that it uses to make this calculation is, $$s_{p} = \sqrt{\frac{\left(n_{1} - 1 \right) s^{2}_{y_{1}} + \left(n_{2} - 1 \right) s^{2}_{y_{2}}}{n_{1} + n_{2} - 2}}.$$ This looks like a lot, but really all the equation is doing is add the two variances ($s^{2}_{y_{1}}$ and $s^{2}_{y_{2}}$) together, but weighing them by their degrees of freedom ($n_{1} - 1$ and $n_{2} - 1$), so that the one with a higher sample size has more influence on the pooled standard deviation. To get $SE(\bar{y})$, we then need to multiply by the square root of $(n_{1} + n_{2})/(n_{1}n_{2})$, $$SE(\bar{y}) = s_{p}\sqrt{\frac{n_{1} + n_{2}}{n_{1}n_{2}}}.$$ It might be useful to try this once by hand, but only to convince yourself that it matches the t-statistic produced by Jamovi or R.
+[^34]: This is not a calculation that needs to be done by hand anymore. Statistical software such as Jamovi or R will calculate $s_{p}$ automatically from a dataset [@Jamovi2022; @Rproject]. For those interested, the formula that it uses to make this calculation is, $$s_{p} = \sqrt{\frac{\left(n_{1} - 1 \right) s^{2}_{y_{1}} + \left(n_{2} - 1 \right) s^{2}_{y_{2}}}{n_{1} + n_{2} - 2}}.$$ This looks like a lot, but really all the equation is doing is add the two variances ($s^{2}_{y_{1}}$ and $s^{2}_{y_{2}}$) together, but weighing them by their degrees of freedom ($n_{1} - 1$ and $n_{2} - 1$), so that the one with a higher sample size has more influence on the pooled standard deviation. To get $SE(\bar{y})$, we then need to multiply by the square root of $(n_{1} + n_{2})/(n_{1}n_{2})$, $$SE(\bar{y}) = s_{p}\sqrt{\frac{n_{1} + n_{2}}{n_{1}n_{2}}}.$$ It might be useful to try this once by hand, but only to convince yourself that it matches the t-statistic produced by Jamovi or R.
 
 
-[^35]: Note that the degrees of freedom for the t-statistic is not straightforward when we pool variances. If the sample sizes $n_{1}$ and $n_{2}$ are the same, then $df = 2(n - 1)$. If $n_{1} \neq n_{2}$, then $df = n_{1} + n_{2} - 2$ [@Sokal1995]. The rationale here is that we lose an extra degree of freedom if we need to estimate the variance of each sample separately, which is necessary if we need to weigh each variance by its own degree of freedom (see footnote 34). Statistical software such as Jamovi and R handles all of this automatically, so we will not dwell on it here.
+[^35]: Note that the degrees of freedom for the t-statistic is not straightforward when we pool variances. If the sample sizes $n_{1}$ and $n_{2}$ are the same, then $df = 2(n - 1)$. If $n_{1} \neq n_{2}$, then $df = n_{1} + n_{2} - 2$ [@Sokal1995]. The rationale here is that we lose an extra degree of freedom if we need to estimate the variance of each sample separately, which is necessary if we need to weigh each variance by its own degree of freedom (see footnote 34). Statistical software such as Jamovi and R handles all of this automatically [@Jamovi2022; @Rproject], so we will not dwell on it here.
 
 [^36]: The equation for calculating the Welch's t-statistic is actually a bit simpler than the Student's t-test that uses the pooled estimate [@Ruxton2006]. Instead of using $s_{p}$ (defined in footnote 34), we define our t-statistic as, $$t_{s} = \frac{\bar{y}_{1} - \bar{y}_{2}}{ \sqrt{ \frac{s^{2}_{1}}{n_{1}} + \frac{s^{2}_{2}}{n_{2}}} }.$$ The degrees of freedom, however, is quite a bit messier than it is for the independent samples Student's t-test, $$v = \frac{\left(\frac{1}{n_{1}} + \frac{(s^{2}_{2} / s^{2}_{1})}{n_{2}} \right)^{2}}{\frac{1}{n^{2}_{1}\left(n_{1} - 1 \right)} + \frac{(s^{2}_{2} / s^{2}_{1})^{2}}{n^{2}_{2}\left(n_{2} - 1 \right)}}.$$ Of course, Jamovi and R will make these calculations for us, so it is not necessary to do it by hand.
 
@@ -475,7 +475,7 @@ There really is not a definitive answer to this question, and the truth is that 
 
 In this book, we will take the traditional approach of running a statistical test called the Shapiro-Wilk test to test the null hypothesis that data are normally distributed.
 If we reject the null hypothesis (when $P < 0.05$), then we will conclude that the assumption of normality is violated and the t-test is not appropriate.
-The details of how the Shaprio-Wilk test work are not important for now, but the test can be easily run using Jamovi or R.
+The details of how the Shaprio-Wilk test work are not important for now, but the test can be easily run using Jamovi or R [@Jamovi2022; @Rproject].
 If we reject the null hypothesis that the data are normally distributed, then we can use one of two methods to run our statistical test.
 
 1. Transform the data in some way (e.g., take the log of all values) to improve normality.
@@ -685,7 +685,7 @@ One way to think about this is that if $y_{1}$ and $y_{2}$ are very different, t
 But if $y_{1}$ and $y_{2}$ are very similar, then their summed ranks should be nearly the same.
 Hence, if the deviation of $U$ is greater than what is predicted given the null hypothesis in which the distributions (and therefore the medians) of $y_{1}$ and $y_{2}$ are identical, the we can reject $H_{0}$.
 
-As with the [Wilcoxon test](#wilcoxon-test), we could compare our $U$ test statistic to a critical value from a [table](#mann-whitney-u-critical-values), but statistical software such as Jamovi or R will also just give us the test statistic $U$ and associated p-value.
+As with the [Wilcoxon test](#wilcoxon-test), we could compare our $U$ test statistic to a critical value from a [table](#mann-whitney-u-critical-values), but statistical software such as Jamovi or R will also just give us the test statistic $U$ and associated p-value [@Jamovi2022; @Rproject].
 In our example above, $U = 27$, $N_{1} = 10$, and $N_{2} = 9$ has a p-value of $P = 0.156$, so we do not reject the null hypothesis.
 We therefore conclude that there is no evidence that there is a difference in the median test scores of the two years.
 
@@ -706,7 +706,7 @@ If assumptions of the t-test are violated, then it might be necessary to use a d
 
 # _Practical_. Hypothesis testing and t-tests {#Chapter_22}
 
-This lab focuses on applying the concepts about hypothesis testing from [Chapter 20](#Chapter_20) and the statistical tests from [Chapter 21](#Chapter_21) in Jamovi.
+This lab focuses on applying the concepts about hypothesis testing from [Chapter 20](#Chapter_20) and the statistical tests from [Chapter 21](#Chapter_21) in Jamovi [@Jamovi2022].
 There will be 5 exercises in total, which will focus on using t-tests and their non-parametric equivalents.
 The data for this lab focus on an example of biology and environmental sciences education (Figure 22.1[^40]).
 Similar to the example in [Chapter 21](#Chapter_21), it uses datasets of student test scores (note that these data are entirely fictional; we have not used scores from real students).

@@ -258,7 +258,7 @@ points(x = xx, y = pr_norm, type = "l", lwd = 2, col = "black");
 
 Note that in Figure 18.1, a t-distribution with 19 degrees of freedom (df) is shown.
 The t-distribution is parameterised using df, and we lose a degree of freedom when calculating $s^{2}$ from a sample size of $N = 20$, so $df = 20 - 1 = 19$ is the correct value (see [Chapter 12](#Chapter_12) for a brief explanation).
-For calculating CIs, df will always be $N - 1$, and this will be taken care of automatically in statistical programs such as Jamovi and R[^28].
+For calculating CIs, df will always be $N - 1$, and this will be taken care of automatically in statistical programs such as Jamovi and R[^28] [@Jamovi2022; @Rproject].
 
 Recall from [Chapter 17](#Chapter_17) that our body mass measurements of 20 cats had a sample mean of $\bar{x} = 4.1$ kg and sample standard deviation of $s = 0.6$ kg. We calculated the lower 95\% CI to be $LCI_{95\%} = 4.041$ and the upper 95\% CI to be $UCI_{95\%} = 4.159$. We can now repeat the calculation using the t-score 2.093 instead of the z-score 1.96.
 Our corrected lower 95\% CI is,
@@ -327,7 +327,7 @@ The t-distribution is therefore very important for understanding most of the sta
 
 # _Practical_. z- and t- intervals {#Chapter_19}
 
-This lab focuses on applying the concepts from [Chapter 17](#Chapter_17) and [Chapter 18](#Chapter_18) in Jamovi.
+This lab focuses on applying the concepts from [Chapter 17](#Chapter_17) and [Chapter 18](#Chapter_18) in Jamovi [@Jamovi2022].
 Specifically, we will practice calculating confidence intervals (CIs).
 There will be 4 exercises focusing on calculating confidence intervals in Jamovi.
 To complete the first 2 exercises, you will need the distrACTION module in Jamovi. 

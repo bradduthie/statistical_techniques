@@ -296,7 +296,7 @@ Ad hoc meetings can also be set up during the week if necessary.
 
 There are a lot of different software packages for running statistical analyses. 
 Previous versions of this module have been taught using [Minitab](https://www.minitab.com/en-us/) or [SPSS](https://www.ibm.com/uk-en/products/spss-statistics).
-This year, and for the foreseeable future, we are using [Jamovi](https://www.jamovi.org/).
+This year, and for the foreseeable future, we are using [Jamovi](https://www.jamovi.org/) [@Jamovi2022].
 There are a lot of tangible benefits to using [Jamovi](https://www.jamovi.org/):
 
 - It is user-friendly, with a point and click interface that is more intuitive than other software.

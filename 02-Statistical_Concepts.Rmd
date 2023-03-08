@@ -314,7 +314,7 @@ It is not necessary to understand why the equations for propagating different ty
 
 # Practical. Introduction to Jamovi {#Chapter_8}
 
-This practical focuses on learning how to work with datasets in Jamovi.
+This practical focuses on learning how to work with datasets in Jamovi [@Jamovi2022].
 Jamovi is available in the university laboratory computers through AppsAnywhere.
 You can also [download it](https://www.jamovi.org/download.html) on your own computer for free or run it directly [from a browser](https://www.jamovi.org/cloud.html).
 For an introduction to what Jamovi is and why we are using it in this module, see the introduction of this workbook and [Sections 3.3](https://davidfoxcroft.github.io/lsj-book/03-Getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/03-Getting-started-with-jamovi.html#summary) of @Navarro2022.

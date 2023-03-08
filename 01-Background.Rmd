@@ -371,7 +371,7 @@ knitr::include_graphics("img/handwritten_data.jpg")
 
 Fortunately, there are some generally agreed upon guidelines for formatting data for statistical analysis.
 This chapter introduces the tidy format [@Wickham2014], which can be used for structuring data files for statistical software.
-This chapter will provide an example of how to put data into a tidy format, and how to save a dataset into a file that can be read and used in statistical software such as Jamovi or R.
+This chapter will provide an example of how to put data into a tidy format, and how to save a dataset into a file that can be read and used in statistical software such as Jamovi or R [@Jamovi2022; @Rproject].
 
 
 ## Tidy data
@@ -521,7 +521,7 @@ It takes some time to organise files this way, and to get used to saving files i
 
 # Practical: Preparing data {#Chapter_3}
 
-In this practical, we will use a spreadsheet to organise datasets following the tidy approach explained in [Chapter 2](#Chapter_2), then save these datasets as CSV files to be opened in Jamovi statistical software.
+In this practical, we will use a spreadsheet to organise datasets following the tidy approach explained in [Chapter 2](#Chapter_2), then save these datasets as CSV files to be opened in Jamovi statistical software [@Jamovi2022].
 The data organisation in this lab can be completed using [LibreOffice Calc](https://www.libreoffice.org/discover/calc/), MS Excel, or [Google Sheets](https://docs.google.com/spreadsheets/).
 In the computer lab, MS Excel is probably the easiest program to use, either through AppsAnywhere or within a browser.
 The screenshots below will mostly be of LibreOffice Calc, but the instructions provided will work on any of the three aforementioned spreadsheet programs.
