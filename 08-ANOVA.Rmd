@@ -22,6 +22,24 @@
 |                 |   17 MAR 2023 (FRI) 15:05-17:55 |
 | **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30725) on Canvas  |
 
+
+Week 8 introduces ANalysis Of VAriance (ANOVA) and related methods, all of which focus on testing whether or not multiple groups in a dataset have the same mean.
+
+[Chapter 23](#Chapter_23) introduces the general idea of the ANOVA, how it is calculated, and the F statistic that is used to test the null hypothesis that all groups have the same mean. 
+This chapter also outlines the assumptions of ANOVA.
+
+[Chapter 24](#Chapter_24) introduces multiple comparisons tests.
+These tests can be used to find out which group means differ in a dataset when there are more than 2 groups.
+
+[Chapter 25](#Chapter_25) introduces the Kruskall-Wallis H test.
+This is the non-parametric equivalent of the one-way ANOVA, which can be used when assumptions of the ANOVA are violated.
+The Kruskall-Wallis is an extension of the Mann-Whitney U test from [Chapter 21.5.2](#mann-whitney-u-test)
+
+[Chapter 26](#Chapter_25) introduces the two-way ANOVA.
+With the two-way ANOVA, it also introduces the ideas of testing multiple null hypotheses with a single test and the concept of statistical interactions.
+
+[Chapter 27](#Chapter_25) guides you through the week 8 practical. The aim of this practical is to practice using and correctly interpreting the tests that are introduced in chapters 23-26.
+
 # Analysis of variance {#Chapter_23}
 
 An ANalysis Of VAriance (ANOVA) is, as the name implies, a method for analysing variances in a dataset.
