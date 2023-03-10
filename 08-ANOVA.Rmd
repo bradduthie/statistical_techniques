@@ -4,20 +4,23 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 27 February 2023 - 03 MAR 2023 |
+| **Dates**       | 13 March 2023 - 17 MAR 2023 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 23-25 |
-|                 | **Recommended:**        |
-|                 | **Suggested:** None     |
-|                 | **Advanced:**           |
-| **Lectures**    | 6.1: What is hypothesis testing? (11:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b02e8347-81a2-4d9d-b6bd-af8200d91a80&start=0)) |
-| **Practical**   | Hypothesis testing using ANOVA ([Chapter 26](#Chapter_26))       |
+|                 | **Recommended:**  @Navarro2022 ([Chapter 13](https://davidfoxcroft.github.io/lsj-book/13-Comparing-several-means-one-way-ANOVA.html))   |
+|                 | **Suggested:** @Rowntree2018 (Chapter 7)     |
+|                 | **Advanced:**  @Head2015 ([Download](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106))        |
+| **Lectures**    | 8.1: What is ANOVA? (15:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c36903b-64d5-4990-b64c-af8200d91d27&start=0)) |
+|                 | 8.2: One Way ANOVA (16:51 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bcec9eee-dbac-4f92-ad96-af8200d91d44&start=0)) |
+|                 | 8.3: Two Way ANOVA (17:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8e87a206-bb4e-4618-8811-af8200d91d97&start=0)) |
+|                 | 8.4: Kruskal-Wallis H Test (6:37 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=98d54b67-be3e-457d-952b-af8200d91db2&start=0)) |
+| **Practical**   | ANOVA and associated tests ([Chapter 27](#Chapter_27))       |
 |                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 01 MAR 2023 (WED) 13:05-15:55 |
-|                 |   Group B: 02 MAR 2023 (THU) 09:05-11:55 |
+|                 |   Group A: 15 MAR 2023 (WED) 13:05-15:55 |
+|                 |   Group B: 16 MAR 2023 (THU) 09:05-11:55 |
 | **Help hours**  | Martina Quaggiotto                       |
 |                 |   Room: Cottrell 1A13           |
-|                 |   03 MAR 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 7 Practice quiz]() on Canvas  |
+|                 |   17 MAR 2023 (FRI) 15:05-17:55 |
+| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30725) on Canvas  |
 
 # Analysis of variance {#Chapter_23}
 

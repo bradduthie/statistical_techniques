@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  10 MAR 2023 18:25
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  10 MAR 2023 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1696,11 +1696,7 @@ part VIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
 (scrkbase)              on input line 6259.
-[257] [258]
-
-Package hyperref Warning: Suppressing link with empty target on input line 6283.
-
-[259
+[257] [258] [259
 
 
 ] [260
@@ -1755,7 +1751,7 @@ File: img/lidia_project.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (17.75694pt too wide) in paragraph at lines 6938--6939
+Overfull \hbox (17.75694pt too wide) in paragraph at lines 6941--6942
 []\TU/lmr/m/n/10.95 Homogeneity of variances conclusion: ______________________________ 
  []
 
@@ -1764,7 +1760,7 @@ File: img/jamovi_one-way_ANOVA.png Graphic file (type bmp)
 File: img/jamovi_one-way_ANOVA_analysis.png Graphic file (type bmp)
 <img/jamovi_one-way_ANOVA_analysis.png>
 [286] [287] [288]
-Overfull \hbox (17.75694pt too wide) in paragraph at lines 7023--7024
+Overfull \hbox (17.75694pt too wide) in paragraph at lines 7026--7027
 []\TU/lmr/m/n/10.95 Homogeneity of variances conclusion: ______________________________ 
  []
 
@@ -1787,7 +1783,7 @@ File: img/jamovi_marginal_means.png Graphic file (type bmp)
 part IX.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 7306.
+(scrkbase)              on input line 7309.
 [299] [300] [301
 
 
@@ -1833,7 +1829,7 @@ chapter 34.
 part X.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 7360.
+(scrkbase)              on input line 7363.
 [317] [318] [319
 
 
@@ -1869,7 +1865,7 @@ chapter 39.
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 7404.
+(scrkbase)              on input line 7407.
 [331] [332] [333
 
 
@@ -1905,7 +1901,7 @@ chapter 44.
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 7449.
+(scrkbase)              on input line 7452.
 [345] [346] [347
 
 
@@ -1936,7 +1932,7 @@ chapter 48.
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 7489.
+(scrkbase)              on input line 7492.
 [357] [358] [359
 
 
@@ -1962,7 +1958,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
 [368]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 7774--7857
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 7777--7860
 [] 
  []
 
