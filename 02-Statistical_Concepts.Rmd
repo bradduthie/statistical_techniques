@@ -322,7 +322,7 @@ In this practical, we will work with two datasets, both of which are based on re
 
 The first dataset includes measurements of soil organic carbon (grams of Carbon per kg of soil) from the topsoil and subsoil collected in a national park in Gabon.
 These data were collected by Dr Carmen Rosa Medina-Carmona in an effort to understand how [pyrogenic carbon](https://bg.copernicus.org/articles/3/397/2006/bg-3-397-2006.pdf) (i.e., carbon produced by the charring of biomass during a fire) is stored in different landscape areas [@Santin2016; @Preston2006].
-**Download these data here: [soil_organic_carbon.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/soil_organic_carbon.csv)** (right click and "Save Link As...").
+**Download these data here: [soil_organic_carbon.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/soil_organic_carbon.csv)** (right click on the links and choose 'Save Link As...', then save it with the extension '.csv').
 
 The second dataset includes measurements of figs from trees of the Sonoran Desert Rock Fig (*Ficus petiolaris*) in Baja, Mexico.
 These data were collected by Dr Brad Duthie in an effort to understand coexistence in a fig wasp community [@Duthie2015b; @Duthie2016].

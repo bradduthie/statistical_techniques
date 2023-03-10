@@ -726,7 +726,7 @@ Variables in these datasets include student IDs and scores from 3 different test
 
 ## Exercise on a simple one sample t-test
 
-First we will consider test data from 2022 ([student_scores_year_1.csv](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/student_scores_year_1.csv)).
+First we will consider test data from 2022 ([student_scores_year_1.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/student_scores_year_1.csv)).
 These data are shown below, but you should be able to download the file in the link above.
 
 ```{r, echo = FALSE}

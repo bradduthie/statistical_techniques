@@ -729,7 +729,7 @@ knitr::include_graphics("img/power_up.png")
 
 The game "Power Up!" is freely available as an [Android](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame) and [iPhone](https://apps.apple.com/gb/app/power-up/id1585634888) app (Figure 16.1).
 Data are collected from players' decisions and used to investigate social-ecological questions.
-We will use the [power_up](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/power_up.csv) dataset in exercises 1 and 2 (right click and "Save Link As...").
+We will use the [power_up](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/power_up.csv) dataset in exercises 1 and 2 (right click on the links and choose 'Save Link As...', then save it with the extension '.csv').
 To get started, first download the [power_up](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/power_up.csv) dataset and open it in Jamovi.
 Note that these data are already in a tidy format, so we do not need to do any reorganising.
 The dataset includes columns for each player's ID, the OS that they use, the dam size that they decided to build in the game, their in-game investment in Biodiversity, Community, and Energy, and their final Score.

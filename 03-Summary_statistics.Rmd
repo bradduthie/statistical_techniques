@@ -848,7 +848,7 @@ knitr::include_graphics("img/Nymphaea_alba_pads.jpg")
 ```
 
 As an instructive example, this lab will use the data from @Law2014 on the petiole diameter (mm) from *N. alba* collected from 7 different sites on the west coast of Scotland (the petiole is the structure that attaches the plant stem to the blade of the leaf).
-The *N. alba* dataset is available to download [here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/Nymphaea_alba.csv)  (right click and "Save Link As...").
+The *N. alba* dataset is available to download [here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/Nymphaea_alba.csv)  (right click on the links and choose 'Save Link As...', then save it with the extension '.csv').
 Note that the data are not in a tidy format, so it is important to first reorganise the data so that they can be analysed in Jamovi (13.1).
 Once the data are properly organised, we will use Jamovi to plot them (13.2), calculate summary statistics (13.3), apply appropriate decimals, significant figures, and rounding (13.4), and compare petiole diameters across sites (13.5).
 

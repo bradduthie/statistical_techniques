@@ -614,7 +614,7 @@ We will now move on to calculating confidence intervals for proportions.
 
 ## Proportion confidence intervals
 
-We will now try calculating confidence intervals for proportional data using the WrEN Sites dataset, which you can [download here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/wren_sites.csv) (right click and "Save Link As...").
+We will now try calculating confidence intervals for proportional data using the WrEN Sites dataset, which you can [download here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/wren_sites.csv) (right click on the links and choose 'Save Link As...', then save it with the extension '.csv').
 Notice that there are more sites included than there were in the dataset used in Exercises 19.1-19.3, and that some of these sites are grazed while others are not (column 'Grazing').
 From the Descriptives options, find the number of sites grazed versus not grazed (hint, remember from the lab practical in [Chapter 16](#Chapter_16) to put 'Grazing' in the variable box and click the 'Frequency tables' checkbox).
 
