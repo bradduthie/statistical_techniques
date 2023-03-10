@@ -217,7 +217,7 @@ The mean variance among groups is therefore $MS_{among} =$ `r ms_among`/4 = `r m
 
 [^45]: In this case, weighing by sample size is not so important because each species has the same number of samples. But when different groups have different numbers of samples, we need to multiply by sample number so that each group contributes proportionally to the SS.  
 
-### ANOVA mean variance among groups
+### ANOVA mean variance within groups
 
 To get the mean variance within groups ($MS_{within}$), we need to calculate the sum of squared deviations of wing lengths from *species means*.
 That is, we need to take the wing length of each wasp, subtract the mean species wing length, then square it.
@@ -338,7 +338,7 @@ This is our p-value.
 Since $P < 0.05$, we can reject the null hypothesis that all mean species wing lengths are the same because the variance among species wing lengths is significantly higher than the variance within species wing lengths.
 Note that the critical value of F (i.e., for which $P = 0.05$) is `r F_crit`, so for any F value above this (for df1 = 5 and df2 = 19), we would reject $H_{0}$.
 
-When running an ANOVA in a statistical program, output include (at least) the calculated F statistic, degrees of freedom, and the p-value. 
+When running an ANOVA in a statistical program, output includes (at least) the calculated F statistic, degrees of freedom, and the p-value. 
 Figure 23.3 shows the one-way ANOVA output of the test of fig wasp wing lengths.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi output is shown with a table called 'One-Way ANOVA', which includes a single measurement for F, df1, df2, and p.", fig.cap = "Jamovi output for a one-way ANOVA of wing length measurements in 5 species of fig wasps collected in 2010 near La Paz in Baja, Mexico.", out.width="60%"}
@@ -362,7 +362,7 @@ Note that we can also get this information from Jamovi if we want it (see [Chapt
 
 ## Assumptions of ANOVA
 
-As with the t-test (see [Chapter 21.4](#assumptions-of-t-tests)), there are some important assumptions we make when using an ANOVA.
+As with the t-test (see [Chapter 21.4](#assumptions-of-t-tests)), there are some important assumptions that we make when using an ANOVA.
 Violating these assumptions will mean that our Type I error rate ($\alpha$) is, again, potentially misleading.
 Assumptions of ANOVA include the following [@Box1978; @Sokal1995]:
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  10 MAR 2023 19:27
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  10 MAR 2023 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1512,10 +1512,13 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[156] [157]
+[156]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-[158]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[157] [158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [159]
@@ -1524,9 +1527,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [160]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
+[161]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[161] [162] [163] [164
+[162] [163] [164
 
 
 ]
@@ -1969,7 +1973,7 @@ Underfull \hbox (badness 1152) in paragraph at lines 70--75
 [371] [372] [373] [374]) [375] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
  23716 strings out of 478683
- 480567 string characters out of 5848935
+ 480566 string characters out of 5848935
  1920018 words of memory out of 5000000
  43420 multiletter control sequences out of 15000+600000
  521719 words of font info for 113 fonts, out of 8000000 for 9000
