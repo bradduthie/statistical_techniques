@@ -488,10 +488,10 @@ Figure 25.1 shows the output of a Kruskall-Wallis H test on the fig wasp wing le
 knitr::include_graphics("img/jamovi_kruskall-wallis_test.png");
 ```
 
-Given Kruskall-Wallis H test output (Figure 25.1), we should not reject the null hypothesis that species have different wing lengths because P > 0.05.
+Given the Kruskall-Wallis H test output (Figure 25.1), we should not reject the null hypothesis that species have different wing lengths because P > 0.05.
 This is in contrast to our one-way ANOVA result, for which we did reject the same null hypothesis.
 The Kruskall-Wallis H test does not assume that group variances are the same, unlike the one-way ANOVA.
-Since we know that the homogeneity of variances assumption is violated for the fig wasp data, it is probably best to be cautious and conclude that mean wing length does not differ among species.
+Since we know that the homogeneity of variances assumption is violated for the fig wasp data, it is probably best to be cautious and conclude that there is no evidence that mean wing lengths differ among species.
 
 
 
