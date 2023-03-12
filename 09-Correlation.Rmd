@@ -1,38 +1,252 @@
-# (PART) Counts and Correlation {-}
+# (PART) Counts and Correlation {.unnumbered}
 
-# Week 9 Overview {-#Week9}
+# Week 9 Overview {#Week9 .unnumbered}
 
-General overview of what will be the focus of this week.
-
-Week: 9
-Dates: 
-Suggested Readings: Textbook
-Assessments: Practice quiz
-Practical:
+|                 |                                                        |
+|-----------------|--------------------------------------------------------|
+| **Dates**       | 20 March 2023 - 24 MAR 2023                            |
+| **Reading**     | **Required:**                                          |
+|                 | **Recommended:**                                       |
+|                 | **Suggested:**                                         |
+|                 | **Advanced:**                                          |
+| **Lectures**    | 9.1: Title (0:00 min; [Video]()                        |
+| **Practical**   | ANOVA and associated tests ([Chapter 27](#Chapter_27)) |
+|                 | Room: Cottrell 2A17                                    |
+|                 | Group A: 22 MAR 2023 (WED) 13:05-15:55                 |
+|                 | Group B: 23 MAR 2023 (THU) 09:05-11:55                 |
+| **Help hours**  | Martina Quaggiotto and Brad Duthie                     |
+|                 | Room: Cottrell 1A13                                    |
+|                 | 24 MAR 2023 (FRI) 15:05-17:55                          |
+| **Assessments** | [Week 9 Practice quiz]() on Canvas                     |
 
 # Frequency and count data
 
-General explanation
+In this book, we have introduced hypothesis testing as a tool to determine if variables were sampled from a population with a specific mean (one sample t-test in [Chapter 21.1](#one-sample-t-test)), or if different groups of variables were sampled from a population with the same mean (the independent samples t-test in [Chapter 21.2](#independent-samples-t-test) and ANOVA in [Chapter 23](#Chapter_23)). 
+In these tests, the variables for which we calculated the means were always continuous (e.g., fig wasp wing lengths, nitrogen concentration in parts per million). 
+That is, the variables of the t-test and ANOVA could always, at least in theory, take any real value (i.e., any decimal). 
+And the comparison was always between the means of categorical groups (e.g., fig wasp species or study sites). 
+But not every variable that we measure will be continuous. 
+For example, in [Chapter 5](#Chapter_5), we also introduced discrete variables, which can only take discrete counts (1, 2, 3, 4, and so forth). 
+Examples of such **count data** might include the number of species of birds in a forest or the number of days in the year for which an extreme temperature is recorded. 
+[Chapter 14](#Chapter_14) included some examples of count data when introducing probability distributions (e.g., counts of heads or tails in coin flips, or the number of people testing positive for Covid-19). 
+Count data are discrete because they can only take integer values. 
+For example, there cannot be 14.24 bird species in a forest; it needs to be a whole number.
 
-# Chi-squared goodness of fit
+In the biological and environmental sciences, we often want to test whether or not observed counts are significantly different from some expectation. 
+For example, we might hypothesise that the probability of flowers being red versus blue in a particular field is the same. 
+In other words, $Pr(flower = red) = 0.5$ and $Pr(flower = Blue) = 0.5$. 
+By this logic, if we were to collect 100 flowers at random from the field, we would expect 50 to be red and 50 to be blue. 
+If we actually went out and collected 100 flowers at random, but found 46 to be red and 54 to be blue, would this be sufficiently different from our expectation to reject the null hypothesis that the probability of sampling a red versus blue flower is the same? 
+We could test this null hypothesis using a Chi-square goodness of fit test ([Chapter 28.1](#the-chi-square-distribution)). 
+Similarly, we might want to test if 2 different count variables (e.g., flower colour and flower species) are associated with one another (e.g., if blue flowers are more common in one species than another species). 
+We could test this kind of hypothesis using a Chi-squared test of association ([Chapter 30]()).
 
-Explain what this is.
+Before introducing the Chi-square goodness of fit test or the Chi-square test of association, it makes sense to first introduce the Chi-square ($\chi^{2}$) distribution. 
+The general motivation for introducing the Chi-square distribution is the same as it was for the t-distribution ([Chapter 18](#Chapter_18)) or F-distribution ([Chapter 23.1](#the-f-distribution)). 
+We need some probability density distribution that is our null distribution, which is what we predict if our null hypothesis is true. 
+We then compare this this null distribution our test statistic to find the probability of sampling a test statistic as or more extreme if the null hypothesis is really true (i.e., a p-value).
 
-# Chi-squared test of association
+## The Chi-square distribution
+
+The Chi-square ($\chi^{2}$) distribution is a continuous distribution in which values of $\chi^{2}$ can be any real number greater than or equal to 0. We can generate a $\chi^{2}$ distribution by adding up squared values that are sampled from a standard normal distribution [@Sokal1995], hence the 'square' in 'Chi-square'. 
+There is a lot to unpack in the previous sentence, so we can go through it step by step. 
+First, we can take another look at the standard normal distribution from [Chapter 14.4.4](#normal-distribution) (Figure 28.1).
+
+```{r, echo = FALSE, fig.alt = "A plot of a bell curve, shaded in grey and centered at the x-axis on a value of zero is shown. The x axis is labelled 'x'.", fig.cap = "Recreation of Figure 14.9, a standard normal probability distribution"}
+par(mar = c(5, 5, 1.5, 1.5));
+xx       <- seq(from = -5, to = 5, by = 0.001);
+pr_norm  <- dnorm(x = xx, mean = 0, sd = 1);
+plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+     ylab = "Probability",  xlab = "x", lwd = 3, xlim = c(-3, 3),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+polygon(c(xx, max(xx)), c(pr_norm, 0), col="grey");
+```
+
+Suppose that we randomly sampled 4 values from the standard normal distribution shown in Figure 28.1.
+
+-   $x_{1} = -1.244$
+-   $x_{2} = 0.162$
+-   $x_{3} = -2.214$
+-   $x_{4} = 2.071$
+
+We can square all of these values, then add up the squares,
+
+$$\chi^{2} = (-1.244)^{2} + (0.162)^{2} + (-2.214)^{2} + (2.071)^{2}.$$
+
+Note that $\chi^{2}$ cannot be negative because when we square a number that is either positive or negative, we always end up with a positive value (e.g., $-2^{2} = 4$, see [Chapter 1.1](#numbers-and-operations)). 
+The final value is $\chi^{2} = 10.76462$. 
+Of course, this $\chi^{2}$ value would have been different if our $x_{i}$ values ($x_{1}$, $x_{2}$, $x_{3}$, and $x_{4}$) had been different. 
+And if we are sampling randomly from the normal distribution, we should not expect to get the same $\chi^{2}$ value from 4 random standard normal deviates. 
+We can therefore ask, if we were to keep sampling 4 standard normal deviates and calculating new $\chi^{2}$ values, what would be the distribution of these $\chi^{2}$ values? 
+The answer is shown in Figure 28.1.
+
+```{r, echo = FALSE, fig.alt = "Plot of a curved distribution that rapidly increases to a maximum at around 2 then slowly decreases.", fig.cap = "A Chi-square distribution, which is the expected sum of 4 squared standard normal deviates, i.e., the sum of 4 values sampled from a standard normal distribution and squared."}
+par(mar = c(5, 5, 1.5, 1.5));
+xx        <- seq(from = 0, to = 20, by = 0.001);
+pr_chisq  <- dchisq(x = xx, df = 4);
+plot(x = xx, y = pr_chisq, type = "l", ylim = c(0, 0.22), 
+     ylab = "Probability",  xlab = "Chi-square value", lwd = 3, xlim = c(0, 20),
+     cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
+polygon(c(xx, max(xx)), c(pr_chisq, 0), col="grey");
+```
+
+Looking at the shape of Figure 28.1, we can see that most of the time, the sum of deviations from the mean of $\mu = 0$ will be about 2. 
+But sometimes we will get a much lower or higher value of $\chi^{2}$ by chance, if we sample particularly low or high values of $x_{i}$.
+
+If we summed a different number of squared $x_{i}$ values, then we would expect the distribution of $\chi^{2}$ to change. 
+Had we sampled fewer than 4 $x_{i}$ values, the expected $\chi^{2}$ would be lower just because we are adding up fewer numbers. 
+Similarly, had we sampled more than 4 $x_{i}$ values, the expected $\chi^{2}$ would be higher just because we are adding up more numbers. 
+The shape of the $\chi^{2}$ distribution[^49] is therefore determined by the number of values sampled ($N$), or more specifically the degrees of freedom (df, or sometimes $v$), which in a sample is $df = N - 1$. 
+This is the same idea as the t-distribution from [Chapter 18](#Chapter_18), which also changed shape depending on the degrees of freedom. 
+Figure 28.3 shows the different $\chi^{2}$ probability density distributions for different degrees of freedom.
+
+[^49]: A random variable $X$ has a $\chi^{2}$ distribution if and only if its probability density function is defined by [@Miller2004], $$f(x) = \left\{\begin{array}{ll}\frac{1}{2^{\frac{2}{v}}\Gamma\left(\frac{v}{2}\right)}x^{\frac{v-2}{2}}e^{-\frac{x}{2}} & \quad for\:x > 0 \\ 0 & \quad elsewhere \end{array}\right.$$ In this equation, $v$ is the degrees of freedom of the distribution.
+
+```{r, echo = FALSE, fig.alt = "A plot is shown with 3 different curve lines, which show 3 different Chi-square distributions with different degrees of freedom.", fig.cap = "Probability density functions for 3 different Chi-square distributions, each of which have different degrees of freedom (df)."}
+df   <- 4;
+xx  <- seq(from = 0, to = 8, by = 0.0001);
+yy  <- dchisq(x = xx, df = df);
+par(mar = c(5, 5, 1, 1), lwd = 3);
+mxy <- max(yy[2:length(xx)]);
+ymx <- 0.38;
+plot(x = xx, y = yy, type = "l", lwd = 4, cex.lab = 2, cex.lab = 2,
+ cex.axis = 2, ylab = "Probability density", ylim = c(0, ymx),
+ xlab = "Chi-square value", xlim = c(0, 8));
+df  <- 1;
+y2  <- dchisq(x = xx, df = df);
+points(x = xx, y = y2, type = "l", lwd = 4, lty = "dashed");
+df  <- 8;
+y3  <- dchisq(x = xx, df = df);
+points(x = xx, y = y3, type = "l", lwd = 4, lty = "dotted");
+legend(x = 5, y = 0.38, cex = 1.75,
+       legend = c("df = 4", "df = 1", "df = 8"),
+       lty = c("solid", "dashed", "dotted"));
+```
+
+As with the F distribution from [Chapter 23.1](#the-f-distribution), visualising the $\chi^{2}$ distribution is much, much easier using an [interactive application](https://bradduthie.shinyapps.io/chi-square/).
+
+> [Click here](https://bradduthie.shinyapps.io/chi-square/) for an interactive application demonstrating how the Chi-square distribution changes with different degrees of freedom.
+
+And as with the F distribution, it is not necessary to memorise how the $\chi^{2}$ distribution changes with different degrees of freedom. 
+The important point is that the distribution changes with different degrees of freedom, and we can map probabilities to the $\chi^{2}$ value on the x-axis in the same way as any other distribution.
+
+What does any of this have to do with count data? It actually is a bit messy. 
+The $\chi^{2}$ distribution is not a perfect tool for comparing observed and expected counts [@Sokal1995]. 
+After all, counts are integer values, and the $\chi^{2}$ distribution is clearly continuous (unlike, e.g., the binomial or Poisson distributions from [Chapter 14.4](##probability-distributions). 
+The $\chi^{2}$ distribution is in fact a useful approximation for testing counts, and one that becomes less accurate when sample size [@Slakter1968] or expected count size [@Tate1973] is small. 
+Nevertheless, we can use the $\chi^{2}$ distribution as a tool for testing whether observed counts are significantly different from expected counts. 
+The first test that we will look at is the goodness of fit test.
+
+## Chi-squared goodness of fit
+
+The first kind of test that we will consider for count data is the goodness of fit test. 
+In this test, we have some number of counts that we expect to observe (e.g., expected counts of red versus blue flowers), then compare this expectation to the counts that we actually observe. 
+If the expected and observed counts differ by a lot, then we will get a large test statistic and reject the null hypothesis. 
+A simple concrete example will make this a bit more clear.
+
+Recall the practical in [Chapter 16](#Chapter_16), in which players of the mobile app game [Power Up!](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame) chose a small, medium, or large dam at the start of the game. 
+Suppose that we are interested in the size of dam that policy-makers choose to build when playing the game, so we find 48 such people in Scotland and ask them to play the game. 
+Perhaps we do not think that the policy-makers will have any preference for a particular dam size (and therefore just pick 1 of the 3 dam sizes at random). 
+We would therefore expect an equal number of small, medium, and large dams to be selected among the 48 players. 
+That is, for our expected counts of each dam size ($E_{size}$), we expect 16 small ($E_{small} = 16$), 16 medium ($E_{medium} = 16$), and 16 large ($E_{large} = 16$) dams in total (because $48/3 = 16$).
+
+Of course, even if our players have no preference for a particular dam size, the number of small, medium, and large dams will not always be *exactly* the same. 
+The expected counts might still be a bit different from the observed counts of each dam size ($O_{size}$). 
+Suppose, for example, we find that out of our total 48 policy-makers, we observe 12 small ($O_{small} = 12$), 22 medium ($O_{medium} = 22$), and 14 large ($O_{large} = 14$), dams were actually chosen by game players.
+What we want to test is the null hypothesis that there is no significant difference between expected and observed counts.
+
+- $H_{0}$: There is no significant difference between expected and observed counts.
+- $H_{A}$: There is a significant difference between expected and observed counts.
+
+To get our test statistic[^50], we now just need to take each observed count, subtract the expected count, square this difference, divide by the expected count, then add everything up,
+
+$$\chi^{2} = \frac{(12 - 16)^{2}}{16} + \frac{(22 - 16)^{2}}{16} + \frac{(14 - 16)^{2}}{16}.$$
+
+We can calculate the values in the numerator. 
+Note that all of these numbers must be positive (e.g., $12 - 16 = -4$, but $-4^{2} = 16$),
+
+$$\chi^{2} = \frac{16}{16} + \frac{36}{16} + \frac{4}{16}.$$
+
+When we sum the 3 terms, we get a value of $\chi^{2} = 3.5$.
+Note that if all of our observed values had been the same as the expected values (i.e., 16 small, medium, and large dams actually chosen), then we would get a $\chi^{2}$ value of 0.
+The more the observed values differ from the expectation of 16, the higher the $\chi^{2}$ will be.
+We can now check to see if the test statistic $\chi^{2} = 3.5$ is sufficiently large to reject the null hypothesis that our policy-makers have no preference for small, medium, or large dams.
+There are $N = 3$ categories of counts (small, medium, and large), meaning that there are $df = 3 - 1 = 2$ degrees of freedom.
+The [interactive application](https://bradduthie.shinyapps.io/chi-square/), can be used to compare our test statistic with the null distribution by setting df = 2 and the Chi-square value to 3.5.
+As it turns out, if the null hypothesis is true, then the probability of observing a value of $\chi^{2} = 3.5$ or higher (i.e., the p-value) is only $P = 0.174$.
+Figure 28.3 shows the appropriate $\chi^{2}$ distribution plotted, with the area above the test statistic $\chi^{2} = 3.5$ shaded in grey.
+
+```{r, echo = FALSE, fig.alt = "Plot of curved distribution that starts around 0.5 and decreases, asymptoting toward 0.", fig.cap = "A Chi-square distribution, which is the expected sum of 4 squared standard normal deviates, i.e., the sum of 4 values sampled from a standard normal distribution and squared."}
+chis  <- 3.5
+p_val <- 0.174;
+mbox <- function(x0, x1, y0, y1){
+    xx <- seq(from=x0, to=x1, length.out = 100);
+    yy <- seq(from=y0, to=y1, length.out = 100);
+    xd <- c(rep(x0, 100), xx, rep(x1,100), rev(xx));
+    yd <- c(yy, rep(y1,100), rev(yy), rep(y0, 100));
+    return(list(x=xd, y=yd));
+}
+df  <- 2;
+zz  <- pchisq(q = chis, df = df);
+xx  <- seq(from = 0, to = 10, by = 0.0001);
+yy  <- dchisq(x = xx, df = df);
+o1  <- which(xx >= chis);
+b1  <- which(xx <= chis);
+par(mar = c(5, 5, 1, 1), lwd = 3);
+ymx <- 0.58;
+plot(x = xx, y = yy, type = "l", lwd = 4, cex.lab = 2, cex.lab = 2,
+     cex.axis = 2, ylab = "Probability density", ylim = c(0, ymx),
+     xlab = "Chi-square value", xlim = c(0, 10), yaxs = "i");
+polygon(c(xx[o1], max(xx), rev(xx[o1])),
+        c(yy[xx==max(xx)], yy[o1], rep(0, length(xx[o1]))),
+        col="grey60", lwd = 4);
+mxx <- which(xx == max(xx[b1]));
+polygon(c(xx[b1], max(xx[b1]), rev(xx[b1])),
+        c(yy[b1], yy[mxx], rep(0, length(b1))),
+        col="white", lwd = 4);
+arrows(x0 = chis, x1 = chis,
+       y0 = 0.3, y1 = 0.11, lwd = 3);
+tbox <- mbox(x0 = chis - 1.4, 
+             x1 = chis + 1.4, y0 = 0.25, y1 = 0.35);
+polygon(x=tbox$x, y=tbox$y, lwd=3, border="black", col="white");
+feq <- expression(chi^2 == 3.5);
+text(x = chis, y = 0.3, cex = 2, labels = feq);
+```
+
+
+Because $P > 0.05$, we do not reject the null hypothesis that there is no significant difference between expected and observed counts of chosen dam sizes.
+
+Note that this was a simple example.
+For a goodness of fit test, we can have any number of different count categories (at least, any number greater than 2).
+The expectations also do not *need* to be the same.
+For example, we could have tested the null hypothesis that twice as many policy-makers would choose large dams (i.e., $E_{large} = 24$, $E_{medium} = 12$, and $E_{small} = 12$).
+For $n$ categories, the more general equation for the $\chi^{2}$ statistic is,
+
+$$\chi^{2} = \sum_{i = 1}^{n} \frac{\left(O_{i} - E_{i}\right)^{2}}{E_{i}}.$$
+
+We can therefore use this general equation to calculate a $\chi^{2}$ for any number of categories ($n$).
+Next, we will look at testing associations between counts in different types of categories.
+
+
+[^50]: A lot of statisticians will use $X^{2}$ to represent the test statistic here instead of $\chi^{2}$ [@Sokal1995]. The difference is the upper case 'X' versus the Greek letter Chi, '$\chi$'. The X is used since the test statistic we calculate here is not *technically* from the $\chi^{2}$ distribution, just an approximation. We will not worry about the distinction here, and to avoid confusion, we will just go with $\chi^{2}$. 
+
+## Chi-squared test of association
 
 More explanation
 
-# Correlation key concepts
+# Correlation
 
-# Correlation mathematics
+## Key concepts of correlation
 
-# Correlation hypothesis testing
+## Mathematics of correlation
 
+## Correlation hypothesis testing
 
+### Pearson product moment correlation coefficient
 
+### Spearman rank correlation coefficient
 
-# _Practical_. Analysis of count data, correlation, and regression
-
+# *Practical*. Analysis of count data, correlation, and regression
 
 ## Chi-Square Exercise 1
 
@@ -41,14 +255,3 @@ More explanation
 ## Correlation Exercise 3
 
 ## Correlation Exercise 4
-
-
-
-
-
-
-
-
-
-
-

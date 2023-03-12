@@ -629,12 +629,12 @@ With the two-way ANOVA, we are asking 3 separate questions, and accepting a Type
 # _Practical_. ANOVA and associated tests {#Chapter_27}
 
 This lab focuses on applying the concepts from [Chapter 23](#Chapter_23), [Chapter 24](#Chapter_24), [Chapter 25](#Chapter_25), and [Chapter 26](#Chapter_17) in Jamovi [@Jamovi2022].
-The focus will be on ANOVA and associated tests, with 4 exercises in total.
-The data for this lab are inspired by the doctoral work of Dr Lidia De Sousa Teixeira at the University of Stirling.
+The focus will be on ANOVA and associated tests, with 5 exercises in total.
+The data for this lab are inspired by the doctoral work of Dr Lidia De Sousa Teixeira at the University of Stirling (Figure 27.1).
 This work included a nutrient analysis of agricultural soil in different regions of Angola.
-Measuring soil nutrient concentrations is essential for assessing soil quality, and this data includes analysis of Nitrogen (N), Phosphorus (P), and Potassium (K) concentrations.
+Measuring soil nutrient concentrations is essential for assessing soil quality, and these data include measurements of Nitrogen (N), Phosphorus (P), and Potassium (K) concentrations.
 
-```{r, echo = FALSE, fig.alt = "Decorative image showing various pictures of soil collection, measurement, and flasks with liquid in them.", fig.cap = "Images from a project led by the Dr Lidia De Sousa Teixeira at the University of Stirling", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Decorative image showing various pictures of soil collection, measurement, and flasks with liquid in them.", fig.cap = "Images from a project led by Dr Lidia De Sousa Teixeira at the University of Stirling", out.width="100%"}
 knitr::include_graphics("img/lidia_project.png")
 ```
 
@@ -771,7 +771,7 @@ df2: _______________
 P: _______________
 
 
-From these statistics, what do you conclude about the difference in Nitrogen concentration among sites?
+From these statistics, what do you conclude about the difference in Nitrogen concentration among pofiles?
 
 Conclusion: _____________________
 
@@ -813,7 +813,7 @@ colnames(anova_table) <- c("Sum of Squares", "df", "Mean Square", "F", "p");
 The output in the right panel shows an ANOVA table.
 It includes the sum of squares of the among-group (Profile) and within-group (Residuals) sum of squares and mean square.
 This is often how ANOVA results are presented in the literature.
-Fill in the table below with the information for degrees of freedom, F, and P.
+Fill in the table below (Table 27.1) with the information for degrees of freedom, F, and P.
 
 ```{r, echo = FALSE}
 knitr::kable(anova_table, format = "simple", table.envir = "table",
@@ -833,7 +833,7 @@ In the ANOVA input panel, scroll down to the pulldown option called 'Post Hoc Te
 knitr::include_graphics("img/jamovi_multiple_comparisons_input.png")
 ```
 
-Move 'Profile' to the box to the right, then select they 'Tukey' checkbox under **Correction**, as shown in Figure 27.5.
+Move 'Profile' to the box to the right, then select the 'Tukey' checkbox under **Correction**, as shown in Figure 27.5.
 Doing this will run the Tukey’s honestly significant difference (HSD) test introduced in [Chapter 24](#Chapter_24).
 The output will appear in the panel on the right in a table called 'Post Hoc Tests'.
 Note that these post-hoc tests use the t-distribution to test for significance.
@@ -897,7 +897,7 @@ Specifically, p-hacking can lead us to believe that there are patterns in nature
 
 ## Kruskall-Wallis H test
 
-In this exercise, we will apply the nonparametric equivalent of the one-way ANOVA, the Kruskall-Wallis H test.
+In this exercise, we will apply the non-parametric equivalent of the one-way ANOVA, the Kruskall-Wallis H test.
 Suppose that we now want to know if Potassium concentration differs among soil profiles.
 We therefore want to test the null hypothesis that the mean Potassium concentration is the same for all soil profiles.
 Before opening the ANOVA input panel, have a look at a histogram of Potassium concentration.
@@ -1031,7 +1031,7 @@ knitr::include_graphics("img/jamovi_marginal_means.png")
 ```
 
 
-In the panel on the right hand side, a plot will appear under the heaading 'Estimated Marginal Means'.
+In the panel on the right hand side, a plot will appear under the heading 'Estimated Marginal Means'.
 Based on what you learned in [Chapter 26](#Chapter_26) about interaction effects, what can you say about the interaction between Site and Profile?
 Does one Profile, in particular, appear to be causing the interaction to be significant?
 How can you infer this from the Estimated Marginal Means plot?
