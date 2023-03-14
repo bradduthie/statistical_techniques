@@ -121,7 +121,7 @@ Our upper 95\% confidence interval is,
 
 $$UCI_{95\%} = 4.1 + \left(1.96 \times \frac{0.6}{\sqrt{20}}\right) = 4.363$$
 
-Our 95\% CIs are therefore $LCI = 4.041$ and $UCI = 4.159$.
+Our 95\% CIs are therefore $LCI = 3.837$ and $UCI = 4.363$.
 We can now come back to the statistical concept of what this actually means.
 If we were to go out and repeatedly collect new samples of 20 cats, and do the above calculations each time, then 95\% of the time our true mean cat body mass would be somewhere between the LCI and UCI.
 
@@ -140,7 +140,7 @@ Our upper 99\% confidence interval is,
 $$UCI_{99\%} = 4.1 + \left(2.58 \times \frac{0.6}{\sqrt{20}}\right) = 4.446$$
 
 Notice that the confidence intervals became wider around the sample mean.
-The 99\% CI is now 4.023-4.177, while the 95\% CI was 4.041-4.159.
+The 99\% CI is now 3.754-4.446, while the 95\% CI was 3.837-4.363
 This is because if we want to be more confident about our interval containing the true mean, we need to make a bigger interval.
 
 We could make CIs using any percentage that we want, but in practice it is very rare to see anything other than 90\% ($z = 1.65$), 95\% ($z = 1.96$), or 99\% ($z = 2.58$).
