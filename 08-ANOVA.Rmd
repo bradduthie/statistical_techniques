@@ -663,7 +663,7 @@ Normality conclusion: ___________________________
 
 Homogeneity of variances conclusion: ______________________________
 
-Given the conclusions from the checks of normality and homogeneity of variances above, what kind of test should you use use to see if the mean Nitrogen concentration is significantly different in Funda versus Bailundo?
+Given the conclusions from the checks of normality and homogeneity of variances above, what kind of test should you use to see if the mean Nitrogen concentration is significantly different in Funda versus Bailundo?
 
 Test: __________________
 
@@ -771,7 +771,7 @@ df2: _______________
 P: _______________
 
 
-From these statistics, what do you conclude about the difference in Nitrogen concentration among pofiles?
+From these statistics, what do you conclude about the difference in Nitrogen concentration among profiles?
 
 Conclusion: _____________________
 
@@ -780,6 +780,7 @@ We can do the same thing with the distrACTION module in Jamovi.
 To do this, go to the distrACTION option in the Jamovi toolbar and select 'F-Distribution' from the pulldown menu.
 Place the df1 and df2 from the One-Way ANOVA table into the df1 and df2 boxes under **Parameters** (ignore $\lambda$).
 Under **Function**, select 'Compute probability', then place the F value from the One-Way ANOVA table in the box for x1.
+We want the upper tail of the F probability distribution, so choose $P(X \geq x1)$ from the radio buttons below.
 Write down the 'Probability' value from the Results table in the panel to the right.
 
 Probability: _________________

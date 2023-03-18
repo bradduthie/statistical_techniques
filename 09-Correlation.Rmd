@@ -145,14 +145,14 @@ If the expected and observed counts differ by a lot, then we will get a large te
 A simple concrete example will make this a bit more clear.
 
 Recall the practical in [Chapter 16](#Chapter_16), in which players of the mobile app game [Power Up!](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame) chose a small, medium, or large dam at the start of the game. 
-Suppose that we are interested in the size of dam that policy-makers choose to build when playing the game, so we find 48 such people in Scotland and ask them to play the game. 
+Suppose that we are interested in the size of dam that policy-makers choose to build when playing the game, so we find 60 such people in Scotland and ask them to play the game. 
 Perhaps we do not think that the policy-makers will have any preference for a particular dam size (and therefore just pick 1 of the 3 dam sizes at random). 
-We would therefore expect an equal number of small, medium, and large dams to be selected among the 48 players. 
-That is, for our expected counts of each dam size ($E_{size}$), we expect 16 small ($E_{small} = 16$), 16 medium ($E_{medium} = 16$), and 16 large ($E_{large} = 16$) dams in total (because $48/3 = 16$).
+We would therefore expect an equal number of small, medium, and large dams to be selected among the 60 players. 
+That is, for our expected counts of each dam size ($E_{size}$), we expect 20 small ($E_{small} = 20$), 20 medium ($E_{medium} = 20$), and 20 large ($E_{large} = 20$) dams in total (because $60/3 = 20$).
 
 Of course, even if our players have no preference for a particular dam size, the number of small, medium, and large dams will not always be *exactly* the same. 
 The expected counts might still be a bit different from the observed counts of each dam size ($O_{size}$). 
-Suppose, for example, we find that out of our total 48 policy-makers, we observe 12 small ($O_{small} = 12$), 22 medium ($O_{medium} = 22$), and 14 large ($O_{large} = 14$), dams were actually chosen by game players.
+Suppose, for example, we find that out of our total 60 policy-makers, we observe 18 small ($O_{small} = 18$), 24 medium ($O_{medium} = 24$), and 18 large ($O_{large} = 18$), dams were actually chosen by game players.
 What we want to test is the null hypothesis that there is no significant difference between expected and observed counts.
 
 - $H_{0}$: There is no significant difference between expected and observed counts.
@@ -160,25 +160,25 @@ What we want to test is the null hypothesis that there is no significant differe
 
 To get our test statistic[^50], we now just need to take each observed count, subtract the expected count, square this difference, divide by the expected count, then add everything up,
 
-$$\chi^{2} = \frac{(12 - 16)^{2}}{16} + \frac{(22 - 16)^{2}}{16} + \frac{(14 - 16)^{2}}{16}.$$
+$$\chi^{2} = \frac{(18 - 20)^{2}}{20} + \frac{(24 - 20)^{2}}{20} + \frac{(18 - 20)^{2}}{20}.$$
 
 We can calculate the values in the numerator. 
-Note that all of these numbers must be positive (e.g., $12 - 16 = -4$, but $-4^{2} = 16$),
+Note that all of these numbers must be positive (e.g., $18 - 20 = -2$, but $-2^{2} = 4$),
 
-$$\chi^{2} = \frac{16}{16} + \frac{36}{16} + \frac{4}{16}.$$
+$$\chi^{2} = \frac{4}{20} + \frac{16}{20} + \frac{4}{20}.$$
 
-When we sum the 3 terms, we get a value of $\chi^{2} = 3.5$.
-Note that if all of our observed values had been the same as the expected values (i.e., 16 small, medium, and large dams actually chosen), then we would get a $\chi^{2}$ value of 0.
-The more the observed values differ from the expectation of 16, the higher the $\chi^{2}$ will be.
-We can now check to see if the test statistic $\chi^{2} = 3.5$ is sufficiently large to reject the null hypothesis that our policy-makers have no preference for small, medium, or large dams.
+When we sum the 3 terms, we get a value of $\chi^{2} = 1.2$.
+Note that if all of our observed values had been the same as the expected values (i.e., 20 small, medium, and large dams actually chosen), then we would get a $\chi^{2}$ value of 0.
+The more the observed values differ from the expectation of 20, the higher the $\chi^{2}$ will be.
+We can now check to see if the test statistic $\chi^{2} = 1.2$ is sufficiently large to reject the null hypothesis that our policy-makers have no preference for small, medium, or large dams.
 There are $N = 3$ categories of counts (small, medium, and large), meaning that there are $df = 3 - 1 = 2$ degrees of freedom.
-The [interactive application](https://bradduthie.shinyapps.io/chi-square/), can be used to compare our test statistic with the null distribution by setting df = 2 and the Chi-square value to 3.5.
-As it turns out, if the null hypothesis is true, then the probability of observing a value of $\chi^{2} = 3.5$ or higher (i.e., the p-value) is only $P = 0.174$.
-Figure 28.3 shows the appropriate $\chi^{2}$ distribution plotted, with the area above the test statistic $\chi^{2} = 3.5$ shaded in grey.
+The [interactive application](https://bradduthie.shinyapps.io/chi-square/), can be used to compare our test statistic with the null distribution by setting df = 2 and the Chi-square value to 1.2.
+As it turns out, if the null hypothesis is true, then the probability of observing a value of $\chi^{2} = 1.2$ or higher (i.e., the p-value) is $P = 0.5488$.
+Figure 28.3 shows the appropriate $\chi^{2}$ distribution plotted, with the area above the test statistic $\chi^{2} = 1.2$ shaded in grey.
 
 ```{r, echo = FALSE, fig.alt = "Plot of curved distribution that starts around 0.5 and decreases, asymptoting toward 0.", fig.cap = "A Chi-square distribution, which is the expected sum of 4 squared standard normal deviates, i.e., the sum of 4 values sampled from a standard normal distribution and squared."}
-chis  <- 3.5
-p_val <- 0.174;
+chis  <- 1.2
+p_val <- 0.5488;
 mbox <- function(x0, x1, y0, y1){
     xx <- seq(from=x0, to=x1, length.out = 100);
     yy <- seq(from=y0, to=y1, length.out = 100);
@@ -204,13 +204,13 @@ mxx <- which(xx == max(xx[b1]));
 polygon(c(xx[b1], max(xx[b1]), rev(xx[b1])),
         c(yy[b1], yy[mxx], rep(0, length(b1))),
         col="white", lwd = 4);
-arrows(x0 = chis, x1 = chis,
-       y0 = 0.3, y1 = 0.11, lwd = 3);
-tbox <- mbox(x0 = chis - 1.4, 
-             x1 = chis + 1.4, y0 = 0.25, y1 = 0.35);
+arrows(x0 = 2, x1 = chis,
+       y0 = 0.4, y1 = 0.285, lwd = 3);
+tbox <- mbox(x0 = 3 - 1.4, 
+             x1 = 3 + 1.4, y0 = 0.4, y1 = 0.5);
 polygon(x=tbox$x, y=tbox$y, lwd=3, border="black", col="white");
-feq <- expression(chi^2 == 3.5);
-text(x = chis, y = 0.3, cex = 2, labels = feq);
+feq <- expression(chi^2 == 1.2);
+text(x = 3, y = 0.45, cex = 2, labels = feq);
 ```
 
 
@@ -218,11 +218,14 @@ Because $P > 0.05$, we do not reject the null hypothesis that there is no signif
 
 Note that this was a simple example.
 For a goodness of fit test, we can have any number of different count categories (at least, any number greater than 2).
+The expectations also do not need to be integers.
+For example, if we only managed to find 59 policy makers instead of 60, then our expected counts would have been $59/3 = 19.33$ instead of $60/3 = 20$.
 The expectations also do not *need* to be the same.
-For example, we could have tested the null hypothesis that twice as many policy-makers would choose large dams (i.e., $E_{large} = 24$, $E_{medium} = 12$, and $E_{small} = 12$).
+For example, we could have tested the null hypothesis that twice as many policy-makers would choose large dams (i.e., $E_{large} = 40$, $E_{medium} = 10$, and $E_{small} = 10$).
 For $n$ categories, the more general equation for the $\chi^{2}$ statistic is,
 
 $$\chi^{2} = \sum_{i = 1}^{n} \frac{\left(O_{i} - E_{i}\right)^{2}}{E_{i}}.$$
+
 
 We can therefore use this general equation to calculate a $\chi^{2}$ for any number of categories ($n$).
 Next, we will look at testing associations between counts in different types of categories.
@@ -232,7 +235,135 @@ Next, we will look at testing associations between counts in different types of 
 
 ## Chi-squared test of association
 
-More explanation
+The second kind of test that we will consider for count data is the Chi-square test of association.
+While the goodness of fit test focused on a single categorical variable (dam sizes in the example above), the Chi-square test of association focuses on 2 different categorical variables.
+What we want to know is whether or not the 2 categorical variables are independent of one another [@Box1978].
+In other words, does knowing something about one variable tell us anything about the other variable?
+A concrete example will make it easier to explain.
+We can again make use of the [Chapter 16](#Chapter_16) game [Power Up!](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame).
+As mentioned in the [previous section](#chi-squared-goodness-of-fit), game players choose a small, medium, or large game at the start of the game.
+Players can play the game on either an Android or MacOS mobile device.
+We therefore have 2 categorical variables, dam size and OS type.
+We might want to know, do Android users choose the same dam sizes as MacOS users?
+In other words, are dam size and OS type associated?
+We can state this as a null and alternative hypthesis.
+
+- $H_{0}$: There is no association between OS and dam size choice.
+- $H_{A}$: There is an association between OS and dam size choice.
+
+Consider the data in Table 28.1, which show counts of Android versus MacOS users and their dam choices.
+
+```{r, echo = FALSE}
+power_table <- matrix(data = c(8, 10, 16, 8, 6, 12), nrow = 2, byrow = FALSE);
+rownames(power_table) <- c("Android", "MacOS");
+colnames(power_table) <- c("Small", "Medium", "Large");
+knitr::kable(power_table, format = "simple", table.envir = "table",
+      caption = "Counts (N = 60) from a mobile game called 'Power Up!', in which players are confronted with trade-offs between energy output, energy justice, and biodiversity. Players can use 1 of 2 types of Operating System (Android or MacOS) and build one of 3 types of dam in the game (Small, Medium, or Large).");
+```
+
+Just looking at the counts in Table 28.1, it appears that there might be an association between the 2 variables.
+For example, Android users appear to be more likely to choose a medium dam than MacOS users.
+Medium dams are the most popular choice for Android users, but they are the least popular choice for MacOS users.
+Nevertheless, could this just be due to chance?
+If it were due to chance, then how unlikely are the counts in Table 28.1?
+In other words, if Android and Mac users in the whole population really do choose dam sizes at the same frequencies, then what is the probability of getting a sample of 60 players in which the choices are as or more unbalanced as this?
+This is what we want to answer with our Chi-squared test of association.
+
+The general idea is the same as with the Chi-squared goodness of fit test.
+We have our observed values (Table 28.1).
+We now need to find the expected values to calculate a $\chi^{2}$ value.
+But the expected values are now a bit more complicated.
+With the goodness of fit test in [Chapter 28.2](#chi-squared-goodness-of-fit), we just assumed that all categories were equally likely (i.e., the probability of choosing each size dam was the same). 
+There were 60 players and 3 dam sizes, so the expected frequency of each dam choice was 60/3 = 20
+Now it is different.
+We are not testing if dam sizes or OS choices are the same.
+We want to know of they are *associated* with one another.
+That is, regardless of the popularity of Android vs MacOS, or the frequency with which small, medium and large dams are selected, do Android users choose different dam sizes than MacOS users?
+If dam size is not associated with OS, then we would predict that the relative frequency of small, medium, and large dams would be the same for both Android and MacOS.
+
+To find the expected counts of each variable combination (e.g., Android and Small, or MacOS and Large), we need to get the probability that each category is selected independently.
+For example, what is the probability of a player selecting a large dam, regardless of the OS that they are using?
+Table 28.1 below shows these probabilities as additional rows and columns added onto Table 28.1
+
+```{r, echo = FALSE}
+power_table2 <- matrix(data = c(8, 10, 0.3, 16, 8, 0.4, 6, 12, 0.3, 0.5, 0.5, "--"), 
+                       nrow = 3, byrow = FALSE);
+rownames(power_table2) <- c("Android", "MacOS", "**Probability**");
+colnames(power_table2) <- c("Small", "Medium", "Large", "**Probability**");
+knitr::kable(power_table2, format = "simple", table.envir = "table",
+      caption = "Counts (N = 60) from a mobile game called 'Power Up!', in which players are confronted with trade-offs between energy output, energy justice, and biodiversity. Players can use 1 of 2 types of Operating System (Android or MacOS) and build one of 3 types of dam in the game (Small, Medium, or Large). Outer rows and columns show the probabilities of categories being selected");
+```
+
+
+Since there are 30 total Android users ($8 + 16 + 6 = 30$) and 30 total MacOS users (Table 28.2), the probability of a player having an Android OS is $30/60 = 0.5$, and the probability of a player having a MacOS is also $30 / 60 =  0.5$.
+Similarly, there are 18 small, 24 medium, and 18 large dam choices in total.
+Hence, the probability of a player choosing a small dam is $18/60 = 0.3$, medium is $24/60 = 0.3$, and large is $18/60 = 0.3$.
+If these probabilities combine independently[^51], then we can multiply them to find the probability of a particular combination of categories.
+For example, the probability of a player using Android is 0.5 and choosing a small dam is 0.3, so the probability of a player having both Android **and** a small dam is $0.5 \times 0.3 = 0.15$ (see [Chapter 15](#Chapter_15) for an introduction to probability models).
+The probability of a player using Android **and** choosing a medium dam is $0.5 \times 0.4 = 0.2$.
+We can fill in all of these joint probabilities in a new Table 28.3.
+
+```{r, echo = FALSE}
+power_table2 <- matrix(data = c(0.15, 0.15, 0.3, 0.2, 0.2, 0.4, 0.15, 0.15, 0.3, 0.5, 0.5, "--"),
+                       nrow = 3, byrow = FALSE);
+rownames(power_table2) <- c("Android", "MacOS", "**Probability**");
+colnames(power_table2) <- c("Small", "Medium", "Large", "**Probability**");
+knitr::kable(power_table2, format = "simple", table.envir = "table",
+      caption = "Probabilities for each combination of categorical variables from a dataset in which players on either an Android or MacOS choose a dam size in the mobile app game 'Power Up!', assuming that variables are independent of one another.");
+```
+
+
+From Table 28.3, we now have the probability of each combination of variables.
+Note that all of these probabilities sum to 1.
+
+$$0.15 + 0.2 + 0.15 + 0.15 + 0.2 + 0.15 = 1.$$
+
+To get the expected count of each combination, we just need to multiply the probability by the sample size, i.e., the total number of players (N = 60).
+For example, the expected count of players who use Android and choose a small dam will be $0.15 \times 60 = 9$.
+Table 28.4 fills in all of the expected counts.
+Note that the sum of all the counts equals our sample size of 60.
+
+
+```{r, echo = FALSE}
+power_table3 <- matrix(data = c(9, 9, 18, 12, 12, 24, 9, 9, 18, 30, 30, "--"),
+                       nrow = 3, byrow = FALSE);
+rownames(power_table3) <- c("Android", "MacOS", "**Sum**");
+colnames(power_table3) <- c("Small", "Medium", "Large", "**Sum**");
+knitr::kable(power_table3, format = "simple", table.envir = "table",
+      caption = "Expected counts for each combination of categorical variables from a dataset in which players on either an Android or MacOS choose a dam size in the mobile app game 'Power Up!', assuming that variables are independent of one another.");
+```
+
+We now have both the observed (Table 28.2) and expected (Table 28.4) counts (remember that the expected counts do not *need* to be integers).
+To get our $\chi^{2}$ test statistic, we use the same formula as in [Chapter 28.2](#chi-squared-goodness-of-fit),
+
+$$\chi^{2} = \sum_{i = 1}^{n} \frac{\left(O_{i} - E_{i}\right)^{2}}{E_{i}}.$$
+
+There are 9 total combinations of OS and dam size, so there are $n = 9$ values to sum up,
+
+$$\chi^{2} = \frac{(8-9)^2}{9} + \frac{(16 - 12)^{2}}{12} + ... + \frac{(16 - 12)^{2}}{12} + \frac{(8-9)^2}{9}.$$
+
+If we sum all of the 9 terms, we get a value of $\chi^{2} = 4.889$.
+We can compare this to the null $\chi^{2}$ distribution as we did in the [Chapter 28.2](#chi-squared-goodness-of-fit) goodness of fit test, but we need to know the correct degrees of freedom.
+The correct degrees of freedom[^52] is the number of categories in variable 1 ($n_{1}$) minus 1, times the number of categories in variable 2 ($n_{2}$) minus 1,
+
+$$df = (n_{1} - 1) \times (n_{2} - 1).$$
+
+In the case of our example, the number of dams types minus 1 ($n_{dam} = 3 - 1)$ times the number of operating systems minus 1 ($n_{OS} = 2 - 1$).
+The correct degrees of freedom is therefore $df = 2 \times 1 = 2$.
+We now just need to find the p-value for a Chi-square distriution with 2 degrees of freedom and a test statistic of $\chi^{2} = 4.889$.
+From the [interactive app](https://bradduthie.shinyapps.io/chi-square/) (set df to 2 and slide the Chi-square value to 4.9), we get a value of about $P = 0.0868$.
+In other words, if $H_{0}$ is true, then the probability of getting a $\chi^{2}$ of 4.889 or higher is $P = 0.0868$.
+Consequently, because $P > 0.05$, we would not reject the null hypothesis.
+We should therefore conclude that there is no evidence for an association between OS and dam size choice.
+
+Statistical programs such as R and Jamovi will calculate the $\chi^{2}$ value and get the p-value for the appropriate degrees of freedom [@Jamovi2022; @Rproject].
+To do this in Jamovi, it is necessary to input the categorical data (e.g., Android, MacOS) in a tidy format, which will be a focus of the practical [Chapter 30](#Chapter_30).
+
+
+
+[^51]: We can call these the 'marginal probabilities'.
+
+[^52]: This formula works due to a bit of a mathematical trick [@Sokal1995]. The actual logic of the degrees of freedom is a bit more involved. From our total of $k = 6$ different combinations, we actually need to subtract 1 degree of freedom for the total sample size ($N = 60$), then a degree of freedom for each variable probability estimated (i.e., subtract $n_{1} - 1$ and $n_{2} - 1$ because we need this many degrees of freedom to get the $n_{1}$ and $n_{2}$ probabilities, respectively -- if we have all but 1, then we know the last since the probabilities must sum to 1). Since we lose $n_{1} - 1$ and $n_{2} - 1$ degrees of freedom, and 1 for the sample size, this results in $df = k - (n_{1} - 1) - (n_{2} - 1) - 1$. In the case of the "Power Up!" example, we get $df = 6 - (3 - 1) - (2 - 1) - 1 = 2$. The $df = (n_{1} - 1) \times (n_{2} - 1)$ formulation is possible because $k = n_{1} \times n_{2}$ [@Sokal1995].
 
 # Correlation
 
@@ -250,7 +381,11 @@ More explanation
 
 ## Chi-Square Exercise 1
 
+Offspring counts from 5 colonies
+
 ## Chi-Square association Exercise 2
+
+Radiation versus survival
 
 ## Correlation Exercise 3
 
