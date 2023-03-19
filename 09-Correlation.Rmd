@@ -659,7 +659,7 @@ This experimental work tested the effects of radiation on bumblebee nectar consu
 knitr::include_graphics("img/bumblebee.jpg");
 ```
 
-The practical will use the [bumblebee.csv]() dataset (right click and “Save Link As…”, then save it with the extension ‘.csv’).
+The practical will use the [bumblebee.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/bumblebee.csv) dataset (right click and “Save Link As…”, then save it with the extension ‘.csv’).
 This dataset includes variables for the radiation level experienced by the bee (radiation), the colony from which the bee came (colony), whether or not the bee survived to the end of the 30 day experiment (survived), the mass of the bee in grams at the beginning of the experiment (mass), the output of carbon dioxide put out by the bee (CO_2) in micromoles per minute, and the daily volume of nector consumed by the be in ml (nectar).
 
 
