@@ -5,19 +5,24 @@
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
 | **Dates**       | 20 March 2023 - 24 MAR 2023                            |
-| **Reading**     | **Required:**                                          |
-|                 | **Recommended:**                                       |
-|                 | **Suggested:**                                         |
-|                 | **Advanced:**                                          |
-| **Lectures**    | 9.1: Title (0:00 min; [Video]()                        |
-| **Practical**   | ANOVA and associated tests ([Chapter 27](#Chapter_27)) |
+| **Reading**     | **Required:** SCIU4T4 Workbook chapters 28 and 29      |
+|                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
+|                 | **Suggested:**  @Rowntree2018 (Chapter 8)              |
+|                 | **Advanced:**   @Rodgers1988 ([Download](https://www.stat.berkeley.edu/~rabbee/correlation.pdf))                                    |
+| **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bcf001a6-0964-44f4-9515-af8200d91e20&start=0))     |
+|                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0176758a-498e-48e5-9011-af8200d91e56&start=0))                      |
+|                 | 9.3: Chi-squared test of association (0:00 min; [Video]())     |
+|                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f55424c3-384e-4e7c-920e-af8200d91ecc))     |
+|                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=390375a9-9bb5-4a3b-a466-af8200d91ee8))                        |
+|                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9cd2493c-9665-47e4-b603-afca0120c2e4))                        |
+| **Practical**   | Analysis of counts and correlations ([Chapter 30](#Chapter_30)) |
 |                 | Room: Cottrell 2A17                                    |
 |                 | Group A: 22 MAR 2023 (WED) 13:05-15:55                 |
 |                 | Group B: 23 MAR 2023 (THU) 09:05-11:55                 |
 | **Help hours**  | Martina Quaggiotto and Brad Duthie                     |
 |                 | Room: Cottrell 1A13                                    |
 |                 | 24 MAR 2023 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 9 Practice quiz]() on Canvas                     |
+| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30819) on Canvas                     |
 
 # Frequency and count data {#Chapter_28}
 
@@ -522,7 +527,7 @@ $$r = \frac{\sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right) \left(y_{i} - \bar{y} 
 
 As with other statistics defined in this book, it is almost never necessary to calculate $r$ by hand.
 Statistical programs such as Jamovi and R will make these calculations for us [@Jamovi2022; @Rproject].
-The reason for working through all of these equations is to help make the conceptual link between $r$ and the variance of the variables of interest.
+The reason for working through all of these equations is to help make the conceptual link between $r$ and the variance of the variables of interest [@Rodgers1988].
 To make this link a bit more clear, we can calculate the correlation coefficient of thorax and abdomen length from Table 29.1.
 We can set thorax to be the $x$ variable and abdomen to be the $y$ variable.
 Mean thorax length is $\bar{x} = 0.770$, and mean abdomen length is $\bar{y} = 1.210$.
