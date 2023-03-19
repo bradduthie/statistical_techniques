@@ -49,7 +49,7 @@ We could test this kind of hypothesis using a Chi-squared test of association ([
 Before introducing the Chi-square goodness of fit test or the Chi-square test of association, it makes sense to first introduce the Chi-square ($\chi^{2}$) distribution. 
 The general motivation for introducing the Chi-square distribution is the same as it was for the t-distribution ([Chapter 18](#Chapter_18)) or F-distribution ([Chapter 23.1](#the-f-distribution)). 
 We need some probability density distribution that is our null distribution, which is what we predict if our null hypothesis is true. 
-We then compare this this null distribution our test statistic to find the probability of sampling a test statistic as or more extreme if the null hypothesis is really true (i.e., a p-value).
+We then compare this null distribution of our test statistic to find the probability of sampling a test statistic as or more extreme if the null hypothesis is really true (i.e., a p-value).
 
 ## The Chi-square distribution
 
@@ -83,7 +83,7 @@ The final value is $\chi^{2} = 10.76462$.
 Of course, this $\chi^{2}$ value would have been different if our $x_{i}$ values ($x_{1}$, $x_{2}$, $x_{3}$, and $x_{4}$) had been different. 
 And if we are sampling randomly from the normal distribution, we should not expect to get the same $\chi^{2}$ value from 4 random standard normal deviates. 
 We can therefore ask, if we were to keep sampling 4 standard normal deviates and calculating new $\chi^{2}$ values, what would be the distribution of these $\chi^{2}$ values? 
-The answer is shown in Figure 28.1.
+The answer is shown in Figure 28.2.
 
 ```{r, echo = FALSE, fig.alt = "Plot of a curved distribution that rapidly increases to a maximum at around 2 then slowly decreases.", fig.cap = "A Chi-square distribution, which is the expected sum of 4 squared standard normal deviates, i.e., the sum of 4 values sampled from a standard normal distribution and squared."}
 par(mar = c(5, 5, 1.5, 1.5));
@@ -95,7 +95,7 @@ plot(x = xx, y = pr_chisq, type = "l", ylim = c(0, 0.22),
 polygon(c(xx, max(xx)), c(pr_chisq, 0), col="grey");
 ```
 
-Looking at the shape of Figure 28.1, we can see that most of the time, the sum of deviations from the mean of $\mu = 0$ will be about 2. 
+Looking at the shape of Figure 28.2, we can see that most of the time, the sum of deviations from the mean of $\mu = 0$ will be about 2. 
 But sometimes we will get a much lower or higher value of $\chi^{2}$ by chance, if we sample particularly low or high values of $x_{i}$.
 
 If we summed a different number of squared $x_{i}$ values, then we would expect the distribution of $\chi^{2}$ to change. 
@@ -137,7 +137,7 @@ The important point is that the distribution changes with different degrees of f
 
 What does any of this have to do with count data? It actually is a bit messy. 
 The $\chi^{2}$ distribution is not a perfect tool for comparing observed and expected counts [@Sokal1995]. 
-After all, counts are integer values, and the $\chi^{2}$ distribution is clearly continuous (unlike, e.g., the binomial or Poisson distributions from [Chapter 14.4](##probability-distributions). 
+After all, counts are integer values, and the $\chi^{2}$ distribution is clearly continuous (unlike, e.g., the binomial or Poisson distributions from [Chapter 14.4](##probability-distributions)). 
 The $\chi^{2}$ distribution is in fact a useful approximation for testing counts, and one that becomes less accurate when sample size [@Slakter1968] or expected count size [@Tate1973] is small. 
 Nevertheless, we can use the $\chi^{2}$ distribution as a tool for testing whether observed counts are significantly different from expected counts. 
 The first test that we will look at is the goodness of fit test.
@@ -179,7 +179,7 @@ We can now check to see if the test statistic $\chi^{2} = 1.2$ is sufficiently l
 There are $N = 3$ categories of counts (small, medium, and large), meaning that there are $df = 3 - 1 = 2$ degrees of freedom.
 The [interactive application](https://bradduthie.shinyapps.io/chi-square/), can be used to compare our test statistic with the null distribution by setting df = 2 and the Chi-square value to 1.2.
 As it turns out, if the null hypothesis is true, then the probability of observing a value of $\chi^{2} = 1.2$ or higher (i.e., the p-value) is $P = 0.5488$.
-Figure 28.3 shows the appropriate $\chi^{2}$ distribution plotted, with the area above the test statistic $\chi^{2} = 1.2$ shaded in grey.
+Figure 28.4 shows the appropriate $\chi^{2}$ distribution plotted, with the area above the test statistic $\chi^{2} = 1.2$ shaded in grey.
 
 ```{r, echo = FALSE, fig.alt = "Plot of curved distribution that starts around 0.5 and decreases, asymptoting toward 0.", fig.cap = "A Chi-square distribution, which is the expected sum of 4 squared standard normal deviates, i.e., the sum of 4 values sampled from a standard normal distribution and squared."}
 chis  <- 1.2
@@ -246,12 +246,12 @@ What we want to know is whether or not the 2 categorical variables are independe
 In other words, does knowing something about one variable tell us anything about the other variable?
 A concrete example will make it easier to explain.
 We can again make use of the [Chapter 16](#Chapter_16) game [Power Up!](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame).
-As mentioned in the [previous section](#chi-squared-goodness-of-fit), game players choose a small, medium, or large game at the start of the game.
+As mentioned in the [previous section](#chi-squared-goodness-of-fit), game players choose a small, medium, or large dam at the start of the game.
 Players can play the game on either an Android or MacOS mobile device.
 We therefore have 2 categorical variables, dam size and OS type.
 We might want to know, do Android users choose the same dam sizes as MacOS users?
 In other words, are dam size and OS type associated?
-We can state this as a null and alternative hypthesis.
+We can state this as a null and alternative hypothesis.
 
 - $H_{0}$: There is no association between OS and dam size choice.
 - $H_{A}$: There is an association between OS and dam size choice.
@@ -271,7 +271,7 @@ For example, Android users appear to be more likely to choose a medium dam than 
 Medium dams are the most popular choice for Android users, but they are the least popular choice for MacOS users.
 Nevertheless, could this just be due to chance?
 If it were due to chance, then how unlikely are the counts in Table 28.1?
-In other words, if Android and Mac users in the whole population really do choose dam sizes at the same frequencies, then what is the probability of getting a sample of 60 players in which the choices are as or more unbalanced as this?
+In other words, if Android and MacOS users in the whole population really do choose dam sizes at the same frequencies, then what is the probability of getting a sample of 60 players in which the choices are as or more unbalanced as this?
 This is what we want to answer with our Chi-squared test of association.
 
 The general idea is the same as with the Chi-squared goodness of fit test.
@@ -279,16 +279,16 @@ We have our observed values (Table 28.1).
 We now need to find the expected values to calculate a $\chi^{2}$ value.
 But the expected values are now a bit more complicated.
 With the goodness of fit test in [Chapter 28.2](#chi-squared-goodness-of-fit), we just assumed that all categories were equally likely (i.e., the probability of choosing each size dam was the same). 
-There were 60 players and 3 dam sizes, so the expected frequency of each dam choice was 60/3 = 20
+There were 60 players and 3 dam sizes, so the expected frequency of each dam choice was 60/3 = 20.
 Now it is different.
 We are not testing if dam sizes or OS choices are the same.
 We want to know of they are *associated* with one another.
-That is, regardless of the popularity of Android vs MacOS, or the frequency with which small, medium and large dams are selected, do Android users choose different dam sizes than MacOS users?
+That is, regardless of the popularity of Android versus MacOS, or the frequency with which small, medium and large dams are selected, do Android users choose different dam sizes than MacOS users?
 If dam size is not associated with OS, then we would predict that the relative frequency of small, medium, and large dams would be the same for both Android and MacOS.
 
 To find the expected counts of each variable combination (e.g., Android and Small, or MacOS and Large), we need to get the probability that each category is selected independently.
 For example, what is the probability of a player selecting a large dam, regardless of the OS that they are using?
-Table 28.1 below shows these probabilities as additional rows and columns added onto Table 28.1
+Table 28.2 shows these probabilities as additional rows and columns added onto Table 28.1
 
 ```{r, echo = FALSE}
 power_table2 <- matrix(data = c(8, 10, 0.3, 16, 8, 0.4, 6, 12, 0.3, 0.5, 0.5, "--"), 
@@ -300,9 +300,9 @@ knitr::kable(power_table2, format = "simple", table.envir = "table",
 ```
 
 
-Since there are 30 total Android users ($8 + 16 + 6 = 30$) and 30 total MacOS users (Table 28.2), the probability of a player having an Android OS is $30/60 = 0.5$, and the probability of a player having a MacOS is also $30 / 60 =  0.5$.
+Since there are 30 total Android users ($8 + 16 + 6 = 30$) and 30 total MacOS users ($10 + 8 + 12 = 30$), the probability of a player having an Android OS is $30/60 = 0.5$, and the probability of a player having a MacOS is also $30 / 60 =  0.5$.
 Similarly, there are 18 small, 24 medium, and 18 large dam choices in total.
-Hence, the probability of a player choosing a small dam is $18/60 = 0.3$, medium is $24/60 = 0.3$, and large is $18/60 = 0.3$.
+Hence, the probability of a player choosing a small dam is $18/60 = 0.3$, medium is $24/60 = 0.4$, and large is $18/60 = 0.3$.
 If these probabilities combine independently[^51], then we can multiply them to find the probability of a particular combination of categories.
 For example, the probability of a player using Android is 0.5 and choosing a small dam is 0.3, so the probability of a player having both Android **and** a small dam is $0.5 \times 0.3 = 0.15$ (see [Chapter 15](#Chapter_15) for an introduction to probability models).
 The probability of a player using Android **and** choosing a medium dam is $0.5 \times 0.4 = 0.2$.
@@ -353,9 +353,9 @@ The correct degrees of freedom[^52] is the number of categories in variable 1 ($
 
 $$df = (n_{1} - 1) \times (n_{2} - 1).$$
 
-In the case of our example, the number of dams types minus 1 ($n_{dam} = 3 - 1)$ times the number of operating systems minus 1 ($n_{OS} = 2 - 1$).
+In our example, the degrees of freedom equals the number of dam types minus 1 ($n_{dam} = 3 - 1)$ times the number of operating systems minus 1 ($n_{OS} = 2 - 1$).
 The correct degrees of freedom is therefore $df = 2 \times 1 = 2$.
-We now just need to find the p-value for a Chi-square distriution with 2 degrees of freedom and a test statistic of $\chi^{2} = 4.889$.
+We now just need to find the p-value for a Chi-square distribution with 2 degrees of freedom and a test statistic of $\chi^{2} = 4.889$.
 From the [interactive app](https://bradduthie.shinyapps.io/chi-square/) (set df to 2 and slide the Chi-square value to 4.9), we get a value of about $P = 0.0868$.
 In other words, if $H_{0}$ is true, then the probability of getting a $\chi^{2}$ of 4.889 or higher is $P = 0.0868$.
 Consequently, because $P > 0.05$, we would not reject the null hypothesis.
@@ -378,7 +378,7 @@ knitr::kable(power_table4, format = "simple", table.envir = "table",
       caption = "Observed counts for each combination of categorical variables from a dataset in which players on either an Android or MacOS choose a dam size in the mobile app game 'Power Up!'. The last row and column shows the sum of observed dam sizes and OS users, respectively.");
 ```
 
-We can get the expected counts from Table 28.5 if we multiply each row sum by each column sum, the divide by the total sample size ($N = 60$).
+We can get the expected counts from Table 28.5 if we multiply each row sum by each column sum, then divide by the total sample size ($N = 60$).
 For example, to get the expected counts of Android users who choose a small dam, we can multiply $(18 \times 30)/60 = 9$.
 To get the expected counts of MacOS users who choose a medium dam, we can multiply $(30 \times 24)/60 = 12$.
 This works for all of combinations of rows and columns, so we could do it to find all of the expected counts from Table 28.4.
@@ -394,21 +394,20 @@ This works for all of combinations of rows and columns, so we could do it to fin
 This chapter focuses on the association between [types of variables](#Chapter_5) that are quantitative (i.e., represented by numbers).
 It is similar to the [Chi-squared test of association](#chi-squared-test-of-association) from [Chapter 28](#Chapter_28) in the sense that it is about how variables are associated.
 The focus of the [Chi-squared test of association](#chi-squared-test-of-association) was on the association when data were categorical (e.g., 'Android' or 'MacOS' operating system).
-Here we focus instead of the association when data are numeric.
+Here we focus instead on the association when data are numeric.
 But the concept is generally the same; are variables independent, or does knowing something about one variable tell us something about the other variable?
 For example, does knowing something about the latitude of a location tell us something about its average yearly temperature?
 
 ## Scatterplots
 
-The easiest way to visualise the concept of a correlation is by using a scatter-plot. 
-Scatterplots are useful for visualising the association between two quantitative variables.
+The easiest way to visualise the concept of a correlation is by using a scatterplot. 
+Scatterplots are useful for visualising the association between 2 quantitative variables.
 In a scatterplot the values of one variable are plotted on the x-axis, and the values of a second variable are plotted on the y-axis.
 Consider two fig wasp species of the genus *Heterandrium* (Figure 29.1).
 
 ```{r, echo = FALSE, fig.alt = "Two small black iridescent wasps are shown side by side with wings facing upwards.", fig.cap = "Fig wasps from 2 different species are shown. Wasps were collected from Baja, Mexico.", out.width="100%"}
 knitr::include_graphics("img/heterandrium.png");
 ```
-
 
 Both fig wasp species in Figure 29.1 are unnamed.
 We can call the species in Figure 29.1A 'Het1' and the species in Figure 29.1B 'Het2'.
@@ -433,7 +432,7 @@ For example, if a fig wasp has a relatively long thorax, then it probably also h
 We can check this visually by plotting one variable on the x-axis and the other on the y-axis.
 Figure 29.2 does this for wasp thorax length (x-axis) and abdomen length (y-axis).
 
-```{r, echo = FALSE, fig.alt = "A plot is shown with 11 points, such tha tpoints that are higher on the x-axis are generally higher on the y-axis.", fig.cap = "An example of a scatterplot in which fig wasp thorax length (x-axis) is plotted against fig wasp abdomen length (y-axis). Each point is a different fig wasp. Wasps were collected in 2010 in Baja, Mexico."}
+```{r, echo = FALSE, fig.alt = "A plot is shown with 11 points, such that points that are higher on the x-axis are generally higher on the y-axis.", fig.cap = "An example of a scatterplot in which fig wasp thorax length (x-axis) is plotted against fig wasp abdomen length (y-axis). Each point is a different fig wasp. Wasps were collected in 2010 in Baja, Mexico."}
 par(mar = c(5, 5, 1.5, 1.5));
 plot(x = heterandrium[["Thorax"]], y = heterandrium[["Abdomen"]], cex.axis = 1.25,
      cex.lab = 1.25, pch = 20, cex = 1.5, xlab = "Thorax length (mm)",
@@ -456,10 +455,10 @@ As thorax length increases, so does abdomen length.
 The **correlation coefficient** formalises the association described in the previous section.
 It gives us a single number that defines how 2 variables are correlated.
 We represent this number with the letter '$r$', which can range from values of -1 to 1[^53].
-Positive values indicate that two variables are positively correlated, such that a higher value of one variable is associated with higher values of the other variable (as was the case with fig wasp thorax and abdomen measurements).
-Negative values indicate that two variables are negatively correlated, such that a higher values of one variable are associated with lower values of the other variable.
+Positive values indicate that 2 variables are positively correlated, such that a higher value of one variable is associated with higher values of the other variable (as was the case with fig wasp thorax and abdomen measurements).
+Negative values indicate that 2 variables are negatively correlated, such that a higher values of one variable are associated with lower values of the other variable.
 Values of zero (or not significantly different from zero, more on this later) indicate that 2 variables are uncorrelated (i.e., independent of one another).
-Figure 29.3 shows scatterplots for 8 different correlation coefficients between values of $x$ and $y$.
+Figure 29.3 shows scatterplots for 4 different correlation coefficients between values of $x$ and $y$.
 
 ```{r, echo = FALSE, fig.alt = "Four scatter plots are shown in a 2 by 2 grid with different correlations between x and y variables.", fig.cap = "Examples of scatterplots with different correlation coefficients (r) between 2 variables (x and y).", fig.height = 5, fig.width = 5}
 cor_vals <- read.csv(file = "data/cor_vals.csv");
@@ -487,7 +486,7 @@ The 2 are basically the same; the Spearman rank correlation coefficient is just 
 ### Pearson product moment correlation coefficient
 
 To understand the correlation coefficient, we need to first understand covariance.
-[Chapter 23.3](#the-variance) introduced the variance ($s^{2}$) as a measure of spread in some variable $x$,
+[Chapter 12.3](#the-variance) introduced the variance ($s^{2}$) as a measure of spread in some variable $x$,
 
 $$s^{2} = \frac{1}{N - 1}\sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right)^{2}.$$
 
@@ -500,8 +499,8 @@ $$cov_{x, y} = \frac{1}{N - 1} \sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right) \le
 The $\bar{x}$ and $\bar{y}$ are the means of $x$ and $y$, respectively.
 Note that if $x_{i} = y_{i}$, then the equation for $cov_{x,y}$ is identical to the equation for $s^{2}$ because $\left(x_{i} - \bar{x} \right) \left(x_{i} - \bar{x} \right) = \left(x_{i} - \bar{x} \right)^{2}$.
 
-What the equation for $cov_{x,y}$ is describing is how the variation in $x$ is relates to variation in $y$.
-If a value of $x_{i}$ is much higher than the mean $\bar{x}$, and a value of $y_{i}$ is much higher than the mean $\bar{y}$, then the product of $\left(x_{i} - \bar{x} \right)$ and $\left(y_{i} - \bar{y} \right)$ will be especially high because we will be multiplying 2 large positive number together.
+What the equation for $cov_{x,y}$ is describing is how the variation in $x$ relates to variation in $y$.
+If a value of $x_{i}$ is much higher than the mean $\bar{x}$, and a value of $y_{i}$ is much higher than the mean $\bar{y}$, then the product of $\left(x_{i} - \bar{x} \right)$ and $\left(y_{i} - \bar{y} \right)$ will be especially high because we will be multiplying 2 large positive numbers together.
 If a value of $x_{i}$ is much higher than the mean $\bar{x}$, but the corresponding $y_{i}$ is much lower than the mean $\bar{y}$, then the product of $\left(x_{i} - \bar{x} \right)$ and $\left(y_{i} - \bar{y} \right)$ will be especially low because we will be multiplying a large positive number and a large negative number.
 Consequently, when $x_{i}$ and $y_{i}$ tend to deviate from their means $\bar{x}$ and $\bar{y}$ in a consistent way, we get either high or low values of $cov_{x,y}$.
 If there is no such relationship between $x$ and $y$, then we will get $cov_{x,y}$ values closer to zero.
@@ -509,11 +508,11 @@ If there is no such relationship between $x$ and $y$, then we will get $cov_{x,y
 The covariance can, at least in theory, be any real number.
 How low or high it is will depend on the magnitudes of $x$ and $y$, just like [the variance](#the-variance).
 To get the Pearson product moment correlation coefficient[^54]: ($r$), we need to standardise the covariance so that the minimum possible value of $r$ is -1 and the maximum possible value of $r$ is 1.
-We can do this by dividing $cov_{x,y}$ by the product of the standard deviation of $x$ ($s_{x}$) and the standard deviation of $y$ ($s_{x}$),
+We can do this by dividing $cov_{x,y}$ by the product of the standard deviation of $x$ ($s_{x}$) and the standard deviation of $y$ ($s_{y}$),
 
 $$r = \frac{cov_{x,y}}{s_{x} \times s_{y}}.$$
 
-This works because $s_{x} \times s_{y}$ describes the total variation between the two variables, so the absolute value of $cov_{x,y}$ cannot be larger $s_{x} \times s_{y}$.
+This works because $s_{x} \times s_{y}$ describes the total variation between the 2 variables, so the absolute value of $cov_{x,y}$ cannot be larger $s_{x} \times s_{y}$.
 We can again think about the special case in which $x = y$.
 Since the covariance between $x$ and itself is just the variance of $x$ ($s_{x}^{2}$), and $s_{x} \times s_{x} = s^{2}_{x}$, we end up with the same value on the top and bottom and $r = 1$.
 
@@ -613,7 +612,7 @@ We therefore want to test the null hypothesis that $r$ is not significantly diff
 - $H_{A}:$ The correlation coefficient is significantly different from zero.
 
 Note that $H_{A}$ above is for a two-tailed test, in which we do not care about direction.
-We could also use a one-tailed test if our $H_{A}$ is that the correlation coefficient is greater than or less than zero.
+We could also use a one-tailed test if our $H_{A}$ is that the correlation coefficient is greater than (or less than) zero.
 
 How do we actually test the null hypothesis?
 As it turns out, the sample correlation coefficient ($r$) will be approximately t-distributed around a true mean ($\rho$) with a t-score defined by $r - \rho$ divided by its standard error ($SE(r)$)[^55],
@@ -630,20 +629,20 @@ If this is not the case, and the assumption of normality is violated, then the t
 
 To be cautious, we should check whether or not the variables that we are correlating are normally distributed (especially if the sample size is small).
 If they are normally distributed, then we can use the Pearson's product moment correlation to test the null hypothesis.
-If the assumption of normality is violated, then we might consider using the non-parametric Spearman rank correlation coefficient instead.
+If the assumption of normality is violated, then we might consider using the nonparametric Spearman rank correlation coefficient instead.
 The fig wasp thorax and abdomen lengths from Table 29.1 are normally distributed, so we can use the Pearson product moment correlation coefficient to test whether or not the correlation between these two variables is significant.
 In Jamovi, the t-score is not even reported as output when using a correlation test. 
-We only see $r$ and the p-value (Figure 23.4).
+We only see $r$ and the p-value (Figure 29.4).
 
 ```{r, echo = FALSE, fig.alt = "A table called 'Correlation Matrix' is shown, which is mostly empty except for two values in the lower left of a 2 by 2 matrix.", fig.cap = "Jamovi output for a test of the null hypothesis that thorax length and abdomen length are not significantly correlated in a sample of fig wasps collected in 2010 from Baja, Mexico.", out.width="100%"}
 knitr::include_graphics("img/Jamovi_correlation_output.png");
 ```
 
 From Figure 29.4, we can see that the sample $r = 0.75858$, and the p-value is $P = 0.00680$.
-Since our p-value is less than 0.05, we can reject the null hypothesis that fig was thorax and abdomen lengths are not correlated.
+Since our p-value is less than 0.05, we can reject the null hypothesis that fig wasp thorax and abdomen lengths are not correlated.
 To get a more intuitive sense of how the correlation coefficient works, we can use an [interactive application](https://bradduthie.shinyapps.io/corr_click/).
 
-> [Click here](https://bradduthie.shinyapps.io/corr_click/) for an interactive application showing the relationship between a scatterplot, a correlation coefficient, and statistical significant.
+> [Click here](https://bradduthie.shinyapps.io/corr_click/) for an interactive application showing the relationship between a scatterplot, a correlation coefficient, and statistical significance.
 
 Points can be added to the [interactive application](https://bradduthie.shinyapps.io/corr_click/) by clicking anywhere within the plot.
 A table of $x$ and $y$ points is shown to the right, and the correlation coefficient and p-value can be shown or hidden using the buttons on the top.
