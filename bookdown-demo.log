@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  19 MAR 2023 01:14
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  19 MAR 2023 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1492,13 +1492,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[156]
+[156] [157]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[157] [158]
+[158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [159]
@@ -1507,10 +1504,9 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [160]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
-[161]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[162] [163] [164
+[161] [162] [163] [164
 
 
 ]
@@ -1992,8 +1988,8 @@ Underfull \hbox (badness 1152) in paragraph at lines 77--82
 [392] [393] [394] [395]) [396] (./bookdown-demo.aux) ) 
 Here is how much of TeX's memory you used:
  24019 strings out of 478683
- 491843 string characters out of 5848935
- 1922018 words of memory out of 5000000
+ 491806 string characters out of 5848935
+ 1923018 words of memory out of 5000000
  43707 multiletter control sequences out of 15000+600000
  521719 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

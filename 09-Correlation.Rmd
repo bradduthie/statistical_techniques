@@ -384,7 +384,7 @@ This works for all of combinations of rows and columns, so we could do it to fin
 [^52]: This formula works due to a bit of a mathematical trick [@Sokal1995]. The actual logic of the degrees of freedom is a bit more involved. From our total of $k = 6$ different combinations, we actually need to subtract 1 degree of freedom for the total sample size ($N = 60$), then a degree of freedom for each variable probability estimated (i.e., subtract $n_{1} - 1$ and $n_{2} - 1$ because we need this many degrees of freedom to get the $n_{1}$ and $n_{2}$ probabilities, respectively; if we have all but 1 probability, then we know the last probability because the probabilities must sum to 1). Since we lose $n_{1} - 1$ and $n_{2} - 1$ degrees of freedom, and 1 for the sample size, this results in $df = k - (n_{1} - 1) - (n_{2} - 1) - 1$. In the case of the "Power Up!" example, we get $df = 6 - (3 - 1) - (2 - 1) - 1 = 2$. The $df = (n_{1} - 1) \times (n_{2} - 1)$ formulation is possible because $k = n_{1} \times n_{2}$ [@Sokal1995].
 
 
-# Correlation
+# Correlation {#Chapter_29}
 
 This chapter focuses on the association between [types of variables](#Chapter_5) that are quantitative (i.e., represented by numbers).
 It is similar to the [Chi-squared test of association](#chi-squared-test-of-association) from [Chapter 28](#Chapter_28) in the sense that it is about how variables are associated.
@@ -647,7 +647,7 @@ A table of $x$ and $y$ points is shown to the right, and the correlation coeffic
 [^55]: We can calculate the standard error of r as [@Rahman1968], $$SE(r) = \sqrt{\frac{1 - r^{2}}{N - 2}}.$$ But this is not necessary to ever do by hand. Note that we lose 2 degrees of freedom (N - 2), one for calculating each variable mean.
 
 
-# *Practical*. Analysis of counts and correlations
+# *Practical*. Analysis of counts and correlations {#Chapter_30}
 
 This lab focuses on applying the concepts from [Chapter 28](#Chapter_28) and [Chapter 29](#Chapter_29) in Jamovi [@Jamovi2022].
 Exercises in this practical will use the [Chi-squared goodness of fit](#chi-squared-goodness-of-fit) test, the [Chi-squared test of association](#chi-squared-test-of-association),
