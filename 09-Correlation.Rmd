@@ -11,7 +11,7 @@
 |                 | **Advanced:**   @Rodgers1988 ([Download](https://www.stat.berkeley.edu/~rabbee/correlation.pdf))                                    |
 | **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bcf001a6-0964-44f4-9515-af8200d91e20&start=0))     |
 |                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0176758a-498e-48e5-9011-af8200d91e56&start=0))                      |
-|                 | 9.3: Chi-squared test of association (0:00 min; [Video]())     |
+|                 | 9.3: Chi-squared test of association (16:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d95ff0d1-e3b7-4899-afec-af8200d91e71&start=0))     |
 |                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f55424c3-384e-4e7c-920e-af8200d91ecc))     |
 |                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=390375a9-9bb5-4a3b-a466-af8200d91ee8))                        |
 |                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9cd2493c-9665-47e4-b603-afca0120c2e4))                        |
