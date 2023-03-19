@@ -860,7 +860,7 @@ The *N. alba* dataset is not in a tidy format.
 All of the numbers from this dataset are measurements of petiole diameter in mm from *N. alba*, but each row contains 7 samples because each column shows a different site.
 The full dataset is shown below.
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, comment = ""}
 N_alba      <- read.csv("data/Nymphaea_alba.csv");
 N_alba_tidy <- read.csv("data/Nymphaea_alba_tidy.csv");
 print(N_alba)
@@ -885,7 +885,7 @@ A new column will then pop up in Jamovi, and we can give this an informative nam
 Make sure to specify that the 'Site' column should be a nominal measure type, and the 'petiole_diameter_mm' column should be a continuous measure type. 
 The first 6 rows of the dataset should look like the below.
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, comment = ""}
 print(head(N_alba_tidy));
 ```
 
