@@ -343,11 +343,11 @@ To get our $\chi^{2}$ test statistic, we use the same formula as in [Chapter 28.
 
 $$\chi^{2} = \sum_{i = 1}^{n} \frac{\left(O_{i} - E_{i}\right)^{2}}{E_{i}}.$$
 
-There are 9 total combinations of OS and dam size, so there are $n = 9$ values to sum up,
+There are 6 total combinations of OS and dam size, so there are $n = 6$ values to sum up,
 
 $$\chi^{2} = \frac{(8-9)^2}{9} + \frac{(16 - 12)^{2}}{12} + ... + \frac{(16 - 12)^{2}}{12} + \frac{(8-9)^2}{9}.$$
 
-If we sum all of the 9 terms, we get a value of $\chi^{2} = 4.889$.
+If we sum all of the 6 terms, we get a value of $\chi^{2} = 4.889$.
 We can compare this to the null $\chi^{2}$ distribution as we did in the [Chapter 28.2](#chi-squared-goodness-of-fit) goodness of fit test, but we need to know the correct degrees of freedom.
 The correct degrees of freedom[^52] is the number of categories in variable 1 ($n_{1}$) minus 1, times the number of categories in variable 2 ($n_{2}$) minus 1,
 
@@ -664,7 +664,7 @@ knitr::include_graphics("img/bumblebee.jpg");
 ```
 
 The practical will use the [bumblebee.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/bumblebee.csv) dataset (right click and “Save Link As…”, then save it with the extension ‘.csv’).
-This dataset includes variables for the radiation level experienced by the bee (radiation), the colony from which the bee came (colony), whether or not the bee survived to the end of the 30 day experiment (survived), the mass of the bee in grams at the beginning of the experiment (mass), the output of carbon dioxide put out by the bee (CO_2) in micromoles per minute, and the daily volume of nector consumed by the be in ml (nectar).
+This dataset includes variables for the radiation level experienced by the bee (radiation), the colony from which the bee came (colony), whether or not the bee survived to the end of the 30 day experiment (survived), the mass of the bee in grams at the beginning of the experiment (mass), the output of carbon dioxide put out by the bee (CO_2) in micromoles per minute, and the daily volume of nectar consumed by the be in ml (nectar).
 
 
 ## Survival goodness of fit
@@ -711,7 +711,7 @@ What is the $\chi^{2}$ value?
 
 $\chi^{2}:$ _____________
 
-There are 2 categories for the survival category (Yes and No).
+There are 2 categories for survival (Yes and No).
 How many degrees of freedom are there?
 
 df: ________________
@@ -722,7 +722,7 @@ P: _______________
 
 
 Now we can try to use Jamovi to replicate the analysis above.
-In Jamovi Analyses tab, select 'Frequencies' from the toolbar, then select 'N outcomes'.
+Inthe  Jamovi Analyses tab, select 'Frequencies' from the toolbar, then select 'N outcomes'.
 A new window will open up (Figure 30.2).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown with a button called 'Frequencies' selected and 'N Outcomes' chosen from the pulldown menu.", fig.cap = "Jamovi toolbar showing the location of the Frequencies options, with the Chi-square goodness of fit test available under a choice called 'N Outcomes' in the pulldown menu.", out.width="100%"}
@@ -730,7 +730,7 @@ knitr::include_graphics("img/jamovi_goodness_of_fit_toolbar.png");
 ```
 
 After selecting the option 'N Outcomes: $\chi^{2}$ Goodness of fit', a new window will appear called 'Proportion Test (N Outcomes)'. 
-To run a $\chi^{2}$ goodness of fit test on bee survival, move the 'survived' variable in to the 'Variable' box. 
+To run a $\chi^{2}$ goodness of fit test on bee survival, move the 'survived' variable into the 'Variable' box. 
 Leave the Counts box empty (Figure 30.3).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with boxes of variables to be used for a proportion test, and the 'survived' variable has been placed in the Variable box.", fig.cap = "Jamovi interface for running a Chi-square goodness of fit test on bumblebee survival in a dataset.", out.width="100%"}
@@ -752,7 +752,7 @@ Next, we will try another goodness of fit test, but this time to test whether or
 
 ## Colony goodness of fit
 
-Next, suppose that we want to know if bees were sampled from the colonies with the same expected frequency.
+Next, suppose that we want to know if bees were sampled from the colonies with the same expected frequencies.
 What are the null and alternative hypotheses in this scenario?
 
 - $H_{0}$: _________________
@@ -784,7 +784,7 @@ From this output, what can you conclude about how bees were taken from the colon
 ```
 
 Note that the distrACTION module in Jamovi includes a $\chi^{2}$ distribution (called 'x2-Distribution'), which you can use to compute probabilities and quantiles in the same way as we did for previous distributions in the module.
-Next, we will move on to a $\chi^{2}$ test of association between 
+Next, we will move on to a $\chi^{2}$ test of association between colony and survival.
 
 
 ## Chi-Square test of association
@@ -802,12 +802,12 @@ To run the $\chi^{2}$ test of association, choose 'Frequencies' from the Jamovi 
 To test for an association between bee colony and survival, place 'colony' in the 'Rows' box and 'survived' in the 'Columns' box.
 Leave the rest of the boxes blank (Figure 30.4).
 
-```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with boxes of variables to be used for test of association with colony in a 'Rows' box and survived in a 'columns' box.", fig.cap = "Jamovi interface for running a Chi-square test of association on bumblebee survival versus colony in a dataset.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with boxes of variables to be used for a Chi-square test of association with colony in a 'Rows' box and survived in a 'columns' box.", fig.cap = "Jamovi interface for running a Chi-square test of association on bumblebee survival versus colony in a dataset.", out.width="100%"}
 knitr::include_graphics("img/jamovi_test_of_association_interface.png");
 ```
 
 There is a pulldown called 'Statistics' below the Contingency Tables input.
-Make sure that that the $\chi^{2}$ checkbox is selected.
+Make sure that the $\chi^{2}$ checkbox is selected.
 Output from the $\chi^{2}$ test of association will appear in the panel to the right.
 Report the key statistics in the output table below.
 
@@ -827,7 +827,7 @@ Note that there are various options for changing bar types (side by side or stac
 
 Now try running a $\chi^{2}$ test of association to see if there is an association between radiation and bee survival (hint, you just need to swap 'colony' for 'radiation' in the Rows box).
 What can you conclude from this test?
-Explain your conclusion as if were reporting the results of the test to someone who was unfamiliar with statistical hypothesis testing.
+Explain your conclusion as if you were reporting the results of the test to someone who was unfamiliar with statistical hypothesis testing.
 
 ```
 
@@ -840,7 +840,7 @@ Explain your conclusion as if were reporting the results of the test to someone 
 
 Lastly, did the order which you placed the two variables matter?
 What if you switched Rows and Columns?
-In other words, put 'survived' in the Rows box and 'radiation' in the columns box.
+In other words, put 'survived' in the Rows box and 'radiation' in the Columns box.
 Does this give you the same answer?
 
 ```
@@ -853,12 +853,12 @@ Next, we will look at correlations between variables.
 
 ## Pearson product moment correlation test
 
-Suppose that we want to test if bumblebee mass at the start of the experiment (mass) is associated with the amount of nectar consumed (nectar).
-Specifically, we want to know if more massive bees also output less carbon dioxide ($CO_{2}$).
+Suppose that we want to test if bumblebee mass at the start of the experiment (mass) is associated with carbon dioxide output ($CO_{2}$).
+Specifically, we want to know if more massive bees also output less carbon dioxide.
 Before running any test, it is a good idea to plot the two variables using a scatterplot.
 To do this, select the 'Exploration' button from the toolbar in Jamovi, but instead of choosing 'Descriptives' as usual from the pulldown menu, select 'Scatterplot'.
 A new window will open up that allows you to build a scatterplot by selecting the variables that you place on the x-axis and the y-axis.
-Put mass on the x-axis and nectar on the y-axis, as shown in Figure 30.5.
+Put mass on the x-axis and CO_2 on the y-axis, as shown in Figure 30.5.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a variable called 'mass' placed in a box called 'X-Axis', and a variable called 'CO_2' placed in a box called 'Y-axis'.", fig.cap = "Jamovi interface for building a scatterplot with bumblebee mass on the x-axis and nectar consumption on the y-axis", out.width="100%"}
 knitr::include_graphics("img/jamovi_simple_scatterplot.png");
@@ -915,7 +915,7 @@ knitr::include_graphics("img/jamovi_correlation_toolbar.png");
 
 The Correlation Matrix option will pull up a new window in Jamovi (Figure 30.7).
 
-```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a variables called 'mass' and CO_2 placed in a box to the right and a checkbox for 'Pearson' selected", fig.cap = "Jamovi interface for testing correlation coefficients.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a variables called 'mass' and 'CO_2' placed in a box to the right and a checkbox for 'Pearson' selected", fig.cap = "Jamovi interface for testing correlation coefficients.", out.width="100%"}
 knitr::include_graphics("img/jamovi_correlation_interface.png");
 ```
 
@@ -932,7 +932,7 @@ $r$: ______________
 
 $P$: _____________
 
-Based on this output what should we conclude about the association between bumblebee mass and carbon dioxide output?
+Based on this output, what should we conclude about the association between bumblebee mass and carbon dioxide output?
 
 ```
 
@@ -965,12 +965,12 @@ $r$: ______________
 
 $P$: _____________
 
-Based on these results, do should we reject or not reject the null hypothesis?
+Based on these results, should we reject or not reject the null hypothesis?
 
 $H_{0}$: ____________
 
 Suppose that we had used the Pearson product moment correlation coefficient instead of the Spearman rank correlation coefficient.
-Would we have made the same conclusion about the correlation (or lack thereof) between bee mass and $CO_{2}$ output?
+Would we have made the same conclusion about the correlation (or lack thereof) between bee mass and nectar consumption?
 Why or why not?
 
 ```
@@ -1001,7 +1001,7 @@ knitr::kable(count_tab, format = "simple", table.envir = "table",
 Open a new data frame in Jamovi, then recreate the small dataset in Table 30.1.
 Column names should be 'Survived' and 'Count', as shown in Figure 30.8.
 
-```{r, echo = FALSE, fig.alt = "Jamovi spreadsheet show with just 2 rows and 2 columns showing 'Survived' and 'Count'.", fig.cap = "Jamovi data frame with a simple organisation of count data.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "Jamovi spreadsheet showing just 2 rows and 2 columns as 'Survived' and 'Count'.", fig.cap = "Jamovi data frame with a simple organisation of count data.", out.width="100%"}
 knitr::include_graphics("img/jamovi_simple_counts.png");
 ```
 
