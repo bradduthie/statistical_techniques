@@ -43,7 +43,7 @@ Being able to infer variable type is therefore an important skill.
 Units are essential in scientific measurement, and we will use them throughout the module to indicate the type and scale of data measurement.
 We are not expecting you to memorise all scientific units, so a [table on units](#appendixA_units) is provided.
 
-[Chapter 7](#Chapter_7) will introduce the propogation of measurement errors.
+[Chapter 7](#Chapter_7) will introduce the propagation of measurement errors.
 This is important to understand because no measurement is perfectly accurate, and predicting how errors in measurement combine is fundamental to understanding measurement accuracy.
 
 [Chapter 8](#Chapter_8) guides you through the Week 2 practical, which is an introduction to Jamovi.
@@ -244,7 +244,7 @@ For one final example, the inventory of carbon $I$ within a soil is given by the
 $$I = C \times D \times \rho = \frac{g\times m \times kg}{kg \times m^{3}} = \frac{g}{m^{2}} = g\:m^{-2}.$$
 Notice above how the $kg$ on the top and bottom of the fraction cancel each other out, and how one $m$ on the top cancels out one $m$ on the bottom, so that what we are left with is grams per metre squared ($g\:m^{-2}$).
 
-# Uncertainty propogation {#Chapter_7}
+# Uncertainty propagation {#Chapter_7}
 
 Nothing can be measured with perfect accuracy, meaning that every measurement has some associated error.
 The measurement error might be caused by random noise in the measuring environment, or by mistakes made by the person doing the measuring.

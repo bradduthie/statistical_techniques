@@ -656,7 +656,7 @@ A table of $x$ and $y$ points is shown to the right, and the correlation coeffic
 This lab focuses on applying the concepts from [Chapter 28](#Chapter_28) and [Chapter 29](#Chapter_29) in Jamovi [@Jamovi2022].
 Exercises in this practical will use the [Chi-squared goodness of fit](#chi-squared-goodness-of-fit) test, the [Chi-squared test of association](#chi-squared-test-of-association),
 and the [correlation coefficient](#correlation-hypothesis-testing).
-For the chi-square tests, this practical will use a dataset inspired by the doctoral work of Dr Jessica Burrows [@Burrows2022].
+For all of these examples, this practical will use a dataset inspired by the doctoral work of Dr Jessica Burrows [@Burrows2022].
 This experimental work tested the effects of radiation on bumblebee nectar consumption, carbon dioxide output, and body mass in different bee colonies (Figure 30.1)[^56].
 
 ```{r, echo = FALSE, fig.alt = "Close up of a bumblebee", fig.cap = "This lab practical focuses on the effects of radiation on bumblebees.", out.width="60%"}
