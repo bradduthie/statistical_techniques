@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  26 MAR 2023 00:37
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  26 MAR 2023 21:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count317
 ) (./bookdown-demo.aux
 
-LaTeX Warning: Label `tab:unnamed-chunk-161' multiply defined.
+LaTeX Warning: Label `tab:unnamed-chunk-170' multiply defined.
 
 )
 \openout1 = `bookdown-demo.aux'.
@@ -1037,78 +1037,78 @@ Overfull \hbox (1.09497pt too wide) detected at line 175
  []
 
 [7]
-Overfull \hbox (1.09497pt too wide) detected at line 188
- []\TU/lmss/bx/n/10.95 357
- []
-
-
 Overfull \hbox (1.09497pt too wide) detected at line 189
  []\TU/lmss/bx/n/10.95 359
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 194
- []\TU/lmss/bx/n/12 361
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 195
- []\TU/lmss/bx/n/10.95 363
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 196
+Overfull \hbox (1.09497pt too wide) detected at line 191
  []\TU/lmss/bx/n/10.95 365
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 197
- []\TU/lmss/bx/n/10.95 367
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 198
- []\TU/lmss/bx/n/10.95 369
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 199
- []\TU/lmss/bx/n/10.95 371
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 200
- []\TU/lmss/bx/n/10.95 373
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 204
+Overfull \hbox (2.82748pt too wide) detected at line 197
  []\TU/lmss/bx/n/12 375
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 205
+Overfull \hbox (1.09497pt too wide) detected at line 198
  []\TU/lmss/bx/n/10.95 377
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 206
+Overfull \hbox (1.09497pt too wide) detected at line 199
  []\TU/lmss/bx/n/10.95 379
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 207
+Overfull \hbox (1.09497pt too wide) detected at line 200
  []\TU/lmss/bx/n/10.95 381
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 208
+Overfull \hbox (1.09497pt too wide) detected at line 201
  []\TU/lmss/bx/n/10.95 383
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 209
+Overfull \hbox (1.09497pt too wide) detected at line 202
  []\TU/lmss/bx/n/10.95 385
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 203
+ []\TU/lmss/bx/n/10.95 387
+ []
+
+
+Overfull \hbox (2.82748pt too wide) detected at line 207
+ []\TU/lmss/bx/n/12 389
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 208
+ []\TU/lmss/bx/n/10.95 391
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 209
+ []\TU/lmss/bx/n/10.95 393
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 210
+ []\TU/lmss/bx/n/10.95 395
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 211
+ []\TU/lmss/bx/n/10.95 397
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 212
+ []\TU/lmss/bx/n/10.95 399
  []
 
 [8]
@@ -1116,36 +1116,36 @@ Overfull \hbox (1.09497pt too wide) detected at line 209
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 213.
+(tocbasic)                Reserved number width       = 24.0pt on input line 216.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 213
+Overfull \hbox (3.22801pt too wide) detected at line 216
 \TU/lmss/bx/n/12 XIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 213
- []\TU/lmss/bx/n/12 387
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 214
- []\TU/lmss/bx/n/10.95 389
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 215
- []\TU/lmss/bx/n/10.95 391
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 216
- []\TU/lmss/bx/n/10.95 393
+Overfull \hbox (2.82748pt too wide) detected at line 216
+ []\TU/lmss/bx/n/12 401
  []
 
 
 Overfull \hbox (1.09497pt too wide) detected at line 217
- []\TU/lmss/bx/n/10.95 397
+ []\TU/lmss/bx/n/10.95 403
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 218
+ []\TU/lmss/bx/n/10.95 405
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 219
+ []\TU/lmss/bx/n/10.95 407
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 220
+ []\TU/lmss/bx/n/10.95 411
  []
 
 )
@@ -1863,150 +1863,162 @@ File: img/jamovi_overall_regression_output.png Graphic file (type bmp)
 <img/jamovi_overall_regression_output.png>
 File: img/jamovi_overall_regression_coefficients.png Graphic file (type bmp)
 <img/jamovi_overall_regression_coefficients.png>
-[355] [356]
+[355] [356] [357] [358
+
+
+]
 chapter 32.
+[359]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-171-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-171-1.pdf>
-[357
+[360] [361]
+File: img/jamovi_overall_multiple_regression_output.png Graphic file (type bmp)
+<img/jamovi_overall_multiple_regression_output.png>
+[362] [363] [364
 
 
-] [358]
+]
 chapter 33.
 File: img/gabon.jpg Graphic file (type bmp)
 <img/gabon.jpg>
 
-Package hyperref Warning: Suppressing link with empty target on input line 8819.
+Package hyperref Warning: Suppressing link with empty target on input line 8936.
 
-
-Underfull \vbox (badness 2913) has occurred while \output is active []
-
-[359
-
-
-] [360]
+[365] [366]
+File: img/Jamovi_linear_regression.png Graphic file (type bmp)
+<img/Jamovi_linear_regression.png>
+File: img/Jamovi_linear_regression_normality.png Graphic file (type bmp)
+<img/Jamovi_linear_regression_normality.png>
+[367]
+File: img/Jamovi_linear_regression_model_fit.png Graphic file (type bmp)
+<img/Jamovi_linear_regression_model_fit.png>
+[368] [369] [370]
+File: img/Jamovi_linear_regression_save.png Graphic file (type bmp)
+<img/Jamovi_linear_regression_save.png>
+[371] [372] [373] [374]
 part XI.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 8844.
-[361
+(scrkbase)              on input line 9323.
+[375
 
 
-] [362] [363
-
-
-] [364
-
-
-]
-chapter 34.
-[365] [366
-
-
-]
-chapter 35.
-[367] [368
-
-
-]
-chapter 36.
-[369] [370
-
-
-]
-chapter 37.
-[371] [372
-
-
-]
-chapter 38.
-[373] [374
-
-
-]
-part XII.
-Package scrkbase Info: You've told me to use the font selection of the element
-(scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 8889.
-[375] [376] [377
+] [376] [377
 
 
 ] [378
 
 
 ]
-chapter 39.
+chapter 34.
 [379] [380
 
 
 ]
-chapter 40.
+chapter 35.
 [381] [382
 
 
 ]
-chapter 41.
+chapter 36.
 [383] [384
 
 
 ]
-chapter 42.
+chapter 37.
 [385] [386
+
+
+]
+chapter 38.
+[387] [388
+
+
+]
+part XII.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 9368.
+[389] [390] [391
+
+
+] [392
+
+
+]
+chapter 39.
+[393] [394
+
+
+]
+chapter 40.
+[395] [396
+
+
+]
+chapter 41.
+[397] [398
+
+
+]
+chapter 42.
+[399] [400
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 8929.
-[387] [388] [389
+(scrkbase)              on input line 9408.
+[401] [402] [403
 
 
-] [390
+] [404
 
 
 ]
 chapter A.
-[391] [392]
+[405] [406]
 chapter B.
-[393
+[407
 
 
-] [394] [395] [396]
+] [408] [409] [410]
 chapter C.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[397
+[411
 
 
 ]
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
-[398]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 9214--9297
+[412]
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 9693--9776
 [] 
  []
 
-(./bookdown-demo.bbl [399] [400
+(./bookdown-demo.bbl [413] [414
 
 
-] [401]
+] [415]
 Underfull \hbox (badness 1152) in paragraph at lines 77--82
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[402] [403] [404] [405]) [406] (./bookdown-demo.aux)
+[416] [417] [418] [419]) [420] (./bookdown-demo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24210 strings out of 478683
- 499187 string characters out of 5848935
+ 24315 strings out of 478683
+ 503602 string characters out of 5848935
  1924018 words of memory out of 5000000
- 43887 multiletter control sequences out of 15000+600000
+ 43987 multiletter control sequences out of 15000+600000
  521719 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,121p,10636b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (406 pages).
+Output written on bookdown-demo.pdf (420 pages).
