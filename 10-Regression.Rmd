@@ -9,7 +9,7 @@
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Spiegelhalter2019 (Chapter 5)              |
 |                 | **Advanced:**   @Morrissey2018 ([Download](https://quod.lib.umich.edu/cgi/t/text/text-idx?cc=ptpbio;c=ptb;c=ptpbio;idno=16039257.0010.003;view=text;rgn=main;xc=1;g=ptpbiog))                                    |
-| **Lectures**    | 10.1: Regression key concepts (15:49 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c59eb428-9334-4f02-bafc-af8200d91f79))     |
+| **Lectures**    | 10.1: Regression key concepts (15:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c59eb428-9334-4f02-bafc-af8200d91f79))     |
 |                 | 10.2: Regression validity (14:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f952b7f-6e22-4c1a-8edf-af8200d91fe6))                      |
 |                 | 10.3: Introduction to multiple regression (14:59 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f952b7f-6e22-4c1a-8edf-af8200d91fe6))                      |
 |                 | 10.4: Regression in Jamovi (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f952b7f-6e22-4c1a-8edf-af8200d91fe6))                      |
@@ -664,7 +664,7 @@ This attempts to account for the inevitable tendency of $R^{2}$ to increase with
 # _Practical_. Using regression {#Chapter_33}
 
 This lab focuses on practical exercises to apply the concepts in [Chapter 31](#Chapter_31) and [Chapter 32](#Chapter_32) in Jamovi [@Jamovi2022]. 
-The 6 exercises in this practical will apply simple linear regression (Exercises 33.1, 33.2, and 33.5) or multiple regression (33.3, 33.4, 33.6).
+The 6 exercises in this practical will apply simple linear regression (Exercises 33.1, 33.2, and 33.5) or multiple regression (33.3 and 33.4).
 The dataset used in this practical is inspired by the work of Dr Carmen Rosa Medina-Carmona, Dr Fran&#xE7;ois-Xavier Joly, and Prof Jens-Arne Subke[^61].
 Their work focuses on carbon storage in Gabon (Figure 33.1).
 
@@ -675,7 +675,7 @@ knitr::include_graphics("img/gabon.jpg");
 When biomass is burned, a large proportion of its stored carbon is emitted into the atmosphere in the form of carbon dioxide, but some of it remains sequestered in the soil due to incomplete combustion [@Santin2016].
 This pyrogenic organic carbon can persist in the soil for long periods of time and has positive effects on soil properties [@Reisser2016].
 In this practical, we will look at how environmental data might be used to test what factors affect the concentration of pyrogenic carbon in the soil.
-We will use the [fire_carbon.csv]() dataset (right click and “Save Link As…”, then save it with the extension ‘.csv’).
+We will use the [fire_carbon.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/fire_carbon.csv) dataset (right click and “Save Link As…”, then save it with the extension ‘.csv’).
 This dataset includes variables for soil depth (cm), fire frequency (total number of years in which a fire occurred during the past 20 years), mean yearly temperature (degrees Celsius), mean monthly rainfall (mm per squared meter per year, $mm\:m^{-2}\:yr^{-1}$), total soil organic carbon (SOC, as percentage of soil by weight), pyrogenic carbon (PyC, as percentage of soil organic carbon by weight), and soil pH.
 
 
