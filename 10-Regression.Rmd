@@ -616,7 +616,7 @@ But in the multiple regression model, it is not significant (P = 0.1532).
 
 Third, and perhaps most strikingly, the prediction and significance of latitude has changed completely.
 In the simple linear regression model from [Chapter 31.7.4](#simple-regression-output), fruit volume decreased with latitude ($b_{1} = -242.68$), and this decrease was statistically significant ($P = 0.0356$).
-Now the multiple regression output is telling us that, if anything, fruit volume appears to *increase* with latitude ($b_{1} = 5.59$), although this is not statistically significant ($P > 0.9415$).
+Now the multiple regression output is telling us that, if anything, fruit volume appears to *increase* with latitude ($b_{1} = 5.59$), although this is not statistically significant ($P = 0.9415$).
 What is going on here?
 This result illustrates the context dependence of partial regression coefficients in the multiple regression model.
 In other words, although fruit volume appeared to significantly decrease with increasing latitude in the simple regression model of [Chapter 31](#Chapter_31), this is no longer the case once we account for the altitude from which the fruit was collected.
@@ -631,7 +631,7 @@ We can also look at the overall multiple regression model.
 Figure 32.2 shows what this model output looks like reported by Jamovi [@Jamovi2022]. 
 
 
-```{r, echo = FALSE, fig.alt = "An output table is shown with a single row and columns for R squared, Adusted R squared, F, df1, df2, and p.", fig.cap = "Jamovi output table for a multiple linear regression in which latitude and altitude indepdnent variables and fig fruit volume is a dependent variable.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "An output table is shown with a single row and columns for R squared, Adusted R squared, F, df1, df2, and p.", fig.cap = "Jamovi output table for a multiple linear regression in which latitude and altitude are independent variables and fig fruit volume is a dependent variable.", out.width="100%"}
 knitr::include_graphics("img/jamovi_overall_multiple_regression_output.png");
 ```
 
@@ -654,7 +654,7 @@ The $R^{2}_{adj}$ takes into account the $R^{2}$, the sample size ($N$), and the
 $$R^{2}_{adj} = 1 - \left(1 - R^{2}\right)\left(\frac{N - 1}{N - k - 1}\right).$$
 
 As $k$ increases, the fraction above $(N-1)/(N-k-1)$ gets bigger. 
-And as this fraction gets bigger, we are subtracting a bigger value from 1, so $R^{2}$ decreases. 
+And as this fraction gets bigger, we are subtracting a bigger value from 1, so $R^{2}_{adj}$ decreases. 
 Consequently, more independent variables (k) cause a decrease in the adjusted R-squared value.
 This attempts to account for the inevitable tendency of $R^{2}$ to increase with $k$.
 
