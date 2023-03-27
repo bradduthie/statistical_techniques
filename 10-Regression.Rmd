@@ -664,7 +664,7 @@ This attempts to account for the inevitable tendency of $R^{2}$ to increase with
 # _Practical_. Using regression {#Chapter_33}
 
 This lab focuses on practical exercises to apply the concepts in [Chapter 31](#Chapter_31) and [Chapter 32](#Chapter_32) in Jamovi [@Jamovi2022]. 
-The 6 exercises in this practical will apply simple linear regression (Exercises 33.1, 33.2, and 33.5) or multiple regression (33.3 and 33.4).
+The 5 exercises in this practical will apply simple linear regression (Exercises 33.1, 33.2, and 33.5) or multiple regression (33.3 and 33.4).
 The dataset used in this practical is inspired by the work of Dr Carmen Rosa Medina-Carmona, Dr Fran&#xE7;ois-Xavier Joly, and Prof Jens-Arne Subke[^61].
 Their work focuses on carbon storage in Gabon (Figure 33.1).
 
@@ -1062,7 +1062,7 @@ Is the $R^{2}$ value of this model higher or lower than the multiple regression 
 
 ```
 
-Is the Adjusted $R^{2}$ value of this model higher or lower than the multipel regression model without pH?
+Is the Adjusted $R^{2}$ value of this model higher or lower than the multiple regression model without pH?
 
 ```
 
