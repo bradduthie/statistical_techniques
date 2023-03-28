@@ -942,7 +942,7 @@ In other words, where would the predicted and residual values be located on the 
 ```
 
 
-## Multiple regression dept and fire frequency
+## Multiple regression depth and fire frequency
 
 In this exercise, we will run a multiple regression to predict pyrogenic carbon (PyC) from fire frequency (fire_freq) and depth.
 Write down what the independent and dependent variable(s) are for this regression.
@@ -985,7 +985,7 @@ Which one is most appropriate to use for interpreting the multiple regression?
 
 ```
 
-What is the null hypothesis of this tested with the F value and the P value shown in the Model Fit Measures table?
+What is the null hypothesis tested with the F value and the P value shown in the Model Fit Measures table?
 
 $H_{0}$: ____________________
 
@@ -1031,7 +1031,7 @@ Based on what you know about the difference between simple linear regression and
 
 ## Large multiple regression
 
-Suppose that as scientists that we hypothesise that soil depth, fire frequency, and soil pH will all affect pyrogenic carbon storage.
+Suppose that as scientists we hypothesise that soil depth, fire frequency, and soil pH will all affect pyrogenic carbon storage.
 Run a multiple regression model with soil depth, fire frequency, and soil pH all as independent variables and pyrogenic carbon as a dependent variable.
 Fill in the Model Coefficient output in Table 33.1.
 
@@ -1054,7 +1054,7 @@ $R^{2}$: _______________
 
 Adjusted $R^{2}$: ______________
 
-Compare these value to the $R^{2}$ and Adjusted $R^{2}$ from the multiple regression in the previous exercise (i.e., the one without pH as an independent variable).
+Compare these values to the $R^{2}$ and Adjusted $R^{2}$ from the multiple regression in the previous exercise (i.e., the one without pH as an independent variable).
 Is the $R^{2}$ value of this model higher or lower than the multiple regression model without pH?
 
 ```
@@ -1091,7 +1091,7 @@ Finally, use the equation of this new model to predict PyC for a soil sample at 
 ```
 
 
-## Predicting temperature from fire frequencing
+## Predicting temperature from fire frequency
 
 In this last brief exercise, suppose that we wanted to predict temperature (tempr) from fire frequency (fire_freq).
 Run some checks of the assumptions underlying linear regression (see [Chapter 31.6](#regression-assumptions)).
