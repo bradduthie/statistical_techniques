@@ -13,7 +13,7 @@
 |                 | 11.2: Assumptions of randomisation (11:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7d47453e-7a34-4396-a6f2-af8200d92180))                      |
 |                 | 11.3: Bootstrapping (11:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c844d3be-a989-4eea-b07e-af8200d921aa))                      |
 |                 | 11.4: Monte Carlo (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a2b242f4-c9f3-4b54-aff3-af8200d92237))                      |
-| **Practical**   | Using ([Chapter 35](#Chapter_35)) |
+| **Practical**   | Using R ([Chapter 35](#Chapter_35)) |
 |                 | Room: Cottrell 2A17                                    |
 |                 | Group A: 5 APR 2023 (WED) 13:05-15:55                 |
 |                 | Group B: 6 APR 2023 (THU) 09:05-11:55                 |
