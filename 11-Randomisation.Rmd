@@ -24,7 +24,7 @@
 
 
 
-# Randomisation
+# Randomisation {#Chapter_34}
 
 Since introducing statistical hypothesis testing in [Chapter 20](#Chapter_20), this book has steadily introduced statistical tests that can be run for different data types.
 In all of these statistical tests, the general idea is the same.
@@ -484,7 +484,7 @@ This would give us a plot like the one shown in Figure 34.4, but showing the nul
 Similar approaches could be used for ANOVA or linear regression [@Manly2007].
 
 
-# _Practical_. Using R
+# _Practical_. Using R {#Chapter_35}
 
 Throughout this book, we have used Jamovi for statistical analysis.
 Jamovi is excellent software for running simple statistical analyses, but it has its limitations.
