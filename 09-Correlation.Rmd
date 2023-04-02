@@ -568,7 +568,7 @@ We will test whether or not this value of $r$ is statistically significant in [C
 ### Spearman rank correlation coefficient
 
 Throughout this book, we have seen how the *ranks* of data can be substituted in place of the actual values.
-This has been useful when data violate the assumptions of a statistical test, and we need a nonparametric test instead (e.g., the [Wilcoxon signed rank test](#wilcoxon-test-1), the [Mann-Whitney U test](#mann-whitney-u-test-1), or the [Kruskall-Wallis H test](#Chapter_25)).
+This has been useful when data violate the assumptions of a statistical test, and we need a non-parametric test instead (e.g., the [Wilcoxon signed rank test](#wilcoxon-test-1), the [Mann-Whitney U test](#mann-whitney-u-test-1), or the [Kruskall-Wallis H test](#Chapter_25)).
 We can use the same trick for the correlation coefficient.
 The Spearman rank correlation coefficient is calculated the exact same way as the Pearson product moment correlation coefficient, except on the ranks of values.
 To calculate the Spearman rank correlation coefficient for the fig wasp example in [the previous section](#pearson-product-moment-correlation-coefficient), we just need to rank the thorax and abdomen lengths from 1 to 11, then calculate $r$ using the rank values instead of the actual measurements of length.

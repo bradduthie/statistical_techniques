@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  28 MAR 2023 11:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  2 APR 2023 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,90 +1062,64 @@ Overfull \hbox (1.09497pt too wide) detected at line 199
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 200
- []\TU/lmss/bx/n/10.95 381
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 201
- []\TU/lmss/bx/n/10.95 383
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 202
- []\TU/lmss/bx/n/10.95 385
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 203
- []\TU/lmss/bx/n/10.95 387
- []
-
-
-Overfull \hbox (2.82748pt too wide) detected at line 207
- []\TU/lmss/bx/n/12 389
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 208
- []\TU/lmss/bx/n/10.95 391
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 209
- []\TU/lmss/bx/n/10.95 393
- []
-
-
-Overfull \hbox (1.09497pt too wide) detected at line 210
+Overfull \hbox (1.09497pt too wide) detected at line 207
  []\TU/lmss/bx/n/10.95 395
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 211
- []\TU/lmss/bx/n/10.95 397
+Overfull \hbox (2.82748pt too wide) detected at line 212
+ []\TU/lmss/bx/n/12 407
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 212
- []\TU/lmss/bx/n/10.95 399
+Overfull \hbox (1.09497pt too wide) detected at line 213
+ []\TU/lmss/bx/n/10.95 409
+ []
+
+
+Overfull \hbox (1.09497pt too wide) detected at line 214
+ []\TU/lmss/bx/n/10.95 411
  []
 
 [8]
+Overfull \hbox (1.09497pt too wide) detected at line 217
+ []\TU/lmss/bx/n/10.95 413
+ []
+
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 216.
+(tocbasic)                Reserved number width       = 24.0pt on input line 221.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 216
+Overfull \hbox (3.22801pt too wide) detected at line 221
 \TU/lmss/bx/n/12 XIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 216
- []\TU/lmss/bx/n/12 401
+Overfull \hbox (2.82748pt too wide) detected at line 221
+ []\TU/lmss/bx/n/12 415
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 217
- []\TU/lmss/bx/n/10.95 403
+Overfull \hbox (1.09497pt too wide) detected at line 222
+ []\TU/lmss/bx/n/10.95 417
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 218
- []\TU/lmss/bx/n/10.95 405
+Overfull \hbox (1.09497pt too wide) detected at line 223
+ []\TU/lmss/bx/n/10.95 419
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 219
- []\TU/lmss/bx/n/10.95 407
+Overfull \hbox (1.09497pt too wide) detected at line 224
+ []\TU/lmss/bx/n/10.95 421
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 220
- []\TU/lmss/bx/n/10.95 411
+Overfull \hbox (1.09497pt too wide) detected at line 225
+ []\TU/lmss/bx/n/10.95 425
  []
 
 )
@@ -1484,10 +1458,13 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf Graphic file (type
 <use bookdown-demo_files/figure-latex/unnamed-chunk-62-1.pdf>
 File: bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-63-1.pdf>
-[156] [157]
+[156]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-64-1.pdf>
-[158]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[157] [158]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-65-1.pdf>
 [159]
@@ -1496,9 +1473,10 @@ File: bookdown-demo_files/figure-latex/unnamed-chunk-66-1.pdf Graphic file (type
 [160]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-67-1.pdf>
+[161]
 File: bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf Graphic file (type pdf)
 <use bookdown-demo_files/figure-latex/unnamed-chunk-68-1.pdf>
-[161] [162] [163] [164
+[162] [163] [164
 
 
 ]
@@ -1904,114 +1882,126 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 ]
 chapter 34.
-[379] [380
+[379] [380]
+File: img/fig_wasps.jpg Graphic file (type bmp)
+<img/fig_wasps.jpg>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-181-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-181-1.pdf>
+[381] [382]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-182-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-182-1.pdf>
+[383]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-183-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-183-1.pdf>
+[384] [385] [386] [387]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-186-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-186-1.pdf>
+[388]
+File: img/fig_tree.jpg Graphic file (type bmp)
+<img/fig_tree.jpg>
+[389]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-190-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-190-1.pdf>
+[390]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-192-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-192-1.pdf>
+File: bookdown-demo_files/figure-latex/unnamed-chunk-193-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-193-1.pdf>
+
+Underfull \vbox (badness 1546) has occurred while \output is active []
+
+[391] [392] [393] [394
 
 
 ]
 chapter 35.
-[381] [382
-
-
-]
-chapter 36.
-[383] [384
-
-
-]
-chapter 37.
-[385] [386
-
-
-]
-chapter 38.
-[387] [388
+[395] [396] [397]
+LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 9810.
+[398] [399] [400]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-209-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-209-1.pdf>
+[401] [402] [403] [404]
+File: bookdown-demo_files/figure-latex/unnamed-chunk-215-1.pdf Graphic file (type pdf)
+<use bookdown-demo_files/figure-latex/unnamed-chunk-215-1.pdf>
+[405] [406
 
 
 ]
 part XII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 9368.
-[389] [390] [391
+(scrkbase)              on input line 10187.
+[407] [408] [409
 
 
-] [392
-
-
-]
-chapter 39.
-[393] [394
+] [410
 
 
 ]
-chapter 40.
-[395] [396
+chapter 36.
+[411] [412
 
 
 ]
-chapter 41.
-[397] [398
-
-
-]
-chapter 42.
-[399] [400
+chapter 37.
+[413] [414
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 9408.
-[401] [402] [403
+(scrkbase)              on input line 10227.
+[415] [416] [417
 
 
-] [404
+] [418
 
 
 ]
 chapter A.
-[405] [406]
+[419] [420]
 chapter B.
-[407
+[421
 
 
-] [408] [409] [410]
+] [422] [423] [424]
 chapter C.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[411
+[425
 
 
 ]
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
-[412]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 9693--9776
+[426]
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 10516--10599
 [] 
  []
 
-(./bookdown-demo.bbl [413] [414
+(./bookdown-demo.bbl [427] [428
 
 
-] [415]
+] [429]
 Underfull \hbox (badness 1152) in paragraph at lines 77--82
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[416] [417] [418] [419]) [420] (./bookdown-demo.aux)
+[430] [431] [432] [433]) [434] (./bookdown-demo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24315 strings out of 478683
- 503601 string characters out of 5848935
- 1924018 words of memory out of 5000000
- 43987 multiletter control sequences out of 15000+600000
- 521719 words of font info for 113 fonts, out of 8000000 for 9000
+ 24494 strings out of 478683
+ 510654 string characters out of 5848935
+ 1925018 words of memory out of 5000000
+ 44151 multiletter control sequences out of 15000+600000
+ 521735 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,11n,121p,10636b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (420 pages).
+Output written on bookdown-demo.pdf (434 pages).

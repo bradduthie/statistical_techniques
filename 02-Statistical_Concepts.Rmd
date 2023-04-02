@@ -482,7 +482,7 @@ Note that there are 5 columns of data, and all of the data appear to be in a tid
 Each row represents a separate fig fruit, while each column represents a measured variable associated with the fruit.
 The first several rows should look like the below.
 
-```{r, echo = FALSE}
+```{r, echo = FALSE, comment = NA}
 print(head(fig_fruits));
 ```
 

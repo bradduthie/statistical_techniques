@@ -240,11 +240,11 @@ par(mar = c(5, 5, 1.5, 1.5));
 xx       <- seq(from = -5, to = 5, by = 0.001);
 xx_vals  <- 1:10001;
 yy       <- dt(xx, df = 9);
-plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+plot(x = xx, y = yy, type = "l", ylim = c(0, 0.48), 
      ylab = "Probability",  xlab = "t-score", lwd = 2, xlim = c(-3, 3),
      cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
 polygon(c(xx[xx_vals], xx[1], xx[10001]), 
-        c(pr_norm[xx_vals], 0, 0), col="grey80");
+        c(yy[xx_vals], 0, 0), col="grey80");
 arrows(x0 = 2.496623, x1 = 2.496623, y0 = 0.1, y1 = 0.002, lwd = 3);
 mbox <- function(x0, x1, y0, y1){
     xx <- seq(from=x0, to=x1, length.out = 100);
@@ -341,16 +341,16 @@ $$t_{\bar{y}_{1} - \bar{y}_{2}} = \frac{\bar{y}_{1} - \bar{y}_{2}}{SE(\bar{y})} 
 
 As with the one-sample t-test, we can identify the position of $t_{\bar{y}_{1} - \bar{y}_{2}}$ on the t-distribution (Figure 21.2).
 
-```{r, echo = FALSE, fig.alt = "A bell curve of the t-distribution is shown with an arrow pointing downward on the x-axis value around 1.3.", fig.cap = "A t-distribution is shown with a calculated t-statistic of 1.348609 indicated with a downard arrow."}
+```{r, echo = FALSE, fig.alt = "A bell curve of the t-distribution is shown with an arrow pointing downward on the x-axis value around 1.3.", fig.cap = "A t-distribution is shown with a calculated t-statistic of 1.348609 indicated with a downward arrow."}
 par(mar = c(5, 5, 1.5, 1.5));
 xx       <- seq(from = -5, to = 5, by = 0.001);
 xx_vals  <- 1:10001;
 yy       <- dt(xx, df = 9);
-plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+plot(x = xx, y = yy, type = "l", ylim = c(0, 0.48), 
      ylab = "Probability",  xlab = "t-score", lwd = 2, xlim = c(-3, 3),
      cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
 polygon(c(xx[xx_vals], xx[1], xx[10001]), 
-        c(pr_norm[xx_vals], 0, 0), col="grey80");
+        c(yy[xx_vals], 0, 0), col="grey80");
 arrows(x0 = 1.348609, x1 = 1.348609, y0 = 0.1, y1 = 0.002, lwd = 3);
 mbox <- function(x0, x1, y0, y1){
     xx <- seq(from=x0, to=x1, length.out = 100);
@@ -421,11 +421,11 @@ par(mar = c(5, 5, 1.5, 1.5));
 xx       <- seq(from = -5, to = 5, by = 0.001);
 xx_vals  <- 1:10001;
 yy       <- dt(xx, df = 9);
-plot(x = xx, y = pr_norm, type = "l", ylim = c(0, 0.48), 
+plot(x = xx, y = yy, type = "l", ylim = c(0, 0.48), 
      ylab = "Probability",  xlab = "t-score", lwd = 2, xlim = c(-3, 3),
      cex.lab = 1.25, cex.axis = 1.25, yaxs = "i");
 polygon(c(xx[xx_vals], xx[1], xx[10001]), 
-        c(pr_norm[xx_vals], 0, 0), col="grey80");
+        c(yy[xx_vals], 0, 0), col="grey80");
 arrows(x0 = -0.9016175, x1 = -0.9016175, y0 = 0.1, y1 = 0.002, lwd = 3);
 mbox <- function(x0, x1, y0, y1){
     xx <- seq(from=x0, to=x1, length.out = 100);

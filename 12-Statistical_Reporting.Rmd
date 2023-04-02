@@ -12,11 +12,11 @@ Practical: R starts creeping in now?
 
 General explanation
 
-# More introduction to R
+## More introduction to R
 
 How these differ
 
-# More getting started with R
+## More getting started with R
 
 Just more to do.
 
