@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  9 APR 2023 20:43
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  9 APR 2023 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1960,69 +1960,14 @@ Overfull \hbox (26.1994pt too wide) in paragraph at lines 10545--10546
 []\TU/lmr/m/n/10.95 Code to return column 3: ______________________________________ 
  []
 
-
-Overfull \hbox (173.66298pt too wide) in paragraph at lines 10584--10585
-[]\TU/lmr/m/n/10.95 Mean bill length (mm): _________________________________________________________ 
- []
-
-[422]
-Overfull \hbox (167.4489pt too wide) in paragraph at lines 10595--10596
-[]\TU/lmr/m/n/10.95 Lower bill length CI: __________________________________________________________ 
- []
-
-
-Overfull \hbox (168.53294pt too wide) in paragraph at lines 10597--10598
-[]\TU/lmr/m/n/10.95 Upper bill length CI: __________________________________________________________ 
- []
-
-[423]
-Overfull \hbox (217.2975pt too wide) in paragraph at lines 10637--10638
-[]\TU/lmr/m/n/10.95 F value: _______________________________________________________________________ 
- []
-
-
-Overfull \hbox (216.23656pt too wide) in paragraph at lines 10639--10640
-[]\TU/lmr/m/n/10.95 p value: _______________________________________________________________________ 
- []
-
-[424] [425] [426]
-Overfull \hbox (215.26195pt too wide) in paragraph at lines 10794--10795
-[]\TU/lmr/m/n/10.95 R-squared: _____________________________________________________________________ 
- []
-
-
-Overfull \hbox (209.87454pt too wide) in paragraph at lines 10796--10797
-[]\TU/lmr/m/n/10.95 Intercept: _____________________________________________________________________ 
- []
-
-
-Overfull \hbox (225.36884pt too wide) in paragraph at lines 10798--10799
-[]\TU/lmr/m/n/10.95 Slope: _________________________________________________________________________ 
- []
-
-
-Overfull \hbox (200.42479pt too wide) in paragraph at lines 10800--10801
-[]\TU/lmr/m/n/10.95 Model p-value: _________________________________________________________________ 
- []
-
-
-Overfull \hbox (186.73729pt too wide) in paragraph at lines 10826--10827
-[]\TU/lmr/m/n/10.95 Adjusted R-squared: ____________________________________________________________ 
- []
-
-
-Overfull \hbox (198.91367pt too wide) in paragraph at lines 10828--10829
-[]\TU/lmr/m/n/10.95 Model equation: ________________________________________________________________ 
- []
-
-[427] [428] [429] [430
+[422] [423] [424] [425] [426] [427] [428] [429] [430
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 10910.
+(scrkbase)              on input line 10916.
 [431] [432] [433
 
 
@@ -2048,7 +1993,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
 [442]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 11199--11282
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 11205--11288
 [] 
  []
 

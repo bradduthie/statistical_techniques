@@ -341,7 +341,7 @@ There is usually more than one way of doing the same thing in R (we could also u
 
 > Task 4: Find the mean bill length of penguins in mm (column 3)
 
-Mean bill length (mm): _________________________________________________________
+Mean bill length (mm): ____________________
 
 Now we can try 2 more functions. 
 The function `sd` returns the standard deviation of numbers (note that while `na.rm` is not an argument for every R function, it can also be used as an argument in `sd`). 
@@ -351,10 +351,10 @@ Try using these functions to calculate the 95 per cent confidence intervals for 
 > Task 5: Calculate lower and upper confidence intervals (CIs) using the R functions `mean`, `sd`, and `length`.
 
 
-Lower bill length CI: __________________________________________________________
+Lower bill length CI: ______________________
 
 
-Upper bill length CI: __________________________________________________________
+Upper bill length CI: ______________________
 
 
 Next, we can use the penguins dataset to run a one-way ANOVA, two-way ANOVA, $\chi^{2}$ tests, correlation test, and linear regression. 
@@ -392,10 +392,10 @@ The function `anova` then summarises this model.
 
 Note that R uses scientific notation to write very low values. For example `5.5e-4` would be interpreted as $5.5 \times 10^{-4}$, which is 0.00055.
 
-F value: _______________________________________________________________________
+F value: _________________
 
 
-p value: _______________________________________________________________________
+p value: _________________
 
 Since our p-value is less than 0.05, we can also run a Tukey's Honestly Significant Difference test of multiple comparisons (see [Chapter 24](#Chapter_24)).
 We need to use the `aov` and `TukeyHSD` functions to do it.
@@ -425,7 +425,13 @@ Now we are just adding a new independent variable with the `+` sign, and adding 
 
 > Task 7: Use the code above to run a two way ANOVA. Determine whether or not the the main effects of the model (species and sex) are significant, and whether the interaction terms are significant.
 
-Significance: Species? __________  Sex? _____________ Interaction? _____________
+Significance: 
+
+Species? __________  
+
+Sex? _____________ 
+
+Interaction? _____________
 
 
 ### Chi-square test in R
@@ -518,13 +524,13 @@ In the formula, the dependent variable `mass` is separated from the independent 
 
 > Task 11: Examine the output of the simple regression of penguin body mass against bill depth from the code above. Find the R-squared value (called 'Multiple R-squared'), intercept, slope, and p-value for the overall model.
 
-R-squared: _____________________________________________________________________
+R-squared: _______________
 
-Intercept: _____________________________________________________________________
+Intercept: _______________
 
-Slope: _________________________________________________________________________
+Slope: ___________________
 
-Model p-value: _________________________________________________________________
+Model p-value: ___________
 
 
 Note that the p-value for the model is in the very bottom right of the output.
@@ -549,9 +555,9 @@ The output above looks similar to that of our simple linear model, but we now ha
 
 > Task 12: Examine the output of the multiple regression from the code above. Find the adjusted R-squared value, and write down the equation of the model.
 
-Adjusted R-squared: ____________________________________________________________
+Adjusted R-squared: ________________
 
-Model equation: ________________________________________________________________
+Model equation: ____________________
 
 
 We have now looked at how to run ANOVAs, Chi-square tests, correlation tests, and regression in R.
