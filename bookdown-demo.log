@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  4 APR 2023 21:01
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.5)  9 APR 2023 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1082,44 +1082,44 @@ Overfull \hbox (1.09497pt too wide) detected at line 214
  []
 
 [8]
-Overfull \hbox (1.09497pt too wide) detected at line 217
- []\TU/lmss/bx/n/10.95 413
+Overfull \hbox (1.09497pt too wide) detected at line 234
+ []\TU/lmss/bx/n/10.95 419
  []
 
 
 Package tocbasic Warning: number width of part toc entries should be increased!
 (tocbasic)                Currently used number width = 25.128pt,
 (tocbasic)                Wanted number separation    = 4.79993pt,
-(tocbasic)                Reserved number width       = 24.0pt on input line 221.
+(tocbasic)                Reserved number width       = 24.0pt on input line 242.
 
 
-Overfull \hbox (3.22801pt too wide) detected at line 221
+Overfull \hbox (3.22801pt too wide) detected at line 242
 \TU/lmss/bx/n/12 XIII. 
  []
 
 
-Overfull \hbox (2.82748pt too wide) detected at line 221
- []\TU/lmss/bx/n/12 415
+Overfull \hbox (2.82748pt too wide) detected at line 242
+ []\TU/lmss/bx/n/12 435
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 222
- []\TU/lmss/bx/n/10.95 417
+Overfull \hbox (1.09497pt too wide) detected at line 243
+ []\TU/lmss/bx/n/10.95 437
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 223
- []\TU/lmss/bx/n/10.95 419
+Overfull \hbox (1.09497pt too wide) detected at line 244
+ []\TU/lmss/bx/n/10.95 439
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 224
- []\TU/lmss/bx/n/10.95 421
+Overfull \hbox (1.09497pt too wide) detected at line 245
+ []\TU/lmss/bx/n/10.95 441
  []
 
 
-Overfull \hbox (1.09497pt too wide) detected at line 225
- []\TU/lmss/bx/n/10.95 425
+Overfull \hbox (1.09497pt too wide) detected at line 246
+ []\TU/lmss/bx/n/10.95 445
  []
 
 )
@@ -1936,68 +1936,156 @@ Package scrkbase Info: You've told me to use the font selection of the element
 
 ]
 chapter 36.
-[411] [412
+[411] [412] [413] [414] [415] [416] [417] [418
 
 
 ]
 chapter 37.
-[413] [414
+File: img/penguins.png Graphic file (type bmp)
+<img/penguins.png>
+[419]
+File: img/Rstudio_setwd.png Graphic file (type bmp)
+<img/Rstudio_setwd.png>
+File: img/Rstudio_script.png Graphic file (type bmp)
+<img/Rstudio_script.png>
+[420]
+File: img/Rstudio_run.png Graphic file (type bmp)
+<img/Rstudio_run.png>
+[421]
+Overfull \hbox (26.1994pt too wide) in paragraph at lines 10547--10548
+[]\TU/lmr/m/n/10.95 Code to return column 3: ______________________________________ 
+ []
+
+
+Overfull \hbox (173.66298pt too wide) in paragraph at lines 10586--10587
+[]\TU/lmr/m/n/10.95 Mean bill length (mm): _________________________________________________________ 
+ []
+
+[422]
+Overfull \hbox (167.4489pt too wide) in paragraph at lines 10597--10598
+[]\TU/lmr/m/n/10.95 Lower bill length CI: __________________________________________________________ 
+ []
+
+
+Overfull \hbox (168.53294pt too wide) in paragraph at lines 10599--10600
+[]\TU/lmr/m/n/10.95 Upper bill length CI: __________________________________________________________ 
+ []
+
+[423]
+Overfull \hbox (217.2975pt too wide) in paragraph at lines 10639--10640
+[]\TU/lmr/m/n/10.95 F value: _______________________________________________________________________ 
+ []
+
+
+Overfull \hbox (216.23656pt too wide) in paragraph at lines 10641--10642
+[]\TU/lmr/m/n/10.95 p value: _______________________________________________________________________ 
+ []
+
+[424] [425] [426]
+Overfull \hbox (186.28831pt too wide) in paragraph at lines 10808--10809
+[]\TU/lmr/m/n/10.95 Test statistic: ________________________________________________________________ 
+ []
+
+
+Overfull \hbox (210.82729pt too wide) in paragraph at lines 10810--10811
+[]\TU/lmr/m/n/10.95 Conclusion: ____________________________________________________________________ 
+ []
+
+[427]
+Overfull \hbox (215.26195pt too wide) in paragraph at lines 10842--10843
+[]\TU/lmr/m/n/10.95 R-squared: _____________________________________________________________________ 
+ []
+
+
+Overfull \hbox (209.87454pt too wide) in paragraph at lines 10844--10845
+[]\TU/lmr/m/n/10.95 Intercept: _____________________________________________________________________ 
+ []
+
+
+Overfull \hbox (225.36884pt too wide) in paragraph at lines 10846--10847
+[]\TU/lmr/m/n/10.95 Slope: _________________________________________________________________________ 
+ []
+
+
+Overfull \hbox (200.42479pt too wide) in paragraph at lines 10848--10849
+[]\TU/lmr/m/n/10.95 Model p-value: _________________________________________________________________ 
+ []
+
+[428]
+Overfull \hbox (186.73729pt too wide) in paragraph at lines 10891--10892
+[]\TU/lmr/m/n/10.95 Adjusted R-squared: ____________________________________________________________ 
+ []
+
+
+Overfull \hbox (198.91367pt too wide) in paragraph at lines 10893--10894
+[]\TU/lmr/m/n/10.95 Model equation: ________________________________________________________________ 
+ []
+
+[429]
+File: img/upload.png Graphic file (type bmp)
+<img/upload.png>
+
+Overfull \hbox (10.95125pt too wide) in paragraph at lines 10914--10915
+[][] 
+ []
+
+[430] [431] [432] [433] [434
 
 
 ]
 part XIII.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 10227.
-[415] [416] [417
+(scrkbase)              on input line 11056.
+[435] [436] [437
 
 
-] [418
+] [438
 
 
 ]
 chapter A.
-[419] [420]
+[439] [440]
 chapter B.
-[421
+[441
 
 
-] [422] [423] [424]
+] [442] [443] [444]
 chapter C.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[425
+[445
 
 
 ]
 Overfull \vbox (139.21887pt too high) has occurred while \output is active []
 
-[426]
-Overfull \hbox (119.51965pt too wide) in paragraph at lines 10516--10599
+[446]
+Overfull \hbox (119.51965pt too wide) in paragraph at lines 11345--11428
 [] 
  []
 
-(./bookdown-demo.bbl [427] [428
+(./bookdown-demo.bbl [447] [448
 
 
-] [429]
-Underfull \hbox (badness 1152) in paragraph at lines 77--82
+] [449]
+Underfull \hbox (badness 1152) in paragraph at lines 83--88
 \TU/lmr/m/n/10.95 exploiter distributions in Ficus petiolaris and associated pollinating and non-
  []
 
-[430] [431] [432] [433]) [434] (./bookdown-demo.aux)
+[450] [451] [452] [453] [454]) [455] (./bookdown-demo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 24494 strings out of 478683
- 510641 string characters out of 5848935
+ 24646 strings out of 478683
+ 513878 string characters out of 5848935
  1925018 words of memory out of 5000000
- 44151 multiletter control sequences out of 15000+600000
+ 44298 multiletter control sequences out of 15000+600000
  521735 words of font info for 115 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 108i,11n,121p,10636b,577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,11n,121p,10636b,605s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on bookdown-demo.pdf (434 pages).
+Output written on bookdown-demo.pdf (455 pages).
