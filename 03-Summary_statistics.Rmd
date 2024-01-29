@@ -10,31 +10,31 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 6 February 2023 - 10 February 2023 |
+| **Dates**       | 5 February 2024 - 9 February 2024 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 9-12  |
 |                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
 |                 | **Suggested:** @Rowntree2018 Chapter 3 |
 |                 | **Advanced:** None
-| **Lectures**    | 3.0: Decimal places and significant figures part 1 (7:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=05e7e5ee-65a5-4b78-bd46-af8200d9170b)) |
-|                 | 3.1: Decimal places and significant figures part 2 (7:08 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f4513530-0bd2-4886-8338-af8200d91727)) |
-|                 | 3.2: Graphs (10:29 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=35638c1d-0ee7-404d-97fd-af8200d91874)) |
-|                 | 3.3: Box-whisker plots (8:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b8eb060-b936-42ad-a4db-af8200d91892)) |
-|                 | 3.4: The mean (16:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f47d8358-b4b6-44ed-8352-af8200d9177c)) |
-|                 | 3.5: The mode (6:54 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=999ba5dd-0f42-45f3-9152-af8200d91795)) |
-|                 | 3.6: The median and quantiles (8:04 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72ef44f4-0d1f-4f24-9d96-af8200d917eb)) |
-|                 | 3.7: Mean, mode, median, and resistance (8:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a43b6799-040c-4699-9864-af8200d91809)) |
-|                 | 3.8: The variance (9:40 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b7f26e80-a40d-45d4-b4ab-af8200d918fe)) |
-|                 | 3.9: The standard deviation (6:17  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=db70798b-16fa-4164-839b-af8200d91919)) |
-|                 | 3.10: The standard deviation (7:46  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9aec6aa5-9e3a-40f6-92f4-af8200d91979)) |
-|                 | 3.11: The standard deviation (13:23  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9c7a11df-7182-4f69-b986-af8200d91994)) |
+| **Lectures**    | 3.0: Decimal places and significant figures part 1 (7:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=905376e4-a4a3-4688-9529-b0ed01195bb5)) |
+|                 | 3.1: Decimal places and significant figures part 2 (7:08 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc794e67-9eb7-4218-9e66-b0ed011972f2)) |
+|                 | 3.2: Graphs (10:29 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c55ca4bd-1c90-4577-b296-b0ed0119c927)) |
+|                 | 3.3: Box-whisker plots (8:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=56075b39-5f0d-4266-8c9b-b0ed0119e942)) |
+|                 | 3.4: The mean (16:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=daefd4eb-1ec2-4d88-94ee-b0ed01198625)) |
+|                 | 3.5: The mode (6:54 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=54d68d9f-776d-4055-beab-b0ed011e918a)) |
+|                 | 3.6: The median and quantiles (8:04 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6951de51-f20c-4818-835d-b0ed0119a947)) |
+|                 | 3.7: Mean, mode, median, and resistance (8:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a332afef-d366-4bef-aebb-b0ed0119bb75)) |
+|                 | 3.8: The variance (9:40 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8776c109-2d87-425f-bbdf-b0ed0119fb99)) |
+|                 | 3.9: The standard deviation (6:17  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3428b533-3437-41dc-a7db-b0ed011a10ed)) |
+|                 | 3.10: Other measures of spread (7:46  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5a175e42-1296-4d69-bd93-b0ed011a26d6)) |
+|                 | 3.11: Standard error (13:23  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5c2ed9ea-d433-4fa9-a742-b0ed011a3a6c)) |
 | **Practical**   | Plotting and statistical summaries ([Chapter 13](#Chapter_13))       |
 |                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 08 FEB 2023 (WED) 13:05-15:55 |
-|                 |   Group B: 09 FEB 2023 (THU) 09:05-11:55 |
+|                 |   Group A: 07 FEB 2024 (WED) 09:05-11:55 |
+|                 |   Group B: 08 FEB 2024 (THU) 12:05-14:55 |
 | **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 1A13           |
-|                 |   10 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29674) on Canvas  |
+|                 |   Room: Cottrell 2A21           |
+|                 |   09 FEB 2024 (FRI) 15:05-17:55 |
+| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35451) on Canvas  |
 
 Week 3 focuses on descriptive statistics, how to report them, interpret them, and communicate them with graphs.
 
@@ -53,7 +53,7 @@ In contrast to measures of central tendency, which focus on the centre of a data
 Measures of spread in this chapter in clude the range, the inter-quartile range, the variance, the standard deviation, the coefficient of variation, and the standard error.
 
 [Chapter 13](#Chapter_13) guides you through the week 3 practical. 
-The aim of this practical is to learn how to use Jamovi to generate plots introduced in [Chapter 10](#Chapter_10), and to find measures of central tendency and spread introduced in [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12), respectively, and report them accurately using the knowledge from [Chapter 9](#Chapter_9).
+The aim of this practical is to learn how to use jamovi to generate plots introduced in [Chapter 10](#Chapter_10), and to find measures of central tendency and spread introduced in [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12), respectively, and report them accurately using the knowledge from [Chapter 9](#Chapter_9).
 
 
 # Decimal places, significant figures, and rounding {#Chapter_9}
@@ -468,7 +468,7 @@ Statisticians have just proposed different approaches to calculating quantiles f
 This can be unsatisfying when first learning statistics because it would be nice to have a single approach that is demonstrably correct, i.e., the *right* answer under all circumstances.
 Unfortunately, this is not the case here, nor is it the case for a lot of statistical techniques.
 Often there are different approaches to answering the same statistical question and no simple right answer.
-For this module, we will almost always be reporting calculations of quantiles from Jamovi, and we will clearly indicate that this is how they should be calculated for assessment questions.
+For this module, we will almost always be reporting calculations of quantiles from jamovi, and we will clearly indicate that this is how they should be calculated for assessment questions.
 But it is important to recognise that different statistical tools might give different answers [@Hyndman1996].
 
 
@@ -638,7 +638,7 @@ $$s^{2} = \frac{1}{7 - 1}\left(0.2\right).$$
 From the above, we get a variance of approximately $s^{2} = 0.0333$.
 
 Fortunately, it will almost never be necessary to calculate a variance manually in this way.
-Any statistical software will do all of these steps and calculate the variance for us ([Chapter 13](#Chapter_13) explains how in Jamovi).
+Any statistical software will do all of these steps and calculate the variance for us ([Chapter 13](#Chapter_13) explains how in jamovi).
 The only reason that we present the step-by-step calculation here is to help explain the equation for $s^{2}$.
 The details can be helpful for understanding how the variance works as a measure of spread.
 For example, note that what we are really doing here is getting the distance of each value from the mean, $x_{i} - \bar{x}$.
@@ -656,7 +656,7 @@ Why would we subtract 1 here?
 The short answer is that in calculating a *sample* variance, $s^{2}$, we are almost always trying to estimate the corresponding *population* variance ($\sigma^{2}$).
 And if we were to just use $N$ instead of $N - 1$, then our $s^{2}$ would be a biased estimate of $\sigma^{2}$ (see [Chapter 4](#Chapter_4) for a reminder on the difference between samples and populations).
 By subtracting 1, we are correcting for this bias to get a more accurate estimate of the population variance.
-It is not necessary to do this ourselves; statistical software like Jamovi and R will do it automatically [@Jamovi2022; @Rproject].
+It is not necessary to do this ourselves; statistical software like jamovi and R will do it automatically [@Jamovi2022; @Rproject].
 This is really all that it is necessary to know for now, but see this footnote[^6] for a bit more detailed explanation to try to make this intuitive (it is actually quite cool!).
 Later, we will explore the broader concept of *degrees of freedom*, which explains why we need to take into account the number of parameters in a statistic that are free to vary when calculating a statistic[^7].
 
@@ -708,7 +708,7 @@ Here is another [interactive tool](https://bradduthie.shinyapps.io/normal_pos_ne
 
 > [Click here](https://bradduthie.shinyapps.io/normal_pos_neg/) for an interactive application to visualise how a histogram changes given a changing standard deviation.
 
-The practical in [Chapter 13](#Chapter_13) explains how to calculate the standard deviation in Jamovi.
+The practical in [Chapter 13](#Chapter_13) explains how to calculate the standard deviation in jamovi.
 
 
 [^9]: Here is the full URL: https://bradduthie.shinyapps.io/forest/
@@ -837,9 +837,9 @@ These are reasonably close, and would be even closer if we had either a larger s
 
 
 
-# _Practical_. Plotting and statistical summaries in Jamovi {#Chapter_13}
+# _Practical_. Plotting and statistical summaries in jamovi {#Chapter_13}
 
-This practical focuses on applying the concepts from Chapters 9-12 in Jamovi [@Jamovi2022]. 
+This practical focuses on applying the concepts from Chapters 9-12 in jamovi [@Jamovi2022]. 
 The data that we will work with in this practical were collected from a research project conducted by Dr Alan Law, Prof Nils Bunnefeld, and Prof Nigel Willby at the University of Stirling [@Law2014].
 The project focused on beaver reintroduction in Scottish habitats and its consequences for the white water lily, *Nymphaea alba*, which beavers regularly consume (Figure 13.1)[^11].
 
@@ -849,8 +849,8 @@ knitr::include_graphics("img/Nymphaea_alba_pads.jpg")
 
 As an instructive example, this lab will use the data from @Law2014 on the petiole diameter (mm) from *N. alba* collected from 7 different sites on the west coast of Scotland (the petiole is the structure that attaches the plant stem to the blade of the leaf).
 The *N. alba* dataset is available to download [here](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/Nymphaea_alba.csv)  (right click on the links and choose 'Save Link As...', then save it with the extension '.csv').
-Note that the data are not in a tidy format, so it is important to first reorganise the data so that they can be analysed in Jamovi (13.1).
-Once the data are properly organised, we will use Jamovi to plot them (13.2), calculate summary statistics (13.3), apply appropriate decimals, significant figures, and rounding (13.4), and compare petiole diameters across sites (13.5).
+Note that the data are not in a tidy format, so it is important to first reorganise the data so that they can be analysed in jamovi (13.1).
+Once the data are properly organised, we will use jamovi to plot them (13.2), calculate summary statistics (13.3), apply appropriate decimals, significant figures, and rounding (13.4), and compare petiole diameters across sites (13.5).
 
 [^11]: This figure was released into the public domain by [Аlexej Potupin](https://commons.wikimedia.org/wiki/File:Nymphaea_alba._Reader.jpg) on 8 June 2018.
 
@@ -866,22 +866,22 @@ N_alba_tidy <- read.csv("data/Nymphaea_alba_tidy.csv");
 print(N_alba)
 ```
 
-Remember that to make these data tidy and usable in Jamovi, we need each row to be a unique observation.
+Remember that to make these data tidy and usable in jamovi, we need each row to be a unique observation.
 What we really want then is a dataset with two columns of data.
 The first column should indicate the site, and the second column should indicate the petiole diameter.
 This can be done in two ways.
 First, we could use a spreadsheet programme like LibreOffice or MS Excel to create a new dataset with two columns, one column with the site information and the other column with the petiole diameters.
-Second, we could use the 'Data' tab in Jamovi to create two new columns of data (one for site and the other for petiole diameter).
+Second, we could use the 'Data' tab in jamovi to create two new columns of data (one for site and the other for petiole diameter).
 Either way, we need to copy and paste site names into the first column and petiole diameters in the second column.
 This is a bit tedious, and we will not ask you to do it for every dataset, but it is an important step in the process of data analysis.
-See Figure 13.2 for how this would look in Jamovi.
+See Figure 13.2 for how this would look in jamovi.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with new columns being added to the dataset.", fig.cap = "Tidying the raw data of petiole diameters from lily pad measurements across 7 sites in Scotland. A new column of data is created by right clicking on an existing column and choosing 'Add Variable'.", out.width="100%"}
 knitr::include_graphics("img/lilypad_tidy.png")
 ```
 
-Note that to insert a new column in Jamovi, we need to right click on an existing column and select 'Add Variable' $\to$ 'Insert'.
-A new column will then pop up in Jamovi, and we can give this an informative name.
+Note that to insert a new column in jamovi, we need to right click on an existing column and select 'Add Variable' $\to$ 'Insert'.
+A new column will then pop up in jamovi, and we can give this an informative name.
 Make sure to specify that the 'Site' column should be a nominal measure type, and the 'petiole_diameter_mm' column should be a continuous measure type. 
 The first 6 rows of the dataset should look like the below.
 
@@ -889,13 +889,13 @@ The first 6 rows of the dataset should look like the below.
 print(head(N_alba_tidy));
 ```
 
-With the reorganised dataset, we are now ready to do some analysis in Jamovi.
+With the reorganised dataset, we are now ready to do some analysis in jamovi.
 We will start with some plotting.
 
 ## Histograms and box-whisker plots
 
 We will start by making a histogram of the full dataset of petiole diameter.
-To do this, we need to go to the 'Analyses' tab of the Jamovi toolbar, then select the 'Exploration' button.
+To do this, we need to go to the 'Analyses' tab of the jamovi toolbar, then select the 'Exploration' button.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with an Exploration and Descriptive option being selected.", fig.cap = "Jamovi toolbar after having selected on the Analyses tab followed by the Exploration button.", out.width="100%"}
 knitr::include_graphics("img/lilypad_descriptives.png")
@@ -941,7 +941,7 @@ The histogram needs better labelled axes and an informative caption.
 To label the axes better, go back to the data tab and double click on the column heading 'petiole_diameter_mm'. 
 Change the name of the data variable to 'Petiole diameter (mm)'. 
 The newly named variable will then appear when a new histogram of the petiole diameter data is made.
-To write a caption in Jamovi, click on the 'Edit' tab at the very top of the toolbar.
+To write a caption in jamovi, click on the 'Edit' tab at the very top of the toolbar.
 You will see some blue boxes above and below the histogram, and you can write your caption by clicking on the box immediately below the histogram.
 Write a caption for the histogram below.
 
@@ -977,7 +977,7 @@ Highest:  ____________________________
 Lowest:   ____________________________
 
 
-There is one more trick with box-whisker plots in Jamovi that is useful.
+There is one more trick with box-whisker plots in jamovi that is useful.
 The current plots show a summary of each site, but it might also be useful to plot the actual data points to give some more information about the distribution of petiole diameters.
 You can do this by checking the option 'Data', which places the petiole diameter of each sample over the box and whiskers for each site.
 The y-axis shows the petiole diameter of each data point.
@@ -990,7 +990,7 @@ Think about where the points are in relation to the box and whiskers of the plot
 
 ## Calculate summary statistics
 
-We can calculate the summary statistics using the 'Descriptives' option in Jamovi, just as we did with the histogram and box-whisker plots.
+We can calculate the summary statistics using the 'Descriptives' option in jamovi, just as we did with the histogram and box-whisker plots.
 Before doing anything else, again place the petiole diameter variable in the box of variables, but do not split the dataset by site just yet because we first want summary statistics across the entire dataset.
 Below the box of variables, but above the Plots options, there are options for selecting different summary statistics.
 Open up this new box and have a look at the different summary statistics that can be calculated.
@@ -1008,18 +1008,18 @@ To calculate all of the variables explained in [Chapter 11](#Chapter_11) and [Ch
 - Mode: _______________________
 - Std. error of mean: _______________________
 
-When you do this, the Statistics option in Jamovi should like like it does in Figure 13.5.
+When you do this, the Statistics option in jamovi should look like it does in Figure 13.5.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi Descriptives interface is shown with checkboxes for different summary statistics, most of which are checked.", fig.cap = "Jamovi Descriptives toolbar showing the summary statistics available to report.", out.width="100%"}
 knitr::include_graphics("img/lilypad_summary_statistics.png")
 ```
 
-Once you check these boxes, you will see a 'Descriptives' table open on the right hand side of Jamovi.
+Once you check these boxes, you will see a 'Descriptives' table open on the right hand side of jamovi.
 This table will report all of the summary statistics that you have checked.
 Write down the values for the summary statistics next to the corresponding bullet points above.
 
 Next split these summary statistics up by site. 
-Notice the very large table that is now produced on the right hand side of Jamovi.
+Notice the very large table that is now produced on the right hand side of jamovi.
 Which of the 7 sites in the data set has the highest mean petiole diameter, and what is its mean?
 
 Site: ______________________________ 
@@ -1034,8 +1034,8 @@ Site:      ______________________________
 Variance: ______________________________
 
 
-Make sure that you are able to find and interpret these summary statistics in Jamovi.
-Explore different options to get more comfortable using Jamovi for building plots and reporting summary statistics.
+Make sure that you are able to find and interpret these summary statistics in jamovi.
+Explore different options to get more comfortable using jamovi for building plots and reporting summary statistics.
 Can you find the first and third quartiles for each site?
 Report the third quartiles for each site below.
 
@@ -1058,7 +1058,7 @@ Next, we will look at reporting summary statistics to different significant figu
 
 ## Reporting decimals and significant figures
 
-Using the same values that you reported above for the whole dataset (i.e., not broken down by site), report each summary statistics to two significant figures.
+Using the same values that you reported above for the whole dataset (i.e., not broken down by site), report each summary statistic to two significant figures.
 Remember to round accurately if you need to reduce the number of significant figures from the original values to the new values below.
 In assessments, you will often be asked to report a particular answer to a specific number of decimal places or significant figures, so the intention here is to help you practice.
 
@@ -1078,7 +1078,7 @@ In assessments, you will often be asked to report a particular answer to a speci
 
 Remember from 13.2 that you were asked to write down what you thought the mean, median, and standard deviation were just by inspecting the histogram.
 Compare your answers in that section with the rounded statistics listed above.
-Were you able to get a similar value from the histogram as calculated in Jamovi from the data?
+Were you able to get a similar value from the histogram as calculated in jamovi from the data?
 What can you learn from the histogram that you cannot from the summary statistics, and what can you learn from the summary statistics that you cannot from the histogram?
 Write your reflections in the space below.
 
@@ -1097,7 +1097,7 @@ Next, we will produce barplots to show the mean petiole diameter for each site.
 
 ## Comparing across sites
 
-To make a barplot that compares the mean petiole diameters across sites, we again use the Descriptives option in Jamovi.
+To make a barplot that compares the mean petiole diameters across sites, we again use the Descriptives option in jamovi.
 Place petiole diameter as the variable, and spit this by site.
 Next, go down to the plotting options and check 'Bar plot'.
 You will see a barplot produced in the window to the right with different sites on the x-axis.

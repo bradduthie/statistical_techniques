@@ -4,24 +4,25 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 20 February 2023 - 24 February 2023 |
+| **Dates**       | 19 February 2024 - 23 February 2024 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17 and 18  |
 |                 | **Recommended:** None    |
 |                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
 |                 | **Advanced:** None |
-| **Lectures**    | 5.1: Some background for confidence intervals (6:36 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f56a623e-1d54-4aea-b310-af9e00c2e8c5)) |
-|                 | 5.2: Recap of z-scores (10:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b1e79c1d-e0ad-4048-930b-af9e00c44b35)) |
-|                 | 5.3: Confidence interval for the population mean (14:08 min [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ea812a85-4a03-4d15-9812-af9e00c6a55e)) |
-|                 | 5.4: The t-interval (10:24 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1972834b-3c22-4ab1-aea4-af9e00c8995f)) |
-|                 | 5.5: Confidence interval for the population proportion (6:37 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f3fcb762-1002-42ea-b949-afa5011f98a1)) |
+| **Lectures**    | 5.1: Some background for confidence intervals (6:36 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e287124-c14b-4d18-8606-b0ed0122c429)) |
+|                 | 5.2: Recap of z-scores (10:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7358430f-32c2-4119-b6b3-b0ed0122e12a)) |
+|                 | 5.3: Confidence interval for the population mean (14:08 min [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=414590d6-c0a4-4c2e-9286-b0ed0122ecc0)) |
+|                 | 5.4: The t-interval (10:24 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3671b41b-0327-4eac-be9e-b0ed01231e82)) |
+|                 | 5.5: Confidence interval for the population proportion (6:37 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=444f9a12-d890-4cea-b081-b0ed01237513)) |
 | **Practical**   | z- and t- intervals ([Chapter 19](#Chapter_19))       |
 |                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 22 FEB 2023 (WED) 13:05-15:55 |
-|                 |   Group B: 23 FEB 2023 (THU) 09:05-11:55 |
+|                 |   Group A: 21 FEB 2024 (WED) 19:05-11:55 |
+|                 |   Group B: 22 FEB 2024 (THU) 12:05-14:55 |
 | **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 1A13           |
-|                 |   24 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30516) on Canvas  |
+|                 |   Room: Cottrell 2A21           |
+|                 |   23 FEB 2024 (FRI) 15:05-17:55 |
+| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35445) on Canvas  |
+|                 | [Test 1F](https://canvas.stir.ac.uk/courses/14932/quizzes/35457) on Canvas  |
 
 
 Week 5 focuses making statistical inferences using confidence intervals (CIs) and and introduces the t-interval.
@@ -156,7 +157,7 @@ We will see what to do about this in [Chapter 18](#Chapter_18), but first we tur
 
 [^20]: While it is always important to be careful when searching, typing "z score 99 percent confidence interval" will almost always get the intended result. 
 
-[^21]: What defines a 'small' or a 'large' sample is a bit arbitrary. A popular suggestion [e.g., @Sokal1995 page 145] is that any $N < 30$ is too small to use z-scores, but any cut-off $N$ is going to be somewhat arbitrary. Technically, the z score is not **completely** accurate until $N \to \infty$, but for all intents and purposes, it is usually only trivially inaccurate for sample sizes in the hundreds. Fortunately, you do not need to worry about any of this when calculating CIs from continuous data in Jamovi because Jamovi applies a correction for you, which we will look at in [Chapter 18](#Chapter_18).
+[^21]: What defines a 'small' or a 'large' sample is a bit arbitrary. A popular suggestion [e.g., @Sokal1995 page 145] is that any $N < 30$ is too small to use z-scores, but any cut-off $N$ is going to be somewhat arbitrary. Technically, the z score is not **completely** accurate until $N \to \infty$, but for all intents and purposes, it is usually only trivially inaccurate for sample sizes in the hundreds. Fortunately, you do not need to worry about any of this when calculating CIs from continuous data in jamovi because jamovi applies a correction for you, which we will look at in [Chapter 18](#Chapter_18).
 
 
 ## Binomial distribution CIs
@@ -258,7 +259,7 @@ points(x = xx, y = pr_norm, type = "l", lwd = 2, col = "black");
 
 Note that in Figure 18.1, a t-distribution with 19 degrees of freedom (df) is shown.
 The t-distribution is parameterised using df, and we lose a degree of freedom when calculating $s^{2}$ from a sample size of $N = 20$, so $df = 20 - 1 = 19$ is the correct value (see [Chapter 12](#Chapter_12) for a brief explanation).
-For calculating CIs, df will always be $N - 1$, and this will be taken care of automatically in statistical programs such as Jamovi and R[^28] [@Jamovi2022; @Rproject].
+For calculating CIs, df will always be $N - 1$, and this will be taken care of automatically in statistical programs such as jamovi and R[^28] [@Jamovi2022; @Rproject].
 
 Recall from [Chapter 17](#Chapter_17) that our body mass measurements of 20 cats had a sample mean of $\bar{x} = 4.1$ kg and sample standard deviation of $s = 0.6$ kg. We calculated the lower 95\% CI to be $LCI_{95\%} = 4.041$ and the upper 95\% CI to be $UCI_{95\%} = 4.159$. We can now repeat the calculation using the t-score 2.093 instead of the z-score 1.96.
 Our corrected lower 95\% CI is,
@@ -318,19 +319,19 @@ The t-distribution is therefore very important for understanding most of the sta
 
 [^25]: This is also called the "Student's t-distribution". It was originally discovered by the head brewer of Guinness in Dublin in the early 20th century [@Box1978]. The brewer, W. S. Gosset, published under the pseudonym "A. Student" because Guinness had a policy of not allowing employees to publish [@Miller2004].
 
-[^26]: How large N needs to be for the t-distribution to considered close enough to the normal distribution is subjective. The two distributions get closer and closer as $N \to \infty$, but @Sokal1995 suggest that they are indistinguishable for all intents and purposes once $N > 30$. It is always safe to use the t-distribution when calculating confidence intervals, which is what all statistical programs such as Jamovi or R will do by default, so there is no need to worry about these kinds of arbitrary cutoffs in this case.
+[^26]: How large N needs to be for the t-distribution to considered close enough to the normal distribution is subjective. The two distributions get closer and closer as $N \to \infty$, but @Sokal1995 suggest that they are indistinguishable for all intents and purposes once $N > 30$. It is always safe to use the t-distribution when calculating confidence intervals, which is what all statistical programs such as jamovi or R will do by default, so there is no need to worry about these kinds of arbitrary cutoffs in this case.
 
 [^27]: We can define the t-distribution mathematically [@Miller2004], but it is an absolute beast, $$f(t) = \frac{\Gamma\left(\frac{v + 1}{2} \right)}{\sqrt{\pi v} \Gamma{\left(\frac{v}{2}\right)}}\left(1 + \frac{t^{2}}{v} \right)^{-\frac{v + 1}{2}}.$$ In this equation, $v$ is the degrees of freedom. The $\Gamma\left(\right)$ is called a "gamma function", which is basically the equivalent of a factorial function, but for any number z (not just integers), such that $\Gamma(z + 1) = \int_{0}^{\infty}x^{z}e^{-x}dx$ (where $z > -1$, or, even more technically, the real part of $z > -1$). If z is an integer n, then $\Gamma\left({n + 1}\right) = n!$ [@Borowski2005]. What about the rest of the t probability density function? Why is it all so much? The reason is that it is the result of 2 different probability distributions affecting t independently, a standard normal distribution and a Chi-square distribution [@Miller2004]. We will look at the Chi-square in [Week 9](#Week_9). Suffice to say that underlying mathematics of the t-distribution is not important for our purposes in applying statistical techniques.
 
-[^28]: Another interesting caveat, which Jamovi and R will take care of automatically (so we do not actually have to worry about it), is that when we calculate $s^{2}$ to map t-scores to probability densities in the t-distribution, we multiply the sum of squares by $1/N$ instead of $1/(N-1)$ [@Sokal1995]. In other words, we no longer need to correct the sample variance $s^{2}$ to account for bias in estimating $\sigma^{2}$ because the t-distribution takes care of this for us.
+[^28]: Another interesting caveat, which jamovi and R will take care of automatically (so we do not actually have to worry about it), is that when we calculate $s^{2}$ to map t-scores to probability densities in the t-distribution, we multiply the sum of squares by $1/N$ instead of $1/(N-1)$ [@Sokal1995]. In other words, we no longer need to correct the sample variance $s^{2}$ to account for bias in estimating $\sigma^{2}$ because the t-distribution takes care of this for us.
 
 
 # _Practical_. z- and t- intervals {#Chapter_19}
 
-This lab focuses on applying the concepts from [Chapter 17](#Chapter_17) and [Chapter 18](#Chapter_18) in Jamovi [@Jamovi2022].
+This lab focuses on applying the concepts from [Chapter 17](#Chapter_17) and [Chapter 18](#Chapter_18) in jamovi [@Jamovi2022].
 Specifically, we will practice calculating confidence intervals (CIs).
-There will be 4 exercises focusing on calculating confidence intervals in Jamovi.
-To complete the first 2 exercises, you will need the distrACTION module in Jamovi. 
+There will be 4 exercises focusing on calculating confidence intervals in jamovi.
+To complete the first 2 exercises, you will need the distrACTION module in jamovi. 
 We downloaded the distrACTION module in the [Week 4](#Week_4) practical.
 If you need to download it again, the instructions to do this are in [Chapter 16](#Chapter_16) [Exercise 16.2](https://bradduthie.github.io/SCIU4T4/Chapter_16.html#probabilities-from-a-normal-distribution) (briefly, go to the Modules option and select 'jamovi library', then scroll down until you find the 'distraACTION' module).
 
@@ -350,7 +351,7 @@ Here we will focus on observations of tree diameter at breast height (DBH) and g
 ## Confidence intervals with distrACTION
 
 First, it is important to download the disrACTION module if it has not been downloaded already.
-If the distrACTION module has already been downloaded, it should appear in the toolbar of Jamovi (Figure 19.2)
+If the distrACTION module has already been downloaded, it should appear in the toolbar of jamovi (Figure 19.2)
 If it has not been downloaded, then see the instructions for downloading it with the 'Modules' option (see Figure 19.2) in [Exercise 16.2](https://bradduthie.github.io/SCIU4T4/Chapter_16.html#probabilities-from-a-normal-distribution).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown, which includes an option on the far right hand side called 'modules' and a button called distrACTION.", fig.cap = "Jamovi tool bar, which includes an added module called distrACTION.", out.width="100%"}
@@ -364,8 +365,8 @@ The numbers under each column are measurements of tree diameter at breast height
 Before doing anything else, it is therefore necessary to put the WrEN dataset into a tidy format.
 The tidy dataset should include two columns, one for site and the other for DBH.
 
-Once the WrEN trees dataset has been reorganised into a tidy format, save it as a CSV file and open it in Jamovi.
-In Jamovi, go to Exploration and Descriptives in the toolbar and build a histogram that shows the distribution of DBH. 
+Once the WrEN trees dataset has been reorganised into a tidy format, save it as a CSV file and open it in jamovi.
+In jamovi, go to Exploration and Descriptives in the toolbar and build a histogram that shows the distribution of DBH. 
 Do these data appear to be roughly normal?
 Why or why not?
 
@@ -420,7 +421,7 @@ Using the same principles, what is the cumulative 0.4 quantile for the DBH data?
 
 Quantile: _____________________ cm
 
-We can also use the Compute quantile(s) option in Jamovi to compute interval quantiles.
+We can also use the Compute quantile(s) option in jamovi to compute interval quantiles.
 For example, if we want to know the DBH values within which 95\% of the probability density is contained, we can set p = 0.95, then select the radio button 'central interval quantiles'.
 Do this for the DBH data.
 From the Results table on the right, what interval of DBH values will contain 95\% of the probability density around the mean?
@@ -435,7 +436,7 @@ That is, what if we want to say that we have 95\% confidence that the *mean* lie
 We would need to use the standard deviation *of the sample mean* $\bar{x}$ around the true mean $\mu$, rather than the sample standard deviation.
 Recall from [Chapter 12.6](Chapter_12.html#the-standard-error) that the standard error is the standard deviation of $\bar{x}$ values around $\mu$.
 We can therefore use the standard error to calculate confidence intervals around the mean value of DBH.
-From the Descriptives panel in Jamovi (recall that this is under the 'Exploration' button), find the standard error of DBH,
+From the Descriptives panel in jamovi (recall that this is under the 'Exploration' button), find the standard error of DBH,
 
 Std. error of Mean: ___________________
 
@@ -453,7 +454,7 @@ Remember that this assumed that the sample means ($\bar{x}$) are normally distri
 But as we saw in [Chapter 18](#Chapter_18), when we assume that our sample standard deviation ($s$) is the same as the population standard deviation ($\sigma$), then the shape of the normal distribution will be at least a bit off.
 Instead, we can get a more accurate estimate of CIs using a t-distribution.
 Jamovi usually does this automatically when calculating CIs outside of the distrACTION module.
-To get 95\% CIs, go back to the Descriptives panel in Jamovi, then choose DBH (cm) as variable. 
+To get 95\% CIs, go back to the Descriptives panel in jamovi, then choose DBH (cm) as variable. 
 Scroll down to the Statistics options and check 'Confidence interval for Mean' under the **Mean Dispersion** options, and make sure that the number in the box is 95 for 95\% confidence.
 Confidence intervals will appear in the Descriptives table on the right.
 From this Descriptives table now, write the lower and upper 95\% CIs below.
@@ -468,7 +469,7 @@ We really do not expect much of a difference until sample sizes become small, wh
 
 ## Confidence intervals from z- and t-scores
 
-While Jamovi can be very useful for calculating confidence intervals from a dataset, you might also need to calculate CIs from just a set of summary statistics (e.g., the mean, standard error, and sample size).
+While jamovi can be very useful for calculating confidence intervals from a dataset, you might also need to calculate CIs from just a set of summary statistics (e.g., the mean, standard error, and sample size).
 This activity will demonstrate how to calculate CIs from z- and t-scores. 
 Recall the formula for lower and upper confidence intervals from [Chapter 17.1](#Chapter_17.html#normal-distribution-cis),
 
@@ -546,7 +547,7 @@ Reflect on any similarities or differences that you see in all of these differen
 In Exercises 19.1 and 19.2, the sample size of DBH was fairly large (N = 120).
 Now, we will calculate confidence intervals for the mean DBH of each of the 4 different sites using both z- and t-scores.
 These sites have much different sample sizes.
-From the Descriptives tool in Jamovi, write the sample sizes for DBH split by site below.
+From the Descriptives tool in jamovi, write the sample sizes for DBH split by site below.
 
 Site 1182:  N = _________
 

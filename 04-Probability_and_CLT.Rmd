@@ -4,30 +4,30 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 13 February 2023 - 17 February 2023 |
+| **Dates**       | 12 February 2024 - 16 February 2024 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 14 and 15  |
 |                 | **Recommended:** @Navarro2022 [Chapter 7](https://davidfoxcroft.github.io/lsj-book/07-Introduction-to-probability.html)    |
 |                 | **Suggested:**  @Rowntree2018 Chapter 4 |
 |                 | **Advanced:** None                      |
-| **Lectures**    | 4.1: What is probability? (16:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b29a245-1921-4eec-8b89-af9e00aa8091)) |
-|                 | 4.2: Adding and multiplying probabilities (16:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ef35130e-6e18-4ae2-99d8-af9e00aca010)) |
-|                 | 4.3: Probability distributions (15:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f1860eb5-3ead-47ba-ad5f-af9e00ae26c2)) |
-|                 | 4.4: The normal distribution (15:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b4da1e5f-464f-4399-b427-af9e00b041e7)) |
-|                 | 4.5: z-scores (5:12 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4c46b6cf-bf60-4f30-b985-af9e00b32eb8)) |
-|                 | 4.6: Examples using z-scores (13:22 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a9d11e2f-5adc-434d-aeed-af9e00b403ab)) |
-|                 | 4.7: More examples using z-scores (9:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b3ad4395-6f50-4830-95b7-af9e00b56b3b))  |
-|                 | 4.8: The binomial distribution (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95be1330-0393-48b1-bfbc-af9e00b65f2e)) |
-|                 | 4.9: The Poisson distribution (12:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cdf67cc1-d8a9-48e5-a1dc-af9e00b8ca2e)) |
-|                 | 4.10: The central limit theorem (5:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f4026ecf-fdc4-40bd-9fc7-af9e00baffac)) |
-|                 | 4.11: z-score tables (14:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d286011d-e723-4fed-9a47-af9e00bbeb32)) |
+| **Lectures**    | 4.1: What is probability? (16:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=750a1583-83ba-472b-a867-b0ed0120eca8)) |
+|                 | 4.2: Adding and multiplying probabilities (16:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f81b4f7d-99e0-4e93-9fed-b0ed01210b9a)) |
+|                 | 4.3: Probability distributions (15:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b6561815-fa5f-4ebb-9ab3-b0ed01212c21)) |
+|                 | 4.4: The normal distribution (15:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c296c4e-6044-428c-82f1-b0ed0121e50b)) |
+|                 | 4.5: z-scores (5:12 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cb3fc88e-6eed-4a05-974f-b0ed01220556)) |
+|                 | 4.6: Examples using z-scores (13:22 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=69cff79b-acc4-4b78-be55-b0ed01222229)) |
+|                 | 4.7: More examples using z-scores (9:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4f2ff879-e351-4c45-bd2b-b0ed01224310))  |
+|                 | 4.8: The binomial distribution (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=003bc518-cc89-4909-8441-b0ed01226260)) |
+|                 | 4.9: The Poisson distribution (12:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab851d4f-4501-4c35-8b27-b0ed01226b7e)) |
+|                 | 4.10: The central limit theorem (5:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cb1a43fd-786b-494c-bd5a-b0ed01228aca)) |
+|                 | 4.11: z-score tables (14:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=543ee873-4cdf-4a79-81c2-b0ed01229d63)) |
 | **Practical**   | Probability and simulation ([Chapter 16](#Chapter_16))       |
 |                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 15 FEB 2023 (WED) 13:05-15:55 |
-|                 |   Group B: 16 FEB 2023 (THU) 09:05-11:55 |
+|                 |   Group A: 14 FEB 2024 (WED) 09:05-11:55 |
+|                 |   Group B: 15 FEB 2024 (THU) 12:05-14:55 |
 | **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 3V1B           |
-|                 |   17 FEB 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/29675) on Canvas  |
+|                 |   Room: Cottrell 2A21           |
+|                 |   16 FEB 2024 (FRI) 15:05-17:55 |
+| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35458) on Canvas  |
 
 Week 4 focuses on probability and the central limit theorem.
 
@@ -37,7 +37,7 @@ The chapter also provides some examples of probability distributions that are es
 [Chapter 15](#Chapter_15) focuses on the central limit theorem (CLT), what it is, and why it is so important in statistics.
 
 [Chapter 16](#Chapter_16) guides you through the week 4 practical.
-The aim of this practical is to apply the ideas from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi to predict probabilities from a real dataset.
+The aim of this practical is to apply the ideas from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in jamovi to predict probabilities from a real dataset.
 
 
 # Introduction to probability models {#Chapter_14}
@@ -500,7 +500,7 @@ To demonstrate the CLT in action, Figure 15.1 shows the two distributions side-b
 The first (Figure 15.1a) shows the original distribution from Figure 14.6, from which samples are collected and sample means are calculated.
 The second (Figure 15.1b) shows the distribution of 1000 sample means (i.e., $\bar{x}_{1}, \bar{x}_{2}, ..., \bar{x}_{999}, \bar{x}_{1000}$).
 Each mean $\bar{x}_{i}$ is calculated from a sample of $N = 100$ from the distribution in Figure 15.1a.
-Sampling is simulated using a random number generator on the computer (the lab practical in [Chapter 16](#Chapter_16) shows an example of how to do this in Jamovi).
+Sampling is simulated using a random number generator on the computer (the lab practical in [Chapter 16](#Chapter_16) shows an example of how to do this in jamovi).
 
 The distribution of sample means shown in Figure 15.1b is not perfectly normal.
 We can try again with an even bigger sample size of $N = 1000$, this time with a Poisson distribution where $\lambda = 1$ in Figure 14.7.
@@ -694,7 +694,7 @@ Since we almost never know what the true population mean ($\mu$) and standard de
 
 $$z = \frac{x - \bar{x}}{s}.$$
 
-We could then use a statistical program such as Jamovi [@Jamovi2022], our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our original dataset.
+We could then use a statistical program such as jamovi [@Jamovi2022], our [interactive application](https://bradduthie.shinyapps.io/zandp/), or an old-fashioned z-table[^18] to find that only about 2\% of values are expected to be higher than $x = 9.1$ in our original dataset.
 These z scores will become especially useful for calculating confidence intervals in [Chapter 17](#Chapter_17).
 They can also be useful for comparing values from variables or statistics measured on different scales [@Sokal1995; @Cheadle2003; @Adams2016].
 
@@ -704,17 +704,17 @@ They can also be useful for comparing values from variables or statistics measur
 
 # _Practical_. Probability and simulation {#Chapter_16}
 
-This practical focuses on applying the concepts from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in Jamovi [@Jamovi2022].
+This practical focuses on applying the concepts from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in jamovi [@Jamovi2022].
 There will be 3 exercises.
 
 1. Calculating probabilities from a dataset.
 2. Calculating probabilities from a normal distribution.
 3. Demonstrating the central limit theorem (CLT).
 
-To complete exercises 2 and 3, we will need to download and install two new Jamovi modules.
-Jamovi modules are add-ons that make it possible to run specialised statistical tools inside Jamovi.
-These tools are written by a community of statisticians, scientists, and educators and listed in the [Jamovi library](https://www.jamovi.org/library.html).
-Like Jamovi, these tools are open source and free to use.
+To complete exercises 2 and 3, we will need to download and install two new jamovi modules.
+Jamovi modules are add-ons that make it possible to run specialised statistical tools inside jamovi.
+These tools are written by a community of statisticians, scientists, and educators and listed in the [jamovi library](https://www.jamovi.org/library.html).
+Like jamovi, these tools are open source and free to use.
 
 The dataset for this practical is something a bit different.
 It comes from the [Beacon Project](https://www.thebeaconproject.net/), which is an interdisciplinary scientific research programme led by [Dr Isabel Jones](https://www.stir.ac.uk/people/256518) at the University of Stirling.
@@ -730,7 +730,7 @@ knitr::include_graphics("img/power_up.png")
 The game "Power Up!" is freely available as an [Android](https://play.google.com/store/apps/details?id=com.hyperluminal.stirlinguniversity.sustainabledevelopmentgame) and [iPhone](https://apps.apple.com/gb/app/power-up/id1585634888) app (Figure 16.1).
 Data are collected from players' decisions and used to investigate social-ecological questions.
 We will use the [power_up](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/power_up.csv) dataset in exercises 1 and 2 (right click on the links and choose 'Save Link As...', then save it with the extension '.csv').
-To get started, first download the [power_up](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/power_up.csv) dataset and open it in Jamovi.
+To get started, first download the [power_up](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/power_up.csv) dataset and open it in jamovi.
 Note that these data are already in a tidy format, so we do not need to do any reorganising.
 The dataset includes columns for each player's ID, the OS that they use, the dam size that they decided to build in the game, their in-game investment in Biodiversity, Community, and Energy, and their final Score.
 
@@ -743,9 +743,9 @@ To get this proportion, we need to divide the number of Android users by the tot
 
 $$P(Android) = \frac{Number\:of\:Android\:users}{Number\:of\:players}.$$
 
-In Jamovi, you could figure this out the long way by counting up the number of rows with 'Android' in the second column, then dividing by the total number of rows.
+In jamovi, you could figure this out the long way by counting up the number of rows with 'Android' in the second column, then dividing by the total number of rows.
 But there is an easier way, which is faster and less prone to human error than manually tallying up items.
-To do this, go to the Analyses tab in Jamovi and navigate to Exploration, then Descriptives.
+To do this, go to the Analyses tab in jamovi and navigate to Exploration, then Descriptives.
 Place the 'OS' variable in to the 'Variables' box.
 Next, find the check box called 'Frequency tables' just under the 'Split by' box and above the 'Statistics' drop down tab.
 Check this box to get a table of frequencies for Android versus iPhone users.
@@ -761,7 +761,7 @@ The table of frequencies shown in Figure 16.2 includes counts of Android versus 
 We can see that `r android_N` of the `r dim(power_up)[1]` total game players use Android, while `r iPhone_N` players use iPhone.
 To get the proportion of Android users, we could divide `r android_N` by `r dim(power_up)[1]` to get `r android_N/dim(power_up)[1]`.
 Similarly, for the proportion of iPhone users, we could calculate `r iPhone_N` / `r dim(power_up)[1]` = `r iPhone_N/dim(power_up)[1]`.
-But Jamovi already does this for us, with a bit of rounding.
+But jamovi already does this for us, with a bit of rounding.
 The second column of the Frequencies table gives us these proportions, but expressed as a percentage.
 The percentage of Android users is `r round(100 * android_N/dim(power_up)[1], digits = 1)`%, and the percentage of iPhone users is `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)`%.
 Percentages are out of a total of 100, so to get back to the proportions, we can just divide by 100\%, `r round(100 * android_N/dim(power_up)[1], digits = 1)` / 100 = `r round(100 * android_N/dim(power_up)[1], digits = 1)/100` for Android and `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)` / 100 = `r round(100 * iPhone_N/dim(power_up)[1], digits = 1)/100` for iPhone.
@@ -806,12 +806,12 @@ The second choice cannot be player 20 again, so the probability of choosing a pl
 
 $P(Player\:20,\:Large) =$ __________________________
 
-Now we can use the Descriptives tool in Jamovi to ask a slightly different question with the data.
+Now we can use the Descriptives tool in jamovi to ask a slightly different question with the data.
 Suppose that we wanted to estimate the probability that an Android user will choose a large dam.
 We could multiply the proportion of Android users times the proportion of players who choose a large dam (i.e., find the probability of Android *and* large dam).
 But this assumes that the two characteristics are independent (i.e., that Android users are not more or less likely than iPhone users to build large dams).
 To estimate the probability that a player chooses a large dam *given* that they are using Android, we can keep Dam_size in the Variables box, but now put OS in the 'Split by' box.
-Figure 16.3 shows the output of Jamovi.
+Figure 16.3 shows the output of jamovi.
 A new frequency table breaks down dam choice for each OS.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface of Descriptives with dam size selected as a Variable split by OS, and a frequency table to the right showing the frequencies of Android and iPhone users who chose small, medium, and large dams.", fig.cap = "Jamovi Descriptives toolbar showing the dam size column from the Power Up! dataset selected as a variable split by OS. The 'Frequency tables' checkbox builds a table of counts for small, medium, and large dam size broken down by Android versus iPhone OS.", out.width="100%"}
@@ -882,13 +882,13 @@ $P(Score<100) =$  __________________________
 $P(100<Score<120) =$  __________________________
 
 Trying to do this by looking at a histogram is not easy, and it is really not the best way to get the above probabilities.
-We can get much better estimates using Jamovi, but we need to make an assumption about the distribution of Player Score.
+We can get much better estimates using jamovi, but we need to make an assumption about the distribution of Player Score.
 Specifically, we need to assume that the distribution of Player Score has a specific shape.
 More technically, we must assume a specific probability density function that we can use to mathematically calculate probabilities of different ranges of player scores.
 Inspecting Figure 16.4, Player Score appears to be normally distributed.
 In other words, the shape of Player Score distribution appears to be normal, or 'Gaussian'.
 If we are willing to assume this, then we can calculate probabilities using its mean and standard deviation.
-Use Jamovi to find the mean and the standard deviation of player score (note, we can just say that score is unitless, so no need to include units).
+Use jamovi to find the mean and the standard deviation of player score (note, we can just say that score is unitless, so no need to include units).
 
 Mean score: __________________________
 
@@ -920,9 +920,9 @@ Because the curve relating player score to probability density is described by a
 The simplest example is the mean of the distribution.
 Because the normal distribution is symmetric, the area to the left of the mean must be the same as the area to the right of the mean.
 And since the whole area under the curve must sum to 1, we can conclude that the probability of sampling a player score that is less than the mean is 1/2, and the probability of sampling a player score greater than the mean is also 1/2.
-Traditionally, we would need to do some maths to get other player score probabilities, but Jamovi can do this much more easily.
+Traditionally, we would need to do some maths to get other player score probabilities, but jamovi can do this much more easily.
 
-To get Jamovi to calculate probabilities from a normal distribution, we need to go to the Modules option and download a new module (Figure 16.6).
+To get jamovi to calculate probabilities from a normal distribution, we need to go to the Modules option and download a new module (Figure 16.6).
 
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown, which includes an option on the far right hand side called 'modules'.", fig.cap = "Jamovi tool bar, which includes an option for downloading new Modules (right hand side)", out.width="100%"}
@@ -931,7 +931,7 @@ knitr::include_graphics("img/jamovi_toolbar_modules.png")
 
 Click on the 'Modules' button, and select the first option called 'jamovi library' from the pull-down menu.
 From the 'Available' tab, scroll down until you find the Module called 'distrACTION - Quantiles and Probabilities of Continuous and Discrete Distributions' [@Rihs2018].
-Click the 'Install' button to install it into Jamovi.
+Click the 'Install' button to install it into jamovi.
 A new button in the toolbar called 'distrACTION' should become visible (Figure 16.7).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown, which includes an option on the far right hand side called 'modules' and a button called distrACTION.", fig.cap = "Jamovi tool bar, which includes an added module called distrACTION.", out.width="100%"}
@@ -942,7 +942,7 @@ If the module is not there after installation, then it should be possible to fin
 Click on the module and choose 'Normal Distribution' from the pulldown menu.
 Next, we can see a box for the mean and standard deviation (SD) under the 'Parameters' subtitle in bold.
 Put the mean and the standard deviation calculated from above into these boxes.
-In the panel on the right, Jamovi will produce the same normal distribution that is in Figure 16.5 (note that the axes might be scaled a bit differently).
+In the panel on the right, jamovi will produce the same normal distribution that is in Figure 16.5 (note that the axes might be scaled a bit differently).
 
 Given this normal distribution, we can compute the probability that a player scores less than x1 = 80 by checking the box 'Compute probability', which is located just under 'Function' (Figure 16.8).
 We can then select the first radio button to find the probability that a randomly sampled value X from this distribution is less than x1, $P(X \leq x1)$.
@@ -1020,8 +1020,8 @@ We will now move on to the central limit theorem.
 ## Central limit theorem
 
 
-To demonstrate the central limit theorem, we need to download and install another module in Jamovi.
-This time, go to 'Modules', and from the 'Available' tab, scroll down until you find 'Rj' in the Jamovi library.
+To demonstrate the central limit theorem, we need to download and install another module in jamovi.
+This time, go to 'Modules', and from the 'Available' tab, scroll down until you find 'Rj' in the jamovi library.
 Install 'Rj', then a new button 'R' should become available in the toolbar.
 This will allow us to run a bit of script using the coding language R.
 We will work with R a bit more in future practicals, but for now you will not need to do anymore than copying and pasting.
@@ -1197,9 +1197,9 @@ As best you can, explain why the shapes of the two distributions differ.
 ```
 
 We did all of this the long way to make it easier to see and think about the relationship between the original, uniformly distributed, variables and the distribution of their means.
-Now, we can repeat this more quickly using one more Jamovi module.
-Go to 'Modules', and from the 'Available' tab, download the 'clt - Demonstrations' module from the Jamovi library.
-Once it is downloaded, go to the 'Demonstrations' button in the Jamovi toolbar and select 'Central Limit Theorem' from the pulldown menu.
+Now, we can repeat this more quickly using one more jamovi module.
+Go to 'Modules', and from the 'Available' tab, download the 'clt - Demonstrations' module from the jamovi library.
+Once it is downloaded, go to the 'Demonstrations' button in the jamovi toolbar and select 'Central Limit Theorem' from the pulldown menu.
 
 
 ```{r, echo = FALSE, fig.alt = "Jamovi window with the central limit theorem (CLT) module open and boxes for changing the distribution, sample size, and trial number.", fig.cap = "Jamovi interface for the 'Demonstrations' module, which allows users to randomly generate data from a specific source distribution (normal, uniform, geometric, lognormal, and binary), sample size, and number of trials (i.e., variables)", out.width="80%"}

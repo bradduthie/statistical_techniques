@@ -4,23 +4,24 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 13 March 2023 - 17 MAR 2023 |
+| **Dates**       | 11 March 2024 - 15 MAR 2024 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 23-25 |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 13](https://davidfoxcroft.github.io/lsj-book/13-Comparing-several-means-one-way-ANOVA.html))   |
 |                 | **Suggested:** @Rowntree2018 (Chapter 7)     |
 |                 | **Advanced:**  @Head2015 ([Download](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106))        |
-| **Lectures**    | 8.1: What is ANOVA? (15:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c36903b-64d5-4990-b64c-af8200d91d27&start=0)) |
-|                 | 8.2: One Way ANOVA (16:51 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bcec9eee-dbac-4f92-ad96-af8200d91d44&start=0)) |
-|                 | 8.3: Two Way ANOVA (17:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8e87a206-bb4e-4618-8811-af8200d91d97&start=0)) |
-|                 | 8.4: Kruskal-Wallis H Test (6:37 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=98d54b67-be3e-457d-952b-af8200d91db2&start=0)) |
+| **Lectures**    | 8.1: What is ANOVA? (15:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=766f4b54-0086-4179-8836-b0ed011afadd)) |
+|                 | 8.2: One Way ANOVA (16:51 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d0dacab7-4085-4977-b761-b0ed011b1d23)) |
+|                 | 8.3: Two Way ANOVA (17:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1da7e0d0-7e54-41c6-9232-b0ed011b4381)) |
+|                 | 8.4: Kruskal-Wallis H Test (6:37 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0950c39a-d8b2-4f8c-ac5f-b0ed011b567b)) |
 | **Practical**   | ANOVA and associated tests ([Chapter 27](#Chapter_27))       |
 |                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 15 MAR 2023 (WED) 13:05-15:55 |
-|                 |   Group B: 16 MAR 2023 (THU) 09:05-11:55 |
+|                 |   Group A: 13 MAR 2024 (WED) 09:05-11:55 |
+|                 |   Group B: 14 MAR 2024 (THU) 12:05-14:55 |
 | **Help hours**  | Martina Quaggiotto                       |
-|                 |   Room: Cottrell 1A13           |
-|                 |   17 MAR 2023 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30725) on Canvas  |
+|                 |   Room: Cottrell 2A21           |
+|                 |   15 MAR 2024 (FRI) 15:05-17:55 |
+| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35449) on Canvas  |
+|                 | [Test 1S](https://canvas.stir.ac.uk/courses/14932/quizzes/35456) on Canvas  |
 
 
 Week 8 introduces ANalysis Of VAriance (ANOVA) and related methods, all of which focus on testing whether or not multiple groups in a dataset have the same mean.
@@ -152,7 +153,7 @@ Visualising this is much, much easier using an [interactive application](https:/
 
 It is not necessary to memorise how the F distribution changes with different degrees of freedom.
 The point is that the probability distribution changes given different degrees of freedom, and that the relationship between probability and the value on the x-axis (F) works like other distributions such as the normal or t-distribution.
-The entire area under the curve must sum to 1, and we can calculate the area above and below any F value (rather, we can get statistical programs such as Jamovi and R to do this for us).
+The entire area under the curve must sum to 1, and we can calculate the area above and below any F value (rather, we can get statistical programs such as jamovi and R to do this for us).
 Consequently, we can use the F-distribution as the null distribution for the ratio of two variances.
 If the null hypothesis that the 2 variances are the same is true (i.e., F = 1), then the F-distribution gives us the probability of the ratio of 2 variances being as or more extreme (i.e., further from 1) than a specific value.
 
@@ -167,7 +168,7 @@ $$F = \frac{Mean\:variance\:among\:\:groups}{Mean\:variance\:within\:\:groups}.$
 
 The rest of this section works through the details of how to calculate this F statistic.
 It is easy to get lost in these details, but the calculations that follow do not need to be done by hand.
-As usual, Jamovi or R will do all of this work for us [@Jamovi2022; @Rproject].
+As usual, jamovi or R will do all of this work for us [@Jamovi2022; @Rproject].
 The reason for going through the ANOVA step-by-step is to show how the total variation in the dataset is being partitioned into the variance among versus within groups, and to provide some conceptual understanding of what the numbers in ANOVA output actually mean.
 
 ### ANOVA mean variance among groups
@@ -353,8 +354,8 @@ wl_anova <- anova(lm(wing_length~Species, data = wl));
 print(wl_anova);
 ```
 
-The above output, taken from R, includes the same information as Jamovi (F, df1, df2, and p), but also includes SS and mean variances.
-Note that we can also get this information from Jamovi if we want it (see [Chapter 26](#Chapter_26)).
+The above output, taken from R, includes the same information as jamovi (F, df1, df2, and p), but also includes SS and mean variances.
+Note that we can also get this information from jamovi if we want it (see [Chapter 26](#Chapter_26)).
 
 [^46]: Note that $df_{among} = 4$ and $df_{within} = 15$ sum to 19, which is the total df of the entire dataset ($N - 1 = 20 - 1 = 19$). This is always the case for the ANOVA; the overall df constrains the degrees of freedom among and within groups.
 
@@ -415,7 +416,7 @@ The general idea of a Tukey's test is the same as the Bonferonni.
 Multiple t-tests are run in a way that controls the Type I error rate so that the probability of making a Type I error across the whole set of comparisons is fixed (e.g., at $\alpha = 0.05$).
 The Tukey's test does this by using a modified t-test, with a t-distribution called the "studentised range distribution" that applies the range of mean group values (i.e., $max(\bar{x}) - min(\bar{x})$) and uses the sample variance across the groups with the highest and lowest sample means [@Tukey1949; @Box1978].
 
-Multiple comparisons tests can be run automatically in statistical programs such as Jamovi and R.
+Multiple comparisons tests can be run automatically in statistical programs such as jamovi and R.
 Figure 24.1 shows a post-hoc comparisons table for all pair-wise combinations of fig wasp species wing length means.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi output is shown with a large table called 'Post Hoc Comparisons', which reports statistics for 10 pair-wise combinations of 5 species.", fig.cap = "Jamovi output showing a table of 10 post hoc comparisons between species mean wing lengths for 5 different species of fig wasps. The last 3 columns show the uncorrected p-value (p), a p-value obtained from a Tukey's test, and a p-value obtained from a Bonferroni correction. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="100%"}
@@ -424,7 +425,7 @@ knitr::include_graphics("img/jamovi_multiple_comparisons.png");
 
 The column 'p' in Figure 24.1 is the uncorrected p-value, i.e., the p-value that a t-test would produce without any correction for multiple comparisons.
 The columns $p_{tukey}$ and $p_{bonferonni}$ show corrected p-values for the Tukey's test and Bonferroni corrected t-test, respectively.
-We can interpret these p-values as usual, concluding that two species have different means if $P < 0.05$ (i.e., Jamovi does the correction for us; we do not need to divide $\alpha = 0.05$ to figure out what the significance threshold should be given the Bonferonni correction).
+We can interpret these p-values as usual, concluding that two species have different means if $P < 0.05$ (i.e., jamovi does the correction for us; we do not need to divide $\alpha = 0.05$ to figure out what the significance threshold should be given the Bonferonni correction).
 
 Note that from Figure 24.1, it appears that both the Tukey's test and the Bonferonni correction fail to find that any pair of species have significantly different means.
 This does not mean that we have done the test incorrectly.
@@ -478,10 +479,10 @@ In the numerator of the equation for H, we are calculating the squared deviation
 We are then dividing by the sum of squared deviations of all ranks ($R_{ij}$) from the overall mean rank $\bar{\bar R}$.
 All of this gets multiplied by $N - 1$ to give the test statistic H.
 We can then compare H to a suitable null distribution, which might be calculated precisely using a specific algorithm [e.g., @Choi2003].
-But most statistical programs such as Jamovi and R compare H to a Chi-square distribution (see [Week 9](#Week9)), which is an effective approximation [@Miller2004].
+But most statistical programs such as jamovi and R compare H to a Chi-square distribution (see [Week 9](#Week9)), which is an effective approximation [@Miller2004].
 
 The output of a Kruskall-Wallis H test is quite minimal and easy to read.
-Jamovi and R report a Chi-square ($\chi^{2}$) test statistic, degrees of freedom, and p-value [@Jamovi2022; @Rproject].
+jamovi and R report a Chi-square ($\chi^{2}$) test statistic, degrees of freedom, and p-value [@Jamovi2022; @Rproject].
 Figure 25.1 shows the output of a Kruskall-Wallis H test on the fig wasp wing lengths data.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi output is shown with a small table that includes 1 row and 3 statistics from a Kruskall-Wallis H test.", fig.cap = "Jamovi output table for a non-parametric Kruskall-Wallis H test, which tests the null hypothesis that species mean wing lengths are the same for 5 different species of fig wasps. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="60%"}
@@ -562,7 +563,7 @@ Similarly, from the second row, we can reject the null hypothesis that wing leng
 In contrast, from the third row, we should not reject the null hypothesis that there is no interaction between species and trees (F = 0.05, P = 0.839).
 Figure 26.2 shows the these results visually [@Jamovi2022].
 
-```{r, echo = FALSE, fig.alt = "A plot is shown in Jamovi with species on the x-axis and two connected lines, one blue for Tree A and one orange for Tree B. The lines run in parallel at a downward angle.", fig.cap = "An interaction plot for a two-way ANOVA of fig wasp wing measurements as affected by species and tree. Points show mean values for the 4 species and tree combinations (e.g., Het1 from Tree A in the upper left). Error bars show standard errors around the means. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "A plot is shown in jamovi with species on the x-axis and two connected lines, one blue for Tree A and one orange for Tree B. The lines run in parallel at a downward angle.", fig.cap = "An interaction plot for a two-way ANOVA of fig wasp wing measurements as affected by species and tree. Points show mean values for the 4 species and tree combinations (e.g., Het1 from Tree A in the upper left). Error bars show standard errors around the means. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="100%"}
 knitr::include_graphics("img/two-way_ANOVA_no_interaction.png");
 ```
 
@@ -584,7 +585,7 @@ knitr::kable(wing_lengths_tree, format = "simple", table.envir = "table",
       caption = "Wing lengths (mm) measured for 2 unnamed species of non-pollinating fig wasps collected from 2 fig trees in 2010 near La Paz in Baja, Mexico.");
 ```
 
-If we run the two-way ANOVA in Jamovi, then we can see the ANOVA output table (Figure 26.3).
+If we run the two-way ANOVA in jamovi, then we can see the ANOVA output table (Figure 26.3).
 
 
 ```{r, echo = FALSE, fig.alt = "Jamovi output is shown with a small table that includes 4 rows and 5 columns from a two-way ANOVA.", fig.cap = "Jamovi output table for a two-way ANOVA, which tests for the effects of species (SO1 and SO2), tree, and their interaction on fig wasp wing lengths. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="100%"}
@@ -598,7 +599,7 @@ This means that we cannot interpret the main effects in isolation because the ef
 In other words, the effect of tree on wing length will depend on the species.
 Figure 26.4 shows this interaction visually.
 
-```{r, echo = FALSE, fig.alt = "A plot is shown in Jamovi with species on the x-axis and two connected lines, one blue for Tree A and one orange for Tree B. The lines have different angles, one increasing from SO1 to SO2 (blue), and the other decreasing (orange).", fig.cap = "An interaction plot for a two-way ANOVA of fig wasp wing measurements as affected by species and tree. Points show mean values for the 4 species and tree combinations (e.g., SO2 from Tree A in the upper right). Error bars show standard errors around the means. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="100%"}
+```{r, echo = FALSE, fig.alt = "A plot is shown in jamovi with species on the x-axis and two connected lines, one blue for Tree A and one orange for Tree B. The lines have different angles, one increasing from SO1 to SO2 (blue), and the other decreasing (orange).", fig.cap = "An interaction plot for a two-way ANOVA of fig wasp wing measurements as affected by species and tree. Points show mean values for the 4 species and tree combinations (e.g., SO2 from Tree A in the upper right). Error bars show standard errors around the means. Species wing length measurements were collected in 2010 near La Paz in Baja, Mexico.", out.width="100%"}
 knitr::include_graphics("img/two-way_ANOVA_with_interaction.png");
 ```
 
@@ -628,7 +629,7 @@ With the two-way ANOVA, we are asking 3 separate questions, and accepting a Type
 
 # _Practical_. ANOVA and associated tests {#Chapter_27}
 
-This lab focuses on applying the concepts from [Chapter 23](#Chapter_23), [Chapter 24](#Chapter_24), [Chapter 25](#Chapter_25), and [Chapter 26](#Chapter_17) in Jamovi [@Jamovi2022].
+This lab focuses on applying the concepts from [Chapter 23](#Chapter_23), [Chapter 24](#Chapter_24), [Chapter 25](#Chapter_25), and [Chapter 26](#Chapter_17) in jamovi [@Jamovi2022].
 The focus will be on ANOVA and associated tests, with 5 exercises in total.
 The data for this lab are inspired by the doctoral work of Dr Lidia De Sousa Teixeira at the University of Stirling (Figure 27.1).
 This work included a nutrient analysis of agricultural soil in different regions of Angola.
@@ -656,7 +657,7 @@ $H_{0}:$ ____________________
 $H_{A}:$ ____________________
 
 Before running a t-test, remember that we need to check the assumptions of a t-test to see if any of them are violated ([see Chapter 21.4](#assumptions-of-t-tests)).
-Use the **Assumption Checks** in Jamovi as we did in the previous practical ([Chapter 22.4](#independent-samples-t-test-1)) to test for normality  and homogeneity of variances in Nitrogen concentration.
+Use the **Assumption Checks** in jamovi as we did in the previous practical ([Chapter 22.4](#independent-samples-t-test-1)) to test for normality  and homogeneity of variances in Nitrogen concentration.
 What can you conclude from these 2 tests?
 
 Normality conclusion: ___________________________
@@ -668,7 +669,7 @@ Given the conclusions from the checks of normality and homogeneity of variances 
 Test: __________________
 
 
-Run the test above in Jamovi.
+Run the test above in jamovi.
 What is the p-value of the test, and what conclusion do you make about Nitrogen concentration at the two sites?
 
 P: _________________
@@ -678,7 +679,7 @@ Conclusion: ____________________
 
 Now we will use an ANOVA to test if the mean Nitrogen concentration differs between sites.
 Remember from [Chapter 23](#Chapter_23) that the ANOVA compares the variance among groups to the variance within groups, calculating an F statistic and finding where F is in the null F distribution.
-To run an ANOVA, navigate to the 'Analyses' tab in Jamovi, then select the 'ANOVA' button in the toolbar.
+To run an ANOVA, navigate to the 'Analyses' tab in jamovi, then select the 'ANOVA' button in the toolbar.
 From the ANOVA pulldown, select 'One-Way ANOVA' (Figure 27.2).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown with a button called 'ANOVA' being selected, and a pull-down menu selecting a one-way ANOVA.", fig.cap = "Jamovi toolbar in the Analyses tab, which includes an option for running an ANOVA.", out.width="100%"}
@@ -711,7 +712,7 @@ P: _______________
 
 Remember from [Chapter 23](#Chapter_23) that the ANOVA calculates an F statistic (mean variance among groups divided by mean variance withing groups).
 This F statistic is then compared to the null F distribution with the correct degrees of freedom to calculate the p-value.
-Use the [interactive app](https://bradduthie.shinyapps.io/f_distribution/) to visualise this from the above Jamovi output.
+Use the [interactive app](https://bradduthie.shinyapps.io/f_distribution/) to visualise this from the above jamovi output.
 To do this, move the 'Variance 1' slider in the app until it is approximately equal to F, then change df1 and df2 to the values above.
 From the [interactive app](https://bradduthie.shinyapps.io/f_distribution/), what is the approximate area under the curve (i.e., the orange area) where the F value on the x-axis is greater than your calculated F?
 
@@ -748,7 +749,7 @@ Next, we will run a one-way ANOVA to test the null hypothesis that all profiles 
 We will now run an ANOVA to see if Nitrogen concentration differs among profiles.
 In this dataset, there are lower, middle, and upper profiles, which refer to the location on along a slope from which soil samples were obtained.
 Using the same approach as the previous Exercise 27.1, we will run a one-way ANOVA with profile as the independent variable instead of site.
-Again, navigate to the 'Analyses' tab in Jamovi, then select the 'ANOVA' button in the toolbar.
+Again, navigate to the 'Analyses' tab in jamovi, then select the 'ANOVA' button in the toolbar.
 From the ANOVA pulldown, select 'One-Way ANOVA' (Figure 27.2).
 First check the assumptions of normality and homogeneity of variances.
 What can you conclude?
@@ -776,8 +777,8 @@ From these statistics, what do you conclude about the difference in Nitrogen con
 Conclusion: _____________________
 
 In the previous Exercise 27.1, we used an [interactive app](https://bradduthie.shinyapps.io/f_distribution/) to visualise the relationship between the F statistic and the p-value.
-We can do the same thing with the distrACTION module in Jamovi. 
-To do this, go to the distrACTION option in the Jamovi toolbar and select 'F-Distribution' from the pulldown menu.
+We can do the same thing with the distrACTION module in jamovi. 
+To do this, go to the distrACTION option in the jamovi toolbar and select 'F-Distribution' from the pulldown menu.
 Place the df1 and df2 from the One-Way ANOVA table into the df1 and df2 boxes under **Parameters** (ignore $\lambda$).
 Under **Function**, select 'Compute probability', then place the F value from the One-Way ANOVA table in the box for x1.
 We want the upper tail of the F probability distribution, so choose $P(X \geq x1)$ from the radio buttons below.
@@ -795,7 +796,7 @@ Critical F value: ________________
 Note that the objective of working this out in the distrACTION module (and with the interactive app) is to help explain what these different values in the One-Way ANOVA table actually mean.
 To actually test the null hypothesis, the One-Way ANOVA output table is all that we really need.
 
-Finally, note that in the ANOVA pulldown from the Jamovi toolbar, the option 'ANOVA' is just below the 'One-way ANOVA' that we used in this exercise and Exercise 27.1.
+Finally, note that in the ANOVA pulldown from the jamovi toolbar, the option 'ANOVA' is just below the 'One-way ANOVA' that we used in this exercise and Exercise 27.1.
 This is just a more general tool for running an ANOVA, which includes the two-way ANOVA that we will use in Exercise 27.5 below.
 For now, give this a try by selecting 'ANOVA' from the pull down menu.
 In the ANOVA interface, place 'Nitrogen' into the 'Dependent Variable' box and 'Profile' in the 'Fixed Factors' box (Figure 27.4).
@@ -912,7 +913,7 @@ Do the data appear to be normally distributed?
 ```
 
 We can test the assumption of normality using a Shaprio-Wilk test.
-This can be done in the Descriptives panel of Jamovi, or we can do it in the One-Way ANOVA panel.
+This can be done in the Descriptives panel of jamovi, or we can do it in the One-Way ANOVA panel.
 To do it in the one-way ANOVA panel, first select 'ANOVA' from the pull down menu as we did at the end of Exercise 27.2.
 In the ANOVA interface, place 'Potassium' into the 'Dependent Variable' box and 'Profile' in the 'Fixed Factors' box.
 Next, scroll down to the 'Assumption Checks' pulldown menu and select all 3 options.
@@ -928,7 +929,7 @@ From the Levene's test, the Shapiro-Wilk test, and the Q-Q plot, what assumption
 Given the violation of ANOVA assumptions, we should consider a non-parametric option.
 As introduced in [Chapter 25](#Chapter_25), the Kruskall-Wallis H test is a non-parametric alternative to a one-way ANOVA.
 Like other non-parametric tests introduced in this book, the Kruskall-Wallis H test uses the ranks of a dataset instead of the actual values.
-To run a Kruskall-Wallis H test, select the Analyses tab, then the 'ANOVA' button from the Jamovi toolbar.
+To run a Kruskall-Wallis H test, select the Analyses tab, then the 'ANOVA' button from the jamovi toolbar.
 In the pulldown ANOVA menu, choose 'One-Way ANOVA: Kruskall-Wallis' (second to last one down the list; Figure 27.6).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a pulldown of the ANOVA menu selecting a Kruskall-Wallis test.", fig.cap = "Jamovi toolbar for selecting a Kruskall-Wallis test.", out.width="100%"}
@@ -950,7 +951,7 @@ From the above output, should we reject or not reject our null hypothesis?
 
 $H_{0}:$ _____________________
 
-Note that the Kruskall-Wallis test in Jamovi also includes a type of multiple comparisons tests (DSCF pairwise comparisons checkbox). 
+Note that the Kruskall-Wallis test in jamovi also includes a type of multiple comparisons tests (DSCF pairwise comparisons checkbox). 
 We will not use the Dwass-Steel-Critchlow-Fligner pairwise comparisons, but the general idea is the same as the Tukey's HSD test for post hoc multiple comparisons in the ANOVA.
 
 

@@ -4,24 +4,24 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 3 April 2023 - 7 April 2023                            |
+| **Dates**       | 1 April 2024 - 5 April 2024                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapter 34              |
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  None                                    |
 |                 | **Advanced:**   @Ernst2004 ([Download](https://projecteuclid.org/journals/statistical-science/volume-19/issue-4/Permutation-Methods-A-Basis-for-Exact-Inference/10.1214/088342304000000396.full))                                    |
-| **Lectures**    | 11.1: Introduction to randomisation (18:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4635224a-e5e1-4451-b084-af8200d92126))     |
-|                 | 11.2: Assumptions of randomisation (11:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7d47453e-7a34-4396-a6f2-af8200d92180))                      |
-|                 | 11.3: Bootstrapping (11:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c844d3be-a989-4eea-b07e-af8200d921aa))                      |
-|                 | 11.4: Monte Carlo (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a2b242f4-c9f3-4b54-aff3-af8200d92237))                      |
+| **Lectures**    | 11.1: Introduction to randomisation (18:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=543ce3b9-9257-4e66-a52e-b0ed011c7ac2))     |
+|                 | 11.2: Assumptions of randomisation (11:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c0a6dac8-cda8-4681-9c22-b0ed011cd941))                      |
+|                 | 11.3: Bootstrapping (11:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cfe14de4-1866-4a08-8ce9-b0ed011cffe2))                      |
+|                 | 11.4: Monte Carlo (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=266f5350-982a-425d-9319-b0ed011d2de1))                      |
 | **Practical**   | Using R ([Chapter 35](#Chapter_35)) |
 |                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 5 APR 2023 (WED) 13:05-15:55                 |
-|                 | Group B: 6 APR 2023 (THU) 09:05-11:55                 |
+|                 | Group A: 3 APR 2024 (WED) 09:05-11:55                 |
+|                 | Group B: 4 APR 2024 (THU) 12:05-14:55                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 1A13                                    |
-|                 | 7 APR 2023 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 11 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30911) on Canvas                     |
-
+|                 | Room: Cottrell 2A21                                    |
+|                 | 5 APR 2024 (FRI) 15:05-17:55                          |
+| **Assessments** | [Week 11 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35440) on Canvas                     |
+|                 | [Test 2S](https://canvas.stir.ac.uk/courses/14932/quizzes/35453) on Canvas                     |
 
 
 # Randomisation {#Chapter_34}
@@ -139,7 +139,7 @@ We can therefore calculate $t_{\bar{y}_{SO1} - \bar{y}_{SO2}}$,
 
 $$t_{\bar{y}_{SO1} - \bar{y}_{SO2}} = \frac{`r round(mean(sp1), digits = 3)` - `r round(mean(sp2), digits = 3)`}{`r round(sp, digits = 3)`}.$$
 
-After we calculate our t-statistic as $t_{\bar{y}_{SO1} - \bar{y}_{SO2}} =$ `r round(tv, digits = 3)`, we would use the t-distribution to find the p-value (or, rather, get Jamovi to do this for us).
+After we calculate our t-statistic as $t_{\bar{y}_{SO1} - \bar{y}_{SO2}} =$ `r round(tv, digits = 3)`, we would use the t-distribution to find the p-value (or, rather, get jamovi to do this for us).
 Figure 32.3 shows the t-distribution for 30 degrees of freedom with an arrow pointing at the value of $t_{\bar{y}_{SO1} - \bar{y}_{SO2}} =$ `r round(tv, digits = 3)`.
 
 ```{r, echo = FALSE, fig.alt = "A bell curve of the t-distribution is shown with an arrow pointing downward on the x-axis value around 2.419.", fig.cap = "A t-distribution is shown with a calculated t-statistic of 2.419 indicated with a downward arrow."}
@@ -486,7 +486,7 @@ Similar approaches could be used for ANOVA or linear regression [@Manly2007].
 
 # _Practical_. Using R {#Chapter_35}
 
-Throughout this book, we have used Jamovi for statistical analysis.
+Throughout this book, we have used jamovi for statistical analysis.
 Jamovi is excellent software for running simple statistical analyses, but it has its limitations.
 Jamovi is built upon the programming language R, which is much more powerful and versatile in comparison.
 The R programming langauge is now widely used among scientists for data anslysis.
@@ -507,7 +507,7 @@ These scripts are organised into R packages, which can be uploaded by authors to
 This way, there is no need for completely different software to be used for different analyses; all analyses can be written and run in R.
 
 The downside to all of this is that learning R can be a bit daunting at first. 
-Running analyses is not done by pointing and clicking on icons as in Jamovi. 
+Running analyses is not done by pointing and clicking on icons as in jamovi. 
 You need to use code. 
 This practical will start with the very basics and work up to some simple data analyses.
 Rather than questions to answer, this practical has tasks for you to try to complete in R.
@@ -747,7 +747,7 @@ In this case, it just refers to information that is passed in a function.
 > **Task 8: Make a histogram of SO2 ovipositor lengths. Try using the argument `col = "blue"` in the `hist` function to make the histogram bars blue.**
 
 Now we can try collecting some summary statistics for SO1 and SO2.
-In the lab practical from [Chapter 13](#Chapter_13), we used Jamovi to calculate summary statistics.
+In the lab practical from [Chapter 13](#Chapter_13), we used jamovi to calculate summary statistics.
 Table 35.1 below shows how those same summary statistics can be calculated using functions in R, and the output of each function for SO1.
 
 ```{r, echo = FALSE}

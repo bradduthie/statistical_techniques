@@ -4,25 +4,25 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 20 March 2023 - 24 MAR 2023                            |
+| **Dates**       | 18 March 2024 - 22 MAR 2024                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 28 and 29      |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Rowntree2018 (Chapter 8)              |
 |                 | **Advanced:**   @Rodgers1988 ([Download](https://www.stat.berkeley.edu/~rabbee/correlation.pdf))                                    |
-| **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bcf001a6-0964-44f4-9515-af8200d91e20&start=0))     |
-|                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0176758a-498e-48e5-9011-af8200d91e56&start=0))                      |
-|                 | 9.3: Chi-squared test of association (16:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d95ff0d1-e3b7-4899-afec-af8200d91e71&start=0))     |
-|                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f55424c3-384e-4e7c-920e-af8200d91ecc))     |
-|                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=390375a9-9bb5-4a3b-a466-af8200d91ee8))                        |
-|                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9cd2493c-9665-47e4-b603-afca0120c2e4))                        |
+| **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=68b0636f-2183-42fb-8e0a-b0ed011b79ae))     |
+|                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c1db082d-43be-4593-9939-b0ed011b9aa5))                      |
+|                 | 9.3: Chi-squared test of association (16:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=01e0aef0-6984-49ca-8dd9-b0ed011bc29b))     |
+|                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c62852f1-12ab-47af-b2f4-b0ed011bd278))     |
+|                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ca4a9824-f8b9-483b-84b1-b0ed011beedb))                        |
+|                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ba4c9c5-e019-406f-9c24-b0ed01251e1c))                        |
 | **Practical**   | Analysis of counts and correlations ([Chapter 30](#Chapter_30)) |
 |                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 22 MAR 2023 (WED) 13:05-15:55                 |
-|                 | Group B: 23 MAR 2023 (THU) 09:05-11:55                 |
+|                 | Group A: 20 MAR 2024 (WED) 09:05-11:55                 |
+|                 | Group B: 21 MAR 2024 (THU) 12:05-14:55                 |
 | **Help hours**  | Martina Quaggiotto and Brad Duthie                     |
 |                 | Room: Cottrell 1A13                                    |
-|                 | 24 MAR 2023 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30819) on Canvas                     |
+|                 | 22 MAR 2024 (FRI) 15:05-17:55                          |
+| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35447) on Canvas                     |
 
 # Frequency and count data {#Chapter_28}
 
@@ -361,8 +361,8 @@ In other words, if $H_{0}$ is true, then the probability of getting a $\chi^{2}$
 Consequently, because $P > 0.05$, we would not reject the null hypothesis.
 We should therefore conclude that there is no evidence for an association between OS and dam size choice.
 
-Statistical programs such as R and Jamovi will calculate the $\chi^{2}$ value and get the p-value for the appropriate degrees of freedom [@Jamovi2022; @Rproject].
-To do this in Jamovi, it is necessary to input the categorical data (e.g., Android, MacOS) in a tidy format, which will be a focus of the practical [Chapter 30](#Chapter_30).
+Statistical programs such as R and jamovi will calculate the $\chi^{2}$ value and get the p-value for the appropriate degrees of freedom [@Jamovi2022; @Rproject].
+To do this in jamovi, it is necessary to input the categorical data (e.g., Android, MacOS) in a tidy format, which will be a focus of the practical [Chapter 30](#Chapter_30).
 
 There is one final point regarding expected and observed values of the Chi-square test of association.
 There is another way of getting these expected values that is a bit faster (and more widely taught), but does not demonstrate the logic of expected counts as clearly. 
@@ -525,7 +525,7 @@ This looks like a lot, but we can clean the equation up a bit because the $1 / (
 $$r = \frac{\sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right) \left(y_{i} - \bar{y} \right)}{\sqrt{\sum_{i = 1}^{N}\left(x_{i} - \bar{x} \right)^{2}} \sqrt{\sum_{i = 1}^{N}\left(y_{i} - \bar{y} \right)^{2}}}.$$
 
 As with other statistics defined in this book, it is almost never necessary to calculate $r$ by hand.
-Statistical programs such as Jamovi and R will make these calculations for us [@Jamovi2022; @Rproject].
+Statistical programs such as jamovi and R will make these calculations for us [@Jamovi2022; @Rproject].
 The reason for working through all of these equations is to help make the conceptual link between $r$ and the variance of the variables of interest [@Rodgers1988].
 To make this link a bit more clear, we can calculate the correlation coefficient of thorax and abdomen length from Table 29.1.
 We can set thorax to be the $x$ variable and abdomen to be the $y$ variable.
@@ -620,7 +620,7 @@ As it turns out, the sample correlation coefficient ($r$) will be approximately 
 $$t = \frac{r - \rho}{SE(r)}.$$
 
 Since our null hypothesis is that variables are uncorrelated, $\rho = 0$.
-Statistical programs such as Jamovi or R will use this equation to test whether or not the correlation coefficient is significantly different from zero [@Jamovi2022; @Rproject].
+Statistical programs such as jamovi or R will use this equation to test whether or not the correlation coefficient is significantly different from zero [@Jamovi2022; @Rproject].
 The reason for presenting it here is to show the conceptual link to other hypothesis tests in earlier chapters.
 In [Chapter 21.1](#one-sample-t-test), we saw that the one sample t-test defined $t$ as the deviation of the sample mean from the true mean, divided by the standard error.
 Here we are doing the same for the correlation coefficient.
@@ -631,7 +631,7 @@ To be cautious, we should check whether or not the variables that we are correla
 If they are normally distributed, then we can use the Pearson's product moment correlation to test the null hypothesis.
 If the assumption of normality is violated, then we might consider using the nonparametric Spearman rank correlation coefficient instead.
 The fig wasp thorax and abdomen lengths from Table 29.1 are normally distributed, so we can use the Pearson product moment correlation coefficient to test whether or not the correlation between these two variables is significant.
-In Jamovi, the t-score is not even reported as output when using a correlation test. 
+In jamovi, the t-score is not even reported as output when using a correlation test. 
 We only see $r$ and the p-value (Figure 29.4).
 
 ```{r, echo = FALSE, fig.alt = "A table called 'Correlation Matrix' is shown, which is mostly empty except for two values in the lower left of a 2 by 2 matrix.", fig.cap = "Jamovi output for a test of the null hypothesis that thorax length and abdomen length are not significantly correlated in a sample of fig wasps collected in 2010 from Baja, Mexico.", out.width="100%"}
@@ -653,7 +653,7 @@ A table of $x$ and $y$ points is shown to the right, and the correlation coeffic
 
 # *Practical*. Analysis of counts and correlations {#Chapter_30}
 
-This lab focuses on applying the concepts from [Chapter 28](#Chapter_28) and [Chapter 29](#Chapter_29) in Jamovi [@Jamovi2022].
+This lab focuses on applying the concepts from [Chapter 28](#Chapter_28) and [Chapter 29](#Chapter_29) in jamovi [@Jamovi2022].
 Exercises in this practical will use the [Chi-squared goodness of fit](#chi-squared-goodness-of-fit) test, the [Chi-squared test of association](#chi-squared-test-of-association),
 and the [correlation coefficient](#correlation-hypothesis-testing).
 For all of these examples, this practical will use a dataset inspired by the doctoral work of Dr Jessica Burrows [@Burrows2022].
@@ -691,9 +691,9 @@ Died ($E_{died}$): ______________
 
 
 Next, we can find the observed counts of bees that survived and died.
-To do this, we need to use the Frequency tables option in Jamovi.
+To do this, we need to use the Frequency tables option in jamovi.
 We did this once in [Chapter 16](#Chapter_16) for calculating probabilities.
-As a reminder, to find the counts of bumblebees that survived (Yes) or did not survive (No), we need to go to the Exploration toolbar in Jamovi, then choose 'Descriptives'.
+As a reminder, to find the counts of bumblebees that survived (Yes) or did not survive (No), we need to go to the Exploration toolbar in jamovi, then choose 'Descriptives'.
 Place 'Survival' in the Variables box, then check the box for 'Frequency tables' below.
 A Frequencies table will appear in the panel on the right. 
 Write down the observed counts of bees that survived and died.
@@ -721,8 +721,8 @@ Using the $\chi^{2}$ and df values, find the approximate p-value using this [int
 P: _______________
 
 
-Now we can try to use Jamovi to replicate the analysis above.
-Inthe  Jamovi Analyses tab, select 'Frequencies' from the toolbar, then select 'N outcomes'.
+Now we can try to use jamovi to replicate the analysis above.
+In the jamovi Analyses tab, select 'Frequencies' from the toolbar, then select 'N outcomes'.
 A new window will open up (Figure 30.2).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown with a button called 'Frequencies' selected and 'N Outcomes' chosen from the pulldown menu.", fig.cap = "Jamovi toolbar showing the location of the Frequencies options, with the Chi-square goodness of fit test available under a choice called 'N Outcomes' in the pulldown menu.", out.width="100%"}
@@ -763,7 +763,7 @@ How many colonies are there in this dataset?
 
 Colonies: ________________
 
-Run the $\chi^{2}$ goodness of fit test using the same procedure in Jamovi that you used in the previous exercise.
+Run the $\chi^{2}$ goodness of fit test using the same procedure in jamovi that you used in the previous exercise.
 What is the output from the Goodness of Fit table?
 
 $\chi^{2}$: ____________
@@ -783,7 +783,7 @@ From this output, what can you conclude about how bees were taken from the colon
 
 ```
 
-Note that the distrACTION module in Jamovi includes a $\chi^{2}$ distribution (called 'x2-Distribution'), which you can use to compute probabilities and quantiles in the same way as we did for previous distributions in the module.
+Note that the distrACTION module in jamovi includes a $\chi^{2}$ distribution (called 'x2-Distribution'), which you can use to compute probabilities and quantiles in the same way as we did for previous distributions in the module.
 Next, we will move on to a $\chi^{2}$ test of association between colony and survival.
 
 
@@ -798,7 +798,7 @@ What are the null and alternative hypotheses for this test of association?
 - $H_{A}$: _________________
 
 
-To run the $\chi^{2}$ test of association, choose 'Frequencies' from the Jamovi toolbar (Figure 30.2), but this time select 'Independent Samples: $\chi^{2}$ test of association' from the pulldown menu.
+To run the $\chi^{2}$ test of association, choose 'Frequencies' from the jamovi toolbar (Figure 30.2), but this time select 'Independent Samples: $\chi^{2}$ test of association' from the pulldown menu.
 To test for an association between bee colony and survival, place 'colony' in the 'Rows' box and 'survived' in the 'Columns' box.
 Leave the rest of the boxes blank (Figure 30.4).
 
@@ -856,7 +856,7 @@ Next, we will look at correlations between variables.
 Suppose that we want to test if bumblebee mass at the start of the experiment (mass) is associated with carbon dioxide output ($CO_{2}$).
 Specifically, we want to know if more massive bees also output less carbon dioxide.
 Before running any test, it is a good idea to plot the two variables using a scatterplot.
-To do this, select the 'Exploration' button from the toolbar in Jamovi, but instead of choosing 'Descriptives' as usual from the pulldown menu, select 'Scatterplot'.
+To do this, select the 'Exploration' button from the toolbar in jamovi, but instead of choosing 'Descriptives' as usual from the pulldown menu, select 'Scatterplot'.
 A new window will open up that allows you to build a scatterplot by selecting the variables that you place on the x-axis and the y-axis.
 Put mass on the x-axis and CO_2 on the y-axis, as shown in Figure 30.5.
 
@@ -890,7 +890,7 @@ Before we test whether or not the correlation coefficient ($r$) is significant, 
 Remember from [Chapter 29.3](#correlation-hypothesis-testing) that a test of the Pearson product moment correlation assumes that the sample $r$ is normally distributed around the true correlation coefficient.
 If both of our variables (mass and $CO_{2}$) are normally distributed, then we can be confident that this assumption will not be violated.
 But if one or both variables are not normally distributed, then we should consider using the Spearman rank correlation coefficient instead.
-To test if mass and $CO_{2}$ are normally distributed, navigate to the Descriptives panel in Jamovi (where we usually find the summary statistics of variables).
+To test if mass and $CO_{2}$ are normally distributed, navigate to the Descriptives panel in jamovi (where we usually find the summary statistics of variables).
 Place mass and $CO_{2}$ in the 'Variables' box, then scroll down and notice that there is a checkbox under **Normality** for 'Shapiro-Wilk'.
 Check this box, then find the p-values for the Shapiro-Wilk test of normality in the panel to the right.
 Write these p-values down below.
@@ -907,13 +907,13 @@ Based on these p-values, which type of correlation coefficient should we use to 
 
 ```
 
-To run the correlation coefficient test, choose the button in the Jamovi toolbar called 'Regression', then select the first option 'Correlation Matrix' from the pulldown menu (Figure 30.6).
+To run the correlation coefficient test, choose the button in the jamovi toolbar called 'Regression', then select the first option 'Correlation Matrix' from the pulldown menu (Figure 30.6).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi toolbar is shown with a button called 'Regression' selected and 'Correlation Matrix' chosen from the pulldown menu.", fig.cap = "Jamovi toolbar showing the location of the Regression options, with the Correlation Matrix option available in the pulldown menu.", out.width="100%"}
 knitr::include_graphics("img/jamovi_correlation_toolbar.png");
 ```
 
-The Correlation Matrix option will pull up a new window in Jamovi (Figure 30.7).
+The Correlation Matrix option will pull up a new window in jamovi (Figure 30.7).
 
 ```{r, echo = FALSE, fig.alt = "Jamovi interface is shown with a variables called 'mass' and 'CO_2' placed in a box to the right and a checkbox for 'Pearson' selected", fig.cap = "Jamovi interface for testing correlation coefficients.", out.width="100%"}
 knitr::include_graphics("img/jamovi_correlation_interface.png");
@@ -987,7 +987,7 @@ If you have sufficient time, move on to the final exercise, which will demonstra
 
 In Exercise 30.1, we ran a $\chi^{2}$ test using data in a tidy format, in which each row corresponded to a single observation and categorical data were listed over $N = 256$ rows.
 For the 'survived' variable, this meant 256 rows of 'Yes' or 'No'.
-But there is a shortcut in Jamovi if we do not have a full tidy dataset.
+But there is a shortcut in jamovi if we do not have a full tidy dataset.
 If you know that the dataset included 139 'Yes' counts and 117 'No' counts, you could set up the data as a table of counts (Table 30.1).
 
 ```{r, echo = FALSE}
@@ -998,7 +998,7 @@ knitr::kable(count_tab, format = "simple", table.envir = "table",
       caption = "Counts of bees that did not survive (No) or did survive (Yes) in an experiment involving radiation.");
 ```
 
-Open a new data frame in Jamovi, then recreate the small dataset in Table 30.1.
+Open a new data frame in jamovi, then recreate the small dataset in Table 30.1.
 Column names should be 'Survived' and 'Count', as shown in Figure 30.8.
 
 ```{r, echo = FALSE, fig.alt = "Jamovi spreadsheet showing just 2 rows and 2 columns as 'Survived' and 'Count'.", fig.cap = "Jamovi data frame with a simple organisation of count data.", out.width="100%"}
@@ -1021,7 +1021,7 @@ knitr::kable(assoc_tab, format = "simple", table.envir = "table",
       caption = "Counts of bees that did not survive (No) or did survive (Yes) for different levels of radiation.");
 ```
 
-If we put Table 30.2 into Jamovi, we can run a $\chi^{2}$ test of association by navigating to the 'Frequencies' button in the Jamovi toolbar and selecting 'Independent Samples: $\chi^{2}$ test of assocation' from the pulldown.
+If we put Table 30.2 into jamovi, we can run a $\chi^{2}$ test of association by navigating to the 'Frequencies' button in the jamovi toolbar and selecting 'Independent Samples: $\chi^{2}$ test of assocation' from the pulldown.
 In the Contingency Tables input panel, we can put 'Survived' in the Rows box, 'Radiation' in the Columns box, then place 'Count' in the Counts (optional) box.
 The panel on the right will give us the output of the $\chi^{2}$ test of association.
 

@@ -4,21 +4,21 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 10 April 2023 - 14 April 2023                            |
+| **Dates**       | 8 April 2024 - 11 April 2024                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapter 36              |
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  @Turbek2016 ([Download](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/bes2.1258))                                    |
 |                 | **Advanced:**   @Steidl1997 ([Download](https://www.jstor.org/stable/pdf/3802582.pdf?refreqid=excelsior%3A01cc2ff747e32275fde09721461a862c&ab_segments=&origin=&initiator=&acceptTC=1))                                    | 
-| **Lectures**    | 12.1: Reporting statistics (21:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e6c873f1-97bf-436c-b62d-af8200d922ad))     |
-|                 | 12.2: Getting started with R (18:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ea2bd6fa-4342-4d40-9acc-af8200d9231f))                      |
+| **Lectures**    | 12.1: Reporting statistics (21:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7165b0e6-7c92-4c0b-bbdc-b0ed011d63b0))     |
+|                 | 12.2: Getting started with R (18:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=964bba8b-f1dd-45cd-8008-b0ed011d841d))                      |
 | **Practical**   | Statistical techniques in R ([Chapter 37](#Chapter_37)) |
 |                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 12 APR 2023 (WED) 13:05-15:55                 |
-|                 | Group B: 13 APR 2023 (THU) 09:05-11:55                 |
+|                 | Group A: 10 APR 2024 (WED) 09:05-11:55                 |
+|                 | Group B: 11 APR 2024 (THU) 12:05-13:55                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 1A13                                    |
-|                 | 14 MAR 2023 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/13075/quizzes/30936) on Canvas                     |
+|                 | Room: Cottrell 2A21                                    |
+|                 | 12 APR 2024 (FRI) 15:05-17:55                          |
+| **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35452) on Canvas                     |
 
 # Reporting statistics {#Chapter_36}
 
@@ -75,7 +75,7 @@ Before explaining the statistical analyses used, it is important to explain what
 This includes details about biological species, field locations, chemicals and equipment used, experimental procedures, and ethics [@council2006scientific; @Woodford1999].
 Units of measurement should also be provided for all variables [@Lang1997].
 The Methods should include the name of any statistical tests used [@council2006scientific], and whether or not data conform to test assumptions (or, e.g., if data need to be transformed to fit the assumptions of statistical tests).
-The statistical software used to analyse the data, such as Jamovi [@Jamovi2022] or R [@Rproject], should also be cited [@Lang1997; @council2006scientific].
+The statistical software used to analyse the data, such as jamovi [@Jamovi2022] or R [@Rproject], should also be cited [@Lang1997; @council2006scientific].
 For example:
 
 > "Because stigmatic pollen counts were not normally distributed, they were analysed using non-parametric statistics (Mann-Whitney U test) for pairwise comparisons among four times of collection at the 0.05 level of significance. All data analysis was conducted in SPSS, version 17.0. All means are presented with standard errors ($\pm$ SE)" [@Xiong2013].
@@ -210,7 +210,7 @@ There is no universally agreed upon way of reporting statistical output, but the
 # _Practical_. Statistical techniques in R {#Chapter_37}
 
 
-This lab practical will demonstrate how to run statistical tests in R that have been introduced in Jamovi in previous practicals.
+This lab practical will demonstrate how to run statistical tests in R that have been introduced in jamovi in previous practicals.
 The practical will use the [PalmerPenguins](https://allisonhorst.github.io/palmerpenguins/articles/intro.html#package-citation-1) dataset [@GormanEtAl2014; @HorstEtAl2020]. 
 These data include morphological measurements for 3 species of penguins that inhabit 3 islands in the Palmer Archipelago, Antarctica (Figure 37.1; artwork by [allison_horst](https://allisonhorst.com/), Creative Commons Attribution 4.0 International License). 
 
@@ -290,7 +290,7 @@ You should see the first 6 rows of the dataset print out in the console.
 Notice that the dataset is already in a tidy format.
 Each row is an individual penguin, and each variable is a column.
 
-Unlike Jamovi, we cannot change the data in penguins simply by clicking on values. 
+Unlike jamovi, we cannot change the data in penguins simply by clicking on values. 
 Like everything else in R, we need to do this using code. 
 If we wanted to change the value of row one column three to 40, for example (i.e., the first penguin's bill depth), then we would need to do the following.
 
@@ -310,7 +310,7 @@ The absence of any value above in `, ]` tells R to print all of the columns. We 
 
 > Task 3: Print just column 3 of the penguins dataset. What does the code look like?
 
-Code to return column 3: ______________________________________
+Code to return column 3: ______________
 
 Notice that some of the values in the dataset are not numeric, but instead are given as `NA`. 
 This is how missing data are indicated in R. 
@@ -405,7 +405,7 @@ TukeyHSD(aov(anova_model));
 ```
 
 
-The `TukeyHSD` function will report a table of post hoc comparisons similar to the ones reported by Jamovi.
+The `TukeyHSD` function will report a table of post hoc comparisons similar to the ones reported by jamovi.
 
 
 
@@ -581,7 +581,7 @@ shapiro.test(x = penguins$bill_length);
 Based on this test, is bill length normally distributed? __________
 
 We can also check to see if species bill lengths have equal variances. 
-We can do this using a Levene's test of homogeneity of variances, as we have done in Jamovi.
+We can do this using a Levene's test of homogeneity of variances, as we have done in jamovi.
 The base functions of the R programming language do not include a Levene's test.
 We therefore need to download an R package that has a function for the Levene's test.
 Packages in R include code that people have written and made available to other researchers.
