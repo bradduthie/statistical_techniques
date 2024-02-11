@@ -205,7 +205,7 @@ Again, you do not need to memorise these units, but it is good to be aware of th
 Table: Examples of derived SI units.
 
 When numbers are associated with units, it is important to recognise that the units must be carried through and combined when calculating an equation.
-As a very simple example, if want to know the speed at which an object is moving, and we find that it has moved 10 metres in 20 seconds, then we calculate the speed and report the correct units as below,
+As a very simple example, if we want to know the speed at which an object is moving, and we find that it has moved 10 metres in 20 seconds, then we calculate the speed and report the correct units as below,
 
 $$speed = \frac{10\:m}{20\:s} = 0.5\:m/s = 0.5\:m\:s^{-1}.$$
 

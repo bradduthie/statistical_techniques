@@ -34,7 +34,7 @@ Again, this is just our starting definition, but double-check to make sure it ma
 
 $$Z =X+Y.$$
 
-If it is not intuitive as to why, just imagine that there is no error associated with the measurement of $X$ an $Y$ (i.e., $E_{X} = 0$ and $E_{Y} = 0$). 
+If it is not intuitive as to why, just imagine that there is no error associated with the measurement of $X$ and $Y$ (i.e., $E_{X} = 0$ and $E_{Y} = 0$). 
 In this case, there cannot be any error in $Z$. So, if we substitute $X + Y$ for $Z$, we have the below,
 
 
