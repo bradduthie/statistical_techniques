@@ -361,7 +361,7 @@ knitr::include_graphics("img/jamovi_toolbar_modules_distrACTION.png")
 Once the distrACTION module has been made available, download the WrEN trees dataset [wren_trees.xlsx](https://raw.githubusercontent.com/bradduthie/statistical_techniques/main/data/wren_trees.xlsx) dataset and open it in a spreadsheet.
 Notice that the dataset is not in a tidy format.
 There are 4 different sites represented by different columns in the dataset.
-The numbers under each column are measurements of tree diameter at breast height (DBH) in centimeteres.
+The numbers under each column are measurements of tree diameter at breast height (DBH) in centimetres.
 Before doing anything else, it is therefore necessary to put the WrEN dataset into a tidy format.
 The tidy dataset should include two columns, one for site and the other for DBH.
 
@@ -416,7 +416,7 @@ knitr::include_graphics("img/jamovi_distrACTION_p75.png")
 ```
 
 
-From Figure 19.3, we can see that the cumulative 0.75 quantile is 44.3, so if DBH is normally distributed with the mean and standard deviation calculated above, 75\% of DBH values in a population will be below 36.1 cm.
+From Figure 19.3, we can see that the cumulative 0.75 quantile is 44.3, so if DBH is normally distributed with the mean and standard deviation calculated above, 75\% of DBH values in a population will be below 44.3 cm.
 Using the same principles, what is the cumulative 0.4 quantile for the DBH data?
 
 Quantile: _____________________ cm
