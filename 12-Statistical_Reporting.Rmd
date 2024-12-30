@@ -20,7 +20,7 @@
 |                 | 12 APR 2024 (FRI) 15:05-17:55                          |
 | **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35452) on Canvas                     |
 
-# Reporting statistics {#Chapter_36}
+# Reporting statistics {#Chapter_37}
 
 In this book, we have focused on the analysis and visualisation of different kinds of data. 
 This chapter focuses on how to report these analyses in scientific writing, which might include practical write-ups, reports, dissertations, or peer-reviewed manuscripts.
@@ -37,7 +37,7 @@ This can be done by creating a spreadsheet with appropriate data columns prior t
 It is important to think about what kinds of analyses will be performed and how large of a sample size might be needed.
 It is often a good idea to conduct a power analysis before data collection [@Steidl1997].
 A power analysis is a formal way of estimating how big of a sample size is necessary to reject the null hypothesis given a particular effect size [@Jones2003].
-For example, suppose that we want test whether 2 species of fig wasps have different mean ovipositor lengths, as in the example from [Chapter 34.3](#randomisation-for-hypothesis-testing).
+For example, suppose that we want test whether 2 species of fig wasps have different mean ovipositor lengths, as in the example from [Chapter 35](#Chapter_35).
 A power analysis might be used to determine how many fig wasps need to be collected and measured to detect that a given difference in mean ovipositor length (e.g., 1.0 mm) is statistically significant (i.e., P < 0.05).
 In other words, if the difference in mean ovipositor length between two species is 1.0 mm, then how big of a sample size is needed to reliably reject the null hypothesis (P < 0.05) when running a t-test?
 Ideally, such a power analysis could be informed by preliminary data.
@@ -98,7 +98,7 @@ Results should report relevant statistics and their uncertainty.
 Confidence intervals should be provided for key summary statistics [@Lang1997].
 Key statistics from statistical tests can be reported in parentheses. 
 For example, we might state, "an Independent Samples t-test found a significant difference between mean fig wasp ovipositor lengths (t = 2.419, df = 30, P = 0.022)".
-Relevant statistics for specific tests are explained below in [section 36.4](#statistical-tests).
+Relevant statistics for specific tests are explained below in [section 37.4](#statistical-tests).
 In general, it is good to report a p-value exactly, but if the value is less than 0.001, it is fine to report as $P < 0.001$ [@council2006scientific].
 Direct measurements should be reported to the level of precision allowed by the measuring device used, and summary statistics such as means and standard deviations should be reported to just 1 significant figure higher than the raw measurements [@council2006scientific].
 Note that this only applies to *reporting* statistics.
@@ -128,10 +128,10 @@ Colour should not be used unless it is necessary.
 When using colour in figures, it is important to use accessible colour combinations and high contrast [@Jambor2021; @Painter2021]. 
 For electronic documents, alt images should be provided whenever possible.
 
-Different kinds of figures are appropriate for different kinds of data (see [Chapter 10](#Chapter_10) and [Chapter 29.1](#scatterplots)).
-[Histograms](#histograms) and [box-whisker plots](#box-whisker-plots) are most effective for presenting the distribution of continuous data [@Lang1997; @Weissgerber2015].
-[Barplots and pie charts](#barplots-and-pie-charts) present categorical data [@Lang1997; @Weissgerber2015].
-[Scatterplots](#scatterplots) are used to compare quantitative variables.
+Different kinds of figures are appropriate for different kinds of data (see [Chapter 10](#Chapter_10) and [Chapter 30](#Chapter_30)).
+Histograms and box-whisker plots are most effective for presenting the distribution of continuous data [@Lang1997; @Weissgerber2015].
+Barplots and pie charts present categorical data [@Lang1997; @Weissgerber2015].
+Scatterplots are used to compare quantitative variables.
 
 When presenting a figure with multiple panels, it is important to distinguish between panels, usually with letters (e.g., A, B, C).
 Examples of figures can be found throughout this book.
@@ -207,12 +207,12 @@ There is no universally agreed upon way of reporting statistical output, but the
 @Lang1997 provides a more comprehensive guide to statistical reporting.
 
 
-# _Practical_. Statistical techniques in R {#Chapter_37}
+# _Practical_. Statistical techniques in R {#Chapter_38}
 
 
 This lab practical will demonstrate how to run statistical tests in R that have been introduced in jamovi in previous practicals.
 The practical will use the [PalmerPenguins](https://allisonhorst.github.io/palmerpenguins/articles/intro.html#package-citation-1) dataset [@GormanEtAl2014; @HorstEtAl2020]. 
-These data include morphological measurements for 3 species of penguins that inhabit 3 islands in the Palmer Archipelago, Antarctica (Figure 37.1; artwork by [allison_horst](https://allisonhorst.com/), Creative Commons Attribution 4.0 International License). 
+These data include morphological measurements for 3 species of penguins that inhabit 3 islands in the Palmer Archipelago, Antarctica (Figure 38.1; artwork by [allison_horst](https://allisonhorst.com/), Creative Commons Attribution 4.0 International License). 
 
 ```{r, echo = FALSE, fig.alt = "Cartoon image of three penguins standing in a row, each highlighted by a background of a different colour.", fig.cap = "This practical uses data collected on the morphologies of 3 Antarctic penguin species.", out.width="100%"}
 knitr::include_graphics("img/penguins.png");
@@ -228,9 +228,9 @@ Data include measurements of bill length (mm), bill depth (mm), flipper length (
 First, we need to open Rstudio.
 You can do this on your own computer, or within a browser on the [posit cloud](https://posit.cloud/).
 Although it is possible to use R in a different environment than Rstudio, Rstudio will make some tasks easier.
-To get started, we need to make that we are working in the same directory (i.e., folder, see [Chapter 2.3](#managing-data-files) on managing data files) that we saved the [penguins.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/penguins.csv).
+To get started, we need to make that we are working in the same directory (i.e., folder, see [Chapter 2](#Chapter_2) on managing data files) that we saved the [penguins.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/penguins.csv).
 We could use the `setwd()` function to do this (e.g., by typing something like  `setwd("C:\Users\MyName\Documents")` in the console on a Windows computer).
-But the easiest way in Rstudio is to navigate to the toolbar and select 'Session', then 'Set Working Directory' from the pulldown, and then 'Choose Directory' (Figure 37.2).
+But the easiest way in Rstudio is to navigate to the toolbar and select 'Session', then 'Set Working Directory' from the pulldown, and then 'Choose Directory' (Figure 38.2).
 
 ```{r, echo = FALSE, fig.alt = "Rstudio menu is show with 'Session' selected from the toolbar, then 'Set Working Directory' from the pull down, which opens another pulldown with the highlighted option 'Choose Directory'.", fig.cap = "Rstudio option in the toolbar for setting a working directory.", out.width="100%"}
 knitr::include_graphics("img/Rstudio_setwd.png");
@@ -238,9 +238,9 @@ knitr::include_graphics("img/Rstudio_setwd.png");
 
 A new window will open that will allow you to navigate to the location in which [penguins.csv](https://raw.githubusercontent.com/bradduthie/SCIU4T4/main/data/penguins.csv) was saved.
 
-In the practical from [Chapter 35](#Chapter_35), we worked entirely from the R console. 
+In the practical from [Chapter 36](#Chapter_36), we worked entirely from the R console. 
 This time, we will will introduce R scripts to make organising the code a bit easier.
-To do this, navigate to the Rstudio toolbar and select 'File', then 'New File' followed by 'R Script' (Figure 37.3).
+To do this, navigate to the Rstudio toolbar and select 'File', then 'New File' followed by 'R Script' (Figure 38.3).
 
 ```{r, echo = FALSE, fig.alt = "Rstudio menu is show with 'File' selected from the toolbar, then 'New File' from the pull down, which opens another pulldown with the highlighted option 'R script'.", fig.cap = "Rstudio option in the toolbar for creating a new R script.", out.width="100%"}
 knitr::include_graphics("img/Rstudio_script.png");
@@ -265,7 +265,7 @@ penguins <- read.csv(file = "data/penguins.csv");
 ```
 
 Put your cursor on the line that you typed (you can also highlight the whole line, but this is not necessary).
-Next, find the 'Run' button in the toolbar and click it (Figure 37.4).
+Next, find the 'Run' button in the toolbar and click it (Figure 38.4).
 Rstudio will run whatever line of code your cursor is on, or whatever chunk of code is highlighted (including multiple lines at once; notice the line numbers in the left margin of the script).
 
 ```{r, echo = FALSE, fig.alt = "Rstudio toolbar is shown with multiple options, including one that says 'Run' in the upper right.", fig.cap = "An Rstudio toolbar with the 'Run' option in the upper right to run a line of code from the script to the console.", out.width="100%"}
@@ -381,7 +381,7 @@ anova_model <- lm(formula = bill_length ~ species, data = penguins);
 anova(anova_model);
 ```
 
-The function `lm` runs a general linear model (we have not discussed it in this module, but  t-tests, ANOVA, and linear regression are all based on [the same mathematical framework](https://stirlingcodingclub.github.io/linear_modelling/); see [Chapter 38](#Chapter_38) for more explanation). 
+The function `lm` runs a general linear model (we have not discussed it in this module, but  t-tests, ANOVA, and linear regression are all based on [the same mathematical framework](https://stirlingcodingclub.github.io/linear_modelling/); see [Chapter 39](#Chapter_39) for more explanation). 
 We can use the column names `bill_length` and `species` directly if we specify that we are using the dataset in which these columns are found (`penguins`). 
 Inside `lm`, you will notice the `~` symbol. This just separates our dependent variable (`bill_length` on the left) and independent variable (`species` on the right).
 
@@ -397,7 +397,7 @@ F value: _________________
 
 p value: _________________
 
-Since our p-value is less than 0.05, we can also run a Tukey's Honestly Significant Difference test of multiple comparisons (see [Chapter 24](#Chapter_24)).
+Since our p-value is less than 0.05, we can also run a Tukey's Honestly Significant Difference test of multiple comparisons (see [Chapter 25](#Chapter_25)).
 We need to use the `aov` and `TukeyHSD` functions to do it.
 
 ```{r, eval = FALSE}
@@ -499,7 +499,7 @@ It also is possible to use a Spearman correlation coefficient (method = "spearma
 
 r: _________________
 
-Note that the output of the correlation test includes the t statistic, which is used for correlation hypothesis testing ([Chapter 29.3](#correlation-hypothesis-testing)).
+Note that the output of the correlation test includes the t statistic, which is used for correlation hypothesis testing ([Chapter 30](#Chapter_30)).
 It also includes 95 per cent confidence itnervals around $r$, degrees of freedom, and the p-value (note that `2.2e-16` just means $2.2 \times 10^{-16}$, i.e., a very small number).
 
 
@@ -568,7 +568,7 @@ The next section will demonstrate how to test whether or not data are normally d
 
 ## Statistical test assumptions in R
 
-In the one-way ANOVA of [Chapter 37.2.1](#one-way-anova-in-r), we tested if bill length differed among penguin species.
+In the one-way ANOVA of [Chapter 38](#Chapter_38), we tested if bill length differed among penguin species.
 An assumption of the ANOVA is that the data are normally distributed and groups have equal variances.
 We can run a Shapiro-Wilk test to check if data are normally distributed using the `shapiro.test` function in R.
 
@@ -608,14 +608,14 @@ P: __________________
 Remember that the Levene's test tests the null hypothesis that group variances are the same.
 Hence, if $P > 0.05$, we should not reject the null hypothesis of equal variances.
 Nevertheless, from the earlier Shapiro-Wilk test, it appears that the data are not normally distributed.
-Instead of using a one-way ANOVA, we should therefore try the non-parameteric equivalent Kruskall-Wallis H test ([Chapter 25](#Chapter_25)).
+Instead of using a one-way ANOVA, we should therefore try the non-parameteric equivalent Kruskall-Wallis H test ([Chapter 26](#Chapter_26)).
 The Kruskall-Wallis H test can be run in R using the `kruskal.test` function.
 
 ```{r, eval = FALSE}
 kruskal.test(bill_length ~ species, data = penguins);
 ```
 
-Recall from [Chapter 25](#Chapter_25) that the Kruskall-Wallis H test uses a $\chi^{2}$ test statistic. 
+Recall from [Chapter 26](#Chapter_26) that the Kruskall-Wallis H test uses a $\chi^{2}$ test statistic. 
 
 > Task 15: Run a Kruskall Wallis H test to see if bill length differs among species, then report the $\chi^{2}$ test statistic of the test below.
 

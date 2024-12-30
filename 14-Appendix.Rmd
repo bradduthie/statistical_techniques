@@ -1,30 +1,1210 @@
 # (APPENDIX) Appendix {-}
 
-# Common Marking Scheme {#appendexA_CMS}
+# Answers to chapter exercises {#appendexA}
+
+Answers to exercises in chapters are provided below. 
+Many questions are open-ended and intended to be thought provoking, and the answers to these questions that are provided below are mostly intended to explain the motivation underlying the question.
+Numerical answers are also provided.
+Answers are written in bold.
+All datasets that are made tidy in the process of doing exercises can be found at https://osf.io/dxwyv in the 'exercise_answer_datasets', and in the links below.
+
+## Chapter 3
+
+### Exercise 3.1:
+
+1. **Seeds are tallied incorrectly.**
+2. Tallies are not counted correctly in the lab notebook.
+3. **Counts are not correctly input into spreadsheet.**
+
+**You can download the tidy dataset from this exercise here:**
+
+https://bradduthie.github.io/stats/data/Ch3_Exercise_1.csv
+
+### Exercise 3.2
+
+How many columns did you need to create the new dataset? **2 columns.**
+
+Are there any missing data in this dataset? **There are no missing data.**
+
+**The tidy dataset should include two columns, one for Species and the other for egg loads. It should have 54 rows (plus the header). You can download the dataset here:**
+
+https://bradduthie.github.io/stats/data/Ch3_Exercise_2.csv
+
+### Exercise 3.3
+
+**The tidy dataset should include three columns, one for Species, one for Fruit, and one for Count. It should be have 25 rows (plus the header). You can download the dataset here:**
+
+https://bradduthie.github.io/stats/data/Ch3_Exercise_3.csv
+
+### Exercise 3.4
+
+What columns should this new dataset include? **Species, Wasp number, Head length (mm), Head width (mm), Thorax length (mm), Thorax width (mm), Abdomen length (mm), Abdomen width (mm).**
+
+How many rows are needed? **26 rows of data (plus the column header).**
+
+**You can download the dataset here:**
+
+https://bradduthie.github.io/stats/data/Ch3_Exercise_4.csv
 
 
-This appendix is a recreation of [Appendix 1: Undergraduate Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/) on the University of Stirling website. 
+What formula will you type into your empty spreadsheet cell to calculate $V_{thorax}$? **=(4/3) * 3.14 * (D2/2) * ( ( E2/2)^2 )**
 
-| Mark  | Equivalent Grade | Result | Descriptor of Attainment of Learning Outcomes |
-|-------|------------------|--------|-----------------------------------------------|
-| 90+   | 1st              | Pass   | Meets all the requirements to attain 80-89 but in addition demonstrates an exceptional degree of originality and exceptional analytical, problem-solving and/or creative skills. |
-| 80-89 |                  |        | Meets all the requirements to attain 70-79 but in addition demonstrates outstanding quality evidenced by an ability to engage critically and analytically with source material, exhibits independent lines of argument, is highly original and uses an extremely wide range of relevant sources where appropriate. |
-| 70-79 |                  |         | Excellent range and depth of attainment of intended learning outcomes, secured by discriminating command of a comprehensive range of relevant materials and analyses, and by deployment of considered judgement relating to key issues, concepts or procedures. |
-| 60-69 | 2:1              | Pass   | Attainment of virtually all intended learning outcomes, clearly grounded on a close familiarity with a wide range of supporting evidence, constructively utilised to reveal an appreciable depth of understanding. |
-| 50-59 | 2:2              | Pass   | Attainment of most of the intended learning outcomes, some more securely grasped than others, resting on a circumscribed range of evidence and displaying a variable depth of understanding. |
-| 40-49 | 3rd              | Pass   | Acceptable attainment of most intended learning outcomes, displaying a qualified familiarity with a minimally sufficient range of relevant materials, and a grasp of the analytical issues and concepts which are generally reasonable, albeit insecure. |
-| 30-39 | Fail - Marginal  | Fail   | Appreciable deficiencies in the attainment of intended learning outcomes, perhaps lacking a secure basis in relevant factual or analytical dimensions. |
-| 0-29  | Fail - Clear     | Fail   | No convincing evidence of attainment of intended learning outcomes, such treatment of the subject as is in evidence being directionless and fragmentary. |
-| X     | Fail             | Fail   | Failure to comply with Compulsory Module Requirements or engage with the module, leading to no automatic right to reassessment. |
+What are some reasons that we might want to be cautious about our calculated wasp volumes? **There is error associated with the measurement of fig wasp dimensions (e.g., length, width). There is also error because we are assuming that the head is a sphere and the thorax and abdomen are ellipses.**
 
-Table: **Undergraduate Common Marking Scheme Information**: Column one lists the mark out of 100, column two lists the equivalent grade, column three describes the result as pass or fail, and column four describes the attainment of the learning outcome.
+
+## Chapter 8
+
+### Exercise 8.1
+
+Mean: **6.52 g C / kg soil**
+
+Minimum: **0.600 g C / kg soil**
+
+Maximum: **16.2 g C / kg soil**
+
+Topsoil Mean: **9.75 g C / kg soil**
+
+Topsoil Minimum: **4.00 g C / kg soil**
+
+Topsoil Maximum: **16.2 g C / kg soil**
+
+Subsoil Mean: **2.43 g C / kg soil**
+
+Subsoil Minimum: **0.600 g C / kg soil**
+
+Subsoil Maximum: **4.60 g C / kg soil**
+
+Based on these samples in the dataset, can we really say for certain that the population mean of topsoil is higher than the population mean of subsoil?
+
+**The sample means themselves do not tell us whether the population mean of topsoil will be bigger or smaller than that of subsoil, just that the sample means are different. We can use the data to calculate a standard error associated with the mean, which will give an indication of the level of confidence that is appropriate.**
+
+What would make you more (or less) confident that topsoil and subsoil population means are different? 
+
+**The larger the sample size, the more confidence we have that the sample mean is close to the population mean. Also, the narrower the spread of the data, the more confidence we should have that the sample mean is close to the population mean.**
+
+### Exercise 8.2
+
+Grand Mean length: **1.59 cm**
+
+Grand Mean height: **1.46 cm**
+
+Grand Mean width: **1.57 cm**
+
+Missing width row: **Row 62**
+
+Missing height row: **Row 22**
+
+Grand Mean length (mm): **15.9**
+
+Grand Mean height (mm): **14.6**
+
+Grand Mean width (mm): **15.7**
+
+Do the differences between means in cm and the means in mm make sense? **Yes. Note that means in millimetres are ten times the value of the means in centimetres, as expected.**
+
+### Exercise 8.3
+
+In this case, how might assuming that figs are perfectly spherical affect the accuracy of our estimated fig volume? 
+
+**As figs are not perfectly spherical, the estimation will be inaccurate. It could be systematically inaccurate, i.e., it would likely consistently over- or under-estimate the true volume of the figs, but it could also be randomly inaccurate as each fig will differ in shape a little so the approximation to a sphere will be differently wrong for each fig. Note that the measuring equipment used (a ruler in this case) will also limit the precision of the estimates.**
+
+Mean: **2150 mm$\mathbf{^3}$**
+
+Minimum: **697 mm$\mathbf{^3}$**
+
+Maximum: **4847 mm$\mathbf{^3}$**
+
+Check the option for 'Histogram' and see the new histogram plotted in the window to the
+right. Draw a rough sketch of the histogram in the area below. **Your drawing should include a histogram with fig volume ranging from under 1000 to about 5000, with most values between 1000 and 2500.**
+
+
+## Chapter 14
+
+### Exercise 14.1
+
+**You can download the tidy dataset from this exercise here:**
+
+https://bradduthie.github.io/stats/data/Nymphaea_alba_tidy.csv
+
+### Exercise 14.2
+
+Just looking at the histogram, write down what you think the following summary statistics will be.
+
+**While it will never be necessary (or recommended) to try to work out the mean, median, and standard deviation of a distribution directly from a histogram, the point of this is to help you connect the numerical summary statistics with the visualisation of the data in the histogram. You should be able to recognise that the mean and median are likely somewhere between 5 to 6 by recognising this as the centre of the distribution. Working out the standard deviation is a bit more challenging, but the average deviation from the centre looks to be about 2 (i.e., most points are probably about 2 mm from the mean). If your own answer was a bit different, this is not a cause for concern, but if you are able to interpret the histogram successfully, it probably should not be off by more than 3--4 mm.**
+
+Based on the histogram, do you think that the mean and median are the same? Why or why
+not?
+
+**The mean and median appear to be quite similar. The distribution is mostly symmetrical, so the mean and median will likely be very close, although it might have a bit of a positive skew to it.**
+
+Write a caption for the histogram below.
+
+**Figure: Distribution of petiole diameter (mm) from white water lillies (*Nymphaea alba*) collected from 7 Scottish lochs.**
+
+Highest: **Lily loch**
+
+Lowest: **Linne**
+
+### Exercise 14.3
+
+- N: **140**
+- Std. deviation: **1.83**
+- Variance: **3.36**
+- Minimum: **1.57**
+- Maximum: **9.93**
+- Range: **8.36**
+- IQR: **2.90**
+- Mean: **5.52**
+- Median: **5.56**
+- Mode: **3.2**
+- Std. error of mean: **0.155**
+
+Which of the 7 sites in the dataset has the highest mean petiole diameter, and what is its
+mean?
+
+Site: **Beag**
+
+Mean: **5.94 mm**
+
+Which of the 7 sites has the lowest variance in petiole diameter, and what is its variance?
+
+Site: **Fidhle**
+
+Variance: **2.51 mm$\mathbf{^2}$**
+
+Can you find the first and third quartiles for each site?
+
+Beag: **7.13 mm**
+
+Buic: **6.33 mm**
+
+Choille-Bharr: **6.83 mm**
+
+Creig-Moire: **7.24 mm**
+
+Fidhle: **6.53 mm**
+
+Lily_Loch: **7.24 mm**
+
+Linne: **6.52 mm**
+
+### Exercise 14.4
+
+- N: **140**
+- Std. deviation: **1.8**
+- Variance: **3.4**
+- Minimum: **1.6**
+- Maximum: **9.9**
+- Range: **8.4**
+- IQR: **2.9**
+- Mean: **5.5**
+- Median: **5.6**
+- Mode: **3.2**
+- Std. error of mean: **0.15**
+
+
+Were you able to get a similar value from the histogram as calculated in jamovi from the data? What can you learn from the histogram that you cannot from the summary statistics, and what can you learn from the summary statistics that you cannot from the histogram?
+
+**Values might or might not be similar (it is not important that you can guess a mean or median to any degree of accuracy just by looking at a histogram). Note, however, that with the histogram, we can see the full shape of the distribution, which is not really possible (or at least, not easy), with the summary statistics alone. The summary statistics, in contrast, can give us specific numbers of central tendency or spread (e.g., mean, median, variance).**
+
+### Exercise 14.5
+
+Recall back from Chapter 12; what information do these error bars convey about the estimated mean petiole diameter?
+
+**Standard errors tell us how far our sample mean is expected to deviate from the true mean. Specifically, the standard error of the mean is the standard deviation of the sample means around the true mean. It is a measure for evaluating the uncertainty of the mean.**
+
+What can you say about the mean petiole diameters across the different sites? Do these sites appear to have very different mean petiole diameters?
+
+**Different sites appear to have similar means. Given the uncertainty indicated by the standard error, it is unclear if different sites have different mean petiole diameters (note, an ANOVA, which is introduced in Chapter 24, does not reject the null hypothesis that the means are the same).**
+
+There were 20 total petiole diameters sampled from each site. If we were to go back out to these 7 sites and sample another 20 petiole diameters, could we really expect to get the exact same site means? Assuming the site means would be at least a bit different for our new sample, is it possible that the sites with the highest or lowest petiole diameters might also be different in our new sample? If so, then what does this say about our ability to make conclusions about the differences in petiole diameter among sites?
+
+**If we were to go out and sample another 20 petiole diameters from each site, then we would not expect to get the exact same site means. The site means would be a bit different. The distribution of these sample means (with each repeated resampling of 20 and mean calculation) would be normally distributed around the true mean with a standard deviation approximately equal to the standard error of any given sample (such as the one in the barplots). It is possible that the rank order of mean petiole diameters might change entirely. Given this uncertainty, we cannot really say for sure which site population mean is really the highest or lowest.**
+
+## Chapter 17
+
+### Exercise 17.1
+
+Now, fill in Table 17.1 with counts, percentage, and the estimated probability of a player selecting a small, medium, or large dam.
+
+| Dam Size  |  Counts  |  Percentage |  Estimated Probability |
+|-----------|----------|-------------|------------------------|
+| Small     | **21**   |  **28.4**   |  **0.284**             |
+| Medium    | **13**   |  **17.6**   |  **0.176**             |
+| Large     | **40**   |  **54.1**   |  **0.541**             |
+
+
+Table: **TABLE 17.1** Statistics of Power Up! decisions for dam size with answers.
+
+What is the probability that this player chooses a small or a large dam?
+
+**To get this probability, calculate the probability that the player chooses a small dam plus the probability that the player chooses a large dam: *P*(small or large) = 0.284 + 0.541 = 0.825.**
+
+Now suppose that 3 new players arrive and decide to play the game. What is the probability that all 3 of these new players choose a large dam?
+
+**To get this probability, calculate the probability of choosing a large dam raised to the power of 3: *P*(3 large) = 0.541 $\times$ 0.541 $\times$ 0.541 = 0.541$\mathbf{^{3}}$ = 0.158.**
+
+What is the probability that the first player chooses a small dam, the second player chooses a medium dam, and the third player chooses a large dam?
+
+**To get this probability, calculate the probability of choosing small dam, times a medium dam, times a large dam: *P*(Player 1 = small, Player 2 = medium, Player 3 = large) = 0.541 $\times$ 0.176 $\times$ 0.284 = 0.027.**
+
+Imagine that you randomly choose one of the 74 players with equal probability (i.e., every player is equally likely to be chosen). What is the probability that you choose player 20?
+
+**To get this probability, we just need to calculate one divided by 74: *P*(Player 20) = 1/74 = 0.01351.**
+
+What is the probability that you choose player 20, *then* choose a different player with a large dam? As a hint, remember that you are now sampling *without replacement*. The second choice cannot be player 20 again, so the probability of choosing a player with a large dam has changed from the estimated probability in Table 17.1.
+
+**To get this probability, we need to first recognise that there is a 1/74 probability (0.01351) of choosing Player 20. Player 20 chose a large dam, so the number of remaining players in the dataset is now 73, and now only 39 of them chose large dams. Hence, the probability of choosing a large dam from the remaining players is 39/73 (0.53425). To calculate the probability of both events happening, we need to multiply: *P*(Player 20, Large) = 0.01351 $\times$ 0.53425 = 0.00722.**
+
+Now, recreate the table in Figure 17.3 and estimate the probability that an Android user will choose to build a large dam.
+
+**To get this probability, divide the number of Android players that choose a large dam (31) by the total number of Android users (56): *P*(Large | Android) = 31/56 = 0.554.**
+
+Is P(Large|Android) much different from the probability that any player chooses a large dam, as calculated in Table 17.1? Do you think that the difference is significant?
+
+**This is a small difference, but not that much. It is probably not significant.**
+
+### Exercise 17.2
+
+Use jamovi to find the mean and the standard deviation of player score (note, we can just say that score is unitless, so no need to include units).
+
+**Mean score: 95.9**
+
+**Standard deviation score: 22.3**
+
+What is the probability of a player getting a score between 80 and 120? 
+
+**$P(80 \leq X \leq 120)$ = 0.6222**
+
+What is the probability of a player getting a score greater than 130? 
+
+**$P(X \geq 130)$ = 0.0631**
+
+Now try the following probabilities for different scores.
+
+**$P(X \geq 120)$ = 0.1399**
+
+
+**$P(X \leq 100)$ = 0.5729**
+
+
+**$P(100 \leq X \leq 120)$ = 0.2872**
+
+What is the probability of a player getting a score lower than 70 or higher than 130?
+
+**$P(X \leq 70 \: \cup \: X \geq 130)$ = $1 - 0.8142$ = 0.1858**
+
+There is more than one way to figure this last one out. How did you do it, and what was your reasoning?
+
+**We can find the total area under the curve between 70 and 130 using jamovi. Since the entire area under the curve must sum to 1, if we subtract this area (0.8142) from 1, then we are left with the area in the tails of the distribution (i.e., lower than 70 or higher than 130).**
+
+### Exercise 17.3
+
+How would you describe the shape of the distribution of v1?
+
+**The distribution of v1 is approximately uniform.**
+
+Sketch what you predict the shape of its distribution will be below.
+
+**The 'all_means' values should have the shape of a normal distribution (roughly) as it is the distribution of the sample means. The CLT states that the original distribution (in this case uniform) does not matter; when a set of sample means are individually calculated, the dataset will form a normal distribution.**
+
+As best you can, explain why the shapes of the two distributions differ.
+
+**A consequence of the central limit theorem is that the distribution of sample means should be normal regardless of the distribution of the sample data. In this case, the sample data were uniformly distributed, but the means of the 40 datasets is normally distributed.**
+
+Now try increasing the number of trials to 200. What happens to the histogram? What about when you increase the number of trials to 2000?
+
+**The distribution of sample means appears to get closer to a normal distribution.**
+
+Try playing around with different source distributions, sample sizes, and numbers of trials. What general conclusion can you make about the distribution of sample means from the different distributions?
+
+**Using clt-Demonstrations: Increasing number of trials shows dataset looking more and more normally distributed. General conclusion should be that the distribution of sample means is approximately normal, regardless of the original distribution.**
+
+
+## Chapter 20
+
+### Exercise 20.1
+
+Do these data appear to be roughly normal? Why or why not?
+
+**The data appear to be normal. The distribution is mostly symmetric with no clear outliers.**
+
+Next, calculate the grand mean and standard deviation of tree DBH (i.e., the mean and standard deviation of trees across all sites).
+
+Grand Mean: **36.93**
+
+Grand Standard Deviation: **10.96**
+
+Using the same principles, what is the cumulative 0.4 quantile for the DBH data? **34.11 cm.**
+
+From the Results table on the right, what interval of DBH values will contain 95\% of the probability density around the mean? **$\mathbf{15.34-58.46}$ cm**
+
+From the Descriptives panel in jamovi (recall that this is under the 'Exploration'
+button), find the standard error of DBH. Std. error of Mean: **1.000.**
+
+Based on the Results table, what can you infer are the lower and upper 95\%
+confidence intervals (CIs) around the mean?
+
+Lower 95\% CI: **34.94**
+
+Upper 95\% CI: **38.86**
+
+From this Descriptives table now, write the lower and upper 95\% CIs below.
+
+Lower 95\% CI: **34.95**
+
+Upper 95\% CI: **38.91**
+
+
+### Exercise 20.2
+
+From these quantiles, what is the proper z-score to use in the equations for LCI
+and UCI above?
+
+z-score: **1.96**
+
+Now, use the values of $\bar{x}$, z, and SE for DBH in the equations above to calculate lower and upper 95\% confidence intervals again.
+
+Lower 95\% CI: **34.94**
+
+Upper 95\% CI: **38.86**
+
+Are these confidence intervals the same as what you calculated in Exercise 19.1?
+
+**These confidence intervals are the same as those calculated from the normal distribution, bu they are slightly different from those from the 'Descriptives' menu as those ones are calculated with t-scores (which are more accurate), rather than z-scores.**
+
+What are the appropriate df for DBH? **df: \mathbf{120 - 1 = 119}**
+
+From the Results table, what is the proper t-score to use in the equations for LCI and UCI? **t-score: 1.980.**
+
+Again, use the values of $\bar{x}$, $t$, and $SE$ for DBH in the equations above to calculate lower and upper 95% confidence intervals.
+
+Lower 95\% CI: **34.92**
+
+Upper 95\% CI: **38.99**
+
+Reflect on any similarities or differences that you see in all of these different ways of calculating confidence intervals.
+
+**The confidence intervals are very similar, but not exactly the same as those calculated with z-scores. This is because the sample size is 120 and degrees of freedom is therefore $\mathbf{120 - 1 = 119}$, which is quite large, and as the sample size becomes larger the t-scores and z-scores become more similar. While there is no fixed threshold, usually when the sample size is more than about 30, the difference between the two methods is sufficiently small as to not make an important difference.**
+
+### Exercise 20.3
+
+From the Descriptives tool in jamovi, write the sample sizes for DBH split by site below.
+
+Site 1182: N = **4**
+
+Site 1223: N = **22**
+
+Site 3008: N = **10**
+
+Site 10922: N = **84**
+
+For which of these sites would you predict CIs calculated from z-scores versus t- scores to differ the most? **Site: 1182 (note that this site has the lowest sample size).**
+
+Now, fill in the table below reporting 95\% CIs calculated using each distribution from the 4 sites using any method you prefer.
+
+| Site    |  N     | 95\% CIs (Normal)  |  95\% CIs (t-distribution)  |
+|---------|--------|--------------------|-----------------------------|
+| 1182    | **4**  |  **$\mathbf{42.73-57.57}$**   |   **$\mathbf{38.09-62.21}$**           |
+| 1223    | **22** |  **$\mathbf{21.56-24.16}$**   |   **$\mathbf{21.48-24.24}$**           |
+| 3008    | **10** |  **$\mathbf{51.49-61.13}$**   |   **$\mathbf{50.75-61.87}$**           |
+| 10922   | **84** |  **$\mathbf{36.09-39.25}$**   |   **$\mathbf{36.07-39.27}$**           |
+
+Table: **TABLE 20.1** 95\% Confidence intervals calculated for tree diameter at breast height (DBH) in centimetres.
+
+Next, do the same, but now calculate 99\% CIs instead of 95\% CIs.
+
+| Site    |  N     | 99\% CIs (Normal)  |  99\% CIs (t-distribution)  |
+|---------|--------|--------------------|-----------------------------|
+| 1182    | **4**  |  **$\mathbf{40.38-59.92}$**   | **$\mathbf{28.02-72.28}$**             |
+| 1223    | **22** |  **$\mathbf{21.14-24.58}$**   | **$\mathbf{20.98-24.74}$**             |
+| 3008    | **10** |  **$\mathbf{49.96-62.66}$**   | **$\mathbf{48.32-64.30}$**             |
+| 10922   | **84** |  **$\mathbf{35.60-39.74}$**   | **$\mathbf{35.55-39.79}$**             |
+
+Table: **TABLE 20.2** 99\% Confidence intervals calculated for tree diameter at breast height (DBH) in centimetres.
+
+What do you notice about the difference between CIs calculated from the normal distribution versus the t-distribution across the different sites?
+
+**The t-distribution gives a slightly wider spread than the normal distribution, and the difference increases as sample size gets smaller.**
+
+In your own words, what do these CIs *actually mean?*
+
+**Confidence intervals: if you take a sample and calculate the 95\% (or 99\%) confidence interval, and then go to the same population and resample that population numerous times, then there is a 95\% chance the new sample mean will be within the CIs calculated at the 95\% level (and 99\% chance that it would be within the CIs calculated at the 99\% level).**
+
+### Exercise 20.4
+
+From the Descriptives options, find the number of sites grazed versus not grazed.
+
+Grazed: **4**
+
+Not Grazed: **20**
+
+From these counts above, what is the estimate ($p$, or more technically $\hat{p}$, with the hat indicating that it is an estimate) of the proportion of sites that are grazed?
+
+p: **4 / (20 + 4) = 0.166667**
+
+We can estimate $p$ using $p$, and $N$ is the total sample size. Using the above equation, what is the standard error of $p$?
+
+$$\mathbf{SE(p) = \sqrt{\frac{0.166667(1 - 0.166667)}{24}} = 0.0761}$$
+
+Using this standard error, what are the Wald lower and upper 95\% confidence intervals around $p$?
+
+Wald $LCI_{95\%} = 0.166667 - (1.96 \times 0.0761) =$ **0.0175**
+
+Wald $UCI_{95\%} = 0.166667 + (1.96 \times 0.0761) =$ **0.3158**
+
+
+Next, find the lower and upper 99\% CIs around $p$ and report them below.
+
+Wald $LCI_{99\%} = 0.166667 - (2.58 \times 0.0761) =$ **$\mathbf{-0.0297}$**
+
+Wald $UCI_{99\%} = 0.166667 + (2.58 \times 0.0761) =$ **0.3630**
+
+Do you notice anything unusual about the lower 99\% CI? **The lower 99\% CI is a negative number, which is not possible for a proportion.**
+
+$p$: **0.16667**
+
+Clopper-Pearson $LCI_{95\%} =$ **0.04735**
+
+Clopper-Pearson $UCI_{95\%} =$ **0.37384**
+
+To calculate 99\% CIs, change the number in the Interval box from 95 to 99.
+Report the 99\% CIs below.
+
+Clopper-Pearson $LCI_{99\%} =$ **0.02947**
+
+Clopper-Pearson $UCI_{99\%} =$ **0.43795**
+
+What do you notice about the difference between the Wald CIs and the Clopper-Pearson CIs?
+
+**The Clopper-Pearson CIs are a bit wider than the Wald CIs, thereby suggesting that a wider range of values is needed to encompass the means for a given level of confidence. The Clopper-Pearson CIs have higher upper confidence intervals, but also higher lower confidence intervals (and the 99\% Clopper-Pearson CI does not overlap zero).**
+
+### Exercise 20.5
+
+First consider an 80\% CI.
+
+$LCI_{80\%} =$ **0.47359**
+
+$UCI_{80\%} =$ **0.75942**
+
+Next, calculate 95\% CIs for the proportion of sites classified as Ancient woodland.
+
+$LCI_{95\%} =$ **0.40594**
+
+$UCI_{95\%} =$ **0.81201**
+
+Finally, calculate 99\% CIs for the proportion of sites classified as Ancient woodland.
+
+$LCI_{99\%} =$ **0.34698**
+
+$UCI_{99\%} =$ **0.85353**
+
+
+## Chapter 23
+
+### Exercise 23.1
+
+Report these below.
+
+N: **21**
+
+$\bar{x}$: **58.76**
+
+$s$: **8.687**
+
+What kind(s) of statistical test would be most appropriate to use in this case, and what is the null hypothesis ($H_{0}$) of the test?
+
+Test to use: **One sample t-test**
+
+$H_{0}$: **The overall student scores were sampled from a population with a mean of 60.1.**
+
+What is the alternative hypothesis ($H_{A}$), and should you use a one- or two-tailed test?
+
+$H_{A}$: **The overall student scores were sampled from a population with a mean lower than 60.1.**
+
+One- or two-tailed? **One-tailed.**
+
+From the Normality Test table, what is the p-value of the Shapiro-Wilk test? ***P* = 0.112**
+
+Based on this p-value, should we reject the null hypothesis?
+
+**No, we do not reject the null hypothesis that the data are normally distributed.**
+
+On the right panel of jamovi, you will see a table with the t-statistic, degrees of freedom, and p-value of the one sample t-test. Write these values down below.
+
+t-statistic: **$\mathbf{-0.7067}$**
+
+degrees of freedom: **20**
+
+p-value: **0.244**
+
+Based on the p-value, should you reject the null hypothesis that your students' mean overall grade is the same as the national average? Why or why not?
+
+**We should not reject the null hypothesis because our p-value is greater than our threshold Type I error rate of 0.05 (i.e., *P* > 0.05). Assuming that the null hypothesis is true, the probability getting a t-statistic as extreme as the one we observed is only about 1 in 4, which is not especially unlikely.**
+
+Based on this test, how would you respond to your colleague who is concerned that your students are performing below the national average?
+
+**There is no evidence that students in this class are performing below the national average.**
+
+Is there an assumption that might be particularly suspect when comparing the scores of students in a single classroom with a national average? Why or why not?
+
+**The students in this classroom are unlikely to be a random sample from the overall population. There may be other factors affecting student test scores that have nothing to do with the quality of the instruction.**
+
+### Exercise 23.2
+
+Is there any reason to believe that the data are not normally distributed?
+
+**No, the Shapiro-Wilk test gives us no reason to reject the null hypothesis that the data are normally distributed ($\mathbf{P > 0.05}$).**
+
+
+We want to know if student grades have improved. What is the null hypothesis ($H_{0}$) and alternative hypothesis ($H_{A}$) in this case?
+
+$H_{0}$: **The mean change in student grade is 0.**
+
+$H_{A}$: **The mean change in student grade is greater than 0.**
+
+Write these values down below.
+
+t-statistic: **$\mathbf{-8.18}$**
+
+degrees of freedom: **20**
+
+p-value: ***P* < 0.001**
+
+Based on this p-value, should you reject or fail to reject your null hypothesis? What can you then conclude about student test scores?
+
+**Because *P* < 0.05, we reject the null hypothesis. We can conclude that the mean score for Test 1 is less than the mean score for Test 2, so the grades appear to have improved.**
+
+### Exercise 23.3
+
+We are not interested in whether the scores are higher or lower than 62, just that
+they are different. Consequently, what should our alternative hypothesis ($H_{A}$) be?
+
+$H_{A}$: **Test 3 scores were sampled from a population with a mean not equal to 62.**
+
+What is the p-value of the Shaprio-Wilk test this time? ***P* = 0.022.**
+
+What inference can you make from the Q-Q plot? Do the points fall along the diagonal line?
+
+**The points appear to be a bit curved. They do not cleanly fall along the diagonal line.**
+
+Based on the Shapiro-Wilk test and Q-Q plot, is it safe to assume that the Test 3 scores are normally distributed?
+
+**Based on the Shapiro-Wilk test and the Q-Q plot, we should not assume that the data are normally distributed.**
+
+What are the null and alternative hypotheses of this test?
+
+$H_{0}$: **Test 3 scores were sampled from a population with a median of 62.**
+
+$H_{A}$: **Test 3 scores were sampled from a population with a median not equal to 62.**
+
+What is the test statistic (not the p-value) for the Wilcoxon test? Test statistic: **53.**
+
+Based on what you learned in Section 22.5.1, what does this test statistic actually mean?
+
+**It means that if we subtract 62 from the Test 3 values, then rank each by its absolute value, the sum of ranks that came from positive values should equal 53.**
+
+Now look at the p-value for the Wilcoxon test. What is the p-value, and what
+should you conclude from it? ***P* = 0.055.**
+
+Conclusion: **We do not reject the null hypothesis that the median Test 3 score is 62.**
+
+### Exercise 23.4
+
+One- or two-tailed? **Two-tailed.**
+
+Based on the Assumption Checks in jamovi (and Figure 23.5), what can you conclude about the t-test assumptions?
+
+**The data appear to be normally distributed, but the groups do not have equal variances.**
+
+What is the p-value for Levene's test? ***P* = 0.021.**
+
+Based on what you learnt in Chapter 22.2, what is the appropriate test to run in this case? Test: **Welch's independent samples t-test.**
+
+Check the box for the correct test, then report the test statistic and p-value from the table that appears in the right panel.
+
+Test statistic: **$\mathbf{-0.3279}$**
+
+**P* = 0.745***
+
+What can you conclude from this t-test?
+
+**There is no evidence to reject the null hypothesis that both years were sampled from a population from the same mean score. The overall scores appear to be the same between years.**
+
+### Exercise 23.5
+
+Below, summarise the hypotheses for this new test.
+
+$H_{0}$: **Test 3 scores in 2022 and 2023 were sampled from a population with the same mean.**
+
+$H_{A}$: **Test 3 scores in 2022 and 2023 were sampled from a population with different means.**
+
+Is this a one or two tailed test?: **Two-tailed test.**
+
+Do the variances appear to be the same for Test 3 scores in 2022 versus 2023? How can you make this conclusion?
+
+**The homogeneity of variances test (i.e., Levene's test) show a test statistic of *F* = 0.1379 and a p-value of *P* = 0.712, so there is no evidence to reject the null hypothesis that the two years have different variances.**
+
+What is the p-value of the Shapiro-Wilk test? ***P* < 0.001**
+
+Now, have a look at the Q-Q plot. What can you infer from this plot about the normality of the data, and why? 
+
+**The data appear to deviate from the diagonal line, suggesting non-normality.**
+
+Based on what you found from testing the model assumptions above, and the material in Chapter 22, what test is the most appropriate one to use?
+
+Test: **Mann-Whitney U test.**
+
+Run the above test in jamovi, then report the test statistic and p-value below.
+
+Test statistic: **221.0**
+
+p-value: **0.487**
+
+Based on what you learned in Section 22.5.2, what does this test statistic actually mean?
+
+**If we rank the full dataset (all Test 3 scores regardless of year), then sum up the ranks of 2022, the rank sum would be 221.**
+
+Finally, what conclusions can you make about Test 3 scores in 2022 versus 2023?
+
+**There appears to be no difference in Test 3 scores between 2022 and 2023. We do not reject the null hypothesis that the medians (technically, the distributions) differ between years.**
+
+What could you do to test the null hypothesis that the change in scores from Test 1 to Test 2 is the same between years?
+
+**Because the paired samples t-test is really just a one-sample t-test, we could first calculate the change from Test 1 to Test 2. That is, create a new column of data that is Change = Test 1 -- Test 2. We could then use an independent samples t-test to check if the change differs between 2022 and 2023.**
+
+
+## Chapter 28
+
+### Exercise 28.1
+
+What are the null ($H_{0}$) and alternative ($H_{A}$) hypotheses for the t-test?
+
+$H_{O}$: **Mean nitrogen concentration is the same in both sites.**
+
+$H_{A}$: **Mean nitrogen concentration is not the same in both sites.**
+
+What can you conclude from these 2 tests?
+
+Normality conclusion: **Do not reject null hypothesis that data are normally distributed.**
+
+Homogeneity of variances conclusion: **Do not reject null hypothesis that groups have the same variances.**
+
+Given the conclusions from the checks of normality and homogeneity of variances above, what kind of test should you use to see if the mean Nitrogen concentration is significantly different in Funda versus Bailundo? Test: **Independent samples Student's t-test.**
+
+Run the test above in jamovi. What is the p-value of the test, and what conclusion do you make about Nitrogen concentration at the two sites? ***P* = 0.030**
+
+Conclusion: **Mean nitrogen concentration is different in the 2 sites (reject null hypothesis).**
+
+Write down the test statistic ($F$), degrees of freedom, and p-values from this table below.
+
+$F =$ **4.98377**
+
+$df1 =$ **1**
+
+$df2 =$ **49**
+
+$P =$ **0.030**
+
+What is the approximate area under the curve (i.e., orange area) where the $F$ value on the x-axis is greater than your calculated $F$? **About 0.03 for *F* = 4.98.**
+
+Approximately, what is this threshold F value above which we will reject the null hypothesis?
+Approximate threshold $F$: **Somewhere between 4.03 and 4.05.**
+
+What should you conclude regarding the null hypothesis that sites have the same mean?
+Conclusion: **Reject the null hypothesis that sites have the same mean.**
+
+Look again at the p-value from the one-way ANOVA output and the Student's t-test output. Are the two values the same, or different? Why might this be?
+
+**The two p-values are the exact same. The independent Student's t-test and the one-way ANOVA are actually testing the same null hypothesis and making the same assumptions. One test is just using the t-distribution (t-test) to find the probability of rejecting the null hypothesis if it is true (i.e., the p-value). The other test (ANOVA) is using the F-distribution to find the same p-value.**
+
+### Exercise 28.2
+
+What can you conclude?
+
+Normality conclusion: **Do not reject the null hypothesis of normality.**
+
+Homogeneity of variance conclusion: **Do not reject the null hypothesis that the Profiles have the same variances.**
+
+What are the output statistics in the One-Way ANOVA table?
+
+$F =$ **3.43221**
+
+$df1 =$ **2**
+
+$df2 =$ **48**
+
+$P =$ **0.040**
+
+From these statistics, what do you conclude about the difference in Nitrogen concentration among profiles?
+
+Conclusion: **Profiles do not have the same mean nitrogen concentration (reject null hypothesis).**
+
+Write down the 'Probability' value from the Results table in the panel to the right.
+Probability: **0.04044.**
+
+From the Results table, what is the critical $F$ value ('Quantile'), above which we would reject the null hypothesis that all groups have the same mean? **Critical *F* value: 3.19.**
+
+Fill in the table below (Table 28.1) with the information for degrees of freedom, $F$, and $P$.
+
+|           | Sum of Squares   |  df    |  Mean Square   |  F          |  p        |
+|-----------|------------------|--------|----------------|-------------|-----------|
+| Profile   | **16888.18606**  | **2**  | **8444.09303** | **3.43221** | **0.040** |
+| Residuals | **118092.02927** | **48** | **2460.25061** |             |           |
+
+Table: **TABLE 28.1** ANOVA output testing the null hypothesis that mean Nitrogen concentration is the same across three different soil profiles in Angola.
+
+### Exercise 28.3
+
+Find the p-values associated with the Tukey's HSD ($P_{Tukey}$) for each profile pairing. Report these below.
+
+Tukey's HSD Lower - Middle: ***P* = 0.705**
+
+Tukey's HSD Lower - Upper: ***P* = 0.193**
+
+Tukey's HSD Middle - Upper: ***P* = 0.035**
+
+From this output, what can we conclude about the difference among soil profiles?
+
+**Middle and upper profiles appear to have significantly different mean nitrogen concentrations, but other combinations are not significant.**
+
+Report the p-values for the Bonferonni correction below.
+
+Bonferonni Lower - Middle: ***P* = 1.000}$**
+
+Bonferonni Lower - Upper: ***P* = 0.253**
+
+Bonferonni Middle - Upper: ***P* = 0.040**
+
+In general, how are the p-values different between Tukey's HSD and the Bonferroni correction? Are they about the same, higher, or lower?
+
+**In general, p-values from the Bonferonni correction are higher.**
+
+In general, how are the p-values different between Tukey's HSD and the Bonferroni correction? Are they about the same, higher, or lower?
+
+**In general, we have a lower probability of making a Type I error with the Bonferonni test.**
+
+### Exercise 28.4
+
+How would you describe the distribution? Do the data appear to be normally distributed?
+
+**The histogram appears to show a distribution that is very right-skewed. This does not look normally distributed.**
+
+From the Levene's test, the Shapiro-Wilk test, and the Q-Q plot, what assumptions of ANOVA might be violated?
+
+**From the Shapiro-Wilk test (*P* < 0.001) and Levene's test (*P* = 0.024), it appears that the assumptions of normality and equal variances are violated.**
+
+Report these values below.
+
+$\chi^{2} =$ **0.38250**
+
+$df =$ **2**
+
+$P =$  **0.826**
+
+From the above output, should we reject or not reject our null hypothesis? $H_{0}$: **Do not reject null hypothesis.**
+
+Write these null hypotheses down below (the order does not matter).
+
+First $H_{0}$: **Mean Nitrogen concentration does not differ among sites.**
+
+Second $H_{0}$: **Mean Nitrogen concentration does not differ among profiles.**
+
+Third $H_{0}$: **There is no interaction between site or profile in affecting Nitrogen concentration.**
+
+From the assumption checks output tables, is there any reason to be concerned about using the two-way ANOVA?
+
+**There is no reason to reject the null hypothesis that data are normally distributed or variances are equal. We can proceed with the two-way ANOVA.**
+
+Fill in Table 28.2 with the relevant information from the two-way ANOVA output.
+
+|                | Sum of Squares   |  df    |  Mean Square    |  F           |  p        |
+|----------------|------------------|--------|-----------------|--------------|-----------|
+| Site           | **21522.18384**  | **1**  | **21522.18384** | **12.03138** | **0.001** |
+| Profile        | **22811.13680**  | **2**  | **11405.56840** | **6.37597**  | **0.004** |
+| Site * Profile | **16209.13035**  | **2**  | **8104.56517**  | **4.53063**  | **0.016** |
+| Residuals      | **80497.68348**  | **45** | **1788.83741**  |              |           |
+
+Table: **TABLE 28.2** Two-way ANOVA output testing the effects of two sites and three different soil profiles on soil Nitrogen concentration in Angola.
+
+From this output table, should you reject or not reject your null hypotheses?
+
+Reject First $H_{0}$? **Yes.**
+
+Reject Second $H_{0}$? **Yes.**
+
+Reject Third $H_{0}$? **Yes.**
+
+In non-technical language, what should you conclude from this two-way ANOVA?
+
+**It appears that Nitrogen concentration is different at different sites and across different profiles, and that there is an interaction between site and profile.**
+
+Based on what you learned in Chapter 27 about interaction effects, what can you say about the interaction between Site and Profile? Does one Profile, in particular, appear to be causing the interaction to be significant? How can you infer this from the Estimated Marginal Means plot?
+
+**We can see the interaction effects in the figure. The middle profile, in particular, appears to be causing the interaction. Both lower and upper profiles are parallel. But the middle is clearly at a different slope than the other two, indicating an interaction effect.**
+
+Based on the ANOVA output, what can you conclude?
+
+**The two-way ANOVA shows that Site alone has a significant effect on Phosophorus. The Profile and Interaction terms are not significant.**
+
+
+## Chapter 31
+
+### Exercise 31.1
+
+What are the null and alternative hypotheses for this Chi-square goodness of fit test?
+
+$H_{O}$: **There is no significant difference between expected and**
+**observed counts of living and dead bees.**
+
+$H_{A}$: **There is a significant difference between expected and observed counts of living and dead bees.**
+
+What is the sample size ($N$) of the dataset? ***N*: 256.**
+
+Based on this sample size, what are the expected counts for bees that survived and died?
+
+Survived ($E_{\mathrm{surv}}$): **128**
+
+Died ($E_{\mathrm{died}}$): **128**
+
+Write down the observed counts of bees that survived and died.
+
+Survived ($O_{\mathrm{surv}}$): **139**
+
+Died ($O_{\mathrm{died}}$): **117**
+
+What is the $\chi^{2}$ value? **1.89.**
+
+How many degrees of freedom are there? ***df* = 1.**
+
+Write these values below, and check to see if the $\chi^{2}$ and df match the values you calculated above by hand.
+
+$\chi^{2}$ = **1.89063**
+
+$df =$ **1**
+
+$P =$ **0.16913**
+
+### Exercise 31.2
+
+What are the null and alternative hypotheses in this scenario?
+
+$H_{O}$: **There is no significant difference between expected and observed counts of colonies.**
+
+$H_{A}$: **There is a significant difference between expected and observed counts of colonies**
+
+How many colonies are there in this dataset? **8 colonies**
+
+What is the output from the Goodness of Fit table?
+
+$\chi^{2} =$ **3.5**
+
+$df =$ **7**
+
+$P =$ **0.83523**
+
+From this output, what can you conclude about how bees were taken from the colonies?
+
+**Bees appear to be taken from colonies in equal frequencies, i.e., with equal probability of sampling among colonies.**
+
+### Exercise 31.3
+
+What are the null and alternative hypotheses for this test of association?
+
+$H_{O}$: **There is no association between bee colony and bee survival.**
+
+$H_{A}$: **There is an association between bee colony and bee survival.**
+
+Report the key statistics in the output table below.
+
+Chi-square: **11.31033**
+
+$df =$ **7**
+
+$P =$ **0.12564**
+
+From these statistics, should you reject or not reject the null hypothesis?
+
+$H_{O}$: **Do not reject null hypothesis.**
+
+What can you conclude from this test? Explain your conclusion as if you were reporting the results of the test to someone who was unfamiliar with statistical hypothesis testing.
+
+**From the statistical analysis, it appears that there is a highly significant association between the level of radiation that bees experience and the frequency with which they survive versus do not survive.**
+
+Lastly, did the order in which you placed the two variables matter? What if you switched Rows and Columns? In other words, put 'survived' in the Rows box and 'radiation' in the Columns box. Does this give you the same answer?
+
+**The ordering of the two variables does not appear to matter. The Chi-square value and p-values are the same.**
+
+### Exercise 31.4
+
+Just looking at the scatterplot, does it appear as though bee mass and CO~2~ output are correlated? Why or why not?
+
+**The scatterplot might indicate a slight negative correlation, but it is difficult to say for sure just based on a visualisation.**
+
+What are the null and alternative hypotheses of this test?
+
+$H_{O}$: **The correlation coefficient between bee mass and carbon dioxide output is zero.**
+
+$H_{A}$: **The correlation coefficient between bee mass and carbon dioxide output is negative.**
+
+Check this box, then find the p-values for the Shapiro-Wilk test of normality in the panel to the right. Write these p-values down below.
+ 
+Mass $P =$ **0.96248**
+ 
+CO~2~ $P =$ **0.56459**
+
+Based on these p-values, which type of correlation coefficient should we use to test $H_{0}$, and why?
+
+**We should use the Pearson's product moment correlation coefficient because both variables appear to be normally distributed.**
+
+This table reports both the correlation coefficient (here called 'Pearson's r') and the p-value. Write these values below. 
+
+$r =$ **-0.18036**
+
+$P =$ **0.002**
+ 
+Based on this output, what should we conclude about the association between bumblebee mass and carbon dioxide output?
+
+**Bumblebee mass and carbon dioxide output are negatively correlated, meaning that as bumblebee mass increases, carbon dioxide output decreases.**
+
+### Exercise 31.5
+
+What are the null and alternative hypotheses of this test?
+
+$H_{O}$: **The correlation coefficient between bee mass and nectar consumption is zero.**
+
+$H_{A}$: **The correlation coefficient between bee mass and nectar consumption is not zero.**
+
+Based on the output of these tests, what kind of correlation coefficient should we use for testing the null hypothesis? **Spearman's rank correlation coefficient**
+
+What is the correlation coefficient and p-value from this test?
+
+$r =$ **0.11954**
+
+$P =$ **0.05611**
+
+Based on these results, should we reject or not reject the null hypothesis?
+
+$H_{0}$: **Do not reject null hypothesis.**
+
+Would we have made the same conclusion about the correlation (or lack thereof) between bee mass and nectar consumption? Why or why not?
+
+**If we had used a Pearson product moment correlation coefficient instead of the Spearman's rank correlation coefficient, we would have calculated *r* = 0.12729 and a p-value of *P* = 0.04186. Because our p-value would have been less than 0.05, we would have incorrectly rejected the null hypothesis.**
+
+
+## Chapter 34
+
+### Exercise 34.1
+
+Before doing this, what is the independent variable, and what is the dependent variable?
+
+Independent variable: **depth**
+
+Dependent variable: **PyC**
+
+What is the sample size of this dataset? ***N* = 240.**
+
+Describe the scatterplot that is produced in the jamovi panel to the right.
+
+**Linear relationship with a lot of scatter. Perhaps a slight downward trend?**
+
+In other words, does the scatterplot show any evidence of a curvilinear pattern in the data?
+
+**The relationship appears to be linear.**
+
+In other words, does the variance change along the range of the independent variable (i.e., x-axis)?
+
+**No evidence of heteroscedasticity, so this assumption appears to be valid.**
+
+In your own words, what is this test doing? Drawing a picture might be helping to explain.
+
+**This test is checking to see if the residual values around the regression line are normally distributed.**
+
+What is the p-value of the Shapiro-Wilk test of normality? ***P* = 0.91624**
+
+Based on the above p-value, is it safe to conclude that the residuals are normally distributed? Conclusion: **Yes, residual values are normally distributed.**
+
+
+A new table will open up in the right panel called 'Model Fit Measures'. Write the output statistics from this table below:
+
+$R^{2} =$ **0.02532**
+
+$F =$ **6.18319**
+
+$df1 =$ **1**
+
+$df2 =$ **238**
+
+$P =$ **0.01358**
+
+Based on these statistics, what percentage of the variation in pyrogenic carbon is explained by the linear regression model? **2.532\%**
+
+
+What null hypothesis does the p-value above test? 
+
+$H_{O}$: **A model that includes depth is not a significantly better predictor of PyC than just the mean PyC.**
+
+Do we reject or fail to reject $H_{0}$? **Reject $H_{0}$.**
+
+
+From this table, what are the coefficient estimates for the intercept and the slope (i.e., depth)?
+
+Intercept: **1.61719**
+
+Slope: **$\mathbf{-0.00263}$**
+
+What null hypotheses are we testing when inspecting these p-values? 
+
+Intercept $H_{0}$: ***P* < 0.0001, testing null hypothesis that $\mathbf{b_{0} = 0}$.**
+
+Slope $H_{0}$: ***P* = 0.01358, testing null hypothesis that $\mathbf{b_{1} = 0}$.**
+
+Finally, what can we conclude about the relationship between depth and pyrogenic carbon storage? **Pyrogenic carbon changes with increasing soil depth.**
+
+### Exercise 34.2
+
+Do all of these assumptions appear to be met?
+
+Linearity: **No issues.**
+
+Normality: **No issues.**
+
+Homoscedasticity: **No issues.**
+
+Using the same protocol as the previous exercise, what percentage of the variation in PyC is explained by the regression model? **Variation explained: 48.2\% (0.482 * 100\% = 48.2\%).**
+
+Is the overall model statistically significant? How do you know? Model significance: **Yes, because overall model test p-value is *P* < 0.05.**
+
+Are the intercept and slope significantly different from zero?
+
+Intercept: **Yes, significantly different from zero; reject null hypothesis.**
+
+Slope: **Yes, significantly different from zero; reject null hypothesis.**
+
+Write the intercept ($b_{0}$) and slope ($b_{1}$) of the regression below.
+
+$b_{0}$: **0.88911**
+
+$b_{1}$: **0.05688**
+
+Using these values for the intercept and the slope, write the regression equation to predict pyrogenic carbon (PyC) from fire frequency (fire_freq).
+
+***Y* = 0.88911 + (0.05688 * *X*)** OR **PyC = 0.88911 + (0.05688 * fire_freq)**
+
+Using this equation, what would be the predicted PyC for a location that had experienced 10 fires in the past 20 years (i.e., fire_freq = 10)? PyC = **1.45791.**
+
+Explain what these two columns of data represent in terms of the scatterplot you made at the start of this exercise. In other words, where would the predicted and residual values be located on the scatterplot?
+
+**The predicted values represent the PyC points that fall along the regression line for a particular fire_freq value. That is, what the model predicts PyC should be at each fire frequency. The residual values are the difference between the actual PyC values and what the predicted PyC values are in the model.**
+
+### Exercise 34.3
+
+Write down what the independent and dependent variable(s) are for this regression.
+
+Independent: **Fire frequency and depth**
+
+Dependent: **Pyrogenic carbon**
+
+Do all of these assumptions appear to be met?
+
+Linearity: **Yes**
+
+Normality: **Yes**
+
+Homoscedasticity: **Yes**
+
+
+Report these values from the Model Fit Measures output table below.
+
+$R^{2} =$ **0.48202**
+
+Adjusted $R^{2} =$ **0.47765**
+
+$F =$ **110.27348**
+
+***P* < 0.0001**
+
+
+
+Which one is most appropriate to use for interpreting the multiple regression?
+
+**The adjusted R-squared takes into account that adding more independent variables will increase the total amount of variation explained in the dependent variable even if the independent variable is not a good predictor. We should therefore use the adjusted R-squared when looking at a multiple regression model.**
+
+
+What is the null hypothesis of this tested with the $F$ value and the $P$ value shown in the Model Fit Measures table?
+
+$H_{0}$: **A model that includes the independent variables depth and fire frequency does not explain variation in PyC significantly better than just the mean of PyC.**
+
+Based on the Overall Model Test output, should you reject or not reject $H_{0}$? **Reject the null hypothesis.**
+
+What can you conclude about the significance of the Intercept, and the partial regression coefficients for fire frequency and depth?
+
+**The intercept and partial regression coefficient of fire frequency are significantly different from 0. But the partial regression coefficient of depth is not significantly different from 0.**
+
+Using the partial regression coefficient estimates, fill in the equation below,
+
+PyC = (  **0.89456**   )  +  ( **0.05680** )fire_freq + ( $\mathbf{-0.00008}$ )depth.
+
+
+Next, use this to predict the pyrogenic carbon for a fire frequency of 12 and a depth of 60 cm.
+
+PyC = **1.57136**
+
+
+Has the significance of soil depth as an independent variable changed? Based on what you know about the difference between simple linear regression and multiple regression, why might this be the case?
+
+**Yes, the soil depth was significant by itself as a predictor of PyC in the simple linear regression of the first exercise. But in this multiple regression model, the partial regression coefficient is not significant. This might be because when you consider depth in the context of fire frequency, the effect of depth by itself is not significant. Once you account for fire frequency, depth no longer is a meaningful predictor of PyC. If you hold fire frequency constant in a model, then depth by itself does not affect PyC.**
+
+### Exercise 34.4
+
+|             |  Estimate           |  Std. Error  | t Value      |  Pr(>|t|)         |
+|-------------|---------------------|--------------|--------------|-------------------|
+| (Intercept) | $\mathbf{0.98892}$  |	$0.34591$    | $2.85888$  | $\mathbf{0.00463}$  |
+| depth       | $\mathbf{-0.00006}$ |	$0.00080$	   | $-0.07411$ | $\mathbf{0.94098}$  |
+| fire_freq   | $\mathbf{0.05679}$  |	$0.00394$    | $14.42303$ | $\mathbf{<0.00001}$ |
+| pH          | $\mathbf{-0.01584}$ | $0.05679$	   | $-0.27886$ | $\mathbf{0.78059}$  |
+
+Table: **TABLE 34.1** Model Coefficients output table for a multiple regression model predicting pyrogenic carbon from soil depth, fire frequency, and soil pH in Gabon.
+
+From the Model Fit Measures table, what is the $R^{2}$ and Adjusted $R^{2}$ of this model?
+
+$R^{2}$ = **0.48219**
+
+Adjusted $R^{2}$ = **0.47561**
+
+Is the $R^{2}$ value of this model higher or lower than the multiple regression model without pH?
+
+**The model without pH had an $R^{2}$ = 0.48202, so it was lower without pH.**
+
+Is the Adjusted $R^{2}$ value of this model higher or lower than the multiple regression model without pH?
+
+**The model without pH had an Adjusted $R^{2}$ = 0.47765, so it was higher without pH.**
+
+Based on what you know from Section 33.1, explain why the $R^{2}$ and Adjusted $R^{2}$ might have changed in different directions with the addition of a new independent variable.
+
+**The $R^{2}$ just tells us how much variation in the dependent variable is explained by the model, but there is no penalty for adding more independent variables to the model. Consequently, adding the additional independent variable (pH) can only increase (or at least not decrease) the amount of variation explained. In contrast, the adjusted $R^{2}$ penalises the R2 for each additional independent variable in the model, so because we have added the independent variable pH, our adjusted $R^{2}$ can go down.**
+
+
+Finally, use the equation of this new model to predict PyC for a soil sample at a depth of 0, fire frequency of 0, and pH of 6.
+
+$\mathbf{PyC = 0.98892 - (0.00006*0) + (0.05679 * 0) - (0.01584 * 6)}$
+
+$\mathbf{PyC = 0.89388}$
+
+### Exercise 33.5
+
+What assumption(s) appear as though they might be violated for this simple regression? Explain how you figured this out.
+
+**It appears that the assumptions of normality and homoscedasticity are violated. We found this out by running a Shapiro-Wilk test and rejecting the null hypothesis that data are normally distributed, and by using a scatterplot to visualise how the variation in temperature changed along the range of fire frequency.**
+
 
 # Uncertainty derivation {#uncertainty_derivation}
 
-It is not necessary to be able to derive the equations for propagating error from week 2, but working through the below might be interesting, and provide a better appreciation for why these formulas make sense. 
-Another derivation is available in @Box1978 (page 563), but this derivation is expressed in terms of variances and covariances, which is likely to be less helpful for this module.
+It is not necessary to be able to derive the equations for propagating error from Chapter 7, but working through the below might be interesting, and provide a better appreciation for why these formulas make sense. 
+Another derivation is available in @Box1978 (page 563), but this derivation is expressed in terms of variances and covariances.
+What follows is not intended to be rigorous, but to provide an intuitive understanding of why the equation for propagating error when adding or subtracting looks so different from the equation for propagating error when multiplying or dividing.
 
-**Propagation of error for addition and subtraction**.
+## Propagation of error for addition and subtraction
 
 For adding and subtracting error, we know that we get our variable $Z$ by adding $X$ and $Y$. This is just how $Z$ is defined. We also know that $Z$ is going to have some error $E_Z$, and we know that $Z$ plus or minus its error will equal $X$ plus or minus its error plus $Y$ plus or minus its error,
 
@@ -51,14 +1231,15 @@ $$\pm E_Z = \pm E_X \pm E_Y.$$
 The plus/minus is a bother. Note, however, that for any real number $m$, $m^{2} = (-m)^2$. For example, if $m = 4$, then $(4)2 = 16$ and $(-4)2 = 16$, so we can square both sides to get positive numbers and make things easier,
 
 $$E_Z^2 = (\pm E_X \pm E_Y)^2.$$
+
 We can expand the above,
 
 $$E_Z^2 = E_X^2 + E_Y^2 \pm2E_X E_Y.$$
 
-Now here is an assumption that we have not told you about elsewhere in the module. 
+Now here is an assumption that I have not mentioned elsewhere in the book. 
 With the formulas that we have given you, we are assuming that the errors of $X$ and $Y$ are independent. 
 To put it in more statistical terms, the covariance between the errors of $X$ and $Y$ is assumed to be zero. 
-Without going into the details (covariance will be introduced later in the module), if we assume that the covariance between these errors is zero, then we can also assume the last term of the above is zero, so we can get rid of it (i.e., $2E_{X}E_{Y} = 0$),
+Without going into the details (covariance is introduced in [Chapter 30](#Chapter_30)), if we assume that the covariance between these errors is zero, then we can also assume the last term of the above is zero, so we can get rid of it (i.e., $2E_{X}E_{Y} = 0$),
 
 $$E_Z^2 = E_X^2 + E_Y^2.$$
 
@@ -66,7 +1247,7 @@ If we take the square root of both sides, then we have the equation from [Chapte
 
 $$E_Z = \sqrt{E_X^2 + E_Y^2}.$$
 
-**Propagation of error for multiplication and division**.
+## Propagation of error for multiplication and division
 
 Now that we have seen the logic for propagating errors in addition and subtraction, we can do the same for multiplication and division. 
 We can start with the same point that we are getting our new variable $Z$ by multiplying $X$ and $Y$ together, $Z = XY$. So, if both $X$ and $Y$ have errors, the errors will be multiplicative as below,
@@ -74,7 +1255,7 @@ We can start with the same point that we are getting our new variable $Z$ by mul
 $$Z \pm E_Z = (X \pm E_X)(Y \pm E_Y).$$
 
 Again, all we are doing here is substituting $Z$, $X$, and $Y$, for an expression in parentheses that includes the variable plus or minus its associated error. 
-Now we can expand the right hand side of the equation,
+Now we can expand the right-hand side of the equation,
 
 $$Z \pm E_Z = XY + Y E_X + X E_Y + E_X E_Y.$$
 
@@ -83,7 +1264,7 @@ This allows us to set $E_{X}E_{Y} = 0$, which leaves us with the below,
 
 $$Z \pm E_Z = XY + Y E_X + X E_Y.$$
 
-Now, because $Z = XY$, we can substitute on the left hand side of the equation,
+Now, because $Z = XY$, we can substitute on the left-hand side of the equation,
 
 $$XY \pm E_Z = XY + Y E_X + X E_Y.$$
 
@@ -95,11 +1276,11 @@ Next, let us divide both sides by $XY$,
 
 $$\frac{\pm E_Z}{XY} = \frac{Y E_X + X E_Y}{XY}.$$
 
-We can expand the right hand side,
+We can expand the right-hand side,
 
 $$\frac{\pm E_Z}{XY} = \frac{Y E_X}{XY} +\frac{X E_Y}{XY}.$$
 
-This allows us to cancel out the $Y$ variables in the first term of the right hand side, and the $X$ variables in second term of the right hand side,
+This allows us to cancel out the $Y$ variables in the first term of the right-hand side, and the $X$ variables in second term of the right-hand side,
 
 $$\frac{\pm E_Z}{XY} = \frac{E_X}{X} +\frac{E_Y}{Y}.$$
 
@@ -107,21 +1288,21 @@ Again, we have the plus/minus on the left, so let us square both sides,
 
 $$\left(\frac{\pm E_Z}{XY}\right)^2 = \left(\frac{E_X}{X} +\frac{E_Y}{Y}\right)^2.$$
 
-We can expand the right hand side,
+We can expand the right-hand side,
 
 $$\left(\frac{\pm E_Z}{XY}\right)^2 = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2 + 2\left(\frac{E_X}{X}\right)\left(\frac{E_Y}{Y}\right).$$
 
-Again, because we are assuming that the errors of $X$ and $Y$ are independent, we can set the third term on the right hand side of the equation to zero. 
+Again, because we are assuming that the errors of $X$ and $Y$ are independent, we can set the third term on the right-hand side of the equation to zero. 
 This leaves,
 
 $$\left(\frac{\pm E_Z}{XY}\right)^2 = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2.$$
 
 
-Note that $XY = Z$, so we can substitute in the left hand side,
+Note that $XY = Z$, so we can substitute in the left-hand side,
 
 $$\left(\frac{\pm E_Z}{Z}\right)^2 = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2.$$
 
-Now we can apply the square on the left hand side to the top and bottom, which gets rid of the plus/minus,
+Now we can apply the square on the left-hand side to the top and bottom, which gets rid of the plus/minus,
 
 $$\frac{E_Z^2}{Z^2} = \left(\frac{E_X}{X}\right)^2 +\left(\frac{E_Y}{Y}\right)^2.$$
 
@@ -140,30 +1321,27 @@ $$E_Z = Z \sqrt{\left( \frac{E_X}{X}\right)^2 + \left(\frac{E_Y}{Y}\right)^2}.$$
 That leaves us with the equation that was given in [Chapter 7](#Chapter_7).
 
 
-# Statistical tables {#appendixC_tables}
-
-## Wilcoxon signed rank critical values
-
-```{r, echo = FALSE}
-wilcoxon <- read.csv(file = "tables/wilcoxon.csv", header = FALSE);
-colnames(wilcoxon) <- c("N", expression(alpha==0.1), expression(alpha==0.05),
-                        expression(alpha==0.01));
-knitr::kable(wilcoxon);
-```
-
-## Mann-Whitney U critical values
-
-```{r, echo = FALSE}
-mannwhitney <- read.csv(file = "tables/mann-whitney-U.csv", header = FALSE);
-rownames(mannwhitney) <- c(1:dim(mannwhitney)[1] + 1);
-colnames(mannwhitney) <- c(1:dim(mannwhitney)[2] + 1);
-knitr::kable(mannwhitney);
-```
 
 
 
+# Common Marking Scheme {#appendexA_CMS}
 
 
+This appendix is a recreation of [Appendix 1: Undergraduate Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/) on the University of Stirling website. 
+
+| Mark  | Equivalent Grade | Result | Descriptor of Attainment of Learning Outcomes |
+|-------|------------------|--------|-----------------------------------------------|
+| 90+   | 1st              | Pass   | Meets all the requirements to attain 80-89 but in addition demonstrates an exceptional degree of originality and exceptional analytical, problem-solving and/or creative skills. |
+| 80-89 |                  |        | Meets all the requirements to attain 70-79 but in addition demonstrates outstanding quality evidenced by an ability to engage critically and analytically with source material, exhibits independent lines of argument, is highly original and uses an extremely wide range of relevant sources where appropriate. |
+| 70-79 |                  |         | Excellent range and depth of attainment of intended learning outcomes, secured by discriminating command of a comprehensive range of relevant materials and analyses, and by deployment of considered judgement relating to key issues, concepts or procedures. |
+| 60-69 | 2:1              | Pass   | Attainment of virtually all intended learning outcomes, clearly grounded on a close familiarity with a wide range of supporting evidence, constructively utilised to reveal an appreciable depth of understanding. |
+| 50-59 | 2:2              | Pass   | Attainment of most of the intended learning outcomes, some more securely grasped than others, resting on a circumscribed range of evidence and displaying a variable depth of understanding. |
+| 40-49 | 3rd              | Pass   | Acceptable attainment of most intended learning outcomes, displaying a qualified familiarity with a minimally sufficient range of relevant materials, and a grasp of the analytical issues and concepts which are generally reasonable, albeit insecure. |
+| 30-39 | Fail - Marginal  | Fail   | Appreciable deficiencies in the attainment of intended learning outcomes, perhaps lacking a secure basis in relevant factual or analytical dimensions. |
+| 0-29  | Fail - Clear     | Fail   | No convincing evidence of attainment of intended learning outcomes, such treatment of the subject as is in evidence being directionless and fragmentary. |
+| X     | Fail             | Fail   | Failure to comply with Compulsory Module Requirements or engage with the module, leading to no automatic right to reassessment. |
+
+Table: **Undergraduate Common Marking Scheme Information**: Column one lists the mark out of 100, column two lists the equivalent grade, column three describes the result as pass or fail, and column four describes the attainment of the learning outcome.
 
 
 
