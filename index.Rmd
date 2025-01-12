@@ -90,7 +90,7 @@ Weekly face-to-face lecture activities are Wednesday at 09:00, and optional help
 - **Practical Group B**: THU 15:00-18:00 in Cottrell 2A15 (All weeks)
 - **Optional Help**: FRI 14:00-16:00 in Cottrell 2Y8
 
-These are all of the scheduled face-to-face sessions, with the exception of one help session at the very end of the semester.
+These are all of the scheduled face-to-face sessions.
 See the [full schedule](#schedule) for all of the specific dates, times, and locations of sessions.
 
 | Online material  | Face-to-face sessions   |
@@ -208,7 +208,7 @@ However, extremely high grades (80+) are intended to indicate truly exceptional 
 
 > "[D]emonstrates outstanding quality evidenced by an ability to engage critically and analytically with source material, exhibits independent lines of argument, is highly original and uses an extremely wide range of relevant sources where appropriate" ([University of Stirling Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/)).
 
-The full [University of Stirling Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/) is replicated in [Appendix A](#appendexA_CMS) of this book.
+The full [University of Stirling Common Marking Scheme](https://www.stir.ac.uk/about/professional-services/student-academic-and-corporate-services/academic-registry/academic-policy-and-practice/quality-handbook/assessment-policy-and-procedure/appendix-1-undergraduate-common-marking-scheme/) is replicated in [Appendix C](#appendexC_CMS) of this book.
 To align SCIU4T4 assessments to this scheme, all tests and exams will be set with 3 different types of questions:
 
 1. **Fundamental questions: (at least 50\%).** These questions will assess the most fundamental skills of the module. Questions will focus on specific protocols that have been introduced in lectures and this book, and they will test your ability to complete these protocols and correctly report or interpret what you have done. For example, you might be asked to answer a specific question about a dataset, correctly calculate a statistic from a dataset in [jamovi](#jamovi) (e.g., the mean, or confidence intervals), or interpret statistical output (e.g., output from a particular statistical test). These are the kinds of questions that you can prepare for with practice and repetition. And we are happy to provide practice questions in the [Canvas Discussion](https://canvas.stir.ac.uk/courses/13075/discussion_topics) upon request. 
@@ -336,8 +336,8 @@ knitr::kable(schedule, format = "simple", table.envir = "table",
 ## License {-#license}
 
 This book is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-It is version of a [more general textbook](https://bradduthie.github.io/stats/) available online and [in print](https://www.routledge.com/Fundamental-Statistical-Concepts-and-Techniques-in-the-Biological-and-Environmental-Sciences-With-jamovi/Duthie/p/book/9781032687186) from CRC Press.
-You can copy and redistribute this material however you want as long as you give credit to the authors, a copyright notice, a link to the original book, and an indication if the material has been modified.
+It is a version of a [more general textbook](https://bradduthie.github.io/stats/) available online and [in print](https://www.routledge.com/Fundamental-Statistical-Concepts-and-Techniques-in-the-Biological-and-Environmental-Sciences-With-jamovi/Duthie/p/book/9781032687186) from CRC Press.
+You can copy and redistribute this material however you want as long as you give credit to the author, a copyright notice, a link to the original book, and an indication if the material has been modified.
 You may not use this material for commercial purposes.
 
 
