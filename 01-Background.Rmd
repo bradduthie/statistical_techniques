@@ -10,39 +10,44 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 22 January 2024 - 26 January 2024 |
+| **Dates**       | 20 January 2025 - 24 January 2025 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 1-2  |
 |                 | **Recommended:** None
 |                 | **Suggested:** @Navarro2022 [Section 2.1](https://davidfoxcroft.github.io/lsj-book/02-A-brief-introduction-to-research-design.html) |
 |                 | **Advanced:**  @Wickham2014 ([Download](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/772)) |
-| **Lectures**    | 1.0: Numbers and operations (17:48 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=312d1106-6c5b-4c91-bf96-b0ed011ebb0a)) |
-|                 | 1.1: Logarithms (6:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dea2046f-2c4d-4dc4-b947-b0ed011ee555))       |
-|                 | 1.2: Order of Operations (7:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e1f12776-00ef-4028-9d6f-b0ed011f0630))     |
-|                 | 1.3: Tidy data (13:39 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bf8aec9b-e527-4a1b-92ef-b0ed011f1387))  |
-|                 | 1.4: Data files (12:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8357610b-7e17-4e21-8f72-b0ed011f4872))    |
+| **Lectures**    | 1.0: Numbers and operations (17:48 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fd875a7f-f60c-43c6-a339-b26201193422)) |
+|                 | 1.1: Logarithms (6:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=39bc09e8-18a6-4521-8398-b26201191920))       |
+|                 | 1.2: Order of Operations (7:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72ecf2fc-adb3-4ef3-b450-b2620118acff))     |
+|                 | 1.3: Tidy data (13:39 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e02a1f5a-53c4-4991-986a-b26201189ae9))  |
+|                 | 1.4: Data files (12:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d88edc55-1afb-4b57-b8d2-b26201188a61))    |
+| **Lecture**     | Introduction: 22 JAN 2025 (WED) 09:00-10:00 Cottrell LT B4 |
 | **Practical**   | Preparing data ([Chapter 3](#Chapter_3))  |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 24 JAN 2024 (WED) 09:05-11:55 |
-|                 |   Group B: 25 JAN 2024 (THU) 12:05-14:55 |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 22 JAN 2025 (WED) 10:00-13:00 |
+|                 |   Group B: 23 JAN 2025 (THU) 15:00-18:00 |
 | **Help hours**  | Brad Duthie                     |
-|                 |   Room: Cottrell 2A21           |
-|                 |   26 JAN 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 1 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35442) on Canvas  |
+|                 |   Room: Cottrell 2Y8           |
+|                 |   24 JAN 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 1 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40237) on Canvas  |
 |                 |                                 |
 
 
 Week 1 focuses on background mathematics and data organisation.
 
-[Chapter 1](#Chapter_1) will review some background mathematics that is relevant to the statistical techniques that you will learn in this module.
-This information might not be new to you, but it is important to review some fundamental mathematical concepts that will be used throughout the module.
-Specific topics include numbers and operations, logarithms, and the order of operations.
+[Chapter 1](#Chapter_1) reviews some background mathematics that is relevant to introductory statistics. 
+The chapter focuses on the very basics of numbers and mathematical operations, and also reviews logarithms (which are especially relevant for data visualisation and transformation) and the order of mathematical operations.
 
-[Chapter 2](#Chapter_2) will focus on data organisation.
-Before actually doing any statistics, it is important to be able to organise data in a way that can be understood by other researchers and interpreted by statistical software.
-This chapter will focus on what to do first after data have been collected in the field or laboratory.
+[Chapter 2](#Chapter_2) focuses entirely on data organisation. 
+Before actually doing any statistics, it is important to be able to organise data in a way that can be understood by other researchers and interpreted by statistical software. 
+The chapter explains what to do after data have been collected in the field or laboratory. 
+Being able to organise data in the correct format and manage data files appropriately is critical for successfully using jamovi (or any statistical software).
 
-[Chapter 3](#Chapter_3) guides you through the week 1 practical, which focuses on organising datasets and preparing them for statistical analysis.
-The aim of this practical is for you to learn how to take data recorded in the field, laboratory, or some other source and put it into a format that can be used in statistical programs such as jamovi or R.
+[Chapter 3](#Chapter_3) provides some practical skills for organising datasets and preparing them for statistical analysis. 
+The aim of this chapter is for the reader to learn how to take data recorded in the field, laboratory, or some other source and put it into a format that can be used in jamovi. 
+Four exercises use data on fig seed counts, fig wasp egg counts, fig wasp counts, and fig wasp morphological measurements from the Sonoran Desert Rock Fig (*Ficus petiolaris*) in Baja, Mexico. 
+Datasets are available online. 
+The chapter introduces spreadsheets as a tool for data organisation. 
+Spreadsheets are sometimes necessary (or just helpful) to use for viewing and organising data prior to opening a dataset in jamovi.
 
 
 # Background mathematics {#Chapter_1}

@@ -4,24 +4,40 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 1 April 2024 - 5 April 2024                            |
+| **Dates**       | 31 March 2025 - 04 April 2025                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapter 34              |
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  None                                    |
 |                 | **Advanced:**   @Ernst2004 ([Download](https://projecteuclid.org/journals/statistical-science/volume-19/issue-4/Permutation-Methods-A-Basis-for-Exact-Inference/10.1214/088342304000000396.full))                                    |
-| **Lectures**    | 11.1: Introduction to randomisation (18:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=543ce3b9-9257-4e66-a52e-b0ed011c7ac2))     |
-|                 | 11.2: Assumptions of randomisation (11:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c0a6dac8-cda8-4681-9c22-b0ed011cd941))                      |
-|                 | 11.3: Bootstrapping (11:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cfe14de4-1866-4a08-8ce9-b0ed011cffe2))                      |
-|                 | 11.4: Monte Carlo (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=266f5350-982a-425d-9319-b0ed011d2de1))                      |
-| **Practical**   | Using R ([Chapter 35](#Chapter_35)) |
-|                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 3 APR 2024 (WED) 09:05-11:55                 |
-|                 | Group B: 4 APR 2024 (THU) 12:05-14:55                 |
+| **Lectures**    | 11.1: Introduction to randomisation (18:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e2d2d100-518c-4fda-8fe4-b26201278528))     |
+|                 | 11.2: Assumptions of randomisation (11:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=00364ac4-209d-47cd-a8ec-b262012784c8))                      |
+|                 | 11.3: Bootstrapping (11:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f129dc24-222e-4052-8f98-b26201278552))                      |
+|                 | 11.4: Monte Carlo (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=274df15b-743b-4f8b-950e-b26201278491))                      |
+| **Lecture**     | Test Review: 02 APR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Using R ([Chapter 36](#Chapter_36)) |
+|                 | Room: Cottrell 2A15                                    |
+|                 | Group A: 02 APR 2025 (WED) 14:00-17:00                 |
+|                 | Group B: 03 APR 2025 (THU) 15:00-18:00                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 2A21                                    |
-|                 | 5 APR 2024 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 11 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35440) on Canvas                     |
-|                 | [Test 2S](https://canvas.stir.ac.uk/courses/14932/quizzes/35453) on Canvas                     |
+|                 | Room: Cottrell 2Y8                                     |
+|                 | 04 APR 2025 (FRI) 14:00-16:00                          |
+| **Assessments** | [Week 11 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40235) on Canvas                     |
+|                 | [Test 2S](https://canvas.stir.ac.uk/courses/17581/quizzes/40242) on Canvas (02 APR 2025 at 11:00-13:00)  |
+
+
+Week 11 introduces randomisation approaches and the R programming language.
+
+[Chapter 35](#Chapter_35) takes a different approach to explaining hypothesis tests. 
+Instead of specifying null distributions beforehand, we can use randomisation to build a null distribution from the sampled data. 
+Randomisation is a flexible tool for hypothesis testing, but it also provides a different perspective on what p-values really are and how to think about them. 
+Since hypothesis tests and, in particular, p-values are so often misunderstood, explaining how they work from this different perspective can be very instructive. 
+For some students, randomisation is the topic in which the nature of p-values finally starts to become clear, and this is the primary motivation for including it in this book. 
+Chapter 35 introduces randomisation as a tool for testing the same null hypothesis as the independent samples t-test, and compares the two approaches side by side to demonstrate their equivalence. 
+It then introduces bootstrapping as a method for obtaining confidence intervals.
+
+[Chapter 36](#Chapter_36) Introduces the R programming language, which has become the most common and versatile tool for data analysis in the biological and environmental sciences.
+Jamovi was built on top of the R programming language.
+This chapter introduces the very basics of working in R.
 
 
 # Randomisation {#Chapter_35}

@@ -4,35 +4,49 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 19 February 2024 - 23 February 2024 |
+| **Dates**       | 17 February 2025 - 21 February 2025 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17 and 18  |
 |                 | **Recommended:** None    |
 |                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
 |                 | **Advanced:** None |
-| **Lectures**    | 5.1: Some background for confidence intervals (6:36 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6e287124-c14b-4d18-8606-b0ed0122c429)) |
-|                 | 5.2: Recap of z-scores (10:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7358430f-32c2-4119-b6b3-b0ed0122e12a)) |
-|                 | 5.3: Confidence interval for the population mean (14:08 min [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=414590d6-c0a4-4c2e-9286-b0ed0122ecc0)) |
-|                 | 5.4: The t-interval (10:24 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3671b41b-0327-4eac-be9e-b0ed01231e82)) |
-|                 | 5.5: Confidence interval for the population proportion (6:37 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=444f9a12-d890-4cea-b081-b0ed01237513)) |
-| **Practical**   | z- and t- intervals ([Chapter 19](#Chapter_19))       |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 21 FEB 2024 (WED) 19:05-11:55 |
-|                 |   Group B: 22 FEB 2024 (THU) 12:05-14:55 |
-| **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 2A21           |
-|                 |   23 FEB 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35445) on Canvas  |
-|                 | [Test 1F](https://canvas.stir.ac.uk/courses/14932/quizzes/35457) on Canvas  |
+| **Lectures**    | 5.1: Some background for confidence intervals (6:36 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7384f6e2-a7b3-49d0-8930-b26201208d9e)) |
+|                 | 5.2: Recap of z-scores (10:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d254c039-bb4d-4e5a-8f53-b26201208653)) |
+|                 | 5.3: Confidence interval for the population mean (14:08 min [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=61c5fe40-0a4d-449d-a196-b26201207deb)) |
+|                 | 5.4: The t-interval (10:24 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c8b1d782-b6c1-487a-99c3-b26201206d8a)) |
+|                 | 5.5: Confidence interval for the population proportion (6:37 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9bf24de2-0ebd-4a93-b6ba-b26201206296)) |
+| **Lecture**     | Test Review: 19 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | z- and t- intervals ([Chapter 20](#Chapter_20))       |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 19 FEB 2025 (WED) 14:00-17:00 |
+|                 |   Group B: 20 FEB 2025 (THU) 15:05-18:00 |
+| **Help hours**  | Brad Duthie                       |
+|                 |   Room: Cottrell 2Y8            |
+|                 |   21 FEB 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40220) on Canvas  |
+|                 | [Test 1F](https://canvas.stir.ac.uk/courses/17581/quizzes/40240) on Canvas  (19 FEB 2025 at 11:00-13:00) |
 
 
 Week 5 focuses making statistical inferences using confidence intervals (CIs) and and introduces the t-interval.
 
-[Chapter 17](#Chapter_17) introduces what confidence intervals are and how to calculate them for normally and binomially distributed variables.
+[Chapter 18](#Chapter_18) introduces what confidence intervals are and how to calculate them for normally and binomially distributed variables. 
+Understanding CIs builds on the concepts from Chapters 9-16, especially the standard error introduced in Chapter 12 and z-scores introduced in Chapter 16. 
+Calculating CIs also requires an understanding of mathematical order of operations, which were first introduced in Chapter 1. 
+Chapter 18 first explains what CIs are in general terms, with an example of resampling from a population. 
+It then presents equations for calculating CIs for a normally distributed variable, then for binomial confidence intervals. 
+The Wald interval is introduced as a way to calculate binomial confidence intervals, but its deficiencies are then pointed out in favour of the Clopper-Pearson CIs that jamovi uses.
 
-[Chapter 18](#Chapter_18) introduces the t-interval and explains why this interval is usually necessary for calculating confidence intervals.
+[Chapter 19](#Chapter_19) introduces the t-distribution and explains why this interval is usually necessary for calculating confidence intervals. 
+The t-distribution makes it possible to adjust confidence intervals appropriately given a small sample size. 
+The t-distribution also appears in multiple hypothesis tests that are introduced later in this book, most obviously the t-test, but also regression. 
+An example from Chapter 17 is re-used to illustrate how confidence intervals change when using a normal distribution versus a t-distribution with the correct degrees of freedom, and the shape of how the t-distribution changes given different degrees of freedom is illustrated.
 
-[Chapter 19](#Chapter_19) guides you through the week 5 practical.
-The aim of this practical is to practice working with intervals and calculating confidence intervals.
+[Chapter 20](#Chapter_20) guides the reader through how to calculate confidence intervals in jamovi. 
+This chapter includes five exercises, all of which involve calculating confidence intervals. 
+In addition to working through how to calculate confidence intervals in jamovi, this chapter includes an exercise that shows the importance of the t-distribution for small sample size. 
+Exercises use a hypothetical dataset inspired by the Woodland Creation and Ecological Networks (WrEN) project. 
+Data include measurements of tree diameters at breast height across different sites. 
+The distrACTION module is used to find appropriate z-scores and t-scores for confidence intervals in a continuous distribution, and confidence intervals created with the two intervals are compared across different sample sizes. 
+Two exercises focus on proportional confidence intervals, first using the Wald intervals calculated by hand, then using jamovi to calculated Clopper-Pearson confidence intervals with a comparison between the two methods.
 
 
 # Confidence intervals {#Chapter_18}

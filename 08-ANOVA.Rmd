@@ -4,42 +4,63 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 11 March 2024 - 15 MAR 2024 |
+| **Dates**       | 10 March 2025 - 14 MAR 2025 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 23-25 |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 13](https://davidfoxcroft.github.io/lsj-book/13-Comparing-several-means-one-way-ANOVA.html))   |
 |                 | **Suggested:** @Rowntree2018 (Chapter 7)     |
 |                 | **Advanced:**  @Head2015 ([Download](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106))        |
-| **Lectures**    | 8.1: What is ANOVA? (15:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=766f4b54-0086-4179-8836-b0ed011afadd)) |
-|                 | 8.2: One Way ANOVA (16:51 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d0dacab7-4085-4977-b761-b0ed011b1d23)) |
-|                 | 8.3: Two Way ANOVA (17:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1da7e0d0-7e54-41c6-9232-b0ed011b4381)) |
-|                 | 8.4: Kruskal-Wallis H Test (6:37 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0950c39a-d8b2-4f8c-ac5f-b0ed011b567b)) |
-| **Practical**   | ANOVA and associated tests ([Chapter 27](#Chapter_27))       |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 13 MAR 2024 (WED) 09:05-11:55 |
-|                 |   Group B: 14 MAR 2024 (THU) 12:05-14:55 |
+| **Lectures**    | 8.1: What is ANOVA? (15:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95251b9a-a0a8-467d-b0c7-b26201234db9)) |
+|                 | 8.2: One Way ANOVA (16:51 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d9884bbb-6d86-40e3-8d37-b26201233ae9)) |
+|                 | 8.3: Two Way ANOVA (17:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d12f58f6-0de9-43a3-bdac-b26201233420)) |
+|                 | 8.4: Kruskal-Wallis H Test (6:37 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=663ae01e-4949-49f0-84f2-b26201232435)) |
+| **Lecture**     | Test Review: 12 MAR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | ANOVA and associated tests ([Chapter 28](#Chapter_28))       |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 12 MAR 2025 (WED) 14:00-17:00 |
+|                 |   Group B: 13 MAR 2025 (THU) 15:00-18:00 |
 | **Help hours**  | Martina Quaggiotto                       |
-|                 |   Room: Cottrell 2A21           |
-|                 |   15 MAR 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35449) on Canvas  |
-|                 | [Test 1S](https://canvas.stir.ac.uk/courses/14932/quizzes/35456) on Canvas  |
+|                 |   Room: Cottrell 2Y8           |
+|                 |   14 MAR 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40226) on Canvas  |
+|                 | [Test 1S](https://canvas.stir.ac.uk/courses/17581/quizzes/40241) on Canvas (12 MAR 2025 at 11:00-13:00) |
 
 
 Week 8 introduces ANalysis Of VAriance (ANOVA) and related methods, all of which focus on testing whether or not multiple groups in a dataset have the same mean.
 
-[Chapter 23](#Chapter_23) introduces the general idea of the ANOVA, how it is calculated, and the F statistic that is used to test the null hypothesis that all groups have the same mean. 
-This chapter also outlines the assumptions of ANOVA.
+[Chapter 24](#Chapter_24) introduces the general idea of the ANOVA, how it is calculated, and the F-distribution that is used to test the null hypothesis that all groups have the same mean. 
+Chapter 24 also outlines the assumptions of ANOVA. 
+The chapter leads with a concrete example of wing lengths in five different species of non-pollinating fig wasps. 
+It explains why using t-tests for all pair-wise comparisons is problematic and the motivation behind the ANOVA. 
+The F-distribution is then introduced in general terms as the ratio between two variances, and F-distributions with different degrees of freedom are shown. 
+The logic of a one-way ANOVA is then explained, continuing with the example of fig wasp wing lengths by calculating mean variances among and within groups, then using these variances to calculate an F-statistic and p-value. 
+An ANOVA output table is introduced, followed by the assumptions of ANOVA that observations are sampled randomly, observations are independent of one another, groups have the same variance, and errors are normally distributed. 
+Each assumption is explained, along with how to test it and the consequences of violating it.
 
-[Chapter 24](#Chapter_24) introduces multiple comparisons tests.
-These tests can be used to find out which group means differ in a dataset when there are more than 2 groups.
+[Chapter 25](#Chapter_25) introduces multiple comparisons tests. 
+These tests can be used to find out which group means differ in a dataset when there are more than 2 groups. 
+The chapter also explains why not correcting for multiple comparisons can lead to erroneously rejecting a null hypothesis when it is true (i.e., a Type I error) at a higher frequency than desired. 
+A post-hoc comparisons table from jamovi is introduced and explained, with an emphasis on the Tukey's honestly significant difference test and the Bonferroni correction for multiple comparisons. 
+Following from Chapter 24, the example used in this test is fig wasp species wing lenghts.
 
-[Chapter 25](#Chapter_25) introduces the Kruskall-Wallis H test.
-This is the non-parametric equivalent of the one-way ANOVA, which can be used when assumptions of the ANOVA are violated.
-The Kruskall-Wallis is an extension of the Mann-Whitney U test from [Chapter 21.5.2](#mann-whitney-u-test)
+[Chapter 26](#Chapter_26) introduces the Kruskall-Wallis H test. 
+This is the non-parametric equivalent of the one-way ANOVA, which can be used when assumptions of the ANOVA are violated. 
+The Kruskall-Wallis is an extension of the Mann-Whitney U test from Chapter 22, and its use is demonstrated with examples of wing lengths from five different fig wasp species. 
+The chapter walks through how data are ranked, then how ranks are used to calculate the test statistic H. 
+Kruskal-Wallis output from jamovi is shown with an explanation of why the Chi-square test statistic is reported.
 
-[Chapter 26](#Chapter_25) introduces the two-way ANOVA.
-With the two-way ANOVA, it also introduces the ideas of testing multiple null hypotheses with a single test and the concept of statistical interactions.
+[Chapter 27](#Chapter_27) introduces the two-way ANOVA. 
+The two-way ANOVA is relevant when there are two types of groups (the chapter uses the example in which insect wing lengths are sampled from both different species and different trees). 
+Using the two-way ANOVA, this chapter also introduces how to test multiple null hypotheses with a single test, and it introduces the concept of statistical interactions between variables (e.g., between species and trees). 
+The example of wing lengths in different species of non-pollinating fig wasps is introduced as in previous chapters. 
+This chapter explains the different null hypotheses used in two-way ANOVAs, and how F-statistics and p-values associated with different tests are reported by jamovi. 
+Interaction plots from jamovi are introduced along with an explanation for how to correctly interpret them to infer the presence or lack of interaction between variables.
 
-[Chapter 27](#Chapter_25) guides you through the week 8 practical. The aim of this practical is to practice using and correctly interpreting the tests that are introduced in chapters 23-26.
+[Chapter 28](#Chapter_28) demonstrates how to use and correctly interpret the tests that are introduced in chapters 23-26 in jamovi. 
+It includes five exercises, two that demonstrate how to use a one-way ANOVA, one that demonstrates how to run a test of multiple comparisons, one that demonstrates the Kruskall-Wallis H test, and one that demonstrates a two-way ANOVA in jamovi. 
+Exercises focus on a hypothetical example of sampling nutrient concentrations across different sites and soil profiles. 
+The first exercise demonstrates the equivalence of the Student's t-test and a one-way ANOVA by comparing two sites of data collection. 
+This example is followed by an ANOVA that includes three different soil profiles; tests of multiple comparisons featuring the Tukey's honestly significant difference test and the Bonferroni test are then applied. 
+A Kruskall-Wallis H test is demonstrated in jamovi, and the chapter finishes with a two-way ANOVA testing for effects of site, profile, and an interaction between the two variables for predicting soil Nitrogen concentration.
 
 # Analysis of variance {#Chapter_24}
 

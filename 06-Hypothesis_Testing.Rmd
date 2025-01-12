@@ -4,36 +4,55 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 26 February 2024 - 01 MAR 2024 |
+| **Dates**       | 24 February 2025 - 28 February 2025 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 20 and 21  |
 |                 | **Recommended:** @Navarro2022 [Chapter 11](https://davidfoxcroft.github.io/lsj-book/11-Comparing-two-means.html)    |
 |                 | **Suggested:** None     |
 |                 | **Advanced:** @Johnson1995 ([Download](https://www.jstor.org/stable/pdf/1940733.pdf?casa_token=ly4fpXKZzCkAAAAA:-bgUBEe9rv_HT1IstfrbzwDlhSaUFH6nTCSxCrJqXxQa6FS2hb2sGmc38RUQaTEaPT_NnKqgxyaEnZdisEhz2sddHOEonjLWqptny7_N54qrlgZSaeES)) |
-| **Lectures**    | 6.1: What is hypothesis testing? (11:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bbff3470-4ee9-470e-a6ef-b0ed011a4a6a)) |
-|                 | 6.2: Making and using hypotheses (10:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d8627386-9ce7-4c5e-a9ed-b0ed011a55e3)) |
-|                 | 6.3: The example of the right-handed European toad (16:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1814c3b7-b169-4e03-ba1a-b0ed011a66b6)) |
-|                 | 6.4: Errors, hypothesis testing and CI intervals (16:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5ac0bfa0-16ec-4e26-be19-b0ed011a8900)) |
-|                 | 6.5: Student's t-distribution and 1 sample t-test (13:31 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c633b667-f1b8-48db-abcf-b0ed011aa351)) |
-|                 | 6.6: Independent and paired samples t-tests (18:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=035bfa57-a8c3-42ec-8e54-b0ed011abc05)) |
-|                 | 6.7: Handling violations of assumptions (7:50 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=628ac085-68a1-4a00-afba-b0ed011ae515)) |
-|                 | 6.8: Non-parametric tests (13:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a5c38091-e52b-48f3-8dbc-b0ed01248929)) |
-| **Practical**   | Hypothesis testing and t-tests ([Chapter 22](#Chapter_22))       |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 28 FEB 2024 (WED) 09:05-11:55 |
-|                 |   Group B: 29 FEB 2024 (THU) 12:05-14:55 |
+| **Lectures**    | 6.1: What is hypothesis testing? (11:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a3ea5e19-079a-47ac-ad08-b262012214f6)) |
+|                 | 6.2: Making and using hypotheses (10:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ae892c4d-dd42-49a7-9ab8-b262012207f7)) |
+|                 | 6.3: The example of the right-handed European toad (16:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2a75181f-9845-4ecf-95c7-b2620121f42d)) |
+|                 | 6.4: Errors, hypothesis testing and CI intervals (16:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=68f1c878-8823-4caa-95eb-b2620121de3c)) |
+|                 | 6.5: Student's t-distribution and 1 sample t-test (13:31 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=68f1c878-8823-4caa-95eb-b2620121de3c)) |
+|                 | 6.6: Independent and paired samples t-tests (18:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f0fbe9f4-fac4-4831-a84b-b2620121ce99)) |
+|                 | 6.7: Handling violations of assumptions (7:50 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7b2ad06d-0d7c-4d26-bbf4-b2620121c26c)) |
+|                 | 6.8: Non-parametric tests (13:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bc983725-2160-4b9e-872d-b2620121b566)) |
+| **Lecture**     | Lecture: 26 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Hypothesis testing and t-tests ([Chapter 23](#Chapter_23))       |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 26 FEB 2025 (WED) 10:00-13:00 |
+|                 |   Group B: 27 FEB 2025 (THU) 15:00-18:00 |
 | **Help hours**  | Martina Quaggiotto                       |
-|                 |   Room: Cottrell 2A21           |
-|                 |   01 MAR 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 6 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35446) on Canvas  |
+|                 |   Room: Cottrell 2Y8           |
+|                 |   28 FEB 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 6 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40231) on Canvas  |
 
 
 Week 6 introduces hypothesis testing, and how to use and interpret statistical tests that test whether or not the mean (or median) of a dataset is significantly different from some specific value, or whether two different groups in a dataset have the same mean (or median).
 
-[Chapter 20](#Chapter_20) introduces hypothesis testing, and what it means in statistics. This chapter discusses the general idea of hypothesis testing, null and alternative hypotheses, and how to correctly interpret p-values.
+[Chapter 21](#Chapter_21) introduces hypothesis testing, and what it means in statistics. 
+This chapter discusses the general idea of hypothesis testing using the concrete example of coin flipping to explain statistical terminology (null and alternative hypotheses, and p-values). 
+The concepts and terminology in this chapter are essential for understanding the more advanced tests in later chapters. 
+Examples of null and alternative hypotheses in the biological and environmental sciences are provided, and statistical significance is introduced as a concept along with the p-value. 
+The chapter ends with an explanation of the difference between a Type I error and a Type II error, and the logic behind rejecting or not rejecting a null hypothesis.
 
-[Chapter 21](#Chapter_21) introduces the t-test and its non-parametric alternatives. These tests include the one sample t-test, the independent samples t-test, the paired sample t-test, the Wilcoxon test, and the Mann-Whitney U test. The chapter also explains the assumptions underlying these different tests.  
+[Chapter 22](#Chapter_22) introduces the t-test and its non-parametric alternatives. 
+Tests include the one sample t-test, the independent samples t-test, the paired sample t-test, the Wilcoxon test, and the Mann-Whitney U test. 
+The chapter also explains the assumptions underlying these different tests. 
+For each test, an example is provided of student test scores. 
+For the one sample t-test, the null hypothesis that the mean of test score equals a specific value is tested against an alternative hypothesis that test scores are greater than the value. 
+The t-statistic is calculated manually and its position on the x-axis of the t-distribution is illustrated to show how a p-value is obtained. 
+The same pattern of explanation is followed with the independent samples t-test and the paired samples t-test, with test scores being used at the focal example for each test. 
+Assumptions of continuous data, random sampling from the population, and sample means being normally distributed around the true mean are explained. 
+The chapter then explains what to do if these assumptions are violated, with a brief example of log transforming positively skewed data followed by more in-depth explanation of the non-parametric alternative tests, the Wilcoxon test and the Mann-Whitney U test. 
 
-[Chapter 22](#Chapter_22) guides you through the week 6 practical. The aim of this practical is to practice using and correctly interpreting the tests that are introduced in Chapter 21.
+[Chapter 23](#Chapter_23) is a guide for using jamovi to run the statistical tests that are introduced in Chapter 22. 
+It includes five exercises, one for each of the Chapter 22 statistical tests. 
+Exercises focus on a hypothetical example of biology education, specifically scores from biology students on different tests, and across two different years. 
+Exercises focus on test scores from students and explain how to find and report key statistics in jamovi, including t-statistics, degrees of freedom, and p-values. 
+These exercises also address when to reject the null hypothesis based on p-values, and how to interpret the outcomes of each test. 
+How to apply non-parametric tests in jamovi is also introduced along with how to use jamovi to test t-test assumptions. 
+Tests of model assumptions include a homogeneity test (Levene's test) and a normality test (Shapiro-Wilk test), and the chapter also explains how to make inferences from a Q-Q plot.
 
 # What is hypothesis testing? {#Chapter_21}
 

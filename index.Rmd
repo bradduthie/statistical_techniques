@@ -82,29 +82,31 @@ Each week, there will be new chapters to read in this book, new lectures to watc
 These can all be completed online at any time during the week.
 If possible, it is probably best to read and watch lectures before the weekly practical, then take the quiz after the practical.
 Weekly practicals are on Wednesday morning (Group A) or Thursday afternoon (Group B), depending on which group you sign up for (you only need to attend one).
-Weekly face-to-face optional help sessions are on Friday afternoons.
+Weekly face-to-face lecture activities are Wednesday at 09:00, and optional help sessions are on Friday afternoons from 14:00-16:00.
 
-- **Practical Group A**: WED 09:05-11:55 in Cottrell 2A17
-- **Practical Group B**: THU 12:05-14:55 in Cottrell 2A17
-- **Optional Help**: FRI 15:05-17:55 in Cottrell 2A21
+- **Lecture activity**: WED 09:00-10:00 in Cottrell Lecture Theatre B4
+- **Practical Group A**: WED 10:00-13:00 in Cottrell 2A15 (Weeks 1-4, 6, 9, 10, 12)
+    - WED 14:00-17:00 in Cottrell 2A15 (Weeks 5, 8, 11)
+- **Practical Group B**: THU 15:00-18:00 in Cottrell 2A15 (All weeks)
+- **Optional Help**: FRI 14:00-16:00 in Cottrell 2Y8
 
 These are all of the scheduled face-to-face sessions, with the exception of one help session at the very end of the semester.
 See the [full schedule](#schedule) for all of the specific dates, times, and locations of sessions.
 
 | Online material  | Face-to-face sessions   |
 |------------------|-------------------------|
-| Book chapters    | Weekly practicals       |
-| Lecture videos   | Optional help sessions  |
-| Practice quizzes |                         |
+| Book chapters    | Lecture activity        |
+| Lecture videos   | Weekly practicals       |
+| Practice quizzes | Optional help sessions  |
 
 Table: Summary of online and face-to-face teaching.
 
-For each weak, links to all chapters, lectures, and quizzes are available in this book (e.g., the [Week 1 Overview](#Week1)), and on the [Learning and Teaching](https://canvas.stir.ac.uk/courses/14932/pages/learning-and-teaching) page on Canvas.
+For each weak, links to all chapters, lectures, and quizzes are available in this book (e.g., the [Week 1 Overview](#Week1)), and on the [Learning and Teaching](https://canvas.stir.ac.uk/courses/17581/pages/learning-and-teaching) page on Canvas.
 
 
 ### Book chapters {-#book_chapters}
 
-The book chapters that you need to read for each week are all listed at the start of each section in this book (e.g., [Week 1](#Week1)), and in each week's [Learning and teaching content](https://canvas.stir.ac.uk/courses/14932/pages/learning-and-teaching) on Canvas.
+The book chapters that you need to read for each week are all listed at the start of each section in this book (e.g., [Week 1](#Week1)), and in each week's [Learning and teaching content](https://canvas.stir.ac.uk/courses/17581/pages/learning-and-teaching) on Canvas.
 On Canvas, this includes links to the book chapters online and audio recordings of the module coordinator reading them.
 Reading this book online gives you the option of adjusting the text size (small or large), font (serif or sans serif), and background (white, sepia, or night).
 It should be quite readable on a mobile phone, or on a computer screen.
@@ -143,22 +145,21 @@ Some of these textbooks are available in the library, and all of them are owned 
 ## Canvas {-#Canvas}
 
 This module will be taught using [Canvas](https://canvas.stir.ac.uk/).
-You should be enrolled in the University of Stirling Canvas module "SCIU4T4 - Statistical Techniques (2023/4)". 
+You should be enrolled in the University of Stirling Canvas module "SCIU4T4 - Statistical Techniques (2024/5)". 
 If for some reason you cannot access the module on Canvas, then please email the module coordinator as soon as possible (alexander.duthie@stir.ac.uk).
 
 In Canvas, you will find links to all learning content, including chapters to this book, video lectures, practice quizzes, tests, and exams.
 For your benefit, there is some redundancy between the information on Canvas and the information in this book.
 All of the information in this preface is also available on Canvas.
-Similarly, weekly links to readings, lectures, practicals, and assessments are posted at the start of the sections of this book and in the [Learning and Teaching](https://canvas.stir.ac.uk/courses/14932/pages/learning-and-teaching) content on Canvas.
+Similarly, weekly links to readings, lectures, practicals, and assessments are posted at the start of the sections of this book and in the [Learning and Teaching](https://canvas.stir.ac.uk/courses/17581/pages/learning-and-teaching) content on Canvas.
 You will also receive weekly announcements at 08:00 on Mondays summarising what needs to be done each week (again, with relevant links).
 Our objective here is to provide a clear structure for the module and regular reminders so that you always know what is happening and when.
 
 Some aspects of the module must be completed on Canvas.
 All of the links below are also on the main Canvas page.
 
-- **[Discussions](https://canvas.stir.ac.uk/courses/14932/discussion_topics)** are a place where you can ask questions about the module. Each week, a new topic will be introduced so that you can ask questions pertaining to that week (we are not strict about which week you post in; this is more just to help keep everything organised). You can also ask questions anonymously on the **[SCIU4T4 Padlet](https://padlet.com/alexanderduthie/ox0i6vbgakpvb47b)**. It is completely fine to ask for practice problems in the discussion boards, but please try to be as specific as possible about what you want to practice (this helps us come up with good questions).
-- **[Quizzes](https://canvas.stir.ac.uk/courses/14932/quizzes)** are where all practice quizzes and assessments will be located. You must take these on Canvas, and you will need a laptop or desktop computer to complete them.
-- **[People](https://canvas.stir.ac.uk/courses/14932/users)** is where you can sign up for a practical group (A or B).
+- **[Discussions](https://canvas.stir.ac.uk/courses/17581/discussion_topics)** are a place where you can ask questions about the module. Each week, a new topic will be introduced so that you can ask questions pertaining to that week (we are not strict about which week you post in; this is more just to help keep everything organised). You can also ask questions anonymously on the **[SCIU4T4 Padlet](https://padlet.com/alexanderduthie/ox0i6vbgakpvb47b)**. It is completely fine to ask for practice problems in the discussion boards, but please try to be as specific as possible about what you want to practice (this helps us come up with good questions).
+- **[Quizzes](https://canvas.stir.ac.uk/courses/17581/quizzes)** are where all practice quizzes and assessments will be located. You must take these on Canvas, and you will need a laptop or desktop computer to complete them.
 
 In general, it is probably also easiest to watch lecture videos from within Canvas, although this should also be possible outside of Canvas using links in this book.
 
@@ -168,16 +169,16 @@ This module includes 2 formative (i.e., ungraded) assessments and 3 summative (i
 
 | Assessment       | Type       | Weighting  | Weeks | Time                  | 
 |------------------|------------|------------|-------|-----------------------|
-| [Test 1F](https://canvas.stir.ac.uk/courses/14932/quizzes/35457)          | Formative  | 0\%        | 1-4   | 21 FEB at 12:05-13:55 |         
-| [Test 1S](https://canvas.stir.ac.uk/courses/14932/quizzes/35456)          | Summative  | 25\%       | 1-6   | 13 MAR at 12:05-13:55 |
-| [Test 2S](https://canvas.stir.ac.uk/courses/14932/quizzes/35453)          | Summative  | 25\%       | 7-10  | 05 APR at 12:05-13:55 |
-| [Mock Exam](https://canvas.stir.ac.uk/courses/14932/quizzes/35444)        | Formative  | 0\%        | All   | To be determined      |
-| [Exam](https://canvas.stir.ac.uk/courses/14932/quizzes/35455)             | Summative  | 50\%       | All   | To be determined      |
+| [Test 1F](https://canvas.stir.ac.uk/courses/17581/quizzes/35457)          | Formative  | 0\%        | 1-4   | 19 FEB at 11:00-13:00 |         
+| [Test 1S](https://canvas.stir.ac.uk/courses/17581/quizzes/35456)          | Summative  | 25\%       | 1-6   | 12 MAR at 11:00-13:00 |
+| [Test 2S](https://canvas.stir.ac.uk/courses/17581/quizzes/35453)          | Summative  | 25\%       | 7-10  | 02 APR at 11:00-13:00 |
+| [Mock Exam](https://canvas.stir.ac.uk/courses/17581/quizzes/35444)        | Formative  | 0\%        | All   | To be determined      |
+| [Exam](https://canvas.stir.ac.uk/courses/17581/quizzes/35455)             | Summative  | 50\%       | All   | To be determined      |
 
 Table: Summary of module assessments, whether they are for practice (formative) or for a grade (summative), how much they count for the final grade, the weeks of material that the test includes, and the time of the test.
 
 All tests and exams are taken online on Canvas.
-You can access the assessments in the table above using the '[Quizzes](https://canvas.stir.ac.uk/courses/14932/quizzes)' link on canvas, or access an assessment directly with the above links.
+You can access the assessments in the table above using the '[Quizzes](https://canvas.stir.ac.uk/courses/17581/quizzes)' link on canvas, or access an assessment directly with the above links.
 
 Tests and exams are completed online.
 Tests and exams are open book and open note.
@@ -266,7 +267,7 @@ Note that because all assessments are tests or exams, it is not possible to appl
 
 Each week, there will be a practical session to learn and practice using statistical tools.
 Practical instructions are located in the last chapter of each book section (e.g., [Chapter 3](#Chapter_3) for week 1, or [Chapter 8](#Chapter_8) for week 2).
-Practical sessions are held in room Cottrell 2A17 on either Wednesdays from 09:05-11:55 (Group A) or Thursdays from 12:05-14:55 (Group B).
+Practical sessions are held in room Cottrell 2A15 on either Wednesdays (Group A) or Thursdays (Group B).
 When you get to the practical, there will be a quick introduction, then you will work through the practical in a mostly self-guided way (feel free to converse with your classmates and help one another too).
 Instructors will be walking around the room to answer any questions that you have and help you if you get stuck.
 These instructors will include the lecturer leading the week's content, the module coordinator, and module demonstrators.
@@ -282,7 +283,7 @@ If for some reason you find that the practical environment is not conducive to l
 
 ## Optional help hours {-#help}
 
-Face-to-face help is available to you every Friday in room Cottrell 2A21 from 15:05-17:55.
+Face-to-face help is available to you every Friday in room Cottrell 2Y8 from 14:00-16:00.
 You are very welcome to come in during this time to ask questions about the learning content of the week, and to get some extra help with the practical if you were unable to finish it.
 Learning statistics requires a lot practice and repetition, so it is entirely okay to ask the same question multiple times if you think that it will help you better understand something.
 This is not at all an inconvenience to the teaching team; we know that this material is challenging, and we want to help you understand it!
@@ -310,7 +311,7 @@ In short, jamovi has a lot of advantages that make it the best option for you to
 
 In the computer labs on campus, you can access jamovi using [AppsAnywhere](https://appsanywhere.stir.ac.uk/).
 For your personal devices, you can [download Jamovi here](https://www.jamovi.org/download.html) (recommended).
-You can also run jamovi [from a browser](https://www.jamovi.org/cloud.html), but there are currently some time limitations for doing this (sessions are limited to 45 minutes).
+You can also run jamovi [from a browser](https://www.jamovi.org/cloud.html), but there are currently some time limitations for doing this (sessions are limited to 45 minutes, unless you are willing to pay 7 pounds monthly).
 
 This module will also introduce R, although we will not really use R by itself until [Week 11](#Week_11).
 Prior to [Week 11](#Week_11), there will be a few R commands scattered throughout lab practicals to ease you into it and accomplish some very specific tasks (e.g., generating random numbers).
@@ -325,16 +326,17 @@ This book was entirely written in R using software called "Rmarkdown" and "[Pand
 
 ## Timetable {-#timetable}
 
-```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2023."}
+```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2025."}
 schedule <- read.csv("data/schedule.csv");
 knitr::kable(schedule, format = "simple", table.envir = "table",
-             caption = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2024.");
+             caption = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2025.");
 ```
 
 
 ## License {-#license}
 
-This book is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). 
+This book is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+It is version of a [more general textbook](https://bradduthie.github.io/stats/) available online and [in print](https://www.routledge.com/Fundamental-Statistical-Concepts-and-Techniques-in-the-Biological-and-Environmental-Sciences-With-jamovi/Duthie/p/book/9781032687186) from CRC Press.
 You can copy and redistribute this material however you want as long as you give credit to the authors, a copyright notice, a link to the original book, and an indication if the material has been modified.
 You may not use this material for commercial purposes.
 

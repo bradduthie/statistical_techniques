@@ -4,23 +4,49 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 25 March 2024 - 29 MAR 2024                            |
+| **Dates**       | 24 March 2025 - 28 MAR 2025                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 31 and 32      |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Spiegelhalter2019 (Chapter 5)              |
 |                 | **Advanced:**   @Morrissey2018 ([Download](https://quod.lib.umich.edu/cgi/t/text/text-idx?cc=ptpbio;c=ptb;c=ptpbio;idno=16039257.0010.003;view=text;rgn=main;xc=1;g=ptpbiog))                                    |
-| **Lectures**    | 10.1: Regression key concepts (15:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=86ccca63-d023-474d-9f09-b0ed011c1531))     |
-|                 | 10.2: Regression validity (14:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5c0a484d-e338-49ce-8916-b0ed011c39a8))                      |
-|                 | 10.3: Introduction to multiple regression (14:59 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1fbcae18-41cb-46f3-ac36-b0ed011c50a3))                      |
-|                 | 10.4: Regression in jamovi (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=817901c5-89d0-477b-bf48-b0ed0126bba5))                      |
-| **Practical**   | Using regression ([Chapter 33](#Chapter_33)) |
-|                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 27 MAR 2024 (WED) 09:05-11:55                 |
-|                 | Group B: 28 MAR 2024 (THU) 12:05-14:55                 |
+| **Lectures**    | 10.1: Regression key concepts (15:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=837cfb1b-1064-4377-85c7-b2620126b731))     |
+|                 | 10.2: Regression validity (14:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=10a64a68-9d4d-48f5-9233-b2620126aede))                      |
+|                 | 10.3: Introduction to multiple regression (14:59 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cc872a00-81b0-48d1-b059-b2620126967c))                      |
+|                 | 10.4: Regression in jamovi (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8a837992-de39-4018-b86a-b26201266fbd))                      |
+| **Lecture**     | Lecture: 26 MAR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Using regression ([Chapter 34](#Chapter_34)) |
+|                 | Room: Cottrell 2A15                                    |
+|                 | Group A: 26 MAR 2025 (WED) 10:00-13:00                 |
+|                 | Group B: 27 MAR 2025 (THU) 15:00-18:00                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 2A21                                    |
-|                 | 29 MAR 2024 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 10 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35443) on Canvas                     |
+|                 | Room: Cottrell 2Y8                                     |
+|                 | 28 MAR 2025 (FRI) 14:00-16:00                          |
+| **Assessments** | [Week 10 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40219) on Canvas                     |
+
+Week 10 introduces linear regression and multiple regression.
+
+[Chapter 32](#Chapter_32) uses a concrete example of fig fruit volumes across different latitudes to illustrate the key concepts of simple linear regression (i.e., regression with only one independent variable). 
+This chapter leads with a visual interpretation of regression using a scatterplot to define the intercept, slope, and residual values in a linear regression model. 
+This visual interpretation leads into the regression equation and how to interpret regression coefficients. 
+Next, Chapter 32 introduces the coefficient of determination as a statistic to summarise how good any given linear model is at predicting the dependent variable. 
+This chapter also introduces assumptions of regression coefficients, what hypothesis tests can be conducted using linear regression, and how to use linear regression to make predictions. 
+Assumptions include that independent variable measurement is completely accurate, that the relationship between independent and dependent variables is linear, that residuals are normally distributed, and that residuals have equal variance.
+Sections focus on how to interpret significance of the overall regression model, along with the intercept and slope, and where to find model output in jamovi.
+The chapter finishes with a section on how to predict fig fruit volume from tree latitude.
+
+[Chapter 33](#Chapter_33) extends the concept of simple linear regression to multiple regression, which is defined by the existence of more than one independent variable. 
+This chapter explains what happens when multiple independent variables are included in a linear regression model, and especially how to interpret (partial) regression coefficients in multiple regression, and why they differ from the regression coefficients calculated in simple linear regression. 
+The chapter illustrates an output table for a multiple regression model and discusses how to interpret it correctly.
+The chapter then concludes by introducing a coefficient of determination that adjusts for multiple independent variables, and explains how to find and interpret the coefficient of determination in jamovi.
+
+[Chapter 34](#Chapter_34) demonstrates how to run simple and multiple linear regression models in jamovi. 
+This chapter includes five exercises and uses a dataset that is inspired by ongoing work to understand how pyrogenic carbon is stored in soils. 
+Pyrogenic carbon is produced when biomass is burned and becomes sequestered in soil. 
+Exercises in this chapter test whether or not environmental variables (e.g., rainfall and soil depth) are significant for predicting the concentration of pyrogenic carbon in soils. 
+The chapter starts with an simple linear regression model to predict pyrogenic carbon from soil depth; it demonstrates how to test linear model assumptions and report and interpret model output. 
+This first exercise is followed by another simple linear model exercise predicting pyrogenic carbon from fire frequency before introducing an exercise on multiple regression that includes both soil depth and fire frequency as independent variables.
+This multiple regression exercise focuses on how to report and interpret partial regression coefficients, and contrasts the multiple regression with the first two simple lienar regressions. 
+The chapter finishes with a large multiple regression that includes three independent variables. 
 
 
 # Simple linear regression {#Chapter_32}

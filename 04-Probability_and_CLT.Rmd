@@ -4,40 +4,60 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 12 February 2024 - 16 February 2024 |
+| **Dates**       | 10 February 2025 - 14 February 2025 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 14 and 15  |
 |                 | **Recommended:** @Navarro2022 [Chapter 7](https://davidfoxcroft.github.io/lsj-book/07-Introduction-to-probability.html)    |
 |                 | **Suggested:**  @Rowntree2018 Chapter 4 |
 |                 | **Advanced:** None                      |
-| **Lectures**    | 4.1: What is probability? (16:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=750a1583-83ba-472b-a867-b0ed0120eca8)) |
-|                 | 4.2: Adding and multiplying probabilities (16:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f81b4f7d-99e0-4e93-9fed-b0ed01210b9a)) |
-|                 | 4.3: Probability distributions (15:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=b6561815-fa5f-4ebb-9ab3-b0ed01212c21)) |
-|                 | 4.4: The normal distribution (15:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2c296c4e-6044-428c-82f1-b0ed0121e50b)) |
-|                 | 4.5: z-scores (5:12 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cb3fc88e-6eed-4a05-974f-b0ed01220556)) |
-|                 | 4.6: Examples using z-scores (13:22 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=69cff79b-acc4-4b78-be55-b0ed01222229)) |
-|                 | 4.7: More examples using z-scores (9:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4f2ff879-e351-4c45-bd2b-b0ed01224310))  |
-|                 | 4.8: The binomial distribution (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=003bc518-cc89-4909-8441-b0ed01226260)) |
-|                 | 4.9: The Poisson distribution (12:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ab851d4f-4501-4c35-8b27-b0ed01226b7e)) |
-|                 | 4.10: The central limit theorem (5:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cb1a43fd-786b-494c-bd5a-b0ed01228aca)) |
-|                 | 4.11: z-score tables (14:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=543ee873-4cdf-4a79-81c2-b0ed01229d63)) |
-| **Practical**   | Probability and simulation ([Chapter 16](#Chapter_16))       |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 14 FEB 2024 (WED) 09:05-11:55 |
-|                 |   Group B: 15 FEB 2024 (THU) 12:05-14:55 |
-| **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 2A21           |
-|                 |   16 FEB 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35458) on Canvas  |
+| **Lectures**    | 4.1: What is probability? (16:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=54b95a45-bb1d-45b1-964b-b262011f323d)) |
+|                 | 4.2: Adding and multiplying probabilities (16:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=37a31ba1-9320-4db8-81a5-b262011f1eb5)) |
+|                 | 4.3: Probability distributions (15:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=709e6212-651e-4101-8e86-b262011f1058)) |
+|                 | 4.4: The normal distribution (15:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=707e2cf1-ad1e-48bd-b304-b262011ef037)) |
+|                 | 4.5: z-scores (5:12 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6161ed17-c35f-41dd-8628-b262011f05ed)) |
+|                 | 4.6: Examples using z-scores (13:22 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=48167607-5e7e-4a04-a2ba-b262011ee9de)) |
+|                 | 4.7: More examples using z-scores (9:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=adb383ad-7a42-4211-bb6a-b262011edaac))  |
+|                 | 4.8: The binomial distribution (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6461e8a9-f362-406f-80f9-b262011ecda5)) |
+|                 | 4.9: The Poisson distribution (12:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=27ce4639-84ba-4a25-8df5-b262011ea5ef)) |
+|                 | 4.10: The central limit theorem (5:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4c3d8bb9-0268-46e7-9c37-b262011eb56e)) |
+|                 | 4.11: z-score tables (14:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=802680d5-6465-4d68-b53c-b262011e9382)) |
+| **Lecture**     | Lecture: 12 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Probability and simulation ([Chapter 17](#Chapter_17))       |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 12 FEB 2025 (WED) 10:00-13:00 |
+|                 |   Group B: 13 FEB 2025 (THU) 15:00-18:00 |
+| **Help hours**  | Brad Duthie                      |
+|                 |   Room: Cottrell 2Y8             |
+|                 |   14 FEB 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40224) on Canvas  |
 
 Week 4 focuses on probability and the central limit theorem.
 
-[Chapter 14](#Chapter_14) introduces probability models and how to interpret them.
-The chapter also provides some examples of probability distributions that are especially relevant to biological and environmental sciences.
+[Chapter 15](#Chapter_15) introduces probability models and how to interpret them. 
+The chapter also provides some examples of probability distributions that are especially relevant to biological and environmental sciences. 
+It leads with an instructive example of coin flipping to explain the concept of independent trials and when to multiply versus add probabilities. 
+Notation for expressing probabilities is introduced. 
+From the simple coin flipping example, biological applications are provided to illustrate how probability is applied in science. 
+Sampling with versus without replacement is then explained using playing cards. Lastly, probability distributions are introduced. 
+These probability distributions include the binomial distribution, the Poisson distribution, the uniform distribution, and the normal distribution. 
+Figures are used to show the shapes of each distribution, and the parameter values for each are introduced. 
+The section clarifies the discrete distributions described by a probability mass function (binomial and Poisson) versus the continuous distributions described by a probability density function (uniform and normal).
 
-[Chapter 15](#Chapter_15) focuses on the central limit theorem (CLT), what it is, and why it is so important in statistics.
+[Chapter 16](#Chapter_16) the introduces the central limit theorem (CLT). 
+It focuses on what the CLT is and why it is so important in statistics. 
+As with most topics in this book, the goal here is conceptual understanding. 
+The key idea is that the distribution of sample means is always expected to be normally distributed, and this chapter demonstrates this principle using the distributions introduced in Chapter 15. 
+For the binomial, Poisson, and uniform distributions, data are simulated and the distribution of means from multiple sets simulated data are presented side-by-side the distribution to demonstrate the CLT. 
+Chapter 16 also introduces standard normal deviates (z-scores) and how they relate to probability. 
+It explains how total probability under the curve of a normal distribution equals 1, and that variables can be standardised to a standard normal distribution by subtracting the mean of the distribution and dividing by the standard deviation.
 
-[Chapter 16](#Chapter_16) guides you through the week 4 practical.
-The aim of this practical is to apply the ideas from [Chapter 14](#Chapter_14) and [Chapter 15](#Chapter_15) in jamovi to predict probabilities from a real dataset.
+[Chapter 17](#Chapter_17) guides the reader through applying the ideas from Chapter 15 and Chapter 16 in jamovi to predict probabilities from a real dataset. 
+This chapter includes 3 exercises, which focus on calculating probabilities from a dataset and the normal distribution, and demonstrating the CLT with simulated data. 
+It also introduces modules in jamovi, and how they can be downloaded and used. 
+Jamovi modules include the distrACTION and Rj Editor modules. 
+The first two exercises in this chapter use a hypothetical dataset collected from a mobile game about decision-making in sustainable development. 
+This dataset includes game player decisions on dam construction and subsequent development on the game landscape, and the scores of players at the end of the game. 
+Probabilities of different player decisions are inferred from the data, and probabilities of player scores are predicted from a normal distribution using the distrACTION module. 
+In the final exercise, some code is used in the Rj Editor to simulate data and illustrate the central limit theorem.
 
 
 # Introduction to probability models {#Chapter_15}

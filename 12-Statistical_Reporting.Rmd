@@ -4,21 +4,30 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 8 April 2024 - 11 April 2024                            |
+| **Dates**       | 07 April 2025 - 11 April 2025                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapter 36              |
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  @Turbek2016 ([Download](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/bes2.1258))                                    |
 |                 | **Advanced:**   @Steidl1997 ([Download](https://www.jstor.org/stable/pdf/3802582.pdf?refreqid=excelsior%3A01cc2ff747e32275fde09721461a862c&ab_segments=&origin=&initiator=&acceptTC=1))                                    | 
-| **Lectures**    | 12.1: Reporting statistics (21:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7165b0e6-7c92-4c0b-bbdc-b0ed011d63b0))     |
-|                 | 12.2: Getting started with R (18:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=964bba8b-f1dd-45cd-8008-b0ed011d841d))                      |
-| **Practical**   | Statistical techniques in R ([Chapter 37](#Chapter_37)) |
-|                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 10 APR 2024 (WED) 09:05-11:55                 |
-|                 | Group B: 11 APR 2024 (THU) 12:05-13:55                 |
+| **Lectures**    | 12.1: Reporting statistics (21:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=40454e25-abf8-4dd7-8dc0-b26201282fba))     |
+|                 | 12.2: Getting started with R (18:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95d5bcc3-95a7-4b97-9afb-b26201282f91))                      |
+| **Lecture**     | Lecture: 09 APR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Statistical techniques in R ([Chapter 38](#Chapter_38)) |
+|                 | Room: Cottrell 2A15                                    |
+|                 | Group A: 09 APR 2025 (WED) 10:00-13:00                 |
+|                 | Group B: 10 APR 2025 (THU) 15:00-18:00                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 2A21                                    |
-|                 | 12 APR 2024 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35452) on Canvas                     |
+|                 | Room: Cottrell 2Y8                                     |
+|                 | 11 APR 2025 (FRI) 14:00-16:00                          |
+| **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40233) on Canvas                     |
+
+
+[Chapter 37](#Chapter_37) introduces statistical report and how to report the statistics that have been introduced in earlier chapters.
+
+[Chapter 38](#Chapter_38) demonstrates how to run statistical tests introduced with jamovi in earlier chapters with R.
+
+
+
 
 # Reporting statistics {#Chapter_37}
 

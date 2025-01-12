@@ -10,50 +10,73 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 5 February 2024 - 9 February 2024 |
+| **Dates**       | 03 February 2025 - 07 February 2025 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 9-12  |
 |                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
 |                 | **Suggested:** @Rowntree2018 Chapter 3 |
 |                 | **Advanced:** None
-| **Lectures**    | 3.0: Decimal places and significant figures part 1 (7:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=905376e4-a4a3-4688-9529-b0ed01195bb5)) |
-|                 | 3.1: Decimal places and significant figures part 2 (7:08 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=dc794e67-9eb7-4218-9e66-b0ed011972f2)) |
-|                 | 3.2: Graphs (10:29 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c55ca4bd-1c90-4577-b296-b0ed0119c927)) |
-|                 | 3.3: Box-whisker plots (8:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=56075b39-5f0d-4266-8c9b-b0ed0119e942)) |
-|                 | 3.4: The mean (16:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=daefd4eb-1ec2-4d88-94ee-b0ed01198625)) |
-|                 | 3.5: The mode (6:54 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=54d68d9f-776d-4055-beab-b0ed011e918a)) |
-|                 | 3.6: The median and quantiles (8:04 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6951de51-f20c-4818-835d-b0ed0119a947)) |
-|                 | 3.7: Mean, mode, median, and resistance (8:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a332afef-d366-4bef-aebb-b0ed0119bb75)) |
-|                 | 3.8: The variance (9:40 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8776c109-2d87-425f-bbdf-b0ed0119fb99)) |
-|                 | 3.9: The standard deviation (6:17  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3428b533-3437-41dc-a7db-b0ed011a10ed)) |
-|                 | 3.10: Other measures of spread (7:46  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5a175e42-1296-4d69-bd93-b0ed011a26d6)) |
-|                 | 3.11: Standard error (13:23  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5c2ed9ea-d433-4fa9-a742-b0ed011a3a6c)) |
-| **Practical**   | Plotting and statistical summaries ([Chapter 13](#Chapter_13))       |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 07 FEB 2024 (WED) 09:05-11:55 |
-|                 |   Group B: 08 FEB 2024 (THU) 12:05-14:55 |
-| **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 2A21           |
-|                 |   09 FEB 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35451) on Canvas  |
+| **Lectures**    | 3.0: Decimal places and significant figures part 1 (7:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=eb8cfc0b-84e2-4f0c-95fc-b262011d5348)) |
+|                 | 3.1: Decimal places and significant figures part 2 (7:08 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e13a4127-3667-4882-85da-b262011d2f07)) |
+|                 | 3.2: Graphs (10:29 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8382c91-fc48-4d17-85b3-b262011d2187)) |
+|                 | 3.3: Box-whisker plots (8:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d31a04f-807a-4a96-99ee-b262011d14d2)) |
+|                 | 3.4: The mean (16:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b471ee8-22eb-4d9e-bb6b-b262011d0978)) |
+|                 | 3.5: The mode (6:54 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=923b77cf-5430-4753-8d51-b262011cff0d)) |
+|                 | 3.6: The median and quantiles (8:04 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=257b94c3-6c28-450e-8f8c-b262011cf7fa)) |
+|                 | 3.7: Mean, mode, median, and resistance (8:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f7c7c1c8-32ef-4c72-8ddd-b262011cef15)) |
+|                 | 3.8: The variance (9:40 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b53f765-475b-49c6-9827-b262011cdd47)) |
+|                 | 3.9: The standard deviation (6:17  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fe532cfc-bc3d-46a2-acc3-b262011cd4eb)) |
+|                 | 3.10: Other measures of spread (7:46  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a00741fe-22e1-4f77-a659-b262011ccb15)) |
+|                 | 3.11: Standard error (13:23  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1a4f15ff-2d3e-4da2-bd55-b262011cc039)) |
+| **Lecture**     | Careers session: 05 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Plotting and statistical summaries ([Chapter 14](#Chapter_14))       |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 05 FEB 2025 (WED) 10:00-13:00 |
+|                 |   Group B: 06 FEB 2025 (THU) 15:00-18:00 |
+| **Help hours**  | Brad Duthie                       |
+|                 |   Room: Cottrell 2Y8           |
+|                 |   07 FEB 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40223) on Canvas  |
 
 Week 3 focuses on descriptive statistics, how to report them, interpret them, and communicate them with graphs.
 
-[Chapter 9](#Chapter_9) focuses on how to report numbers with accuracy and precision.
-In practice, this means reporting values with the correct number of digits (decimal places and significant figures), and rounding appropriately.
+[Chapter 9](#Chapter_9) focuses on how to interpret numbers with the correct degree of accuracy and precision. 
+In practice, this means interpreting values with the correct number of digits (decimal places and significant figures), and rounding appropriately. 
+It is important to ensure that data are not interpreted or reported has having a higher degree of accuracy or precision than is justified by measurement. 
+This chapter provides numerical examples and shows the number of decimal places and significant figures for each, and it provides instructions and examples for how to round to a specific number of significant figures.
 
 [Chapter 10](#Chapter_10) introduces different types of graphs for communicating data visually. 
-The chapter focuses specifically on histograms, pie charts, barplots, and box-whisker plots.
+The chapter focuses specifically on histograms, pie charts, barplots, and box-whisker plots. 
+It explains what type of plot is appropriate for a given type of variable (see [Chapter 5](#Chapter_5)). 
+Specifically, histograms are shown to be applied to continuous data. 
+Barplots and pie charts are shown as useful for categorical data (with a preference for barplots in most cases in the biological and environmental sciences), and box-whisker plots (i.e., boxplots) are presented as a means to show summary statistics for multiple variances simultaneously.
 
-[Chapter 11](#Chapter_11) introduces measures of central tendency.
-These are measures that describe the centre of the data using a single number.
-Measures of central tendency in this chapter include the mean, the mode, the median, and quantiles.
+[Chapter 11](#Chapter_11) introduces the first type of summary statistics with measures of central tendency. 
+These are measures that describe the centre of the data using a single number. 
+Measures of central tendency in this chapter include the mean, the mode, the median, and quantiles. 
+For each measure of central tendancy, examples are provided with real numbers, and new mathematical notation is introduced to explain the mean (summation and indexing). 
+The ways in which the word 'mode' is used are explained, and instructions are given with examples for calculating the median and quantiles.
 
-[Chapter 12](#Chapter_12) introduces on measures of spread.
-In contrast to measures of central tendency, which focus on the centre of a dataset, measures of spread focus on how much the data are spread out.
-Measures of spread in this chapter in clude the range, the inter-quartile range, the variance, the standard deviation, the coefficient of variation, and the standard error.
+[Chapter 12](#Chapter_12) introduces measures of spread. 
+In contrast to measures of central tendency, which focus on the centre of a dataset, measures of spread focus on how much the data are spread out. 
+Measures of spread in this chapter include the range, the inter-quartile range, the variance, the standard deviation, the coefficient of variation, and the standard error. 
+For all measures of spread, an example with real numbers is provided. 
+The range is first explained as the maximum value of a variable minus the minimum value. 
+Inter-quartile range (IQR) is then explained as the third quartile minus the first quartile. 
+A considerable amount of text is then used to explain the variance, with a focus on calculating the sum of squares and the need to account for correct degrees of freedom. 
+Degrees of freedom is then explained in general terms. 
+The standard deviation and the coefficient of variation are then presented with a brief explanation of when and why they are used. 
+Lastly, the standard error is explained and noted as being a bit different from the other measurements in that it is measuring the standard deviation of the sample means around the true mean.
 
-[Chapter 13](#Chapter_13) guides you through the week 3 practical. 
-The aim of this practical is to learn how to use jamovi to generate plots introduced in [Chapter 10](#Chapter_10), and to find measures of central tendency and spread introduced in [Chapter 11](#Chapter_11) and [Chapter 12](#Chapter_12), respectively, and report them accurately using the knowledge from [Chapter 9](#Chapter_9).
+[Chapter 13](#Chapter_13) explains the concepts of skew and kurtosis, and statistical moments. 
+This chapter emphasises how to recognise from a histogram when data are left or right skewed, or when data are leptokurtic or platykurtic. 
+It also explains why the second, third, and fourth moments identify the variance, skew, and kurtosis, respectively. 
+The third and fourth moment are shown in the context of the equation for variance to help link the key concepts of this chapter with prior material.
+
+[Chapter 14](#Chapter_14) is a guide to using jamovi for making plots introduced in Chapter 10, specifically histograms and box-whisker plots. 
+It also focuses on finding measures of central tendency and spread introduced in Chapter 11 and Chapter 12, respectively, in jamovi, and reporting them accurately using the knowledge from Chapter 9. 
+Five exercises are introduced in total. 
+These exercises use hypothetical measurements of petiole diameter from the white water lily (*Nymphaea alba*), which is found in different sites across Scotland. 
+Exercises rely on the Descriptives option in jamovi for plotting and calculating summary statistics.
 
 
 # Decimal places, significant figures, and rounding {#Chapter_9}

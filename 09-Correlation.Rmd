@@ -4,25 +4,57 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 18 March 2024 - 22 MAR 2024                            |
+| **Dates**       | 17 March 2025 - 21 MAR 2025                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 28 and 29      |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Rowntree2018 (Chapter 8)              |
 |                 | **Advanced:**   @Rodgers1988 ([Download](https://www.stat.berkeley.edu/~rabbee/correlation.pdf))                                    |
-| **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=68b0636f-2183-42fb-8e0a-b0ed011b79ae))     |
-|                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c1db082d-43be-4593-9939-b0ed011b9aa5))                      |
-|                 | 9.3: Chi-squared test of association (16:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=01e0aef0-6984-49ca-8dd9-b0ed011bc29b))     |
-|                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c62852f1-12ab-47af-b2f4-b0ed011bd278))     |
-|                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ca4a9824-f8b9-483b-84b1-b0ed011beedb))                        |
-|                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1ba4c9c5-e019-406f-9c24-b0ed01251e1c))                        |
-| **Practical**   | Analysis of counts and correlations ([Chapter 30](#Chapter_30)) |
-|                 | Room: Cottrell 2A17                                    |
-|                 | Group A: 20 MAR 2024 (WED) 09:05-11:55                 |
-|                 | Group B: 21 MAR 2024 (THU) 12:05-14:55                 |
+| **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c1d88524-703a-4d9c-8acf-b262012515d7))     |
+|                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=22a0833e-5130-4f4c-a3e7-b2620124ff48))                      |
+|                 | 9.3: Chi-squared test of association (16:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0d02d907-1297-4535-86e7-b2620124fdf0))     |
+|                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a06d2f8d-cd32-400c-8192-b2620124f5ba))     |
+|                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0ea2d074-65b6-4121-a4a4-b2620124f480))                        |
+|                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=59cf95e3-8473-47cf-ad30-b26201246367))                        |
+| **Lecture**     | Lecture: 19 MAR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Practical**   | Analysis of counts and correlations ([Chapter 31](#Chapter_31)) |
+|                 | Room: Cottrell 2A15                                    |
+|                 | Group A: 19 MAR 2025 (WED) 10:00-13:00                 |
+|                 | Group B: 20 MAR 2025 (THU) 15:00-18:00                 |
 | **Help hours**  | Martina Quaggiotto and Brad Duthie                     |
-|                 | Room: Cottrell 1A13                                    |
-|                 | 22 MAR 2024 (FRI) 15:05-17:55                          |
-| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35447) on Canvas                     |
+|                 | Room: Cottrell 2Y8                                     |
+|                 | 21 MAR 2025 (FRI) 14:00-16:00                          |
+| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40228) on Canvas                     |
+
+
+Week 9 introduces count data and correlations, and how to interpret scatterplots.
+
+[Chapter 29](#Chapter_29) focuses on count data. 
+Count data are defined by natural numbers of discrete entities (e.g., the number of trees or birds in a site). 
+We can test statistical hypotheses on count data using a Chi-square (chi-square) distribution, which is introduced in the first part of the chapter. 
+Like the t-distribution and F-distribution, the Chi-square distribution also appears in many places in statistics. 
+In this chapter, applications of the Chi-squared distribution are the Chi-squared goodness of fit test, which tests if observed counts are significant different from some expectation, and the Chi-square test of association, which tests if counts of two different categories are associated. 
+A simple example with real numbers introduces the Chi-square, followed by goodness of fit tests and tests of association using player decision-making data originally introduced in [Chapter 17](#Chapter_17).
+
+[Chapter 30](#Chapter_30) focuses on continuous data. 
+Continuous data can take any real value (e.g., body length or mass). 
+Association between two continuous variables can be calculated as a correlation. 
+This chapter introduces correlation, how it can be visualised using a scatterplot and defined mathematically as the correlation coefficient. 
+Two different correlation coefficients are introduced, then a test is introduced to reject or not reject the null hypothesis that two variables are uncorrelated. 
+This test of the correlation coefficient relies on the t-distribution, which was introduced in Chapter 19. 
+Example data for this chapter include morphological measurements from two species of non-pollinating fig wasps. 
+From these data, the chapter demonstraates how to calculate the Pearson product-moment correlation coefficient and the Spearman's rank correlation coefficient. 
+Jamovi output for a correlation matrix is shown with an explanation of how to correctly interpret it.
+	
+[Chapter 31](#Chapter_31) demonstrates how to use jamovi to run and correctly interpret output for the Chi-square tests introduced in Chapter 29 and correlation tests introduced in Chapter 30. 
+It includes six exercises, which focus on the Chi-square goodness of fit, the Chi-square test of association, and tests of the correlation coefficient. 
+Exercises use a dataset that is inspired by experimental work testing the effects of radiation on bumblebee traits. 
+The first exercise works through a very simple goodness of fit test by hand, demonstrating the calculations needed to obtain a Chi-square test statistic. 
+Jamovi is then used to recreate the hand calculations, and this is followed by another goodness of fit exercise and a test of association between bumblebee colony and survival. 
+How to make scatterplots is then illustrated in jamovi using bumblebee mass and carbon dioxide output. 
+Exercises then demonstrate out to calculate Pearson product moment correlation coefficients and Spearman rank correlation coefficients in jamovi. 
+The chapter ends with an example of how to run a goodness of fit test in a simplified way with data that are not in a tidy format.
+
+
 
 # Frequency and count data {#Chapter_29}
 

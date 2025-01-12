@@ -10,44 +10,55 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 29 January 2024 - 2 February 2024 |
+| **Dates**       | 27 January 2025 - 31 January 2025 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 4-7  |
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Suggested:** @Rowntree2018 Chapter 2 |
 |                 | **Advanced:** None
-| **Lectures**    | 2.0: Why study statistics? (18:13 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2a882cde-c91d-46d4-a69d-b0ed0107c153)) |
-|                 | 2.1: Populations and samples (6:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b8661bd-b566-4227-ad70-b0ed0119452f)) |
-|                 | 2.2: Types of variables (11:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bbfc830c-a632-4947-b4de-b0ed01194a61)) |
-|                 | 2.3: Units, precision, and accuracy (9:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3de0741e-d4fc-48fb-bf2d-b0ed01194e67)) |
-|                 | 2.4: Uncertainty propagation (11:44 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=50f78ab7-d337-423f-baf1-b0ed01195356)) |
+| **Lectures**    | 2.0: Why study statistics? (18:13 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=db80785e-2839-4872-ba79-b262011b6d67)) |
+|                 | 2.1: Populations and samples (6:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9f00fc7d-a435-46c0-84a5-b262011b5573)) |
+|                 | 2.2: Types of variables (11:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f085a75c-c4d9-4f70-a5e4-b262011b4384)) |
+|                 | 2.3: Units, precision, and accuracy (9:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=67f1241d-dad2-4006-b3f0-b262011b33d3)) |
+|                 | 2.4: Uncertainty propagation (11:44 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ece6c7c8-cae4-4079-9ceb-b262011b339c)) |
+| **Lecture**     | Study skills: 29 JAN 2025 (WED) 09:00-10:00 Cottrell LT B4 |
 | **Practical**   | Introduction to jamovi ([Chapter 8](#Chapter_8))        |
-|                 |   Room: Cottrell 2A17         |
-|                 |   Group A: 31 JAN 2024 (WED) 09:05-11:55 |
-|                 |   Group B: 01 FEB 2024 (THU) 12:05-14:55 |
-| **Help hours**  | Ian Jones                       |
-|                 |   Room: Cottrell 2A21           |
-|                 |   02 FEB 2024 (FRI) 15:05-17:55 |
-| **Assessments** | [Week 2 Practice quiz](https://canvas.stir.ac.uk/courses/14932/quizzes/35439) on Canvas  |
+|                 |   Room: Cottrell 2A15         |
+|                 |   Group A: 29 JAN 2025 (WED) 10:00-13:00 |
+|                 |   Group B: 30 JAN 2025 (THU) 15:00-18:00 |
+| **Help hours**  | Brad Duthie                       |
+|                 |   Room: Cottrell 2Y8           |
+|                 |   31 JAN 2025 (FRI) 14:00-16:00 |
+| **Assessments** | [Week 2 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40234) on Canvas  |
 
 
 Week 2 focuses on general statistical concepts, data, and measurement.
 
-[Chapter 4](#Chapter_4) focuses on key concepts that will be used throughout this module.
-In particular, it is important to understand the difference between a **population** and a **sample**, and to recognise that there are many types of variables in statistics.
+[Chapter 4](#Chapter_4) focuses on key statistical concepts that will be used throughout this book. 
+In particular, it is important to understand the difference between a **population** and a **sample**, and to recognise that there are many types of variables in statistics. 
+Examples of populations and samples are provided, along with key definitions and a distinction from how terminology is used in the life sciences.
 
-[Chapter 5](#Chapter_5) introduces different variable types. Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester.
-A variable's type will rarely be stated explicitly when doing scientific research, and will not always be provided in assessments for this module.
-Being able to infer variable type is therefore an important skill.
+[Chapter 5](#Chapter_5) introduces different variable types. 
+Different types of variables have different characteristics, which will affect how these variables are best visualised in figures and analysed with statistical hypothesis tests introduced later in the semester. 
+A variable's type will rarely be stated explicitly when doing scientific research. 
+Being able to infer variable type is therefore an important skill. 
+Types of variables introduced include Categorical (nominal and ordinal) and Quantitative (discrete and continuous).
 
-[Chapter 6](#Chapter_6) focuses on units of measurement, and how these units are communicated in text.
-Units are essential in scientific measurement, and we will use them throughout the module to indicate the type and scale of data measurement.
-We are not expecting you to memorise all scientific units, so a [table on units](#appendixA_units) is provided.
+[Chapter 6](#Chapter_6) summarises what accuracy and precision are in measurement, and and different types of units. 
+It focuses on units of measurement, and how these units are communicated in text. 
+Units are essential in scientific measurement, and we will use them throughout the book to indicate the type and scale of data measurement. 
+This chapter makes the distinction between base and derived SI units.
 
-[Chapter 7](#Chapter_7) will introduce the propagation of measurement errors.
+[Chapter 7](#Chapter_7) introduces the propagation of measurement errors. 
 This is important to understand because no measurement is perfectly accurate, and predicting how errors in measurement combine is fundamental to understanding measurement accuracy.
+Equations are provided for adding and subtracting errors, and for multiplying and dividing errors. 
+An appendix provides the derivation for adding and subtracting, and multiplying and dividing, measurement errors.
 
-[Chapter 8](#Chapter_8) guides you through the Week 2 practical, which is an introduction to jamovi.
-This aim of this practical is to become familiar with the jamovi interface and comfortable importing data into jamovi to collect some descriptive statistics.
+[Chapter 8](#Chapter_8) guides the reader through an introduction to jamovi. 
+This aim of this chapter is to help the reader become familiar with the jamovi interface and comfortable importing data into jamovi to collect some descriptive statistics. 
+Exercises in this practical use two datasets. 
+The first dataset includes some hypothetical measurements of soil organic carbon, as might be collected in the field.
+The second dataset includes measurements of fig dimensions from the same Sonoran Desert Rock Fig (*Ficus petiolaris*) system used in [Chapter 3](#Chapter_3). 
+Three exercises introduce some very basic summary statistics (minimum, mean, and maximum), and demonstrate how to transform variables and compute new variables in jamovi.
 
 # Populations and samples {#Chapter_4}
 
