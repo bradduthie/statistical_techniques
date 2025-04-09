@@ -15,7 +15,7 @@
 | **Practical**   | Statistical techniques in R ([Chapter 38](#Chapter_38)) |
 |                 | Room: Cottrell 2A15                                    |
 |                 | Group A: 09 APR 2025 (WED) 10:00-13:00                 |
-|                 | Group B: 10 APR 2025 (THU) 15:00-18:00                 |
+|                 | Group B: 10 APR 2025 (THU) 09:00-12:00                 |
 | **Help hours**  |  Brad Duthie                                           |
 |                 | Room: Cottrell 2Y8                                     |
 |                 | 11 APR 2025 (FRI) 14:00-16:00                          |
@@ -432,13 +432,13 @@ anova(two_way_aov);
 Note that the code above looks very similar to our one way ANOVA. 
 Now we are just adding a new independent variable with the `+` sign, and adding an interaction between species and island, which is written as `species:year`. 
 
-> Task 7: Use the code above to run a two way ANOVA. Determine whether or not the the main effects of the model (species and sex) are significant, and whether the interaction terms are significant.
+> Task 7: Use the code above to run a two way ANOVA. Determine whether or not the the main effects of the model (species and year) are significant, and whether the interaction terms are significant.
 
 Significance: 
 
 Species? __________  
 
-Sex? _____________ 
+Year? _____________ 
 
 Interaction? _____________
 
