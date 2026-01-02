@@ -4,25 +4,22 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 10 March 2025 - 14 MAR 2025 |
+| **Dates**       | 09 March 2026 - 13 MAR 2026 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 23-25 |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 13](https://davidfoxcroft.github.io/lsj-book/13-Comparing-several-means-one-way-ANOVA.html))   |
 |                 | **Suggested:** @Rowntree2018 (Chapter 7)     |
 |                 | **Advanced:**  @Head2015 ([Download](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002106))        |
-| **Lectures**    | 8.1: What is ANOVA? (15:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95251b9a-a0a8-467d-b0c7-b26201234db9)) |
-|                 | 8.2: One Way ANOVA (16:51 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d9884bbb-6d86-40e3-8d37-b26201233ae9)) |
-|                 | 8.3: Two Way ANOVA (17:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d12f58f6-0de9-43a3-bdac-b26201233420)) |
-|                 | 8.4: Kruskal-Wallis H Test (6:37 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=663ae01e-4949-49f0-84f2-b26201232435)) |
-| **Lecture**     | Test Review: 12 MAR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Analysis of Variance. MON 09 MAR 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | Test review session. WED 11 MAR 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | ANOVA and associated tests ([Chapter 28](#Chapter_28))       |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 12 MAR 2025 (WED) 14:00-17:00 |
-|                 |   Group B: 13 MAR 2025 (THU) 15:00-18:00 |
+|                 |   Group A: 11 MAR 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 12 MAR 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Martina Quaggiotto                       |
-|                 |   Room: Cottrell 2Y8           |
-|                 |   14 MAR 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40226) on Canvas  |
-|                 | [Test 1S](https://canvas.stir.ac.uk/courses/17581/quizzes/40241) on Canvas (12 MAR 2025 at 11:00-13:00) |
+|                 |   Room: Cottrell 1A11           |
+|                 |   13 MAR 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 8 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44188) on Canvas  |
+|                 | [Test 1S](https://canvas.stir.ac.uk/courses/19303/quizzes/44182) on Canvas (11 MAR 2026 at 15:00-17:00) |
 
 
 Week 8 introduces ANalysis Of VAriance (ANOVA) and related methods, all of which focus on testing whether or not multiple groups in a dataset have the same mean.

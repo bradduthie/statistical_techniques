@@ -10,25 +10,21 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 20 January 2025 - 24 January 2025 |
+| **Dates**       | 19 January 2026 - 23 January 2026 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 1-2  |
 |                 | **Recommended:** None
 |                 | **Suggested:** @Navarro2022 [Section 2.1](https://davidfoxcroft.github.io/lsj-book/02-A-brief-introduction-to-research-design.html) |
 |                 | **Advanced:**  @Wickham2014 ([Download](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/772)) |
-| **Lectures**    | 1.0: Numbers and operations (17:48 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fd875a7f-f60c-43c6-a339-b26201193422)) |
-|                 | 1.1: Logarithms (6:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=39bc09e8-18a6-4521-8398-b26201191920))       |
-|                 | 1.2: Order of Operations (7:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=72ecf2fc-adb3-4ef3-b450-b2620118acff))     |
-|                 | 1.3: Tidy data (13:39 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e02a1f5a-53c4-4991-986a-b26201189ae9))  |
-|                 | 1.4: Data files (12:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d88edc55-1afb-4b57-b8d2-b26201188a61))    |
-| **Lecture**     | Introduction: 22 JAN 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lectures**    | Module introduction: MON 19 JAN 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | Tidy data and data files: WED 21 JAN 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | Preparing data ([Chapter 3](#Chapter_3))  |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 22 JAN 2025 (WED) 10:00-13:00 |
-|                 |   Group B: 23 JAN 2025 (THU) 15:00-18:00 |
+|                 |   Group A: 21 JAN 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 22 JAN 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Brad Duthie                     |
-|                 |   Room: Cottrell 2Y8           |
-|                 |   24 JAN 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 1 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40237) on Canvas  |
+|                 |   Room: Cottrell 1A11           |
+|                 |   23 JAN 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 1 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44193) on Canvas  |
 |                 |                                 |
 
 

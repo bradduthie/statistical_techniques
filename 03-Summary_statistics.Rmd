@@ -10,32 +10,21 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 03 February 2025 - 07 February 2025 |
+| **Dates**       | 02 February 2026 - 06 February 2026 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 9-12  |
 |                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
 |                 | **Suggested:** @Rowntree2018 Chapter 3 |
 |                 | **Advanced:** None
-| **Lectures**    | 3.0: Decimal places and significant figures part 1 (7:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=eb8cfc0b-84e2-4f0c-95fc-b262011d5348)) |
-|                 | 3.1: Decimal places and significant figures part 2 (7:08 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e13a4127-3667-4882-85da-b262011d2f07)) |
-|                 | 3.2: Graphs (10:29 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a8382c91-fc48-4d17-85b3-b262011d2187)) |
-|                 | 3.3: Box-whisker plots (8:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9d31a04f-807a-4a96-99ee-b262011d14d2)) |
-|                 | 3.4: The mean (16:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6b471ee8-22eb-4d9e-bb6b-b262011d0978)) |
-|                 | 3.5: The mode (6:54 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=923b77cf-5430-4753-8d51-b262011cff0d)) |
-|                 | 3.6: The median and quantiles (8:04 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=257b94c3-6c28-450e-8f8c-b262011cf7fa)) |
-|                 | 3.7: Mean, mode, median, and resistance (8:35 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f7c7c1c8-32ef-4c72-8ddd-b262011cef15)) |
-|                 | 3.8: The variance (9:40 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9b53f765-475b-49c6-9827-b262011cdd47)) |
-|                 | 3.9: The standard deviation (6:17  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=fe532cfc-bc3d-46a2-acc3-b262011cd4eb)) |
-|                 | 3.10: Other measures of spread (7:46  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a00741fe-22e1-4f77-a659-b262011ccb15)) |
-|                 | 3.11: Standard error (13:23  min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=1a4f15ff-2d3e-4da2-bd55-b262011cc039)) |
-| **Lecture**     | Careers session: 05 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lectures**    | Decimals, significant figures, and plots. MON 02 FEB 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | Central tendency and measures of spread. WED 04 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | Plotting and statistical summaries ([Chapter 14](#Chapter_14))       |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 05 FEB 2025 (WED) 10:00-13:00 |
-|                 |   Group B: 06 FEB 2025 (THU) 15:00-18:00 |
+|                 |   Group A: 04 FEB 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 05 FEB 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Brad Duthie                       |
-|                 |   Room: Cottrell 2Y8           |
-|                 |   07 FEB 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40223) on Canvas  |
+|                 |   Room: Cottrell 1A11           |
+|                 |   06 FEB 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 3 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44180) on Canvas  |
 
 Week 3 focuses on descriptive statistics, how to report them, interpret them, and communicate them with graphs.
 

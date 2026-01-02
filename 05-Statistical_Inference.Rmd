@@ -4,26 +4,22 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 17 February 2025 - 21 February 2025 |
+| **Dates**       | 16 February 2026 - 20 February 2026 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 17 and 18  |
 |                 | **Recommended:** None    |
 |                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
 |                 | **Advanced:** None |
-| **Lectures**    | 5.1: Some background for confidence intervals (6:36 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7384f6e2-a7b3-49d0-8930-b26201208d9e)) |
-|                 | 5.2: Recap of z-scores (10:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d254c039-bb4d-4e5a-8f53-b26201208653)) |
-|                 | 5.3: Confidence interval for the population mean (14:08 min [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=61c5fe40-0a4d-449d-a196-b26201207deb)) |
-|                 | 5.4: The t-interval (10:24 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c8b1d782-b6c1-487a-99c3-b26201206d8a)) |
-|                 | 5.5: Confidence interval for the population proportion (6:37 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9bf24de2-0ebd-4a93-b6ba-b26201206296)) |
-| **Lecture**     | Test Review: 19 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Confidence intervals. MON 16 FEB 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | z- and t-intervals. WED 18 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | z- and t- intervals ([Chapter 20](#Chapter_20))       |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 19 FEB 2025 (WED) 14:00-17:00 |
-|                 |   Group B: 20 FEB 2025 (THU) 15:05-18:00 |
+|                 |   Group A: 18 FEB 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 19 FEB 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Brad Duthie                       |
-|                 |   Room: Cottrell 2Y8            |
-|                 |   21 FEB 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40220) on Canvas  |
-|                 | [Test 1F](https://canvas.stir.ac.uk/courses/17581/quizzes/40240) on Canvas  (19 FEB 2025 at 11:00-13:00) |
+|                 |   Room: Cottrell 1A11            |
+|                 |   20 FEB 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 5 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44185) on Canvas  |
+|                 | [Test 1F](https://canvas.stir.ac.uk/courses/19303/quizzes/44177) on Canvas  (18 FEB 2026 at 15:00-17:00) |
 
 
 Week 5 focuses making statistical inferences using confidence intervals (CIs) and and introduces the t-interval.

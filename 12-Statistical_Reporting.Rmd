@@ -4,22 +4,21 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 07 April 2025 - 11 April 2025                            |
+| **Dates**       | 06 April 2026 - 10 April 2026                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapter 36              |
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  @Turbek2016 ([Download](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/bes2.1258))                                    |
 |                 | **Advanced:**   @Steidl1997 ([Download](https://www.jstor.org/stable/pdf/3802582.pdf?refreqid=excelsior%3A01cc2ff747e32275fde09721461a862c&ab_segments=&origin=&initiator=&acceptTC=1))                                    | 
-| **Lectures**    | 12.1: Reporting statistics (21:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=40454e25-abf8-4dd7-8dc0-b26201282fba))     |
-|                 | 12.2: Getting started with R (18:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=95d5bcc3-95a7-4b97-9afb-b26201282f91))                      |
-| **Lecture**     | Lecture: 09 APR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Reporting statistics. MON 06 APR 11:00-12:00 in Logie LT (desk, theatre, recording) |
+|                 | Statistical computing and simulation. WED 08 APR 09:00-10:00 in Cottrell LT A4 (desk, theatre, recording) |
 | **Practical**   | Statistical techniques in R ([Chapter 38](#Chapter_38)) |
 |                 | Room: Cottrell 2A15                                    |
-|                 | Group A: 09 APR 2025 (WED) 10:00-13:00                 |
-|                 | Group B: 10 APR 2025 (THU) 09:00-12:00                 |
+|                 | Group A: 08 APR 2026 (WED) 11:00-14:00                 |
+|                 | Group B: 09 APR 2026 (THU) 09:00-12:00                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 2Y8                                     |
-|                 | 11 APR 2025 (FRI) 14:00-16:00                          |
-| **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40233) on Canvas                     |
+|                 | Room: Cottrell 1A11                                    |
+|                 | 10 APR 2026 (FRI) 11:00-13:00                          |
+| **Assessments** | [Week 12 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44192) on Canvas                     |
 
 
 [Chapter 37](#Chapter_37) introduces statistical report and how to report the statistics that have been introduced in earlier chapters.

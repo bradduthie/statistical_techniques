@@ -9,19 +9,16 @@
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Spiegelhalter2019 (Chapter 5)              |
 |                 | **Advanced:**   @Morrissey2018 ([Download](https://quod.lib.umich.edu/cgi/t/text/text-idx?cc=ptpbio;c=ptb;c=ptpbio;idno=16039257.0010.003;view=text;rgn=main;xc=1;g=ptpbiog))                                    |
-| **Lectures**    | 10.1: Regression key concepts (15:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=837cfb1b-1064-4377-85c7-b2620126b731))     |
-|                 | 10.2: Regression validity (14:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=10a64a68-9d4d-48f5-9233-b2620126aede))                      |
-|                 | 10.3: Introduction to multiple regression (14:59 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cc872a00-81b0-48d1-b059-b2620126967c))                      |
-|                 | 10.4: Regression in jamovi (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=8a837992-de39-4018-b86a-b26201266fbd))                      |
-| **Lecture**     | Lecture: 26 MAR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Regression. MON 23 MAR 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | Multiple regression. WED 25 MAR 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | Using regression ([Chapter 34](#Chapter_34)) |
 |                 | Room: Cottrell 2A15                                    |
-|                 | Group A: 26 MAR 2025 (WED) 10:00-13:00                 |
-|                 | Group B: 27 MAR 2025 (THU) 15:00-18:00                 |
+|                 | Group A: 25 MAR 2026 (WED) 11:00-14:00                 |
+|                 | Group B: 26 MAR 2026 (THU) 09:00-12:00                 |
 | **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 2Y8                                     |
-|                 | 28 MAR 2025 (FRI) 14:00-16:00                          |
-| **Assessments** | [Week 10 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40219) on Canvas                     |
+|                 | Room: Cottrell 1A11                                    |
+|                 | 27 MAR 2026 (FRI) 11:00-13:00                          |
+| **Assessments** | [Week 10 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44186) on Canvas                     |
 
 Week 10 introduces linear regression and multiple regression.
 

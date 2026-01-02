@@ -10,25 +10,21 @@ output:
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 27 January 2025 - 31 January 2025 |
+| **Dates**       | 26 January 2026 - 301 January 2026 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 4-7  |
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Suggested:** @Rowntree2018 Chapter 2 |
 |                 | **Advanced:** None
-| **Lectures**    | 2.0: Why study statistics? (18:13 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=db80785e-2839-4872-ba79-b262011b6d67)) |
-|                 | 2.1: Populations and samples (6:47 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=9f00fc7d-a435-46c0-84a5-b262011b5573)) |
-|                 | 2.2: Types of variables (11:00 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f085a75c-c4d9-4f70-a5e4-b262011b4384)) |
-|                 | 2.3: Units, precision, and accuracy (9:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=67f1241d-dad2-4006-b3f0-b262011b33d3)) |
-|                 | 2.4: Uncertainty propagation (11:44 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ece6c7c8-cae4-4079-9ceb-b262011b339c)) |
-| **Lecture**     | Study skills: 29 JAN 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lectures**    | Why study statistics? MON 26 JAN 11:00-12:00 in Logie LT (desk, theatre, sldes) |
+|                 | Populations, variables, units, uncertainty. WED 28 JAN 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | Introduction to jamovi ([Chapter 8](#Chapter_8))        |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 29 JAN 2025 (WED) 10:00-13:00 |
-|                 |   Group B: 30 JAN 2025 (THU) 15:00-18:00 |
+|                 |   Group A: 28 JAN 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 29 JAN 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Brad Duthie                       |
-|                 |   Room: Cottrell 2Y8           |
-|                 |   31 JAN 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 2 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40234) on Canvas  |
+|                 |   Room: Cottrell 1A11           |
+|                 |   30 JAN 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 2 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44190) on Canvas  |
 
 
 Week 2 focuses on general statistical concepts, data, and measurement.

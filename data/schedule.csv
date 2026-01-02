@@ -1,48 +1,58 @@
-"Week","Date","Day","Time","Room","Lead","Session"
-1,"22 JAN","WED","09:00-10:00","C.LTB4","BD","Introduction"
-1,"22 JAN","WED","10:00-13:00","C.2A15","BD","Preparing data (A)"
-1,"23 JAN","THU","15:00-18:00","C.2A15","BD","Preparing data (B)"
-1,"24 JAN","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-2,"29 JAN","WED","09:00-10:00","C.LTB4","BD","Lecture"
-2,"29 JAN","WED","10:00-13:00","C.2A15","BD","Stats concepts (A)"
-2,"30 JAN","THU","15:00-18:00","C.2A15","BD","Stats concepts (B)"
-2,"31 JAN","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-3,"05 FEB","WED","09:00-10:00","C.LTB4","BD","Lecture"
-3,"05 FEB","WED","10:00-13:00","C.2A15","BD","Summary stats (A)"
-3,"06 FEB","THU","15:00-18:00","C.2A15","BD","Summary stats (B)"
-3,"07 FEB","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-4,"12 FEB","WED","09:00-10:00","C.LTB4","BD","Lecture"
-4,"12 FEB","WED","10:00-13:00","C.2A15","BD","Prob models (A)"
-4,"13 FEB","THU","15:00-18:00","C.2A15","BD","Prob models (B)"
-4,"14 FEB","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-5,"19 FEB","WED","09:00-10:00","C.LTB4","BD","Lecture"
-5,"19 FEB","WED","11:00-13:00","Online","BD","Test 1F"
-5,"19 FEB","WED","14:00-17:00","C.2A15","BD","Stats inference (A)"
-5,"20 FEB","THU","15:00-18:00","C.2A15","BD","Stats inference (B)"
-5,"21 FEB","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-6,"26 FEB","WED","09:00-10:00","C.LTB4","BD","Lecture"
-6,"26 FEB","WED","10:00-13:00","C.2A15","MQ","Hypo testing (A)"
-6,"27 FEB","THU","15:00-18:00","C.2A15","MQ","Hypo testing (B)"
-6,"28 FEB","FRI","14:00-16:00","C.2Y8","MQ","Help (optional)"
-8,"12 MAR","WED","09:00-10:00","C.LTB4","BD","Lecture"
-8,"12 MAR","WED","11:00-13:00","Online","BD","Test 1S"
-8,"12 MAR","WED","14:00-17:00","C.2A15","MQ","ANOVA (A)"
-8,"13 MAR","THU","15:00-18:00","C.2A15","MQ","ANOVA (B)"
-8,"14 MAR","FRI","14:00-16:00","C2A21","MQ","Help (optional)"
-9,"19 MAR","WED","09:00-10:00","C.LTB4","BD","Lecture"
-9,"19 MAR","WED","10:00-13:00","C.2A15","MQ","Counts (A)"
-9,"20 MAR","THU","15:00-18:00","C.2A15","MQ","Counts (B)"
-9,"21 MAR","FRI","14:00-16:00","C.2Y8","MQ","Help (optional)"
-10,"26 MAR","WED","09:00-10:00","C.LTB4","BD","Lecture"
-10,"26 MAR","WED","10:00-13:00","C.2A15","BD","Regression (A)"
-10,"27 MAR","THU","15:00-18:00","C.2A15","BD","Regression (B)"
-10,"28 MAR","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-11,"02 APR","WED","09:00-10:00","C.LTB4","BD","Lecture"
-11,"02 APR","WED","11:00-13:00","Online","BD","Test 2S"
-11,"02 APR","WED","14:00-17:00","C.2A15","BD","Randomisation (A)"
-11,"03 APR","THU","15:00-18:00","C.2A15","BD","Randomisation (B)"
-11,"04 APR","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
-12,"09 APR","WED","09:00-10:00","C.LTB4","BD","Lecture"
-12,"09 APR","WED","10:00-13:00","C.2A15","BD","Stats reporting (A)"
-12,"10 APR","THU","15:00-18:00","C.2A15","BD","Stats reporting (B)"
-12,"11 APR","FRI","14:00-16:00","C.2Y8","BD","Help (optional)"
+Week,Date,Day,Time,Room,Session
+1,19 JAN,MON,11:00-12:00,Logie,Lecture
+1,21 JAN,WED,09:00-10:00,C.LT.A4,Lecture
+1,21 JAN,WED,11:00-14:00,C.2A15,Practical (Group A)
+1,22 JAN,THU,09:00-12:00,C.2A15,Practical (Group B)
+1,23 JAN,FRI,11:00-13:00,C.1A11,Help session
+2,26 JAN,MON,11:00-12:00,Logie,Lecture
+2,28 JAN,WED,09:00-10:00,C.LT.A4,Lecture
+2,28 JAN,WED,11:00-14:00,C.2A15,Practical (Group A)
+2,29 JAN,THU,09:00-12:00,C.2A15,Practical (Group B)
+2,30 JAN,FRI,11:00-13:00,C.1A11,Help session
+3,02 FEB,MON,11:00-12:00,Logie,Lecture
+3,04 FEB,WED,09:00-10:00,C.LT.A4,Lecture
+3,04 FEB,WED,11:00-14:00,C.2A15,Practical (Group A)
+3,05 FEB,THU,09:00-12:00,C.2A15,Practical (Group B)
+3,06 FEB,FRI,11:00-13:00,C.1A11,Help session
+4,09 FEB,MON,11:00-12:00,Logie,Lecture
+4,11 FEB,WED,09:00-10:00,C.LT.A4,Lecture
+4,11 FEB,WED,11:00-14:00,C.2A15,Practical (Group A)
+4,12 FEB,THU,09:00-12:00,C.2A15,Practical (Group B)
+4,13 FEB,FRI,11:00-13:00,C.1A11,Help session
+5,16 FEB,MON,11:00-12:00,Logie,Lecture
+5,18 FEB,WED,09:00-10:00,C.LT.A4,Lecture
+5,18 FEB,WED,11:00-14:00,C.2A15,Practical (Group A)
+5,18 FEB,WED,15:00-17:00,Online,Test 1F
+5,19 FEB,THU,09:00-12:00,C.2A15,Practical (Group B)
+5,20 FEB,FRI,11:00-13:00,C.1A11,Help session
+6,23 FEB,MON,11:00-12:00,Logie,Lecture
+6,25 FEB,WED,09:00-10:00,C.LT.B4,Lecture
+6,25 FEB,WED,11:00-14:00,C.2A15,Practical (Group A)
+6,26 FEB,THU,09:00-12:00,C.2A15,Practical (Group B)
+6,27 FEB,FRI,11:00-13:00,C.1A11,Help session
+8,09 MAR,MON,11:00-12:00,Logie,Lecture
+8,11 MAR,WED,09:00-10:00,C.LT.A4,Lecture
+8,11 MAR,WED,11:00-14:00,C.2A15,Practical (Group A)
+8,11 MAR,WED,15:00-17:00,Online,Test 1S
+8,12 MAR,THU,09:00-12:00,C.2A15,Practical (Group B)
+8,13 MAR,FRI,11:00-13:00,C.1A11,Help session
+9,16 MAR,MON,11:00-12:00,Logie,Lecture
+9,18 MAR,WED,09:00-10:00,C.LT.A4,Lecture
+9,18 MAR,WED,11:00-14:00,C.1A11,Practical (Group A)
+9,19 MAR,THU,09:00-12:00,C.2A15,Practical (Group B)
+9,20 MAR,FRI,11:00-13:00,C.1A11,Help session
+10,23 MAR,MON,11:00-12:00,Logie,Lecture
+10,25 MAR,WED,09:00-10:00,C.LT.A4,Lecture
+10,25 MAR,WED,11:00-14:00,C.2A15,Practical (Group A)
+10,26 MAR,THU,09:00-12:00,C.2A15,Practical (Group B)
+10,27 MAR,FRI,11:00-13:00,C.1A11,Help session
+11,30 MAR,MON,11:00-12:00,Logie,Lecture
+11,01 APR,WED,09:00-10:00,C.LT.A4,Lecture
+11,01 APR,WED,11:00-14:00,C.2A15,Practical (Group A)
+11,01 APR,WED,15:00-17:00,Online,Test 2S
+11,02 APR,THU,09:00-12:00,C.2A15,Practical (Group B)
+12,06 APR,MON,11:00-12:00,Logie,Lecture
+12,08 APR,WED,09:00-10:00,C.LT.A4,Lecture
+12,08 APR,WED,11:00-14:00,C.2A15,Practical (Group A)
+12,09 APR,THU,09:00-12:00,C.2A15,Practical (Group B)
+12,10 APR,FRI,11:00-13:00,C.1A11,Help session

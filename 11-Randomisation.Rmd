@@ -4,25 +4,19 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 31 March 2025 - 04 April 2025                            |
+| **Dates**       | 30 March 2026 - 03 April 2026                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapter 34              |
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  None                                    |
 |                 | **Advanced:**   @Ernst2004 ([Download](https://projecteuclid.org/journals/statistical-science/volume-19/issue-4/Permutation-Methods-A-Basis-for-Exact-Inference/10.1214/088342304000000396.full))                                    |
-| **Lectures**    | 11.1: Introduction to randomisation (18:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=e2d2d100-518c-4fda-8fe4-b26201278528))     |
-|                 | 11.2: Assumptions of randomisation (11:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=00364ac4-209d-47cd-a8ec-b262012784c8))                      |
-|                 | 11.3: Bootstrapping (11:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f129dc24-222e-4052-8f98-b26201278552))                      |
-|                 | 11.4: Monte Carlo (min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=274df15b-743b-4f8b-950e-b26201278491))                      |
-| **Lecture**     | Test Review: 02 APR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Randomisation. MON 30 MAR 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | Test review session. WED 01 APR 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | Using R ([Chapter 36](#Chapter_36)) |
 |                 | Room: Cottrell 2A15                                    |
-|                 | Group A: 02 APR 2025 (WED) 14:00-17:00                 |
-|                 | Group B: 03 APR 2025 (THU) 15:00-18:00                 |
-| **Help hours**  |  Brad Duthie                                           |
-|                 | Room: Cottrell 2Y8                                     |
-|                 | 04 APR 2025 (FRI) 14:00-16:00                          |
-| **Assessments** | [Week 11 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40235) on Canvas                     |
-|                 | [Test 2S](https://canvas.stir.ac.uk/courses/17581/quizzes/40242) on Canvas (02 APR 2025 at 11:00-13:00)  |
+|                 | Group A: 01 APR 2026 (WED) 11:00-14:00                 |
+|                 | Group B: 02 APR 2026 (THU) 09:00-12:00                 |
+| **Assessments** | [Week 11 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44194) on Canvas                     |
+|                 | [Test 2S](https://canvas.stir.ac.uk/courses/19303/quizzes/44191) on Canvas (01 APR 2026 at 15:00-17:00)  |
 
 
 Week 11 introduces randomisation approaches and the R programming language.

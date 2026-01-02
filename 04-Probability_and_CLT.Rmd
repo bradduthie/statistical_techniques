@@ -4,31 +4,21 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 10 February 2025 - 14 February 2025 |
+| **Dates**       | 10 February 2026 - 14 February 2026 |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 14 and 15  |
 |                 | **Recommended:** @Navarro2022 [Chapter 7](https://davidfoxcroft.github.io/lsj-book/07-Introduction-to-probability.html)    |
 |                 | **Suggested:**  @Rowntree2018 Chapter 4 |
 |                 | **Advanced:** None                      |
-| **Lectures**    | 4.1: What is probability? (16:07 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=54b95a45-bb1d-45b1-964b-b262011f323d)) |
-|                 | 4.2: Adding and multiplying probabilities (16:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=37a31ba1-9320-4db8-81a5-b262011f1eb5)) |
-|                 | 4.3: Probability distributions (15:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=709e6212-651e-4101-8e86-b262011f1058)) |
-|                 | 4.4: The normal distribution (15:15 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=707e2cf1-ad1e-48bd-b304-b262011ef037)) |
-|                 | 4.5: z-scores (5:12 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6161ed17-c35f-41dd-8628-b262011f05ed)) |
-|                 | 4.6: Examples using z-scores (13:22 min;  [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=48167607-5e7e-4a04-a2ba-b262011ee9de)) |
-|                 | 4.7: More examples using z-scores (9:52 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=adb383ad-7a42-4211-bb6a-b262011edaac))  |
-|                 | 4.8: The binomial distribution (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6461e8a9-f362-406f-80f9-b262011ecda5)) |
-|                 | 4.9: The Poisson distribution (12:57 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=27ce4639-84ba-4a25-8df5-b262011ea5ef)) |
-|                 | 4.10: The central limit theorem (5:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4c3d8bb9-0268-46e7-9c37-b262011eb56e)) |
-|                 | 4.11: z-score tables (14:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=802680d5-6465-4d68-b53c-b262011e9382)) |
-| **Lecture**     | Lecture: 12 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Probability and distributions. MON 09 FEB 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | The Central Limit Theorem (CLT). WED 11 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides)  |
 | **Practical**   | Probability and simulation ([Chapter 17](#Chapter_17))       |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 12 FEB 2025 (WED) 10:00-13:00 |
-|                 |   Group B: 13 FEB 2025 (THU) 15:00-18:00 |
+|                 |   Group A: 11 FEB 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 12 FEB 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Brad Duthie                      |
-|                 |   Room: Cottrell 2Y8             |
-|                 |   14 FEB 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40224) on Canvas  |
+|                 |   Room: Cottrell 1A11             |
+|                 |   13 FEB 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 4 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44187) on Canvas  |
 
 Week 4 focuses on probability and the central limit theorem.
 

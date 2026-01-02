@@ -4,28 +4,21 @@
 
 |                 |                                   |
 |-----------------|-----------------------------------|
-| **Dates**       | 24 February 2025 - 28 February 2025 |
+| **Dates**       | 23 February 2026 - 27 February 2026 |
 | **Reading**     | **Required:**  SCIU4T4 Workbook chapters 20 and 21  |
 |                 | **Recommended:** @Navarro2022 [Chapter 11](https://davidfoxcroft.github.io/lsj-book/11-Comparing-two-means.html)    |
 |                 | **Suggested:** None     |
 |                 | **Advanced:** @Johnson1995 ([Download](https://www.jstor.org/stable/pdf/1940733.pdf?casa_token=ly4fpXKZzCkAAAAA:-bgUBEe9rv_HT1IstfrbzwDlhSaUFH6nTCSxCrJqXxQa6FS2hb2sGmc38RUQaTEaPT_NnKqgxyaEnZdisEhz2sddHOEonjLWqptny7_N54qrlgZSaeES)) |
-| **Lectures**    | 6.1: What is hypothesis testing? (11:18 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a3ea5e19-079a-47ac-ad08-b262012214f6)) |
-|                 | 6.2: Making and using hypotheses (10:32 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ae892c4d-dd42-49a7-9ab8-b262012207f7)) |
-|                 | 6.3: The example of the right-handed European toad (16:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=2a75181f-9845-4ecf-95c7-b2620121f42d)) |
-|                 | 6.4: Errors, hypothesis testing and CI intervals (16:43 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=68f1c878-8823-4caa-95eb-b2620121de3c)) |
-|                 | 6.5: Student's t-distribution and 1 sample t-test (13:31 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=68f1c878-8823-4caa-95eb-b2620121de3c)) |
-|                 | 6.6: Independent and paired samples t-tests (18:21 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=f0fbe9f4-fac4-4831-a84b-b2620121ce99)) |
-|                 | 6.7: Handling violations of assumptions (7:50 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7b2ad06d-0d7c-4d26-bbf4-b2620121c26c)) |
-|                 | 6.8: Non-parametric tests (13:30 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bc983725-2160-4b9e-872d-b2620121b566)) |
-| **Lecture**     | Lecture: 26 FEB 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Hypothesis testing. MON 23 FEB 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | T-test and non-parametric equivalents. WED 25 FEB 09:00-10:00 in Cottrell LT B4 (desk, theatre, slides) |
 | **Practical**   | Hypothesis testing and t-tests ([Chapter 23](#Chapter_23))       |
 |                 |   Room: Cottrell 2A15         |
-|                 |   Group A: 26 FEB 2025 (WED) 10:00-13:00 |
-|                 |   Group B: 27 FEB 2025 (THU) 15:00-18:00 |
+|                 |   Group A: 25 FEB 2026 (WED) 11:00-14:00 |
+|                 |   Group B: 26 FEB 2026 (THU) 09:00-12:00 |
 | **Help hours**  | Martina Quaggiotto                       |
-|                 |   Room: Cottrell 2Y8           |
-|                 |   28 FEB 2025 (FRI) 14:00-16:00 |
-| **Assessments** | [Week 6 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40231) on Canvas  |
+|                 |   Room: Cottrell 1A11           |
+|                 |   27 FEB 2026 (FRI) 11:00-13:00 |
+| **Assessments** | [Week 6 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44178) on Canvas  |
 
 
 Week 6 introduces hypothesis testing, and how to use and interpret statistical tests that test whether or not the mean (or median) of a dataset is significantly different from some specific value, or whether two different groups in a dataset have the same mean (or median).

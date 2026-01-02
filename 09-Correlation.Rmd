@@ -4,26 +4,21 @@
 
 |                 |                                                        |
 |-----------------|--------------------------------------------------------|
-| **Dates**       | 17 March 2025 - 21 MAR 2025                            |
+| **Dates**       | 16 March 2026 - 20 MAR 2026                            |
 | **Reading**     | **Required:** SCIU4T4 Workbook chapters 28 and 29      |
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Rowntree2018 (Chapter 8)              |
 |                 | **Advanced:**   @Rodgers1988 ([Download](https://www.stat.berkeley.edu/~rabbee/correlation.pdf))                                    |
-| **Lectures**    | 9.1: Frequency and count data (13:19 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c1d88524-703a-4d9c-8acf-b262012515d7))     |
-|                 | 9.2: Chi-squared goodness of fit test (16:34 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=22a0833e-5130-4f4c-a3e7-b2620124ff48))                      |
-|                 | 9.3: Chi-squared test of association (16:03 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0d02d907-1297-4535-86e7-b2620124fdf0))     |
-|                 | 9.4: Correlation key concepts (7:02 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a06d2f8d-cd32-400c-8192-b2620124f5ba))     |
-|                 | 9.5: Correlation underlying mathematics (12:06 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0ea2d074-65b6-4121-a4a4-b2620124f480))                        |
-|                 | 9.6: Correlation hypothesis testing (27:28 min; [Video](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=59cf95e3-8473-47cf-ad30-b26201246367))                        |
-| **Lecture**     | Lecture: 19 MAR 2025 (WED) 09:00-10:00 Cottrell LT B4 |
+| **Lecture**     | Chi-square tests. MON 16 MAR 11:00-12:00 in Logie LT (desk, theatre, slides) |
+|                 | Correlation. WED 18 MAR 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
 | **Practical**   | Analysis of counts and correlations ([Chapter 31](#Chapter_31)) |
-|                 | Room: Cottrell 2A15                                    |
-|                 | Group A: 19 MAR 2025 (WED) 10:00-13:00                 |
-|                 | Group B: 20 MAR 2025 (THU) 15:00-18:00                 |
+|                 | Room: Cottrell 1A11 (Group A) and 2A15 (Group B)       |
+|                 | Group A: 18 MAR 2026 (WED) 11:00-14:00                 |
+|                 | Group B: 19 MAR 2026 (THU) 09:00-12:00                 |
 | **Help hours**  | Martina Quaggiotto and Brad Duthie                     |
-|                 | Room: Cottrell 2Y8                                     |
-|                 | 21 MAR 2025 (FRI) 14:00-16:00                          |
-| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/17581/quizzes/40228) on Canvas                     |
+|                 | Room: Cottrell 1A11                                     |
+|                 | 20 MAR 2026 (FRI) 11:00-13:00                          |
+| **Assessments** | [Week 9 Practice quiz](https://canvas.stir.ac.uk/courses/19303/quizzes/44184) on Canvas                     |
 
 
 Week 9 introduces count data and correlations, and how to interpret scatterplots.
