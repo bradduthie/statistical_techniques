@@ -331,10 +331,10 @@ This book was entirely written in R using software called "Rmarkdown" and "[Pand
 
 ## Timetable {-#timetable}
 
-```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2025."}
+```{r, echo = FALSE, fig.cap = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2026."}
 schedule <- read.csv("data/schedule.csv");
 knitr::kable(schedule, format = "simple", table.envir = "table",
-             caption = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2025.");
+             caption = "Dates, times, and locations of all synchronous activities in Statistical Techniques for Spring 2026.");
 ```
 
 
