@@ -15,8 +15,8 @@ output:
 |                 | **Recommended:** @Navarro2022 [Section 3.3](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#the-spreadsheet)-[3.9](https://davidfoxcroft.github.io/lsj-book/getting-started-with-jamovi.html#summary-1) |
 |                 | **Suggested:** @Rowntree2018 Chapter 2 |
 |                 | **Advanced:** None
-| **Lectures**    | Why study statistics? MON 26 JAN 11:00-12:00 in Logie LT (desk, theatre, sldes) |
-|                 | Populations, variables, units, uncertainty. WED 28 JAN 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
+| **Lectures**    | Why study statistics? MON 26 JAN 11:00-12:00 in Logie LT (desk, theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_2A.pdf)) |
+|                 | Populations, variables, units, uncertainty. WED 28 JAN 09:00-10:00 in Cottrell LT A4 (desk, theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_2B.pdf)) |
 | **Practical**   | Introduction to jamovi ([Chapter 8](#Chapter_8))        |
 |                 |   Room: Cottrell 2A15         |
 |                 |   Group A: 28 JAN 2026 (WED) 11:00-14:00 |

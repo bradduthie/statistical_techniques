@@ -15,8 +15,8 @@ output:
 |                 | **Recommended:** None
 |                 | **Suggested:** @Navarro2022 [Section 2.1](https://davidfoxcroft.github.io/lsj-book/02-A-brief-introduction-to-research-design.html) |
 |                 | **Advanced:**  @Wickham2014 ([Download](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/772)) |
-| **Lectures**    | Module introduction: MON 19 JAN 11:00-12:00 in Logie LT (desk, theatre, slides) |
-|                 | Tidy data and data files: WED 21 JAN 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
+| **Lectures**    | Module introduction: MON 19 JAN 11:00-12:00 in Logie LT ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=bf9d7678-b4df-4e34-b69f-b3d6013d4450), theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_1A.pdf)) |
+|                 | Tidy data and data files: WED 21 JAN 09:00-10:00 in Cottrell LT A4 ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=05893cd8-7385-4adf-89e7-b3d9000696ee), [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ef26e237-78b1-4564-8510-b3d900eb74d6), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_1B.pdf)) |
 | **Practical**   | Preparing data ([Chapter 3](#Chapter_3))  |
 |                 |   Room: Cottrell 2A15         |
 |                 |   Group A: 21 JAN 2026 (WED) 11:00-14:00 |
