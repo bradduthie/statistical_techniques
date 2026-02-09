@@ -15,8 +15,8 @@ output:
 |                 | **Recommended:** @Navarro2022 [Chapter 5](https://davidfoxcroft.github.io/lsj-book/05-Drawing-graphs.html) and [Chapter 4.1](https://davidfoxcroft.github.io/lsj-book/04-Descriptive-statistics.html#measures-of-central-tendency) |
 |                 | **Suggested:** @Rowntree2018 Chapter 3 |
 |                 | **Advanced:** None
-| **Lectures**    | Decimals, significant figures, and plots. MON 02 FEB 11:00-12:00 in Logie LT ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=19e90ee9-c7c2-455a-8945-b3e4016fe30c), theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_3A.pdf)) |
-|                 | Central tendency and measures of spread. WED 04 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_3B.pdf)) |
+| **Lectures**    | Decimals, significant figures, and plots. MON 02 FEB 11:00-12:00 in Logie LT ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=19e90ee9-c7c2-455a-8945-b3e4016fe30c), [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=ff016472-7818-4ebe-b2f7-b3e500da00ee), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_3A.pdf)) |
+|                 | Central tendency and measures of spread. WED 04 FEB 09:00-10:00 in Cottrell LT A4 ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c40bca0e-c337-4af7-87e1-b3e70186a0f2), [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=abe76249-e945-4436-b1b8-b3e700942f68), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_3B.pdf)) |
 | **Practical**   | Plotting and statistical summaries ([Chapter 14](#Chapter_14))       |
 |                 |   Room: Cottrell 2A15         |
 |                 |   Group A: 04 FEB 2026 (WED) 11:00-14:00 |
