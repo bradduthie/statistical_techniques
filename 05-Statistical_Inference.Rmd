@@ -9,8 +9,8 @@
 |                 | **Recommended:** None    |
 |                 | **Suggested:**   @Fedor-Freybergh2006 ([Download](http://portal.fmed.uniba.sk/download.php?fid=280)) |
 |                 | **Advanced:** None |
-| **Lecture**     | Confidence intervals. MON 16 FEB 11:00-12:00 in Logie LT (desk, theatre, slides) |
-|                 | z- and t-intervals. WED 18 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
+| **Lecture**     | Confidence intervals. MON 16 FEB 11:00-12:00 in Logie LT (desk, [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a5071c82-e095-4002-8ca5-b3f400f227c1), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_5A.pdf)) |
+|                 | z- and t-intervals. WED 18 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_5B.pdf)) |
 | **Practical**   | z- and t- intervals ([Chapter 20](#Chapter_20))       |
 |                 |   Room: Cottrell 2A15         |
 |                 |   Group A: 18 FEB 2026 (WED) 11:00-14:00 |

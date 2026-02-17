@@ -10,7 +10,7 @@
 |                 | **Suggested:**  @Rowntree2018 Chapter 4 |
 |                 | **Advanced:** None                      |
 | **Lecture**     | Probability and distributions. MON 09 FEB 11:00-12:00 in Logie LT ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=d5283841-509f-46c4-a0ba-b3ec0002e525), theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_4A.pdf))) |
-|                 | The Central Limit Theorem (CLT). WED 11 FEB 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides)  |
+|                 | The Central Limit Theorem (CLT). WED 11 FEB 09:00-10:00 in Cottrell LT A4 (desk, [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=cbfca73f-0bf8-46ba-ba4a-b3ef014a9444), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_4B.pdf))  |
 | **Practical**   | Probability and simulation ([Chapter 17](#Chapter_17))       |
 |                 |   Room: Cottrell 2A15         |
 |                 |   Group A: 11 FEB 2026 (WED) 11:00-14:00 |
