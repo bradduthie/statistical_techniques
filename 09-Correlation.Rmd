@@ -10,7 +10,7 @@
 |                 | **Suggested:**  @Rowntree2018 (Chapter 8)              |
 |                 | **Advanced:**   @Rodgers1988 ([Download](https://www.stat.berkeley.edu/~rabbee/correlation.pdf))                                    |
 | **Lecture**     | Chi-square tests. MON 16 MAR 11:00-12:00 in Logie LT (desk, theatre, slides) |
-|                 | Correlation. WED 18 MAR 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
+|                 | Correlation. WED 18 MAR 09:00-10:00 in Cottrell LT A4 ([desk](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c0e84d4b-f1ab-428b-88b3-b41400f51f51), [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=55717186-323d-4c9c-9eb6-b41400dfadd9), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_9B.pdf)) |
 | **Practical**   | Analysis of counts and correlations ([Chapter 31](#Chapter_31)) |
 |                 | Room: Cottrell 1A11 (Group A) and 2A15 (Group B)       |
 |                 | Group A: 18 MAR 2026 (WED) 11:00-14:00                 |
@@ -1006,7 +1006,7 @@ We could do the same for a $\chi^{2}$ test of association, although it would be 
 To test for an association between radiation and survival, as we did at the end of Exercise 31.3, we would need three columns and eight rows of data (Table 31.2).
 
 ```{r, echo = FALSE}
-Survived  <- rep(c("No", "Yes"), times = 4);
+Survived  <- c(rep("No", times = 4), rep("Yes", times = 4));
 Radiation <- rep(c("None", "Low", "Medium", "High"), times = 2);
 Count     <- c(12, 52, 29, 35, 39, 25, 37, 27);
 assoc_tab <- data.frame(Survived, Radiation, Count);

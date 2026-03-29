@@ -9,8 +9,8 @@
 |                 | **Recommended:**  @Navarro2022 ([Chapter 12.1 and 12.2](https://davidfoxcroft.github.io/lsj-book/12-Correlation-and-linear-regression.html))                                     |
 |                 | **Suggested:**  @Spiegelhalter2019 (Chapter 5)              |
 |                 | **Advanced:**   @Morrissey2018 ([Download](https://quod.lib.umich.edu/cgi/t/text/text-idx?cc=ptpbio;c=ptb;c=ptpbio;idno=16039257.0010.003;view=text;rgn=main;xc=1;g=ptpbiog))                                    |
-| **Lecture**     | Regression. MON 23 MAR 11:00-12:00 in Logie LT (desk, theatre, slides) |
-|                 | Multiple regression. WED 25 MAR 09:00-10:00 in Cottrell LT A4 (desk, theatre, slides) |
+| **Lecture**     | Regression. MON 23 MAR 11:00-12:00 in Logie LT (desk, [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=7e999ffa-7345-4826-a1a8-b4160136714c), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_10A.pdf)) |
+|                 | Multiple regression. WED 25 MAR 09:00-10:00 in Cottrell LT A4 (desk, [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=463e91e0-4997-4f7e-951b-b419013872c7), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_10B.pdf)) |
 | **Practical**   | Using regression ([Chapter 34](#Chapter_34)) |
 |                 | Room: Cottrell 2A15                                    |
 |                 | Group A: 25 MAR 2026 (WED) 11:00-14:00                 |
