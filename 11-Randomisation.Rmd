@@ -9,8 +9,8 @@
 |                 | **Recommended:**  None                                 |
 |                 | **Suggested:**  None                                    |
 |                 | **Advanced:**   @Ernst2004 ([Download](https://projecteuclid.org/journals/statistical-science/volume-19/issue-4/Permutation-Methods-A-Basis-for-Exact-Inference/10.1214/088342304000000396.full))                                    |
-| **Lecture**     | Randomisation. MON 30 MAR 11:00-12:00 in Logie LT (desk, theatre, [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_11A.pdf)) |
-|                 | Test review session. WED 01 APR 09:00-10:00 in Cottrell LT A4 (desk, theatre) |
+| **Lecture**     | Randomisation. MON 30 MAR 11:00-12:00 in Logie LT (desk, [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=04a29ad8-69e1-45b4-815f-b41e010b0b6d), [slides](https://bradduthie.github.io/lectures/SCIU4T4_Lecture_11A.pdf)) |
+|                 | Test review session. WED 01 APR 09:00-10:00 in Cottrell LT A4 (desk, [theatre](https://stirling.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=da19fc31-6869-4e21-bf98-b41f00a04925)) |
 | **Practical**   | Using R ([Chapter 36](#Chapter_36)) |
 |                 | Room: Cottrell 2A15                                    |
 |                 | Group A: 01 APR 2026 (WED) 11:00-14:00                 |
